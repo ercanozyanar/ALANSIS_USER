@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANAR2021DataSet2" targetNamespace="http://tempuri.org/ALANAR2021DataSet2.xsd" xmlns:mstns="http://tempuri.org/ALANAR2021DataSet2.xsd" xmlns="http://tempuri.org/ALANAR2021DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANAR2021ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANAR2021ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANAR2021ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_YARDIMCIMALZEMETableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_YARDIMCIMALZEMETableAdapter" Name="EO_ALANSIS_YARDIMCIMALZEME" UserDataComponentName="EO_ALANSIS_YARDIMCIMALZEMETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_YARDIMCIMALZEME" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_YARDIMCIMALZEME</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANAR2021DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANAR2021DataSet2" msprop:Generator_UserDSName="ALANAR2021DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_YARDIMCIMALZEME" msprop:Generator_TableClassName="EO_ALANSIS_YARDIMCIMALZEMEDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_YARDIMCIMALZEME" msprop:Generator_TablePropName="EO_ALANSIS_YARDIMCIMALZEME" msprop:Generator_RowDeletingName="EO_ALANSIS_YARDIMCIMALZEMERowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_YARDIMCIMALZEMERowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_YARDIMCIMALZEMERowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_YARDIMCIMALZEMERowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_YARDIMCIMALZEME" msprop:Generator_RowChangedName="EO_ALANSIS_YARDIMCIMALZEMERowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_YARDIMCIMALZEMERowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_YARDIMCIMALZEMERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_YARDIMCIMALZEME" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

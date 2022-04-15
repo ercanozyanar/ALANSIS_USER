@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANAR2021DataSet1" targetNamespace="http://tempuri.org/ALANAR2021DataSet1.xsd" xmlns:mstns="http://tempuri.org/ALANAR2021DataSet1.xsd" xmlns="http://tempuri.org/ALANAR2021DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANAR2021ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANAR2021ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANAR2021ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_CARYYBAGTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_CARYYBAGTIPITableAdapter" Name="EO_ALANSIS_CARYYBAGTIPI" UserDataComponentName="EO_ALANSIS_CARYYBAGTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_CARYYBAGTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_CARYYBAGTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_EBATETIKETTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_EBATETIKETTIPITableAdapter" Name="EO_ALANSIS_EBATETIKETTIPI" UserDataComponentName="EO_ALANSIS_EBATETIKETTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_EBATETIKETTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_EBATETIKETTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KASATIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KASATIPITableAdapter" Name="EO_ALANSIS_KASATIPI" UserDataComponentName="EO_ALANSIS_KASATIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_KASATIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_KASATIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KLIPSTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KLIPSTIPITableAdapter" Name="EO_ALANSIS_KLIPSTIPI" UserDataComponentName="EO_ALANSIS_KLIPSTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_KLIPSTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_KLIPSTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KOSEBENTTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KOSEBENTTIPITableAdapter" Name="EO_ALANSIS_KOSEBENTTIPI" UserDataComponentName="EO_ALANSIS_KOSEBENTTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_KOSEBENTTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_KOSEBENTTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KUTUETIKETTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KUTUETIKETTIPITableAdapter" Name="EO_ALANSIS_KUTUETIKETTIPI" UserDataComponentName="EO_ALANSIS_KUTUETIKETTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_KUTUETIKETTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_KUTUETIKETTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KUTUTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KUTUTIPITableAdapter" Name="EO_ALANSIS_KUTUTIPI" UserDataComponentName="EO_ALANSIS_KUTUTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_KUTUTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_KUTUTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_NEMBEZITIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_NEMBEZITIPITableAdapter" Name="EO_ALANSIS_NEMBEZITIPI" UserDataComponentName="EO_ALANSIS_NEMBEZITIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_NEMBEZITIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_NEMBEZITIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_PALETTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_PALETTIPITableAdapter" Name="EO_ALANSIS_PALETTIPI" UserDataComponentName="EO_ALANSIS_PALETTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_PALETTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_PALETTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_PALETTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_PALETTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_POSETTIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_POSETTIPITableAdapter" Name="EO_ALANSIS_POSETTIPI" UserDataComponentName="EO_ALANSIS_POSETTIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_POSETTIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_POSETTIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_SABKATIPITableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_SABKATIPITableAdapter" Name="EO_ALANSIS_SABKATIPI" UserDataComponentName="EO_ALANSIS_SABKATIPITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANAR2021ConnectionString (MySettings)" DbObjectName="ALANAR2021.dbo.EO_ALANSIS_SABKATIPI" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_KODU, STOK_ADI FROM dbo.EO_ALANSIS_SABKATIPI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANAR2021DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANAR2021DataSet1" msprop:Generator_UserDSName="ALANAR2021DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_CARYYBAGTIPI" msprop:Generator_TableClassName="EO_ALANSIS_CARYYBAGTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_CARYYBAGTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_CARYYBAGTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_CARYYBAGTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_CARYYBAGTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_CARYYBAGTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_CARYYBAGTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_CARYYBAGTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_CARYYBAGTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_CARYYBAGTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_CARYYBAGTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_EBATETIKETTIPI" msprop:Generator_TableClassName="EO_ALANSIS_EBATETIKETTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_EBATETIKETTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_EBATETIKETTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_EBATETIKETTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_EBATETIKETTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_EBATETIKETTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_EBATETIKETTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_EBATETIKETTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_EBATETIKETTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_EBATETIKETTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_EBATETIKETTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KASATIPI" msprop:Generator_TableClassName="EO_ALANSIS_KASATIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KASATIPI" msprop:Generator_RowChangedName="EO_ALANSIS_KASATIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_KASATIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_KASATIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KASATIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KASATIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KASATIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_KASATIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_KASATIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_KASATIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KLIPSTIPI" msprop:Generator_TableClassName="EO_ALANSIS_KLIPSTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KLIPSTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_KLIPSTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_KLIPSTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_KLIPSTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KLIPSTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KLIPSTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KLIPSTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_KLIPSTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_KLIPSTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_KLIPSTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KOSEBENTTIPI" msprop:Generator_TableClassName="EO_ALANSIS_KOSEBENTTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KOSEBENTTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_KOSEBENTTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_KOSEBENTTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_KOSEBENTTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KOSEBENTTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KOSEBENTTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KOSEBENTTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_KOSEBENTTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_KOSEBENTTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_KOSEBENTTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KUTUETIKETTIPI" msprop:Generator_TableClassName="EO_ALANSIS_KUTUETIKETTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KUTUETIKETTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_KUTUETIKETTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_KUTUETIKETTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_KUTUETIKETTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KUTUETIKETTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KUTUETIKETTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KUTUETIKETTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_KUTUETIKETTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_KUTUETIKETTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_KUTUETIKETTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KUTUTIPI" msprop:Generator_TableClassName="EO_ALANSIS_KUTUTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KUTUTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_KUTUTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_KUTUTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_KUTUTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KUTUTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KUTUTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KUTUTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_KUTUTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_KUTUTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_KUTUTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_NEMBEZITIPI" msprop:Generator_TableClassName="EO_ALANSIS_NEMBEZITIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_NEMBEZITIPI" msprop:Generator_RowChangedName="EO_ALANSIS_NEMBEZITIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_NEMBEZITIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_NEMBEZITIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_NEMBEZITIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_NEMBEZITIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_NEMBEZITIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_NEMBEZITIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_NEMBEZITIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_NEMBEZITIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_PALETTIPI" msprop:Generator_TableClassName="EO_ALANSIS_PALETTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_PALETTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_PALETTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_PALETTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_PALETTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_PALETTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_PALETTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_PALETTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_PALETTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_PALETTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_PALETTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_POSETTIPI" msprop:Generator_TableClassName="EO_ALANSIS_POSETTIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_POSETTIPI" msprop:Generator_RowChangedName="EO_ALANSIS_POSETTIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_POSETTIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_POSETTIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_POSETTIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_POSETTIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_POSETTIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_POSETTIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_POSETTIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_POSETTIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_SABKATIPI" msprop:Generator_TableClassName="EO_ALANSIS_SABKATIPIDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_SABKATIPI" msprop:Generator_RowChangedName="EO_ALANSIS_SABKATIPIRowChanged" msprop:Generator_TablePropName="EO_ALANSIS_SABKATIPI" msprop:Generator_RowDeletingName="EO_ALANSIS_SABKATIPIRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_SABKATIPIRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_SABKATIPIRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_SABKATIPIRowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_SABKATIPIRow" msprop:Generator_UserTableName="EO_ALANSIS_SABKATIPI" msprop:Generator_RowEvArgName="EO_ALANSIS_SABKATIPIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_CARYYBAGTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_EBATETIKETTIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_EBATETIKETTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_KASATIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_KASATIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_KLIPSTIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_KLIPSTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_KOSEBENTTIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_KOSEBENTTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_KUTUETIKETTIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_KUTUETIKETTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_KUTUTIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_KUTUTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_NEMBEZITIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_NEMBEZITIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_PALETTIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_PALETTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_POSETTIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_POSETTIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+    <xs:unique name="EO_ALANSIS_SABKATIPI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EO_ALANSIS_SABKATIPI" />
+      <xs:field xpath="mstns:STOK_KODU" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

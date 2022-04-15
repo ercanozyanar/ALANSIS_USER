@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet6" targetNamespace="http://tempuri.org/ALANSISDataSet6.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet6.xsd" xmlns="http://tempuri.org/ALANSISDataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMTableAdapter" Name="EO_ALANSIS_SEVKIYAT_GUNCELDURUM" UserDataComponentName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_SEVKIYAT_GUNCELDURUM" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MUSTERI, POS_NO, TESLIM_ULKE, NAKLIYECI, PLANLANAN_YUKLEME_TARIHI, YUKLEME_TARIHI, GERCEKLESEN_TESLIM_TARIHI, TESLIM_GECIKME_DURUMU, TESLIM_ADRESINE_VARIS_TARIHI, TRANSIT_SURE_GUN FROM dbo.EO_ALANSIS_SEVKIYAT_GUNCELDURUM</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MUSTERI" DataSetColumn="MUSTERI" />
+              <Mapping SourceColumn="POS_NO" DataSetColumn="POS_NO" />
+              <Mapping SourceColumn="TESLIM_ULKE" DataSetColumn="TESLIM_ULKE" />
+              <Mapping SourceColumn="NAKLIYECI" DataSetColumn="NAKLIYECI" />
+              <Mapping SourceColumn="PLANLANAN_YUKLEME_TARIHI" DataSetColumn="PLANLANAN_YUKLEME_TARIHI" />
+              <Mapping SourceColumn="YUKLEME_TARIHI" DataSetColumn="YUKLEME_TARIHI" />
+              <Mapping SourceColumn="GERCEKLESEN_TESLIM_TARIHI" DataSetColumn="GERCEKLESEN_TESLIM_TARIHI" />
+              <Mapping SourceColumn="TESLIM_GECIKME_DURUMU" DataSetColumn="TESLIM_GECIKME_DURUMU" />
+              <Mapping SourceColumn="TESLIM_ADRESINE_VARIS_TARIHI" DataSetColumn="TESLIM_ADRESINE_VARIS_TARIHI" />
+              <Mapping SourceColumn="TRANSIT_SURE_GUN" DataSetColumn="TRANSIT_SURE_GUN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet6" msprop:Generator_UserDSName="ALANSISDataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_SEVKIYAT_GUNCELDURUM" msprop:Generator_TableClassName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_SEVKIYAT_GUNCELDURUM" msprop:Generator_TablePropName="EO_ALANSIS_SEVKIYAT_GUNCELDURUM" msprop:Generator_RowDeletingName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_SEVKIYAT_GUNCELDURUM" msprop:Generator_RowChangedName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_SEVKIYAT_GUNCELDURUMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MUSTERI" msprop:Generator_ColumnVarNameInTable="columnMUSTERI" msprop:Generator_ColumnPropNameInRow="MUSTERI" msprop:Generator_ColumnPropNameInTable="MUSTERIColumn" msprop:Generator_UserColumnName="MUSTERI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POS_NO" msprop:Generator_ColumnVarNameInTable="columnPOS_NO" msprop:Generator_ColumnPropNameInRow="POS_NO" msprop:Generator_ColumnPropNameInTable="POS_NOColumn" msprop:Generator_UserColumnName="POS_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TESLIM_ULKE" msprop:Generator_ColumnVarNameInTable="columnTESLIM_ULKE" msprop:Generator_ColumnPropNameInRow="TESLIM_ULKE" msprop:Generator_ColumnPropNameInTable="TESLIM_ULKEColumn" msprop:Generator_UserColumnName="TESLIM_ULKE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAKLIYECI" msprop:Generator_ColumnVarNameInTable="columnNAKLIYECI" msprop:Generator_ColumnPropNameInRow="NAKLIYECI" msprop:Generator_ColumnPropNameInTable="NAKLIYECIColumn" msprop:Generator_UserColumnName="NAKLIYECI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PLANLANAN_YUKLEME_TARIHI" msprop:Generator_ColumnVarNameInTable="columnPLANLANAN_YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInRow="PLANLANAN_YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInTable="PLANLANAN_YUKLEME_TARIHIColumn" msprop:Generator_UserColumnName="PLANLANAN_YUKLEME_TARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="YUKLEME_TARIHI" msprop:Generator_ColumnVarNameInTable="columnYUKLEME_TARIHI" msprop:Generator_ColumnPropNameInRow="YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInTable="YUKLEME_TARIHIColumn" msprop:Generator_UserColumnName="YUKLEME_TARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GERCEKLESEN_TESLIM_TARIHI" msprop:Generator_ColumnVarNameInTable="columnGERCEKLESEN_TESLIM_TARIHI" msprop:Generator_ColumnPropNameInRow="GERCEKLESEN_TESLIM_TARIHI" msprop:Generator_ColumnPropNameInTable="GERCEKLESEN_TESLIM_TARIHIColumn" msprop:Generator_UserColumnName="GERCEKLESEN_TESLIM_TARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TESLIM_GECIKME_DURUMU" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTESLIM_GECIKME_DURUMU" msprop:Generator_ColumnPropNameInRow="TESLIM_GECIKME_DURUMU" msprop:Generator_ColumnPropNameInTable="TESLIM_GECIKME_DURUMUColumn" msprop:Generator_UserColumnName="TESLIM_GECIKME_DURUMU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TESLIM_ADRESINE_VARIS_TARIHI" msprop:Generator_ColumnVarNameInTable="columnTESLIM_ADRESINE_VARIS_TARIHI" msprop:Generator_ColumnPropNameInRow="TESLIM_ADRESINE_VARIS_TARIHI" msprop:Generator_ColumnPropNameInTable="TESLIM_ADRESINE_VARIS_TARIHIColumn" msprop:Generator_UserColumnName="TESLIM_ADRESINE_VARIS_TARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TRANSIT_SURE_GUN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTRANSIT_SURE_GUN" msprop:Generator_ColumnPropNameInRow="TRANSIT_SURE_GUN" msprop:Generator_ColumnPropNameInTable="TRANSIT_SURE_GUNColumn" msprop:Generator_UserColumnName="TRANSIT_SURE_GUN" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

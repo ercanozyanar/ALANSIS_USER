@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet54" targetNamespace="http://tempuri.org/ALANSISDataSet54.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet54.xsd" xmlns="http://tempuri.org/ALANSISDataSet54.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_HAMMADDE_RAPORTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_HAMMADDE_RAPORTableAdapter" Name="EO_ALANSIS_HAMMADDE_RAPOR" UserDataComponentName="EO_ALANSIS_HAMMADDE_RAPORTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_HAMMADDE_RAPOR" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BOLGE_ADI, URUN, DEPOLAMA_TARIHI, PAKETLEME_BESLEME_TARIHI, NET_KG, KASA_TIPI FROM dbo.EO_ALANSIS_HAMMADDE_RAPOR</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BOLGE_ADI" DataSetColumn="BOLGE_ADI" />
+              <Mapping SourceColumn="URUN" DataSetColumn="URUN" />
+              <Mapping SourceColumn="DEPOLAMA_TARIHI" DataSetColumn="DEPOLAMA_TARIHI" />
+              <Mapping SourceColumn="PAKETLEME_BESLEME_TARIHI" DataSetColumn="PAKETLEME_BESLEME_TARIHI" />
+              <Mapping SourceColumn="NET_KG" DataSetColumn="NET_KG" />
+              <Mapping SourceColumn="KASA_TIPI" DataSetColumn="KASA_TIPI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet54" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet54" msprop:Generator_UserDSName="ALANSISDataSet54">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_HAMMADDE_RAPOR" msprop:Generator_TableClassName="EO_ALANSIS_HAMMADDE_RAPORDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_HAMMADDE_RAPOR" msprop:Generator_TablePropName="EO_ALANSIS_HAMMADDE_RAPOR" msprop:Generator_RowDeletingName="EO_ALANSIS_HAMMADDE_RAPORRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_HAMMADDE_RAPORRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_HAMMADDE_RAPORRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_HAMMADDE_RAPORRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_HAMMADDE_RAPOR" msprop:Generator_RowChangedName="EO_ALANSIS_HAMMADDE_RAPORRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_HAMMADDE_RAPORRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_HAMMADDE_RAPORRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOLGE_ADI" msprop:Generator_ColumnVarNameInTable="columnBOLGE_ADI" msprop:Generator_ColumnPropNameInRow="BOLGE_ADI" msprop:Generator_ColumnPropNameInTable="BOLGE_ADIColumn" msprop:Generator_UserColumnName="BOLGE_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URUN" msprop:Generator_ColumnVarNameInTable="columnURUN" msprop:Generator_ColumnPropNameInRow="URUN" msprop:Generator_ColumnPropNameInTable="URUNColumn" msprop:Generator_UserColumnName="URUN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPOLAMA_TARIHI" msprop:Generator_ColumnVarNameInTable="columnDEPOLAMA_TARIHI" msprop:Generator_ColumnPropNameInRow="DEPOLAMA_TARIHI" msprop:Generator_ColumnPropNameInTable="DEPOLAMA_TARIHIColumn" msprop:Generator_UserColumnName="DEPOLAMA_TARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PAKETLEME_BESLEME_TARIHI" msprop:Generator_ColumnVarNameInTable="columnPAKETLEME_BESLEME_TARIHI" msprop:Generator_ColumnPropNameInRow="PAKETLEME_BESLEME_TARIHI" msprop:Generator_ColumnPropNameInTable="PAKETLEME_BESLEME_TARIHIColumn" msprop:Generator_UserColumnName="PAKETLEME_BESLEME_TARIHI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NET_KG" msprop:Generator_ColumnVarNameInTable="columnNET_KG" msprop:Generator_ColumnPropNameInRow="NET_KG" msprop:Generator_ColumnPropNameInTable="NET_KGColumn" msprop:Generator_UserColumnName="NET_KG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KASA_TIPI" msprop:Generator_ColumnVarNameInTable="columnKASA_TIPI" msprop:Generator_ColumnPropNameInRow="KASA_TIPI" msprop:Generator_ColumnPropNameInTable="KASA_TIPIColumn" msprop:Generator_UserColumnName="KASA_TIPI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet4" targetNamespace="http://tempuri.org/ALANSISDataSet4.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet4.xsd" xmlns="http://tempuri.org/ALANSISDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_YARDDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_YARDDEPOTableAdapter" Name="EO_ALANSIS_YARDDEPO" UserDataComponentName="EO_ALANSIS_YARDDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_YARDDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_YARDDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet4" msprop:Generator_UserDSName="ALANSISDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_YARDDEPO" msprop:Generator_TableClassName="EO_ALANSIS_YARDDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_YARDDEPO" msprop:Generator_TablePropName="EO_ALANSIS_YARDDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_YARDDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_YARDDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_YARDDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_YARDDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_YARDDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_YARDDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_YARDDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_YARDDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

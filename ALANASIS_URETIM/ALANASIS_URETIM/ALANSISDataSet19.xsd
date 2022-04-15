@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet19" targetNamespace="http://tempuri.org/ALANSISDataSet19.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet19.xsd" xmlns="http://tempuri.org/ALANSISDataSet19.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_RECETETIKETIM_VWTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_RECETETIKETIM_VWTableAdapter" Name="EO_ALANSIS_RECETETIKETIM_VW" UserDataComponentName="EO_ALANSIS_RECETETIKETIM_VWTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_RECETETIKETIM_VW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT PARTI, RECETE, STOK_ADI, MIKTAR, FIRE FROM dbo.EO_ALANSIS_RECETETIKETIM_VW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PARTI" DataSetColumn="PARTI" />
+              <Mapping SourceColumn="RECETE" DataSetColumn="RECETE" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="MIKTAR" DataSetColumn="MIKTAR" />
+              <Mapping SourceColumn="FIRE" DataSetColumn="FIRE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet19" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet19" msprop:Generator_UserDSName="ALANSISDataSet19">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_RECETETIKETIM_VW" msprop:Generator_TableClassName="EO_ALANSIS_RECETETIKETIM_VWDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_RECETETIKETIM_VW" msprop:Generator_TablePropName="EO_ALANSIS_RECETETIKETIM_VW" msprop:Generator_RowDeletingName="EO_ALANSIS_RECETETIKETIM_VWRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_RECETETIKETIM_VWRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_RECETETIKETIM_VWRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_RECETETIKETIM_VWRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_RECETETIKETIM_VW" msprop:Generator_RowChangedName="EO_ALANSIS_RECETETIKETIM_VWRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_RECETETIKETIM_VWRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_RECETETIKETIM_VWRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARTI" msprop:Generator_ColumnVarNameInTable="columnPARTI" msprop:Generator_ColumnPropNameInRow="PARTI" msprop:Generator_ColumnPropNameInTable="PARTIColumn" msprop:Generator_UserColumnName="PARTI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RECETE" msprop:Generator_ColumnVarNameInTable="columnRECETE" msprop:Generator_ColumnPropNameInRow="RECETE" msprop:Generator_ColumnPropNameInTable="RECETEColumn" msprop:Generator_UserColumnName="RECETE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MIKTAR" msprop:Generator_ColumnVarNameInTable="columnMIKTAR" msprop:Generator_ColumnPropNameInRow="MIKTAR" msprop:Generator_ColumnPropNameInTable="MIKTARColumn" msprop:Generator_UserColumnName="MIKTAR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FIRE" msprop:Generator_ColumnVarNameInTable="columnFIRE" msprop:Generator_ColumnPropNameInRow="FIRE" msprop:Generator_ColumnPropNameInTable="FIREColumn" msprop:Generator_UserColumnName="FIRE" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

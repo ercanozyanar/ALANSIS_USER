@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="tr-TR">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <SqlDataSource Name="SQL Data Source 1" ComponentName="dashboardSqlDataSource1">
+      <Connection Name="localhost_ALANSIS_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="EGEMM001\EGEMLOCAL" />
+          <Parameter Name="database" Value="ALANSIS" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="EO_SATIS_RAPOR_CIKISM">
+        <Tables>
+          <Table Name="EO_SATIS_RAPOR_CIKISM" X="30" Y="30" Width="125" Height="362" />
+        </Tables>
+        <Columns>
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="CARI_ISIM" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="STOK_KODU" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="CIKIS_TUTARI" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="1" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="2" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="3" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="4" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="5" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="6" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="7" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="8" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="9" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="10" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="11" />
+          <Column Table="EO_SATIS_RAPOR_CIKISM" Name="12" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 1">
+          <View Name="EO_SATIS_RAPOR_CIKISM">
+            <Field Name="CARI_ISIM" Type="String" />
+            <Field Name="STOK_KODU" Type="String" />
+            <Field Name="CIKIS_TUTARI" Type="Decimal" />
+            <Field Name="1" Type="Decimal" />
+            <Field Name="2" Type="Decimal" />
+            <Field Name="3" Type="Decimal" />
+            <Field Name="4" Type="Decimal" />
+            <Field Name="5" Type="Decimal" />
+            <Field Name="6" Type="Decimal" />
+            <Field Name="7" Type="Decimal" />
+            <Field Name="8" Type="Decimal" />
+            <Field Name="9" Type="Decimal" />
+            <Field Name="10" Type="Decimal" />
+            <Field Name="11" Type="Decimal" />
+            <Field Name="12" Type="Decimal" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Pivot ComponentName="pivotDashboardItem1" Name="Yıllık Satış Raporu" DataSource="dashboardSqlDataSource1" DataMember="EO_SATIS_RAPOR_CIKISM">
+      <DataItems>
+        <Dimension DataMember="CARI_ISIM" DefaultId="DataItem0" />
+        <Dimension DataMember="STOK_KODU" DefaultId="DataItem1" />
+        <Measure DataMember="1" Name="Ocak" DefaultId="DataItem2">
+          <NumericFormat FormatType="Currency" CurrencyCultureName="tr-TR" CustomFormatString="" />
+        </Measure>
+        <Measure DataMember="2" Name="Şubat" DefaultId="DataItem3" />
+        <Measure DataMember="3" Name="Mart" DefaultId="DataItem4" />
+        <Measure DataMember="4" Name="Nisan" DefaultId="DataItem5" />
+        <Measure DataMember="5" Name="Mayıs" DefaultId="DataItem6" />
+        <Measure DataMember="6" Name="Haziran" DefaultId="DataItem7" />
+        <Measure DataMember="7" Name="Temmuz" DefaultId="DataItem8" />
+        <Measure DataMember="8" Name="Ağustos" DefaultId="DataItem9" />
+        <Measure DataMember="9" Name="Eylül" DefaultId="DataItem10" />
+        <Measure DataMember="10" Name="Ekim" DefaultId="DataItem11" />
+        <Measure DataMember="11" Name="Kasım" DefaultId="DataItem12" />
+        <Measure DataMember="12" Name="Aralık" DefaultId="DataItem13" />
+        <Measure DataMember="CIKIS_TUTARI" Name="Genel Toplam" DefaultId="DataItem14" />
+      </DataItems>
+      <Rows>
+        <Row DefaultId="DataItem1" />
+        <Row DefaultId="DataItem0" />
+      </Rows>
+      <Values>
+        <Value DefaultId="DataItem2" />
+        <Value DefaultId="DataItem3" />
+        <Value DefaultId="DataItem4" />
+        <Value DefaultId="DataItem5" />
+        <Value DefaultId="DataItem6" />
+        <Value DefaultId="DataItem7" />
+        <Value DefaultId="DataItem8" />
+        <Value DefaultId="DataItem9" />
+        <Value DefaultId="DataItem10" />
+        <Value DefaultId="DataItem11" />
+        <Value DefaultId="DataItem12" />
+        <Value DefaultId="DataItem13" />
+        <Value DefaultId="DataItem14" />
+      </Values>
+    </Pivot>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pivotDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="Alansis_Dashboard_2" />
+  <DataSources>
+    <SqlDataSource Name="EO_ALANSIS_NAR_MAMULDEPO" ComponentName="sqlDataSource1">
+      <Connection Name="localhost_ALANSIS_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="EGEMM001\EGEMLOCAL" />
+          <Parameter Name="database" Value="ALANSIS" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="EO_ALANSIS_NAR_MAMULDEPO">
+        <Tables>
+          <Table Name="EO_ALANSIS_KIVI_MAMULDEPO" X="30" Y="30" Width="125" Height="922" />
+        </Tables>
+        <Columns>
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="PARTINO" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="TIP" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="BRUT" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="CESIT" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="BOLGE" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="MIKTAR" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="EO_ALANSIS_NAR_MAMULDEPO">
+          <View Name="EO_ALANSIS_NAR_MAMULDEPO">
+            <Field Name="PARTINO" Type="String" />
+            <Field Name="TIP" Type="String" />
+            <Field Name="BRUT" Type="Int32" />
+            <Field Name="CESIT" Type="String" />
+            <Field Name="BOLGE" Type="String" />
+            <Field Name="MIKTAR" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Parti No - Bölge Bazlı Üretim Raporu" DataSource="sqlDataSource1" DataMember="EO_ALANSIS_NAR_MAMULDEPO">
+      <DataItems>
+        <Dimension DataMember="BOLGE" DefaultId="DataItem0" />
+        <Dimension DataMember="TIP" DefaultId="DataItem1" />
+        <Measure DataMember="BRUT" DefaultId="DataItem3" />
+        <Dimension DataMember="PARTINO" DefaultId="DataItem4" />
+        <Measure DataMember="MIKTAR" DefaultId="DataItem2" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem4" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="Brut Toplam Kg.">
+          <Measure DefaultId="DataItem3" />
+        </GridMeasureColumn>
+        <GridMeasureColumn Name="Net Toplam Kg.">
+          <Measure DefaultId="DataItem2" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+    <Pie ComponentName="pieDashboardItem2" Name="Bölge Bazlı Üretim Grafik" DataSource="sqlDataSource1" DataMember="EO_ALANSIS_NAR_MAMULDEPO">
+      <DataItems>
+        <Measure DataMember="MIKTAR" DefaultId="DataItem1" />
+        <Dimension DataMember="BOLGE" DefaultId="DataItem0" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem0" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem1" />
+      </Values>
+    </Pie>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pieDashboardItem2" />
+      <LayoutItem DashboardItem="gridDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

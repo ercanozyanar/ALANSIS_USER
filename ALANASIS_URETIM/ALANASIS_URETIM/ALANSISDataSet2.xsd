@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet2" targetNamespace="http://tempuri.org/ALANSISDataSet2.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet2.xsd" xmlns="http://tempuri.org/ALANSISDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_RECETEVWTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_RECETEVWTableAdapter" Name="EO_ALANSIS_RECETEVW" UserDataComponentName="EO_ALANSIS_RECETEVWTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_RECETEVW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     PARTINO, RENK, MAMULKODU, RECETE_INDEKS, RECETE_TANIM
+FROM         EO_ALANSIS_RECETEVW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PARTINO" DataSetColumn="PARTINO" />
+              <Mapping SourceColumn="RENK" DataSetColumn="RENK" />
+              <Mapping SourceColumn="MAMULKODU" DataSetColumn="MAMULKODU" />
+              <Mapping SourceColumn="RECETE_INDEKS" DataSetColumn="RECETE_INDEKS" />
+              <Mapping SourceColumn="RECETE_TANIM" DataSetColumn="RECETE_TANIM" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_RECETEVW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT     PARTINO, RENK, MAMULKODU, RECETE_INDEKS, RECETE_TANIM
+FROM         EO_ALANSIS_RECETEVW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet2" msprop:Generator_UserDSName="ALANSISDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_RECETEVW" msprop:Generator_TableClassName="EO_ALANSIS_RECETEVWDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_RECETEVW" msprop:Generator_TablePropName="EO_ALANSIS_RECETEVW" msprop:Generator_RowDeletingName="EO_ALANSIS_RECETEVWRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_RECETEVWRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_RECETEVWRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_RECETEVWRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_RECETEVW" msprop:Generator_RowChangedName="EO_ALANSIS_RECETEVWRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_RECETEVWRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_RECETEVWRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARTINO" msprop:Generator_ColumnVarNameInTable="columnPARTINO" msprop:Generator_ColumnPropNameInRow="PARTINO" msprop:Generator_ColumnPropNameInTable="PARTINOColumn" msprop:Generator_UserColumnName="PARTINO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RENK" msprop:Generator_ColumnVarNameInTable="columnRENK" msprop:Generator_ColumnPropNameInRow="RENK" msprop:Generator_ColumnPropNameInTable="RENKColumn" msprop:Generator_UserColumnName="RENK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MAMULKODU" msprop:Generator_ColumnVarNameInTable="columnMAMULKODU" msprop:Generator_ColumnPropNameInRow="MAMULKODU" msprop:Generator_ColumnPropNameInTable="MAMULKODUColumn" msprop:Generator_UserColumnName="MAMULKODU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RECETE_INDEKS" msprop:Generator_ColumnVarNameInTable="columnRECETE_INDEKS" msprop:Generator_ColumnPropNameInRow="RECETE_INDEKS" msprop:Generator_ColumnPropNameInTable="RECETE_INDEKSColumn" msprop:Generator_UserColumnName="RECETE_INDEKS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RECETE_TANIM" msprop:Generator_ColumnVarNameInTable="columnRECETE_TANIM" msprop:Generator_ColumnPropNameInRow="RECETE_TANIM" msprop:Generator_ColumnPropNameInTable="RECETE_TANIMColumn" msprop:Generator_UserColumnName="RECETE_TANIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

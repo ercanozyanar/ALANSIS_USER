@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="tr-TR">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <SqlDataSource Name="SQL Data Source 1" ComponentName="dashboardSqlDataSource1">
+      <Connection Name="localhost_ALANSIS_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="EGEMM001\EGEMLOCAL" />
+          <Parameter Name="database" Value="ALANSIS" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="EO_ALANSIS_NAR_MAMULDEPO">
+        <Tables>
+          <Table Name="EO_ALANSIS_KIVI_MAMULDEPO" X="30" Y="30" Width="125" Height="922" />
+        </Tables>
+        <Columns>
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="ID" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="TARIH" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="STOK_KODU" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="SERI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="MIKTAR" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="BOLGE" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="EBAT" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="ISLEM" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KIVI_ISLEM" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="ODA" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KALINTI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="DARA" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="BRUT" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="DEPO" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="TIP" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="PARTINO" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="URETIM_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="CESIT" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="PALET_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KUTU_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KUTU_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="ETIKET_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="ETIKET_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="EBAT_ETIKET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="EBAT_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="POSET_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="POSET_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="SAPKA_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="SAPKA_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KOSEBENT_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KOSEBENT_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KLIPS_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="KLIPS_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="CARRY_BAG_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="CARRY_BAG_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="NEM_BEZI_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="NEM_BEZI_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="SALE_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="SALE_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="FILE_TIPI" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="FILE_ADET" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="USR" />
+          <Column Table="EO_ALANSIS_KIVI_MAMULDEPO" Name="ACIKLAMA" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 1">
+          <View Name="EO_ALANSIS_NAR_MAMULDEPO">
+            <Field Name="ID" Type="Int32" />
+            <Field Name="TARIH" Type="String" />
+            <Field Name="STOK_KODU" Type="String" />
+            <Field Name="SERI" Type="String" />
+            <Field Name="MIKTAR" Type="Int32" />
+            <Field Name="BOLGE" Type="String" />
+            <Field Name="EBAT" Type="String" />
+            <Field Name="ISLEM" Type="String" />
+            <Field Name="KIVI_ISLEM" Type="String" />
+            <Field Name="ODA" Type="String" />
+            <Field Name="KALINTI" Type="String" />
+            <Field Name="DARA" Type="Int32" />
+            <Field Name="BRUT" Type="Int32" />
+            <Field Name="DEPO" Type="String" />
+            <Field Name="TIP" Type="String" />
+            <Field Name="PARTINO" Type="String" />
+            <Field Name="URETIM_TIPI" Type="String" />
+            <Field Name="CESIT" Type="String" />
+            <Field Name="PALET_TIPI" Type="String" />
+            <Field Name="KUTU_TIPI" Type="String" />
+            <Field Name="KUTU_ADET" Type="Int32" />
+            <Field Name="ETIKET_TIPI" Type="String" />
+            <Field Name="ETIKET_ADET" Type="Int32" />
+            <Field Name="EBAT_ETIKET" Type="String" />
+            <Field Name="EBAT_ADET" Type="Int32" />
+            <Field Name="POSET_TIPI" Type="String" />
+            <Field Name="POSET_ADET" Type="Int32" />
+            <Field Name="SAPKA_TIPI" Type="String" />
+            <Field Name="SAPKA_ADET" Type="Int32" />
+            <Field Name="KOSEBENT_TIPI" Type="String" />
+            <Field Name="KOSEBENT_ADET" Type="Int32" />
+            <Field Name="KLIPS_TIPI" Type="String" />
+            <Field Name="KLIPS_ADET" Type="Int32" />
+            <Field Name="CARRY_BAG_TIPI" Type="String" />
+            <Field Name="CARRY_BAG_ADET" Type="Int32" />
+            <Field Name="NEM_BEZI_TIPI" Type="String" />
+            <Field Name="NEM_BEZI_ADET" Type="Int32" />
+            <Field Name="SALE_TIPI" Type="String" />
+            <Field Name="SALE_ADET" Type="Int32" />
+            <Field Name="FILE_TIPI" Type="String" />
+            <Field Name="FILE_ADET" Type="Int32" />
+            <Field Name="USR" Type="String" />
+            <Field Name="ACIKLAMA" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Pivot ComponentName="pivotDashboardItem1" Name="PARTI BAZLI URETIM PIVOT" DataSource="dashboardSqlDataSource1" DataMember="EO_ALANSIS_NAR_MAMULDEPO">
+      <DataItems>
+        <Dimension DataMember="PARTINO" DefaultId="DataItem0" />
+        <Dimension DataMember="TIP" DefaultId="DataItem1" />
+        <Measure DataMember="MIKTAR" DefaultId="DataItem2" />
+      </DataItems>
+      <Columns>
+        <Column DefaultId="DataItem1" />
+      </Columns>
+      <Rows>
+        <Row DefaultId="DataItem0" />
+      </Rows>
+      <Values>
+        <Value DefaultId="DataItem2" />
+      </Values>
+    </Pivot>
+    <Pie ComponentName="pieDashboardItem1" Name="URETIM TIPI GRAFIK" DataSource="dashboardSqlDataSource1" DataMember="EO_ALANSIS_NAR_MAMULDEPO">
+      <DataItems>
+        <Dimension DataMember="TIP" DefaultId="DataItem0" />
+        <Measure DataMember="MIKTAR" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem0" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem1" />
+      </Values>
+    </Pie>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pivotDashboardItem1" Weight="0.25" />
+      <LayoutItem DashboardItem="pieDashboardItem1" Weight="0.25" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

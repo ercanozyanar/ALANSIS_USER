@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet3" targetNamespace="http://tempuri.org/ALANSISDataSet3.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet3.xsd" xmlns="http://tempuri.org/ALANSISDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_CARYYBAGTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_CARYYBAGTIPIDEPOTableAdapter" Name="EO_ALANSIS_CARYYBAGTIPIDEPO" UserDataComponentName="EO_ALANSIS_CARYYBAGTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_CARYYBAGTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_CARYYBAGTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_EBATETIKETTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_EBATETIKETTIPIDEPOTableAdapter" Name="EO_ALANSIS_EBATETIKETTIPIDEPO" UserDataComponentName="EO_ALANSIS_EBATETIKETTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_EBATETIKETTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_EBATETIKETTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KASATIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KASATIPIDEPOTableAdapter" Name="EO_ALANSIS_KASATIPIDEPO" UserDataComponentName="EO_ALANSIS_KASATIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_KASATIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_KASATIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KLIPSTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KLIPSTIPIDEPOTableAdapter" Name="EO_ALANSIS_KLIPSTIPIDEPO" UserDataComponentName="EO_ALANSIS_KLIPSTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_KLIPSTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_KLIPSTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KOSEBENTTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KOSEBENTTIPIDEPOTableAdapter" Name="EO_ALANSIS_KOSEBENTTIPIDEPO" UserDataComponentName="EO_ALANSIS_KOSEBENTTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_KOSEBENTTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_KOSEBENTTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KUTUETIKETTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KUTUETIKETTIPIDEPOTableAdapter" Name="EO_ALANSIS_KUTUETIKETTIPIDEPO" UserDataComponentName="EO_ALANSIS_KUTUETIKETTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_KUTUETIKETTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_KUTUETIKETTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_KUTUTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_KUTUTIPIDEPOTableAdapter" Name="EO_ALANSIS_KUTUTIPIDEPO" UserDataComponentName="EO_ALANSIS_KUTUTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_KUTUTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_KUTUTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_NEMBEZITIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_NEMBEZITIPIDEPOTableAdapter" Name="EO_ALANSIS_NEMBEZITIPIDEPO" UserDataComponentName="EO_ALANSIS_NEMBEZITIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_NEMBEZITIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_NEMBEZITIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_PALETTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_PALETTIPIDEPOTableAdapter" Name="EO_ALANSIS_PALETTIPIDEPO" UserDataComponentName="EO_ALANSIS_PALETTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_PALETTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_PALETTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_POSETTIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_POSETTIPIDEPOTableAdapter" Name="EO_ALANSIS_POSETTIPIDEPO" UserDataComponentName="EO_ALANSIS_POSETTIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_POSETTIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_POSETTIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_SABKATIPIDEPOTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_SABKATIPIDEPOTableAdapter" Name="EO_ALANSIS_SABKATIPIDEPO" UserDataComponentName="EO_ALANSIS_SABKATIPIDEPOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_SABKATIPIDEPO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT STOK_ADI, ALASEHIR_DEPO, BURSA_DEPO FROM dbo.EO_ALANSIS_SABKATIPIDEPO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="ALASEHIR_DEPO" DataSetColumn="ALASEHIR_DEPO" />
+              <Mapping SourceColumn="BURSA_DEPO" DataSetColumn="BURSA_DEPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet3" msprop:Generator_UserDSName="ALANSISDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_CARYYBAGTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_CARYYBAGTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_CARYYBAGTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_CARYYBAGTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_CARYYBAGTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_CARYYBAGTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_CARYYBAGTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_CARYYBAGTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_CARYYBAGTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_CARYYBAGTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_CARYYBAGTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_CARYYBAGTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_EBATETIKETTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_EBATETIKETTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_EBATETIKETTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_EBATETIKETTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_EBATETIKETTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_EBATETIKETTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_EBATETIKETTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_EBATETIKETTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_EBATETIKETTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_EBATETIKETTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_EBATETIKETTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_EBATETIKETTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KASATIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_KASATIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KASATIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_KASATIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_KASATIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KASATIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KASATIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KASATIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_KASATIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_KASATIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_KASATIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_KASATIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KLIPSTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_KLIPSTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KLIPSTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_KLIPSTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_KLIPSTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KLIPSTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KLIPSTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KLIPSTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_KLIPSTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_KLIPSTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_KLIPSTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_KLIPSTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KOSEBENTTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_KOSEBENTTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KOSEBENTTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_KOSEBENTTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_KOSEBENTTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KOSEBENTTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KOSEBENTTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KOSEBENTTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_KOSEBENTTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_KOSEBENTTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_KOSEBENTTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_KOSEBENTTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KUTUETIKETTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_KUTUETIKETTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KUTUETIKETTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_KUTUETIKETTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_KUTUETIKETTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KUTUETIKETTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KUTUETIKETTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KUTUETIKETTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_KUTUETIKETTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_KUTUETIKETTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_KUTUETIKETTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_KUTUETIKETTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_KUTUTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_KUTUTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KUTUTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_KUTUTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_KUTUTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KUTUTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KUTUTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KUTUTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_KUTUTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_KUTUTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_KUTUTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_KUTUTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_NEMBEZITIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_NEMBEZITIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_NEMBEZITIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_NEMBEZITIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_NEMBEZITIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_NEMBEZITIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_NEMBEZITIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_NEMBEZITIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_NEMBEZITIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_NEMBEZITIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_NEMBEZITIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_NEMBEZITIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_PALETTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_PALETTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_PALETTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_PALETTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_PALETTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_PALETTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_PALETTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_PALETTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_PALETTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_PALETTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_PALETTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_PALETTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_POSETTIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_POSETTIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_POSETTIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_POSETTIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_POSETTIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_POSETTIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_POSETTIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_POSETTIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_POSETTIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_POSETTIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_POSETTIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_POSETTIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EO_ALANSIS_SABKATIPIDEPO" msprop:Generator_TableClassName="EO_ALANSIS_SABKATIPIDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_SABKATIPIDEPO" msprop:Generator_TablePropName="EO_ALANSIS_SABKATIPIDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_SABKATIPIDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_SABKATIPIDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_SABKATIPIDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_SABKATIPIDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_SABKATIPIDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_SABKATIPIDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_SABKATIPIDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_SABKATIPIDEPORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALASEHIR_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnALASEHIR_DEPO" msprop:Generator_ColumnPropNameInRow="ALASEHIR_DEPO" msprop:Generator_ColumnPropNameInTable="ALASEHIR_DEPOColumn" msprop:Generator_UserColumnName="ALASEHIR_DEPO" type="xs:int" minOccurs="0" />
+              <xs:element name="BURSA_DEPO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBURSA_DEPO" msprop:Generator_ColumnPropNameInRow="BURSA_DEPO" msprop:Generator_ColumnPropNameInTable="BURSA_DEPOColumn" msprop:Generator_UserColumnName="BURSA_DEPO" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

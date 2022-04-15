@@ -1,0 +1,13 @@
+﻿1>------ Derleme başladı: Proje: ALANASIS_URETIM, Yapılandırma: Debug Any CPU ------
+1>  'MSFlexGridLib' COM Başvurusu, 'AxMSFlexGridLib' ActiveX denetiminin birlikte çalışma bütünleştirilmiş kodu, ancak /link bayrağıyla derleyici tarafından bağlanmak üzere işaretlenmiş. Bu COM başvurusu, başvuru olarak değerlendirilecek ve bağlanmayacak.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form135.vb(31,13): warning BC42024: Kullanılmayan yerel değişken: 'yetki'.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form111.vb(446,23): warning BC42104: 'numara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form178.vb(59,148): warning BC42104: 'NUMARA' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form149.vb(119,26): warning BC42024: Kullanılmayan yerel değişken: 'GGNmiktar'.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form113.vb(79,27): warning BC42104: 'numara' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form28.vb(58,12): warning BC42104: 'kontrol' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form157.vb(251,16): warning BC42104: 'hareket_kodu' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form24.vb(233,229): warning BC42104: 'hareket_kodu' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\Form163.vb(107,20): warning BC42104: 'serikontrol' değişkeni bir değere atanmadan önce kullanıldı. Çalışma zamanında null başvurusu özel durumu oluşabilir.
+1>  ALANASIS_URETIM -> D:\Ercan_OZYANAR_DATA\ALANSIS_SUBE\ALANSIS_DEPO\ALANASIS_URETIM\ALANASIS_URETIM\bin\Debug\ALANASIS_URETIM.exe
+========== Oluşturma: 1 başarılı, 0 başarısız, 0 güncel, 0 atlandı ==========

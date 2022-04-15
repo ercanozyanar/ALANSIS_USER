@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet35" targetNamespace="http://tempuri.org/ALANSISDataSet35.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet35.xsd" xmlns="http://tempuri.org/ALANSISDataSet35.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_URETICIANALIZSIZTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_URETICIANALIZSIZTableAdapter" Name="EO_ALANSIS_URETICIANALIZSIZ" UserDataComponentName="EO_ALANSIS_URETICIANALIZSIZTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_URETICIANALIZSIZ" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT URETICI_ADSOY FROM dbo.EO_ALANSIS_URETICIANALIZSIZ</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="URETICI_ADSOY" DataSetColumn="URETICI_ADSOY" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet35" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet35" msprop:Generator_UserDSName="ALANSISDataSet35">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_URETICIANALIZSIZ" msprop:Generator_TableClassName="EO_ALANSIS_URETICIANALIZSIZDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_URETICIANALIZSIZ" msprop:Generator_TablePropName="EO_ALANSIS_URETICIANALIZSIZ" msprop:Generator_RowDeletingName="EO_ALANSIS_URETICIANALIZSIZRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_URETICIANALIZSIZRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_URETICIANALIZSIZRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_URETICIANALIZSIZRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_URETICIANALIZSIZ" msprop:Generator_RowChangedName="EO_ALANSIS_URETICIANALIZSIZRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_URETICIANALIZSIZRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_URETICIANALIZSIZRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="URETICI_ADSOY" msprop:Generator_ColumnVarNameInTable="columnURETICI_ADSOY" msprop:Generator_ColumnPropNameInRow="URETICI_ADSOY" msprop:Generator_ColumnPropNameInTable="URETICI_ADSOYColumn" msprop:Generator_UserColumnName="URETICI_ADSOY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

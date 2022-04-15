@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet48" targetNamespace="http://tempuri.org/ALANSISDataSet48.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet48.xsd" xmlns="http://tempuri.org/ALANSISDataSet48.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_ERIKMAMULRAPORTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_ERIKMAMULRAPORTableAdapter" Name="EO_ALANSIS_ERIKMAMULRAPOR" UserDataComponentName="EO_ALANSIS_ERIKMAMULRAPORTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_ERIKMAMULRAPOR" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TARIH, STOK_KODU, SERI, NETKG, BOLGE, EBAT, ISLEM, ERIK_ISLEM, KALINTI, DARA, BRUTKG, TIP, PARTINO, URETIM_TIPI, CESIT, ACIKLAMA, RENK FROM dbo.EO_ALANSIS_ERIKMAMULRAPOR</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TARIH" DataSetColumn="TARIH" />
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="SERI" DataSetColumn="SERI" />
+              <Mapping SourceColumn="NETKG" DataSetColumn="NETKG" />
+              <Mapping SourceColumn="BOLGE" DataSetColumn="BOLGE" />
+              <Mapping SourceColumn="EBAT" DataSetColumn="EBAT" />
+              <Mapping SourceColumn="ISLEM" DataSetColumn="ISLEM" />
+              <Mapping SourceColumn="ERIK_ISLEM" DataSetColumn="ERIK_ISLEM" />
+              <Mapping SourceColumn="KALINTI" DataSetColumn="KALINTI" />
+              <Mapping SourceColumn="DARA" DataSetColumn="DARA" />
+              <Mapping SourceColumn="BRUTKG" DataSetColumn="BRUTKG" />
+              <Mapping SourceColumn="TIP" DataSetColumn="TIP" />
+              <Mapping SourceColumn="PARTINO" DataSetColumn="PARTINO" />
+              <Mapping SourceColumn="URETIM_TIPI" DataSetColumn="URETIM_TIPI" />
+              <Mapping SourceColumn="CESIT" DataSetColumn="CESIT" />
+              <Mapping SourceColumn="ACIKLAMA" DataSetColumn="ACIKLAMA" />
+              <Mapping SourceColumn="RENK" DataSetColumn="RENK" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet48" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet48" msprop:Generator_UserDSName="ALANSISDataSet48">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_ERIKMAMULRAPOR" msprop:Generator_TableClassName="EO_ALANSIS_ERIKMAMULRAPORDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_ERIKMAMULRAPOR" msprop:Generator_TablePropName="EO_ALANSIS_ERIKMAMULRAPOR" msprop:Generator_RowDeletingName="EO_ALANSIS_ERIKMAMULRAPORRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_ERIKMAMULRAPORRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_ERIKMAMULRAPORRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_ERIKMAMULRAPORRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_ERIKMAMULRAPOR" msprop:Generator_RowChangedName="EO_ALANSIS_ERIKMAMULRAPORRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_ERIKMAMULRAPORRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_ERIKMAMULRAPORRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TARIH" msprop:Generator_ColumnVarNameInTable="columnTARIH" msprop:Generator_ColumnPropNameInRow="TARIH" msprop:Generator_ColumnPropNameInTable="TARIHColumn" msprop:Generator_UserColumnName="TARIH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SERI" msprop:Generator_ColumnVarNameInTable="columnSERI" msprop:Generator_ColumnPropNameInRow="SERI" msprop:Generator_ColumnPropNameInTable="SERIColumn" msprop:Generator_UserColumnName="SERI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NETKG" msprop:Generator_ColumnVarNameInTable="columnNETKG" msprop:Generator_ColumnPropNameInRow="NETKG" msprop:Generator_ColumnPropNameInTable="NETKGColumn" msprop:Generator_UserColumnName="NETKG" type="xs:int" minOccurs="0" />
+              <xs:element name="BOLGE" msprop:Generator_ColumnVarNameInTable="columnBOLGE" msprop:Generator_ColumnPropNameInRow="BOLGE" msprop:Generator_ColumnPropNameInTable="BOLGEColumn" msprop:Generator_UserColumnName="BOLGE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EBAT" msprop:Generator_ColumnVarNameInTable="columnEBAT" msprop:Generator_ColumnPropNameInRow="EBAT" msprop:Generator_ColumnPropNameInTable="EBATColumn" msprop:Generator_UserColumnName="EBAT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ISLEM" msprop:Generator_ColumnVarNameInTable="columnISLEM" msprop:Generator_ColumnPropNameInRow="ISLEM" msprop:Generator_ColumnPropNameInTable="ISLEMColumn" msprop:Generator_UserColumnName="ISLEM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ERIK_ISLEM" msprop:Generator_ColumnVarNameInTable="columnERIK_ISLEM" msprop:Generator_ColumnPropNameInRow="ERIK_ISLEM" msprop:Generator_ColumnPropNameInTable="ERIK_ISLEMColumn" msprop:Generator_UserColumnName="ERIK_ISLEM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KALINTI" msprop:Generator_ColumnVarNameInTable="columnKALINTI" msprop:Generator_ColumnPropNameInRow="KALINTI" msprop:Generator_ColumnPropNameInTable="KALINTIColumn" msprop:Generator_UserColumnName="KALINTI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DARA" msprop:Generator_ColumnVarNameInTable="columnDARA" msprop:Generator_ColumnPropNameInRow="DARA" msprop:Generator_ColumnPropNameInTable="DARAColumn" msprop:Generator_UserColumnName="DARA" type="xs:int" minOccurs="0" />
+              <xs:element name="BRUTKG" msprop:Generator_ColumnVarNameInTable="columnBRUTKG" msprop:Generator_ColumnPropNameInRow="BRUTKG" msprop:Generator_ColumnPropNameInTable="BRUTKGColumn" msprop:Generator_UserColumnName="BRUTKG" type="xs:int" minOccurs="0" />
+              <xs:element name="TIP" msprop:Generator_ColumnVarNameInTable="columnTIP" msprop:Generator_ColumnPropNameInRow="TIP" msprop:Generator_ColumnPropNameInTable="TIPColumn" msprop:Generator_UserColumnName="TIP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARTINO" msprop:Generator_ColumnVarNameInTable="columnPARTINO" msprop:Generator_ColumnPropNameInRow="PARTINO" msprop:Generator_ColumnPropNameInTable="PARTINOColumn" msprop:Generator_UserColumnName="PARTINO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URETIM_TIPI" msprop:Generator_ColumnVarNameInTable="columnURETIM_TIPI" msprop:Generator_ColumnPropNameInRow="URETIM_TIPI" msprop:Generator_ColumnPropNameInTable="URETIM_TIPIColumn" msprop:Generator_UserColumnName="URETIM_TIPI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CESIT" msprop:Generator_ColumnVarNameInTable="columnCESIT" msprop:Generator_ColumnPropNameInRow="CESIT" msprop:Generator_ColumnPropNameInTable="CESITColumn" msprop:Generator_UserColumnName="CESIT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACIKLAMA" msprop:Generator_ColumnVarNameInTable="columnACIKLAMA" msprop:Generator_ColumnPropNameInRow="ACIKLAMA" msprop:Generator_ColumnPropNameInTable="ACIKLAMAColumn" msprop:Generator_UserColumnName="ACIKLAMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RENK" msprop:Generator_ColumnVarNameInTable="columnRENK" msprop:Generator_ColumnPropNameInRow="RENK" msprop:Generator_ColumnPropNameInTable="RENKColumn" msprop:Generator_UserColumnName="RENK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

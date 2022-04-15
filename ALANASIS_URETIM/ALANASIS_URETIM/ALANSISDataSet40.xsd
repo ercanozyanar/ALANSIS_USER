@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet40" targetNamespace="http://tempuri.org/ALANSISDataSet40.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet40.xsd" xmlns="http://tempuri.org/ALANSISDataSet40.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2TableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2TableAdapter" Name="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2" UserDataComponentName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT YUKLEME_TARIHI, PARTINO, STOK_KODU, STOK_ADI, SERI, MIKTAR, BELGENO, GELDIGI_YER, RENK FROM dbo.EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="YUKLEME_TARIHI" DataSetColumn="YUKLEME_TARIHI" />
+              <Mapping SourceColumn="PARTINO" DataSetColumn="PARTINO" />
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="SERI" DataSetColumn="SERI" />
+              <Mapping SourceColumn="MIKTAR" DataSetColumn="MIKTAR" />
+              <Mapping SourceColumn="BELGENO" DataSetColumn="BELGENO" />
+              <Mapping SourceColumn="GELDIGI_YER" DataSetColumn="GELDIGI_YER" />
+              <Mapping SourceColumn="RENK" DataSetColumn="RENK" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet40" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet40" msprop:Generator_UserDSName="ALANSISDataSet40">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2" msprop:Generator_TableClassName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2DataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_YUKLEMETAKIP_HAMMADDE2" msprop:Generator_TablePropName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2" msprop:Generator_RowDeletingName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2RowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2RowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2RowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2RowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2" msprop:Generator_RowChangedName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2RowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2RowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_YUKLEMETAKIP_HAMMADDE2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="YUKLEME_TARIHI" msprop:Generator_ColumnVarNameInTable="columnYUKLEME_TARIHI" msprop:Generator_ColumnPropNameInRow="YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInTable="YUKLEME_TARIHIColumn" msprop:Generator_UserColumnName="YUKLEME_TARIHI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARTINO" msprop:Generator_ColumnVarNameInTable="columnPARTINO" msprop:Generator_ColumnPropNameInRow="PARTINO" msprop:Generator_ColumnPropNameInTable="PARTINOColumn" msprop:Generator_UserColumnName="PARTINO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SERI" msprop:Generator_ColumnVarNameInTable="columnSERI" msprop:Generator_ColumnPropNameInRow="SERI" msprop:Generator_ColumnPropNameInTable="SERIColumn" msprop:Generator_UserColumnName="SERI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MIKTAR" msprop:Generator_ColumnVarNameInTable="columnMIKTAR" msprop:Generator_ColumnPropNameInRow="MIKTAR" msprop:Generator_ColumnPropNameInTable="MIKTARColumn" msprop:Generator_UserColumnName="MIKTAR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BELGENO" msprop:Generator_ColumnVarNameInTable="columnBELGENO" msprop:Generator_ColumnPropNameInRow="BELGENO" msprop:Generator_ColumnPropNameInTable="BELGENOColumn" msprop:Generator_UserColumnName="BELGENO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GELDIGI_YER" msprop:Generator_ColumnVarNameInTable="columnGELDIGI_YER" msprop:Generator_ColumnPropNameInRow="GELDIGI_YER" msprop:Generator_ColumnPropNameInTable="GELDIGI_YERColumn" msprop:Generator_UserColumnName="GELDIGI_YER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RENK" msprop:Generator_ColumnVarNameInTable="columnRENK" msprop:Generator_ColumnPropNameInRow="RENK" msprop:Generator_ColumnPropNameInTable="RENKColumn" msprop:Generator_UserColumnName="RENK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

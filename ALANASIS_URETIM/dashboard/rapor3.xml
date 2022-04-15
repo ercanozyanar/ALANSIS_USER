@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="New Dashboard" />
+  <DataSources>
+    <SqlDataSource Name="EO_ALANSIS_NAR_MAMULDEPO" ComponentName="sqlDataSource1">
+      <Connection Name="localhost_ALANSIS_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="EGEMM001\EGEMLOCAL" />
+          <Parameter Name="database" Value="ALANSIS" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="EO_ALANSIS_NAR_MAMULDEPO">
+        <Tables>
+          <Table Name="EO_ALANSIS_NAR_MAMULDEPO" />
+        </Tables>
+        <Columns>
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="ID" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="TARIH" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="STOK_KODU" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="SERI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="MIKTAR" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="BOLGE" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="BOY" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="ISLEM" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="NAR_ISLEM" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="VIYOL" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="ODA" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="KALINTI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="DARA" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="BRUT" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="DEPO" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="TIP" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="PARTINO" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="URETIM_TIPI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="CESIT" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="PALET_TIPI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="KUTU_TIPI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="KUTU_ADET" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="ETIKET_TIPI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="ETIKET_ADET" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="EBAT_ETIKET" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="EBAT_ADET" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="YARD_MAL_TIPI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="YARD_ADET" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="SAPKA_TIPI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="SAPKA_ADET" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="KOSEBENT_TIPI" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="KOSEBENT_ADET" />
+          <Column Table="EO_ALANSIS_NAR_MAMULDEPO" Name="USR" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="EO_ALANSIS_NAR_MAMULDEPO">
+          <View Name="EO_ALANSIS_NAR_MAMULDEPO">
+            <Field Name="ID" Type="Int32" />
+            <Field Name="TARIH" Type="String" />
+            <Field Name="STOK_KODU" Type="String" />
+            <Field Name="SERI" Type="String" />
+            <Field Name="MIKTAR" Type="Int32" />
+            <Field Name="BOLGE" Type="String" />
+            <Field Name="BOY" Type="String" />
+            <Field Name="ISLEM" Type="String" />
+            <Field Name="NAR_ISLEM" Type="String" />
+            <Field Name="VIYOL" Type="String" />
+            <Field Name="ODA" Type="String" />
+            <Field Name="KALINTI" Type="String" />
+            <Field Name="DARA" Type="Int32" />
+            <Field Name="BRUT" Type="Int32" />
+            <Field Name="DEPO" Type="String" />
+            <Field Name="TIP" Type="String" />
+            <Field Name="PARTINO" Type="String" />
+            <Field Name="URETIM_TIPI" Type="String" />
+            <Field Name="CESIT" Type="String" />
+            <Field Name="PALET_TIPI" Type="String" />
+            <Field Name="KUTU_TIPI" Type="String" />
+            <Field Name="KUTU_ADET" Type="Int32" />
+            <Field Name="ETIKET_TIPI" Type="String" />
+            <Field Name="ETIKET_ADET" Type="Int32" />
+            <Field Name="EBAT_ETIKET" Type="String" />
+            <Field Name="EBAT_ADET" Type="Int32" />
+            <Field Name="YARD_MAL_TIPI" Type="String" />
+            <Field Name="YARD_ADET" Type="Int32" />
+            <Field Name="SAPKA_TIPI" Type="String" />
+            <Field Name="SAPKA_ADET" Type="Int32" />
+            <Field Name="KOSEBENT_TIPI" Type="String" />
+            <Field Name="KOSEBENT_ADET" Type="Int32" />
+            <Field Name="USR" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="sqlDataSource1" DataMember="EO_ALANSIS_NAR_MAMULDEPO">
+      <DataItems>
+        <Dimension DataMember="KUTU_TIPI" DefaultId="DataItem0" />
+        <Measure DataMember="KOSEBENT_ADET" DefaultId="DataItem1" />
+        <Dimension DataMember="BRUT" DefaultId="DataItem2" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem1" />
+        </GridMeasureColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+    <Grid ComponentName="gridDashboardItem2" Name="Grid 2" DataSource="sqlDataSource1" DataMember="EO_ALANSIS_NAR_MAMULDEPO">
+      <GridOptions />
+    </Grid>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutGroup Orientation="Vertical">
+        <LayoutItem DashboardItem="gridDashboardItem1" />
+        <LayoutItem DashboardItem="gridDashboardItem2" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

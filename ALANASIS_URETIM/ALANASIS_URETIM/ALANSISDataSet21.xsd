@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet21" targetNamespace="http://tempuri.org/ALANSISDataSet21.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet21.xsd" xmlns="http://tempuri.org/ALANSISDataSet21.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_MAMULSTOKTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_MAMULSTOKTableAdapter" Name="EO_ALANSIS_MAMULSTOK" UserDataComponentName="EO_ALANSIS_MAMULSTOKTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_MAMULSTOK" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TARIH, SERI, STOK_KODU, STOK_ADI, NET, BRUT, DARA, BOLGE, RENK FROM dbo.EO_ALANSIS_MAMULSTOK</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TARIH" DataSetColumn="TARIH" />
+              <Mapping SourceColumn="SERI" DataSetColumn="SERI" />
+              <Mapping SourceColumn="STOK_KODU" DataSetColumn="STOK_KODU" />
+              <Mapping SourceColumn="STOK_ADI" DataSetColumn="STOK_ADI" />
+              <Mapping SourceColumn="NET" DataSetColumn="NET" />
+              <Mapping SourceColumn="BRUT" DataSetColumn="BRUT" />
+              <Mapping SourceColumn="DARA" DataSetColumn="DARA" />
+              <Mapping SourceColumn="BOLGE" DataSetColumn="BOLGE" />
+              <Mapping SourceColumn="RENK" DataSetColumn="RENK" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet21" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet21" msprop:Generator_UserDSName="ALANSISDataSet21">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_MAMULSTOK" msprop:Generator_TableClassName="EO_ALANSIS_MAMULSTOKDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_MAMULSTOK" msprop:Generator_TablePropName="EO_ALANSIS_MAMULSTOK" msprop:Generator_RowDeletingName="EO_ALANSIS_MAMULSTOKRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_MAMULSTOKRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_MAMULSTOKRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_MAMULSTOKRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_MAMULSTOK" msprop:Generator_RowChangedName="EO_ALANSIS_MAMULSTOKRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_MAMULSTOKRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_MAMULSTOKRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TARIH" msprop:Generator_ColumnVarNameInTable="columnTARIH" msprop:Generator_ColumnPropNameInRow="TARIH" msprop:Generator_ColumnPropNameInTable="TARIHColumn" msprop:Generator_UserColumnName="TARIH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SERI" msprop:Generator_ColumnVarNameInTable="columnSERI" msprop:Generator_ColumnPropNameInRow="SERI" msprop:Generator_ColumnPropNameInTable="SERIColumn" msprop:Generator_UserColumnName="SERI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_KODU" msprop:Generator_ColumnVarNameInTable="columnSTOK_KODU" msprop:Generator_ColumnPropNameInRow="STOK_KODU" msprop:Generator_ColumnPropNameInTable="STOK_KODUColumn" msprop:Generator_UserColumnName="STOK_KODU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOK_ADI" msprop:Generator_ColumnVarNameInTable="columnSTOK_ADI" msprop:Generator_ColumnPropNameInRow="STOK_ADI" msprop:Generator_ColumnPropNameInTable="STOK_ADIColumn" msprop:Generator_UserColumnName="STOK_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NET" msprop:Generator_ColumnVarNameInTable="columnNET" msprop:Generator_ColumnPropNameInRow="NET" msprop:Generator_ColumnPropNameInTable="NETColumn" msprop:Generator_UserColumnName="NET" type="xs:int" minOccurs="0" />
+              <xs:element name="BRUT" msprop:Generator_ColumnVarNameInTable="columnBRUT" msprop:Generator_ColumnPropNameInRow="BRUT" msprop:Generator_ColumnPropNameInTable="BRUTColumn" msprop:Generator_UserColumnName="BRUT" type="xs:int" minOccurs="0" />
+              <xs:element name="DARA" msprop:Generator_ColumnVarNameInTable="columnDARA" msprop:Generator_ColumnPropNameInRow="DARA" msprop:Generator_ColumnPropNameInTable="DARAColumn" msprop:Generator_UserColumnName="DARA" type="xs:int" minOccurs="0" />
+              <xs:element name="BOLGE" msprop:Generator_ColumnVarNameInTable="columnBOLGE" msprop:Generator_ColumnPropNameInRow="BOLGE" msprop:Generator_ColumnPropNameInTable="BOLGEColumn" msprop:Generator_UserColumnName="BOLGE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RENK" msprop:Generator_ColumnVarNameInTable="columnRENK" msprop:Generator_ColumnPropNameInRow="RENK" msprop:Generator_ColumnPropNameInTable="RENKColumn" msprop:Generator_UserColumnName="RENK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

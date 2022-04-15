@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet10" targetNamespace="http://tempuri.org/ALANSISDataSet10.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet10.xsd" xmlns="http://tempuri.org/ALANSISDataSet10.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_SEVKIYAT_NAKLIYETableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_SEVKIYAT_NAKLIYETableAdapter" Name="EO_ALANSIS_SEVKIYAT_NAKLIYE" UserDataComponentName="EO_ALANSIS_SEVKIYAT_NAKLIYETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_SEVKIYAT_NAKLIYE" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MUSTERI, POS_NO, URUN, ULKE, NAKLIYE, NAVLUN, EXTRA_NAVLUN, LOAD_DATE FROM dbo.EO_ALANSIS_SEVKIYAT_NAKLIYE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MUSTERI" DataSetColumn="MUSTERI" />
+              <Mapping SourceColumn="POS_NO" DataSetColumn="POS_NO" />
+              <Mapping SourceColumn="URUN" DataSetColumn="URUN" />
+              <Mapping SourceColumn="ULKE" DataSetColumn="ULKE" />
+              <Mapping SourceColumn="NAKLIYE" DataSetColumn="NAKLIYE" />
+              <Mapping SourceColumn="NAVLUN" DataSetColumn="NAVLUN" />
+              <Mapping SourceColumn="EXTRA_NAVLUN" DataSetColumn="EXTRA_NAVLUN" />
+              <Mapping SourceColumn="LOAD_DATE" DataSetColumn="LOAD_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet10" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet10" msprop:Generator_UserDSName="ALANSISDataSet10">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_SEVKIYAT_NAKLIYE" msprop:Generator_TableClassName="EO_ALANSIS_SEVKIYAT_NAKLIYEDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_SEVKIYAT_NAKLIYE" msprop:Generator_TablePropName="EO_ALANSIS_SEVKIYAT_NAKLIYE" msprop:Generator_RowDeletingName="EO_ALANSIS_SEVKIYAT_NAKLIYERowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_SEVKIYAT_NAKLIYERowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_SEVKIYAT_NAKLIYERowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_SEVKIYAT_NAKLIYERowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_SEVKIYAT_NAKLIYE" msprop:Generator_RowChangedName="EO_ALANSIS_SEVKIYAT_NAKLIYERowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_SEVKIYAT_NAKLIYERowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_SEVKIYAT_NAKLIYERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MUSTERI" msprop:Generator_ColumnVarNameInTable="columnMUSTERI" msprop:Generator_ColumnPropNameInRow="MUSTERI" msprop:Generator_ColumnPropNameInTable="MUSTERIColumn" msprop:Generator_UserColumnName="MUSTERI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POS_NO" msprop:Generator_ColumnVarNameInTable="columnPOS_NO" msprop:Generator_ColumnPropNameInRow="POS_NO" msprop:Generator_ColumnPropNameInTable="POS_NOColumn" msprop:Generator_UserColumnName="POS_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URUN" msprop:Generator_ColumnVarNameInTable="columnURUN" msprop:Generator_ColumnPropNameInRow="URUN" msprop:Generator_ColumnPropNameInTable="URUNColumn" msprop:Generator_UserColumnName="URUN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ULKE" msprop:Generator_ColumnVarNameInTable="columnULKE" msprop:Generator_ColumnPropNameInRow="ULKE" msprop:Generator_ColumnPropNameInTable="ULKEColumn" msprop:Generator_UserColumnName="ULKE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAKLIYE" msprop:Generator_ColumnVarNameInTable="columnNAKLIYE" msprop:Generator_ColumnPropNameInRow="NAKLIYE" msprop:Generator_ColumnPropNameInTable="NAKLIYEColumn" msprop:Generator_UserColumnName="NAKLIYE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAVLUN" msprop:Generator_ColumnVarNameInTable="columnNAVLUN" msprop:Generator_ColumnPropNameInRow="NAVLUN" msprop:Generator_ColumnPropNameInTable="NAVLUNColumn" msprop:Generator_UserColumnName="NAVLUN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EXTRA_NAVLUN" msprop:Generator_ColumnVarNameInTable="columnEXTRA_NAVLUN" msprop:Generator_ColumnPropNameInRow="EXTRA_NAVLUN" msprop:Generator_ColumnPropNameInTable="EXTRA_NAVLUNColumn" msprop:Generator_UserColumnName="EXTRA_NAVLUN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LOAD_DATE" msprop:Generator_ColumnVarNameInTable="columnLOAD_DATE" msprop:Generator_ColumnPropNameInRow="LOAD_DATE" msprop:Generator_ColumnPropNameInTable="LOAD_DATEColumn" msprop:Generator_UserColumnName="LOAD_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

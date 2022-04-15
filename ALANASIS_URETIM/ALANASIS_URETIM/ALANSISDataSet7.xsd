@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet7" targetNamespace="http://tempuri.org/ALANSISDataSet7.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet7.xsd" xmlns="http://tempuri.org/ALANSISDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMTableAdapter" Name="EO_ALANSIS_SEVKIYATYUKLEMEDURUM" UserDataComponentName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_SEVKIYATYUKLEMEDURUM" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BUGUN_YUKLENMESI_GEREKENLER, YARIN_YUKLENMESI_GEREKENLER, IKI_GUN_SONRA_YUKLENMESI_GEREKENLER, UC_GUN_SONRA_YUKLENMESI_GEREKENLER, DORT_GUN_SONRA_YUKLENMESI_GEREKENLER, BES_GUN_SONRA_YUKLENMESI_GEREKENLER FROM dbo.EO_ALANSIS_SEVKIYATYUKLEMEDURUM</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BUGUN_YUKLENMESI_GEREKENLER" DataSetColumn="BUGUN_YUKLENMESI_GEREKENLER" />
+              <Mapping SourceColumn="YARIN_YUKLENMESI_GEREKENLER" DataSetColumn="YARIN_YUKLENMESI_GEREKENLER" />
+              <Mapping SourceColumn="IKI_GUN_SONRA_YUKLENMESI_GEREKENLER" DataSetColumn="IKI_GUN_SONRA_YUKLENMESI_GEREKENLER" />
+              <Mapping SourceColumn="UC_GUN_SONRA_YUKLENMESI_GEREKENLER" DataSetColumn="UC_GUN_SONRA_YUKLENMESI_GEREKENLER" />
+              <Mapping SourceColumn="DORT_GUN_SONRA_YUKLENMESI_GEREKENLER" DataSetColumn="DORT_GUN_SONRA_YUKLENMESI_GEREKENLER" />
+              <Mapping SourceColumn="BES_GUN_SONRA_YUKLENMESI_GEREKENLER" DataSetColumn="BES_GUN_SONRA_YUKLENMESI_GEREKENLER" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet7" msprop:Generator_UserDSName="ALANSISDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_SEVKIYATYUKLEMEDURUM" msprop:Generator_TableClassName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_SEVKIYATYUKLEMEDURUM" msprop:Generator_TablePropName="EO_ALANSIS_SEVKIYATYUKLEMEDURUM" msprop:Generator_RowDeletingName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_SEVKIYATYUKLEMEDURUM" msprop:Generator_RowChangedName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_SEVKIYATYUKLEMEDURUMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BUGUN_YUKLENMESI_GEREKENLER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBUGUN_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInRow="BUGUN_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInTable="BUGUN_YUKLENMESI_GEREKENLERColumn" msprop:Generator_UserColumnName="BUGUN_YUKLENMESI_GEREKENLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YARIN_YUKLENMESI_GEREKENLER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnYARIN_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInRow="YARIN_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInTable="YARIN_YUKLENMESI_GEREKENLERColumn" msprop:Generator_UserColumnName="YARIN_YUKLENMESI_GEREKENLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IKI_GUN_SONRA_YUKLENMESI_GEREKENLER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIKI_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInRow="IKI_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInTable="IKI_GUN_SONRA_YUKLENMESI_GEREKENLERColumn" msprop:Generator_UserColumnName="IKI_GUN_SONRA_YUKLENMESI_GEREKENLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UC_GUN_SONRA_YUKLENMESI_GEREKENLER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnUC_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInRow="UC_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInTable="UC_GUN_SONRA_YUKLENMESI_GEREKENLERColumn" msprop:Generator_UserColumnName="UC_GUN_SONRA_YUKLENMESI_GEREKENLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DORT_GUN_SONRA_YUKLENMESI_GEREKENLER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDORT_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInRow="DORT_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInTable="DORT_GUN_SONRA_YUKLENMESI_GEREKENLERColumn" msprop:Generator_UserColumnName="DORT_GUN_SONRA_YUKLENMESI_GEREKENLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BES_GUN_SONRA_YUKLENMESI_GEREKENLER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBES_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInRow="BES_GUN_SONRA_YUKLENMESI_GEREKENLER" msprop:Generator_ColumnPropNameInTable="BES_GUN_SONRA_YUKLENMESI_GEREKENLERColumn" msprop:Generator_UserColumnName="BES_GUN_SONRA_YUKLENMESI_GEREKENLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

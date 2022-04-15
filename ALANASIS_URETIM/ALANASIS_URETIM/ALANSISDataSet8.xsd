@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet8" targetNamespace="http://tempuri.org/ALANSISDataSet8.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet8.xsd" xmlns="http://tempuri.org/ALANSISDataSet8.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_SEVKIYAT_TESLIMFARKTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_SEVKIYAT_TESLIMFARKTableAdapter" Name="EO_ALANSIS_SEVKIYAT_TESLIMFARK" UserDataComponentName="EO_ALANSIS_SEVKIYAT_TESLIMFARKTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_SEVKIYAT_TESLIMFARK" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MUSTERI, POS_NO, TESLIM_ULKE, NAKLIYECI, PLANLANAN_YUKLEME_TARIHI, GERCEKLESEN__YUKLEME_TARIHI, YUKLEME_FARK_GUN, YUKLEME_DURUMU, PLANNED_DELIVERY_DATE, GERCEKLESEN_TESLIM, TESLIM_FARK_GUN, TESLIM_DURUMU FROM dbo.EO_ALANSIS_SEVKIYAT_TESLIMFARK</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MUSTERI" DataSetColumn="MUSTERI" />
+              <Mapping SourceColumn="POS_NO" DataSetColumn="POS_NO" />
+              <Mapping SourceColumn="TESLIM_ULKE" DataSetColumn="TESLIM_ULKE" />
+              <Mapping SourceColumn="NAKLIYECI" DataSetColumn="NAKLIYECI" />
+              <Mapping SourceColumn="PLANLANAN_YUKLEME_TARIHI" DataSetColumn="PLANLANAN_YUKLEME_TARIHI" />
+              <Mapping SourceColumn="GERCEKLESEN__YUKLEME_TARIHI" DataSetColumn="GERCEKLESEN__YUKLEME_TARIHI" />
+              <Mapping SourceColumn="YUKLEME_FARK_GUN" DataSetColumn="YUKLEME_FARK_GUN" />
+              <Mapping SourceColumn="YUKLEME_DURUMU" DataSetColumn="YUKLEME_DURUMU" />
+              <Mapping SourceColumn="PLANNED_DELIVERY_DATE" DataSetColumn="PLANNED_DELIVERY_DATE" />
+              <Mapping SourceColumn="GERCEKLESEN_TESLIM" DataSetColumn="GERCEKLESEN_TESLIM" />
+              <Mapping SourceColumn="TESLIM_FARK_GUN" DataSetColumn="TESLIM_FARK_GUN" />
+              <Mapping SourceColumn="TESLIM_DURUMU" DataSetColumn="TESLIM_DURUMU" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet8" msprop:Generator_UserDSName="ALANSISDataSet8">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_SEVKIYAT_TESLIMFARK" msprop:Generator_TableClassName="EO_ALANSIS_SEVKIYAT_TESLIMFARKDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_SEVKIYAT_TESLIMFARK" msprop:Generator_TablePropName="EO_ALANSIS_SEVKIYAT_TESLIMFARK" msprop:Generator_RowDeletingName="EO_ALANSIS_SEVKIYAT_TESLIMFARKRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_SEVKIYAT_TESLIMFARKRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_SEVKIYAT_TESLIMFARKRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_SEVKIYAT_TESLIMFARKRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_SEVKIYAT_TESLIMFARK" msprop:Generator_RowChangedName="EO_ALANSIS_SEVKIYAT_TESLIMFARKRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_SEVKIYAT_TESLIMFARKRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_SEVKIYAT_TESLIMFARKRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MUSTERI" msprop:Generator_ColumnVarNameInTable="columnMUSTERI" msprop:Generator_ColumnPropNameInRow="MUSTERI" msprop:Generator_ColumnPropNameInTable="MUSTERIColumn" msprop:Generator_UserColumnName="MUSTERI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POS_NO" msprop:Generator_ColumnVarNameInTable="columnPOS_NO" msprop:Generator_ColumnPropNameInRow="POS_NO" msprop:Generator_ColumnPropNameInTable="POS_NOColumn" msprop:Generator_UserColumnName="POS_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TESLIM_ULKE" msprop:Generator_ColumnVarNameInTable="columnTESLIM_ULKE" msprop:Generator_ColumnPropNameInRow="TESLIM_ULKE" msprop:Generator_ColumnPropNameInTable="TESLIM_ULKEColumn" msprop:Generator_UserColumnName="TESLIM_ULKE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAKLIYECI" msprop:Generator_ColumnVarNameInTable="columnNAKLIYECI" msprop:Generator_ColumnPropNameInRow="NAKLIYECI" msprop:Generator_ColumnPropNameInTable="NAKLIYECIColumn" msprop:Generator_UserColumnName="NAKLIYECI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PLANLANAN_YUKLEME_TARIHI" msprop:Generator_ColumnVarNameInTable="columnPLANLANAN_YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInRow="PLANLANAN_YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInTable="PLANLANAN_YUKLEME_TARIHIColumn" msprop:Generator_UserColumnName="PLANLANAN_YUKLEME_TARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GERCEKLESEN__YUKLEME_TARIHI" msprop:Generator_ColumnVarNameInTable="columnGERCEKLESEN__YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInRow="GERCEKLESEN__YUKLEME_TARIHI" msprop:Generator_ColumnPropNameInTable="GERCEKLESEN__YUKLEME_TARIHIColumn" msprop:Generator_UserColumnName="GERCEKLESEN__YUKLEME_TARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="YUKLEME_FARK_GUN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnYUKLEME_FARK_GUN" msprop:Generator_ColumnPropNameInRow="YUKLEME_FARK_GUN" msprop:Generator_ColumnPropNameInTable="YUKLEME_FARK_GUNColumn" msprop:Generator_UserColumnName="YUKLEME_FARK_GUN" type="xs:int" minOccurs="0" />
+              <xs:element name="YUKLEME_DURUMU" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnYUKLEME_DURUMU" msprop:Generator_ColumnPropNameInRow="YUKLEME_DURUMU" msprop:Generator_ColumnPropNameInTable="YUKLEME_DURUMUColumn" msprop:Generator_UserColumnName="YUKLEME_DURUMU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="17" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PLANNED_DELIVERY_DATE" msprop:Generator_ColumnVarNameInTable="columnPLANNED_DELIVERY_DATE" msprop:Generator_ColumnPropNameInRow="PLANNED_DELIVERY_DATE" msprop:Generator_ColumnPropNameInTable="PLANNED_DELIVERY_DATEColumn" msprop:Generator_UserColumnName="PLANNED_DELIVERY_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GERCEKLESEN_TESLIM" msprop:Generator_ColumnVarNameInTable="columnGERCEKLESEN_TESLIM" msprop:Generator_ColumnPropNameInRow="GERCEKLESEN_TESLIM" msprop:Generator_ColumnPropNameInTable="GERCEKLESEN_TESLIMColumn" msprop:Generator_UserColumnName="GERCEKLESEN_TESLIM" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TESLIM_FARK_GUN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTESLIM_FARK_GUN" msprop:Generator_ColumnPropNameInRow="TESLIM_FARK_GUN" msprop:Generator_ColumnPropNameInTable="TESLIM_FARK_GUNColumn" msprop:Generator_UserColumnName="TESLIM_FARK_GUN" type="xs:int" minOccurs="0" />
+              <xs:element name="TESLIM_DURUMU" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTESLIM_DURUMU" msprop:Generator_ColumnPropNameInRow="TESLIM_DURUMU" msprop:Generator_ColumnPropNameInTable="TESLIM_DURUMUColumn" msprop:Generator_UserColumnName="TESLIM_DURUMU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
