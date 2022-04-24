@@ -84,134 +84,134 @@ Partial Class Form146
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(129, 7)
+        Me.Label4.Location = New System.Drawing.Point(150, 9)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 13)
+        Me.Label4.Size = New System.Drawing.Size(76, 17)
         Me.Label4.TabIndex = 18
         Me.Label4.Text = "Ürün Çeşidi"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(4, 7)
+        Me.Label1.Location = New System.Drawing.Point(5, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(93, 13)
+        Me.Label1.Size = New System.Drawing.Size(118, 17)
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "Fumigasyon Tarihi"
         '
         'Label2
         '
-        Me.Label2.Location = New System.Drawing.Point(9, 32)
+        Me.Label2.Location = New System.Drawing.Point(10, 45)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(175, 27)
+        Me.Label2.Size = New System.Drawing.Size(204, 27)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Üretici / Bölge Kodu / Tedarikçi Adı"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
-        Me.Label5.Location = New System.Drawing.Point(199, 32)
+        Me.Label5.Location = New System.Drawing.Point(232, 45)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(81, 27)
+        Me.Label5.Size = New System.Drawing.Size(94, 21)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Fumigasyon Başlangıç Saati"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label6
         '
-        Me.Label6.Location = New System.Drawing.Point(295, 32)
+        Me.Label6.Location = New System.Drawing.Point(344, 39)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(114, 27)
+        Me.Label6.Size = New System.Drawing.Size(133, 33)
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Hasat Tarihi"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
         '
-        Me.Label7.Location = New System.Drawing.Point(424, 32)
+        Me.Label7.Location = New System.Drawing.Point(495, 39)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(100, 27)
+        Me.Label7.Size = New System.Drawing.Size(117, 33)
         Me.Label7.TabIndex = 14
         Me.Label7.Text = "Müşteri Adı"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label10
         '
-        Me.Label10.Location = New System.Drawing.Point(759, 32)
+        Me.Label10.Location = New System.Drawing.Point(885, 39)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(100, 27)
+        Me.Label10.Size = New System.Drawing.Size(117, 33)
         Me.Label10.TabIndex = 18
         Me.Label10.Text = "Parti No"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label17
         '
-        Me.Label17.Location = New System.Drawing.Point(9, 101)
+        Me.Label17.Location = New System.Drawing.Point(10, 124)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(92, 27)
+        Me.Label17.Size = New System.Drawing.Size(107, 33)
         Me.Label17.TabIndex = 19
         Me.Label17.Text = "Meyve Sıcaklığı (°C)"
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label16
         '
-        Me.Label16.Location = New System.Drawing.Point(107, 101)
+        Me.Label16.Location = New System.Drawing.Point(125, 124)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(92, 27)
+        Me.Label16.Size = New System.Drawing.Size(107, 33)
         Me.Label16.TabIndex = 26
         Me.Label16.Text = "Konteyner Sıcaklığı (°C)"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label15
         '
-        Me.Label15.Location = New System.Drawing.Point(206, 101)
+        Me.Label15.Location = New System.Drawing.Point(240, 124)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(141, 27)
+        Me.Label15.Size = New System.Drawing.Size(164, 33)
         Me.Label15.TabIndex = 27
         Me.Label15.Text = "Başlangıç Konsantrasyonu (MeBr - std 145 g/m3)"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label12
         '
-        Me.Label12.Location = New System.Drawing.Point(571, 101)
+        Me.Label12.Location = New System.Drawing.Point(666, 124)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(92, 27)
+        Me.Label12.Size = New System.Drawing.Size(107, 33)
         Me.Label12.TabIndex = 30
         Me.Label12.Text = "Fumigasyon Süresi"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label11
         '
-        Me.Label11.Location = New System.Drawing.Point(666, 101)
+        Me.Label11.Location = New System.Drawing.Point(777, 124)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(193, 27)
+        Me.Label11.Size = New System.Drawing.Size(225, 33)
         Me.Label11.TabIndex = 32
         Me.Label11.Text = "Fumigasyon Operatörü"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label26
         '
-        Me.Label26.Location = New System.Drawing.Point(9, 163)
+        Me.Label26.Location = New System.Drawing.Point(10, 201)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(92, 27)
+        Me.Label26.Size = New System.Drawing.Size(107, 33)
         Me.Label26.TabIndex = 35
         Me.Label26.Text = "Açıklama"
         Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
         '
-        Me.Label3.Location = New System.Drawing.Point(353, 101)
+        Me.Label3.Location = New System.Drawing.Point(412, 124)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(125, 27)
+        Me.Label3.Size = New System.Drawing.Size(146, 33)
         Me.Label3.TabIndex = 68
         Me.Label3.Text = "Bitiş Konsantrasyonu (MeBr - std 145 g/m3)"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label8
         '
-        Me.Label8.Location = New System.Drawing.Point(484, 101)
+        Me.Label8.Location = New System.Drawing.Point(565, 124)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(81, 27)
+        Me.Label8.Size = New System.Drawing.Size(94, 33)
         Me.Label8.TabIndex = 70
         Me.Label8.Text = "Fumigasyon Bitiş Saati"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -244,162 +244,180 @@ Partial Class Form146
         Me.GroupControl1.Controls.Add(Me.TextEdit4)
         Me.GroupControl1.Controls.Add(Me.TextEdit2)
         Me.GroupControl1.Controls.Add(Me.Label2)
-        Me.GroupControl1.Location = New System.Drawing.Point(4, 49)
+        Me.GroupControl1.Location = New System.Drawing.Point(5, 60)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(869, 315)
+        Me.GroupControl1.Size = New System.Drawing.Size(1014, 388)
         Me.GroupControl1.TabIndex = 19
         Me.GroupControl1.Text = "KONTROL İŞLEMLERİ"
         '
         'MemoEdit1
         '
-        Me.MemoEdit1.Location = New System.Drawing.Point(12, 189)
+        Me.MemoEdit1.Location = New System.Drawing.Point(14, 233)
+        Me.MemoEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MemoEdit1.Name = "MemoEdit1"
-        Me.MemoEdit1.Size = New System.Drawing.Size(847, 109)
+        Me.MemoEdit1.Size = New System.Drawing.Size(988, 134)
         Me.MemoEdit1.TabIndex = 71
         '
         'TextEdit8
         '
-        Me.TextEdit8.Location = New System.Drawing.Point(484, 131)
+        Me.TextEdit8.Location = New System.Drawing.Point(565, 161)
+        Me.TextEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Properties.BeepOnError = False
         Me.TextEdit8.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
         Me.TextEdit8.Properties.MaskSettings.Set("mask", "t")
-        Me.TextEdit8.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit8.Size = New System.Drawing.Size(94, 23)
         Me.TextEdit8.TabIndex = 69
         '
         'TextEdit7
         '
         Me.TextEdit7.EditValue = "0"
-        Me.TextEdit7.Location = New System.Drawing.Point(353, 131)
+        Me.TextEdit7.Location = New System.Drawing.Point(412, 161)
+        Me.TextEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit7.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit7.Size = New System.Drawing.Size(125, 20)
+        Me.TextEdit7.Size = New System.Drawing.Size(146, 23)
         Me.TextEdit7.TabIndex = 67
         '
         'TextEdit17
         '
-        Me.TextEdit17.Location = New System.Drawing.Point(669, 131)
+        Me.TextEdit17.Location = New System.Drawing.Point(780, 161)
+        Me.TextEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit17.Name = "TextEdit17"
-        Me.TextEdit17.Size = New System.Drawing.Size(190, 20)
+        Me.TextEdit17.Size = New System.Drawing.Size(222, 23)
         Me.TextEdit17.TabIndex = 34
         '
         'TextEdit10
         '
-        Me.TextEdit10.Location = New System.Drawing.Point(571, 131)
+        Me.TextEdit10.Location = New System.Drawing.Point(666, 161)
+        Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Size = New System.Drawing.Size(92, 20)
+        Me.TextEdit10.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit10.TabIndex = 31
         '
         'TextEdit14
         '
         Me.TextEdit14.EditValue = "0"
-        Me.TextEdit14.Location = New System.Drawing.Point(205, 131)
+        Me.TextEdit14.Location = New System.Drawing.Point(239, 161)
+        Me.TextEdit14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit14.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit14.Size = New System.Drawing.Size(142, 20)
+        Me.TextEdit14.Size = New System.Drawing.Size(166, 23)
         Me.TextEdit14.TabIndex = 22
         '
         'TextEdit15
         '
         Me.TextEdit15.EditValue = "0"
-        Me.TextEdit15.Location = New System.Drawing.Point(107, 131)
+        Me.TextEdit15.Location = New System.Drawing.Point(125, 161)
+        Me.TextEdit15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit15.Name = "TextEdit15"
         Me.TextEdit15.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit15.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit15.Size = New System.Drawing.Size(92, 20)
+        Me.TextEdit15.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit15.TabIndex = 21
         '
         'TextEdit16
         '
         Me.TextEdit16.EditValue = "0"
-        Me.TextEdit16.Location = New System.Drawing.Point(9, 131)
+        Me.TextEdit16.Location = New System.Drawing.Point(10, 161)
+        Me.TextEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit16.Name = "TextEdit16"
         Me.TextEdit16.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit16.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit16.Size = New System.Drawing.Size(92, 20)
+        Me.TextEdit16.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit16.TabIndex = 20
         '
         'TextEdit9
         '
-        Me.TextEdit9.Location = New System.Drawing.Point(759, 62)
+        Me.TextEdit9.Location = New System.Drawing.Point(885, 76)
+        Me.TextEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Size = New System.Drawing.Size(100, 20)
+        Me.TextEdit9.Size = New System.Drawing.Size(117, 23)
         Me.TextEdit9.TabIndex = 17
         '
         'TextEdit6
         '
-        Me.TextEdit6.Location = New System.Drawing.Point(424, 62)
+        Me.TextEdit6.Location = New System.Drawing.Point(495, 76)
+        Me.TextEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Size = New System.Drawing.Size(320, 20)
+        Me.TextEdit6.Size = New System.Drawing.Size(373, 23)
         Me.TextEdit6.TabIndex = 9
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(295, 62)
+        Me.TextEdit5.Location = New System.Drawing.Point(344, 76)
+        Me.TextEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Properties.BeepOnError = False
         Me.TextEdit5.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
         Me.TextEdit5.Properties.MaskSettings.Set("mask", "d")
-        Me.TextEdit5.Size = New System.Drawing.Size(114, 20)
+        Me.TextEdit5.Size = New System.Drawing.Size(133, 23)
         Me.TextEdit5.TabIndex = 8
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(199, 62)
+        Me.TextEdit4.Location = New System.Drawing.Point(232, 76)
+        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.BeepOnError = False
         Me.TextEdit4.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
         Me.TextEdit4.Properties.MaskSettings.Set("mask", "t")
-        Me.TextEdit4.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit4.Size = New System.Drawing.Size(94, 23)
         Me.TextEdit4.TabIndex = 7
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(9, 62)
+        Me.TextEdit2.Location = New System.Drawing.Point(10, 76)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(167, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(195, 23)
         Me.TextEdit2.TabIndex = 6
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(128, 370)
+        Me.SimpleButton2.Location = New System.Drawing.Point(149, 455)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(92, 40)
+        Me.SimpleButton2.Size = New System.Drawing.Size(107, 49)
         Me.SimpleButton2.TabIndex = 21
         Me.SimpleButton2.Text = "Sil"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(13, 370)
+        Me.SimpleButton1.Location = New System.Drawing.Point(15, 455)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(92, 40)
+        Me.SimpleButton1.Size = New System.Drawing.Size(107, 49)
         Me.SimpleButton1.TabIndex = 20
         Me.SimpleButton1.Text = "Kaydet"
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(120, 23)
+        Me.TextEdit3.Location = New System.Drawing.Point(140, 28)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(100, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(117, 23)
         Me.TextEdit3.TabIndex = 17
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(4, 23)
+        Me.TextEdit1.Location = New System.Drawing.Point(5, 28)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.BeepOnError = False
         Me.TextEdit1.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
         Me.TextEdit1.Properties.MaskSettings.Set("mask", "d")
-        Me.TextEdit1.Size = New System.Drawing.Size(100, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(117, 23)
         Me.TextEdit1.TabIndex = 15
         '
         'Form146
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(872, 421)
+        Me.ClientSize = New System.Drawing.Size(1017, 518)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.GroupControl1)
@@ -408,6 +426,7 @@ Partial Class Form146
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextEdit1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form146"
         Me.Text = "ALANSIS KİRAZ FUMİGASYONU (Metil Bromid-MeBr) MODULU"
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()

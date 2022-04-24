@@ -23,25 +23,25 @@ Partial Class Form223
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim SelectQuery2 As DevExpress.DataAccess.Sql.SelectQuery = New DevExpress.DataAccess.Sql.SelectQuery()
-        Dim AllColumns2 As DevExpress.DataAccess.Sql.AllColumns = New DevExpress.DataAccess.Sql.AllColumns()
-        Dim Table2 As DevExpress.DataAccess.Sql.Table = New DevExpress.DataAccess.Sql.Table()
+        Dim SelectQuery3 As DevExpress.DataAccess.Sql.SelectQuery = New DevExpress.DataAccess.Sql.SelectQuery()
+        Dim AllColumns3 As DevExpress.DataAccess.Sql.AllColumns = New DevExpress.DataAccess.Sql.AllColumns()
+        Dim Table3 As DevExpress.DataAccess.Sql.Table = New DevExpress.DataAccess.Sql.Table()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form223))
-        Dim DataSourceColumnBinding16 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding17 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding18 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding19 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding20 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding21 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding22 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding23 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding24 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding25 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding26 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding27 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding28 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding29 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
-        Dim DataSourceColumnBinding30 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding31 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding32 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding33 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding34 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding35 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding36 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding37 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding38 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding39 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding40 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding41 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding42 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding43 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding44 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
+        Dim DataSourceColumnBinding45 As DevExpress.XtraPivotGrid.DataSourceColumnBinding = New DevExpress.XtraPivotGrid.DataSourceColumnBinding()
         Me.PivotGridControl1 = New DevExpress.XtraPivotGrid.PivotGridControl()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
@@ -85,161 +85,197 @@ Partial Class Form223
         Me.PivotGridControl2.DataMember = "EO_PTEST4"
         Me.PivotGridControl2.DataSource = Me.SqlDataSource1
         Me.PivotGridControl2.Fields.AddRange(New DevExpress.XtraPivotGrid.PivotGridField() {Me.fieldMEYVEALIMTARIH, Me.fieldBOLGE, Me.fieldURUNCESIDI, Me.fieldURETICITC, Me.fieldURETICIADSOY, Me.fieldKASASAYI, Me.fieldKASABRUT, Me.fieldKASANET, Me.fieldFIYAT, Me.fieldHAMMADDEKABULTARIH, Me.fieldYUKLENENPARTI, Me.fieldYUKLEMETARIH, Me.fieldPALETBRUT, Me.fieldPALETNET, Me.fieldRENK})
-        Me.PivotGridControl2.Location = New System.Drawing.Point(0, 45)
+        Me.PivotGridControl2.Location = New System.Drawing.Point(0, 55)
+        Me.PivotGridControl2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PivotGridControl2.Name = "PivotGridControl2"
         Me.PivotGridControl2.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized
-        Me.PivotGridControl2.Size = New System.Drawing.Size(1313, 541)
+        Me.PivotGridControl2.OptionsDataField.RowHeaderWidth = 117
+        Me.PivotGridControl2.OptionsView.RowTreeOffset = 24
+        Me.PivotGridControl2.OptionsView.RowTreeWidth = 117
+        Me.PivotGridControl2.Size = New System.Drawing.Size(1532, 666)
         Me.PivotGridControl2.TabIndex = 0
         '
         'SqlDataSource1
         '
         Me.SqlDataSource1.ConnectionName = "WindowsApplication1.My.MySettings.ALANSISConnectionString"
         Me.SqlDataSource1.Name = "SqlDataSource1"
-        Table2.MetaSerializable = "<Meta X=""30"" Y=""30"" Width=""125"" Height=""363"" />"
-        Table2.Name = "EO_PTEST4"
-        AllColumns2.Table = Table2
-        SelectQuery2.Columns.Add(AllColumns2)
-        SelectQuery2.Name = "EO_PTEST4"
-        SelectQuery2.Tables.Add(Table2)
-        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {SelectQuery2})
+        Table3.MetaSerializable = "<Meta X=""30"" Y=""30"" Width=""125"" Height=""363"" />"
+        Table3.Name = "EO_PTEST4"
+        AllColumns3.Table = Table3
+        SelectQuery3.Columns.Add(AllColumns3)
+        SelectQuery3.Name = "EO_PTEST4"
+        SelectQuery3.Tables.Add(Table3)
+        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {SelectQuery3})
         Me.SqlDataSource1.ResultSchemaSerializable = resources.GetString("SqlDataSource1.ResultSchemaSerializable")
         '
         'fieldMEYVEALIMTARIH
         '
         Me.fieldMEYVEALIMTARIH.AreaIndex = 0
         Me.fieldMEYVEALIMTARIH.Caption = "MEYVE_ALIM_TARIH"
-        DataSourceColumnBinding16.ColumnName = "MEYVE_ALIM_TARIH"
-        Me.fieldMEYVEALIMTARIH.DataBinding = DataSourceColumnBinding16
+        DataSourceColumnBinding31.ColumnName = "MEYVE_ALIM_TARIH"
+        Me.fieldMEYVEALIMTARIH.DataBinding = DataSourceColumnBinding31
+        Me.fieldMEYVEALIMTARIH.MinWidth = 23
         Me.fieldMEYVEALIMTARIH.Name = "fieldMEYVEALIMTARIH"
+        Me.fieldMEYVEALIMTARIH.Width = 117
         '
         'fieldBOLGE
         '
         Me.fieldBOLGE.AreaIndex = 1
         Me.fieldBOLGE.Caption = "BOLGE"
-        DataSourceColumnBinding17.ColumnName = "BOLGE"
-        Me.fieldBOLGE.DataBinding = DataSourceColumnBinding17
+        DataSourceColumnBinding32.ColumnName = "BOLGE"
+        Me.fieldBOLGE.DataBinding = DataSourceColumnBinding32
+        Me.fieldBOLGE.MinWidth = 23
         Me.fieldBOLGE.Name = "fieldBOLGE"
+        Me.fieldBOLGE.Width = 117
         '
         'fieldURUNCESIDI
         '
         Me.fieldURUNCESIDI.AreaIndex = 2
         Me.fieldURUNCESIDI.Caption = "URUN_CESIDI"
-        DataSourceColumnBinding18.ColumnName = "URUN_CESIDI"
-        Me.fieldURUNCESIDI.DataBinding = DataSourceColumnBinding18
+        DataSourceColumnBinding33.ColumnName = "URUN_CESIDI"
+        Me.fieldURUNCESIDI.DataBinding = DataSourceColumnBinding33
+        Me.fieldURUNCESIDI.MinWidth = 23
         Me.fieldURUNCESIDI.Name = "fieldURUNCESIDI"
+        Me.fieldURUNCESIDI.Width = 117
         '
         'fieldURETICITC
         '
         Me.fieldURETICITC.AreaIndex = 3
         Me.fieldURETICITC.Caption = "URETICI_TC"
-        DataSourceColumnBinding19.ColumnName = "URETICI_TC"
-        Me.fieldURETICITC.DataBinding = DataSourceColumnBinding19
+        DataSourceColumnBinding34.ColumnName = "URETICI_TC"
+        Me.fieldURETICITC.DataBinding = DataSourceColumnBinding34
+        Me.fieldURETICITC.MinWidth = 23
         Me.fieldURETICITC.Name = "fieldURETICITC"
+        Me.fieldURETICITC.Width = 117
         '
         'fieldURETICIADSOY
         '
         Me.fieldURETICIADSOY.AreaIndex = 4
         Me.fieldURETICIADSOY.Caption = "URETICI_ADSOY"
-        DataSourceColumnBinding20.ColumnName = "URETICI_ADSOY"
-        Me.fieldURETICIADSOY.DataBinding = DataSourceColumnBinding20
+        DataSourceColumnBinding35.ColumnName = "URETICI_ADSOY"
+        Me.fieldURETICIADSOY.DataBinding = DataSourceColumnBinding35
+        Me.fieldURETICIADSOY.MinWidth = 23
         Me.fieldURETICIADSOY.Name = "fieldURETICIADSOY"
+        Me.fieldURETICIADSOY.Width = 117
         '
         'fieldKASASAYI
         '
         Me.fieldKASASAYI.AreaIndex = 5
         Me.fieldKASASAYI.Caption = "KASA_SAYI"
-        DataSourceColumnBinding21.ColumnName = "KASA_SAYI"
-        Me.fieldKASASAYI.DataBinding = DataSourceColumnBinding21
+        DataSourceColumnBinding36.ColumnName = "KASA_SAYI"
+        Me.fieldKASASAYI.DataBinding = DataSourceColumnBinding36
+        Me.fieldKASASAYI.MinWidth = 23
         Me.fieldKASASAYI.Name = "fieldKASASAYI"
+        Me.fieldKASASAYI.Width = 117
         '
         'fieldKASABRUT
         '
         Me.fieldKASABRUT.AreaIndex = 6
         Me.fieldKASABRUT.Caption = "KASA_BRUT"
-        DataSourceColumnBinding22.ColumnName = "KASA_BRUT"
-        Me.fieldKASABRUT.DataBinding = DataSourceColumnBinding22
+        DataSourceColumnBinding37.ColumnName = "KASA_BRUT"
+        Me.fieldKASABRUT.DataBinding = DataSourceColumnBinding37
+        Me.fieldKASABRUT.MinWidth = 23
         Me.fieldKASABRUT.Name = "fieldKASABRUT"
+        Me.fieldKASABRUT.Width = 117
         '
         'fieldKASANET
         '
         Me.fieldKASANET.AreaIndex = 7
         Me.fieldKASANET.Caption = "KASA_NET"
-        DataSourceColumnBinding23.ColumnName = "KASA_NET"
-        Me.fieldKASANET.DataBinding = DataSourceColumnBinding23
+        DataSourceColumnBinding38.ColumnName = "KASA_NET"
+        Me.fieldKASANET.DataBinding = DataSourceColumnBinding38
+        Me.fieldKASANET.MinWidth = 23
         Me.fieldKASANET.Name = "fieldKASANET"
+        Me.fieldKASANET.Width = 117
         '
         'fieldFIYAT
         '
         Me.fieldFIYAT.AreaIndex = 8
         Me.fieldFIYAT.Caption = "FIYAT"
-        DataSourceColumnBinding24.ColumnName = "FIYAT"
-        Me.fieldFIYAT.DataBinding = DataSourceColumnBinding24
+        DataSourceColumnBinding39.ColumnName = "FIYAT"
+        Me.fieldFIYAT.DataBinding = DataSourceColumnBinding39
+        Me.fieldFIYAT.MinWidth = 23
         Me.fieldFIYAT.Name = "fieldFIYAT"
+        Me.fieldFIYAT.Width = 117
         '
         'fieldHAMMADDEKABULTARIH
         '
         Me.fieldHAMMADDEKABULTARIH.AreaIndex = 9
         Me.fieldHAMMADDEKABULTARIH.Caption = "HAMMADDE_KABUL_TARIH"
-        DataSourceColumnBinding25.ColumnName = "HAMMADDE_KABUL_TARIH"
-        Me.fieldHAMMADDEKABULTARIH.DataBinding = DataSourceColumnBinding25
+        DataSourceColumnBinding40.ColumnName = "HAMMADDE_KABUL_TARIH"
+        Me.fieldHAMMADDEKABULTARIH.DataBinding = DataSourceColumnBinding40
+        Me.fieldHAMMADDEKABULTARIH.MinWidth = 23
         Me.fieldHAMMADDEKABULTARIH.Name = "fieldHAMMADDEKABULTARIH"
+        Me.fieldHAMMADDEKABULTARIH.Width = 117
         '
         'fieldYUKLENENPARTI
         '
         Me.fieldYUKLENENPARTI.AreaIndex = 10
         Me.fieldYUKLENENPARTI.Caption = "YUKLENEN_PARTI"
-        DataSourceColumnBinding26.ColumnName = "YUKLENEN_PARTI"
-        Me.fieldYUKLENENPARTI.DataBinding = DataSourceColumnBinding26
+        DataSourceColumnBinding41.ColumnName = "YUKLENEN_PARTI"
+        Me.fieldYUKLENENPARTI.DataBinding = DataSourceColumnBinding41
+        Me.fieldYUKLENENPARTI.MinWidth = 23
         Me.fieldYUKLENENPARTI.Name = "fieldYUKLENENPARTI"
+        Me.fieldYUKLENENPARTI.Width = 117
         '
         'fieldYUKLEMETARIH
         '
         Me.fieldYUKLEMETARIH.AreaIndex = 11
         Me.fieldYUKLEMETARIH.Caption = "YUKLEME_TARIH"
-        DataSourceColumnBinding27.ColumnName = "YUKLEME_TARIH"
-        Me.fieldYUKLEMETARIH.DataBinding = DataSourceColumnBinding27
+        DataSourceColumnBinding42.ColumnName = "YUKLEME_TARIH"
+        Me.fieldYUKLEMETARIH.DataBinding = DataSourceColumnBinding42
+        Me.fieldYUKLEMETARIH.MinWidth = 23
         Me.fieldYUKLEMETARIH.Name = "fieldYUKLEMETARIH"
+        Me.fieldYUKLEMETARIH.Width = 117
         '
         'fieldPALETBRUT
         '
         Me.fieldPALETBRUT.AreaIndex = 12
         Me.fieldPALETBRUT.Caption = "PALET_BRUT"
-        DataSourceColumnBinding28.ColumnName = "PALET_BRUT"
-        Me.fieldPALETBRUT.DataBinding = DataSourceColumnBinding28
+        DataSourceColumnBinding43.ColumnName = "PALET_BRUT"
+        Me.fieldPALETBRUT.DataBinding = DataSourceColumnBinding43
+        Me.fieldPALETBRUT.MinWidth = 23
         Me.fieldPALETBRUT.Name = "fieldPALETBRUT"
+        Me.fieldPALETBRUT.Width = 117
         '
         'fieldPALETNET
         '
         Me.fieldPALETNET.AreaIndex = 13
         Me.fieldPALETNET.Caption = "PALET_NET"
-        DataSourceColumnBinding29.ColumnName = "PALET_NET"
-        Me.fieldPALETNET.DataBinding = DataSourceColumnBinding29
+        DataSourceColumnBinding44.ColumnName = "PALET_NET"
+        Me.fieldPALETNET.DataBinding = DataSourceColumnBinding44
+        Me.fieldPALETNET.MinWidth = 23
         Me.fieldPALETNET.Name = "fieldPALETNET"
+        Me.fieldPALETNET.Width = 117
         '
         'fieldRENK
         '
         Me.fieldRENK.AreaIndex = 14
         Me.fieldRENK.Caption = "RENK"
-        DataSourceColumnBinding30.ColumnName = "RENK"
-        Me.fieldRENK.DataBinding = DataSourceColumnBinding30
+        DataSourceColumnBinding45.ColumnName = "RENK"
+        Me.fieldRENK.DataBinding = DataSourceColumnBinding45
+        Me.fieldRENK.MinWidth = 23
         Me.fieldRENK.Name = "fieldRENK"
+        Me.fieldRENK.Width = 117
         '
         'SimpleButton2
         '
         Me.SimpleButton2.ImageOptions.Image = CType(resources.GetObject("SimpleButton2.ImageOptions.Image"), System.Drawing.Image)
         Me.SimpleButton2.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter
-        Me.SimpleButton2.Location = New System.Drawing.Point(0, 7)
+        Me.SimpleButton2.Location = New System.Drawing.Point(0, 9)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(37, 32)
+        Me.SimpleButton2.Size = New System.Drawing.Size(43, 39)
         Me.SimpleButton2.TabIndex = 20
         '
         'Form223
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1337, 586)
+        Me.ClientSize = New System.Drawing.Size(1560, 721)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.PivotGridControl2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form223"
         Me.Text = "Form223"
         CType(Me.PivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()

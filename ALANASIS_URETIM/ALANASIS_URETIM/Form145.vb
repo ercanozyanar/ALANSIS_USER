@@ -24,7 +24,7 @@ Public Class Form145
         Dim reader1 As System.Data.SqlClient.SqlDataReader
         reader1 = SqlComm1.ExecuteReader()
         While reader1.Read()
-            ComboBoxEdit3.Properties.Items.Add("BOLGE")
+            ComboBoxEdit3.Properties.Items.Add(reader1("BOLGE"))
         End While
         reader1.Close()
         SqlConn.Close()
@@ -35,18 +35,18 @@ Public Class Form145
         Dim reader2 As System.Data.SqlClient.SqlDataReader
         reader2 = SqlComm2.ExecuteReader()
         While reader2.Read()
-            ComboBoxEdit4.Properties.Items.Add("CESIT")
+            ComboBoxEdit4.Properties.Items.Add(reader2("CESIT"))
         End While
         reader2.Close()
         SqlConn.Close()
         '-----------------------------------------------------------------------------------------
         SqlConn.Open()
-        Dim mySelectQuery3 As String = "SELECT PARTI FROM EO_ALANSIS_SATIS WHERE (SATIS_ONAY='OK' AND URETIM_ONAY='OK'"
+        Dim mySelectQuery3 As String = "SELECT PARTI FROM EO_ALANSIS_SATIS WHERE (SATIS_ONAY='OK' AND URETIM_ONAY='OK')"
         Dim SqlComm3 As New System.Data.SqlClient.SqlCommand(mySelectQuery3, SqlConn)
         Dim reader3 As System.Data.SqlClient.SqlDataReader
         reader3 = SqlComm3.ExecuteReader()
         While reader3.Read()
-            ComboBoxEdit5.Properties.Items.Add("PARTI")
+            ComboBoxEdit5.Properties.Items.Add(reader3("PARTI"))
         End While
         reader3.Close()
         SqlConn.Close()
@@ -57,7 +57,7 @@ Public Class Form145
         Dim reader4 As System.Data.SqlClient.SqlDataReader
         reader4 = SqlComm4.ExecuteReader()
         While reader4.Read()
-            ComboBoxEdit6.Properties.Items.Add("AMBALAJ_TIPI")
+            ComboBoxEdit6.Properties.Items.Add(reader4("AMBALAJ_TIPI"))
         End While
         reader4.Close()
         SqlConn.Close()
@@ -68,7 +68,7 @@ Public Class Form145
         Dim reader5 As System.Data.SqlClient.SqlDataReader
         reader5 = SqlComm5.ExecuteReader()
         While reader5.Read()
-            ComboBoxEdit11.Properties.Items.Add("ISLEM")
+            ComboBoxEdit11.Properties.Items.Add(reader5("ISLEM"))
         End While
         reader5.Close()
         SqlConn.Close()
@@ -130,7 +130,7 @@ Public Class Form145
         conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907"
         conn1.Open()
         cmd1.Connection = conn1
-        cmd1.CommandText = "INSERT INTO EO_KIRAZPAKET_KONTROL (HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URUN_CINSI, ETIKET_CESIDI, MUSTERI_ADI, ALINAN_NUMUNE, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET,EBAT_USTU) VALUES ( '" & TextEdit1.Text & "','" & Date.Today & "','" & TextEdit2.Text & "','" & TextEdit3.Text & "','" & ComboBoxEdit1.Text & "','" & ComboBoxEdit2.Text & "','" & ComboBoxEdit3.Text & "','" & ComboBoxEdit4.Text & "','" & TextEdit5.Text & "','" & TextEdit6.Text & "','" & ComboBoxEdit3.Text & "','" & TextEdit8.Text & "','" & TextEdit9.Text & "','" & TextEdit16.Text & "','" & Replace(x1, ",", ".") & "','" & Replace(x2, ",", ".") & "','" & Replace(x3, ",", ".") & "','" & Replace(x4, ",", ".") & "','" & Replace(x5, ",", ".") & "', '" & Replace(x6, ",", ".") & "','" & Replace(x7, ",", ".") & "','" & Replace(x8, ",", ".") & "','" & Replace(x9, ",", ".") & "','" & Replace(x10, ",", ".") & "','" & Replace(x11, ",", ".") & "','" & Replace(x13, ",", ".") & "','" & Replace(x14, ",", ".") & "','" & Replace(x12, ",", ".") & "','" & Replace(x18, ",", ".") & "','" & Replace(x15, ",", ".") & "','" & Replace(x16, ",", ".") & "','" & Replace(x17, ",", ".") & "','" & Replace(x19, ",", ".") & "','" & TextEdit29.Text & "','" & TextEdit30.Text & "','" & TextEdit31.Text & "','" & TextEdit32.Text & "','" & TextEdit34.Text & "','" & TextEdit35.Text & "')"
+        cmd1.CommandText = "INSERT INTO EO_KIRAZPAKET_KONTROL (HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URUN_CINSI, ISLEM, MUSTERI_ADI,IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL) VALUES ( '" & TextEdit1.Text & "','" & Date.Today & "','" & TextEdit2.Text & "','" & TextEdit3.Text & "','" & ComboBoxEdit1.Text & "','" & ComboBoxEdit2.Text & "','" & ComboBoxEdit3.Text & "','" & ComboBoxEdit4.Text & "','" & ComboBoxEdit11.Text & "','" & ComboBoxEdit5.Text & "','" & TextEdit8.Text & "','" & ComboBoxEdit6.Text & "','" & ComboBoxEdit7.Text & "','" & Replace(x1, ",", ".") & "','" & Replace(x2, ",", ".") & "','" & Replace(x3, ",", ".") & "','" & Replace(x4, ",", ".") & "','" & Replace(x5, ",", ".") & "', '" & Replace(x6, ",", ".") & "','" & Replace(x7, ",", ".") & "','" & Replace(x8, ",", ".") & "','" & Replace(x9, ",", ".") & "','" & Replace(x10, ",", ".") & "','" & Replace(x11, ",", ".") & "','" & Replace(x13, ",", ".") & "','" & Replace(x14, ",", ".") & "','" & Replace(x12, ",", ".") & "','" & Replace(x18, ",", ".") & "','" & Replace(x15, ",", ".") & "','" & Replace(x16, ",", ".") & "','" & Replace(x17, ",", ".") & "','" & Replace(x19, ",", ".") & "','" & ComboBoxEdit8.Text & "','" & ComboBoxEdit9.Text & "','" & ComboBoxEdit10.Text & "','" & TextEdit32.Text & "')"
         cmd1.ExecuteNonQuery()
         conn1.Close()
         '---------------------------------------------------------------------------------------------------------------
@@ -290,6 +290,8 @@ hata:
         End If
     End Sub
     Private Sub TextEdit24_EditValueChanged(sender As Object, e As EventArgs) Handles TextEdit24.EditValueChanged
+        On Error Resume Next
+
         Dim BRUT, DARA, NET As Decimal
         DARA = 0
         BRUT = 0
@@ -301,6 +303,7 @@ hata:
 
     End Sub
     Private Sub TextEdit27_EditValueChanged(sender As Object, e As EventArgs) Handles TextEdit27.EditValueChanged
+        On Error Resume Next
         Dim BRUT, DARA, NET As Decimal
         DARA = 0
         BRUT = 0
@@ -333,5 +336,9 @@ hata:
             MessageBox.Show("Maksimum sınıra ulaştınız!")
             TextEdit28.Text = TextEdit28.Text.Substring(0, 5)
         End If
+    End Sub
+
+    Private Sub SimpleButton3_Click(sender As Object, e As EventArgs) Handles SimpleButton3.Click
+        Form230.Show()
     End Sub
 End Class

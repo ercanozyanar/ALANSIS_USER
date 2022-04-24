@@ -68,9 +68,10 @@ Partial Class Form169
         'SimpleButton1
         '
         Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(1, 407)
+        Me.SimpleButton1.Location = New System.Drawing.Point(1, 501)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(35, 33)
+        Me.SimpleButton1.Size = New System.Drawing.Size(41, 41)
         Me.SimpleButton1.TabIndex = 2
         '
         'EO_ALANSIS_KALITEMADIZLEMETableAdapter
@@ -83,118 +84,148 @@ Partial Class Form169
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GridControl1.DataSource = Me.EOALANSISKALITEMADIZLEMEBindingSource
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Location = New System.Drawing.Point(1, 1)
         Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1046, 400)
+        Me.GridControl1.Size = New System.Drawing.Size(1220, 492)
         Me.GridControl1.TabIndex = 3
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
         'GridView1
         '
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colDURUM, Me.colTARIH, Me.colALANSIS_MADSERI, Me.colURETICI_ADSOY, Me.colBOLGE, Me.colKANTARNO, Me.colKASA_SAYI, Me.colBRUT, Me.colNET, Me.colDARA, Me.colMADNO, Me.colKLTINDEX, Me.colGIRDIKONTROL})
+        Me.GridView1.DetailHeight = 431
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
         'colDURUM
         '
         Me.colDURUM.FieldName = "DURUM"
+        Me.colDURUM.MinWidth = 23
         Me.colDURUM.Name = "colDURUM"
         Me.colDURUM.Visible = True
         Me.colDURUM.VisibleIndex = 0
+        Me.colDURUM.Width = 87
         '
         'colTARIH
         '
         Me.colTARIH.FieldName = "TARIH"
+        Me.colTARIH.MinWidth = 23
         Me.colTARIH.Name = "colTARIH"
         Me.colTARIH.Visible = True
         Me.colTARIH.VisibleIndex = 1
+        Me.colTARIH.Width = 87
         '
         'colALANSIS_MADSERI
         '
         Me.colALANSIS_MADSERI.FieldName = "ALANSIS_MADSERI"
+        Me.colALANSIS_MADSERI.MinWidth = 23
         Me.colALANSIS_MADSERI.Name = "colALANSIS_MADSERI"
         Me.colALANSIS_MADSERI.Visible = True
         Me.colALANSIS_MADSERI.VisibleIndex = 2
+        Me.colALANSIS_MADSERI.Width = 87
         '
         'colURETICI_ADSOY
         '
         Me.colURETICI_ADSOY.FieldName = "URETICI_ADSOY"
+        Me.colURETICI_ADSOY.MinWidth = 23
         Me.colURETICI_ADSOY.Name = "colURETICI_ADSOY"
         Me.colURETICI_ADSOY.Visible = True
         Me.colURETICI_ADSOY.VisibleIndex = 3
+        Me.colURETICI_ADSOY.Width = 87
         '
         'colBOLGE
         '
         Me.colBOLGE.FieldName = "BOLGE"
+        Me.colBOLGE.MinWidth = 23
         Me.colBOLGE.Name = "colBOLGE"
         Me.colBOLGE.Visible = True
         Me.colBOLGE.VisibleIndex = 4
+        Me.colBOLGE.Width = 87
         '
         'colKANTARNO
         '
         Me.colKANTARNO.FieldName = "KANTARNO"
+        Me.colKANTARNO.MinWidth = 23
         Me.colKANTARNO.Name = "colKANTARNO"
         Me.colKANTARNO.Visible = True
         Me.colKANTARNO.VisibleIndex = 5
+        Me.colKANTARNO.Width = 87
         '
         'colKASA_SAYI
         '
         Me.colKASA_SAYI.FieldName = "KASA_SAYI"
+        Me.colKASA_SAYI.MinWidth = 23
         Me.colKASA_SAYI.Name = "colKASA_SAYI"
         Me.colKASA_SAYI.Visible = True
         Me.colKASA_SAYI.VisibleIndex = 6
+        Me.colKASA_SAYI.Width = 87
         '
         'colBRUT
         '
         Me.colBRUT.FieldName = "BRUT"
+        Me.colBRUT.MinWidth = 23
         Me.colBRUT.Name = "colBRUT"
         Me.colBRUT.Visible = True
         Me.colBRUT.VisibleIndex = 7
+        Me.colBRUT.Width = 87
         '
         'colNET
         '
         Me.colNET.FieldName = "NET"
+        Me.colNET.MinWidth = 23
         Me.colNET.Name = "colNET"
         Me.colNET.Visible = True
         Me.colNET.VisibleIndex = 8
+        Me.colNET.Width = 87
         '
         'colDARA
         '
         Me.colDARA.FieldName = "DARA"
+        Me.colDARA.MinWidth = 23
         Me.colDARA.Name = "colDARA"
         Me.colDARA.Visible = True
         Me.colDARA.VisibleIndex = 9
+        Me.colDARA.Width = 87
         '
         'colMADNO
         '
         Me.colMADNO.FieldName = "MADNO"
+        Me.colMADNO.MinWidth = 23
         Me.colMADNO.Name = "colMADNO"
         Me.colMADNO.Visible = True
         Me.colMADNO.VisibleIndex = 10
+        Me.colMADNO.Width = 87
         '
         'colKLTINDEX
         '
         Me.colKLTINDEX.FieldName = "KLTINDEX"
+        Me.colKLTINDEX.MinWidth = 23
         Me.colKLTINDEX.Name = "colKLTINDEX"
         Me.colKLTINDEX.Visible = True
         Me.colKLTINDEX.VisibleIndex = 11
+        Me.colKLTINDEX.Width = 87
         '
         'colGIRDIKONTROL
         '
         Me.colGIRDIKONTROL.FieldName = "GIRDIKONTROL"
+        Me.colGIRDIKONTROL.MinWidth = 23
         Me.colGIRDIKONTROL.Name = "colGIRDIKONTROL"
         Me.colGIRDIKONTROL.Visible = True
         Me.colGIRDIKONTROL.VisibleIndex = 12
+        Me.colGIRDIKONTROL.Width = 87
         '
         'Form169
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1048, 442)
+        Me.ClientSize = New System.Drawing.Size(1223, 544)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.SimpleButton1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form169"
         Me.Text = "ALANSIS HUCRE BAKIYE - KALITE MEYVE ALIM IZLEME"
         CType(Me.EOALANSISKALITEMADIZLEMEBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

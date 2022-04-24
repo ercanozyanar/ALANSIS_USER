@@ -138,7 +138,7 @@ Public Class Form131
         Dim cmd2 As New SqlCommand
         Dim da As New SqlDataAdapter()
         Dim ds As New DataSet
-        Dim kontrol, grupkontrol, user As String
+        Dim kontrol, grupkontrol, user, id As String
         Dim x1, x2, x3, x4, x5, ggnkontrol, partikontrol As Decimal
         x1 = 0
         x2 = 0
@@ -146,6 +146,7 @@ Public Class Form131
         x4 = 0
         x5 = 0
         user = ""
+        id = ""
         user = Trim(Mid(Form2.Text, 15, 50))
         ggnkontrol = 0
         partikontrol = TextEdit8.Text
@@ -185,6 +186,17 @@ Public Class Form131
                 cmd1.CommandText = "INSERT INTO EO_ALANSIS_SATIS (DURUM,SIPARIS_TURU,SINIF,NAKLIYE,PARTI,MUSTERI,ETD,ETA,KUTU,AMBALAJ,EBAT,MIN_MEYVE_AGIRLIK,MIN_KUTU_AGIRLIK,PALET_ADET,KUTU_ADET,TONAJ_KG,PLT_KUTU,PALET_TIPI,ACIKLAMA,ETIKET,MUSTERI_REFERANS,TESLIM_SEKLI,TESLIM_YERI,RENK,STOK_KODU,SATIS_ONAY,GGN,URUN) VALUES ( '" & ComboBoxEdit1.Text & "','" & ComboBoxEdit2.Text & "','" & ComboBoxEdit3.Text & "','" & ComboBoxEdit4.Text & "','" & TextEdit1.Text & "','" & TextEdit2.Text & "','" & DateTimeOffsetEdit1.Text & "','" & DateTimeOffsetEdit2.Text & "','" & TextEdit17.Text & "','" & TextEdit14.Text & "','" & TextEdit3.Text & "','" & TextEdit4.Text & "', '" & x1 & "','" & x2 & "','" & x3 & "','" & x4 & "','" & x5 & "','" & TextEdit10.Text & "','" & TextEdit11.Text & "','" & TextEdit16.Text & "','" & TextEdit12.Text & "','" & ComboBoxEdit9.Text & "','" & TextEdit13.Text & "','" & ComboBoxEdit10.Text & "','" & ComboBoxEdit11.Text & "','" & ComboBoxEdit18.Text & "','" & ComboBoxEdit7.Text & "','" & ComboBoxEdit5.Text & "')"
                 cmd1.ExecuteNonQuery()
                 conn1.Close()
+                '---------------------------------------------------------------------------------------------------------------
+                SqlConn.Open()
+                Dim mySelectQuery11 As String = "SELECT MAX(ID) AS ID FROM EO_ALANSIS_SATIS ORDER BY ID DESC;"
+                Dim SqlComm11 As New System.Data.SqlClient.SqlCommand(mySelectQuery11, SqlConn)
+                Dim reader11 As System.Data.SqlClient.SqlDataReader
+                reader11 = SqlComm11.ExecuteReader()
+                While reader11.Read()
+                    id = reader11("ID").ToString()
+                End While
+                reader11.Close()
+                SqlConn.Close()
                 '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                 SMTP.Timeout = 5
                 SMTP.EnableSsl = True
@@ -194,7 +206,8 @@ Public Class Form131
                 'Mail.To.Add("ercanozyanar@gmail.com,saadet.atalay@alanar.com.tr,umut.yenmis@alanar.com.tr,ibrahim.erturk@alanar.com.tr,ridvan.akman@alanar.com.tr")
                 Mail.To.Add("yigit.gokyigit@alanar.com.tr,tahir.gunsen@alanar.com.tr,tugba.okyay@alanar.com.tr,bakit.akmatov@alanar.com.tr,fatih.bakici@alanar.com.tr,canan.bulut@alanar.com.tr,kalite.saha@alanar.com.tr,uretim.saha@alanar.com.tr,atakan.cetinbilek@alanar.com.tr,beykan.esgicioglu@alanar.com.tr,gulbahar.arikan@alanar.com.tr,esra.kundakci@alanar.com.tr,ercanozyanar@gmail.com,ridvan.akman@alanar.com.tr")
                 Mail.From = New MailAddress("alansis.bilgi@gmail.com")
-                Mail.Body = "Parti No: " & TextEdit1.Text & " Satış Onay işlemi" & DateTime.Now & " zamanında " & user & " tarafından onaylanmıştır..."
+                Mail.IsBodyHtml = True
+                Mail.Body = "<p><span>Parti No:" & TextEdit1.Text & " Satış Onay işlemi " & DateTime.Now & " zamanında " & user & " tarafından onaylanmıştır....</span></p><p><strong>Onay Vermek icin lutfen aşağıdaki butonu tıklayınız...</strong></p> <p><strong>&nbsp;<span class= 'redButton' >▼ <a href=http://10.3.11.61/ALANSIS_WB/Onay/Onay/" + id & " > ONAYLA</a></span></strong></p>"
                 SMTP.Send(Mail)
                 '---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                 ComboBoxEdit1.Text = ""
@@ -268,6 +281,19 @@ Public Class Form131
                 da.Fill(ds)
                 DataGridView1.DataSource = ds.Tables(0).DefaultView
                 conn1.Close()
+                '---------------------------------------------------------------------------------------------------------------
+                SqlConn.Open()
+                Dim mySelectQuery12 As String = "SELECT MAX(ID) AS ID FROM EO_ALANSIS_SATIS ORDER BY ID DESC;"
+                Dim SqlComm12 As New System.Data.SqlClient.SqlCommand(mySelectQuery12, SqlConn)
+                Dim reader12 As System.Data.SqlClient.SqlDataReader
+                reader12 = SqlComm12.ExecuteReader()
+                While reader12.Read()
+                    id = reader12("ID").ToString()
+                End While
+                reader12.Close()
+                SqlConn.Close()
+                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
                 SMTP.Timeout = 5
                 SMTP.EnableSsl = True
                 SMTP.Credentials = New System.Net.NetworkCredential("alansis.bilgi@gmail.com", "alanar.2021")
@@ -276,7 +302,8 @@ Public Class Form131
                 'Mail.To.Add("ercanozyanar@gmail.com,saadet.atalay@alanar.com.tr,umut.yenmis@alanar.com.tr,ibrahim.erturk@alanar.com.tr,ridvan.akman@alanar.com.tr")
                 Mail.To.Add("yigit.gokyigit@alanar.com.tr,tahir.gunsen@alanar.com.tr,tugba.okyay@alanar.com.tr,bakit.akmatov@alanar.com.tr,fatih.bakici@alanar.com.tr,canan.bulut@alanar.com.tr,kalite.saha@alanar.com.tr,uretim.saha@alanar.com.tr,atakan.cetinbilek@alanar.com.tr,beykan.esgicioglu@alanar.com.tr,gulbahar.arikan@alanar.com.tr,esra.kundakci@alanar.com.tr,ercanozyanar@gmail.com,ridvan.akman@alanar.com.tr")
                 Mail.From = New MailAddress("alansis.bilgi@gmail.com")
-                Mail.Body = "Parti No: " & TextEdit1.Text & " Satış Onay işlemi " & DateTime.Now & " zamanında " & user & " tarafından onaylanmıştır..."
+                Mail.IsBodyHtml = True
+                Mail.Body = "<p><span>Parti No:" & TextEdit1.Text & " Satış Onay işlemi " & DateTime.Now & " zamanında " & user & " tarafından onaylanmıştır....</span></p><p><strong>Onay Vermek icin lutfen aşağıdaki butonu tıklayınız...</strong></p> <p><strong>&nbsp;<span class= 'redButton' >▼ <a href=http://10.3.11.61/ALANSIS_WB/Onay/Onay/" + id & " > ONAYLA</a></span></strong></p>"
                 SMTP.Send(Mail)
                 DevExpress.XtraEditors.XtraMessageBox.Show("Onay İşlemi Tamamlanmiştir...")
                 Me.Hide()

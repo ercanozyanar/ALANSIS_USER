@@ -1875,4 +1875,20 @@ Public Class Form2
         Form228.MdiParent = Me
         Form228.Show()
     End Sub
+
+    Private Sub BarButtonItem212_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem212.ItemClick
+        Form231.ComboBoxEdit2.Enabled = False
+        Form231.MdiParent = Me
+        Form231.Show()
+    End Sub
+
+    Private Sub BarButtonItem213_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem213.ItemClick
+        Form232.MdiParent = Me
+        Form232.Show()
+    End Sub
+
+    Private Sub BarButtonItem214_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem214.ItemClick
+        Form233.MdiParent = Me
+        Form233.Show()
+    End Sub
 End Class

@@ -77,9 +77,10 @@ Partial Class Form218
         'SimpleButton1
         '
         Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(2, 3)
+        Me.SimpleButton1.Location = New System.Drawing.Point(2, 4)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(35, 33)
+        Me.SimpleButton1.Size = New System.Drawing.Size(41, 41)
         Me.SimpleButton1.TabIndex = 6
         '
         'EOALANSISINCIRMAMULRAPORBindingSource1
@@ -130,181 +131,229 @@ Partial Class Form218
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GridControl1.DataSource = Me.EOALANSISINCIRMAMULRAPORBindingSource2
-        Me.GridControl1.Location = New System.Drawing.Point(2, 42)
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GridControl1.Location = New System.Drawing.Point(2, 52)
         Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1368, 569)
+        Me.GridControl1.Size = New System.Drawing.Size(1596, 700)
         Me.GridControl1.TabIndex = 7
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
         'GridView1
         '
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colTARIH, Me.colSTOK_KODU, Me.colSERI, Me.colMIKTAR, Me.colBOLGE, Me.colEBAT, Me.colISLEM, Me.colINCIR_ISLEM, Me.colODA, Me.colKALINTI, Me.colDARA, Me.colBRUT, Me.colDEPO, Me.colTIP, Me.colPARTINO, Me.colMUSTERI, Me.colURETIM_TIPI, Me.colTUKETILEN_KARTON_KUTU, Me.colCESIT, Me.colACIKLAMA, Me.colRENK, Me.colPASTA_KAGIT})
+        Me.GridView1.DetailHeight = 431
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
         'colTARIH
         '
         Me.colTARIH.FieldName = "TARIH"
+        Me.colTARIH.MinWidth = 23
         Me.colTARIH.Name = "colTARIH"
         Me.colTARIH.Visible = True
         Me.colTARIH.VisibleIndex = 0
+        Me.colTARIH.Width = 87
         '
         'colSTOK_KODU
         '
         Me.colSTOK_KODU.FieldName = "STOK_KODU"
+        Me.colSTOK_KODU.MinWidth = 23
         Me.colSTOK_KODU.Name = "colSTOK_KODU"
         Me.colSTOK_KODU.Visible = True
         Me.colSTOK_KODU.VisibleIndex = 1
+        Me.colSTOK_KODU.Width = 87
         '
         'colSERI
         '
         Me.colSERI.FieldName = "SERI"
+        Me.colSERI.MinWidth = 23
         Me.colSERI.Name = "colSERI"
         Me.colSERI.Visible = True
         Me.colSERI.VisibleIndex = 2
+        Me.colSERI.Width = 87
         '
         'colMIKTAR
         '
         Me.colMIKTAR.FieldName = "MIKTAR"
+        Me.colMIKTAR.MinWidth = 23
         Me.colMIKTAR.Name = "colMIKTAR"
         Me.colMIKTAR.Visible = True
         Me.colMIKTAR.VisibleIndex = 3
+        Me.colMIKTAR.Width = 87
         '
         'colBOLGE
         '
         Me.colBOLGE.FieldName = "BOLGE"
+        Me.colBOLGE.MinWidth = 23
         Me.colBOLGE.Name = "colBOLGE"
         Me.colBOLGE.Visible = True
         Me.colBOLGE.VisibleIndex = 4
+        Me.colBOLGE.Width = 87
         '
         'colEBAT
         '
         Me.colEBAT.FieldName = "EBAT"
+        Me.colEBAT.MinWidth = 23
         Me.colEBAT.Name = "colEBAT"
         Me.colEBAT.Visible = True
         Me.colEBAT.VisibleIndex = 5
+        Me.colEBAT.Width = 87
         '
         'colISLEM
         '
         Me.colISLEM.FieldName = "ISLEM"
+        Me.colISLEM.MinWidth = 23
         Me.colISLEM.Name = "colISLEM"
         Me.colISLEM.Visible = True
         Me.colISLEM.VisibleIndex = 6
+        Me.colISLEM.Width = 87
         '
         'colINCIR_ISLEM
         '
         Me.colINCIR_ISLEM.FieldName = "INCIR_ISLEM"
+        Me.colINCIR_ISLEM.MinWidth = 23
         Me.colINCIR_ISLEM.Name = "colINCIR_ISLEM"
         Me.colINCIR_ISLEM.Visible = True
         Me.colINCIR_ISLEM.VisibleIndex = 7
+        Me.colINCIR_ISLEM.Width = 87
         '
         'colODA
         '
         Me.colODA.FieldName = "ODA"
+        Me.colODA.MinWidth = 23
         Me.colODA.Name = "colODA"
         Me.colODA.Visible = True
         Me.colODA.VisibleIndex = 8
+        Me.colODA.Width = 87
         '
         'colKALINTI
         '
         Me.colKALINTI.FieldName = "KALINTI"
+        Me.colKALINTI.MinWidth = 23
         Me.colKALINTI.Name = "colKALINTI"
         Me.colKALINTI.Visible = True
         Me.colKALINTI.VisibleIndex = 9
+        Me.colKALINTI.Width = 87
         '
         'colDARA
         '
         Me.colDARA.FieldName = "DARA"
+        Me.colDARA.MinWidth = 23
         Me.colDARA.Name = "colDARA"
         Me.colDARA.Visible = True
         Me.colDARA.VisibleIndex = 10
+        Me.colDARA.Width = 87
         '
         'colBRUT
         '
         Me.colBRUT.FieldName = "BRUT"
+        Me.colBRUT.MinWidth = 23
         Me.colBRUT.Name = "colBRUT"
         Me.colBRUT.Visible = True
         Me.colBRUT.VisibleIndex = 11
+        Me.colBRUT.Width = 87
         '
         'colDEPO
         '
         Me.colDEPO.FieldName = "DEPO"
+        Me.colDEPO.MinWidth = 23
         Me.colDEPO.Name = "colDEPO"
         Me.colDEPO.Visible = True
         Me.colDEPO.VisibleIndex = 12
+        Me.colDEPO.Width = 87
         '
         'colTIP
         '
         Me.colTIP.FieldName = "TIP"
+        Me.colTIP.MinWidth = 23
         Me.colTIP.Name = "colTIP"
         Me.colTIP.Visible = True
         Me.colTIP.VisibleIndex = 13
+        Me.colTIP.Width = 87
         '
         'colPARTINO
         '
         Me.colPARTINO.FieldName = "PARTINO"
+        Me.colPARTINO.MinWidth = 23
         Me.colPARTINO.Name = "colPARTINO"
         Me.colPARTINO.Visible = True
         Me.colPARTINO.VisibleIndex = 14
+        Me.colPARTINO.Width = 87
         '
         'colMUSTERI
         '
         Me.colMUSTERI.FieldName = "MUSTERI"
+        Me.colMUSTERI.MinWidth = 23
         Me.colMUSTERI.Name = "colMUSTERI"
         Me.colMUSTERI.Visible = True
         Me.colMUSTERI.VisibleIndex = 15
+        Me.colMUSTERI.Width = 87
         '
         'colURETIM_TIPI
         '
         Me.colURETIM_TIPI.FieldName = "URETIM_TIPI"
+        Me.colURETIM_TIPI.MinWidth = 23
         Me.colURETIM_TIPI.Name = "colURETIM_TIPI"
         Me.colURETIM_TIPI.Visible = True
         Me.colURETIM_TIPI.VisibleIndex = 16
+        Me.colURETIM_TIPI.Width = 87
         '
         'colTUKETILEN_KARTON_KUTU
         '
         Me.colTUKETILEN_KARTON_KUTU.FieldName = "TUKETILEN_KARTON_KUTU"
+        Me.colTUKETILEN_KARTON_KUTU.MinWidth = 23
         Me.colTUKETILEN_KARTON_KUTU.Name = "colTUKETILEN_KARTON_KUTU"
         Me.colTUKETILEN_KARTON_KUTU.Visible = True
         Me.colTUKETILEN_KARTON_KUTU.VisibleIndex = 17
+        Me.colTUKETILEN_KARTON_KUTU.Width = 87
         '
         'colCESIT
         '
         Me.colCESIT.FieldName = "CESIT"
+        Me.colCESIT.MinWidth = 23
         Me.colCESIT.Name = "colCESIT"
         Me.colCESIT.Visible = True
         Me.colCESIT.VisibleIndex = 18
+        Me.colCESIT.Width = 87
         '
         'colACIKLAMA
         '
         Me.colACIKLAMA.FieldName = "ACIKLAMA"
+        Me.colACIKLAMA.MinWidth = 23
         Me.colACIKLAMA.Name = "colACIKLAMA"
         Me.colACIKLAMA.Visible = True
         Me.colACIKLAMA.VisibleIndex = 19
+        Me.colACIKLAMA.Width = 87
         '
         'colRENK
         '
         Me.colRENK.FieldName = "RENK"
+        Me.colRENK.MinWidth = 23
         Me.colRENK.Name = "colRENK"
         Me.colRENK.Visible = True
         Me.colRENK.VisibleIndex = 20
+        Me.colRENK.Width = 87
         '
         'colPASTA_KAGIT
         '
         Me.colPASTA_KAGIT.FieldName = "PASTA_KAGIT"
+        Me.colPASTA_KAGIT.MinWidth = 23
         Me.colPASTA_KAGIT.Name = "colPASTA_KAGIT"
         Me.colPASTA_KAGIT.Visible = True
         Me.colPASTA_KAGIT.VisibleIndex = 21
+        Me.colPASTA_KAGIT.Width = 87
         '
         'Form218
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1372, 612)
+        Me.ClientSize = New System.Drawing.Size(1601, 753)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.SimpleButton1)
         Me.IconOptions.Image = Global.WindowsApplication1.My.Resources.Resources.LOGIN1
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form218"
         Me.Text = "Alansis İncir Mamul Çıkış İzleme"
         CType(Me.EOALANSISINCIRMAMULRAPORBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()

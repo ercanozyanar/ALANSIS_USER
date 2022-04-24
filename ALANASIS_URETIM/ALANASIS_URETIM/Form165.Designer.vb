@@ -44,8 +44,9 @@ Partial Class Form165
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.GGN_ISLEM, Me.GORUNTULE})
         Me.DataGridView1.Location = New System.Drawing.Point(-1, 0)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(948, 494)
+        Me.DataGridView1.Size = New System.Drawing.Size(1106, 608)
         Me.DataGridView1.TabIndex = 0
         '
         'GGN_ISLEM
@@ -68,10 +69,11 @@ Partial Class Form165
         '
         'Form165
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(948, 493)
+        Me.ClientSize = New System.Drawing.Size(1106, 607)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form165"
         Me.Text = "ALANSIS MEYVE ALIM KONTROL ISLEM MODULU"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

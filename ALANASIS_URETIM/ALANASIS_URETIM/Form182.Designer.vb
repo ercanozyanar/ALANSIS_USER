@@ -60,10 +60,12 @@ Partial Class Form182
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GridControl1.DataSource = Me.EOPTEST1BindingSource
-        Me.GridControl1.Location = New System.Drawing.Point(3, 55)
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GridControl1.Location = New System.Drawing.Point(3, 68)
         Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1060, 507)
+        Me.GridControl1.Size = New System.Drawing.Size(1237, 624)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -80,99 +82,125 @@ Partial Class Form182
         'GridView1
         '
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colSIPARIS, Me.colYUKEME_TARIHI, Me.colSERI, Me.colSTOK_KODU, Me.colSTOK_ADI, Me.colIRSALIYE, Me.colGELDIGI_YER, Me.colRENK, Me.colMIKTAR, Me.colURETICI_TC, Me.colURETICI_ADSOY, Me.colORT_KASA_FIYAT})
+        Me.GridView1.DetailHeight = 431
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
         'colSIPARIS
         '
         Me.colSIPARIS.FieldName = "SIPARIS"
+        Me.colSIPARIS.MinWidth = 23
         Me.colSIPARIS.Name = "colSIPARIS"
         Me.colSIPARIS.Visible = True
         Me.colSIPARIS.VisibleIndex = 0
+        Me.colSIPARIS.Width = 87
         '
         'colYUKEME_TARIHI
         '
         Me.colYUKEME_TARIHI.FieldName = "YUKEME_TARIHI"
+        Me.colYUKEME_TARIHI.MinWidth = 23
         Me.colYUKEME_TARIHI.Name = "colYUKEME_TARIHI"
         Me.colYUKEME_TARIHI.Visible = True
         Me.colYUKEME_TARIHI.VisibleIndex = 1
+        Me.colYUKEME_TARIHI.Width = 87
         '
         'colSERI
         '
         Me.colSERI.FieldName = "SERI"
+        Me.colSERI.MinWidth = 23
         Me.colSERI.Name = "colSERI"
         Me.colSERI.Visible = True
         Me.colSERI.VisibleIndex = 2
+        Me.colSERI.Width = 87
         '
         'colSTOK_KODU
         '
         Me.colSTOK_KODU.FieldName = "STOK_KODU"
+        Me.colSTOK_KODU.MinWidth = 23
         Me.colSTOK_KODU.Name = "colSTOK_KODU"
         Me.colSTOK_KODU.Visible = True
         Me.colSTOK_KODU.VisibleIndex = 3
+        Me.colSTOK_KODU.Width = 87
         '
         'colSTOK_ADI
         '
         Me.colSTOK_ADI.FieldName = "STOK_ADI"
+        Me.colSTOK_ADI.MinWidth = 23
         Me.colSTOK_ADI.Name = "colSTOK_ADI"
         Me.colSTOK_ADI.Visible = True
         Me.colSTOK_ADI.VisibleIndex = 4
+        Me.colSTOK_ADI.Width = 87
         '
         'colIRSALIYE
         '
         Me.colIRSALIYE.FieldName = "IRSALIYE"
+        Me.colIRSALIYE.MinWidth = 23
         Me.colIRSALIYE.Name = "colIRSALIYE"
         Me.colIRSALIYE.Visible = True
         Me.colIRSALIYE.VisibleIndex = 5
+        Me.colIRSALIYE.Width = 87
         '
         'colGELDIGI_YER
         '
         Me.colGELDIGI_YER.FieldName = "GELDIGI_YER"
+        Me.colGELDIGI_YER.MinWidth = 23
         Me.colGELDIGI_YER.Name = "colGELDIGI_YER"
         Me.colGELDIGI_YER.Visible = True
         Me.colGELDIGI_YER.VisibleIndex = 6
+        Me.colGELDIGI_YER.Width = 87
         '
         'colRENK
         '
         Me.colRENK.FieldName = "RENK"
+        Me.colRENK.MinWidth = 23
         Me.colRENK.Name = "colRENK"
         Me.colRENK.Visible = True
         Me.colRENK.VisibleIndex = 7
+        Me.colRENK.Width = 87
         '
         'colMIKTAR
         '
         Me.colMIKTAR.FieldName = "MIKTAR"
+        Me.colMIKTAR.MinWidth = 23
         Me.colMIKTAR.Name = "colMIKTAR"
         Me.colMIKTAR.Visible = True
         Me.colMIKTAR.VisibleIndex = 8
+        Me.colMIKTAR.Width = 87
         '
         'colURETICI_TC
         '
         Me.colURETICI_TC.FieldName = "URETICI_TC"
+        Me.colURETICI_TC.MinWidth = 23
         Me.colURETICI_TC.Name = "colURETICI_TC"
         Me.colURETICI_TC.Visible = True
         Me.colURETICI_TC.VisibleIndex = 9
+        Me.colURETICI_TC.Width = 87
         '
         'colURETICI_ADSOY
         '
         Me.colURETICI_ADSOY.FieldName = "URETICI_ADSOY"
+        Me.colURETICI_ADSOY.MinWidth = 23
         Me.colURETICI_ADSOY.Name = "colURETICI_ADSOY"
         Me.colURETICI_ADSOY.Visible = True
         Me.colURETICI_ADSOY.VisibleIndex = 10
+        Me.colURETICI_ADSOY.Width = 87
         '
         'colORT_KASA_FIYAT
         '
         Me.colORT_KASA_FIYAT.FieldName = "ORT_KASA_FIYAT"
+        Me.colORT_KASA_FIYAT.MinWidth = 23
         Me.colORT_KASA_FIYAT.Name = "colORT_KASA_FIYAT"
         Me.colORT_KASA_FIYAT.Visible = True
         Me.colORT_KASA_FIYAT.VisibleIndex = 11
+        Me.colORT_KASA_FIYAT.Width = 87
         '
         'SimpleButton1
         '
         Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(3, 9)
+        Me.SimpleButton1.Location = New System.Drawing.Point(3, 11)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(37, 40)
+        Me.SimpleButton1.Size = New System.Drawing.Size(43, 49)
         Me.SimpleButton1.TabIndex = 18
         '
         'EO_PTEST1TableAdapter
@@ -181,12 +209,13 @@ Partial Class Form182
         '
         'Form182
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1065, 566)
+        Me.ClientSize = New System.Drawing.Size(1242, 697)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.GridControl1)
         Me.IconOptions.Image = Global.WindowsApplication1.My.Resources.Resources.LOGIN11
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form182"
         Me.Text = "ALANSIS URETIM FIYAT ANALIZ"
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()

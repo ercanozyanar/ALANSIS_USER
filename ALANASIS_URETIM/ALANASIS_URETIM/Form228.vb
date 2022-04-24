@@ -4,4 +4,8 @@
         Me.EO_ALANSIS_URETPAKET_RAPORTableAdapter.Fill(Me.ALANSISDataSet53.EO_ALANSIS_URETPAKET_RAPOR)
 
     End Sub
+
+    Private Sub GridControl1_Click(sender As Object, e As EventArgs) Handles GridControl1.Click
+
+    End Sub
 End Class

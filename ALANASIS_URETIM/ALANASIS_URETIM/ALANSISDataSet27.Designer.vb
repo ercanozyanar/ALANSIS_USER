@@ -285,8 +285,6 @@ Partial Public Class ALANSISDataSet27
         
         Private columnID As Global.System.Data.DataColumn
         
-        Private columnHASAT_TARIH As Global.System.Data.DataColumn
-        
         Private columnPAKETLEME_TARIH As Global.System.Data.DataColumn
         
         Private columnTESIS As Global.System.Data.DataColumn
@@ -301,11 +299,7 @@ Partial Public Class ALANSISDataSet27
         
         Private columnURUN_CINSI As Global.System.Data.DataColumn
         
-        Private columnETIKET_CESIDI As Global.System.Data.DataColumn
-        
         Private columnMUSTERI_ADI As Global.System.Data.DataColumn
-        
-        Private columnETIKET_KONTROL As Global.System.Data.DataColumn
         
         Private columnIZLEMENO As Global.System.Data.DataColumn
         
@@ -363,6 +357,8 @@ Partial Public Class ALANSISDataSet27
         
         Private columnGIRDI_AMBALAJNO_POSET As Global.System.Data.DataColumn
         
+        Private columnHASAT_TARIH As Global.System.Data.DataColumn
+        
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub New()
@@ -403,14 +399,6 @@ Partial Public Class ALANSISDataSet27
         Public ReadOnly Property IDColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnID
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public ReadOnly Property HASAT_TARIHColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnHASAT_TARIH
             End Get
         End Property
         
@@ -472,25 +460,9 @@ Partial Public Class ALANSISDataSet27
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public ReadOnly Property ETIKET_CESIDIColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnETIKET_CESIDI
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public ReadOnly Property MUSTERI_ADIColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnMUSTERI_ADI
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public ReadOnly Property ETIKET_KONTROLColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnETIKET_KONTROL
             End Get
         End Property
         
@@ -719,6 +691,14 @@ Partial Public Class ALANSISDataSet27
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property HASAT_TARIHColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnHASAT_TARIH
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -756,7 +736,6 @@ Partial Public Class ALANSISDataSet27
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Overloads Function AddEO_KIRAZPAKET_KONTROLRow( _
-                    ByVal HASAT_TARIH As Date,  _
                     ByVal PAKETLEME_TARIH As String,  _
                     ByVal TESIS As String,  _
                     ByVal URUN_ADI As String,  _
@@ -764,9 +743,7 @@ Partial Public Class ALANSISDataSet27
                     ByVal VARDIYA_BASLANGIC As String,  _
                     ByVal UBT_KODU As String,  _
                     ByVal URUN_CINSI As String,  _
-                    ByVal ETIKET_CESIDI As String,  _
                     ByVal MUSTERI_ADI As String,  _
-                    ByVal ETIKET_KONTROL As String,  _
                     ByVal IZLEMENO As String,  _
                     ByVal AMBALAJTIPI As String,  _
                     ByVal KALIBRE As String,  _
@@ -794,9 +771,10 @@ Partial Public Class ALANSISDataSet27
                     ByVal KOKU As String,  _
                     ByVal KALITE_PERSONEL As String,  _
                     ByVal GIRDI_AMBALAJNO_KOLI As String,  _
-                    ByVal GIRDI_AMBALAJNO_POSET As String) As EO_KIRAZPAKET_KONTROLRow
+                    ByVal GIRDI_AMBALAJNO_POSET As String,  _
+                    ByVal HASAT_TARIH As String) As EO_KIRAZPAKET_KONTROLRow
             Dim rowEO_KIRAZPAKET_KONTROLRow As EO_KIRAZPAKET_KONTROLRow = CType(Me.NewRow,EO_KIRAZPAKET_KONTROLRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URUN_CINSI, ETIKET_CESIDI, MUSTERI_ADI, ETIKET_KONTROL, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET}
+            Dim columnValuesArray() As Object = New Object() {Nothing, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URUN_CINSI, MUSTERI_ADI, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET, HASAT_TARIH}
             rowEO_KIRAZPAKET_KONTROLRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowEO_KIRAZPAKET_KONTROLRow)
             Return rowEO_KIRAZPAKET_KONTROLRow
@@ -826,7 +804,6 @@ Partial Public Class ALANSISDataSet27
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Friend Sub InitVars()
             Me.columnID = MyBase.Columns("ID")
-            Me.columnHASAT_TARIH = MyBase.Columns("HASAT_TARIH")
             Me.columnPAKETLEME_TARIH = MyBase.Columns("PAKETLEME_TARIH")
             Me.columnTESIS = MyBase.Columns("TESIS")
             Me.columnURUN_ADI = MyBase.Columns("URUN_ADI")
@@ -834,9 +811,7 @@ Partial Public Class ALANSISDataSet27
             Me.columnVARDIYA_BASLANGIC = MyBase.Columns("VARDIYA_BASLANGIC")
             Me.columnUBT_KODU = MyBase.Columns("UBT_KODU")
             Me.columnURUN_CINSI = MyBase.Columns("URUN_CINSI")
-            Me.columnETIKET_CESIDI = MyBase.Columns("ETIKET_CESIDI")
             Me.columnMUSTERI_ADI = MyBase.Columns("MUSTERI_ADI")
-            Me.columnETIKET_KONTROL = MyBase.Columns("ETIKET_KONTROL")
             Me.columnIZLEMENO = MyBase.Columns("IZLEMENO")
             Me.columnAMBALAJTIPI = MyBase.Columns("AMBALAJTIPI")
             Me.columnKALIBRE = MyBase.Columns("KALIBRE")
@@ -865,6 +840,7 @@ Partial Public Class ALANSISDataSet27
             Me.columnKALITE_PERSONEL = MyBase.Columns("KALITE_PERSONEL")
             Me.columnGIRDI_AMBALAJNO_KOLI = MyBase.Columns("GIRDI_AMBALAJNO_KOLI")
             Me.columnGIRDI_AMBALAJNO_POSET = MyBase.Columns("GIRDI_AMBALAJNO_POSET")
+            Me.columnHASAT_TARIH = MyBase.Columns("HASAT_TARIH")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -872,8 +848,6 @@ Partial Public Class ALANSISDataSet27
         Private Sub InitClass()
             Me.columnID = New Global.System.Data.DataColumn("ID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnID)
-            Me.columnHASAT_TARIH = New Global.System.Data.DataColumn("HASAT_TARIH", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnHASAT_TARIH)
             Me.columnPAKETLEME_TARIH = New Global.System.Data.DataColumn("PAKETLEME_TARIH", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPAKETLEME_TARIH)
             Me.columnTESIS = New Global.System.Data.DataColumn("TESIS", GetType(String), Nothing, Global.System.Data.MappingType.Element)
@@ -888,12 +862,8 @@ Partial Public Class ALANSISDataSet27
             MyBase.Columns.Add(Me.columnUBT_KODU)
             Me.columnURUN_CINSI = New Global.System.Data.DataColumn("URUN_CINSI", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnURUN_CINSI)
-            Me.columnETIKET_CESIDI = New Global.System.Data.DataColumn("ETIKET_CESIDI", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnETIKET_CESIDI)
             Me.columnMUSTERI_ADI = New Global.System.Data.DataColumn("MUSTERI_ADI", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnMUSTERI_ADI)
-            Me.columnETIKET_KONTROL = New Global.System.Data.DataColumn("ETIKET_KONTROL", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnETIKET_KONTROL)
             Me.columnIZLEMENO = New Global.System.Data.DataColumn("IZLEMENO", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnIZLEMENO)
             Me.columnAMBALAJTIPI = New Global.System.Data.DataColumn("AMBALAJTIPI", GetType(String), Nothing, Global.System.Data.MappingType.Element)
@@ -950,6 +920,8 @@ Partial Public Class ALANSISDataSet27
             MyBase.Columns.Add(Me.columnGIRDI_AMBALAJNO_KOLI)
             Me.columnGIRDI_AMBALAJNO_POSET = New Global.System.Data.DataColumn("GIRDI_AMBALAJNO_POSET", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnGIRDI_AMBALAJNO_POSET)
+            Me.columnHASAT_TARIH = New Global.System.Data.DataColumn("HASAT_TARIH", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnHASAT_TARIH)
             Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnID}, true))
             Me.columnID.AutoIncrement = true
             Me.columnID.AutoIncrementSeed = -1
@@ -964,9 +936,7 @@ Partial Public Class ALANSISDataSet27
             Me.columnVARDIYA_BASLANGIC.MaxLength = 50
             Me.columnUBT_KODU.MaxLength = 2147483647
             Me.columnURUN_CINSI.MaxLength = 2147483647
-            Me.columnETIKET_CESIDI.MaxLength = 2147483647
             Me.columnMUSTERI_ADI.MaxLength = 2147483647
-            Me.columnETIKET_KONTROL.MaxLength = 50
             Me.columnIZLEMENO.MaxLength = 2147483647
             Me.columnAMBALAJTIPI.MaxLength = 2147483647
             Me.columnKALIBRE.MaxLength = 50
@@ -976,6 +946,7 @@ Partial Public Class ALANSISDataSet27
             Me.columnKALITE_PERSONEL.MaxLength = 2147483647
             Me.columnGIRDI_AMBALAJNO_KOLI.MaxLength = 2147483647
             Me.columnGIRDI_AMBALAJNO_POSET.MaxLength = 2147483647
+            Me.columnHASAT_TARIH.MaxLength = 2147483647
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1133,21 +1104,6 @@ Partial Public Class ALANSISDataSet27
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property HASAT_TARIH() As Date
-            Get
-                Try 
-                    Return CType(Me(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn),Date)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("'EO_KIRAZPAKET_KONTROL' tablosundaki 'HASAT_TARIH' sütunun değeri DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Property PAKETLEME_TARIH() As String
             Get
                 Try 
@@ -1253,21 +1209,6 @@ Partial Public Class ALANSISDataSet27
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property ETIKET_CESIDI() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_CESIDIColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("'EO_KIRAZPAKET_KONTROL' tablosundaki 'ETIKET_CESIDI' sütunun değeri DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_CESIDIColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Property MUSTERI_ADI() As String
             Get
                 Try 
@@ -1278,21 +1219,6 @@ Partial Public Class ALANSISDataSet27
             End Get
             Set
                 Me(Me.tableEO_KIRAZPAKET_KONTROL.MUSTERI_ADIColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property ETIKET_KONTROL() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_KONTROLColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("'EO_KIRAZPAKET_KONTROL' tablosundaki 'ETIKET_KONTROL' sütunun değeri DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_KONTROLColumn) = value
             End Set
         End Property
         
@@ -1720,15 +1646,18 @@ Partial Public Class ALANSISDataSet27
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function IsHASAT_TARIHNull() As Boolean
-            Return Me.IsNull(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Sub SetHASAT_TARIHNull()
-            Me(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn) = Global.System.Convert.DBNull
-        End Sub
+        Public Property HASAT_TARIH() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("'EO_KIRAZPAKET_KONTROL' tablosundaki 'HASAT_TARIH' sütunun değeri DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn) = value
+            End Set
+        End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
@@ -1816,18 +1745,6 @@ Partial Public Class ALANSISDataSet27
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function IsETIKET_CESIDINull() As Boolean
-            Return Me.IsNull(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_CESIDIColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Sub SetETIKET_CESIDINull()
-            Me(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_CESIDIColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Function IsMUSTERI_ADINull() As Boolean
             Return Me.IsNull(Me.tableEO_KIRAZPAKET_KONTROL.MUSTERI_ADIColumn)
         End Function
@@ -1836,18 +1753,6 @@ Partial Public Class ALANSISDataSet27
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetMUSTERI_ADINull()
             Me(Me.tableEO_KIRAZPAKET_KONTROL.MUSTERI_ADIColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function IsETIKET_KONTROLNull() As Boolean
-            Return Me.IsNull(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_KONTROLColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Sub SetETIKET_KONTROLNull()
-            Me(Me.tableEO_KIRAZPAKET_KONTROL.ETIKET_KONTROLColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -2185,6 +2090,18 @@ Partial Public Class ALANSISDataSet27
         Public Sub SetGIRDI_AMBALAJNO_POSETNull()
             Me(Me.tableEO_KIRAZPAKET_KONTROL.GIRDI_AMBALAJNO_POSETColumn) = Global.System.Convert.DBNull
         End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsHASAT_TARIHNull() As Boolean
+            Return Me.IsNull(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetHASAT_TARIHNull()
+            Me(Me.tableEO_KIRAZPAKET_KONTROL.HASAT_TARIHColumn) = Global.System.Convert.DBNull
+        End Sub
     End Class
     
     '''<summary>
@@ -2354,7 +2271,6 @@ Namespace ALANSISDataSet27TableAdapters
             tableMapping.SourceTable = "Table"
             tableMapping.DataSetTable = "EO_KIRAZPAKET_KONTROL"
             tableMapping.ColumnMappings.Add("ID", "ID")
-            tableMapping.ColumnMappings.Add("HASAT_TARIH", "HASAT_TARIH")
             tableMapping.ColumnMappings.Add("PAKETLEME_TARIH", "PAKETLEME_TARIH")
             tableMapping.ColumnMappings.Add("TESIS", "TESIS")
             tableMapping.ColumnMappings.Add("URUN_ADI", "URUN_ADI")
@@ -2362,9 +2278,7 @@ Namespace ALANSISDataSet27TableAdapters
             tableMapping.ColumnMappings.Add("VARDIYA_BASLANGIC", "VARDIYA_BASLANGIC")
             tableMapping.ColumnMappings.Add("UBT_KODU", "UBT_KODU")
             tableMapping.ColumnMappings.Add("URUN_CINSI", "URUN_CINSI")
-            tableMapping.ColumnMappings.Add("ETIKET_CESIDI", "ETIKET_CESIDI")
             tableMapping.ColumnMappings.Add("MUSTERI_ADI", "MUSTERI_ADI")
-            tableMapping.ColumnMappings.Add("ETIKET_KONTROL", "ETIKET_KONTROL")
             tableMapping.ColumnMappings.Add("IZLEMENO", "IZLEMENO")
             tableMapping.ColumnMappings.Add("AMBALAJTIPI", "AMBALAJTIPI")
             tableMapping.ColumnMappings.Add("KALIBRE", "KALIBRE")
@@ -2393,49 +2307,43 @@ Namespace ALANSISDataSet27TableAdapters
             tableMapping.ColumnMappings.Add("KALITE_PERSONEL", "KALITE_PERSONEL")
             tableMapping.ColumnMappings.Add("GIRDI_AMBALAJNO_KOLI", "GIRDI_AMBALAJNO_KOLI")
             tableMapping.ColumnMappings.Add("GIRDI_AMBALAJNO_POSET", "GIRDI_AMBALAJNO_POSET")
+            tableMapping.ColumnMappings.Add("HASAT_TARIH", "HASAT_TARIH")
             Me._adapter.TableMappings.Add(tableMapping)
             Me._adapter.DeleteCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.DeleteCommand.Connection = Me.Connection
-            Me._adapter.DeleteCommand.CommandText = "DELETE FROM [EO_KIRAZPAKET_KONTROL] WHERE (([ID] = @Original_ID) AND ((@IsNull_HA"& _ 
-                "SAT_TARIH = 1 AND [HASAT_TARIH] IS NULL) OR ([HASAT_TARIH] = @Original_HASAT_TAR"& _ 
-                "IH)) AND ((@IsNull_VARDIYA = 1 AND [VARDIYA] IS NULL) OR ([VARDIYA] = @Original_"& _ 
-                "VARDIYA)) AND ((@IsNull_VARDIYA_BASLANGIC = 1 AND [VARDIYA_BASLANGIC] IS NULL) O"& _ 
-                "R ([VARDIYA_BASLANGIC] = @Original_VARDIYA_BASLANGIC)) AND ((@IsNull_ETIKET_KONT"& _ 
-                "ROL = 1 AND [ETIKET_KONTROL] IS NULL) OR ([ETIKET_KONTROL] = @Original_ETIKET_KO"& _ 
-                "NTROL)) AND ((@IsNull_KALIBRE = 1 AND [KALIBRE] IS NULL) OR ([KALIBRE] = @Origin"& _ 
-                "al_KALIBRE)) AND ((@IsNull_YABANCI_MADDE = 1 AND [YABANCI_MADDE] IS NULL) OR ([Y"& _ 
-                "ABANCI_MADDE] = @Original_YABANCI_MADDE)) AND ((@IsNull_KUFLENME = 1 AND [KUFLEN"& _ 
-                "ME] IS NULL) OR ([KUFLENME] = @Original_KUFLENME)) AND ((@IsNull_DAL_SURTMESI = "& _ 
-                "1 AND [DAL_SURTMESI] IS NULL) OR ([DAL_SURTMESI] = @Original_DAL_SURTMESI)) AND "& _ 
-                "((@IsNull_CURUME = 1 AND [CURUME] IS NULL) OR ([CURUME] = @Original_CURUME)) AND"& _ 
-                " ((@IsNull_YUMUSAK = 1 AND [YUMUSAK] IS NULL) OR ([YUMUSAK] = @Original_YUMUSAK)"& _ 
-                ") AND ((@IsNull_ICKURD = 1 AND [ICKURD] IS NULL) OR ([ICKURD] = @Original_ICKURD"& _ 
-                ")) AND ((@IsNull_IKIZMEYVE = 1 AND [IKIZMEYVE] IS NULL) OR ([IKIZMEYVE] = @Origi"& _ 
-                "nal_IKIZMEYVE)) AND ((@IsNull_EBAT_ALTI = 1 AND [EBAT_ALTI] IS NULL) OR ([EBAT_A"& _ 
-                "LTI] = @Original_EBAT_ALTI)) AND ((@IsNull_HASAR = 1 AND [HASAR] IS NULL) OR ([H"& _ 
-                "ASAR] = @Original_HASAR)) AND ((@IsNull_DOLU_ZARAR = 1 AND [DOLU_ZARAR] IS NULL)"& _ 
-                " OR ([DOLU_ZARAR] = @Original_DOLU_ZARAR)) AND ((@IsNull_SEKIL_BOZUK = 1 AND [SE"& _ 
-                "KIL_BOZUK] IS NULL) OR ([SEKIL_BOZUK] = @Original_SEKIL_BOZUK)) AND ((@IsNull_PO"& _ 
-                "RSUME = 1 AND [PORSUME] IS NULL) OR ([PORSUME] = @Original_PORSUME)) AND ((@IsNu"& _ 
-                "ll_TOPLAM_KUSUR = 1 AND [TOPLAM_KUSUR] IS NULL) OR ([TOPLAM_KUSUR] = @Original_T"& _ 
-                "OPLAM_KUSUR)) AND ((@IsNull_BRIX = 1 AND [BRIX] IS NULL) OR ([BRIX] = @Original_"& _ 
-                "BRIX)) AND ((@IsNull_BRUT_AGIRLIK = 1 AND [BRUT_AGIRLIK] IS NULL) OR ([BRUT_AGIR"& _ 
-                "LIK] = @Original_BRUT_AGIRLIK)) AND ((@IsNull_KUTU_AGIRLIK = 1 AND [KUTU_AGIRLIK"& _ 
-                "] IS NULL) OR ([KUTU_AGIRLIK] = @Original_KUTU_AGIRLIK)) AND ((@IsNull_POSET_AGI"& _ 
-                "RLIK = 1 AND [POSET_AGIRLIK] IS NULL) OR ([POSET_AGIRLIK] = @Original_POSET_AGIR"& _ 
-                "LIK)) AND ((@IsNull_SALE_AGIRLIK = 1 AND [SALE_AGIRLIK] IS NULL) OR ([SALE_AGIRL"& _ 
-                "IK] = @Original_SALE_AGIRLIK)) AND ((@IsNull_NET_AGIRLIK = 1 AND [NET_AGIRLIK] I"& _ 
-                "S NULL) OR ([NET_AGIRLIK] = @Original_NET_AGIRLIK)))"
+            Me._adapter.DeleteCommand.CommandText = "DELETE FROM [EO_KIRAZPAKET_KONTROL] WHERE (([ID] = @Original_ID) AND ((@IsNull_VA"& _ 
+                "RDIYA = 1 AND [VARDIYA] IS NULL) OR ([VARDIYA] = @Original_VARDIYA)) AND ((@IsNu"& _ 
+                "ll_VARDIYA_BASLANGIC = 1 AND [VARDIYA_BASLANGIC] IS NULL) OR ([VARDIYA_BASLANGIC"& _ 
+                "] = @Original_VARDIYA_BASLANGIC)) AND ((@IsNull_KALIBRE = 1 AND [KALIBRE] IS NUL"& _ 
+                "L) OR ([KALIBRE] = @Original_KALIBRE)) AND ((@IsNull_YABANCI_MADDE = 1 AND [YABA"& _ 
+                "NCI_MADDE] IS NULL) OR ([YABANCI_MADDE] = @Original_YABANCI_MADDE)) AND ((@IsNul"& _ 
+                "l_KUFLENME = 1 AND [KUFLENME] IS NULL) OR ([KUFLENME] = @Original_KUFLENME)) AND"& _ 
+                " ((@IsNull_DAL_SURTMESI = 1 AND [DAL_SURTMESI] IS NULL) OR ([DAL_SURTMESI] = @Or"& _ 
+                "iginal_DAL_SURTMESI)) AND ((@IsNull_CURUME = 1 AND [CURUME] IS NULL) OR ([CURUME"& _ 
+                "] = @Original_CURUME)) AND ((@IsNull_YUMUSAK = 1 AND [YUMUSAK] IS NULL) OR ([YUM"& _ 
+                "USAK] = @Original_YUMUSAK)) AND ((@IsNull_ICKURD = 1 AND [ICKURD] IS NULL) OR (["& _ 
+                "ICKURD] = @Original_ICKURD)) AND ((@IsNull_IKIZMEYVE = 1 AND [IKIZMEYVE] IS NULL"& _ 
+                ") OR ([IKIZMEYVE] = @Original_IKIZMEYVE)) AND ((@IsNull_EBAT_ALTI = 1 AND [EBAT_"& _ 
+                "ALTI] IS NULL) OR ([EBAT_ALTI] = @Original_EBAT_ALTI)) AND ((@IsNull_HASAR = 1 A"& _ 
+                "ND [HASAR] IS NULL) OR ([HASAR] = @Original_HASAR)) AND ((@IsNull_DOLU_ZARAR = 1"& _ 
+                " AND [DOLU_ZARAR] IS NULL) OR ([DOLU_ZARAR] = @Original_DOLU_ZARAR)) AND ((@IsNu"& _ 
+                "ll_SEKIL_BOZUK = 1 AND [SEKIL_BOZUK] IS NULL) OR ([SEKIL_BOZUK] = @Original_SEKI"& _ 
+                "L_BOZUK)) AND ((@IsNull_PORSUME = 1 AND [PORSUME] IS NULL) OR ([PORSUME] = @Orig"& _ 
+                "inal_PORSUME)) AND ((@IsNull_TOPLAM_KUSUR = 1 AND [TOPLAM_KUSUR] IS NULL) OR ([T"& _ 
+                "OPLAM_KUSUR] = @Original_TOPLAM_KUSUR)) AND ((@IsNull_BRIX = 1 AND [BRIX] IS NUL"& _ 
+                "L) OR ([BRIX] = @Original_BRIX)) AND ((@IsNull_BRUT_AGIRLIK = 1 AND [BRUT_AGIRLI"& _ 
+                "K] IS NULL) OR ([BRUT_AGIRLIK] = @Original_BRUT_AGIRLIK)) AND ((@IsNull_KUTU_AGI"& _ 
+                "RLIK = 1 AND [KUTU_AGIRLIK] IS NULL) OR ([KUTU_AGIRLIK] = @Original_KUTU_AGIRLIK"& _ 
+                ")) AND ((@IsNull_POSET_AGIRLIK = 1 AND [POSET_AGIRLIK] IS NULL) OR ([POSET_AGIRL"& _ 
+                "IK] = @Original_POSET_AGIRLIK)) AND ((@IsNull_SALE_AGIRLIK = 1 AND [SALE_AGIRLIK"& _ 
+                "] IS NULL) OR ([SALE_AGIRLIK] = @Original_SALE_AGIRLIK)) AND ((@IsNull_NET_AGIRL"& _ 
+                "IK = 1 AND [NET_AGIRLIK] IS NULL) OR ([NET_AGIRLIK] = @Original_NET_AGIRLIK)))"
             Me._adapter.DeleteCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_ID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ID", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_HASAT_TARIH", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_HASAT_TARIH", Global.System.Data.SqlDbType.[Date], 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_VARDIYA", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_VARDIYA", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_VARDIYA_BASLANGIC", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA_BASLANGIC", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_VARDIYA_BASLANGIC", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA_BASLANGIC", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_ETIKET_KONTROL", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_KONTROL", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_ETIKET_KONTROL", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_KONTROL", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_KALIBRE", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "KALIBRE", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_KALIBRE", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "KALIBRE", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_YABANCI_MADDE", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "YABANCI_MADDE", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
@@ -2479,28 +2387,27 @@ Namespace ALANSISDataSet27TableAdapters
             Me._adapter.InsertCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.InsertCommand.Connection = Me.Connection
             Me._adapter.InsertCommand.CommandText = "INSERT INTO [EO_KIRAZPAKET_KONTROL] ([HASAT_TARIH], [PAKETLEME_TARIH], [TESIS], ["& _ 
-                "URUN_ADI], [VARDIYA], [VARDIYA_BASLANGIC], [UBT_KODU], [URUN_CINSI], [ETIKET_CES"& _ 
-                "IDI], [MUSTERI_ADI], [ETIKET_KONTROL], [IZLEMENO], [AMBALAJTIPI], [KALIBRE], [YA"& _ 
-                "BANCI_MADDE], [KUFLENME], [DAL_SURTMESI], [CURUME], [YUMUSAK], [ICKURD], [IKIZME"& _ 
-                "YVE], [EBAT_ALTI], [HASAR], [DOLU_ZARAR], [SEKIL_BOZUK], [PORSUME], [TOPLAM_KUSU"& _ 
-                "R], [BRIX], [BRUT_AGIRLIK], [KUTU_AGIRLIK], [POSET_AGIRLIK], [SALE_AGIRLIK], [NE"& _ 
-                "T_AGIRLIK], [TAT], [YAPI], [KOKU], [KALITE_PERSONEL], [GIRDI_AMBALAJNO_KOLI], [G"& _ 
-                "IRDI_AMBALAJNO_POSET]) VALUES (@HASAT_TARIH, @PAKETLEME_TARIH, @TESIS, @URUN_ADI"& _ 
-                ", @VARDIYA, @VARDIYA_BASLANGIC, @UBT_KODU, @URUN_CINSI, @ETIKET_CESIDI, @MUSTERI"& _ 
-                "_ADI, @ETIKET_KONTROL, @IZLEMENO, @AMBALAJTIPI, @KALIBRE, @YABANCI_MADDE, @KUFLE"& _ 
-                "NME, @DAL_SURTMESI, @CURUME, @YUMUSAK, @ICKURD, @IKIZMEYVE, @EBAT_ALTI, @HASAR, "& _ 
-                "@DOLU_ZARAR, @SEKIL_BOZUK, @PORSUME, @TOPLAM_KUSUR, @BRIX, @BRUT_AGIRLIK, @KUTU_"& _ 
-                "AGIRLIK, @POSET_AGIRLIK, @SALE_AGIRLIK, @NET_AGIRLIK, @TAT, @YAPI, @KOKU, @KALIT"& _ 
-                "E_PERSONEL, @GIRDI_AMBALAJNO_KOLI, @GIRDI_AMBALAJNO_POSET);"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT ID, HASAT_TA"& _ 
-                "RIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URU"& _ 
-                "N_CINSI, ETIKET_CESIDI, MUSTERI_ADI, ETIKET_KONTROL, IZLEMENO, AMBALAJTIPI, KALI"& _ 
-                "BRE, YABANCI_MADDE, KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, "& _ 
-                "EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGI"& _ 
-                "RLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, K"& _ 
-                "ALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET FROM EO_KIRAZPAKET_K"& _ 
-                "ONTROL WHERE (ID = SCOPE_IDENTITY())"
+                "URUN_ADI], [VARDIYA], [VARDIYA_BASLANGIC], [UBT_KODU], [URUN_CINSI], [MUSTERI_AD"& _ 
+                "I], [IZLEMENO], [AMBALAJTIPI], [KALIBRE], [YABANCI_MADDE], [KUFLENME], [DAL_SURT"& _ 
+                "MESI], [CURUME], [YUMUSAK], [ICKURD], [IKIZMEYVE], [EBAT_ALTI], [HASAR], [DOLU_Z"& _ 
+                "ARAR], [SEKIL_BOZUK], [PORSUME], [TOPLAM_KUSUR], [BRIX], [BRUT_AGIRLIK], [KUTU_A"& _ 
+                "GIRLIK], [POSET_AGIRLIK], [SALE_AGIRLIK], [NET_AGIRLIK], [TAT], [YAPI], [KOKU], "& _ 
+                "[KALITE_PERSONEL], [GIRDI_AMBALAJNO_KOLI], [GIRDI_AMBALAJNO_POSET]) VALUES (@HAS"& _ 
+                "AT_TARIH, @PAKETLEME_TARIH, @TESIS, @URUN_ADI, @VARDIYA, @VARDIYA_BASLANGIC, @UB"& _ 
+                "T_KODU, @URUN_CINSI, @MUSTERI_ADI, @IZLEMENO, @AMBALAJTIPI, @KALIBRE, @YABANCI_M"& _ 
+                "ADDE, @KUFLENME, @DAL_SURTMESI, @CURUME, @YUMUSAK, @ICKURD, @IKIZMEYVE, @EBAT_AL"& _ 
+                "TI, @HASAR, @DOLU_ZARAR, @SEKIL_BOZUK, @PORSUME, @TOPLAM_KUSUR, @BRIX, @BRUT_AGI"& _ 
+                "RLIK, @KUTU_AGIRLIK, @POSET_AGIRLIK, @SALE_AGIRLIK, @NET_AGIRLIK, @TAT, @YAPI, @"& _ 
+                "KOKU, @KALITE_PERSONEL, @GIRDI_AMBALAJNO_KOLI, @GIRDI_AMBALAJNO_POSET);"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT "& _ 
+                "ID, HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, U"& _ 
+                "BT_KODU, URUN_CINSI, MUSTERI_ADI, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE,"& _ 
+                " KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, D"& _ 
+                "OLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK,"& _ 
+                " POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIR"& _ 
+                "DI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET FROM EO_KIRAZPAKET_KONTROL WHERE (ID = "& _ 
+                "SCOPE_IDENTITY())"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@HASAT_TARIH", Global.System.Data.SqlDbType.[Date], 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@HASAT_TARIH", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PAKETLEME_TARIH", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "PAKETLEME_TARIH", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TESIS", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TESIS", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@URUN_ADI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "URUN_ADI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -2508,9 +2415,7 @@ Namespace ALANSISDataSet27TableAdapters
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@VARDIYA_BASLANGIC", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA_BASLANGIC", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UBT_KODU", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "UBT_KODU", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@URUN_CINSI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "URUN_CINSI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ETIKET_CESIDI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_CESIDI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MUSTERI_ADI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MUSTERI_ADI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ETIKET_KONTROL", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_KONTROL", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IZLEMENO", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "IZLEMENO", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@AMBALAJTIPI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "AMBALAJTIPI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@KALIBRE", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "KALIBRE", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -2544,55 +2449,51 @@ Namespace ALANSISDataSet27TableAdapters
             Me._adapter.UpdateCommand.CommandText = "UPDATE [EO_KIRAZPAKET_KONTROL] SET [HASAT_TARIH] = @HASAT_TARIH, [PAKETLEME_TARIH"& _ 
                 "] = @PAKETLEME_TARIH, [TESIS] = @TESIS, [URUN_ADI] = @URUN_ADI, [VARDIYA] = @VAR"& _ 
                 "DIYA, [VARDIYA_BASLANGIC] = @VARDIYA_BASLANGIC, [UBT_KODU] = @UBT_KODU, [URUN_CI"& _ 
-                "NSI] = @URUN_CINSI, [ETIKET_CESIDI] = @ETIKET_CESIDI, [MUSTERI_ADI] = @MUSTERI_A"& _ 
-                "DI, [ETIKET_KONTROL] = @ETIKET_KONTROL, [IZLEMENO] = @IZLEMENO, [AMBALAJTIPI] = "& _ 
-                "@AMBALAJTIPI, [KALIBRE] = @KALIBRE, [YABANCI_MADDE] = @YABANCI_MADDE, [KUFLENME]"& _ 
-                " = @KUFLENME, [DAL_SURTMESI] = @DAL_SURTMESI, [CURUME] = @CURUME, [YUMUSAK] = @Y"& _ 
-                "UMUSAK, [ICKURD] = @ICKURD, [IKIZMEYVE] = @IKIZMEYVE, [EBAT_ALTI] = @EBAT_ALTI, "& _ 
-                "[HASAR] = @HASAR, [DOLU_ZARAR] = @DOLU_ZARAR, [SEKIL_BOZUK] = @SEKIL_BOZUK, [POR"& _ 
-                "SUME] = @PORSUME, [TOPLAM_KUSUR] = @TOPLAM_KUSUR, [BRIX] = @BRIX, [BRUT_AGIRLIK]"& _ 
-                " = @BRUT_AGIRLIK, [KUTU_AGIRLIK] = @KUTU_AGIRLIK, [POSET_AGIRLIK] = @POSET_AGIRL"& _ 
-                "IK, [SALE_AGIRLIK] = @SALE_AGIRLIK, [NET_AGIRLIK] = @NET_AGIRLIK, [TAT] = @TAT, "& _ 
-                "[YAPI] = @YAPI, [KOKU] = @KOKU, [KALITE_PERSONEL] = @KALITE_PERSONEL, [GIRDI_AMB"& _ 
-                "ALAJNO_KOLI] = @GIRDI_AMBALAJNO_KOLI, [GIRDI_AMBALAJNO_POSET] = @GIRDI_AMBALAJNO"& _ 
-                "_POSET WHERE (([ID] = @Original_ID) AND ((@IsNull_HASAT_TARIH = 1 AND [HASAT_TAR"& _ 
-                "IH] IS NULL) OR ([HASAT_TARIH] = @Original_HASAT_TARIH)) AND ((@IsNull_VARDIYA ="& _ 
-                " 1 AND [VARDIYA] IS NULL) OR ([VARDIYA] = @Original_VARDIYA)) AND ((@IsNull_VARD"& _ 
-                "IYA_BASLANGIC = 1 AND [VARDIYA_BASLANGIC] IS NULL) OR ([VARDIYA_BASLANGIC] = @Or"& _ 
-                "iginal_VARDIYA_BASLANGIC)) AND ((@IsNull_ETIKET_KONTROL = 1 AND [ETIKET_KONTROL]"& _ 
-                " IS NULL) OR ([ETIKET_KONTROL] = @Original_ETIKET_KONTROL)) AND ((@IsNull_KALIBR"& _ 
-                "E = 1 AND [KALIBRE] IS NULL) OR ([KALIBRE] = @Original_KALIBRE)) AND ((@IsNull_Y"& _ 
-                "ABANCI_MADDE = 1 AND [YABANCI_MADDE] IS NULL) OR ([YABANCI_MADDE] = @Original_YA"& _ 
-                "BANCI_MADDE)) AND ((@IsNull_KUFLENME = 1 AND [KUFLENME] IS NULL) OR ([KUFLENME] "& _ 
-                "= @Original_KUFLENME)) AND ((@IsNull_DAL_SURTMESI = 1 AND [DAL_SURTMESI] IS NULL"& _ 
-                ") OR ([DAL_SURTMESI] = @Original_DAL_SURTMESI)) AND ((@IsNull_CURUME = 1 AND [CU"& _ 
-                "RUME] IS NULL) OR ([CURUME] = @Original_CURUME)) AND ((@IsNull_YUMUSAK = 1 AND ["& _ 
-                "YUMUSAK] IS NULL) OR ([YUMUSAK] = @Original_YUMUSAK)) AND ((@IsNull_ICKURD = 1 A"& _ 
-                "ND [ICKURD] IS NULL) OR ([ICKURD] = @Original_ICKURD)) AND ((@IsNull_IKIZMEYVE ="& _ 
-                " 1 AND [IKIZMEYVE] IS NULL) OR ([IKIZMEYVE] = @Original_IKIZMEYVE)) AND ((@IsNul"& _ 
-                "l_EBAT_ALTI = 1 AND [EBAT_ALTI] IS NULL) OR ([EBAT_ALTI] = @Original_EBAT_ALTI))"& _ 
-                " AND ((@IsNull_HASAR = 1 AND [HASAR] IS NULL) OR ([HASAR] = @Original_HASAR)) AN"& _ 
-                "D ((@IsNull_DOLU_ZARAR = 1 AND [DOLU_ZARAR] IS NULL) OR ([DOLU_ZARAR] = @Origina"& _ 
-                "l_DOLU_ZARAR)) AND ((@IsNull_SEKIL_BOZUK = 1 AND [SEKIL_BOZUK] IS NULL) OR ([SEK"& _ 
-                "IL_BOZUK] = @Original_SEKIL_BOZUK)) AND ((@IsNull_PORSUME = 1 AND [PORSUME] IS N"& _ 
-                "ULL) OR ([PORSUME] = @Original_PORSUME)) AND ((@IsNull_TOPLAM_KUSUR = 1 AND [TOP"& _ 
-                "LAM_KUSUR] IS NULL) OR ([TOPLAM_KUSUR] = @Original_TOPLAM_KUSUR)) AND ((@IsNull_"& _ 
-                "BRIX = 1 AND [BRIX] IS NULL) OR ([BRIX] = @Original_BRIX)) AND ((@IsNull_BRUT_AG"& _ 
-                "IRLIK = 1 AND [BRUT_AGIRLIK] IS NULL) OR ([BRUT_AGIRLIK] = @Original_BRUT_AGIRLI"& _ 
-                "K)) AND ((@IsNull_KUTU_AGIRLIK = 1 AND [KUTU_AGIRLIK] IS NULL) OR ([KUTU_AGIRLIK"& _ 
-                "] = @Original_KUTU_AGIRLIK)) AND ((@IsNull_POSET_AGIRLIK = 1 AND [POSET_AGIRLIK]"& _ 
-                " IS NULL) OR ([POSET_AGIRLIK] = @Original_POSET_AGIRLIK)) AND ((@IsNull_SALE_AGI"& _ 
-                "RLIK = 1 AND [SALE_AGIRLIK] IS NULL) OR ([SALE_AGIRLIK] = @Original_SALE_AGIRLIK"& _ 
-                ")) AND ((@IsNull_NET_AGIRLIK = 1 AND [NET_AGIRLIK] IS NULL) OR ([NET_AGIRLIK] = "& _ 
-                "@Original_NET_AGIRLIK)));"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT ID, HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_"& _ 
-                "ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URUN_CINSI, ETIKET_CESIDI, MUSTERI_AD"& _ 
-                "I, ETIKET_KONTROL, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_"& _ 
-                "SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKI"& _ 
-                "L_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK,"& _ 
-                " SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJNO_KO"& _ 
-                "LI, GIRDI_AMBALAJNO_POSET FROM EO_KIRAZPAKET_KONTROL WHERE (ID = @ID)"
+                "NSI] = @URUN_CINSI, [MUSTERI_ADI] = @MUSTERI_ADI, [IZLEMENO] = @IZLEMENO, [AMBAL"& _ 
+                "AJTIPI] = @AMBALAJTIPI, [KALIBRE] = @KALIBRE, [YABANCI_MADDE] = @YABANCI_MADDE, "& _ 
+                "[KUFLENME] = @KUFLENME, [DAL_SURTMESI] = @DAL_SURTMESI, [CURUME] = @CURUME, [YUM"& _ 
+                "USAK] = @YUMUSAK, [ICKURD] = @ICKURD, [IKIZMEYVE] = @IKIZMEYVE, [EBAT_ALTI] = @E"& _ 
+                "BAT_ALTI, [HASAR] = @HASAR, [DOLU_ZARAR] = @DOLU_ZARAR, [SEKIL_BOZUK] = @SEKIL_B"& _ 
+                "OZUK, [PORSUME] = @PORSUME, [TOPLAM_KUSUR] = @TOPLAM_KUSUR, [BRIX] = @BRIX, [BRU"& _ 
+                "T_AGIRLIK] = @BRUT_AGIRLIK, [KUTU_AGIRLIK] = @KUTU_AGIRLIK, [POSET_AGIRLIK] = @P"& _ 
+                "OSET_AGIRLIK, [SALE_AGIRLIK] = @SALE_AGIRLIK, [NET_AGIRLIK] = @NET_AGIRLIK, [TAT"& _ 
+                "] = @TAT, [YAPI] = @YAPI, [KOKU] = @KOKU, [KALITE_PERSONEL] = @KALITE_PERSONEL, "& _ 
+                "[GIRDI_AMBALAJNO_KOLI] = @GIRDI_AMBALAJNO_KOLI, [GIRDI_AMBALAJNO_POSET] = @GIRDI"& _ 
+                "_AMBALAJNO_POSET WHERE (([ID] = @Original_ID) AND ((@IsNull_VARDIYA = 1 AND [VAR"& _ 
+                "DIYA] IS NULL) OR ([VARDIYA] = @Original_VARDIYA)) AND ((@IsNull_VARDIYA_BASLANG"& _ 
+                "IC = 1 AND [VARDIYA_BASLANGIC] IS NULL) OR ([VARDIYA_BASLANGIC] = @Original_VARD"& _ 
+                "IYA_BASLANGIC)) AND ((@IsNull_KALIBRE = 1 AND [KALIBRE] IS NULL) OR ([KALIBRE] ="& _ 
+                " @Original_KALIBRE)) AND ((@IsNull_YABANCI_MADDE = 1 AND [YABANCI_MADDE] IS NULL"& _ 
+                ") OR ([YABANCI_MADDE] = @Original_YABANCI_MADDE)) AND ((@IsNull_KUFLENME = 1 AND"& _ 
+                " [KUFLENME] IS NULL) OR ([KUFLENME] = @Original_KUFLENME)) AND ((@IsNull_DAL_SUR"& _ 
+                "TMESI = 1 AND [DAL_SURTMESI] IS NULL) OR ([DAL_SURTMESI] = @Original_DAL_SURTMES"& _ 
+                "I)) AND ((@IsNull_CURUME = 1 AND [CURUME] IS NULL) OR ([CURUME] = @Original_CURU"& _ 
+                "ME)) AND ((@IsNull_YUMUSAK = 1 AND [YUMUSAK] IS NULL) OR ([YUMUSAK] = @Original_"& _ 
+                "YUMUSAK)) AND ((@IsNull_ICKURD = 1 AND [ICKURD] IS NULL) OR ([ICKURD] = @Origina"& _ 
+                "l_ICKURD)) AND ((@IsNull_IKIZMEYVE = 1 AND [IKIZMEYVE] IS NULL) OR ([IKIZMEYVE] "& _ 
+                "= @Original_IKIZMEYVE)) AND ((@IsNull_EBAT_ALTI = 1 AND [EBAT_ALTI] IS NULL) OR "& _ 
+                "([EBAT_ALTI] = @Original_EBAT_ALTI)) AND ((@IsNull_HASAR = 1 AND [HASAR] IS NULL"& _ 
+                ") OR ([HASAR] = @Original_HASAR)) AND ((@IsNull_DOLU_ZARAR = 1 AND [DOLU_ZARAR] "& _ 
+                "IS NULL) OR ([DOLU_ZARAR] = @Original_DOLU_ZARAR)) AND ((@IsNull_SEKIL_BOZUK = 1"& _ 
+                " AND [SEKIL_BOZUK] IS NULL) OR ([SEKIL_BOZUK] = @Original_SEKIL_BOZUK)) AND ((@I"& _ 
+                "sNull_PORSUME = 1 AND [PORSUME] IS NULL) OR ([PORSUME] = @Original_PORSUME)) AND"& _ 
+                " ((@IsNull_TOPLAM_KUSUR = 1 AND [TOPLAM_KUSUR] IS NULL) OR ([TOPLAM_KUSUR] = @Or"& _ 
+                "iginal_TOPLAM_KUSUR)) AND ((@IsNull_BRIX = 1 AND [BRIX] IS NULL) OR ([BRIX] = @O"& _ 
+                "riginal_BRIX)) AND ((@IsNull_BRUT_AGIRLIK = 1 AND [BRUT_AGIRLIK] IS NULL) OR ([B"& _ 
+                "RUT_AGIRLIK] = @Original_BRUT_AGIRLIK)) AND ((@IsNull_KUTU_AGIRLIK = 1 AND [KUTU"& _ 
+                "_AGIRLIK] IS NULL) OR ([KUTU_AGIRLIK] = @Original_KUTU_AGIRLIK)) AND ((@IsNull_P"& _ 
+                "OSET_AGIRLIK = 1 AND [POSET_AGIRLIK] IS NULL) OR ([POSET_AGIRLIK] = @Original_PO"& _ 
+                "SET_AGIRLIK)) AND ((@IsNull_SALE_AGIRLIK = 1 AND [SALE_AGIRLIK] IS NULL) OR ([SA"& _ 
+                "LE_AGIRLIK] = @Original_SALE_AGIRLIK)) AND ((@IsNull_NET_AGIRLIK = 1 AND [NET_AG"& _ 
+                "IRLIK] IS NULL) OR ([NET_AGIRLIK] = @Original_NET_AGIRLIK)));"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT ID, HASAT_"& _ 
+                "TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, U"& _ 
+                "RUN_CINSI, MUSTERI_ADI, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME,"& _ 
+                " DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR,"& _ 
+                " SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGI"& _ 
+                "RLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJ"& _ 
+                "NO_KOLI, GIRDI_AMBALAJNO_POSET FROM EO_KIRAZPAKET_KONTROL WHERE (ID = @ID)"
             Me._adapter.UpdateCommand.CommandType = Global.System.Data.CommandType.Text
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@HASAT_TARIH", Global.System.Data.SqlDbType.[Date], 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@HASAT_TARIH", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PAKETLEME_TARIH", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "PAKETLEME_TARIH", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TESIS", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TESIS", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@URUN_ADI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "URUN_ADI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -2600,9 +2501,7 @@ Namespace ALANSISDataSet27TableAdapters
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@VARDIYA_BASLANGIC", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA_BASLANGIC", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UBT_KODU", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "UBT_KODU", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@URUN_CINSI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "URUN_CINSI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ETIKET_CESIDI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_CESIDI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MUSTERI_ADI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MUSTERI_ADI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ETIKET_KONTROL", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_KONTROL", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IZLEMENO", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "IZLEMENO", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@AMBALAJTIPI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "AMBALAJTIPI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@KALIBRE", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "KALIBRE", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -2632,14 +2531,10 @@ Namespace ALANSISDataSet27TableAdapters
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@GIRDI_AMBALAJNO_KOLI", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "GIRDI_AMBALAJNO_KOLI", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@GIRDI_AMBALAJNO_POSET", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "GIRDI_AMBALAJNO_POSET", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_ID", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ID", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_HASAT_TARIH", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_HASAT_TARIH", Global.System.Data.SqlDbType.[Date], 0, Global.System.Data.ParameterDirection.Input, 0, 0, "HASAT_TARIH", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_VARDIYA", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_VARDIYA", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_VARDIYA_BASLANGIC", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA_BASLANGIC", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_VARDIYA_BASLANGIC", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "VARDIYA_BASLANGIC", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_ETIKET_KONTROL", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_KONTROL", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_ETIKET_KONTROL", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "ETIKET_KONTROL", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_KALIBRE", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "KALIBRE", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Original_KALIBRE", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "KALIBRE", Global.System.Data.DataRowVersion.Original, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@IsNull_YABANCI_MADDE", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "YABANCI_MADDE", Global.System.Data.DataRowVersion.Original, true, Nothing, "", "", ""))
@@ -2696,14 +2591,13 @@ Namespace ALANSISDataSet27TableAdapters
             Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT     ID, HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BA"& _ 
-                "SLANGIC, UBT_KODU, URUN_CINSI, ETIKET_CESIDI, MUSTERI_ADI, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                   "& _ 
-                "   ETIKET_KONTROL, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_"& _ 
-                "SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                     "& _ 
-                " HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU"& _ 
-                "_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                     "& _ 
-                " YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM "& _ 
-                "        EO_KIRAZPAKET_KONTROL"
+            Me._commandCollection(0).CommandText = "SELECT ID, HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLAN"& _ 
+                "GIC, UBT_KODU, URUN_CINSI, MUSTERI_ADI, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_"& _ 
+                "MADDE, KUFLENME, DAL_SURTMESI, CURUME, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                  YUMUSAK, ICKURD, IKIZ"& _ 
+                "MEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, B"& _ 
+                "RUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, "& _ 
+                "KOKU, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                  KALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO"& _ 
+                "_POSET"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     EO_KIRAZPAKET_KONTROL"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
         End Sub
         
@@ -2765,10 +2659,8 @@ Namespace ALANSISDataSet27TableAdapters
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Delete, true)>  _
         Public Overloads Overridable Function Delete( _
                     ByVal Original_ID As Integer,  _
-                    ByVal Original_HASAT_TARIH As Global.System.Nullable(Of Date),  _
                     ByVal Original_VARDIYA As String,  _
                     ByVal Original_VARDIYA_BASLANGIC As String,  _
-                    ByVal Original_ETIKET_KONTROL As String,  _
                     ByVal Original_KALIBRE As String,  _
                     ByVal Original_YABANCI_MADDE As Global.System.Nullable(Of Decimal),  _
                     ByVal Original_KUFLENME As Global.System.Nullable(Of Decimal),  _
@@ -2790,173 +2682,159 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal Original_SALE_AGIRLIK As Global.System.Nullable(Of Decimal),  _
                     ByVal Original_NET_AGIRLIK As Global.System.Nullable(Of Decimal)) As Integer
             Me.Adapter.DeleteCommand.Parameters(0).Value = CType(Original_ID,Integer)
-            If (Original_HASAT_TARIH.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(1).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(2).Value = CType(Original_HASAT_TARIH.Value,Date)
-            Else
+            If (Original_VARDIYA Is Nothing) Then
                 Me.Adapter.DeleteCommand.Parameters(1).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(2).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.DeleteCommand.Parameters(1).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(2).Value = CType(Original_VARDIYA,String)
             End If
-            If (Original_VARDIYA Is Nothing) Then
+            If (Original_VARDIYA_BASLANGIC Is Nothing) Then
                 Me.Adapter.DeleteCommand.Parameters(3).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(4).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.DeleteCommand.Parameters(3).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(4).Value = CType(Original_VARDIYA,String)
+                Me.Adapter.DeleteCommand.Parameters(4).Value = CType(Original_VARDIYA_BASLANGIC,String)
             End If
-            If (Original_VARDIYA_BASLANGIC Is Nothing) Then
+            If (Original_KALIBRE Is Nothing) Then
                 Me.Adapter.DeleteCommand.Parameters(5).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(6).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.DeleteCommand.Parameters(5).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(6).Value = CType(Original_VARDIYA_BASLANGIC,String)
-            End If
-            If (Original_ETIKET_KONTROL Is Nothing) Then
-                Me.Adapter.DeleteCommand.Parameters(7).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(8).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.DeleteCommand.Parameters(7).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(8).Value = CType(Original_ETIKET_KONTROL,String)
-            End If
-            If (Original_KALIBRE Is Nothing) Then
-                Me.Adapter.DeleteCommand.Parameters(9).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(10).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.DeleteCommand.Parameters(9).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(10).Value = CType(Original_KALIBRE,String)
+                Me.Adapter.DeleteCommand.Parameters(6).Value = CType(Original_KALIBRE,String)
             End If
             If (Original_YABANCI_MADDE.HasValue = true) Then
+                Me.Adapter.DeleteCommand.Parameters(7).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(8).Value = CType(Original_YABANCI_MADDE.Value,Decimal)
+            Else
+                Me.Adapter.DeleteCommand.Parameters(7).Value = CType(1,Object)
+                Me.Adapter.DeleteCommand.Parameters(8).Value = Global.System.DBNull.Value
+            End If
+            If (Original_KUFLENME.HasValue = true) Then
+                Me.Adapter.DeleteCommand.Parameters(9).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(10).Value = CType(Original_KUFLENME.Value,Decimal)
+            Else
+                Me.Adapter.DeleteCommand.Parameters(9).Value = CType(1,Object)
+                Me.Adapter.DeleteCommand.Parameters(10).Value = Global.System.DBNull.Value
+            End If
+            If (Original_DAL_SURTMESI.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(11).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(12).Value = CType(Original_YABANCI_MADDE.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(12).Value = CType(Original_DAL_SURTMESI.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(11).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(12).Value = Global.System.DBNull.Value
             End If
-            If (Original_KUFLENME.HasValue = true) Then
+            If (Original_CURUME.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(13).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(14).Value = CType(Original_KUFLENME.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(14).Value = CType(Original_CURUME.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(13).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(14).Value = Global.System.DBNull.Value
             End If
-            If (Original_DAL_SURTMESI.HasValue = true) Then
+            If (Original_YUMUSAK.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(15).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(16).Value = CType(Original_DAL_SURTMESI.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(16).Value = CType(Original_YUMUSAK.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(15).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(16).Value = Global.System.DBNull.Value
             End If
-            If (Original_CURUME.HasValue = true) Then
+            If (Original_ICKURD.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(17).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(18).Value = CType(Original_CURUME.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(18).Value = CType(Original_ICKURD.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(17).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(18).Value = Global.System.DBNull.Value
             End If
-            If (Original_YUMUSAK.HasValue = true) Then
+            If (Original_IKIZMEYVE.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(19).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(20).Value = CType(Original_YUMUSAK.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(20).Value = CType(Original_IKIZMEYVE.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(19).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(20).Value = Global.System.DBNull.Value
             End If
-            If (Original_ICKURD.HasValue = true) Then
+            If (Original_EBAT_ALTI.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(21).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(22).Value = CType(Original_ICKURD.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(22).Value = CType(Original_EBAT_ALTI.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(21).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(22).Value = Global.System.DBNull.Value
             End If
-            If (Original_IKIZMEYVE.HasValue = true) Then
+            If (Original_HASAR.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(23).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(24).Value = CType(Original_IKIZMEYVE.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(24).Value = CType(Original_HASAR.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(23).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(24).Value = Global.System.DBNull.Value
             End If
-            If (Original_EBAT_ALTI.HasValue = true) Then
+            If (Original_DOLU_ZARAR.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(25).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(26).Value = CType(Original_EBAT_ALTI.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(26).Value = CType(Original_DOLU_ZARAR.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(25).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(26).Value = Global.System.DBNull.Value
             End If
-            If (Original_HASAR.HasValue = true) Then
+            If (Original_SEKIL_BOZUK.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(27).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(28).Value = CType(Original_HASAR.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(28).Value = CType(Original_SEKIL_BOZUK.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(27).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(28).Value = Global.System.DBNull.Value
             End If
-            If (Original_DOLU_ZARAR.HasValue = true) Then
+            If (Original_PORSUME.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(29).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(30).Value = CType(Original_DOLU_ZARAR.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(30).Value = CType(Original_PORSUME.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(29).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(30).Value = Global.System.DBNull.Value
             End If
-            If (Original_SEKIL_BOZUK.HasValue = true) Then
+            If (Original_TOPLAM_KUSUR.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(31).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(32).Value = CType(Original_SEKIL_BOZUK.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(32).Value = CType(Original_TOPLAM_KUSUR.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(31).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(32).Value = Global.System.DBNull.Value
             End If
-            If (Original_PORSUME.HasValue = true) Then
+            If (Original_BRIX.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(33).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(34).Value = CType(Original_PORSUME.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(34).Value = CType(Original_BRIX.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(33).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(34).Value = Global.System.DBNull.Value
             End If
-            If (Original_TOPLAM_KUSUR.HasValue = true) Then
+            If (Original_BRUT_AGIRLIK.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(35).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(36).Value = CType(Original_TOPLAM_KUSUR.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(36).Value = CType(Original_BRUT_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(35).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(36).Value = Global.System.DBNull.Value
             End If
-            If (Original_BRIX.HasValue = true) Then
+            If (Original_KUTU_AGIRLIK.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(37).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(38).Value = CType(Original_BRIX.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(38).Value = CType(Original_KUTU_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(37).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(38).Value = Global.System.DBNull.Value
             End If
-            If (Original_BRUT_AGIRLIK.HasValue = true) Then
+            If (Original_POSET_AGIRLIK.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(39).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(40).Value = CType(Original_BRUT_AGIRLIK.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(40).Value = CType(Original_POSET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(39).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(40).Value = Global.System.DBNull.Value
             End If
-            If (Original_KUTU_AGIRLIK.HasValue = true) Then
+            If (Original_SALE_AGIRLIK.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(41).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(42).Value = CType(Original_KUTU_AGIRLIK.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(42).Value = CType(Original_SALE_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(41).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(42).Value = Global.System.DBNull.Value
             End If
-            If (Original_POSET_AGIRLIK.HasValue = true) Then
+            If (Original_NET_AGIRLIK.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(43).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(44).Value = CType(Original_POSET_AGIRLIK.Value,Decimal)
+                Me.Adapter.DeleteCommand.Parameters(44).Value = CType(Original_NET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.DeleteCommand.Parameters(43).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(44).Value = Global.System.DBNull.Value
-            End If
-            If (Original_SALE_AGIRLIK.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(45).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(46).Value = CType(Original_SALE_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.DeleteCommand.Parameters(45).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(46).Value = Global.System.DBNull.Value
-            End If
-            If (Original_NET_AGIRLIK.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(47).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(48).Value = CType(Original_NET_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.DeleteCommand.Parameters(47).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(48).Value = Global.System.DBNull.Value
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.DeleteCommand.Connection.State
             If ((Me.Adapter.DeleteCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
@@ -2978,7 +2856,7 @@ Namespace ALANSISDataSet27TableAdapters
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Insert, true)>  _
         Public Overloads Overridable Function Insert( _
-                    ByVal HASAT_TARIH As Global.System.Nullable(Of Date),  _
+                    ByVal HASAT_TARIH As String,  _
                     ByVal PAKETLEME_TARIH As String,  _
                     ByVal TESIS As String,  _
                     ByVal URUN_ADI As String,  _
@@ -2986,9 +2864,7 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal VARDIYA_BASLANGIC As String,  _
                     ByVal UBT_KODU As String,  _
                     ByVal URUN_CINSI As String,  _
-                    ByVal ETIKET_CESIDI As String,  _
                     ByVal MUSTERI_ADI As String,  _
-                    ByVal ETIKET_KONTROL As String,  _
                     ByVal IZLEMENO As String,  _
                     ByVal AMBALAJTIPI As String,  _
                     ByVal KALIBRE As String,  _
@@ -3017,10 +2893,10 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal KALITE_PERSONEL As String,  _
                     ByVal GIRDI_AMBALAJNO_KOLI As String,  _
                     ByVal GIRDI_AMBALAJNO_POSET As String) As Integer
-            If (HASAT_TARIH.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(0).Value = CType(HASAT_TARIH.Value,Date)
-            Else
+            If (HASAT_TARIH Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(0).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(0).Value = CType(HASAT_TARIH,String)
             End If
             If (PAKETLEME_TARIH Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(1).Value = Global.System.DBNull.Value
@@ -3057,160 +2933,150 @@ Namespace ALANSISDataSet27TableAdapters
             Else
                 Me.Adapter.InsertCommand.Parameters(7).Value = CType(URUN_CINSI,String)
             End If
-            If (ETIKET_CESIDI Is Nothing) Then
+            If (MUSTERI_ADI Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(8).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(8).Value = CType(ETIKET_CESIDI,String)
-            End If
-            If (MUSTERI_ADI Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(9).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.InsertCommand.Parameters(9).Value = CType(MUSTERI_ADI,String)
-            End If
-            If (ETIKET_KONTROL Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(10).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.InsertCommand.Parameters(10).Value = CType(ETIKET_KONTROL,String)
+                Me.Adapter.InsertCommand.Parameters(8).Value = CType(MUSTERI_ADI,String)
             End If
             If (IZLEMENO Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(11).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(9).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(11).Value = CType(IZLEMENO,String)
+                Me.Adapter.InsertCommand.Parameters(9).Value = CType(IZLEMENO,String)
             End If
             If (AMBALAJTIPI Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(12).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(10).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(12).Value = CType(AMBALAJTIPI,String)
+                Me.Adapter.InsertCommand.Parameters(10).Value = CType(AMBALAJTIPI,String)
             End If
             If (KALIBRE Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(13).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(11).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(13).Value = CType(KALIBRE,String)
+                Me.Adapter.InsertCommand.Parameters(11).Value = CType(KALIBRE,String)
             End If
             If (YABANCI_MADDE.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(14).Value = CType(YABANCI_MADDE.Value,Decimal)
+                Me.Adapter.InsertCommand.Parameters(12).Value = CType(YABANCI_MADDE.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(12).Value = Global.System.DBNull.Value
+            End If
+            If (KUFLENME.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(13).Value = CType(KUFLENME.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(13).Value = Global.System.DBNull.Value
+            End If
+            If (DAL_SURTMESI.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(14).Value = CType(DAL_SURTMESI.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(14).Value = Global.System.DBNull.Value
             End If
-            If (KUFLENME.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(15).Value = CType(KUFLENME.Value,Decimal)
+            If (CURUME.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(15).Value = CType(CURUME.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(15).Value = Global.System.DBNull.Value
             End If
-            If (DAL_SURTMESI.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(16).Value = CType(DAL_SURTMESI.Value,Decimal)
+            If (YUMUSAK.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(16).Value = CType(YUMUSAK.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(16).Value = Global.System.DBNull.Value
             End If
-            If (CURUME.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(17).Value = CType(CURUME.Value,Decimal)
+            If (ICKURD.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(17).Value = CType(ICKURD.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(17).Value = Global.System.DBNull.Value
             End If
-            If (YUMUSAK.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(18).Value = CType(YUMUSAK.Value,Decimal)
+            If (IKIZMEYVE.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(18).Value = CType(IKIZMEYVE.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(18).Value = Global.System.DBNull.Value
             End If
-            If (ICKURD.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(19).Value = CType(ICKURD.Value,Decimal)
+            If (EBAT_ALTI.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(19).Value = CType(EBAT_ALTI.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(19).Value = Global.System.DBNull.Value
             End If
-            If (IKIZMEYVE.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(20).Value = CType(IKIZMEYVE.Value,Decimal)
+            If (HASAR.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(20).Value = CType(HASAR.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(20).Value = Global.System.DBNull.Value
             End If
-            If (EBAT_ALTI.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(21).Value = CType(EBAT_ALTI.Value,Decimal)
+            If (DOLU_ZARAR.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(21).Value = CType(DOLU_ZARAR.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(21).Value = Global.System.DBNull.Value
             End If
-            If (HASAR.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(22).Value = CType(HASAR.Value,Decimal)
+            If (SEKIL_BOZUK.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(22).Value = CType(SEKIL_BOZUK.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(22).Value = Global.System.DBNull.Value
             End If
-            If (DOLU_ZARAR.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(23).Value = CType(DOLU_ZARAR.Value,Decimal)
+            If (PORSUME.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(23).Value = CType(PORSUME.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(23).Value = Global.System.DBNull.Value
             End If
-            If (SEKIL_BOZUK.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(24).Value = CType(SEKIL_BOZUK.Value,Decimal)
+            If (TOPLAM_KUSUR.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(24).Value = CType(TOPLAM_KUSUR.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(24).Value = Global.System.DBNull.Value
             End If
-            If (PORSUME.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(25).Value = CType(PORSUME.Value,Decimal)
+            If (BRIX.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(25).Value = CType(BRIX.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(25).Value = Global.System.DBNull.Value
             End If
-            If (TOPLAM_KUSUR.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(26).Value = CType(TOPLAM_KUSUR.Value,Decimal)
+            If (BRUT_AGIRLIK.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(26).Value = CType(BRUT_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(26).Value = Global.System.DBNull.Value
             End If
-            If (BRIX.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(27).Value = CType(BRIX.Value,Decimal)
+            If (KUTU_AGIRLIK.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(27).Value = CType(KUTU_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(27).Value = Global.System.DBNull.Value
             End If
-            If (BRUT_AGIRLIK.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(28).Value = CType(BRUT_AGIRLIK.Value,Decimal)
+            If (POSET_AGIRLIK.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(28).Value = CType(POSET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(28).Value = Global.System.DBNull.Value
             End If
-            If (KUTU_AGIRLIK.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(29).Value = CType(KUTU_AGIRLIK.Value,Decimal)
+            If (SALE_AGIRLIK.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(29).Value = CType(SALE_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(29).Value = Global.System.DBNull.Value
             End If
-            If (POSET_AGIRLIK.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(30).Value = CType(POSET_AGIRLIK.Value,Decimal)
+            If (NET_AGIRLIK.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(30).Value = CType(NET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.InsertCommand.Parameters(30).Value = Global.System.DBNull.Value
             End If
-            If (SALE_AGIRLIK.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(31).Value = CType(SALE_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.InsertCommand.Parameters(31).Value = Global.System.DBNull.Value
-            End If
-            If (NET_AGIRLIK.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(32).Value = CType(NET_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.InsertCommand.Parameters(32).Value = Global.System.DBNull.Value
-            End If
             If (TAT Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(33).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(31).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(33).Value = CType(TAT,String)
+                Me.Adapter.InsertCommand.Parameters(31).Value = CType(TAT,String)
             End If
             If (YAPI Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(34).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(32).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(34).Value = CType(YAPI,String)
+                Me.Adapter.InsertCommand.Parameters(32).Value = CType(YAPI,String)
             End If
             If (KOKU Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(35).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(33).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(35).Value = CType(KOKU,String)
+                Me.Adapter.InsertCommand.Parameters(33).Value = CType(KOKU,String)
             End If
             If (KALITE_PERSONEL Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(36).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(34).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(36).Value = CType(KALITE_PERSONEL,String)
+                Me.Adapter.InsertCommand.Parameters(34).Value = CType(KALITE_PERSONEL,String)
             End If
             If (GIRDI_AMBALAJNO_KOLI Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(37).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(35).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(37).Value = CType(GIRDI_AMBALAJNO_KOLI,String)
+                Me.Adapter.InsertCommand.Parameters(35).Value = CType(GIRDI_AMBALAJNO_KOLI,String)
             End If
             If (GIRDI_AMBALAJNO_POSET Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(38).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(36).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(38).Value = CType(GIRDI_AMBALAJNO_POSET,String)
+                Me.Adapter.InsertCommand.Parameters(36).Value = CType(GIRDI_AMBALAJNO_POSET,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
             If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
@@ -3232,7 +3098,7 @@ Namespace ALANSISDataSet27TableAdapters
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Update, true)>  _
         Public Overloads Overridable Function Update( _
-                    ByVal HASAT_TARIH As Global.System.Nullable(Of Date),  _
+                    ByVal HASAT_TARIH As String,  _
                     ByVal PAKETLEME_TARIH As String,  _
                     ByVal TESIS As String,  _
                     ByVal URUN_ADI As String,  _
@@ -3240,9 +3106,7 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal VARDIYA_BASLANGIC As String,  _
                     ByVal UBT_KODU As String,  _
                     ByVal URUN_CINSI As String,  _
-                    ByVal ETIKET_CESIDI As String,  _
                     ByVal MUSTERI_ADI As String,  _
-                    ByVal ETIKET_KONTROL As String,  _
                     ByVal IZLEMENO As String,  _
                     ByVal AMBALAJTIPI As String,  _
                     ByVal KALIBRE As String,  _
@@ -3272,10 +3136,8 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal GIRDI_AMBALAJNO_KOLI As String,  _
                     ByVal GIRDI_AMBALAJNO_POSET As String,  _
                     ByVal Original_ID As Integer,  _
-                    ByVal Original_HASAT_TARIH As Global.System.Nullable(Of Date),  _
                     ByVal Original_VARDIYA As String,  _
                     ByVal Original_VARDIYA_BASLANGIC As String,  _
-                    ByVal Original_ETIKET_KONTROL As String,  _
                     ByVal Original_KALIBRE As String,  _
                     ByVal Original_YABANCI_MADDE As Global.System.Nullable(Of Decimal),  _
                     ByVal Original_KUFLENME As Global.System.Nullable(Of Decimal),  _
@@ -3297,10 +3159,10 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal Original_SALE_AGIRLIK As Global.System.Nullable(Of Decimal),  _
                     ByVal Original_NET_AGIRLIK As Global.System.Nullable(Of Decimal),  _
                     ByVal ID As Integer) As Integer
-            If (HASAT_TARIH.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(0).Value = CType(HASAT_TARIH.Value,Date)
-            Else
+            If (HASAT_TARIH Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(0).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.UpdateCommand.Parameters(0).Value = CType(HASAT_TARIH,String)
             End If
             If (PAKETLEME_TARIH Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(1).Value = Global.System.DBNull.Value
@@ -3337,331 +3199,307 @@ Namespace ALANSISDataSet27TableAdapters
             Else
                 Me.Adapter.UpdateCommand.Parameters(7).Value = CType(URUN_CINSI,String)
             End If
-            If (ETIKET_CESIDI Is Nothing) Then
+            If (MUSTERI_ADI Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(8).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(8).Value = CType(ETIKET_CESIDI,String)
-            End If
-            If (MUSTERI_ADI Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(9).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(9).Value = CType(MUSTERI_ADI,String)
-            End If
-            If (ETIKET_KONTROL Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(10).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(10).Value = CType(ETIKET_KONTROL,String)
+                Me.Adapter.UpdateCommand.Parameters(8).Value = CType(MUSTERI_ADI,String)
             End If
             If (IZLEMENO Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(11).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(9).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(11).Value = CType(IZLEMENO,String)
+                Me.Adapter.UpdateCommand.Parameters(9).Value = CType(IZLEMENO,String)
             End If
             If (AMBALAJTIPI Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(12).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(10).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(12).Value = CType(AMBALAJTIPI,String)
+                Me.Adapter.UpdateCommand.Parameters(10).Value = CType(AMBALAJTIPI,String)
             End If
             If (KALIBRE Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(13).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(11).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(13).Value = CType(KALIBRE,String)
+                Me.Adapter.UpdateCommand.Parameters(11).Value = CType(KALIBRE,String)
             End If
             If (YABANCI_MADDE.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(14).Value = CType(YABANCI_MADDE.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(12).Value = CType(YABANCI_MADDE.Value,Decimal)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(12).Value = Global.System.DBNull.Value
+            End If
+            If (KUFLENME.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(13).Value = CType(KUFLENME.Value,Decimal)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(13).Value = Global.System.DBNull.Value
+            End If
+            If (DAL_SURTMESI.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(14).Value = CType(DAL_SURTMESI.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(14).Value = Global.System.DBNull.Value
             End If
-            If (KUFLENME.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(15).Value = CType(KUFLENME.Value,Decimal)
+            If (CURUME.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(15).Value = CType(CURUME.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(15).Value = Global.System.DBNull.Value
             End If
-            If (DAL_SURTMESI.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(16).Value = CType(DAL_SURTMESI.Value,Decimal)
+            If (YUMUSAK.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(16).Value = CType(YUMUSAK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(16).Value = Global.System.DBNull.Value
             End If
-            If (CURUME.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(17).Value = CType(CURUME.Value,Decimal)
+            If (ICKURD.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(17).Value = CType(ICKURD.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(17).Value = Global.System.DBNull.Value
             End If
-            If (YUMUSAK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(18).Value = CType(YUMUSAK.Value,Decimal)
+            If (IKIZMEYVE.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(18).Value = CType(IKIZMEYVE.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(18).Value = Global.System.DBNull.Value
             End If
-            If (ICKURD.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(19).Value = CType(ICKURD.Value,Decimal)
+            If (EBAT_ALTI.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(19).Value = CType(EBAT_ALTI.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(19).Value = Global.System.DBNull.Value
             End If
-            If (IKIZMEYVE.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(20).Value = CType(IKIZMEYVE.Value,Decimal)
+            If (HASAR.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(20).Value = CType(HASAR.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(20).Value = Global.System.DBNull.Value
             End If
-            If (EBAT_ALTI.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(21).Value = CType(EBAT_ALTI.Value,Decimal)
+            If (DOLU_ZARAR.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(21).Value = CType(DOLU_ZARAR.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(21).Value = Global.System.DBNull.Value
             End If
-            If (HASAR.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(22).Value = CType(HASAR.Value,Decimal)
+            If (SEKIL_BOZUK.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(22).Value = CType(SEKIL_BOZUK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(22).Value = Global.System.DBNull.Value
             End If
-            If (DOLU_ZARAR.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(23).Value = CType(DOLU_ZARAR.Value,Decimal)
+            If (PORSUME.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(23).Value = CType(PORSUME.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(23).Value = Global.System.DBNull.Value
             End If
-            If (SEKIL_BOZUK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(24).Value = CType(SEKIL_BOZUK.Value,Decimal)
+            If (TOPLAM_KUSUR.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(24).Value = CType(TOPLAM_KUSUR.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(24).Value = Global.System.DBNull.Value
             End If
-            If (PORSUME.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(25).Value = CType(PORSUME.Value,Decimal)
+            If (BRIX.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(25).Value = CType(BRIX.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(25).Value = Global.System.DBNull.Value
             End If
-            If (TOPLAM_KUSUR.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(26).Value = CType(TOPLAM_KUSUR.Value,Decimal)
+            If (BRUT_AGIRLIK.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(26).Value = CType(BRUT_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(26).Value = Global.System.DBNull.Value
             End If
-            If (BRIX.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(27).Value = CType(BRIX.Value,Decimal)
+            If (KUTU_AGIRLIK.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(27).Value = CType(KUTU_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(27).Value = Global.System.DBNull.Value
             End If
-            If (BRUT_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(28).Value = CType(BRUT_AGIRLIK.Value,Decimal)
+            If (POSET_AGIRLIK.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(28).Value = CType(POSET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(28).Value = Global.System.DBNull.Value
             End If
-            If (KUTU_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(29).Value = CType(KUTU_AGIRLIK.Value,Decimal)
+            If (SALE_AGIRLIK.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(29).Value = CType(SALE_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(29).Value = Global.System.DBNull.Value
             End If
-            If (POSET_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(30).Value = CType(POSET_AGIRLIK.Value,Decimal)
+            If (NET_AGIRLIK.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(30).Value = CType(NET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(30).Value = Global.System.DBNull.Value
             End If
-            If (SALE_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(31).Value = CType(SALE_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(31).Value = Global.System.DBNull.Value
-            End If
-            If (NET_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(32).Value = CType(NET_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(32).Value = Global.System.DBNull.Value
-            End If
             If (TAT Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(33).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(31).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(33).Value = CType(TAT,String)
+                Me.Adapter.UpdateCommand.Parameters(31).Value = CType(TAT,String)
             End If
             If (YAPI Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(34).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(32).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(34).Value = CType(YAPI,String)
+                Me.Adapter.UpdateCommand.Parameters(32).Value = CType(YAPI,String)
             End If
             If (KOKU Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(35).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(33).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(35).Value = CType(KOKU,String)
+                Me.Adapter.UpdateCommand.Parameters(33).Value = CType(KOKU,String)
             End If
             If (KALITE_PERSONEL Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(36).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(34).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(36).Value = CType(KALITE_PERSONEL,String)
+                Me.Adapter.UpdateCommand.Parameters(34).Value = CType(KALITE_PERSONEL,String)
             End If
             If (GIRDI_AMBALAJNO_KOLI Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(37).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(35).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(37).Value = CType(GIRDI_AMBALAJNO_KOLI,String)
+                Me.Adapter.UpdateCommand.Parameters(35).Value = CType(GIRDI_AMBALAJNO_KOLI,String)
             End If
             If (GIRDI_AMBALAJNO_POSET Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(38).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(36).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(38).Value = CType(GIRDI_AMBALAJNO_POSET,String)
+                Me.Adapter.UpdateCommand.Parameters(36).Value = CType(GIRDI_AMBALAJNO_POSET,String)
             End If
-            Me.Adapter.UpdateCommand.Parameters(39).Value = CType(Original_ID,Integer)
-            If (Original_HASAT_TARIH.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(40).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(41).Value = CType(Original_HASAT_TARIH.Value,Date)
+            Me.Adapter.UpdateCommand.Parameters(37).Value = CType(Original_ID,Integer)
+            If (Original_VARDIYA Is Nothing) Then
+                Me.Adapter.UpdateCommand.Parameters(38).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(39).Value = Global.System.DBNull.Value
             Else
+                Me.Adapter.UpdateCommand.Parameters(38).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(39).Value = CType(Original_VARDIYA,String)
+            End If
+            If (Original_VARDIYA_BASLANGIC Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(40).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(41).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.UpdateCommand.Parameters(40).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(41).Value = CType(Original_VARDIYA_BASLANGIC,String)
             End If
-            If (Original_VARDIYA Is Nothing) Then
+            If (Original_KALIBRE Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(42).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(43).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.UpdateCommand.Parameters(42).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(43).Value = CType(Original_VARDIYA,String)
-            End If
-            If (Original_VARDIYA_BASLANGIC Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(44).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(45).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(44).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(45).Value = CType(Original_VARDIYA_BASLANGIC,String)
-            End If
-            If (Original_ETIKET_KONTROL Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(46).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(47).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(46).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(47).Value = CType(Original_ETIKET_KONTROL,String)
-            End If
-            If (Original_KALIBRE Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(48).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(49).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(48).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(49).Value = CType(Original_KALIBRE,String)
+                Me.Adapter.UpdateCommand.Parameters(43).Value = CType(Original_KALIBRE,String)
             End If
             If (Original_YABANCI_MADDE.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(44).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(45).Value = CType(Original_YABANCI_MADDE.Value,Decimal)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(44).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(45).Value = Global.System.DBNull.Value
+            End If
+            If (Original_KUFLENME.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(46).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(47).Value = CType(Original_KUFLENME.Value,Decimal)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(46).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(47).Value = Global.System.DBNull.Value
+            End If
+            If (Original_DAL_SURTMESI.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(48).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(49).Value = CType(Original_DAL_SURTMESI.Value,Decimal)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(48).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(49).Value = Global.System.DBNull.Value
+            End If
+            If (Original_CURUME.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(50).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(51).Value = CType(Original_YABANCI_MADDE.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(51).Value = CType(Original_CURUME.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(50).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(51).Value = Global.System.DBNull.Value
             End If
-            If (Original_KUFLENME.HasValue = true) Then
+            If (Original_YUMUSAK.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(52).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(53).Value = CType(Original_KUFLENME.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(53).Value = CType(Original_YUMUSAK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(52).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(53).Value = Global.System.DBNull.Value
             End If
-            If (Original_DAL_SURTMESI.HasValue = true) Then
+            If (Original_ICKURD.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(54).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(55).Value = CType(Original_DAL_SURTMESI.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(55).Value = CType(Original_ICKURD.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(54).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(55).Value = Global.System.DBNull.Value
             End If
-            If (Original_CURUME.HasValue = true) Then
+            If (Original_IKIZMEYVE.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(56).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(57).Value = CType(Original_CURUME.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(57).Value = CType(Original_IKIZMEYVE.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(56).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(57).Value = Global.System.DBNull.Value
             End If
-            If (Original_YUMUSAK.HasValue = true) Then
+            If (Original_EBAT_ALTI.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(58).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(59).Value = CType(Original_YUMUSAK.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(59).Value = CType(Original_EBAT_ALTI.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(58).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(59).Value = Global.System.DBNull.Value
             End If
-            If (Original_ICKURD.HasValue = true) Then
+            If (Original_HASAR.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(60).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(61).Value = CType(Original_ICKURD.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(61).Value = CType(Original_HASAR.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(60).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(61).Value = Global.System.DBNull.Value
             End If
-            If (Original_IKIZMEYVE.HasValue = true) Then
+            If (Original_DOLU_ZARAR.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(62).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(63).Value = CType(Original_IKIZMEYVE.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(63).Value = CType(Original_DOLU_ZARAR.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(62).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(63).Value = Global.System.DBNull.Value
             End If
-            If (Original_EBAT_ALTI.HasValue = true) Then
+            If (Original_SEKIL_BOZUK.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(64).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(65).Value = CType(Original_EBAT_ALTI.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(65).Value = CType(Original_SEKIL_BOZUK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(64).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(65).Value = Global.System.DBNull.Value
             End If
-            If (Original_HASAR.HasValue = true) Then
+            If (Original_PORSUME.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(66).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(67).Value = CType(Original_HASAR.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(67).Value = CType(Original_PORSUME.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(66).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(67).Value = Global.System.DBNull.Value
             End If
-            If (Original_DOLU_ZARAR.HasValue = true) Then
+            If (Original_TOPLAM_KUSUR.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(68).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(69).Value = CType(Original_DOLU_ZARAR.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(69).Value = CType(Original_TOPLAM_KUSUR.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(68).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(69).Value = Global.System.DBNull.Value
             End If
-            If (Original_SEKIL_BOZUK.HasValue = true) Then
+            If (Original_BRIX.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(70).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(71).Value = CType(Original_SEKIL_BOZUK.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(71).Value = CType(Original_BRIX.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(70).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(71).Value = Global.System.DBNull.Value
             End If
-            If (Original_PORSUME.HasValue = true) Then
+            If (Original_BRUT_AGIRLIK.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(72).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(73).Value = CType(Original_PORSUME.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(73).Value = CType(Original_BRUT_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(72).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(73).Value = Global.System.DBNull.Value
             End If
-            If (Original_TOPLAM_KUSUR.HasValue = true) Then
+            If (Original_KUTU_AGIRLIK.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(74).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(75).Value = CType(Original_TOPLAM_KUSUR.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(75).Value = CType(Original_KUTU_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(74).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(75).Value = Global.System.DBNull.Value
             End If
-            If (Original_BRIX.HasValue = true) Then
+            If (Original_POSET_AGIRLIK.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(76).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(77).Value = CType(Original_BRIX.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(77).Value = CType(Original_POSET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(76).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(77).Value = Global.System.DBNull.Value
             End If
-            If (Original_BRUT_AGIRLIK.HasValue = true) Then
+            If (Original_SALE_AGIRLIK.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(78).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(79).Value = CType(Original_BRUT_AGIRLIK.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(79).Value = CType(Original_SALE_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(78).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(79).Value = Global.System.DBNull.Value
             End If
-            If (Original_KUTU_AGIRLIK.HasValue = true) Then
+            If (Original_NET_AGIRLIK.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(80).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(81).Value = CType(Original_KUTU_AGIRLIK.Value,Decimal)
+                Me.Adapter.UpdateCommand.Parameters(81).Value = CType(Original_NET_AGIRLIK.Value,Decimal)
             Else
                 Me.Adapter.UpdateCommand.Parameters(80).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(81).Value = Global.System.DBNull.Value
             End If
-            If (Original_POSET_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(82).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(83).Value = CType(Original_POSET_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(82).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(83).Value = Global.System.DBNull.Value
-            End If
-            If (Original_SALE_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(84).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(85).Value = CType(Original_SALE_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(84).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(85).Value = Global.System.DBNull.Value
-            End If
-            If (Original_NET_AGIRLIK.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(86).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(87).Value = CType(Original_NET_AGIRLIK.Value,Decimal)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(86).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(87).Value = Global.System.DBNull.Value
-            End If
-            Me.Adapter.UpdateCommand.Parameters(88).Value = CType(ID,Integer)
+            Me.Adapter.UpdateCommand.Parameters(82).Value = CType(ID,Integer)
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.UpdateCommand.Connection.State
             If ((Me.Adapter.UpdateCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
                         <> Global.System.Data.ConnectionState.Open) Then
@@ -3682,7 +3520,7 @@ Namespace ALANSISDataSet27TableAdapters
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Update, true)>  _
         Public Overloads Overridable Function Update( _
-                    ByVal HASAT_TARIH As Global.System.Nullable(Of Date),  _
+                    ByVal HASAT_TARIH As String,  _
                     ByVal PAKETLEME_TARIH As String,  _
                     ByVal TESIS As String,  _
                     ByVal URUN_ADI As String,  _
@@ -3690,9 +3528,7 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal VARDIYA_BASLANGIC As String,  _
                     ByVal UBT_KODU As String,  _
                     ByVal URUN_CINSI As String,  _
-                    ByVal ETIKET_CESIDI As String,  _
                     ByVal MUSTERI_ADI As String,  _
-                    ByVal ETIKET_KONTROL As String,  _
                     ByVal IZLEMENO As String,  _
                     ByVal AMBALAJTIPI As String,  _
                     ByVal KALIBRE As String,  _
@@ -3722,10 +3558,8 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal GIRDI_AMBALAJNO_KOLI As String,  _
                     ByVal GIRDI_AMBALAJNO_POSET As String,  _
                     ByVal Original_ID As Integer,  _
-                    ByVal Original_HASAT_TARIH As Global.System.Nullable(Of Date),  _
                     ByVal Original_VARDIYA As String,  _
                     ByVal Original_VARDIYA_BASLANGIC As String,  _
-                    ByVal Original_ETIKET_KONTROL As String,  _
                     ByVal Original_KALIBRE As String,  _
                     ByVal Original_YABANCI_MADDE As Global.System.Nullable(Of Decimal),  _
                     ByVal Original_KUFLENME As Global.System.Nullable(Of Decimal),  _
@@ -3746,7 +3580,7 @@ Namespace ALANSISDataSet27TableAdapters
                     ByVal Original_POSET_AGIRLIK As Global.System.Nullable(Of Decimal),  _
                     ByVal Original_SALE_AGIRLIK As Global.System.Nullable(Of Decimal),  _
                     ByVal Original_NET_AGIRLIK As Global.System.Nullable(Of Decimal)) As Integer
-            Return Me.Update(HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URUN_CINSI, ETIKET_CESIDI, MUSTERI_ADI, ETIKET_KONTROL, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET, Original_ID, Original_HASAT_TARIH, Original_VARDIYA, Original_VARDIYA_BASLANGIC, Original_ETIKET_KONTROL, Original_KALIBRE, Original_YABANCI_MADDE, Original_KUFLENME, Original_DAL_SURTMESI, Original_CURUME, Original_YUMUSAK, Original_ICKURD, Original_IKIZMEYVE, Original_EBAT_ALTI, Original_HASAR, Original_DOLU_ZARAR, Original_SEKIL_BOZUK, Original_PORSUME, Original_TOPLAM_KUSUR, Original_BRIX, Original_BRUT_AGIRLIK, Original_KUTU_AGIRLIK, Original_POSET_AGIRLIK, Original_SALE_AGIRLIK, Original_NET_AGIRLIK, Original_ID)
+            Return Me.Update(HASAT_TARIH, PAKETLEME_TARIH, TESIS, URUN_ADI, VARDIYA, VARDIYA_BASLANGIC, UBT_KODU, URUN_CINSI, MUSTERI_ADI, IZLEMENO, AMBALAJTIPI, KALIBRE, YABANCI_MADDE, KUFLENME, DAL_SURTMESI, CURUME, YUMUSAK, ICKURD, IKIZMEYVE, EBAT_ALTI, HASAR, DOLU_ZARAR, SEKIL_BOZUK, PORSUME, TOPLAM_KUSUR, BRIX, BRUT_AGIRLIK, KUTU_AGIRLIK, POSET_AGIRLIK, SALE_AGIRLIK, NET_AGIRLIK, TAT, YAPI, KOKU, KALITE_PERSONEL, GIRDI_AMBALAJNO_KOLI, GIRDI_AMBALAJNO_POSET, Original_ID, Original_VARDIYA, Original_VARDIYA_BASLANGIC, Original_KALIBRE, Original_YABANCI_MADDE, Original_KUFLENME, Original_DAL_SURTMESI, Original_CURUME, Original_YUMUSAK, Original_ICKURD, Original_IKIZMEYVE, Original_EBAT_ALTI, Original_HASAR, Original_DOLU_ZARAR, Original_SEKIL_BOZUK, Original_PORSUME, Original_TOPLAM_KUSUR, Original_BRIX, Original_BRUT_AGIRLIK, Original_KUTU_AGIRLIK, Original_POSET_AGIRLIK, Original_SALE_AGIRLIK, Original_NET_AGIRLIK, Original_ID)
         End Function
     End Class
     

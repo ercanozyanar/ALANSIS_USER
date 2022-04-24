@@ -23,12 +23,12 @@ Partial Class Form118
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim SelectQuery1 As DevExpress.DataAccess.Sql.SelectQuery = New DevExpress.DataAccess.Sql.SelectQuery()
-        Dim Column1 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
-        Dim ColumnExpression1 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
-        Dim Table1 As DevExpress.DataAccess.Sql.Table = New DevExpress.DataAccess.Sql.Table()
-        Dim Column2 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
-        Dim ColumnExpression2 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+        Dim SelectQuery2 As DevExpress.DataAccess.Sql.SelectQuery = New DevExpress.DataAccess.Sql.SelectQuery()
+        Dim Column3 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+        Dim ColumnExpression3 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+        Dim Table2 As DevExpress.DataAccess.Sql.Table = New DevExpress.DataAccess.Sql.Table()
+        Dim Column4 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+        Dim ColumnExpression4 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form118))
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
@@ -563,33 +563,36 @@ Partial Class Form118
         Me.GroupControl1.Controls.Add(Me.SimpleButton1)
         Me.GroupControl1.Controls.Add(Me.Label1)
         Me.GroupControl1.Controls.Add(Me.ComboBoxEdit1)
-        Me.GroupControl1.Location = New System.Drawing.Point(682, 3)
+        Me.GroupControl1.Location = New System.Drawing.Point(796, 4)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(497, 77)
+        Me.GroupControl1.Size = New System.Drawing.Size(580, 95)
         Me.GroupControl1.TabIndex = 3
         Me.GroupControl1.Text = "Reçete Türetim Seçim"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(304, 26)
+        Me.SimpleButton1.Location = New System.Drawing.Point(355, 32)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(184, 20)
+        Me.SimpleButton1.Size = New System.Drawing.Size(215, 25)
         Me.SimpleButton1.TabIndex = 4
         Me.SimpleButton1.Text = "Sistemden Reçete Kopyala"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(5, 28)
+        Me.Label1.Location = New System.Drawing.Point(6, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 13)
+        Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Parti No"
         '
         'ComboBoxEdit1
         '
         Me.ComboBoxEdit1.EditValue = "sssAAa"
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(56, 25)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(65, 31)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.DataSource = Me.EOALANSISRECETEVWBindingSource
@@ -598,7 +601,7 @@ Partial Class Form118
         Me.ComboBoxEdit1.Properties.PopupSizeable = False
         Me.ComboBoxEdit1.Properties.PopupView = Me.SearchLookUpEdit21View
         Me.ComboBoxEdit1.Properties.ValueMember = "RECETE_INDEKS"
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(242, 20)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(282, 23)
         Me.ComboBoxEdit1.TabIndex = 6
         '
         'EOALANSISRECETEVWBindingSource
@@ -613,6 +616,7 @@ Partial Class Form118
         '
         'SearchLookUpEdit21View
         '
+        Me.SearchLookUpEdit21View.DetailHeight = 431
         Me.SearchLookUpEdit21View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.SearchLookUpEdit21View.Name = "SearchLookUpEdit21View"
         Me.SearchLookUpEdit21View.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -630,9 +634,10 @@ Partial Class Form118
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(509, 38)
+        Me.TextEdit2.Location = New System.Drawing.Point(594, 47)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit2.TabIndex = 2
         '
         'EO_ALANSIS_SATISTableAdapter
@@ -731,80 +736,90 @@ Partial Class Form118
         Me.GroupControl2.Controls.Add(Me.SimpleButton4)
         Me.GroupControl2.Controls.Add(Me.Label4)
         Me.GroupControl2.Controls.Add(Me.Label3)
-        Me.GroupControl2.Location = New System.Drawing.Point(7, 3)
+        Me.GroupControl2.Location = New System.Drawing.Point(8, 4)
+        Me.GroupControl2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(1160, 334)
+        Me.GroupControl2.Size = New System.Drawing.Size(1353, 411)
         Me.GroupControl2.TabIndex = 4
         Me.GroupControl2.Text = "Reçete Oluştur"
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.Panel2.Location = New System.Drawing.Point(573, 41)
+        Me.Panel2.Location = New System.Drawing.Point(668, 50)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(10, 230)
+        Me.Panel2.Size = New System.Drawing.Size(12, 283)
         Me.Panel2.TabIndex = 111
         '
         'ComboBoxEdit12
         '
-        Me.ComboBoxEdit12.Location = New System.Drawing.Point(625, 273)
+        Me.ComboBoxEdit12.Location = New System.Drawing.Point(729, 336)
+        Me.ComboBoxEdit12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit12.Name = "ComboBoxEdit12"
         Me.ComboBoxEdit12.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit12.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit12.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit12.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit12.TabIndex = 110
         '
         'ComboBoxEdit13
         '
-        Me.ComboBoxEdit13.Location = New System.Drawing.Point(625, 247)
+        Me.ComboBoxEdit13.Location = New System.Drawing.Point(729, 304)
+        Me.ComboBoxEdit13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit13.Name = "ComboBoxEdit13"
         Me.ComboBoxEdit13.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit13.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit13.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit13.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit13.TabIndex = 109
         '
         'ComboBoxEdit14
         '
-        Me.ComboBoxEdit14.Location = New System.Drawing.Point(625, 221)
+        Me.ComboBoxEdit14.Location = New System.Drawing.Point(729, 272)
+        Me.ComboBoxEdit14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit14.Name = "ComboBoxEdit14"
         Me.ComboBoxEdit14.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit14.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit14.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit14.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit14.TabIndex = 108
         '
         'TextEdit9
         '
-        Me.TextEdit9.Location = New System.Drawing.Point(1096, 64)
+        Me.TextEdit9.Location = New System.Drawing.Point(1279, 79)
+        Me.TextEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit9.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit9.TabIndex = 71
         '
         'TextEdit10
         '
-        Me.TextEdit10.Location = New System.Drawing.Point(1096, 90)
+        Me.TextEdit10.Location = New System.Drawing.Point(1279, 111)
+        Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit10.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit10.TabIndex = 73
         '
         'ComboBoxEdit15
         '
-        Me.ComboBoxEdit15.Location = New System.Drawing.Point(625, 195)
+        Me.ComboBoxEdit15.Location = New System.Drawing.Point(729, 240)
+        Me.ComboBoxEdit15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit15.Name = "ComboBoxEdit15"
         Me.ComboBoxEdit15.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit15.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit15.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit15.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit15.TabIndex = 107
         '
         'TextEdit11
         '
-        Me.TextEdit11.Location = New System.Drawing.Point(1096, 272)
+        Me.TextEdit11.Location = New System.Drawing.Point(1279, 335)
+        Me.TextEdit11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit11.Name = "TextEdit11"
-        Me.TextEdit11.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit11.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit11.TabIndex = 87
         '
         'SearchLookUpEdit11
         '
-        Me.SearchLookUpEdit11.Location = New System.Drawing.Point(754, 64)
+        Me.SearchLookUpEdit11.Location = New System.Drawing.Point(880, 79)
+        Me.SearchLookUpEdit11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit11.Name = "SearchLookUpEdit11"
         Me.SearchLookUpEdit11.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit11.Properties.DataSource = Me.EOALANSISKASATIPIBindingSource
@@ -813,7 +828,7 @@ Partial Class Form118
         Me.SearchLookUpEdit11.Properties.PopupSizeable = False
         Me.SearchLookUpEdit11.Properties.PopupView = Me.GridView11
         Me.SearchLookUpEdit11.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit11.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit11.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit11.TabIndex = 72
         '
         'EOALANSISKASATIPIBindingSource
@@ -833,6 +848,7 @@ Partial Class Form118
         '
         'GridView11
         '
+        Me.GridView11.DetailHeight = 431
         Me.GridView11.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView11.Name = "GridView11"
         Me.GridView11.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -840,30 +856,34 @@ Partial Class Form118
         '
         'TextEdit12
         '
-        Me.TextEdit12.Location = New System.Drawing.Point(1096, 116)
+        Me.TextEdit12.Location = New System.Drawing.Point(1279, 143)
+        Me.TextEdit12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit12.Name = "TextEdit12"
-        Me.TextEdit12.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit12.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit12.TabIndex = 75
         '
         'ComboBoxEdit16
         '
-        Me.ComboBoxEdit16.Location = New System.Drawing.Point(625, 169)
+        Me.ComboBoxEdit16.Location = New System.Drawing.Point(729, 208)
+        Me.ComboBoxEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit16.Name = "ComboBoxEdit16"
         Me.ComboBoxEdit16.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit16.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit16.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit16.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit16.TabIndex = 106
         '
         'TextEdit13
         '
-        Me.TextEdit13.Location = New System.Drawing.Point(1096, 246)
+        Me.TextEdit13.Location = New System.Drawing.Point(1279, 303)
+        Me.TextEdit13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit13.Name = "TextEdit13"
-        Me.TextEdit13.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit13.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit13.TabIndex = 85
         '
         'SearchLookUpEdit12
         '
-        Me.SearchLookUpEdit12.Location = New System.Drawing.Point(754, 272)
+        Me.SearchLookUpEdit12.Location = New System.Drawing.Point(880, 335)
+        Me.SearchLookUpEdit12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit12.Name = "SearchLookUpEdit12"
         Me.SearchLookUpEdit12.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit12.Properties.DataSource = Me.EOALANSISPOSETTIPIBindingSource
@@ -872,7 +892,7 @@ Partial Class Form118
         Me.SearchLookUpEdit12.Properties.PopupSizeable = False
         Me.SearchLookUpEdit12.Properties.PopupView = Me.GridView12
         Me.SearchLookUpEdit12.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit12.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit12.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit12.TabIndex = 88
         '
         'EOALANSISPOSETTIPIBindingSource
@@ -882,6 +902,7 @@ Partial Class Form118
         '
         'GridView12
         '
+        Me.GridView12.DetailHeight = 431
         Me.GridView12.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView12.Name = "GridView12"
         Me.GridView12.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -889,28 +910,32 @@ Partial Class Form118
         '
         'TextEdit14
         '
-        Me.TextEdit14.Location = New System.Drawing.Point(1096, 142)
+        Me.TextEdit14.Location = New System.Drawing.Point(1279, 175)
+        Me.TextEdit14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit14.Name = "TextEdit14"
-        Me.TextEdit14.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit14.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit14.TabIndex = 77
         '
         'TextEdit15
         '
-        Me.TextEdit15.Location = New System.Drawing.Point(1096, 38)
+        Me.TextEdit15.Location = New System.Drawing.Point(1279, 47)
+        Me.TextEdit15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit15.Name = "TextEdit15"
-        Me.TextEdit15.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit15.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit15.TabIndex = 67
         '
         'TextEdit16
         '
-        Me.TextEdit16.Location = New System.Drawing.Point(1096, 220)
+        Me.TextEdit16.Location = New System.Drawing.Point(1279, 271)
+        Me.TextEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit16.Name = "TextEdit16"
-        Me.TextEdit16.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit16.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit16.TabIndex = 83
         '
         'SearchLookUpEdit13
         '
-        Me.SearchLookUpEdit13.Location = New System.Drawing.Point(754, 90)
+        Me.SearchLookUpEdit13.Location = New System.Drawing.Point(880, 111)
+        Me.SearchLookUpEdit13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit13.Name = "SearchLookUpEdit13"
         Me.SearchLookUpEdit13.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit13.Properties.DataSource = Me.EOALANSISKUTUTIPIBindingSource
@@ -919,7 +944,7 @@ Partial Class Form118
         Me.SearchLookUpEdit13.Properties.PopupSizeable = False
         Me.SearchLookUpEdit13.Properties.PopupView = Me.GridView13
         Me.SearchLookUpEdit13.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit13.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit13.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit13.TabIndex = 74
         '
         'EOALANSISKUTUTIPIBindingSource
@@ -929,6 +954,7 @@ Partial Class Form118
         '
         'GridView13
         '
+        Me.GridView13.DetailHeight = 431
         Me.GridView13.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView13.Name = "GridView13"
         Me.GridView13.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -936,14 +962,16 @@ Partial Class Form118
         '
         'TextEdit17
         '
-        Me.TextEdit17.Location = New System.Drawing.Point(1096, 168)
+        Me.TextEdit17.Location = New System.Drawing.Point(1279, 207)
+        Me.TextEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit17.Name = "TextEdit17"
-        Me.TextEdit17.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit17.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit17.TabIndex = 79
         '
         'SearchLookUpEdit14
         '
-        Me.SearchLookUpEdit14.Location = New System.Drawing.Point(754, 38)
+        Me.SearchLookUpEdit14.Location = New System.Drawing.Point(880, 47)
+        Me.SearchLookUpEdit14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit14.Name = "SearchLookUpEdit14"
         Me.SearchLookUpEdit14.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit14.Properties.DataSource = Me.EOALANSISPALETTIPIBindingSource
@@ -952,7 +980,7 @@ Partial Class Form118
         Me.SearchLookUpEdit14.Properties.PopupSizeable = False
         Me.SearchLookUpEdit14.Properties.PopupView = Me.GridView14
         Me.SearchLookUpEdit14.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit14.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit14.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit14.TabIndex = 68
         '
         'EOALANSISPALETTIPIBindingSource
@@ -962,6 +990,7 @@ Partial Class Form118
         '
         'GridView14
         '
+        Me.GridView14.DetailHeight = 431
         Me.GridView14.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView14.Name = "GridView14"
         Me.GridView14.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -969,32 +998,36 @@ Partial Class Form118
         '
         'TextEdit19
         '
-        Me.TextEdit19.Location = New System.Drawing.Point(1096, 194)
+        Me.TextEdit19.Location = New System.Drawing.Point(1279, 239)
+        Me.TextEdit19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit19.Name = "TextEdit19"
-        Me.TextEdit19.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit19.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit19.TabIndex = 81
         '
         'ComboBoxEdit17
         '
-        Me.ComboBoxEdit17.Location = New System.Drawing.Point(625, 143)
+        Me.ComboBoxEdit17.Location = New System.Drawing.Point(729, 176)
+        Me.ComboBoxEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit17.Name = "ComboBoxEdit17"
         Me.ComboBoxEdit17.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit17.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit17.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit17.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit17.TabIndex = 105
         '
         'ComboBoxEdit18
         '
-        Me.ComboBoxEdit18.Location = New System.Drawing.Point(625, 117)
+        Me.ComboBoxEdit18.Location = New System.Drawing.Point(729, 144)
+        Me.ComboBoxEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit18.Name = "ComboBoxEdit18"
         Me.ComboBoxEdit18.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit18.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit18.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit18.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit18.TabIndex = 104
         '
         'SearchLookUpEdit15
         '
-        Me.SearchLookUpEdit15.Location = New System.Drawing.Point(754, 116)
+        Me.SearchLookUpEdit15.Location = New System.Drawing.Point(880, 143)
+        Me.SearchLookUpEdit15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit15.Name = "SearchLookUpEdit15"
         Me.SearchLookUpEdit15.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit15.Properties.DataSource = Me.EOALANSISEBATETIKETTIPIBindingSource
@@ -1003,7 +1036,7 @@ Partial Class Form118
         Me.SearchLookUpEdit15.Properties.PopupSizeable = False
         Me.SearchLookUpEdit15.Properties.PopupView = Me.GridView15
         Me.SearchLookUpEdit15.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit15.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit15.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit15.TabIndex = 76
         '
         'EOALANSISEBATETIKETTIPIBindingSource
@@ -1013,6 +1046,7 @@ Partial Class Form118
         '
         'GridView15
         '
+        Me.GridView15.DetailHeight = 431
         Me.GridView15.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView15.Name = "GridView15"
         Me.GridView15.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1020,16 +1054,18 @@ Partial Class Form118
         '
         'ComboBoxEdit19
         '
-        Me.ComboBoxEdit19.Location = New System.Drawing.Point(625, 91)
+        Me.ComboBoxEdit19.Location = New System.Drawing.Point(729, 112)
+        Me.ComboBoxEdit19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit19.Name = "ComboBoxEdit19"
         Me.ComboBoxEdit19.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit19.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit19.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit19.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit19.TabIndex = 103
         '
         'SearchLookUpEdit16
         '
-        Me.SearchLookUpEdit16.Location = New System.Drawing.Point(754, 246)
+        Me.SearchLookUpEdit16.Location = New System.Drawing.Point(880, 303)
+        Me.SearchLookUpEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit16.Name = "SearchLookUpEdit16"
         Me.SearchLookUpEdit16.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit16.Properties.DataSource = Me.EOALANSISCARYYBAGTIPIBindingSource
@@ -1038,7 +1074,7 @@ Partial Class Form118
         Me.SearchLookUpEdit16.Properties.PopupSizeable = False
         Me.SearchLookUpEdit16.Properties.PopupView = Me.GridView16
         Me.SearchLookUpEdit16.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit16.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit16.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit16.TabIndex = 86
         '
         'EOALANSISCARYYBAGTIPIBindingSource
@@ -1048,6 +1084,7 @@ Partial Class Form118
         '
         'GridView16
         '
+        Me.GridView16.DetailHeight = 431
         Me.GridView16.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView16.Name = "GridView16"
         Me.GridView16.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1055,34 +1092,37 @@ Partial Class Form118
         '
         'ComboBoxEdit20
         '
-        Me.ComboBoxEdit20.Location = New System.Drawing.Point(625, 64)
+        Me.ComboBoxEdit20.Location = New System.Drawing.Point(729, 79)
+        Me.ComboBoxEdit20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit20.Name = "ComboBoxEdit20"
         Me.ComboBoxEdit20.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit20.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit20.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit20.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit20.TabIndex = 102
         '
         'ComboBoxEdit21
         '
-        Me.ComboBoxEdit21.Location = New System.Drawing.Point(625, 38)
+        Me.ComboBoxEdit21.Location = New System.Drawing.Point(729, 47)
+        Me.ComboBoxEdit21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit21.Name = "ComboBoxEdit21"
         Me.ComboBoxEdit21.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit21.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit21.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit21.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit21.TabIndex = 101
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(629, 23)
+        Me.Label2.Location = New System.Drawing.Point(734, 28)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(58, 13)
+        Me.Label2.Size = New System.Drawing.Size(72, 17)
         Me.Label2.TabIndex = 100
         Me.Label2.Text = "Reçete Tip"
         '
         'SearchLookUpEdit17
         '
-        Me.SearchLookUpEdit17.Location = New System.Drawing.Point(754, 142)
+        Me.SearchLookUpEdit17.Location = New System.Drawing.Point(880, 175)
+        Me.SearchLookUpEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit17.Name = "SearchLookUpEdit17"
         Me.SearchLookUpEdit17.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit17.Properties.DataSource = Me.EOALANSISSABKATIPIBindingSource
@@ -1091,7 +1131,7 @@ Partial Class Form118
         Me.SearchLookUpEdit17.Properties.PopupSizeable = False
         Me.SearchLookUpEdit17.Properties.PopupView = Me.GridView17
         Me.SearchLookUpEdit17.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit17.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit17.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit17.TabIndex = 78
         '
         'EOALANSISSABKATIPIBindingSource
@@ -1101,6 +1141,7 @@ Partial Class Form118
         '
         'GridView17
         '
+        Me.GridView17.DetailHeight = 431
         Me.GridView17.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView17.Name = "GridView17"
         Me.GridView17.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1108,7 +1149,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit18
         '
-        Me.SearchLookUpEdit18.Location = New System.Drawing.Point(754, 220)
+        Me.SearchLookUpEdit18.Location = New System.Drawing.Point(880, 271)
+        Me.SearchLookUpEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit18.Name = "SearchLookUpEdit18"
         Me.SearchLookUpEdit18.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit18.Properties.DataSource = Me.EOALANSISKLIPSTIPIBindingSource
@@ -1117,7 +1159,7 @@ Partial Class Form118
         Me.SearchLookUpEdit18.Properties.PopupSizeable = False
         Me.SearchLookUpEdit18.Properties.PopupView = Me.GridView18
         Me.SearchLookUpEdit18.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit18.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit18.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit18.TabIndex = 84
         '
         'EOALANSISKLIPSTIPIBindingSource
@@ -1127,6 +1169,7 @@ Partial Class Form118
         '
         'GridView18
         '
+        Me.GridView18.DetailHeight = 431
         Me.GridView18.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView18.Name = "GridView18"
         Me.GridView18.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1135,33 +1178,34 @@ Partial Class Form118
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(592, 276)
+        Me.Label5.Location = New System.Drawing.Point(691, 340)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(23, 13)
+        Me.Label5.Size = New System.Drawing.Size(28, 17)
         Me.Label5.TabIndex = 99
         Me.Label5.Text = "20."
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(592, 250)
+        Me.Label6.Location = New System.Drawing.Point(691, 308)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(23, 13)
+        Me.Label6.Size = New System.Drawing.Size(28, 17)
         Me.Label6.TabIndex = 98
         Me.Label6.Text = "19."
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(592, 224)
+        Me.Label7.Location = New System.Drawing.Point(691, 276)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(23, 13)
+        Me.Label7.Size = New System.Drawing.Size(28, 17)
         Me.Label7.TabIndex = 97
         Me.Label7.Text = "18."
         '
         'SearchLookUpEdit19
         '
-        Me.SearchLookUpEdit19.Location = New System.Drawing.Point(754, 168)
+        Me.SearchLookUpEdit19.Location = New System.Drawing.Point(880, 207)
+        Me.SearchLookUpEdit19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit19.Name = "SearchLookUpEdit19"
         Me.SearchLookUpEdit19.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit19.Properties.DataSource = Me.EOALANSISKOSEBENTTIPIBindingSource
@@ -1170,7 +1214,7 @@ Partial Class Form118
         Me.SearchLookUpEdit19.Properties.PopupSizeable = False
         Me.SearchLookUpEdit19.Properties.PopupView = Me.GridView19
         Me.SearchLookUpEdit19.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit19.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit19.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit19.TabIndex = 80
         '
         'EOALANSISKOSEBENTTIPIBindingSource
@@ -1180,6 +1224,7 @@ Partial Class Form118
         '
         'GridView19
         '
+        Me.GridView19.DetailHeight = 431
         Me.GridView19.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView19.Name = "GridView19"
         Me.GridView19.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1188,15 +1233,16 @@ Partial Class Form118
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(592, 198)
+        Me.Label8.Location = New System.Drawing.Point(691, 244)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(23, 13)
+        Me.Label8.Size = New System.Drawing.Size(28, 17)
         Me.Label8.TabIndex = 96
         Me.Label8.Text = "17."
         '
         'SearchLookUpEdit20
         '
-        Me.SearchLookUpEdit20.Location = New System.Drawing.Point(754, 194)
+        Me.SearchLookUpEdit20.Location = New System.Drawing.Point(880, 239)
+        Me.SearchLookUpEdit20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit20.Name = "SearchLookUpEdit20"
         Me.SearchLookUpEdit20.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit20.Properties.DataSource = Me.EOALANSISNEMBEZITIPIBindingSource
@@ -1205,7 +1251,7 @@ Partial Class Form118
         Me.SearchLookUpEdit20.Properties.PopupSizeable = False
         Me.SearchLookUpEdit20.Properties.PopupView = Me.GridView20
         Me.SearchLookUpEdit20.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit20.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit20.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit20.TabIndex = 82
         '
         'EOALANSISNEMBEZITIPIBindingSource
@@ -1215,6 +1261,7 @@ Partial Class Form118
         '
         'GridView20
         '
+        Me.GridView20.DetailHeight = 431
         Me.GridView20.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView20.Name = "GridView20"
         Me.GridView20.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1223,144 +1270,152 @@ Partial Class Form118
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(592, 172)
+        Me.Label9.Location = New System.Drawing.Point(691, 212)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(23, 13)
+        Me.Label9.Size = New System.Drawing.Size(28, 17)
         Me.Label9.TabIndex = 95
         Me.Label9.Text = "16."
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(592, 146)
+        Me.Label10.Location = New System.Drawing.Point(691, 180)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(23, 13)
+        Me.Label10.Size = New System.Drawing.Size(28, 17)
         Me.Label10.TabIndex = 94
         Me.Label10.Text = "15."
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(592, 120)
+        Me.Label11.Location = New System.Drawing.Point(691, 148)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(23, 13)
+        Me.Label11.Size = New System.Drawing.Size(28, 17)
         Me.Label11.TabIndex = 93
         Me.Label11.Text = "14."
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(592, 94)
+        Me.Label13.Location = New System.Drawing.Point(691, 116)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(23, 13)
+        Me.Label13.Size = New System.Drawing.Size(28, 17)
         Me.Label13.TabIndex = 92
         Me.Label13.Text = "13."
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(592, 67)
+        Me.Label14.Location = New System.Drawing.Point(691, 82)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(23, 13)
+        Me.Label14.Size = New System.Drawing.Size(28, 17)
         Me.Label14.TabIndex = 91
         Me.Label14.Text = "12."
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(592, 41)
+        Me.Label26.Location = New System.Drawing.Point(691, 50)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(23, 13)
+        Me.Label26.Size = New System.Drawing.Size(28, 17)
         Me.Label26.TabIndex = 90
         Me.Label26.Text = "11."
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(592, 23)
+        Me.Label30.Location = New System.Drawing.Point(691, 28)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(24, 13)
+        Me.Label30.Size = New System.Drawing.Size(29, 17)
         Me.Label30.TabIndex = 89
         Me.Label30.Text = "No."
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(1109, 23)
+        Me.Label31.Location = New System.Drawing.Point(1294, 28)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(36, 13)
+        Me.Label31.Size = New System.Drawing.Size(44, 17)
         Me.Label31.TabIndex = 70
         Me.Label31.Text = "Miktar"
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(845, 23)
+        Me.Label32.Location = New System.Drawing.Point(986, 28)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(144, 13)
+        Me.Label32.Size = New System.Drawing.Size(183, 17)
         Me.Label32.TabIndex = 69
         Me.Label32.Text = "Reçete Tanımlı Hammaddeler"
         '
         'ComboBoxEdit11
         '
-        Me.ComboBoxEdit11.Location = New System.Drawing.Point(38, 273)
+        Me.ComboBoxEdit11.Location = New System.Drawing.Point(44, 336)
+        Me.ComboBoxEdit11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit11.Name = "ComboBoxEdit11"
         Me.ComboBoxEdit11.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit11.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit11.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit11.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit11.TabIndex = 66
         '
         'ComboBoxEdit10
         '
-        Me.ComboBoxEdit10.Location = New System.Drawing.Point(38, 247)
+        Me.ComboBoxEdit10.Location = New System.Drawing.Point(44, 304)
+        Me.ComboBoxEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit10.Name = "ComboBoxEdit10"
         Me.ComboBoxEdit10.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit10.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit10.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit10.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit10.TabIndex = 65
         '
         'ComboBoxEdit9
         '
-        Me.ComboBoxEdit9.Location = New System.Drawing.Point(38, 221)
+        Me.ComboBoxEdit9.Location = New System.Drawing.Point(44, 272)
+        Me.ComboBoxEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit9.Name = "ComboBoxEdit9"
         Me.ComboBoxEdit9.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit9.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit9.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit9.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit9.TabIndex = 64
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(509, 64)
+        Me.TextEdit1.Location = New System.Drawing.Point(594, 79)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit1.TabIndex = 7
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(509, 90)
+        Me.TextEdit3.Location = New System.Drawing.Point(594, 111)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit3.TabIndex = 10
         '
         'ComboBoxEdit8
         '
-        Me.ComboBoxEdit8.Location = New System.Drawing.Point(38, 195)
+        Me.ComboBoxEdit8.Location = New System.Drawing.Point(44, 240)
+        Me.ComboBoxEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
         Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit8.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit8.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit8.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit8.TabIndex = 63
         '
         'TextEdit20
         '
-        Me.TextEdit20.Location = New System.Drawing.Point(509, 272)
+        Me.TextEdit20.Location = New System.Drawing.Point(594, 335)
+        Me.TextEdit20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit20.Name = "TextEdit20"
-        Me.TextEdit20.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit20.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit20.TabIndex = 41
         '
         'SearchLookUpEdit2
         '
-        Me.SearchLookUpEdit2.Location = New System.Drawing.Point(167, 64)
+        Me.SearchLookUpEdit2.Location = New System.Drawing.Point(195, 79)
+        Me.SearchLookUpEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit2.Name = "SearchLookUpEdit2"
         Me.SearchLookUpEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit2.Properties.DataSource = Me.EOALANSISEBATETIKETTIPIDEPOBindingSource
@@ -1369,7 +1424,7 @@ Partial Class Form118
         Me.SearchLookUpEdit2.Properties.PopupSizeable = False
         Me.SearchLookUpEdit2.Properties.PopupView = Me.GridView2
         Me.SearchLookUpEdit2.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit2.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit2.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit2.TabIndex = 8
         '
         'EOALANSISEBATETIKETTIPIDEPOBindingSource
@@ -1389,6 +1444,7 @@ Partial Class Form118
         '
         'GridView2
         '
+        Me.GridView2.DetailHeight = 431
         Me.GridView2.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView2.Name = "GridView2"
         Me.GridView2.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1396,30 +1452,34 @@ Partial Class Form118
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(509, 116)
+        Me.TextEdit4.Location = New System.Drawing.Point(594, 143)
+        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit4.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit4.TabIndex = 13
         '
         'ComboBoxEdit7
         '
-        Me.ComboBoxEdit7.Location = New System.Drawing.Point(38, 169)
+        Me.ComboBoxEdit7.Location = New System.Drawing.Point(44, 208)
+        Me.ComboBoxEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
         Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit7.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit7.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit7.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit7.TabIndex = 62
         '
         'TextEdit18
         '
-        Me.TextEdit18.Location = New System.Drawing.Point(509, 246)
+        Me.TextEdit18.Location = New System.Drawing.Point(594, 303)
+        Me.TextEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit18.Name = "TextEdit18"
-        Me.TextEdit18.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit18.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit18.TabIndex = 37
         '
         'SearchLookUpEdit10
         '
-        Me.SearchLookUpEdit10.Location = New System.Drawing.Point(167, 272)
+        Me.SearchLookUpEdit10.Location = New System.Drawing.Point(195, 335)
+        Me.SearchLookUpEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit10.Name = "SearchLookUpEdit10"
         Me.SearchLookUpEdit10.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit10.Properties.DataSource = Me.EOALANSISPOSETTIPIBindingSource
@@ -1428,11 +1488,12 @@ Partial Class Form118
         Me.SearchLookUpEdit10.Properties.PopupSizeable = False
         Me.SearchLookUpEdit10.Properties.PopupView = Me.GridView10
         Me.SearchLookUpEdit10.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit10.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit10.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit10.TabIndex = 42
         '
         'GridView10
         '
+        Me.GridView10.DetailHeight = 431
         Me.GridView10.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView10.Name = "GridView10"
         Me.GridView10.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1440,21 +1501,24 @@ Partial Class Form118
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(509, 142)
+        Me.TextEdit5.Location = New System.Drawing.Point(594, 175)
+        Me.TextEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit5.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit5.TabIndex = 16
         '
         'TextEdit8
         '
-        Me.TextEdit8.Location = New System.Drawing.Point(509, 220)
+        Me.TextEdit8.Location = New System.Drawing.Point(594, 271)
+        Me.TextEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit8.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit8.TabIndex = 25
         '
         'SearchLookUpEdit3
         '
-        Me.SearchLookUpEdit3.Location = New System.Drawing.Point(167, 90)
+        Me.SearchLookUpEdit3.Location = New System.Drawing.Point(195, 111)
+        Me.SearchLookUpEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit3.Name = "SearchLookUpEdit3"
         Me.SearchLookUpEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit3.Properties.DataSource = Me.EOALANSISKUTUTIPIBindingSource
@@ -1463,11 +1527,12 @@ Partial Class Form118
         Me.SearchLookUpEdit3.Properties.PopupSizeable = False
         Me.SearchLookUpEdit3.Properties.PopupView = Me.GridView3
         Me.SearchLookUpEdit3.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit3.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit3.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit3.TabIndex = 11
         '
         'GridView3
         '
+        Me.GridView3.DetailHeight = 431
         Me.GridView3.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView3.Name = "GridView3"
         Me.GridView3.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1475,15 +1540,17 @@ Partial Class Form118
         '
         'TextEdit6
         '
-        Me.TextEdit6.Location = New System.Drawing.Point(509, 168)
+        Me.TextEdit6.Location = New System.Drawing.Point(594, 207)
+        Me.TextEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit6.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit6.TabIndex = 19
         '
         'SearchLookUpEdit1
         '
         Me.SearchLookUpEdit1.EditValue = ""
-        Me.SearchLookUpEdit1.Location = New System.Drawing.Point(167, 38)
+        Me.SearchLookUpEdit1.Location = New System.Drawing.Point(195, 47)
+        Me.SearchLookUpEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit1.Name = "SearchLookUpEdit1"
         Me.SearchLookUpEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit1.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -1492,7 +1559,7 @@ Partial Class Form118
         Me.SearchLookUpEdit1.Properties.PopupSizeable = False
         Me.SearchLookUpEdit1.Properties.PopupView = Me.GridView1
         Me.SearchLookUpEdit1.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit1.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit1.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit1.TabIndex = 3
         '
         'EOALANSISYARDDEPOBindingSource
@@ -1507,6 +1574,7 @@ Partial Class Form118
         '
         'GridView1
         '
+        Me.GridView1.DetailHeight = 431
         Me.GridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView1.Name = "GridView1"
         Me.GridView1.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1514,32 +1582,36 @@ Partial Class Form118
         '
         'TextEdit7
         '
-        Me.TextEdit7.Location = New System.Drawing.Point(509, 194)
+        Me.TextEdit7.Location = New System.Drawing.Point(594, 239)
+        Me.TextEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit7.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit7.TabIndex = 22
         '
         'ComboBoxEdit6
         '
-        Me.ComboBoxEdit6.Location = New System.Drawing.Point(38, 143)
+        Me.ComboBoxEdit6.Location = New System.Drawing.Point(44, 176)
+        Me.ComboBoxEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
         Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit6.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit6.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit6.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit6.TabIndex = 61
         '
         'ComboBoxEdit5
         '
-        Me.ComboBoxEdit5.Location = New System.Drawing.Point(38, 117)
+        Me.ComboBoxEdit5.Location = New System.Drawing.Point(44, 144)
+        Me.ComboBoxEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit5.Name = "ComboBoxEdit5"
         Me.ComboBoxEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit5.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit5.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit5.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit5.TabIndex = 60
         '
         'SearchLookUpEdit4
         '
-        Me.SearchLookUpEdit4.Location = New System.Drawing.Point(167, 116)
+        Me.SearchLookUpEdit4.Location = New System.Drawing.Point(195, 143)
+        Me.SearchLookUpEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit4.Name = "SearchLookUpEdit4"
         Me.SearchLookUpEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit4.Properties.DataSource = Me.EOALANSISEBATETIKETTIPIBindingSource
@@ -1548,11 +1620,12 @@ Partial Class Form118
         Me.SearchLookUpEdit4.Properties.PopupSizeable = False
         Me.SearchLookUpEdit4.Properties.PopupView = Me.GridView4
         Me.SearchLookUpEdit4.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit4.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit4.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit4.TabIndex = 14
         '
         'GridView4
         '
+        Me.GridView4.DetailHeight = 431
         Me.GridView4.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView4.Name = "GridView4"
         Me.GridView4.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1560,16 +1633,18 @@ Partial Class Form118
         '
         'ComboBoxEdit4
         '
-        Me.ComboBoxEdit4.Location = New System.Drawing.Point(38, 91)
+        Me.ComboBoxEdit4.Location = New System.Drawing.Point(44, 112)
+        Me.ComboBoxEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
         Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit4.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit4.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit4.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit4.TabIndex = 59
         '
         'SearchLookUpEdit9
         '
-        Me.SearchLookUpEdit9.Location = New System.Drawing.Point(167, 246)
+        Me.SearchLookUpEdit9.Location = New System.Drawing.Point(195, 303)
+        Me.SearchLookUpEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit9.Name = "SearchLookUpEdit9"
         Me.SearchLookUpEdit9.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit9.Properties.DataSource = Me.EOALANSISCARYYBAGTIPIBindingSource
@@ -1578,11 +1653,12 @@ Partial Class Form118
         Me.SearchLookUpEdit9.Properties.PopupSizeable = False
         Me.SearchLookUpEdit9.Properties.PopupView = Me.GridView9
         Me.SearchLookUpEdit9.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit9.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit9.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit9.TabIndex = 38
         '
         'GridView9
         '
+        Me.GridView9.DetailHeight = 431
         Me.GridView9.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView9.Name = "GridView9"
         Me.GridView9.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1590,34 +1666,37 @@ Partial Class Form118
         '
         'ComboBoxEdit3
         '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(38, 64)
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(44, 79)
+        Me.ComboBoxEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
         Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit3.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit3.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit3.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit3.TabIndex = 58
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(38, 38)
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(44, 47)
+        Me.ComboBoxEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"Palet Tipi", "Kutu-Kasa Tipi", "Kutu Etiket Tipi", "Ebat Etiket Tipi", "Şapka Tipi", "Köşebent Tipi", "Nem Bezi Tipi", "Klips Tipi", "CarryBag Tpi", "Poşet Tipi"})
-        Me.ComboBoxEdit2.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit2.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit2.TabIndex = 57
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(42, 23)
+        Me.Label29.Location = New System.Drawing.Point(49, 28)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(58, 13)
+        Me.Label29.Size = New System.Drawing.Size(72, 17)
         Me.Label29.TabIndex = 56
         Me.Label29.Text = "Reçete Tip"
         '
         'SearchLookUpEdit5
         '
-        Me.SearchLookUpEdit5.Location = New System.Drawing.Point(167, 142)
+        Me.SearchLookUpEdit5.Location = New System.Drawing.Point(195, 175)
+        Me.SearchLookUpEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit5.Name = "SearchLookUpEdit5"
         Me.SearchLookUpEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit5.Properties.DataSource = Me.EOALANSISSABKATIPIBindingSource
@@ -1626,11 +1705,12 @@ Partial Class Form118
         Me.SearchLookUpEdit5.Properties.PopupSizeable = False
         Me.SearchLookUpEdit5.Properties.PopupView = Me.GridView5
         Me.SearchLookUpEdit5.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit5.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit5.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit5.TabIndex = 17
         '
         'GridView5
         '
+        Me.GridView5.DetailHeight = 431
         Me.GridView5.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView5.Name = "GridView5"
         Me.GridView5.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1638,7 +1718,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit8
         '
-        Me.SearchLookUpEdit8.Location = New System.Drawing.Point(167, 220)
+        Me.SearchLookUpEdit8.Location = New System.Drawing.Point(195, 271)
+        Me.SearchLookUpEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit8.Name = "SearchLookUpEdit8"
         Me.SearchLookUpEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit8.Properties.DataSource = Me.EOALANSISKLIPSTIPIBindingSource
@@ -1647,11 +1728,12 @@ Partial Class Form118
         Me.SearchLookUpEdit8.Properties.PopupSizeable = False
         Me.SearchLookUpEdit8.Properties.PopupView = Me.GridView8
         Me.SearchLookUpEdit8.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit8.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit8.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit8.TabIndex = 26
         '
         'GridView8
         '
+        Me.GridView8.DetailHeight = 431
         Me.GridView8.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView8.Name = "GridView8"
         Me.GridView8.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1660,33 +1742,34 @@ Partial Class Form118
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(5, 276)
+        Me.Label27.Location = New System.Drawing.Point(6, 340)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(23, 13)
+        Me.Label27.Size = New System.Drawing.Size(28, 17)
         Me.Label27.TabIndex = 54
         Me.Label27.Text = "10."
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(5, 250)
+        Me.Label28.Location = New System.Drawing.Point(6, 308)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(17, 13)
+        Me.Label28.Size = New System.Drawing.Size(20, 17)
         Me.Label28.TabIndex = 53
         Me.Label28.Text = "9."
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(5, 224)
+        Me.Label22.Location = New System.Drawing.Point(6, 276)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(17, 13)
+        Me.Label22.Size = New System.Drawing.Size(20, 17)
         Me.Label22.TabIndex = 52
         Me.Label22.Text = "8."
         '
         'SearchLookUpEdit6
         '
-        Me.SearchLookUpEdit6.Location = New System.Drawing.Point(167, 168)
+        Me.SearchLookUpEdit6.Location = New System.Drawing.Point(195, 207)
+        Me.SearchLookUpEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit6.Name = "SearchLookUpEdit6"
         Me.SearchLookUpEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit6.Properties.DataSource = Me.EOALANSISKOSEBENTTIPIBindingSource
@@ -1695,11 +1778,12 @@ Partial Class Form118
         Me.SearchLookUpEdit6.Properties.PopupSizeable = False
         Me.SearchLookUpEdit6.Properties.PopupView = Me.GridView6
         Me.SearchLookUpEdit6.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit6.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit6.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit6.TabIndex = 20
         '
         'GridView6
         '
+        Me.GridView6.DetailHeight = 431
         Me.GridView6.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView6.Name = "GridView6"
         Me.GridView6.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1708,15 +1792,16 @@ Partial Class Form118
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(5, 198)
+        Me.Label23.Location = New System.Drawing.Point(6, 244)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(17, 13)
+        Me.Label23.Size = New System.Drawing.Size(20, 17)
         Me.Label23.TabIndex = 51
         Me.Label23.Text = "7."
         '
         'SearchLookUpEdit7
         '
-        Me.SearchLookUpEdit7.Location = New System.Drawing.Point(167, 194)
+        Me.SearchLookUpEdit7.Location = New System.Drawing.Point(195, 239)
+        Me.SearchLookUpEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit7.Name = "SearchLookUpEdit7"
         Me.SearchLookUpEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit7.Properties.DataSource = Me.EOALANSISNEMBEZITIPIBindingSource
@@ -1725,11 +1810,12 @@ Partial Class Form118
         Me.SearchLookUpEdit7.Properties.PopupSizeable = False
         Me.SearchLookUpEdit7.Properties.PopupView = Me.GridView7
         Me.SearchLookUpEdit7.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit7.Size = New System.Drawing.Size(336, 20)
+        Me.SearchLookUpEdit7.Size = New System.Drawing.Size(392, 23)
         Me.SearchLookUpEdit7.TabIndex = 23
         '
         'GridView7
         '
+        Me.GridView7.DetailHeight = 431
         Me.GridView7.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView7.Name = "GridView7"
         Me.GridView7.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -1738,89 +1824,90 @@ Partial Class Form118
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(5, 172)
+        Me.Label24.Location = New System.Drawing.Point(6, 212)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(17, 13)
+        Me.Label24.Size = New System.Drawing.Size(20, 17)
         Me.Label24.TabIndex = 50
         Me.Label24.Text = "6."
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(5, 146)
+        Me.Label25.Location = New System.Drawing.Point(6, 180)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(17, 13)
+        Me.Label25.Size = New System.Drawing.Size(20, 17)
         Me.Label25.TabIndex = 49
         Me.Label25.Text = "5."
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(5, 120)
+        Me.Label17.Location = New System.Drawing.Point(6, 148)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(17, 13)
+        Me.Label17.Size = New System.Drawing.Size(20, 17)
         Me.Label17.TabIndex = 48
         Me.Label17.Text = "4."
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(5, 94)
+        Me.Label19.Location = New System.Drawing.Point(6, 116)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(17, 13)
+        Me.Label19.Size = New System.Drawing.Size(20, 17)
         Me.Label19.TabIndex = 47
         Me.Label19.Text = "3."
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(5, 67)
+        Me.Label16.Location = New System.Drawing.Point(6, 82)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(17, 13)
+        Me.Label16.Size = New System.Drawing.Size(20, 17)
         Me.Label16.TabIndex = 46
         Me.Label16.Text = "2."
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(5, 41)
+        Me.Label15.Location = New System.Drawing.Point(6, 50)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(17, 13)
+        Me.Label15.Size = New System.Drawing.Size(20, 17)
         Me.Label15.TabIndex = 45
         Me.Label15.Text = "1."
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(5, 23)
+        Me.Label12.Location = New System.Drawing.Point(6, 28)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(24, 13)
+        Me.Label12.Size = New System.Drawing.Size(29, 17)
         Me.Label12.TabIndex = 44
         Me.Label12.Text = "No."
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(1008, 300)
+        Me.SimpleButton4.Location = New System.Drawing.Point(1176, 369)
+        Me.SimpleButton4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(142, 29)
+        Me.SimpleButton4.Size = New System.Drawing.Size(166, 36)
         Me.SimpleButton4.TabIndex = 7
         Me.SimpleButton4.Text = "Kaydet"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(522, 23)
+        Me.Label4.Location = New System.Drawing.Point(609, 28)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(36, 13)
+        Me.Label4.Size = New System.Drawing.Size(44, 17)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Miktar"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(258, 23)
+        Me.Label3.Location = New System.Drawing.Point(301, 28)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(144, 13)
+        Me.Label3.Size = New System.Drawing.Size(183, 17)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Reçete Tanımlı Hammaddeler"
         '
@@ -1853,19 +1940,19 @@ Partial Class Form118
         '
         Me.SqlDataSource1.ConnectionName = "ALANAR2021ConnectionString"
         Me.SqlDataSource1.Name = "SqlDataSource1"
-        ColumnExpression1.ColumnName = "STOK_KODU"
-        Table1.MetaSerializable = "<Meta X=""30"" Y=""30"" Width=""125"" Height=""103"" />"
-        Table1.Name = "EO_ALANSIS_POSETTIPI"
-        ColumnExpression1.Table = Table1
-        Column1.Expression = ColumnExpression1
-        ColumnExpression2.ColumnName = "STOK_ADI"
-        ColumnExpression2.Table = Table1
-        Column2.Expression = ColumnExpression2
-        SelectQuery1.Columns.Add(Column1)
-        SelectQuery1.Columns.Add(Column2)
-        SelectQuery1.Name = "EO_ALANSIS_POSETTIPI"
-        SelectQuery1.Tables.Add(Table1)
-        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {SelectQuery1})
+        ColumnExpression3.ColumnName = "STOK_KODU"
+        Table2.MetaSerializable = "<Meta X=""30"" Y=""30"" Width=""125"" Height=""103"" />"
+        Table2.Name = "EO_ALANSIS_POSETTIPI"
+        ColumnExpression3.Table = Table2
+        Column3.Expression = ColumnExpression3
+        ColumnExpression4.ColumnName = "STOK_ADI"
+        ColumnExpression4.Table = Table2
+        Column4.Expression = ColumnExpression4
+        SelectQuery2.Columns.Add(Column3)
+        SelectQuery2.Columns.Add(Column4)
+        SelectQuery2.Name = "EO_ALANSIS_POSETTIPI"
+        SelectQuery2.Tables.Add(Table2)
+        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {SelectQuery2})
         Me.SqlDataSource1.ResultSchemaSerializable = resources.GetString("SqlDataSource1.ResultSchemaSerializable")
         '
         'eO_ALANSIS_POSETTIPIBindingSource
@@ -1911,23 +1998,26 @@ Partial Class Form118
         '
         'TextEdit21
         '
-        Me.TextEdit21.Location = New System.Drawing.Point(53, 25)
+        Me.TextEdit21.Location = New System.Drawing.Point(62, 31)
+        Me.TextEdit21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit21.Name = "TextEdit21"
-        Me.TextEdit21.Size = New System.Drawing.Size(116, 20)
+        Me.TextEdit21.Size = New System.Drawing.Size(135, 23)
         Me.TextEdit21.TabIndex = 8
         '
         'TextEdit22
         '
-        Me.TextEdit22.Location = New System.Drawing.Point(245, 25)
+        Me.TextEdit22.Location = New System.Drawing.Point(286, 31)
+        Me.TextEdit22.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit22.Name = "TextEdit22"
-        Me.TextEdit22.Size = New System.Drawing.Size(180, 20)
+        Me.TextEdit22.Size = New System.Drawing.Size(210, 23)
         Me.TextEdit22.TabIndex = 10
         '
         'TextEdit23
         '
-        Me.TextEdit23.Location = New System.Drawing.Point(458, 25)
+        Me.TextEdit23.Location = New System.Drawing.Point(534, 31)
+        Me.TextEdit23.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit23.Name = "TextEdit23"
-        Me.TextEdit23.Size = New System.Drawing.Size(108, 20)
+        Me.TextEdit23.Size = New System.Drawing.Size(126, 23)
         Me.TextEdit23.TabIndex = 12
         '
         'GroupControl3
@@ -1942,68 +2032,72 @@ Partial Class Form118
         Me.GroupControl3.Controls.Add(Me.Label21)
         Me.GroupControl3.Controls.Add(Me.TextEdit22)
         Me.GroupControl3.Controls.Add(Me.TextEdit21)
-        Me.GroupControl3.Location = New System.Drawing.Point(7, 3)
+        Me.GroupControl3.Location = New System.Drawing.Point(8, 4)
+        Me.GroupControl3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl3.Name = "GroupControl3"
-        Me.GroupControl3.Size = New System.Drawing.Size(623, 77)
+        Me.GroupControl3.Size = New System.Drawing.Size(727, 95)
         Me.GroupControl3.TabIndex = 7
         Me.GroupControl3.Text = "Reçete Türetim Seçim"
         '
         'TextEdit25
         '
-        Me.TextEdit25.Location = New System.Drawing.Point(53, 52)
+        Me.TextEdit25.Location = New System.Drawing.Point(62, 64)
+        Me.TextEdit25.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit25.Name = "TextEdit25"
-        Me.TextEdit25.Size = New System.Drawing.Size(372, 20)
+        Me.TextEdit25.Size = New System.Drawing.Size(434, 23)
         Me.TextEdit25.TabIndex = 16
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(5, 54)
+        Me.Label33.Location = New System.Drawing.Point(6, 66)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(35, 13)
+        Me.Label33.Size = New System.Drawing.Size(45, 17)
         Me.Label33.TabIndex = 15
         Me.Label33.Text = "Tanım"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(581, 51)
+        Me.TextBox1.Location = New System.Drawing.Point(678, 63)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(19, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(21, 23)
         Me.TextBox1.TabIndex = 14
         Me.TextBox1.Visible = False
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Red
-        Me.Panel1.Location = New System.Drawing.Point(581, 26)
+        Me.Panel1.Location = New System.Drawing.Point(678, 32)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(29, 18)
+        Me.Panel1.Size = New System.Drawing.Size(34, 22)
         Me.Panel1.TabIndex = 13
         '
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(431, 28)
+        Me.Label18.Location = New System.Drawing.Point(503, 34)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(21, 13)
+        Me.Label18.Size = New System.Drawing.Size(26, 17)
         Me.Label18.TabIndex = 11
         Me.Label18.Text = "Tip"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(175, 28)
+        Me.Label20.Location = New System.Drawing.Point(204, 34)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(64, 13)
+        Me.Label20.Size = New System.Drawing.Size(83, 17)
         Me.Label20.TabIndex = 9
         Me.Label20.Text = "Mamul Kodu"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(2, 28)
+        Me.Label21.Location = New System.Drawing.Point(2, 34)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(45, 13)
+        Me.Label21.Size = New System.Drawing.Size(56, 17)
         Me.Label21.TabIndex = 7
         Me.Label21.Text = "Parti No"
         '
@@ -2013,25 +2107,28 @@ Partial Class Form118
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(7, 86)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(8, 106)
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(1176, 364)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(1372, 448)
         Me.XtraTabControl1.TabIndex = 9
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage3})
         '
         'XtraTabPage1
         '
         Me.XtraTabPage1.Controls.Add(Me.GroupControl2)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(1171, 339)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(1366, 418)
         Me.XtraTabPage1.Text = "Reçete Tanımlamaları"
         '
         'XtraTabPage3
         '
         Me.XtraTabPage3.Controls.Add(Me.GroupControl4)
+        Me.XtraTabPage3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(1171, 339)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(1366, 418)
         Me.XtraTabPage3.Text = "Reçete Türetim"
         '
         'GroupControl4
@@ -2126,29 +2223,33 @@ Partial Class Form118
         Me.GroupControl4.Controls.Add(Me.SimpleButton6)
         Me.GroupControl4.Controls.Add(Me.Label60)
         Me.GroupControl4.Controls.Add(Me.Label61)
-        Me.GroupControl4.Location = New System.Drawing.Point(4, 2)
+        Me.GroupControl4.Location = New System.Drawing.Point(5, 2)
+        Me.GroupControl4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl4.Name = "GroupControl4"
-        Me.GroupControl4.Size = New System.Drawing.Size(1160, 334)
+        Me.GroupControl4.Size = New System.Drawing.Size(1353, 411)
         Me.GroupControl4.TabIndex = 5
         Me.GroupControl4.Text = "Reçete Oluştur"
         '
         'TextEdit46
         '
-        Me.TextEdit46.Location = New System.Drawing.Point(868, 39)
+        Me.TextEdit46.Location = New System.Drawing.Point(1013, 48)
+        Me.TextEdit46.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit46.Name = "TextEdit46"
-        Me.TextEdit46.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit46.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit46.TabIndex = 154
         '
         'TextEdit24
         '
-        Me.TextEdit24.Location = New System.Drawing.Point(281, 39)
+        Me.TextEdit24.Location = New System.Drawing.Point(328, 48)
+        Me.TextEdit24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit24.Name = "TextEdit24"
-        Me.TextEdit24.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit24.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit24.TabIndex = 153
         '
         'SearchLookUpEdit31
         '
-        Me.SearchLookUpEdit31.Location = New System.Drawing.Point(615, 65)
+        Me.SearchLookUpEdit31.Location = New System.Drawing.Point(717, 80)
+        Me.SearchLookUpEdit31.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit31.Name = "SearchLookUpEdit31"
         Me.SearchLookUpEdit31.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit31.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2157,11 +2258,12 @@ Partial Class Form118
         Me.SearchLookUpEdit31.Properties.PopupSizeable = False
         Me.SearchLookUpEdit31.Properties.PopupView = Me.GridView31
         Me.SearchLookUpEdit31.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit31.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit31.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit31.TabIndex = 144
         '
         'GridView31
         '
+        Me.GridView31.DetailHeight = 431
         Me.GridView31.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView31.Name = "GridView31"
         Me.GridView31.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2169,7 +2271,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit32
         '
-        Me.SearchLookUpEdit32.Location = New System.Drawing.Point(615, 273)
+        Me.SearchLookUpEdit32.Location = New System.Drawing.Point(717, 336)
+        Me.SearchLookUpEdit32.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit32.Name = "SearchLookUpEdit32"
         Me.SearchLookUpEdit32.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit32.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2178,11 +2281,12 @@ Partial Class Form118
         Me.SearchLookUpEdit32.Properties.PopupSizeable = False
         Me.SearchLookUpEdit32.Properties.PopupView = Me.GridView32
         Me.SearchLookUpEdit32.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit32.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit32.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit32.TabIndex = 152
         '
         'GridView32
         '
+        Me.GridView32.DetailHeight = 431
         Me.GridView32.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView32.Name = "GridView32"
         Me.GridView32.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2190,7 +2294,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit33
         '
-        Me.SearchLookUpEdit33.Location = New System.Drawing.Point(615, 91)
+        Me.SearchLookUpEdit33.Location = New System.Drawing.Point(717, 112)
+        Me.SearchLookUpEdit33.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit33.Name = "SearchLookUpEdit33"
         Me.SearchLookUpEdit33.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit33.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2199,11 +2304,12 @@ Partial Class Form118
         Me.SearchLookUpEdit33.Properties.PopupSizeable = False
         Me.SearchLookUpEdit33.Properties.PopupView = Me.GridView33
         Me.SearchLookUpEdit33.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit33.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit33.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit33.TabIndex = 145
         '
         'GridView33
         '
+        Me.GridView33.DetailHeight = 431
         Me.GridView33.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView33.Name = "GridView33"
         Me.GridView33.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2212,7 +2318,8 @@ Partial Class Form118
         'SearchLookUpEdit34
         '
         Me.SearchLookUpEdit34.EditValue = ""
-        Me.SearchLookUpEdit34.Location = New System.Drawing.Point(615, 39)
+        Me.SearchLookUpEdit34.Location = New System.Drawing.Point(717, 48)
+        Me.SearchLookUpEdit34.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit34.Name = "SearchLookUpEdit34"
         Me.SearchLookUpEdit34.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit34.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2221,11 +2328,12 @@ Partial Class Form118
         Me.SearchLookUpEdit34.Properties.PopupSizeable = False
         Me.SearchLookUpEdit34.Properties.PopupView = Me.GridView34
         Me.SearchLookUpEdit34.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit34.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit34.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit34.TabIndex = 143
         '
         'GridView34
         '
+        Me.GridView34.DetailHeight = 431
         Me.GridView34.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView34.Name = "GridView34"
         Me.GridView34.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2233,7 +2341,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit35
         '
-        Me.SearchLookUpEdit35.Location = New System.Drawing.Point(615, 117)
+        Me.SearchLookUpEdit35.Location = New System.Drawing.Point(717, 144)
+        Me.SearchLookUpEdit35.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit35.Name = "SearchLookUpEdit35"
         Me.SearchLookUpEdit35.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit35.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2242,11 +2351,12 @@ Partial Class Form118
         Me.SearchLookUpEdit35.Properties.PopupSizeable = False
         Me.SearchLookUpEdit35.Properties.PopupView = Me.GridView35
         Me.SearchLookUpEdit35.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit35.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit35.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit35.TabIndex = 146
         '
         'GridView35
         '
+        Me.GridView35.DetailHeight = 431
         Me.GridView35.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView35.Name = "GridView35"
         Me.GridView35.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2254,7 +2364,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit36
         '
-        Me.SearchLookUpEdit36.Location = New System.Drawing.Point(615, 247)
+        Me.SearchLookUpEdit36.Location = New System.Drawing.Point(717, 304)
+        Me.SearchLookUpEdit36.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit36.Name = "SearchLookUpEdit36"
         Me.SearchLookUpEdit36.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit36.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2263,11 +2374,12 @@ Partial Class Form118
         Me.SearchLookUpEdit36.Properties.PopupSizeable = False
         Me.SearchLookUpEdit36.Properties.PopupView = Me.GridView36
         Me.SearchLookUpEdit36.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit36.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit36.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit36.TabIndex = 151
         '
         'GridView36
         '
+        Me.GridView36.DetailHeight = 431
         Me.GridView36.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView36.Name = "GridView36"
         Me.GridView36.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2275,7 +2387,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit37
         '
-        Me.SearchLookUpEdit37.Location = New System.Drawing.Point(615, 143)
+        Me.SearchLookUpEdit37.Location = New System.Drawing.Point(717, 176)
+        Me.SearchLookUpEdit37.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit37.Name = "SearchLookUpEdit37"
         Me.SearchLookUpEdit37.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit37.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2284,11 +2397,12 @@ Partial Class Form118
         Me.SearchLookUpEdit37.Properties.PopupSizeable = False
         Me.SearchLookUpEdit37.Properties.PopupView = Me.GridView37
         Me.SearchLookUpEdit37.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit37.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit37.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit37.TabIndex = 147
         '
         'GridView37
         '
+        Me.GridView37.DetailHeight = 431
         Me.GridView37.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView37.Name = "GridView37"
         Me.GridView37.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2296,7 +2410,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit38
         '
-        Me.SearchLookUpEdit38.Location = New System.Drawing.Point(615, 221)
+        Me.SearchLookUpEdit38.Location = New System.Drawing.Point(717, 272)
+        Me.SearchLookUpEdit38.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit38.Name = "SearchLookUpEdit38"
         Me.SearchLookUpEdit38.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit38.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2305,11 +2420,12 @@ Partial Class Form118
         Me.SearchLookUpEdit38.Properties.PopupSizeable = False
         Me.SearchLookUpEdit38.Properties.PopupView = Me.GridView38
         Me.SearchLookUpEdit38.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit38.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit38.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit38.TabIndex = 150
         '
         'GridView38
         '
+        Me.GridView38.DetailHeight = 431
         Me.GridView38.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView38.Name = "GridView38"
         Me.GridView38.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2317,7 +2433,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit39
         '
-        Me.SearchLookUpEdit39.Location = New System.Drawing.Point(615, 169)
+        Me.SearchLookUpEdit39.Location = New System.Drawing.Point(717, 208)
+        Me.SearchLookUpEdit39.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit39.Name = "SearchLookUpEdit39"
         Me.SearchLookUpEdit39.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit39.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2326,11 +2443,12 @@ Partial Class Form118
         Me.SearchLookUpEdit39.Properties.PopupSizeable = False
         Me.SearchLookUpEdit39.Properties.PopupView = Me.GridView39
         Me.SearchLookUpEdit39.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit39.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit39.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit39.TabIndex = 148
         '
         'GridView39
         '
+        Me.GridView39.DetailHeight = 431
         Me.GridView39.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView39.Name = "GridView39"
         Me.GridView39.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2338,7 +2456,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit40
         '
-        Me.SearchLookUpEdit40.Location = New System.Drawing.Point(615, 195)
+        Me.SearchLookUpEdit40.Location = New System.Drawing.Point(717, 240)
+        Me.SearchLookUpEdit40.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit40.Name = "SearchLookUpEdit40"
         Me.SearchLookUpEdit40.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit40.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2347,11 +2466,12 @@ Partial Class Form118
         Me.SearchLookUpEdit40.Properties.PopupSizeable = False
         Me.SearchLookUpEdit40.Properties.PopupView = Me.GridView40
         Me.SearchLookUpEdit40.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit40.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit40.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit40.TabIndex = 149
         '
         'GridView40
         '
+        Me.GridView40.DetailHeight = 431
         Me.GridView40.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView40.Name = "GridView40"
         Me.GridView40.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2359,70 +2479,80 @@ Partial Class Form118
         '
         'TextEdit57
         '
-        Me.TextEdit57.Location = New System.Drawing.Point(868, 64)
+        Me.TextEdit57.Location = New System.Drawing.Point(1013, 79)
+        Me.TextEdit57.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit57.Name = "TextEdit57"
-        Me.TextEdit57.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit57.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit57.TabIndex = 134
         '
         'TextEdit58
         '
-        Me.TextEdit58.Location = New System.Drawing.Point(868, 91)
+        Me.TextEdit58.Location = New System.Drawing.Point(1013, 112)
+        Me.TextEdit58.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit58.Name = "TextEdit58"
-        Me.TextEdit58.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit58.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit58.TabIndex = 141
         '
         'TextEdit59
         '
-        Me.TextEdit59.Location = New System.Drawing.Point(868, 117)
+        Me.TextEdit59.Location = New System.Drawing.Point(1013, 144)
+        Me.TextEdit59.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit59.Name = "TextEdit59"
-        Me.TextEdit59.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit59.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit59.TabIndex = 135
         '
         'TextEdit60
         '
-        Me.TextEdit60.Location = New System.Drawing.Point(868, 143)
+        Me.TextEdit60.Location = New System.Drawing.Point(1013, 176)
+        Me.TextEdit60.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit60.Name = "TextEdit60"
-        Me.TextEdit60.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit60.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit60.TabIndex = 140
         '
         'TextEdit61
         '
-        Me.TextEdit61.Location = New System.Drawing.Point(868, 169)
+        Me.TextEdit61.Location = New System.Drawing.Point(1013, 208)
+        Me.TextEdit61.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit61.Name = "TextEdit61"
-        Me.TextEdit61.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit61.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit61.TabIndex = 136
         '
         'TextEdit62
         '
-        Me.TextEdit62.Location = New System.Drawing.Point(868, 195)
+        Me.TextEdit62.Location = New System.Drawing.Point(1013, 240)
+        Me.TextEdit62.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit62.Name = "TextEdit62"
-        Me.TextEdit62.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit62.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit62.TabIndex = 133
         '
         'TextEdit63
         '
-        Me.TextEdit63.Location = New System.Drawing.Point(868, 221)
+        Me.TextEdit63.Location = New System.Drawing.Point(1013, 272)
+        Me.TextEdit63.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit63.Name = "TextEdit63"
-        Me.TextEdit63.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit63.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit63.TabIndex = 139
         '
         'TextEdit64
         '
-        Me.TextEdit64.Location = New System.Drawing.Point(868, 247)
+        Me.TextEdit64.Location = New System.Drawing.Point(1013, 304)
+        Me.TextEdit64.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit64.Name = "TextEdit64"
-        Me.TextEdit64.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit64.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit64.TabIndex = 137
         '
         'TextEdit65
         '
-        Me.TextEdit65.Location = New System.Drawing.Point(868, 273)
+        Me.TextEdit65.Location = New System.Drawing.Point(1013, 336)
+        Me.TextEdit65.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit65.Name = "TextEdit65"
-        Me.TextEdit65.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit65.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit65.TabIndex = 138
         '
         'SearchLookUpEdit21
         '
-        Me.SearchLookUpEdit21.Location = New System.Drawing.Point(28, 65)
+        Me.SearchLookUpEdit21.Location = New System.Drawing.Point(33, 80)
+        Me.SearchLookUpEdit21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit21.Name = "SearchLookUpEdit21"
         Me.SearchLookUpEdit21.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit21.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2431,11 +2561,12 @@ Partial Class Form118
         Me.SearchLookUpEdit21.Properties.PopupSizeable = False
         Me.SearchLookUpEdit21.Properties.PopupView = Me.GridView21
         Me.SearchLookUpEdit21.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit21.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit21.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit21.TabIndex = 123
         '
         'GridView21
         '
+        Me.GridView21.DetailHeight = 431
         Me.GridView21.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView21.Name = "GridView21"
         Me.GridView21.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2443,7 +2574,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit22
         '
-        Me.SearchLookUpEdit22.Location = New System.Drawing.Point(28, 273)
+        Me.SearchLookUpEdit22.Location = New System.Drawing.Point(33, 336)
+        Me.SearchLookUpEdit22.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit22.Name = "SearchLookUpEdit22"
         Me.SearchLookUpEdit22.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit22.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2452,11 +2584,12 @@ Partial Class Form118
         Me.SearchLookUpEdit22.Properties.PopupSizeable = False
         Me.SearchLookUpEdit22.Properties.PopupView = Me.GridView22
         Me.SearchLookUpEdit22.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit22.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit22.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit22.TabIndex = 131
         '
         'GridView22
         '
+        Me.GridView22.DetailHeight = 431
         Me.GridView22.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView22.Name = "GridView22"
         Me.GridView22.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2464,7 +2597,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit23
         '
-        Me.SearchLookUpEdit23.Location = New System.Drawing.Point(28, 91)
+        Me.SearchLookUpEdit23.Location = New System.Drawing.Point(33, 112)
+        Me.SearchLookUpEdit23.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit23.Name = "SearchLookUpEdit23"
         Me.SearchLookUpEdit23.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit23.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2473,11 +2607,12 @@ Partial Class Form118
         Me.SearchLookUpEdit23.Properties.PopupSizeable = False
         Me.SearchLookUpEdit23.Properties.PopupView = Me.GridView23
         Me.SearchLookUpEdit23.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit23.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit23.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit23.TabIndex = 124
         '
         'GridView23
         '
+        Me.GridView23.DetailHeight = 431
         Me.GridView23.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView23.Name = "GridView23"
         Me.GridView23.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2486,7 +2621,8 @@ Partial Class Form118
         'SearchLookUpEdit24
         '
         Me.SearchLookUpEdit24.EditValue = ""
-        Me.SearchLookUpEdit24.Location = New System.Drawing.Point(28, 39)
+        Me.SearchLookUpEdit24.Location = New System.Drawing.Point(33, 48)
+        Me.SearchLookUpEdit24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit24.Name = "SearchLookUpEdit24"
         Me.SearchLookUpEdit24.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit24.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2495,11 +2631,12 @@ Partial Class Form118
         Me.SearchLookUpEdit24.Properties.PopupSizeable = False
         Me.SearchLookUpEdit24.Properties.PopupView = Me.GridView24
         Me.SearchLookUpEdit24.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit24.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit24.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit24.TabIndex = 122
         '
         'GridView24
         '
+        Me.GridView24.DetailHeight = 431
         Me.GridView24.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView24.Name = "GridView24"
         Me.GridView24.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2507,7 +2644,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit25
         '
-        Me.SearchLookUpEdit25.Location = New System.Drawing.Point(28, 117)
+        Me.SearchLookUpEdit25.Location = New System.Drawing.Point(33, 144)
+        Me.SearchLookUpEdit25.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit25.Name = "SearchLookUpEdit25"
         Me.SearchLookUpEdit25.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit25.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2516,11 +2654,12 @@ Partial Class Form118
         Me.SearchLookUpEdit25.Properties.PopupSizeable = False
         Me.SearchLookUpEdit25.Properties.PopupView = Me.GridView25
         Me.SearchLookUpEdit25.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit25.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit25.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit25.TabIndex = 125
         '
         'GridView25
         '
+        Me.GridView25.DetailHeight = 431
         Me.GridView25.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView25.Name = "GridView25"
         Me.GridView25.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2528,7 +2667,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit26
         '
-        Me.SearchLookUpEdit26.Location = New System.Drawing.Point(28, 247)
+        Me.SearchLookUpEdit26.Location = New System.Drawing.Point(33, 304)
+        Me.SearchLookUpEdit26.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit26.Name = "SearchLookUpEdit26"
         Me.SearchLookUpEdit26.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit26.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2537,11 +2677,12 @@ Partial Class Form118
         Me.SearchLookUpEdit26.Properties.PopupSizeable = False
         Me.SearchLookUpEdit26.Properties.PopupView = Me.GridView26
         Me.SearchLookUpEdit26.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit26.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit26.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit26.TabIndex = 130
         '
         'GridView26
         '
+        Me.GridView26.DetailHeight = 431
         Me.GridView26.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView26.Name = "GridView26"
         Me.GridView26.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2549,7 +2690,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit27
         '
-        Me.SearchLookUpEdit27.Location = New System.Drawing.Point(28, 143)
+        Me.SearchLookUpEdit27.Location = New System.Drawing.Point(33, 176)
+        Me.SearchLookUpEdit27.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit27.Name = "SearchLookUpEdit27"
         Me.SearchLookUpEdit27.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit27.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2558,11 +2700,12 @@ Partial Class Form118
         Me.SearchLookUpEdit27.Properties.PopupSizeable = False
         Me.SearchLookUpEdit27.Properties.PopupView = Me.GridView27
         Me.SearchLookUpEdit27.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit27.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit27.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit27.TabIndex = 126
         '
         'GridView27
         '
+        Me.GridView27.DetailHeight = 431
         Me.GridView27.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView27.Name = "GridView27"
         Me.GridView27.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2570,7 +2713,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit28
         '
-        Me.SearchLookUpEdit28.Location = New System.Drawing.Point(28, 221)
+        Me.SearchLookUpEdit28.Location = New System.Drawing.Point(33, 272)
+        Me.SearchLookUpEdit28.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit28.Name = "SearchLookUpEdit28"
         Me.SearchLookUpEdit28.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit28.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2579,11 +2723,12 @@ Partial Class Form118
         Me.SearchLookUpEdit28.Properties.PopupSizeable = False
         Me.SearchLookUpEdit28.Properties.PopupView = Me.GridView28
         Me.SearchLookUpEdit28.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit28.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit28.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit28.TabIndex = 129
         '
         'GridView28
         '
+        Me.GridView28.DetailHeight = 431
         Me.GridView28.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView28.Name = "GridView28"
         Me.GridView28.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2591,7 +2736,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit29
         '
-        Me.SearchLookUpEdit29.Location = New System.Drawing.Point(28, 169)
+        Me.SearchLookUpEdit29.Location = New System.Drawing.Point(33, 208)
+        Me.SearchLookUpEdit29.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit29.Name = "SearchLookUpEdit29"
         Me.SearchLookUpEdit29.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit29.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2600,11 +2746,12 @@ Partial Class Form118
         Me.SearchLookUpEdit29.Properties.PopupSizeable = False
         Me.SearchLookUpEdit29.Properties.PopupView = Me.GridView29
         Me.SearchLookUpEdit29.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit29.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit29.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit29.TabIndex = 127
         '
         'GridView29
         '
+        Me.GridView29.DetailHeight = 431
         Me.GridView29.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView29.Name = "GridView29"
         Me.GridView29.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2612,7 +2759,8 @@ Partial Class Form118
         '
         'SearchLookUpEdit30
         '
-        Me.SearchLookUpEdit30.Location = New System.Drawing.Point(28, 195)
+        Me.SearchLookUpEdit30.Location = New System.Drawing.Point(33, 240)
+        Me.SearchLookUpEdit30.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SearchLookUpEdit30.Name = "SearchLookUpEdit30"
         Me.SearchLookUpEdit30.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SearchLookUpEdit30.Properties.DataSource = Me.EOALANSISYARDDEPOBindingSource
@@ -2621,11 +2769,12 @@ Partial Class Form118
         Me.SearchLookUpEdit30.Properties.PopupSizeable = False
         Me.SearchLookUpEdit30.Properties.PopupView = Me.GridView30
         Me.SearchLookUpEdit30.Properties.ValueMember = "STOK_ADI"
-        Me.SearchLookUpEdit30.Size = New System.Drawing.Size(247, 20)
+        Me.SearchLookUpEdit30.Size = New System.Drawing.Size(288, 23)
         Me.SearchLookUpEdit30.TabIndex = 128
         '
         'GridView30
         '
+        Me.GridView30.DetailHeight = 431
         Me.GridView30.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.GridView30.Name = "GridView30"
         Me.GridView30.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -2633,472 +2782,503 @@ Partial Class Form118
         '
         'TextEdit47
         '
-        Me.TextEdit47.Location = New System.Drawing.Point(281, 65)
+        Me.TextEdit47.Location = New System.Drawing.Point(328, 80)
+        Me.TextEdit47.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit47.Name = "TextEdit47"
-        Me.TextEdit47.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit47.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit47.TabIndex = 114
         '
         'TextEdit48
         '
-        Me.TextEdit48.Location = New System.Drawing.Point(281, 92)
+        Me.TextEdit48.Location = New System.Drawing.Point(328, 113)
+        Me.TextEdit48.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit48.Name = "TextEdit48"
-        Me.TextEdit48.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit48.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit48.TabIndex = 121
         '
         'TextEdit49
         '
-        Me.TextEdit49.Location = New System.Drawing.Point(281, 118)
+        Me.TextEdit49.Location = New System.Drawing.Point(328, 145)
+        Me.TextEdit49.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit49.Name = "TextEdit49"
-        Me.TextEdit49.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit49.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit49.TabIndex = 115
         '
         'TextEdit50
         '
-        Me.TextEdit50.Location = New System.Drawing.Point(281, 144)
+        Me.TextEdit50.Location = New System.Drawing.Point(328, 177)
+        Me.TextEdit50.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit50.Name = "TextEdit50"
-        Me.TextEdit50.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit50.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit50.TabIndex = 120
         '
         'TextEdit51
         '
-        Me.TextEdit51.Location = New System.Drawing.Point(281, 170)
+        Me.TextEdit51.Location = New System.Drawing.Point(328, 209)
+        Me.TextEdit51.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit51.Name = "TextEdit51"
-        Me.TextEdit51.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit51.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit51.TabIndex = 116
         '
         'TextEdit52
         '
-        Me.TextEdit52.Location = New System.Drawing.Point(281, 196)
+        Me.TextEdit52.Location = New System.Drawing.Point(328, 241)
+        Me.TextEdit52.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit52.Name = "TextEdit52"
-        Me.TextEdit52.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit52.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit52.TabIndex = 112
         '
         'TextEdit53
         '
-        Me.TextEdit53.Location = New System.Drawing.Point(281, 222)
+        Me.TextEdit53.Location = New System.Drawing.Point(328, 273)
+        Me.TextEdit53.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit53.Name = "TextEdit53"
-        Me.TextEdit53.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit53.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit53.TabIndex = 119
         '
         'TextEdit54
         '
-        Me.TextEdit54.Location = New System.Drawing.Point(281, 248)
+        Me.TextEdit54.Location = New System.Drawing.Point(328, 305)
+        Me.TextEdit54.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit54.Name = "TextEdit54"
-        Me.TextEdit54.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit54.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit54.TabIndex = 117
         '
         'TextEdit55
         '
-        Me.TextEdit55.Location = New System.Drawing.Point(281, 274)
+        Me.TextEdit55.Location = New System.Drawing.Point(328, 337)
+        Me.TextEdit55.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit55.Name = "TextEdit55"
-        Me.TextEdit55.Size = New System.Drawing.Size(222, 20)
+        Me.TextEdit55.Size = New System.Drawing.Size(259, 23)
         Me.TextEdit55.TabIndex = 118
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Azure
-        Me.Panel3.Location = New System.Drawing.Point(569, 42)
+        Me.Panel3.Location = New System.Drawing.Point(664, 52)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(17, 247)
+        Me.Panel3.Size = New System.Drawing.Size(20, 304)
         Me.Panel3.TabIndex = 111
         '
         'TextEdit26
         '
-        Me.TextEdit26.Location = New System.Drawing.Point(1096, 64)
+        Me.TextEdit26.Location = New System.Drawing.Point(1279, 79)
+        Me.TextEdit26.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit26.Name = "TextEdit26"
-        Me.TextEdit26.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit26.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit26.TabIndex = 71
         '
         'TextEdit27
         '
-        Me.TextEdit27.Location = New System.Drawing.Point(1096, 90)
+        Me.TextEdit27.Location = New System.Drawing.Point(1279, 111)
+        Me.TextEdit27.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit27.Name = "TextEdit27"
-        Me.TextEdit27.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit27.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit27.TabIndex = 73
         '
         'TextEdit28
         '
-        Me.TextEdit28.Location = New System.Drawing.Point(1096, 272)
+        Me.TextEdit28.Location = New System.Drawing.Point(1279, 335)
+        Me.TextEdit28.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit28.Name = "TextEdit28"
-        Me.TextEdit28.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit28.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit28.TabIndex = 87
         '
         'TextEdit29
         '
-        Me.TextEdit29.Location = New System.Drawing.Point(1096, 116)
+        Me.TextEdit29.Location = New System.Drawing.Point(1279, 143)
+        Me.TextEdit29.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit29.Name = "TextEdit29"
-        Me.TextEdit29.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit29.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit29.TabIndex = 75
         '
         'TextEdit30
         '
-        Me.TextEdit30.Location = New System.Drawing.Point(1096, 246)
+        Me.TextEdit30.Location = New System.Drawing.Point(1279, 303)
+        Me.TextEdit30.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit30.Name = "TextEdit30"
-        Me.TextEdit30.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit30.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit30.TabIndex = 85
         '
         'TextEdit31
         '
-        Me.TextEdit31.Location = New System.Drawing.Point(1096, 142)
+        Me.TextEdit31.Location = New System.Drawing.Point(1279, 175)
+        Me.TextEdit31.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit31.Name = "TextEdit31"
-        Me.TextEdit31.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit31.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit31.TabIndex = 77
         '
         'TextEdit32
         '
-        Me.TextEdit32.Location = New System.Drawing.Point(1096, 38)
+        Me.TextEdit32.Location = New System.Drawing.Point(1279, 47)
+        Me.TextEdit32.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit32.Name = "TextEdit32"
-        Me.TextEdit32.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit32.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit32.TabIndex = 67
         '
         'TextEdit33
         '
-        Me.TextEdit33.Location = New System.Drawing.Point(1096, 220)
+        Me.TextEdit33.Location = New System.Drawing.Point(1279, 271)
+        Me.TextEdit33.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit33.Name = "TextEdit33"
-        Me.TextEdit33.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit33.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit33.TabIndex = 83
         '
         'TextEdit34
         '
-        Me.TextEdit34.Location = New System.Drawing.Point(1096, 168)
+        Me.TextEdit34.Location = New System.Drawing.Point(1279, 207)
+        Me.TextEdit34.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit34.Name = "TextEdit34"
-        Me.TextEdit34.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit34.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit34.TabIndex = 79
         '
         'TextEdit35
         '
-        Me.TextEdit35.Location = New System.Drawing.Point(1096, 194)
+        Me.TextEdit35.Location = New System.Drawing.Point(1279, 239)
+        Me.TextEdit35.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit35.Name = "TextEdit35"
-        Me.TextEdit35.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit35.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit35.TabIndex = 81
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(629, 23)
+        Me.Label34.Location = New System.Drawing.Point(734, 28)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(58, 13)
+        Me.Label34.Size = New System.Drawing.Size(72, 17)
         Me.Label34.TabIndex = 100
         Me.Label34.Text = "Reçete Tip"
         '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(592, 276)
+        Me.Label35.Location = New System.Drawing.Point(691, 340)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(23, 13)
+        Me.Label35.Size = New System.Drawing.Size(28, 17)
         Me.Label35.TabIndex = 99
         Me.Label35.Text = "20."
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(592, 250)
+        Me.Label36.Location = New System.Drawing.Point(691, 308)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(23, 13)
+        Me.Label36.Size = New System.Drawing.Size(28, 17)
         Me.Label36.TabIndex = 98
         Me.Label36.Text = "19."
         '
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(592, 224)
+        Me.Label37.Location = New System.Drawing.Point(691, 276)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(23, 13)
+        Me.Label37.Size = New System.Drawing.Size(28, 17)
         Me.Label37.TabIndex = 97
         Me.Label37.Text = "18."
         '
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(592, 198)
+        Me.Label38.Location = New System.Drawing.Point(691, 244)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(23, 13)
+        Me.Label38.Size = New System.Drawing.Size(28, 17)
         Me.Label38.TabIndex = 96
         Me.Label38.Text = "17."
         '
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(592, 172)
+        Me.Label39.Location = New System.Drawing.Point(691, 212)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(23, 13)
+        Me.Label39.Size = New System.Drawing.Size(28, 17)
         Me.Label39.TabIndex = 95
         Me.Label39.Text = "16."
         '
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(592, 146)
+        Me.Label40.Location = New System.Drawing.Point(691, 180)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(23, 13)
+        Me.Label40.Size = New System.Drawing.Size(28, 17)
         Me.Label40.TabIndex = 94
         Me.Label40.Text = "15."
         '
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(592, 120)
+        Me.Label41.Location = New System.Drawing.Point(691, 148)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(23, 13)
+        Me.Label41.Size = New System.Drawing.Size(28, 17)
         Me.Label41.TabIndex = 93
         Me.Label41.Text = "14."
         '
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(592, 94)
+        Me.Label42.Location = New System.Drawing.Point(691, 116)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(23, 13)
+        Me.Label42.Size = New System.Drawing.Size(28, 17)
         Me.Label42.TabIndex = 92
         Me.Label42.Text = "13."
         '
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(592, 67)
+        Me.Label43.Location = New System.Drawing.Point(691, 82)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(23, 13)
+        Me.Label43.Size = New System.Drawing.Size(28, 17)
         Me.Label43.TabIndex = 91
         Me.Label43.Text = "12."
         '
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(592, 41)
+        Me.Label44.Location = New System.Drawing.Point(691, 50)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(23, 13)
+        Me.Label44.Size = New System.Drawing.Size(28, 17)
         Me.Label44.TabIndex = 90
         Me.Label44.Text = "11."
         '
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(592, 23)
+        Me.Label45.Location = New System.Drawing.Point(691, 28)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(24, 13)
+        Me.Label45.Size = New System.Drawing.Size(29, 17)
         Me.Label45.TabIndex = 89
         Me.Label45.Text = "No."
         '
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(1109, 23)
+        Me.Label46.Location = New System.Drawing.Point(1294, 28)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(36, 13)
+        Me.Label46.Size = New System.Drawing.Size(44, 17)
         Me.Label46.TabIndex = 70
         Me.Label46.Text = "Miktar"
         '
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(904, 23)
+        Me.Label47.Location = New System.Drawing.Point(1055, 28)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(144, 13)
+        Me.Label47.Size = New System.Drawing.Size(183, 17)
         Me.Label47.TabIndex = 69
         Me.Label47.Text = "Reçete Tanımlı Hammaddeler"
         '
         'TextEdit36
         '
-        Me.TextEdit36.Location = New System.Drawing.Point(509, 65)
+        Me.TextEdit36.Location = New System.Drawing.Point(594, 80)
+        Me.TextEdit36.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit36.Name = "TextEdit36"
-        Me.TextEdit36.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit36.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit36.TabIndex = 7
         '
         'TextEdit37
         '
-        Me.TextEdit37.Location = New System.Drawing.Point(509, 91)
+        Me.TextEdit37.Location = New System.Drawing.Point(594, 112)
+        Me.TextEdit37.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit37.Name = "TextEdit37"
-        Me.TextEdit37.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit37.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit37.TabIndex = 10
         '
         'TextEdit38
         '
-        Me.TextEdit38.Location = New System.Drawing.Point(509, 273)
+        Me.TextEdit38.Location = New System.Drawing.Point(594, 336)
+        Me.TextEdit38.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit38.Name = "TextEdit38"
-        Me.TextEdit38.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit38.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit38.TabIndex = 41
         '
         'TextEdit39
         '
-        Me.TextEdit39.Location = New System.Drawing.Point(509, 117)
+        Me.TextEdit39.Location = New System.Drawing.Point(594, 144)
+        Me.TextEdit39.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit39.Name = "TextEdit39"
-        Me.TextEdit39.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit39.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit39.TabIndex = 13
         '
         'TextEdit40
         '
-        Me.TextEdit40.Location = New System.Drawing.Point(509, 247)
+        Me.TextEdit40.Location = New System.Drawing.Point(594, 304)
+        Me.TextEdit40.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit40.Name = "TextEdit40"
-        Me.TextEdit40.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit40.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit40.TabIndex = 37
         '
         'TextEdit41
         '
-        Me.TextEdit41.Location = New System.Drawing.Point(509, 143)
+        Me.TextEdit41.Location = New System.Drawing.Point(594, 176)
+        Me.TextEdit41.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit41.Name = "TextEdit41"
-        Me.TextEdit41.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit41.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit41.TabIndex = 16
         '
         'TextEdit42
         '
-        Me.TextEdit42.Location = New System.Drawing.Point(509, 39)
+        Me.TextEdit42.Location = New System.Drawing.Point(594, 48)
+        Me.TextEdit42.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit42.Name = "TextEdit42"
-        Me.TextEdit42.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit42.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit42.TabIndex = 2
         '
         'TextEdit43
         '
-        Me.TextEdit43.Location = New System.Drawing.Point(509, 221)
+        Me.TextEdit43.Location = New System.Drawing.Point(594, 272)
+        Me.TextEdit43.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit43.Name = "TextEdit43"
-        Me.TextEdit43.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit43.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit43.TabIndex = 25
         '
         'TextEdit44
         '
-        Me.TextEdit44.Location = New System.Drawing.Point(509, 169)
+        Me.TextEdit44.Location = New System.Drawing.Point(594, 208)
+        Me.TextEdit44.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit44.Name = "TextEdit44"
-        Me.TextEdit44.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit44.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit44.TabIndex = 19
         '
         'TextEdit45
         '
-        Me.TextEdit45.Location = New System.Drawing.Point(509, 195)
+        Me.TextEdit45.Location = New System.Drawing.Point(594, 240)
+        Me.TextEdit45.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit45.Name = "TextEdit45"
-        Me.TextEdit45.Size = New System.Drawing.Size(54, 20)
+        Me.TextEdit45.Size = New System.Drawing.Size(63, 23)
         Me.TextEdit45.TabIndex = 22
         '
         'Label48
         '
         Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(42, 23)
+        Me.Label48.Location = New System.Drawing.Point(49, 28)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(58, 13)
+        Me.Label48.Size = New System.Drawing.Size(72, 17)
         Me.Label48.TabIndex = 56
         Me.Label48.Text = "Reçete Tip"
         '
         'Label49
         '
         Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(5, 276)
+        Me.Label49.Location = New System.Drawing.Point(6, 340)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(23, 13)
+        Me.Label49.Size = New System.Drawing.Size(28, 17)
         Me.Label49.TabIndex = 54
         Me.Label49.Text = "10."
         '
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(5, 250)
+        Me.Label50.Location = New System.Drawing.Point(6, 308)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(17, 13)
+        Me.Label50.Size = New System.Drawing.Size(20, 17)
         Me.Label50.TabIndex = 53
         Me.Label50.Text = "9."
         '
         'Label51
         '
         Me.Label51.AutoSize = True
-        Me.Label51.Location = New System.Drawing.Point(5, 224)
+        Me.Label51.Location = New System.Drawing.Point(6, 276)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(17, 13)
+        Me.Label51.Size = New System.Drawing.Size(20, 17)
         Me.Label51.TabIndex = 52
         Me.Label51.Text = "8."
         '
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(5, 198)
+        Me.Label52.Location = New System.Drawing.Point(6, 244)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(17, 13)
+        Me.Label52.Size = New System.Drawing.Size(20, 17)
         Me.Label52.TabIndex = 51
         Me.Label52.Text = "7."
         '
         'Label53
         '
         Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(5, 172)
+        Me.Label53.Location = New System.Drawing.Point(6, 212)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(17, 13)
+        Me.Label53.Size = New System.Drawing.Size(20, 17)
         Me.Label53.TabIndex = 50
         Me.Label53.Text = "6."
         '
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(5, 146)
+        Me.Label54.Location = New System.Drawing.Point(6, 180)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(17, 13)
+        Me.Label54.Size = New System.Drawing.Size(20, 17)
         Me.Label54.TabIndex = 49
         Me.Label54.Text = "5."
         '
         'Label55
         '
         Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(5, 120)
+        Me.Label55.Location = New System.Drawing.Point(6, 148)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(17, 13)
+        Me.Label55.Size = New System.Drawing.Size(20, 17)
         Me.Label55.TabIndex = 48
         Me.Label55.Text = "4."
         '
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(5, 94)
+        Me.Label56.Location = New System.Drawing.Point(6, 116)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(17, 13)
+        Me.Label56.Size = New System.Drawing.Size(20, 17)
         Me.Label56.TabIndex = 47
         Me.Label56.Text = "3."
         '
         'Label57
         '
         Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(5, 67)
+        Me.Label57.Location = New System.Drawing.Point(6, 82)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(17, 13)
+        Me.Label57.Size = New System.Drawing.Size(20, 17)
         Me.Label57.TabIndex = 46
         Me.Label57.Text = "2."
         '
         'Label58
         '
         Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(5, 41)
+        Me.Label58.Location = New System.Drawing.Point(6, 50)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(17, 13)
+        Me.Label58.Size = New System.Drawing.Size(20, 17)
         Me.Label58.TabIndex = 45
         Me.Label58.Text = "1."
         '
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(5, 23)
+        Me.Label59.Location = New System.Drawing.Point(6, 28)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(24, 13)
+        Me.Label59.Size = New System.Drawing.Size(29, 17)
         Me.Label59.TabIndex = 44
         Me.Label59.Text = "No."
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(1008, 300)
+        Me.SimpleButton6.Location = New System.Drawing.Point(1176, 369)
+        Me.SimpleButton6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(142, 29)
+        Me.SimpleButton6.Size = New System.Drawing.Size(166, 36)
         Me.SimpleButton6.TabIndex = 7
         Me.SimpleButton6.Text = "Kaydet"
         '
         'Label60
         '
         Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(522, 23)
+        Me.Label60.Location = New System.Drawing.Point(609, 28)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(36, 13)
+        Me.Label60.Size = New System.Drawing.Size(44, 17)
         Me.Label60.TabIndex = 6
         Me.Label60.Text = "Miktar"
         '
         'Label61
         '
         Me.Label61.AutoSize = True
-        Me.Label61.Location = New System.Drawing.Point(328, 23)
+        Me.Label61.Location = New System.Drawing.Point(383, 28)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(144, 13)
+        Me.Label61.Size = New System.Drawing.Size(183, 17)
         Me.Label61.TabIndex = 5
         Me.Label61.Text = "Reçete Tanımlı Hammaddeler"
         '
@@ -3219,14 +3399,15 @@ Partial Class Form118
         '
         'Form118
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1185, 457)
+        Me.ClientSize = New System.Drawing.Size(1382, 562)
         Me.Controls.Add(Me.XtraTabControl1)
         Me.Controls.Add(Me.GroupControl3)
         Me.Controls.Add(Me.GroupControl1)
         Me.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Glow
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form118"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ALANSIS - RECETE TANIMLAMA"

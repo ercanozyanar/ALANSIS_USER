@@ -40,55 +40,60 @@ Partial Class Form183
         '
         'GridControl1
         '
-        Me.GridControl1.Location = New System.Drawing.Point(3, 55)
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GridControl1.Location = New System.Drawing.Point(3, 68)
         Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(939, 413)
+        Me.GridControl1.Size = New System.Drawing.Size(1095, 508)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
         'GridView1
         '
+        Me.GridView1.DetailHeight = 431
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(3, 10)
+        Me.SimpleButton1.Location = New System.Drawing.Point(3, 12)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(176, 39)
+        Me.SimpleButton1.Size = New System.Drawing.Size(205, 48)
         Me.SimpleButton1.TabIndex = 1
         Me.SimpleButton1.Text = "İş Emri Aç"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(200, 23)
+        Me.Label1.Location = New System.Drawing.Point(233, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(123, 13)
+        Me.Label1.Size = New System.Drawing.Size(155, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Seçilen İş Emri Parti No :"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(329, 23)
+        Me.Label2.Location = New System.Drawing.Point(384, 28)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 13)
+        Me.Label2.Size = New System.Drawing.Size(0, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Form183
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(946, 471)
+        Me.ClientSize = New System.Drawing.Size(1104, 580)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.GridControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.IconOptions.Image = Global.WindowsApplication1.My.Resources.Resources.LOGIN11
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form183"
         Me.Text = "ALANSIS URETIM PANEL ISEMRI ACMA"
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()

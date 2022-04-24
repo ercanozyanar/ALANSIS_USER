@@ -78,10 +78,12 @@ Partial Class Form166
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GridControl1.DataSource = Me.EOALANSISHUCREBAKIYEMADBindingSource
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Location = New System.Drawing.Point(2, 2)
         Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(910, 481)
+        Me.GridControl1.Size = New System.Drawing.Size(1062, 592)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -98,148 +100,189 @@ Partial Class Form166
         'GridView1
         '
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colSTOK_KODU, Me.colSERI, Me.colYERLESIM, Me.colRENK, Me.colSERI_BAKIYE, Me.colTARIH, Me.colGELDIGI_YER, Me.colBOLGE, Me.colURUN_CESIDI, Me.colURETICI_TC, Me.colURETICI_ADSOY, Me.colKANTARNO, Me.colFISNO, Me.colKASA_SAYI, Me.colNET, Me.colMADNO, Me.colIRSALIYE, Me.colMADSERI, Me.colExpr1, Me.colKASANO})
+        Me.GridView1.DetailHeight = 431
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
         'colSTOK_KODU
         '
         Me.colSTOK_KODU.FieldName = "STOK_KODU"
+        Me.colSTOK_KODU.MinWidth = 23
         Me.colSTOK_KODU.Name = "colSTOK_KODU"
         Me.colSTOK_KODU.Visible = True
         Me.colSTOK_KODU.VisibleIndex = 0
+        Me.colSTOK_KODU.Width = 87
         '
         'colSERI
         '
         Me.colSERI.FieldName = "SERI"
+        Me.colSERI.MinWidth = 23
         Me.colSERI.Name = "colSERI"
         Me.colSERI.Visible = True
         Me.colSERI.VisibleIndex = 1
+        Me.colSERI.Width = 87
         '
         'colYERLESIM
         '
         Me.colYERLESIM.FieldName = "YERLESIM"
+        Me.colYERLESIM.MinWidth = 23
         Me.colYERLESIM.Name = "colYERLESIM"
         Me.colYERLESIM.Visible = True
         Me.colYERLESIM.VisibleIndex = 2
+        Me.colYERLESIM.Width = 87
         '
         'colRENK
         '
         Me.colRENK.FieldName = "RENK"
+        Me.colRENK.MinWidth = 23
         Me.colRENK.Name = "colRENK"
         Me.colRENK.Visible = True
         Me.colRENK.VisibleIndex = 3
+        Me.colRENK.Width = 87
         '
         'colSERI_BAKIYE
         '
         Me.colSERI_BAKIYE.FieldName = "SERI_BAKIYE"
+        Me.colSERI_BAKIYE.MinWidth = 23
         Me.colSERI_BAKIYE.Name = "colSERI_BAKIYE"
         Me.colSERI_BAKIYE.Visible = True
         Me.colSERI_BAKIYE.VisibleIndex = 4
+        Me.colSERI_BAKIYE.Width = 87
         '
         'colTARIH
         '
         Me.colTARIH.FieldName = "TARIH"
+        Me.colTARIH.MinWidth = 23
         Me.colTARIH.Name = "colTARIH"
         Me.colTARIH.Visible = True
         Me.colTARIH.VisibleIndex = 5
+        Me.colTARIH.Width = 87
         '
         'colGELDIGI_YER
         '
         Me.colGELDIGI_YER.FieldName = "GELDIGI_YER"
+        Me.colGELDIGI_YER.MinWidth = 23
         Me.colGELDIGI_YER.Name = "colGELDIGI_YER"
         Me.colGELDIGI_YER.Visible = True
         Me.colGELDIGI_YER.VisibleIndex = 6
+        Me.colGELDIGI_YER.Width = 87
         '
         'colBOLGE
         '
         Me.colBOLGE.FieldName = "BOLGE"
+        Me.colBOLGE.MinWidth = 23
         Me.colBOLGE.Name = "colBOLGE"
         Me.colBOLGE.Visible = True
         Me.colBOLGE.VisibleIndex = 7
+        Me.colBOLGE.Width = 87
         '
         'colURUN_CESIDI
         '
         Me.colURUN_CESIDI.FieldName = "URUN_CESIDI"
+        Me.colURUN_CESIDI.MinWidth = 23
         Me.colURUN_CESIDI.Name = "colURUN_CESIDI"
         Me.colURUN_CESIDI.Visible = True
         Me.colURUN_CESIDI.VisibleIndex = 8
+        Me.colURUN_CESIDI.Width = 87
         '
         'colURETICI_TC
         '
         Me.colURETICI_TC.FieldName = "URETICI_TC"
+        Me.colURETICI_TC.MinWidth = 23
         Me.colURETICI_TC.Name = "colURETICI_TC"
         Me.colURETICI_TC.Visible = True
         Me.colURETICI_TC.VisibleIndex = 9
+        Me.colURETICI_TC.Width = 87
         '
         'colURETICI_ADSOY
         '
         Me.colURETICI_ADSOY.FieldName = "URETICI_ADSOY"
+        Me.colURETICI_ADSOY.MinWidth = 23
         Me.colURETICI_ADSOY.Name = "colURETICI_ADSOY"
         Me.colURETICI_ADSOY.Visible = True
         Me.colURETICI_ADSOY.VisibleIndex = 10
+        Me.colURETICI_ADSOY.Width = 87
         '
         'colKANTARNO
         '
         Me.colKANTARNO.FieldName = "KANTARNO"
+        Me.colKANTARNO.MinWidth = 23
         Me.colKANTARNO.Name = "colKANTARNO"
         Me.colKANTARNO.Visible = True
         Me.colKANTARNO.VisibleIndex = 11
+        Me.colKANTARNO.Width = 87
         '
         'colFISNO
         '
         Me.colFISNO.FieldName = "FISNO"
+        Me.colFISNO.MinWidth = 23
         Me.colFISNO.Name = "colFISNO"
         Me.colFISNO.Visible = True
         Me.colFISNO.VisibleIndex = 12
+        Me.colFISNO.Width = 87
         '
         'colKASA_SAYI
         '
         Me.colKASA_SAYI.FieldName = "KASA_SAYI"
+        Me.colKASA_SAYI.MinWidth = 23
         Me.colKASA_SAYI.Name = "colKASA_SAYI"
         Me.colKASA_SAYI.Visible = True
         Me.colKASA_SAYI.VisibleIndex = 13
+        Me.colKASA_SAYI.Width = 87
         '
         'colNET
         '
         Me.colNET.FieldName = "NET"
+        Me.colNET.MinWidth = 23
         Me.colNET.Name = "colNET"
         Me.colNET.Visible = True
         Me.colNET.VisibleIndex = 14
+        Me.colNET.Width = 87
         '
         'colMADNO
         '
         Me.colMADNO.FieldName = "MADNO"
+        Me.colMADNO.MinWidth = 23
         Me.colMADNO.Name = "colMADNO"
         Me.colMADNO.Visible = True
         Me.colMADNO.VisibleIndex = 15
+        Me.colMADNO.Width = 87
         '
         'colIRSALIYE
         '
         Me.colIRSALIYE.FieldName = "IRSALIYE"
+        Me.colIRSALIYE.MinWidth = 23
         Me.colIRSALIYE.Name = "colIRSALIYE"
         Me.colIRSALIYE.Visible = True
         Me.colIRSALIYE.VisibleIndex = 16
+        Me.colIRSALIYE.Width = 87
         '
         'colMADSERI
         '
         Me.colMADSERI.FieldName = "MADSERI"
+        Me.colMADSERI.MinWidth = 23
         Me.colMADSERI.Name = "colMADSERI"
         Me.colMADSERI.Visible = True
         Me.colMADSERI.VisibleIndex = 17
+        Me.colMADSERI.Width = 87
         '
         'colExpr1
         '
         Me.colExpr1.FieldName = "Expr1"
+        Me.colExpr1.MinWidth = 23
         Me.colExpr1.Name = "colExpr1"
         Me.colExpr1.Visible = True
         Me.colExpr1.VisibleIndex = 18
+        Me.colExpr1.Width = 87
         '
         'colKASANO
         '
         Me.colKASANO.FieldName = "KASANO"
+        Me.colKASANO.MinWidth = 23
         Me.colKASANO.Name = "colKASANO"
         Me.colKASANO.Visible = True
         Me.colKASANO.VisibleIndex = 19
+        Me.colKASANO.Width = 87
         '
         'EO_ALANSIS_HUCREBAKIYEMADTableAdapter
         '
@@ -247,10 +290,11 @@ Partial Class Form166
         '
         'Form166
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(913, 484)
+        Me.ClientSize = New System.Drawing.Size(1065, 596)
         Me.Controls.Add(Me.GridControl1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form166"
         Me.Text = "ALANSIS HUCRE BAKIYE - MEYVE ALIM IZLEME"
         CType(Me.AlansısDataSet221, System.ComponentModel.ISupportInitialize).EndInit()

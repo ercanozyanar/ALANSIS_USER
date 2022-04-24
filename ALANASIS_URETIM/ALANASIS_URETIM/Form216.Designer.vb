@@ -40,45 +40,50 @@ Partial Class Form216
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(128, 38)
+        Me.DataGridView1.Location = New System.Drawing.Point(149, 47)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(219, 318)
+        Me.DataGridView1.Size = New System.Drawing.Size(255, 391)
         Me.DataGridView1.TabIndex = 11
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(8, 38)
+        Me.SimpleButton1.Location = New System.Drawing.Point(9, 47)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(114, 28)
+        Me.SimpleButton1.Size = New System.Drawing.Size(133, 34)
         Me.SimpleButton1.TabIndex = 12
         Me.SimpleButton1.Text = "Ekle"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(8, 81)
+        Me.SimpleButton2.Location = New System.Drawing.Point(9, 100)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(114, 31)
+        Me.SimpleButton2.Size = New System.Drawing.Size(133, 38)
         Me.SimpleButton2.TabIndex = 13
         Me.SimpleButton2.Text = "Sil"
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(8, 12)
+        Me.TextEdit1.Location = New System.Drawing.Point(9, 15)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(339, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(395, 23)
         Me.TextEdit1.TabIndex = 14
         '
         'Form216
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(352, 362)
+        Me.ClientSize = New System.Drawing.Size(411, 446)
         Me.Controls.Add(Me.TextEdit1)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.DataGridView1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.IconOptions.Image = Global.WindowsApplication1.My.Resources.Resources.LOGIN11
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form216"
         Me.Text = "ALANSIS INCIR AKTARILAN URETICI"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
