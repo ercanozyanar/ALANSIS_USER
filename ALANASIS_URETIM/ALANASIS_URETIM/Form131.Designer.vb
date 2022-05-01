@@ -23,7 +23,7 @@ Partial Class Form131
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
@@ -53,8 +53,11 @@ Partial Class Form131
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.ComboBoxEdit16 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
+        Me.ComboBoxEdit18 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
@@ -83,8 +86,6 @@ Partial Class Form131
         Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
-        Me.ComboBoxEdit16 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.ComboBoxEdit18 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit10 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
         Me.ComboBoxEdit9 = New DevExpress.XtraEditors.ComboBoxEdit()
@@ -112,6 +113,8 @@ Partial Class Form131
         Me.ComboBoxEdit7 = New DevExpress.XtraEditors.SearchLookUpEdit()
         Me.GridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ALANSISDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -130,8 +133,6 @@ Partial Class Form131
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -401,6 +402,7 @@ Partial Class Form131
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.TextBox2)
         Me.GroupBox2.Controls.Add(Me.ComboBoxEdit16)
         Me.GroupBox2.Controls.Add(Me.Label31)
         Me.GroupBox2.Controls.Add(Me.Label29)
@@ -412,6 +414,25 @@ Partial Class Form131
         Me.GroupBox2.Size = New System.Drawing.Size(1281, 47)
         Me.GroupBox2.TabIndex = 52
         Me.GroupBox2.TabStop = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextBox2.Enabled = False
+        Me.TextBox2.Location = New System.Drawing.Point(312, 15)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(57, 23)
+        Me.TextBox2.TabIndex = 66
+        '
+        'ComboBoxEdit16
+        '
+        Me.ComboBoxEdit16.Location = New System.Drawing.Point(210, 15)
+        Me.ComboBoxEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit16.Name = "ComboBoxEdit16"
+        Me.ComboBoxEdit16.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit16.Properties.Items.AddRange(New Object() {"OK", "NOK"})
+        Me.ComboBoxEdit16.Size = New System.Drawing.Size(78, 23)
+        Me.ComboBoxEdit16.TabIndex = 15
         '
         'Label31
         '
@@ -430,6 +451,16 @@ Partial Class Form131
         Me.Label29.Size = New System.Drawing.Size(36, 17)
         Me.Label29.TabIndex = 1
         Me.Label29.Text = "Satış"
+        '
+        'ComboBoxEdit18
+        '
+        Me.ComboBoxEdit18.Location = New System.Drawing.Point(54, 15)
+        Me.ComboBoxEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit18.Name = "ComboBoxEdit18"
+        Me.ComboBoxEdit18.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit18.Properties.Items.AddRange(New Object() {"OK", "NOK"})
+        Me.ComboBoxEdit18.Size = New System.Drawing.Size(78, 23)
+        Me.ComboBoxEdit18.TabIndex = 0
         '
         'GroupBox1
         '
@@ -490,8 +521,8 @@ Partial Class Form131
         Me.DataGridView1.Location = New System.Drawing.Point(14, 433)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.DataGridView1.Size = New System.Drawing.Size(1282, 236)
         Me.DataGridView1.TabIndex = 54
         '
@@ -586,7 +617,7 @@ Partial Class Form131
         '
         'TextEdit20
         '
-        Me.TextEdit20.Location = New System.Drawing.Point(204, 218)
+        Me.TextEdit20.Location = New System.Drawing.Point(205, 219)
         Me.TextEdit20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.Size = New System.Drawing.Size(183, 23)
@@ -594,7 +625,7 @@ Partial Class Form131
         '
         'TextEdit19
         '
-        Me.TextEdit19.Location = New System.Drawing.Point(14, 218)
+        Me.TextEdit19.Location = New System.Drawing.Point(13, 219)
         Me.TextEdit19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.Size = New System.Drawing.Size(183, 23)
@@ -633,26 +664,6 @@ Partial Class Form131
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Size = New System.Drawing.Size(442, 23)
         Me.TextEdit14.TabIndex = 55
-        '
-        'ComboBoxEdit16
-        '
-        Me.ComboBoxEdit16.Location = New System.Drawing.Point(210, 15)
-        Me.ComboBoxEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.ComboBoxEdit16.Name = "ComboBoxEdit16"
-        Me.ComboBoxEdit16.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit16.Properties.Items.AddRange(New Object() {"OK", "NOK"})
-        Me.ComboBoxEdit16.Size = New System.Drawing.Size(78, 23)
-        Me.ComboBoxEdit16.TabIndex = 15
-        '
-        'ComboBoxEdit18
-        '
-        Me.ComboBoxEdit18.Location = New System.Drawing.Point(54, 15)
-        Me.ComboBoxEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.ComboBoxEdit18.Name = "ComboBoxEdit18"
-        Me.ComboBoxEdit18.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit18.Properties.Items.AddRange(New Object() {"OK", "NOK"})
-        Me.ComboBoxEdit18.Size = New System.Drawing.Size(78, 23)
-        Me.ComboBoxEdit18.TabIndex = 0
         '
         'ComboBoxEdit10
         '
@@ -883,7 +894,7 @@ Partial Class Form131
         '
         'ComboBoxEdit7
         '
-        Me.ComboBoxEdit7.Location = New System.Drawing.Point(413, 261)
+        Me.ComboBoxEdit7.Location = New System.Drawing.Point(324, 253)
         Me.ComboBoxEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
         Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -893,7 +904,7 @@ Partial Class Form131
         Me.ComboBoxEdit7.Properties.PopupSizeable = False
         Me.ComboBoxEdit7.Properties.PopupView = Me.GridView3
         Me.ComboBoxEdit7.Properties.ValueMember = "GGN_NO"
-        Me.ComboBoxEdit7.Size = New System.Drawing.Size(29, 23)
+        Me.ComboBoxEdit7.Size = New System.Drawing.Size(63, 23)
         Me.ComboBoxEdit7.TabIndex = 64
         Me.ComboBoxEdit7.Visible = False
         '
@@ -978,6 +989,8 @@ Partial Class Form131
         Me.Text = "ALANSIS SATIS ISLEM MODULU"
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ALANSISDataSet3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -996,8 +1009,6 @@ Partial Class Form131
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1116,4 +1127,5 @@ Partial Class Form131
     Friend WithEvents ALANSISDataSet14BindingSource As BindingSource
     Friend WithEvents EO_ALANSIS_GGNTableAdapter1 As ALANSISDataSet14TableAdapters.EO_ALANSIS_GGNTableAdapter
     Friend WithEvents TextEdit15 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextBox2 As TextBox
 End Class
