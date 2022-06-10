@@ -43,17 +43,6 @@ Partial Class Form237
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
@@ -61,21 +50,23 @@ Partial Class Form237
         Me.ComboBoxEdit2 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.MemoEdit1 = New DevExpress.XtraEditors.MemoEdit()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
+        Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
+        Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl2.SuspendLayout()
-        CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -88,6 +79,15 @@ Partial Class Form237
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl2.SuspendLayout()
+        CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DefaultLookAndFeel1
@@ -284,109 +284,6 @@ Partial Class Form237
         Me.GroupControl1.TabIndex = 38
         Me.GroupControl1.Text = "Sevk Bilgileri"
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(15, 135)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(58, 17)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Stok Adı"
-        '
-        'GroupControl2
-        '
-        Me.GroupControl2.Controls.Add(Me.TextEdit14)
-        Me.GroupControl2.Controls.Add(Me.TextEdit13)
-        Me.GroupControl2.Controls.Add(Me.TextEdit12)
-        Me.GroupControl2.Controls.Add(Me.TextEdit8)
-        Me.GroupControl2.Controls.Add(Me.TextEdit9)
-        Me.GroupControl2.Controls.Add(Me.TextEdit10)
-        Me.GroupControl2.Controls.Add(Me.TextEdit11)
-        Me.GroupControl2.Controls.Add(Me.Label9)
-        Me.GroupControl2.Controls.Add(Me.Label15)
-        Me.GroupControl2.Controls.Add(Me.Label10)
-        Me.GroupControl2.Controls.Add(Me.Label16)
-        Me.GroupControl2.Controls.Add(Me.Label13)
-        Me.GroupControl2.Controls.Add(Me.Label12)
-        Me.GroupControl2.Controls.Add(Me.Label11)
-        Me.GroupControl2.Location = New System.Drawing.Point(557, 12)
-        Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(529, 425)
-        Me.GroupControl2.TabIndex = 39
-        Me.GroupControl2.Text = "Miktar Bilgileri"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.SimpleButton1.Appearance.Options.UseFont = True
-        Me.SimpleButton1.Location = New System.Drawing.Point(557, 447)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(185, 46)
-        Me.SimpleButton1.TabIndex = 30
-        Me.SimpleButton1.Text = "Kaydet"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.SimpleButton2.Appearance.Options.UseFont = True
-        Me.SimpleButton2.Location = New System.Drawing.Point(748, 447)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(185, 46)
-        Me.SimpleButton2.TabIndex = 40
-        Me.SimpleButton2.Text = "Sil"
-        '
-        'TextEdit14
-        '
-        Me.TextEdit14.Location = New System.Drawing.Point(98, 135)
-        Me.TextEdit14.Name = "TextEdit14"
-        Me.TextEdit14.Size = New System.Drawing.Size(105, 23)
-        Me.TextEdit14.TabIndex = 29
-        '
-        'TextEdit13
-        '
-        Me.TextEdit13.EditValue = "0"
-        Me.TextEdit13.Location = New System.Drawing.Point(98, 241)
-        Me.TextEdit13.Name = "TextEdit13"
-        Me.TextEdit13.Size = New System.Drawing.Size(105, 23)
-        Me.TextEdit13.TabIndex = 28
-        '
-        'TextEdit12
-        '
-        Me.TextEdit12.EditValue = "0"
-        Me.TextEdit12.Location = New System.Drawing.Point(98, 203)
-        Me.TextEdit12.Name = "TextEdit12"
-        Me.TextEdit12.Size = New System.Drawing.Size(105, 23)
-        Me.TextEdit12.TabIndex = 27
-        '
-        'TextEdit8
-        '
-        Me.TextEdit8.Location = New System.Drawing.Point(98, 100)
-        Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Size = New System.Drawing.Size(426, 23)
-        Me.TextEdit8.TabIndex = 25
-        '
-        'TextEdit9
-        '
-        Me.TextEdit9.Location = New System.Drawing.Point(98, 71)
-        Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Size = New System.Drawing.Size(105, 23)
-        Me.TextEdit9.TabIndex = 24
-        '
-        'TextEdit10
-        '
-        Me.TextEdit10.Location = New System.Drawing.Point(98, 42)
-        Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Size = New System.Drawing.Size(426, 23)
-        Me.TextEdit10.TabIndex = 23
-        '
-        'TextEdit11
-        '
-        Me.TextEdit11.EditValue = "0"
-        Me.TextEdit11.Location = New System.Drawing.Point(98, 167)
-        Me.TextEdit11.Name = "TextEdit11"
-        Me.TextEdit11.Size = New System.Drawing.Size(105, 23)
-        Me.TextEdit11.TabIndex = 21
-        '
         'TextEdit5
         '
         Me.TextEdit5.Location = New System.Drawing.Point(272, 432)
@@ -442,6 +339,15 @@ Partial Class Form237
         Me.ComboBoxEdit1.Size = New System.Drawing.Size(248, 23)
         Me.ComboBoxEdit1.TabIndex = 10
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(15, 135)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(58, 17)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Stok Adı"
+        '
         'TextEdit1
         '
         Me.TextEdit1.Location = New System.Drawing.Point(97, 68)
@@ -473,6 +379,100 @@ Partial Class Form237
         Me.DateEdit1.Size = New System.Drawing.Size(248, 23)
         Me.DateEdit1.TabIndex = 9
         '
+        'GroupControl2
+        '
+        Me.GroupControl2.Controls.Add(Me.TextEdit14)
+        Me.GroupControl2.Controls.Add(Me.TextEdit13)
+        Me.GroupControl2.Controls.Add(Me.TextEdit12)
+        Me.GroupControl2.Controls.Add(Me.TextEdit8)
+        Me.GroupControl2.Controls.Add(Me.TextEdit9)
+        Me.GroupControl2.Controls.Add(Me.TextEdit10)
+        Me.GroupControl2.Controls.Add(Me.TextEdit11)
+        Me.GroupControl2.Controls.Add(Me.Label9)
+        Me.GroupControl2.Controls.Add(Me.Label15)
+        Me.GroupControl2.Controls.Add(Me.Label10)
+        Me.GroupControl2.Controls.Add(Me.Label16)
+        Me.GroupControl2.Controls.Add(Me.Label13)
+        Me.GroupControl2.Controls.Add(Me.Label12)
+        Me.GroupControl2.Controls.Add(Me.Label11)
+        Me.GroupControl2.Location = New System.Drawing.Point(557, 12)
+        Me.GroupControl2.Name = "GroupControl2"
+        Me.GroupControl2.Size = New System.Drawing.Size(529, 425)
+        Me.GroupControl2.TabIndex = 39
+        Me.GroupControl2.Text = "Miktar Bilgileri"
+        '
+        'TextEdit14
+        '
+        Me.TextEdit14.Location = New System.Drawing.Point(98, 135)
+        Me.TextEdit14.Name = "TextEdit14"
+        Me.TextEdit14.Size = New System.Drawing.Size(105, 23)
+        Me.TextEdit14.TabIndex = 29
+        '
+        'TextEdit13
+        '
+        Me.TextEdit13.EditValue = "0"
+        Me.TextEdit13.Location = New System.Drawing.Point(98, 241)
+        Me.TextEdit13.Name = "TextEdit13"
+        Me.TextEdit13.Size = New System.Drawing.Size(105, 23)
+        Me.TextEdit13.TabIndex = 28
+        '
+        'TextEdit12
+        '
+        Me.TextEdit12.EditValue = "0"
+        Me.TextEdit12.Location = New System.Drawing.Point(98, 203)
+        Me.TextEdit12.Name = "TextEdit12"
+        Me.TextEdit12.Size = New System.Drawing.Size(105, 23)
+        Me.TextEdit12.TabIndex = 27
+        '
+        'TextEdit8
+        '
+        Me.TextEdit8.Location = New System.Drawing.Point(98, 100)
+        Me.TextEdit8.Name = "TextEdit8"
+        Me.TextEdit8.Size = New System.Drawing.Size(426, 23)
+        Me.TextEdit8.TabIndex = 25
+        '
+        'TextEdit9
+        '
+        Me.TextEdit9.Location = New System.Drawing.Point(98, 71)
+        Me.TextEdit9.Name = "TextEdit9"
+        Me.TextEdit9.Size = New System.Drawing.Size(105, 23)
+        Me.TextEdit9.TabIndex = 24
+        '
+        'TextEdit10
+        '
+        Me.TextEdit10.Location = New System.Drawing.Point(98, 42)
+        Me.TextEdit10.Name = "TextEdit10"
+        Me.TextEdit10.Size = New System.Drawing.Size(426, 23)
+        Me.TextEdit10.TabIndex = 23
+        '
+        'TextEdit11
+        '
+        Me.TextEdit11.EditValue = "0"
+        Me.TextEdit11.Location = New System.Drawing.Point(98, 167)
+        Me.TextEdit11.Name = "TextEdit11"
+        Me.TextEdit11.Size = New System.Drawing.Size(105, 23)
+        Me.TextEdit11.TabIndex = 21
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.Location = New System.Drawing.Point(557, 447)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(185, 46)
+        Me.SimpleButton1.TabIndex = 30
+        Me.SimpleButton1.Text = "Kaydet"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.Location = New System.Drawing.Point(748, 447)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(185, 46)
+        Me.SimpleButton2.TabIndex = 40
+        Me.SimpleButton2.Text = "Sil"
+        '
         'Form237
         '
         Me.Appearance.Options.UseFont = True
@@ -492,16 +492,6 @@ Partial Class Form237
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl2.ResumeLayout(False)
-        Me.GroupControl2.PerformLayout()
-        CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -514,6 +504,16 @@ Partial Class Form237
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl2.ResumeLayout(False)
+        Me.GroupControl2.PerformLayout()
+        CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

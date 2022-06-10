@@ -40,17 +40,19 @@ Partial Class Form23
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(148, 37)
+        Me.DataGridView1.Location = New System.Drawing.Point(173, 46)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(504, 293)
+        Me.DataGridView1.Size = New System.Drawing.Size(588, 361)
         Me.DataGridView1.TabIndex = 7
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Button2.Location = New System.Drawing.Point(4, 64)
+        Me.Button2.Location = New System.Drawing.Point(5, 79)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 21)
+        Me.Button2.Size = New System.Drawing.Size(154, 26)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Sil"
         Me.Button2.UseVisualStyleBackColor = False
@@ -58,9 +60,10 @@ Partial Class Form23
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Button1.Location = New System.Drawing.Point(4, 37)
+        Me.Button1.Location = New System.Drawing.Point(5, 46)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(132, 21)
+        Me.Button1.Size = New System.Drawing.Size(154, 26)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Ekle"
         Me.Button1.UseVisualStyleBackColor = False
@@ -70,9 +73,10 @@ Partial Class Form23
         Me.TextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(4, 11)
+        Me.TextBox1.Location = New System.Drawing.Point(5, 14)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(648, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(755, 23)
         Me.TextBox1.TabIndex = 4
         '
         'DefaultLookAndFeel1
@@ -81,14 +85,15 @@ Partial Class Form23
         '
         'Form23
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(664, 337)
+        Me.ClientSize = New System.Drawing.Size(775, 415)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.IconOptions.Icon = CType(resources.GetObject("Form23.IconOptions.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form23"

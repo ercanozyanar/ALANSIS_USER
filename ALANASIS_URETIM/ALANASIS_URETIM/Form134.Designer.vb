@@ -27,16 +27,16 @@ Partial Class Form134
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DefaultLookAndFeel1
@@ -50,28 +50,45 @@ Partial Class Form134
         Me.GroupControl1.Controls.Add(Me.Label1)
         Me.GroupControl1.Controls.Add(Me.TextEdit1)
         Me.GroupControl1.Location = New System.Drawing.Point(2, 1)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(1024, 73)
+        Me.GroupControl1.Size = New System.Drawing.Size(1195, 90)
         Me.GroupControl1.TabIndex = 1
         Me.GroupControl1.Text = "Onay Süreçleri Filtreleme"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(170, 32)
+        Me.Label3.Location = New System.Drawing.Point(198, 39)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(42, 13)
+        Me.Label3.Size = New System.Drawing.Size(51, 17)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Müşteri"
+        '
+        'TextEdit3
+        '
+        Me.TextEdit3.Location = New System.Drawing.Point(196, 59)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Size = New System.Drawing.Size(307, 23)
+        Me.TextEdit3.TabIndex = 4
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(7, 32)
+        Me.Label1.Location = New System.Drawing.Point(8, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 13)
+        Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Parti No"
+        '
+        'TextEdit1
+        '
+        Me.TextEdit1.Location = New System.Drawing.Point(6, 59)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Size = New System.Drawing.Size(183, 23)
+        Me.TextEdit1.TabIndex = 0
         '
         'DataGridView1
         '
@@ -80,9 +97,10 @@ Partial Class Form134
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1})
-        Me.DataGridView1.Location = New System.Drawing.Point(2, 75)
+        Me.DataGridView1.Location = New System.Drawing.Point(2, 92)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1020, 452)
+        Me.DataGridView1.Size = New System.Drawing.Size(1190, 556)
         Me.DataGridView1.TabIndex = 2
         '
         'Column1
@@ -92,36 +110,23 @@ Partial Class Form134
         Me.Column1.Text = "Seç"
         Me.Column1.ToolTipText = "Seç"
         '
-        'TextEdit3
-        '
-        Me.TextEdit3.Location = New System.Drawing.Point(168, 48)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(263, 20)
-        Me.TextEdit3.TabIndex = 4
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(5, 48)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(157, 20)
-        Me.TextEdit1.TabIndex = 0
-        '
         'Form134
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1027, 535)
+        Me.ClientSize = New System.Drawing.Size(1198, 658)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form134"
         Me.Text = "ALANSIS - SIPARIS RED LISTELEME MODULU"
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

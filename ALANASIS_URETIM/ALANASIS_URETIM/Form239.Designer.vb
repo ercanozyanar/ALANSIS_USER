@@ -27,17 +27,17 @@ Partial Class Form239
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DefaultLookAndFeel1
@@ -66,6 +66,14 @@ Partial Class Form239
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Müşteri"
         '
+        'TextEdit3
+        '
+        Me.TextEdit3.Location = New System.Drawing.Point(218, 59)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Size = New System.Drawing.Size(456, 23)
+        Me.TextEdit3.TabIndex = 4
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -74,6 +82,14 @@ Partial Class Form239
         Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Parti No"
+        '
+        'TextEdit1
+        '
+        Me.TextEdit1.Location = New System.Drawing.Point(6, 59)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Size = New System.Drawing.Size(205, 23)
+        Me.TextEdit1.TabIndex = 0
         '
         'Timer1
         '
@@ -100,22 +116,6 @@ Partial Class Form239
         Me.Column1.Text = "Seç"
         Me.Column1.ToolTipText = "Seç"
         '
-        'TextEdit3
-        '
-        Me.TextEdit3.Location = New System.Drawing.Point(218, 59)
-        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(456, 23)
-        Me.TextEdit3.TabIndex = 4
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(6, 59)
-        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(205, 23)
-        Me.TextEdit1.TabIndex = 0
-        '
         'Form239
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
@@ -131,9 +131,9 @@ Partial Class Form239
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

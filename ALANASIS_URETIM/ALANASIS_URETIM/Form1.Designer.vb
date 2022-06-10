@@ -40,9 +40,10 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(63, 70)
+        Me.Label1.Location = New System.Drawing.Point(84, 86)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(36, 16)
+        Me.Label1.Size = New System.Drawing.Size(46, 19)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "User"
         '
@@ -51,9 +52,10 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(63, 116)
+        Me.Label2.Location = New System.Drawing.Point(84, 143)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(69, 16)
+        Me.Label2.Size = New System.Drawing.Size(87, 19)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Password"
         '
@@ -62,9 +64,10 @@ Partial Class Form1
         Me.txtUserName.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtUserName.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUserName.Location = New System.Drawing.Point(161, 68)
+        Me.txtUserName.Location = New System.Drawing.Point(215, 84)
+        Me.txtUserName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(129, 21)
+        Me.txtUserName.Size = New System.Drawing.Size(171, 25)
         Me.txtUserName.TabIndex = 3
         Me.txtUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -72,25 +75,28 @@ Partial Class Form1
         '
         Me.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPassword.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(161, 114)
+        Me.txtPassword.Location = New System.Drawing.Point(215, 140)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(129, 21)
+        Me.txtPassword.Size = New System.Drawing.Size(171, 25)
         Me.txtPassword.TabIndex = 4
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(161, 152)
+        Me.SimpleButton1.Location = New System.Drawing.Point(215, 187)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(105, 33)
+        Me.SimpleButton1.Size = New System.Drawing.Size(140, 41)
         Me.SimpleButton1.TabIndex = 7
         Me.SimpleButton1.Text = "Login"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(286, 152)
+        Me.SimpleButton2.Location = New System.Drawing.Point(381, 187)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(105, 33)
+        Me.SimpleButton2.Size = New System.Drawing.Size(140, 41)
         Me.SimpleButton2.TabIndex = 8
         Me.SimpleButton2.Text = "Cancel"
         '
@@ -102,18 +108,19 @@ Partial Class Form1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(-1, -1)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(442, 283)
+        Me.PictureBox1.Size = New System.Drawing.Size(589, 348)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Form1
         '
         Me.AcceptButton = Me.SimpleButton1
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Lavender
-        Me.ClientSize = New System.Drawing.Size(440, 282)
+        Me.ClientSize = New System.Drawing.Size(587, 347)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.txtPassword)
@@ -123,6 +130,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Alansis-Login"

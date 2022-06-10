@@ -23,12 +23,12 @@ Partial Class Form118
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim SelectQuery2 As DevExpress.DataAccess.Sql.SelectQuery = New DevExpress.DataAccess.Sql.SelectQuery()
-        Dim Column3 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
-        Dim ColumnExpression3 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
-        Dim Table2 As DevExpress.DataAccess.Sql.Table = New DevExpress.DataAccess.Sql.Table()
-        Dim Column4 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
-        Dim ColumnExpression4 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+        Dim SelectQuery1 As DevExpress.DataAccess.Sql.SelectQuery = New DevExpress.DataAccess.Sql.SelectQuery()
+        Dim Column1 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+        Dim ColumnExpression1 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
+        Dim Table1 As DevExpress.DataAccess.Sql.Table = New DevExpress.DataAccess.Sql.Table()
+        Dim Column2 As DevExpress.DataAccess.Sql.Column = New DevExpress.DataAccess.Sql.Column()
+        Dim ColumnExpression2 As DevExpress.DataAccess.Sql.ColumnExpression = New DevExpress.DataAccess.Sql.ColumnExpression()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form118))
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
@@ -1940,19 +1940,19 @@ Partial Class Form118
         '
         Me.SqlDataSource1.ConnectionName = "ALANAR2021ConnectionString"
         Me.SqlDataSource1.Name = "SqlDataSource1"
-        ColumnExpression3.ColumnName = "STOK_KODU"
-        Table2.MetaSerializable = "<Meta X=""30"" Y=""30"" Width=""125"" Height=""103"" />"
-        Table2.Name = "EO_ALANSIS_POSETTIPI"
-        ColumnExpression3.Table = Table2
-        Column3.Expression = ColumnExpression3
-        ColumnExpression4.ColumnName = "STOK_ADI"
-        ColumnExpression4.Table = Table2
-        Column4.Expression = ColumnExpression4
-        SelectQuery2.Columns.Add(Column3)
-        SelectQuery2.Columns.Add(Column4)
-        SelectQuery2.Name = "EO_ALANSIS_POSETTIPI"
-        SelectQuery2.Tables.Add(Table2)
-        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {SelectQuery2})
+        ColumnExpression1.ColumnName = "STOK_KODU"
+        Table1.MetaSerializable = "<Meta X=""30"" Y=""30"" Width=""125"" Height=""103"" />"
+        Table1.Name = "EO_ALANSIS_POSETTIPI"
+        ColumnExpression1.Table = Table1
+        Column1.Expression = ColumnExpression1
+        ColumnExpression2.ColumnName = "STOK_ADI"
+        ColumnExpression2.Table = Table1
+        Column2.Expression = ColumnExpression2
+        SelectQuery1.Columns.Add(Column1)
+        SelectQuery1.Columns.Add(Column2)
+        SelectQuery1.Name = "EO_ALANSIS_POSETTIPI"
+        SelectQuery1.Tables.Add(Table1)
+        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {SelectQuery1})
         Me.SqlDataSource1.ResultSchemaSerializable = resources.GetString("SqlDataSource1.ResultSchemaSerializable")
         '
         'eO_ALANSIS_POSETTIPIBindingSource

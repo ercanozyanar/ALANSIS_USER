@@ -51,9 +51,10 @@ Partial Class Form143
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1})
-        Me.DataGridView1.Location = New System.Drawing.Point(3, 82)
+        Me.DataGridView1.Location = New System.Drawing.Point(3, 101)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1005, 565)
+        Me.DataGridView1.Size = New System.Drawing.Size(1172, 695)
         Me.DataGridView1.TabIndex = 3
         '
         'Column1
@@ -69,42 +70,45 @@ Partial Class Form143
         Me.GroupControl1.Controls.Add(Me.TextEdit3)
         Me.GroupControl1.Controls.Add(Me.Label1)
         Me.GroupControl1.Controls.Add(Me.TextEdit1)
-        Me.GroupControl1.Location = New System.Drawing.Point(3, 3)
+        Me.GroupControl1.Location = New System.Drawing.Point(3, 4)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(1024, 73)
+        Me.GroupControl1.Size = New System.Drawing.Size(1195, 90)
         Me.GroupControl1.TabIndex = 2
         Me.GroupControl1.Text = "Onay Süreçleri Filtreleme"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(134, 32)
+        Me.Label3.Location = New System.Drawing.Point(156, 39)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(42, 13)
+        Me.Label3.Size = New System.Drawing.Size(51, 17)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Müşteri"
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(132, 48)
+        Me.TextEdit3.Location = New System.Drawing.Point(154, 59)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(257, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(300, 23)
         Me.TextEdit3.TabIndex = 4
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(7, 32)
+        Me.Label1.Location = New System.Drawing.Point(8, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 13)
+        Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Parti No"
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(5, 48)
+        Me.TextEdit1.Location = New System.Drawing.Point(6, 59)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(121, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(141, 23)
         Me.TextEdit1.TabIndex = 0
         '
         'Timer1
@@ -114,14 +118,15 @@ Partial Class Form143
         '
         'Form143
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1011, 649)
+        Me.ClientSize = New System.Drawing.Size(1179, 799)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form143"
-        Me.Text = "ALANSIS - SIPARIS SON ONAY LISTELEME MODULU"
+        Me.Text = "ALANSIS - SIPARIS URETIM ONAY LISTELEME MODULU"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)

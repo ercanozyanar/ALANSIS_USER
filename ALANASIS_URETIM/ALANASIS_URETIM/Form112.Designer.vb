@@ -27,16 +27,16 @@ Partial Class Form112
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -56,114 +56,125 @@ Partial Class Form112
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.ComboBox3)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(4, 0)
+        Me.GroupBox1.Location = New System.Drawing.Point(5, 0)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(874, 43)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(1020, 53)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
-        'Label1
+        'TextBox2
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 15)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Talep Eden Birim"
+        Me.TextBox2.Location = New System.Drawing.Point(768, 15)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(10, 23)
+        Me.TextBox2.TabIndex = 29
+        Me.TextBox2.Visible = False
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(897, 16)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(113, 21)
+        Me.RadioButton3.TabIndex = 28
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Siparişleştirilen"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(785, 16)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(92, 21)
+        Me.RadioButton2.TabIndex = 27
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Red Edilen"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(673, 16)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(94, 21)
+        Me.RadioButton1.TabIndex = 26
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Onaylanan"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(422, 15)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(243, 23)
+        Me.TextBox1.TabIndex = 25
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(289, 18)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(134, 17)
+        Me.Label2.TabIndex = 24
+        Me.Label2.Text = "Talep Edilen Malzeme"
         '
         'ComboBox3
         '
         Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Kalite", "Depo", "Üretim", "Satın Alma", "Planlama", "Satış-Pazarlama"})
-        Me.ComboBox3.Location = New System.Drawing.Point(99, 12)
+        Me.ComboBox3.Location = New System.Drawing.Point(115, 15)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(134, 21)
+        Me.ComboBox3.Size = New System.Drawing.Size(156, 24)
         Me.ComboBox3.TabIndex = 23
         '
-        'Label2
+        'Label1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(248, 15)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(108, 13)
-        Me.Label2.TabIndex = 24
-        Me.Label2.Text = "Talep Edilen Malzeme"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(362, 12)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(209, 21)
-        Me.TextBox1.TabIndex = 25
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(7, 18)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(108, 17)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Talep Eden Birim"
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(5, 46)
+        Me.DataGridView1.Location = New System.Drawing.Point(6, 57)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(872, 236)
+        Me.DataGridView1.Size = New System.Drawing.Size(1017, 290)
         Me.DataGridView1.TabIndex = 1
         '
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(6, 288)
+        Me.DataGridView2.Location = New System.Drawing.Point(7, 354)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(872, 236)
+        Me.DataGridView2.Size = New System.Drawing.Size(1017, 290)
         Me.DataGridView2.TabIndex = 2
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(577, 13)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(77, 17)
-        Me.RadioButton1.TabIndex = 26
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Onaylanan"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(673, 13)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(75, 17)
-        Me.RadioButton2.TabIndex = 27
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Red Edilen"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(769, 13)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(95, 17)
-        Me.RadioButton3.TabIndex = 28
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Siparişleştirilen"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(658, 12)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(9, 21)
-        Me.TextBox2.TabIndex = 29
-        Me.TextBox2.Visible = False
         '
         'Form112
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(885, 528)
+        Me.ClientSize = New System.Drawing.Size(1032, 650)
         Me.Controls.Add(Me.DataGridView2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.IconOptions.Image = CType(resources.GetObject("Form112.IconOptions.Image"), System.Drawing.Image)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form112"
         Me.Text = "Satın Alma Takip"
         Me.GroupBox1.ResumeLayout(False)

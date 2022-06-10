@@ -29,8 +29,8 @@ Partial Class Form233
         Me.Column1 = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,6 +85,14 @@ Partial Class Form233
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Proje Acıklaması"
         '
+        'TextEdit3
+        '
+        Me.TextEdit3.Location = New System.Drawing.Point(154, 59)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Size = New System.Drawing.Size(300, 23)
+        Me.TextEdit3.TabIndex = 4
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -93,14 +101,6 @@ Partial Class Form233
         Me.Label1.Size = New System.Drawing.Size(62, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Proje Adı"
-        '
-        'TextEdit3
-        '
-        Me.TextEdit3.Location = New System.Drawing.Point(154, 59)
-        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(300, 23)
-        Me.TextEdit3.TabIndex = 4
         '
         'TextEdit1
         '

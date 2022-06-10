@@ -115,4 +115,8 @@ Public Class Form112
             '------------------------------------------------------------------------------
         Next
     End Sub
+
+    Private Sub Form112_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

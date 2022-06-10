@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet61" targetNamespace="http://tempuri.org/ALANSISDataSet61.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet61.xsd" xmlns="http://tempuri.org/ALANSISDataSet61.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_EXCELYURTICIRISKTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_EXCELYURTICIRISKTableAdapter" Name="EO_ALANSIS_EXCELYURTICIRISK" UserDataComponentName="EO_ALANSIS_EXCELYURTICIRISKTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_EXCELYURTICIRISK" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT VADE_TARIH, URUN, TIPI, FATURA_TARIH, HESAP, ALACAK, BORC, KALAN_RISK FROM dbo.EO_ALANSIS_EXCELYURTICIRISK</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VADE_TARIH" DataSetColumn="VADE_TARIH" />
+              <Mapping SourceColumn="URUN" DataSetColumn="URUN" />
+              <Mapping SourceColumn="TIPI" DataSetColumn="TIPI" />
+              <Mapping SourceColumn="FATURA_TARIH" DataSetColumn="FATURA_TARIH" />
+              <Mapping SourceColumn="HESAP" DataSetColumn="HESAP" />
+              <Mapping SourceColumn="ALACAK" DataSetColumn="ALACAK" />
+              <Mapping SourceColumn="BORC" DataSetColumn="BORC" />
+              <Mapping SourceColumn="KALAN_RISK" DataSetColumn="KALAN_RISK" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet61" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet61" msprop:Generator_UserDSName="ALANSISDataSet61">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_EXCELYURTICIRISK" msprop:Generator_TableClassName="EO_ALANSIS_EXCELYURTICIRISKDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_EXCELYURTICIRISK" msprop:Generator_TablePropName="EO_ALANSIS_EXCELYURTICIRISK" msprop:Generator_RowDeletingName="EO_ALANSIS_EXCELYURTICIRISKRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_EXCELYURTICIRISKRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_EXCELYURTICIRISKRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_EXCELYURTICIRISKRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_EXCELYURTICIRISK" msprop:Generator_RowChangedName="EO_ALANSIS_EXCELYURTICIRISKRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_EXCELYURTICIRISKRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_EXCELYURTICIRISKRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VADE_TARIH" msprop:Generator_ColumnVarNameInTable="columnVADE_TARIH" msprop:Generator_ColumnPropNameInRow="VADE_TARIH" msprop:Generator_ColumnPropNameInTable="VADE_TARIHColumn" msprop:Generator_UserColumnName="VADE_TARIH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URUN" msprop:Generator_ColumnVarNameInTable="columnURUN" msprop:Generator_ColumnPropNameInRow="URUN" msprop:Generator_ColumnPropNameInTable="URUNColumn" msprop:Generator_UserColumnName="URUN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPI" msprop:Generator_ColumnVarNameInTable="columnTIPI" msprop:Generator_ColumnPropNameInRow="TIPI" msprop:Generator_ColumnPropNameInTable="TIPIColumn" msprop:Generator_UserColumnName="TIPI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FATURA_TARIH" msprop:Generator_ColumnVarNameInTable="columnFATURA_TARIH" msprop:Generator_ColumnPropNameInRow="FATURA_TARIH" msprop:Generator_ColumnPropNameInTable="FATURA_TARIHColumn" msprop:Generator_UserColumnName="FATURA_TARIH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HESAP" msprop:Generator_ColumnVarNameInTable="columnHESAP" msprop:Generator_ColumnPropNameInRow="HESAP" msprop:Generator_ColumnPropNameInTable="HESAPColumn" msprop:Generator_UserColumnName="HESAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALACAK" msprop:Generator_ColumnVarNameInTable="columnALACAK" msprop:Generator_ColumnPropNameInRow="ALACAK" msprop:Generator_ColumnPropNameInTable="ALACAKColumn" msprop:Generator_UserColumnName="ALACAK" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BORC" msprop:Generator_ColumnVarNameInTable="columnBORC" msprop:Generator_ColumnPropNameInRow="BORC" msprop:Generator_ColumnPropNameInTable="BORCColumn" msprop:Generator_UserColumnName="BORC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KALAN_RISK" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnKALAN_RISK" msprop:Generator_ColumnPropNameInRow="KALAN_RISK" msprop:Generator_ColumnPropNameInTable="KALAN_RISKColumn" msprop:Generator_UserColumnName="KALAN_RISK" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1399,8 +1399,8 @@ Public Class Form2
     End Sub
 
     Private Sub BarButtonItem102_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem102.ItemClick
-        Form131.MdiParent = Me
-        Form131.Show()
+        Form119.MdiParent = Me
+        Form119.Show()
     End Sub
 
     Private Sub BarButtonItem105_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem105.ItemClick
@@ -1942,5 +1942,100 @@ Public Class Form2
     Private Sub BarButtonItem225_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem225.ItemClick
         Form235.MdiParent = Me
         Form235.Show()
+    End Sub
+
+    Private Sub BarButtonItem226_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem226.ItemClick
+        Form242.MdiParent = Me
+        Form242.Show()
+    End Sub
+
+    Private Sub BarButtonItem227_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem227.ItemClick
+        Form243.MdiParent = Me
+        Form243.Show()
+    End Sub
+
+    Private Sub BarButtonItem228_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem228.ItemClick
+        Form244.MdiParent = Me
+        Form244.Show()
+    End Sub
+
+    Private Sub BarButtonItem229_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem229.ItemClick
+        Form245.MdiParent = Me
+        Form245.Show()
+    End Sub
+
+    Private Sub BarButtonItem230_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem230.ItemClick
+        Form246.MdiParent = Me
+        Form246.Show()
+    End Sub
+
+    Private Sub BarButtonItem231_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem231.ItemClick
+        Form247.MdiParent = Me
+        Form247.Show()
+    End Sub
+
+    Private Sub BarButtonItem232_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem232.ItemClick
+        Form248.MdiParent = Me
+        Form248.Show()
+    End Sub
+
+    Private Sub BarButtonItem233_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem233.ItemClick
+        Form249.MdiParent = Me
+        Form249.Show()
+    End Sub
+
+    Private Sub BarButtonItem234_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem234.ItemClick
+        Form250.MdiParent = Me
+        Form250.Show()
+    End Sub
+
+    Private Sub BarButtonItem235_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem235.ItemClick
+        Form251.MdiParent = Me
+        Form251.Show()
+    End Sub
+
+    Private Sub BarButtonItem236_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem236.ItemClick
+        Form253.MdiParent = Me
+        Form253.Show()
+    End Sub
+
+    Private Sub BarButtonItem237_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem237.ItemClick
+        Form252.MdiParent = Me
+        Form252.Show()
+    End Sub
+
+    Private Sub BarButtonItem240_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem240.ItemClick
+        Form254.MdiParent = Me
+        Form254.Show()
+    End Sub
+
+    Private Sub BarButtonItem241_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem241.ItemClick
+        Form255.MdiParent = Me
+        Form255.Show()
+    End Sub
+
+    Private Sub BarButtonItem243_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem243.ItemClick
+        Form256.MdiParent = Me
+        Form256.Show()
+    End Sub
+
+    Private Sub BarButtonItem244_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem244.ItemClick
+        Form258.MdiParent = Me
+        Form258.Show()
+    End Sub
+
+    Private Sub BarButtonItem245_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem245.ItemClick
+        Form259.MdiParent = Me
+        Form259.Show()
+    End Sub
+
+    Private Sub BarButtonItem246_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem246.ItemClick
+        Form260.MdiParent = Me
+        Form260.Show()
+    End Sub
+
+    Private Sub BarButtonItem254_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem254.ItemClick
+        Form265.MdiParent = Me
+        Form265.Show()
     End Sub
 End Class

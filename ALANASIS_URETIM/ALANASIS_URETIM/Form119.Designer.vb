@@ -135,9 +135,9 @@ Partial Class Form119
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(167, 25)
+        Me.Label1.Location = New System.Drawing.Point(195, 31)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 13)
+        Me.Label1.Size = New System.Drawing.Size(64, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Parti  No."
         '
@@ -197,457 +197,485 @@ Partial Class Form119
         Me.GroupControl1.Controls.Add(Me.TextEdit1)
         Me.GroupControl1.Controls.Add(Me.ComboBoxEdit1)
         Me.GroupControl1.Controls.Add(Me.Label1)
-        Me.GroupControl1.Location = New System.Drawing.Point(5, 4)
+        Me.GroupControl1.Location = New System.Drawing.Point(6, 5)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(974, 261)
+        Me.GroupControl1.Size = New System.Drawing.Size(1136, 321)
         Me.GroupControl1.TabIndex = 3
         Me.GroupControl1.Text = "Sevkiyat Saha"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(331, 214)
+        Me.Label27.Location = New System.Drawing.Point(386, 263)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(24, 13)
+        Me.Label27.Size = New System.Drawing.Size(30, 17)
         Me.Label27.TabIndex = 53
         Me.Label27.Text = "Not"
         '
         'TextEdit19
         '
-        Me.TextEdit19.Location = New System.Drawing.Point(333, 230)
+        Me.TextEdit19.Location = New System.Drawing.Point(388, 283)
+        Me.TextEdit19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit19.Name = "TextEdit19"
-        Me.TextEdit19.Size = New System.Drawing.Size(635, 20)
+        Me.TextEdit19.Size = New System.Drawing.Size(741, 23)
         Me.TextEdit19.TabIndex = 52
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(630, 162)
+        Me.Label26.Location = New System.Drawing.Point(735, 199)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(113, 13)
+        Me.Label26.Size = New System.Drawing.Size(142, 17)
         Me.Label26.TabIndex = 51
         Me.Label26.Text = "Planned Delivery Date"
         '
         'DateTimeOffsetEdit6
         '
         Me.DateTimeOffsetEdit6.EditValue = Nothing
-        Me.DateTimeOffsetEdit6.Location = New System.Drawing.Point(633, 178)
+        Me.DateTimeOffsetEdit6.Location = New System.Drawing.Point(738, 219)
+        Me.DateTimeOffsetEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimeOffsetEdit6.Name = "DateTimeOffsetEdit6"
         Me.DateTimeOffsetEdit6.Properties.BeepOnError = False
         Me.DateTimeOffsetEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateTimeOffsetEdit6.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm")
-        Me.DateTimeOffsetEdit6.Size = New System.Drawing.Size(138, 20)
+        Me.DateTimeOffsetEdit6.Size = New System.Drawing.Size(161, 23)
         Me.DateTimeOffsetEdit6.TabIndex = 50
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(526, 162)
+        Me.Label25.Location = New System.Drawing.Point(614, 199)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(83, 13)
+        Me.Label25.Size = New System.Drawing.Size(103, 17)
         Me.Label25.TabIndex = 49
         Me.Label25.Text = "Difference Load"
         '
         'TextEdit18
         '
-        Me.TextEdit18.Location = New System.Drawing.Point(529, 178)
+        Me.TextEdit18.Location = New System.Drawing.Point(617, 219)
+        Me.TextEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit18.Name = "TextEdit18"
-        Me.TextEdit18.Size = New System.Drawing.Size(98, 20)
+        Me.TextEdit18.Size = New System.Drawing.Size(114, 23)
         Me.TextEdit18.TabIndex = 48
         '
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(4, 214)
+        Me.Label24.Location = New System.Drawing.Point(5, 263)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(98, 13)
+        Me.Label24.Size = New System.Drawing.Size(125, 17)
         Me.Label24.TabIndex = 47
         Me.Label24.Text = "Gümrükleme Adresi"
         '
         'TextEdit17
         '
-        Me.TextEdit17.Location = New System.Drawing.Point(5, 230)
+        Me.TextEdit17.Location = New System.Drawing.Point(6, 283)
+        Me.TextEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit17.Name = "TextEdit17"
-        Me.TextEdit17.Size = New System.Drawing.Size(322, 20)
+        Me.TextEdit17.Size = New System.Drawing.Size(376, 23)
         Me.TextEdit17.TabIndex = 46
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(887, 162)
+        Me.Label23.Location = New System.Drawing.Point(1035, 199)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(65, 13)
+        Me.Label23.Size = New System.Drawing.Size(82, 17)
         Me.Label23.TabIndex = 45
         Me.Label23.Text = "Transit Time"
         '
         'TextEdit16
         '
-        Me.TextEdit16.Location = New System.Drawing.Point(875, 178)
+        Me.TextEdit16.Location = New System.Drawing.Point(1021, 219)
+        Me.TextEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit16.Name = "TextEdit16"
-        Me.TextEdit16.Size = New System.Drawing.Size(94, 20)
+        Me.TextEdit16.Size = New System.Drawing.Size(110, 23)
         Me.TextEdit16.TabIndex = 44
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(769, 162)
+        Me.Label22.Location = New System.Drawing.Point(897, 199)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(99, 13)
+        Me.Label22.Size = New System.Drawing.Size(122, 17)
         Me.Label22.TabIndex = 43
         Me.Label22.Text = "Difference Delivery"
         '
         'TextEdit15
         '
-        Me.TextEdit15.Location = New System.Drawing.Point(774, 178)
+        Me.TextEdit15.Location = New System.Drawing.Point(903, 219)
+        Me.TextEdit15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit15.Name = "TextEdit15"
-        Me.TextEdit15.Size = New System.Drawing.Size(97, 20)
+        Me.TextEdit15.Size = New System.Drawing.Size(113, 23)
         Me.TextEdit15.TabIndex = 42
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(385, 162)
+        Me.Label21.Location = New System.Drawing.Point(449, 199)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(97, 13)
+        Me.Label21.Size = New System.Drawing.Size(123, 17)
         Me.Label21.TabIndex = 41
         Me.Label21.Text = "Planned Load Date"
         '
         'DateTimeOffsetEdit5
         '
         Me.DateTimeOffsetEdit5.EditValue = Nothing
-        Me.DateTimeOffsetEdit5.Location = New System.Drawing.Point(385, 178)
+        Me.DateTimeOffsetEdit5.Location = New System.Drawing.Point(449, 219)
+        Me.DateTimeOffsetEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimeOffsetEdit5.Name = "DateTimeOffsetEdit5"
         Me.DateTimeOffsetEdit5.Properties.BeepOnError = False
         Me.DateTimeOffsetEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateTimeOffsetEdit5.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm")
-        Me.DateTimeOffsetEdit5.Size = New System.Drawing.Size(138, 20)
+        Me.DateTimeOffsetEdit5.Size = New System.Drawing.Size(161, 23)
         Me.DateTimeOffsetEdit5.TabIndex = 40
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(241, 162)
+        Me.Label20.Location = New System.Drawing.Point(281, 199)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(64, 13)
+        Me.Label20.Size = New System.Drawing.Size(78, 17)
         Me.Label20.TabIndex = 39
         Me.Label20.Text = "Arrival Date"
         '
         'DateTimeOffsetEdit4
         '
         Me.DateTimeOffsetEdit4.EditValue = Nothing
-        Me.DateTimeOffsetEdit4.Location = New System.Drawing.Point(241, 178)
+        Me.DateTimeOffsetEdit4.Location = New System.Drawing.Point(281, 219)
+        Me.DateTimeOffsetEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimeOffsetEdit4.Name = "DateTimeOffsetEdit4"
         Me.DateTimeOffsetEdit4.Properties.BeepOnError = False
         Me.DateTimeOffsetEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateTimeOffsetEdit4.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm")
-        Me.DateTimeOffsetEdit4.Size = New System.Drawing.Size(138, 20)
+        Me.DateTimeOffsetEdit4.Size = New System.Drawing.Size(161, 23)
         Me.DateTimeOffsetEdit4.TabIndex = 38
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(97, 162)
+        Me.Label19.Location = New System.Drawing.Point(113, 199)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(72, 13)
+        Me.Label19.Size = New System.Drawing.Size(90, 17)
         Me.Label19.TabIndex = 37
         Me.Label19.Text = "Delivery Date"
         '
         'DateTimeOffsetEdit3
         '
         Me.DateTimeOffsetEdit3.EditValue = Nothing
-        Me.DateTimeOffsetEdit3.Location = New System.Drawing.Point(97, 178)
+        Me.DateTimeOffsetEdit3.Location = New System.Drawing.Point(113, 219)
+        Me.DateTimeOffsetEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimeOffsetEdit3.Name = "DateTimeOffsetEdit3"
         Me.DateTimeOffsetEdit3.Properties.BeepOnError = False
         Me.DateTimeOffsetEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateTimeOffsetEdit3.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm")
-        Me.DateTimeOffsetEdit3.Size = New System.Drawing.Size(138, 20)
+        Me.DateTimeOffsetEdit3.Size = New System.Drawing.Size(161, 23)
         Me.DateTimeOffsetEdit3.TabIndex = 36
         '
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(16, 162)
+        Me.Label18.Location = New System.Drawing.Point(19, 199)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(61, 13)
+        Me.Label18.Size = New System.Drawing.Size(77, 17)
         Me.Label18.TabIndex = 35
         Me.Label18.Text = "Net Weight"
         '
         'TextEdit14
         '
-        Me.TextEdit14.Location = New System.Drawing.Point(7, 178)
+        Me.TextEdit14.Location = New System.Drawing.Point(8, 219)
+        Me.TextEdit14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit14.Name = "TextEdit14"
-        Me.TextEdit14.Size = New System.Drawing.Size(84, 20)
+        Me.TextEdit14.Size = New System.Drawing.Size(98, 23)
         Me.TextEdit14.TabIndex = 34
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(899, 118)
+        Me.Label17.Location = New System.Drawing.Point(1049, 145)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(70, 13)
+        Me.Label17.Size = New System.Drawing.Size(87, 17)
         Me.Label17.TabIndex = 33
         Me.Label17.Text = "Extra Freight"
         '
         'TextEdit13
         '
-        Me.TextEdit13.Location = New System.Drawing.Point(897, 134)
+        Me.TextEdit13.Location = New System.Drawing.Point(1046, 165)
+        Me.TextEdit13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit13.Name = "TextEdit13"
-        Me.TextEdit13.Size = New System.Drawing.Size(72, 20)
+        Me.TextEdit13.Size = New System.Drawing.Size(84, 23)
         Me.TextEdit13.TabIndex = 32
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(827, 118)
+        Me.Label16.Location = New System.Drawing.Point(965, 145)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(41, 13)
+        Me.Label16.Size = New System.Drawing.Size(50, 17)
         Me.Label16.TabIndex = 31
         Me.Label16.Text = "Freight"
         '
         'TextEdit12
         '
-        Me.TextEdit12.Location = New System.Drawing.Point(807, 134)
+        Me.TextEdit12.Location = New System.Drawing.Point(941, 165)
+        Me.TextEdit12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit12.Name = "TextEdit12"
-        Me.TextEdit12.Size = New System.Drawing.Size(84, 20)
+        Me.TextEdit12.Size = New System.Drawing.Size(98, 23)
         Me.TextEdit12.TabIndex = 30
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(741, 118)
+        Me.Label15.Location = New System.Drawing.Point(864, 145)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(50, 13)
+        Me.Label15.Size = New System.Drawing.Size(65, 17)
         Me.Label15.TabIndex = 29
         Me.Label15.Text = "Extra Km"
         '
         'TextEdit11
         '
-        Me.TextEdit11.Location = New System.Drawing.Point(733, 134)
+        Me.TextEdit11.Location = New System.Drawing.Point(855, 165)
+        Me.TextEdit11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit11.Name = "TextEdit11"
-        Me.TextEdit11.Size = New System.Drawing.Size(68, 20)
+        Me.TextEdit11.Size = New System.Drawing.Size(79, 23)
         Me.TextEdit11.TabIndex = 28
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(584, 118)
+        Me.Label14.Location = New System.Drawing.Point(681, 145)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(87, 13)
+        Me.Label14.Size = New System.Drawing.Size(111, 17)
         Me.Label14.TabIndex = 27
         Me.Label14.Text = "Current Location"
         '
         'TextEdit10
         '
-        Me.TextEdit10.Location = New System.Drawing.Point(587, 134)
+        Me.TextEdit10.Location = New System.Drawing.Point(685, 165)
+        Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Size = New System.Drawing.Size(140, 20)
+        Me.TextEdit10.Size = New System.Drawing.Size(163, 23)
         Me.TextEdit10.TabIndex = 26
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(438, 118)
+        Me.Label13.Location = New System.Drawing.Point(511, 145)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(82, 13)
+        Me.Label13.Size = New System.Drawing.Size(101, 17)
         Me.Label13.TabIndex = 25
         Me.Label13.Text = "Delivery Adress"
         '
         'TextEdit9
         '
-        Me.TextEdit9.Location = New System.Drawing.Point(441, 134)
+        Me.TextEdit9.Location = New System.Drawing.Point(514, 165)
+        Me.TextEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Size = New System.Drawing.Size(140, 20)
+        Me.TextEdit9.Size = New System.Drawing.Size(163, 23)
         Me.TextEdit9.TabIndex = 24
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(292, 118)
+        Me.Label12.Location = New System.Drawing.Point(341, 145)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(48, 13)
+        Me.Label12.Size = New System.Drawing.Size(62, 17)
         Me.Label12.TabIndex = 23
         Me.Label12.Text = "Customs"
         '
         'TextEdit8
         '
-        Me.TextEdit8.Location = New System.Drawing.Point(295, 134)
+        Me.TextEdit8.Location = New System.Drawing.Point(344, 165)
+        Me.TextEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Size = New System.Drawing.Size(140, 20)
+        Me.TextEdit8.Size = New System.Drawing.Size(163, 23)
         Me.TextEdit8.TabIndex = 22
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(151, 118)
+        Me.Label11.Location = New System.Drawing.Point(176, 145)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(26, 13)
+        Me.Label11.Size = New System.Drawing.Size(32, 17)
         Me.Label11.TabIndex = 21
         Me.Label11.Text = "ETA"
         '
         'DateTimeOffsetEdit2
         '
         Me.DateTimeOffsetEdit2.EditValue = Nothing
-        Me.DateTimeOffsetEdit2.Location = New System.Drawing.Point(151, 134)
+        Me.DateTimeOffsetEdit2.Location = New System.Drawing.Point(176, 165)
+        Me.DateTimeOffsetEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimeOffsetEdit2.Name = "DateTimeOffsetEdit2"
         Me.DateTimeOffsetEdit2.Properties.BeepOnError = False
         Me.DateTimeOffsetEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateTimeOffsetEdit2.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm")
-        Me.DateTimeOffsetEdit2.Size = New System.Drawing.Size(138, 20)
+        Me.DateTimeOffsetEdit2.Size = New System.Drawing.Size(161, 23)
         Me.DateTimeOffsetEdit2.TabIndex = 20
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(7, 118)
+        Me.Label10.Location = New System.Drawing.Point(8, 145)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(56, 13)
+        Me.Label10.Size = New System.Drawing.Size(71, 17)
         Me.Label10.TabIndex = 19
         Me.Label10.Text = "Load Date"
         '
         'DateTimeOffsetEdit1
         '
         Me.DateTimeOffsetEdit1.EditValue = Nothing
-        Me.DateTimeOffsetEdit1.Location = New System.Drawing.Point(7, 134)
+        Me.DateTimeOffsetEdit1.Location = New System.Drawing.Point(8, 165)
+        Me.DateTimeOffsetEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimeOffsetEdit1.Name = "DateTimeOffsetEdit1"
         Me.DateTimeOffsetEdit1.Properties.BeepOnError = False
         Me.DateTimeOffsetEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateTimeOffsetEdit1.Properties.MaskSettings.Set("mask", "yyyy-MM-dd HH:mm")
-        Me.DateTimeOffsetEdit1.Size = New System.Drawing.Size(138, 20)
+        Me.DateTimeOffsetEdit1.Size = New System.Drawing.Size(161, 23)
         Me.DateTimeOffsetEdit1.TabIndex = 18
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(368, 71)
+        Me.Label9.Location = New System.Drawing.Point(429, 87)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(30, 13)
+        Me.Label9.Size = New System.Drawing.Size(38, 17)
         Me.Label9.TabIndex = 17
         Me.Label9.Text = "Load"
         '
         'TextEdit7
         '
-        Me.TextEdit7.Location = New System.Drawing.Point(371, 87)
+        Me.TextEdit7.Location = New System.Drawing.Point(433, 107)
+        Me.TextEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Size = New System.Drawing.Size(598, 20)
+        Me.TextEdit7.Size = New System.Drawing.Size(698, 23)
         Me.TextEdit7.TabIndex = 16
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(222, 71)
+        Me.Label8.Location = New System.Drawing.Point(259, 87)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(60, 13)
+        Me.Label8.Size = New System.Drawing.Size(76, 17)
         Me.Label8.TabIndex = 15
         Me.Label8.Text = "Truck Plate"
         '
         'TextEdit6
         '
-        Me.TextEdit6.Location = New System.Drawing.Point(225, 87)
+        Me.TextEdit6.Location = New System.Drawing.Point(262, 107)
+        Me.TextEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Size = New System.Drawing.Size(140, 20)
+        Me.TextEdit6.Size = New System.Drawing.Size(163, 23)
         Me.TextEdit6.TabIndex = 14
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(148, 71)
+        Me.Label7.Location = New System.Drawing.Point(173, 87)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(40, 13)
+        Me.Label7.Size = New System.Drawing.Size(48, 17)
         Me.Label7.TabIndex = 13
         Me.Label7.Text = "Carrier"
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(151, 87)
+        Me.TextEdit5.Location = New System.Drawing.Point(176, 107)
+        Me.TextEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Size = New System.Drawing.Size(68, 20)
+        Me.TextEdit5.Size = New System.Drawing.Size(79, 23)
         Me.TextEdit5.TabIndex = 12
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(2, 71)
+        Me.Label6.Location = New System.Drawing.Point(2, 87)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(88, 13)
+        Me.Label6.Size = New System.Drawing.Size(112, 17)
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Delivery Country"
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(5, 87)
+        Me.TextEdit4.Location = New System.Drawing.Point(6, 107)
+        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Size = New System.Drawing.Size(140, 20)
+        Me.TextEdit4.Size = New System.Drawing.Size(163, 23)
         Me.TextEdit4.TabIndex = 10
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(857, 25)
+        Me.Label5.Location = New System.Drawing.Point(1000, 31)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(44, 13)
+        Me.Label5.Size = New System.Drawing.Size(57, 17)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Product"
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(860, 41)
+        Me.TextEdit3.Location = New System.Drawing.Point(1003, 50)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(109, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(127, 23)
         Me.TextEdit3.TabIndex = 8
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(711, 25)
+        Me.Label4.Location = New System.Drawing.Point(829, 31)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(57, 13)
+        Me.Label4.Size = New System.Drawing.Size(69, 17)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Reference"
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(714, 41)
+        Me.TextEdit2.Location = New System.Drawing.Point(833, 50)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(140, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(163, 23)
         Me.TextEdit2.TabIndex = 6
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(2, 25)
+        Me.Label3.Location = New System.Drawing.Point(2, 31)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(38, 13)
+        Me.Label3.Size = New System.Drawing.Size(51, 17)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Durum"
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(5, 41)
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(6, 50)
+        Me.ComboBoxEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"Evrak Hazırla/İlet", "CMR Bekleniyor", "CMR Teslim Alındı"})
-        Me.ComboBoxEdit2.Size = New System.Drawing.Size(159, 20)
+        Me.ComboBoxEdit2.Size = New System.Drawing.Size(185, 23)
         Me.ComboBoxEdit2.TabIndex = 4
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(296, 25)
+        Me.Label2.Location = New System.Drawing.Point(345, 31)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(68, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Customer"
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(299, 41)
+        Me.TextEdit1.Location = New System.Drawing.Point(349, 50)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(409, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(477, 23)
         Me.TextEdit1.TabIndex = 2
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(170, 41)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(198, 50)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.DataSource = Me.EOALANSISSATISBindingSource
@@ -655,7 +683,7 @@ Partial Class Form119
         Me.ComboBoxEdit1.Properties.NullText = ""
         Me.ComboBoxEdit1.Properties.PopupSizeable = False
         Me.ComboBoxEdit1.Properties.PopupView = Me.SearchLookUpEdit1View
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit1.TabIndex = 0
         '
         'EOALANSISSATISBindingSource
@@ -670,6 +698,7 @@ Partial Class Form119
         '
         'SearchLookUpEdit1View
         '
+        Me.SearchLookUpEdit1View.DetailHeight = 431
         Me.SearchLookUpEdit1View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.SearchLookUpEdit1View.Name = "SearchLookUpEdit1View"
         Me.SearchLookUpEdit1View.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -683,66 +712,75 @@ Partial Class Form119
         Me.GroupBox1.Controls.Add(Me.SimpleButton3)
         Me.GroupBox1.Controls.Add(Me.SimpleButton2)
         Me.GroupBox1.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(5, 260)
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 320)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(974, 48)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(1136, 59)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(613, 11)
+        Me.SimpleButton6.Location = New System.Drawing.Point(715, 14)
+        Me.SimpleButton6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(114, 33)
+        Me.SimpleButton6.Size = New System.Drawing.Size(133, 41)
         Me.SimpleButton6.TabIndex = 5
         Me.SimpleButton6.Text = "Detay"
         '
         'SimpleButton5
         '
-        Me.SimpleButton5.Location = New System.Drawing.Point(245, 11)
+        Me.SimpleButton5.Location = New System.Drawing.Point(286, 14)
+        Me.SimpleButton5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(114, 33)
+        Me.SimpleButton5.Size = New System.Drawing.Size(133, 41)
         Me.SimpleButton5.TabIndex = 4
         Me.SimpleButton5.Text = "Güncelle"
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(854, 11)
+        Me.SimpleButton4.Location = New System.Drawing.Point(996, 14)
+        Me.SimpleButton4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(114, 33)
+        Me.SimpleButton4.Size = New System.Drawing.Size(133, 41)
         Me.SimpleButton4.TabIndex = 3
         Me.SimpleButton4.Text = "Güncel Durum"
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(734, 11)
+        Me.SimpleButton3.Location = New System.Drawing.Point(856, 14)
+        Me.SimpleButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(114, 33)
+        Me.SimpleButton3.Size = New System.Drawing.Size(133, 41)
         Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Özet Liste"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(125, 11)
+        Me.SimpleButton2.Location = New System.Drawing.Point(146, 14)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(114, 33)
+        Me.SimpleButton2.Size = New System.Drawing.Size(133, 41)
         Me.SimpleButton2.TabIndex = 1
         Me.SimpleButton2.Text = "Sil"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(5, 11)
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 14)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(114, 33)
+        Me.SimpleButton1.Size = New System.Drawing.Size(133, 41)
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Kaydet"
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(5, 314)
+        Me.DataGridView1.Location = New System.Drawing.Point(6, 386)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(974, 210)
+        Me.DataGridView1.Size = New System.Drawing.Size(1136, 258)
         Me.DataGridView1.TabIndex = 5
         '
         'EO_ALANSIS_SATISTableAdapter
@@ -751,14 +789,15 @@ Partial Class Form119
         '
         'Form119
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(981, 529)
+        Me.ClientSize = New System.Drawing.Size(1144, 651)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupControl1)
         Me.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.None
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form119"
         Me.Text = "ALANSIS - LOJISTIK KARAYOLU GIRIS MODULU"
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -23,7 +23,7 @@ Partial Class Form131
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
@@ -54,31 +54,29 @@ Partial Class Form131
         Me.Label26 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.ComboBoxEdit16 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
-        Me.ComboBoxEdit18 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.ALANSISDataSet3 = New WindowsApplication1.ALANSISDataSet3()
-        Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.EO_ALANSIS_KUTUETIKETTIPIDEPOTableAdapter = New WindowsApplication1.ALANSISDataSet3TableAdapters.EO_ALANSIS_KUTUETIKETTIPIDEPOTableAdapter()
-        Me.EOALANSISKUTUTIPIDEPOBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.EO_ALANSIS_KUTUTIPIDEPOTableAdapter = New WindowsApplication1.ALANSISDataSet3TableAdapters.EO_ALANSIS_KUTUTIPIDEPOTableAdapter()
-        Me.ALANAR2021DataSet3 = New WindowsApplication1.ALANAR2021DataSet3()
-        Me.TBLSTSABITBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.TBLSTSABITTableAdapter = New WindowsApplication1.ALANAR2021DataSet3TableAdapters.TBLSTSABITTableAdapter()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.EO_ALANSIS_GGNTableAdapter1 = New WindowsApplication1.ALANSISDataSet14TableAdapters.EO_ALANSIS_GGNTableAdapter()
+        Me.TBLSTSABITBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ALANAR2021DataSet3 = New WindowsApplication1.ALANAR2021DataSet3()
         Me.eO_ALANSIS_GGNBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.AlansısDataSet141 = New WindowsApplication1.ALANSISDataSet14()
+        Me.ALANSISDataSet3 = New WindowsApplication1.ALANSISDataSet3()
+        Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.EOALANSISKUTUTIPIDEPOBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.ALANSISDataSet14 = New WindowsApplication1.ALANSISDataSet14()
         Me.ALANSISDataSet14BindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.EO_ALANSIS_GGNTableAdapter1 = New WindowsApplication1.ALANSISDataSet14TableAdapters.EO_ALANSIS_GGNTableAdapter()
         Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit20 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit19 = New DevExpress.XtraEditors.TextEdit()
@@ -86,6 +84,8 @@ Partial Class Form131
         Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
+        Me.ComboBoxEdit16 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.ComboBoxEdit18 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit10 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
         Me.ComboBoxEdit9 = New DevExpress.XtraEditors.ComboBoxEdit()
@@ -113,17 +113,15 @@ Partial Class Form131
         Me.ComboBoxEdit7 = New DevExpress.XtraEditors.SearchLookUpEdit()
         Me.GridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.GroupBox2.SuspendLayout()
-        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TBLSTSABITBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ALANAR2021DataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.eO_ALANSIS_GGNBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AlansısDataSet141, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ALANSISDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EOALANSISKUTUTIPIDEPOBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ALANAR2021DataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TBLSTSABITBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.eO_ALANSIS_GGNBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.AlansısDataSet141, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ALANSISDataSet14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ALANSISDataSet14BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -133,6 +131,8 @@ Partial Class Form131
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -403,6 +403,7 @@ Partial Class Form131
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.TextBox2)
+        Me.GroupBox2.Controls.Add(Me.TextBox1)
         Me.GroupBox2.Controls.Add(Me.ComboBoxEdit16)
         Me.GroupBox2.Controls.Add(Me.Label31)
         Me.GroupBox2.Controls.Add(Me.Label29)
@@ -424,15 +425,13 @@ Partial Class Form131
         Me.TextBox2.Size = New System.Drawing.Size(57, 23)
         Me.TextBox2.TabIndex = 66
         '
-        'ComboBoxEdit16
+        'TextBox1
         '
-        Me.ComboBoxEdit16.Location = New System.Drawing.Point(210, 15)
-        Me.ComboBoxEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.ComboBoxEdit16.Name = "ComboBoxEdit16"
-        Me.ComboBoxEdit16.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit16.Properties.Items.AddRange(New Object() {"OK", "NOK"})
-        Me.ComboBoxEdit16.Size = New System.Drawing.Size(78, 23)
-        Me.ComboBoxEdit16.TabIndex = 15
+        Me.TextBox1.Location = New System.Drawing.Point(395, 15)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(116, 23)
+        Me.TextBox1.TabIndex = 63
         '
         'Label31
         '
@@ -451,16 +450,6 @@ Partial Class Form131
         Me.Label29.Size = New System.Drawing.Size(36, 17)
         Me.Label29.TabIndex = 1
         Me.Label29.Text = "Satış"
-        '
-        'ComboBoxEdit18
-        '
-        Me.ComboBoxEdit18.Location = New System.Drawing.Point(54, 15)
-        Me.ComboBoxEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.ComboBoxEdit18.Name = "ComboBoxEdit18"
-        Me.ComboBoxEdit18.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit18.Properties.Items.AddRange(New Object() {"OK", "NOK"})
-        Me.ComboBoxEdit18.Size = New System.Drawing.Size(78, 23)
-        Me.ComboBoxEdit18.TabIndex = 0
         '
         'GroupBox1
         '
@@ -521,43 +510,18 @@ Partial Class Form131
         Me.DataGridView1.Location = New System.Drawing.Point(14, 433)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.Size = New System.Drawing.Size(1282, 236)
         Me.DataGridView1.TabIndex = 54
-        '
-        'ALANSISDataSet3
-        '
-        Me.ALANSISDataSet3.DataSetName = "ALANSISDataSet3"
-        Me.ALANSISDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'EOALANSISKUTUETIKETTIPIDEPOBindingSource
-        '
-        Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource.DataMember = "EO_ALANSIS_KUTUETIKETTIPIDEPO"
-        Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource.DataSource = Me.ALANSISDataSet3
         '
         'EO_ALANSIS_KUTUETIKETTIPIDEPOTableAdapter
         '
         Me.EO_ALANSIS_KUTUETIKETTIPIDEPOTableAdapter.ClearBeforeFill = True
         '
-        'EOALANSISKUTUTIPIDEPOBindingSource
-        '
-        Me.EOALANSISKUTUTIPIDEPOBindingSource.DataMember = "EO_ALANSIS_KUTUTIPIDEPO"
-        Me.EOALANSISKUTUTIPIDEPOBindingSource.DataSource = Me.ALANSISDataSet3
-        '
         'EO_ALANSIS_KUTUTIPIDEPOTableAdapter
         '
         Me.EO_ALANSIS_KUTUTIPIDEPOTableAdapter.ClearBeforeFill = True
-        '
-        'ALANAR2021DataSet3
-        '
-        Me.ALANAR2021DataSet3.DataSetName = "ALANAR2021DataSet3"
-        Me.ALANAR2021DataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'TBLSTSABITBindingSource
-        '
-        Me.TBLSTSABITBindingSource.DataMember = "TBLSTSABIT"
-        Me.TBLSTSABITBindingSource.DataSource = Me.ALANAR2021DataSet3
         '
         'TBLSTSABITTableAdapter
         '
@@ -573,14 +537,19 @@ Partial Class Form131
         Me.Label27.Text = "GGN"
         Me.Label27.Visible = False
         '
-        'TextBox1
+        'EO_ALANSIS_GGNTableAdapter1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(2, 4)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(17, 23)
-        Me.TextBox1.TabIndex = 63
-        Me.TextBox1.Visible = False
+        Me.EO_ALANSIS_GGNTableAdapter1.ClearBeforeFill = True
+        '
+        'TBLSTSABITBindingSource
+        '
+        Me.TBLSTSABITBindingSource.DataMember = "TBLSTSABIT"
+        Me.TBLSTSABITBindingSource.DataSource = Me.ALANAR2021DataSet3
+        '
+        'ALANAR2021DataSet3
+        '
+        Me.ALANAR2021DataSet3.DataSetName = "ALANAR2021DataSet3"
+        Me.ALANAR2021DataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'eO_ALANSIS_GGNBindingSource
         '
@@ -593,6 +562,21 @@ Partial Class Form131
         Me.AlansısDataSet141.DataSetName = "ALANSISDataSet14"
         Me.AlansısDataSet141.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
+        'ALANSISDataSet3
+        '
+        Me.ALANSISDataSet3.DataSetName = "ALANSISDataSet3"
+        Me.ALANSISDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'EOALANSISKUTUETIKETTIPIDEPOBindingSource
+        '
+        Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource.DataMember = "EO_ALANSIS_KUTUETIKETTIPIDEPO"
+        Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource.DataSource = Me.ALANSISDataSet3
+        '
+        'EOALANSISKUTUTIPIDEPOBindingSource
+        '
+        Me.EOALANSISKUTUTIPIDEPOBindingSource.DataMember = "EO_ALANSIS_KUTUTIPIDEPO"
+        Me.EOALANSISKUTUTIPIDEPOBindingSource.DataSource = Me.ALANSISDataSet3
+        '
         'ALANSISDataSet14
         '
         Me.ALANSISDataSet14.DataSetName = "ALANSISDataSet14"
@@ -602,10 +586,6 @@ Partial Class Form131
         '
         Me.ALANSISDataSet14BindingSource.DataSource = Me.ALANSISDataSet14
         Me.ALANSISDataSet14BindingSource.Position = 0
-        '
-        'EO_ALANSIS_GGNTableAdapter1
-        '
-        Me.EO_ALANSIS_GGNTableAdapter1.ClearBeforeFill = True
         '
         'TextEdit15
         '
@@ -617,7 +597,7 @@ Partial Class Form131
         '
         'TextEdit20
         '
-        Me.TextEdit20.Location = New System.Drawing.Point(205, 219)
+        Me.TextEdit20.Location = New System.Drawing.Point(203, 218)
         Me.TextEdit20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.Size = New System.Drawing.Size(183, 23)
@@ -625,7 +605,8 @@ Partial Class Form131
         '
         'TextEdit19
         '
-        Me.TextEdit19.Location = New System.Drawing.Point(13, 219)
+        Me.TextEdit19.EnterMoveNextControl = True
+        Me.TextEdit19.Location = New System.Drawing.Point(15, 218)
         Me.TextEdit19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.Size = New System.Drawing.Size(183, 23)
@@ -633,15 +614,14 @@ Partial Class Form131
         '
         'TextEdit18
         '
-        Me.TextEdit18.Location = New System.Drawing.Point(852, 97)
+        Me.TextEdit18.Location = New System.Drawing.Point(853, 97)
         Me.TextEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit18.Name = "TextEdit18"
-        Me.TextEdit18.Size = New System.Drawing.Size(441, 23)
+        Me.TextEdit18.Size = New System.Drawing.Size(444, 23)
         Me.TextEdit18.TabIndex = 60
         '
         'TextEdit17
         '
-        Me.TextEdit17.Enabled = False
         Me.TextEdit17.Location = New System.Drawing.Point(478, 97)
         Me.TextEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit17.Name = "TextEdit17"
@@ -650,7 +630,6 @@ Partial Class Form131
         '
         'TextEdit16
         '
-        Me.TextEdit16.Enabled = False
         Me.TextEdit16.Location = New System.Drawing.Point(14, 97)
         Me.TextEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit16.Name = "TextEdit16"
@@ -664,6 +643,26 @@ Partial Class Form131
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Size = New System.Drawing.Size(442, 23)
         Me.TextEdit14.TabIndex = 55
+        '
+        'ComboBoxEdit16
+        '
+        Me.ComboBoxEdit16.Location = New System.Drawing.Point(210, 15)
+        Me.ComboBoxEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit16.Name = "ComboBoxEdit16"
+        Me.ComboBoxEdit16.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit16.Properties.Items.AddRange(New Object() {"OK", "NOK"})
+        Me.ComboBoxEdit16.Size = New System.Drawing.Size(78, 23)
+        Me.ComboBoxEdit16.TabIndex = 15
+        '
+        'ComboBoxEdit18
+        '
+        Me.ComboBoxEdit18.Location = New System.Drawing.Point(54, 15)
+        Me.ComboBoxEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit18.Name = "ComboBoxEdit18"
+        Me.ComboBoxEdit18.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit18.Properties.Items.AddRange(New Object() {"OK", "NOK"})
+        Me.ComboBoxEdit18.Size = New System.Drawing.Size(78, 23)
+        Me.ComboBoxEdit18.TabIndex = 0
         '
         'ComboBoxEdit10
         '
@@ -711,7 +710,6 @@ Partial Class Form131
         '
         'TextEdit10
         '
-        Me.TextEdit10.Enabled = False
         Me.TextEdit10.Location = New System.Drawing.Point(478, 156)
         Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit10.Name = "TextEdit10"
@@ -772,7 +770,6 @@ Partial Class Form131
         '
         'TextEdit3
         '
-        Me.TextEdit3.Enabled = False
         Me.TextEdit3.Location = New System.Drawing.Point(14, 156)
         Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
@@ -922,7 +919,6 @@ Partial Class Form131
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1298, 676)
         Me.Controls.Add(Me.TextEdit15)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.TextEdit20)
         Me.Controls.Add(Me.TextEdit19)
         Me.Controls.Add(Me.TextEdit18)
@@ -989,17 +985,15 @@ Partial Class Form131
         Me.Text = "ALANSIS SATIS ISLEM MODULU"
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
-        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TBLSTSABITBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ALANAR2021DataSet3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.eO_ALANSIS_GGNBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AlansısDataSet141, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ALANSISDataSet3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EOALANSISKUTUETIKETTIPIDEPOBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EOALANSISKUTUTIPIDEPOBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ALANAR2021DataSet3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TBLSTSABITBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.eO_ALANSIS_GGNBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.AlansısDataSet141, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ALANSISDataSet14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ALANSISDataSet14BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1009,6 +1003,8 @@ Partial Class Form131
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit18.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()

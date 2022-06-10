@@ -26,20 +26,57 @@ Partial Class Form144
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.ListBox4 = New System.Windows.Forms.ListBox()
+        Me.TextEdit30 = New DevExpress.XtraEditors.TextEdit()
+        Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.ComboBoxEdit8 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit7 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit2 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label20 = New System.Windows.Forms.Label()
         Me.ComboBoxEdit6 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit5 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit29 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
         Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
         Me.TextEdit25 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit24 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit23 = New DevExpress.XtraEditors.TextEdit()
@@ -49,56 +86,23 @@ Partial Class Form144
         Me.TextEdit19 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label30 = New System.Windows.Forms.Label()
         Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit18 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
         Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
         Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.TextEdit30 = New DevExpress.XtraEditors.TextEdit()
-        Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
-        Me.ListBox3 = New System.Windows.Forms.ListBox()
-        Me.ListBox4 = New System.Windows.Forms.ListBox()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
+        CType(Me.TextEdit30.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -127,10 +131,6 @@ Partial Class Form144
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit30.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DefaultLookAndFeel1
@@ -195,529 +195,261 @@ Partial Class Form144
         Me.GroupControl1.Controls.Add(Me.TextEdit7)
         Me.GroupControl1.Controls.Add(Me.TextEdit4)
         Me.GroupControl1.Controls.Add(Me.Label4)
-        Me.GroupControl1.Location = New System.Drawing.Point(3, 43)
+        Me.GroupControl1.Location = New System.Drawing.Point(3, 53)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(869, 315)
+        Me.GroupControl1.Size = New System.Drawing.Size(1014, 388)
         Me.GroupControl1.TabIndex = 0
         Me.GroupControl1.Text = "KONTROL İŞLEMLERİ (* işaretli parametreler % olarak ifade edilecektir.) "
         '
-        'ComboBoxEdit8
-        '
-        Me.ComboBoxEdit8.Location = New System.Drawing.Point(233, 274)
-        Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
-        Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit8.Properties.Items.AddRange(New Object() {"KENDINE HAS"})
-        Me.ComboBoxEdit8.Size = New System.Drawing.Size(92, 20)
-        Me.ComboBoxEdit8.TabIndex = 73
-        '
-        'ComboBoxEdit7
-        '
-        Me.ComboBoxEdit7.Location = New System.Drawing.Point(119, 274)
-        Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
-        Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit7.Properties.Items.AddRange(New Object() {"KENDINE HAS"})
-        Me.ComboBoxEdit7.Size = New System.Drawing.Size(92, 20)
-        Me.ComboBoxEdit7.TabIndex = 72
-        '
-        'ComboBoxEdit2
-        '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(9, 274)
-        Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
-        Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"KENDINE HAS"})
-        Me.ComboBoxEdit2.Size = New System.Drawing.Size(92, 20)
-        Me.ComboBoxEdit2.TabIndex = 71
-        '
-        'TextEdit3
-        '
-        Me.TextEdit3.EditValue = "0"
-        Me.TextEdit3.Location = New System.Drawing.Point(661, 202)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit3.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit3.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit3.TabIndex = 69
-        '
         'Label20
         '
-        Me.Label20.Location = New System.Drawing.Point(661, 172)
+        Me.Label20.Location = New System.Drawing.Point(771, 212)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(92, 27)
+        Me.Label20.Size = New System.Drawing.Size(107, 33)
         Me.Label20.TabIndex = 70
         Me.Label20.Text = "% 30+mm  (g)"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'ComboBoxEdit6
-        '
-        Me.ComboBoxEdit6.Location = New System.Drawing.Point(9, 62)
-        Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
-        Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit6.Properties.Items.AddRange(New Object() {"Uygun", "Uygun Değil"})
-        Me.ComboBoxEdit6.Size = New System.Drawing.Size(184, 20)
-        Me.ComboBoxEdit6.TabIndex = 68
-        '
-        'ComboBoxEdit5
-        '
-        Me.ComboBoxEdit5.Location = New System.Drawing.Point(199, 62)
-        Me.ComboBoxEdit5.Name = "ComboBoxEdit5"
-        Me.ComboBoxEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit5.Properties.Items.AddRange(New Object() {"Uygun", "Uygun Değil"})
-        Me.ComboBoxEdit5.Size = New System.Drawing.Size(133, 20)
-        Me.ComboBoxEdit5.TabIndex = 67
-        '
-        'TextEdit29
-        '
-        Me.TextEdit29.Location = New System.Drawing.Point(555, 274)
-        Me.TextEdit29.Name = "TextEdit29"
-        Me.TextEdit29.Size = New System.Drawing.Size(198, 20)
-        Me.TextEdit29.TabIndex = 66
-        '
         'Label33
         '
-        Me.Label33.Location = New System.Drawing.Point(557, 244)
+        Me.Label33.Location = New System.Drawing.Point(650, 300)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(198, 27)
+        Me.Label33.Size = New System.Drawing.Size(231, 33)
         Me.Label33.TabIndex = 65
         Me.Label33.Text = "Kalite Personeli"
         Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label31
         '
-        Me.Label31.Location = New System.Drawing.Point(445, 244)
+        Me.Label31.Location = New System.Drawing.Point(519, 300)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(100, 27)
+        Me.Label31.Size = New System.Drawing.Size(117, 33)
         Me.Label31.TabIndex = 61
         Me.Label31.Text = "Araç İçi Temizlik Kontrolü Uygun Mu "
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'ComboBoxEdit3
-        '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(448, 274)
-        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
-        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit3.Properties.Items.AddRange(New Object() {"Uygun", "Uygun Değil"})
-        Me.ComboBoxEdit3.Size = New System.Drawing.Size(92, 20)
-        Me.ComboBoxEdit3.TabIndex = 60
-        '
         'Label27
         '
-        Me.Label27.Location = New System.Drawing.Point(233, 244)
+        Me.Label27.Location = New System.Drawing.Point(272, 300)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(92, 27)
+        Me.Label27.Size = New System.Drawing.Size(107, 33)
         Me.Label27.TabIndex = 59
         Me.Label27.Text = "Yapı"
         Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label28
         '
-        Me.Label28.Location = New System.Drawing.Point(339, 244)
+        Me.Label28.Location = New System.Drawing.Point(395, 300)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(92, 27)
+        Me.Label28.Size = New System.Drawing.Size(107, 33)
         Me.Label28.TabIndex = 58
         Me.Label28.Text = "Sıcaklık"
         Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label29
         '
-        Me.Label29.Location = New System.Drawing.Point(124, 244)
+        Me.Label29.Location = New System.Drawing.Point(145, 300)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(92, 27)
+        Me.Label29.Size = New System.Drawing.Size(107, 33)
         Me.Label29.TabIndex = 57
         Me.Label29.Text = "Koku"
         Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextEdit25
-        '
-        Me.TextEdit25.EditValue = "-----"
-        Me.TextEdit25.Location = New System.Drawing.Point(343, 274)
-        Me.TextEdit25.Name = "TextEdit25"
-        Me.TextEdit25.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit25.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit25.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit25.TabIndex = 36
-        '
-        'TextEdit24
-        '
-        Me.TextEdit24.EditValue = "0"
-        Me.TextEdit24.Location = New System.Drawing.Point(767, 62)
-        Me.TextEdit24.Name = "TextEdit24"
-        Me.TextEdit24.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit24.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit24.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit24.TabIndex = 37
-        '
-        'TextEdit23
-        '
-        Me.TextEdit23.EditValue = "0"
-        Me.TextEdit23.Location = New System.Drawing.Point(557, 202)
-        Me.TextEdit23.Name = "TextEdit23"
-        Me.TextEdit23.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit23.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit23.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit23.TabIndex = 38
-        '
-        'TextEdit22
-        '
-        Me.TextEdit22.EditValue = "0"
-        Me.TextEdit22.Location = New System.Drawing.Point(448, 202)
-        Me.TextEdit22.Name = "TextEdit22"
-        Me.TextEdit22.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit22.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit22.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit22.TabIndex = 39
-        '
-        'TextEdit21
-        '
-        Me.TextEdit21.EditValue = "0"
-        Me.TextEdit21.Location = New System.Drawing.Point(343, 202)
-        Me.TextEdit21.Name = "TextEdit21"
-        Me.TextEdit21.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit21.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit21.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit21.TabIndex = 40
-        '
-        'TextEdit20
-        '
-        Me.TextEdit20.EditValue = "0"
-        Me.TextEdit20.Location = New System.Drawing.Point(233, 202)
-        Me.TextEdit20.Name = "TextEdit20"
-        Me.TextEdit20.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit20.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit20.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit20.TabIndex = 41
-        '
-        'TextEdit19
-        '
-        Me.TextEdit19.EditValue = "0"
-        Me.TextEdit19.Location = New System.Drawing.Point(119, 202)
-        Me.TextEdit19.Name = "TextEdit19"
-        Me.TextEdit19.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit19.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit19.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit19.TabIndex = 47
-        '
-        'TextEdit10
-        '
-        Me.TextEdit10.EditValue = "0"
-        Me.TextEdit10.Location = New System.Drawing.Point(9, 131)
-        Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit10.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit10.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit10.TabIndex = 31
-        '
-        'TextEdit11
-        '
-        Me.TextEdit11.EditValue = "0"
-        Me.TextEdit11.Location = New System.Drawing.Point(119, 131)
-        Me.TextEdit11.Name = "TextEdit11"
-        Me.TextEdit11.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit11.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit11.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit11.TabIndex = 25
-        '
         'Label30
         '
-        Me.Label30.Location = New System.Drawing.Point(9, 244)
+        Me.Label30.Location = New System.Drawing.Point(10, 300)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(92, 27)
+        Me.Label30.Size = New System.Drawing.Size(107, 33)
         Me.Label30.TabIndex = 56
         Me.Label30.Text = "Tat"
         Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextEdit12
-        '
-        Me.TextEdit12.EditValue = "0"
-        Me.TextEdit12.Location = New System.Drawing.Point(233, 131)
-        Me.TextEdit12.Name = "TextEdit12"
-        Me.TextEdit12.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit12.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit12.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit12.TabIndex = 24
-        '
-        'TextEdit18
-        '
-        Me.TextEdit18.EditValue = "0"
-        Me.TextEdit18.Enabled = False
-        Me.TextEdit18.Location = New System.Drawing.Point(9, 202)
-        Me.TextEdit18.Name = "TextEdit18"
-        Me.TextEdit18.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit18.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit18.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit18.TabIndex = 55
-        '
-        'TextEdit13
-        '
-        Me.TextEdit13.EditValue = "0"
-        Me.TextEdit13.Location = New System.Drawing.Point(343, 131)
-        Me.TextEdit13.Name = "TextEdit13"
-        Me.TextEdit13.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit13.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit13.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit13.TabIndex = 23
-        '
-        'TextEdit14
-        '
-        Me.TextEdit14.EditValue = "0"
-        Me.TextEdit14.Location = New System.Drawing.Point(448, 131)
-        Me.TextEdit14.Name = "TextEdit14"
-        Me.TextEdit14.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit14.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit14.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit14.TabIndex = 22
-        '
-        'TextEdit15
-        '
-        Me.TextEdit15.EditValue = "0"
-        Me.TextEdit15.Location = New System.Drawing.Point(555, 131)
-        Me.TextEdit15.Name = "TextEdit15"
-        Me.TextEdit15.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit15.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit15.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit15.TabIndex = 21
-        '
         'Label19
         '
-        Me.Label19.Location = New System.Drawing.Point(343, 172)
+        Me.Label19.Location = New System.Drawing.Point(400, 212)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(92, 27)
+        Me.Label19.Size = New System.Drawing.Size(107, 33)
         Me.Label19.TabIndex = 49
         Me.Label19.Text = "% 24+mm  (g)"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label21
         '
-        Me.Label21.Location = New System.Drawing.Point(767, 32)
+        Me.Label21.Location = New System.Drawing.Point(895, 39)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(92, 27)
+        Me.Label21.Size = New System.Drawing.Size(107, 33)
         Me.Label21.TabIndex = 46
         Me.Label21.Text = "Sapsız Meyve (g)"
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label22
         '
-        Me.Label22.Location = New System.Drawing.Point(449, 172)
+        Me.Label22.Location = New System.Drawing.Point(524, 212)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(92, 27)
+        Me.Label22.Size = New System.Drawing.Size(107, 33)
         Me.Label22.TabIndex = 45
         Me.Label22.Text = "% 26+mm  (g)"
         Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label23
         '
-        Me.Label23.Location = New System.Drawing.Point(557, 172)
+        Me.Label23.Location = New System.Drawing.Point(650, 212)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(92, 27)
+        Me.Label23.Size = New System.Drawing.Size(107, 33)
         Me.Label23.TabIndex = 44
         Me.Label23.Text = "% 28+mm  (g)"
         Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label24
         '
-        Me.Label24.Location = New System.Drawing.Point(234, 172)
+        Me.Label24.Location = New System.Drawing.Point(273, 212)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(92, 27)
+        Me.Label24.Size = New System.Drawing.Size(107, 33)
         Me.Label24.TabIndex = 43
         Me.Label24.Text = "% 22+mm (g)"
         Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label25
         '
-        Me.Label25.Location = New System.Drawing.Point(119, 172)
+        Me.Label25.Location = New System.Drawing.Point(139, 212)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(92, 27)
+        Me.Label25.Size = New System.Drawing.Size(107, 33)
         Me.Label25.TabIndex = 42
         Me.Label25.Text = "Brix"
         Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label26
         '
-        Me.Label26.Location = New System.Drawing.Point(9, 172)
+        Me.Label26.Location = New System.Drawing.Point(10, 212)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(92, 27)
+        Me.Label26.Size = New System.Drawing.Size(107, 33)
         Me.Label26.TabIndex = 35
         Me.Label26.Text = "Toplam Kusur (g)"
         Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextEdit17
-        '
-        Me.TextEdit17.EditValue = "0"
-        Me.TextEdit17.Location = New System.Drawing.Point(767, 131)
-        Me.TextEdit17.Name = "TextEdit17"
-        Me.TextEdit17.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit17.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit17.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit17.TabIndex = 34
-        '
         'Label18
         '
-        Me.Label18.Location = New System.Drawing.Point(343, 101)
+        Me.Label18.Location = New System.Drawing.Point(400, 124)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(92, 27)
+        Me.Label18.Size = New System.Drawing.Size(107, 33)
         Me.Label18.TabIndex = 33
         Me.Label18.Text = "İç Kurdu (g)"
         Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label11
         '
-        Me.Label11.Location = New System.Drawing.Point(767, 101)
+        Me.Label11.Location = New System.Drawing.Point(895, 124)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(92, 27)
+        Me.Label11.Size = New System.Drawing.Size(107, 33)
         Me.Label11.TabIndex = 32
         Me.Label11.Text = "Dolu Zararı (g)"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label12
         '
-        Me.Label12.Location = New System.Drawing.Point(661, 101)
+        Me.Label12.Location = New System.Drawing.Point(771, 124)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(92, 27)
+        Me.Label12.Size = New System.Drawing.Size(107, 33)
         Me.Label12.TabIndex = 30
         Me.Label12.Text = "Çatlak- Fiziksel Hasar (g)"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label13
         '
-        Me.Label13.Location = New System.Drawing.Point(555, 101)
+        Me.Label13.Location = New System.Drawing.Point(647, 124)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(92, 27)
+        Me.Label13.Size = New System.Drawing.Size(107, 33)
         Me.Label13.TabIndex = 29
         Me.Label13.Text = "Ebat Altı (g) <22 mm"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label14
         '
-        Me.Label14.Location = New System.Drawing.Point(449, 101)
+        Me.Label14.Location = New System.Drawing.Point(524, 124)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(92, 27)
+        Me.Label14.Size = New System.Drawing.Size(107, 33)
         Me.Label14.TabIndex = 28
         Me.Label14.Text = "İkiz Meyve (g)"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label15
         '
-        Me.Label15.Location = New System.Drawing.Point(234, 101)
+        Me.Label15.Location = New System.Drawing.Point(273, 124)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(92, 27)
+        Me.Label15.Size = New System.Drawing.Size(107, 33)
         Me.Label15.TabIndex = 27
         Me.Label15.Text = "Aşırı Olgun / Yumuşak (g)"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label16
         '
-        Me.Label16.Location = New System.Drawing.Point(119, 101)
+        Me.Label16.Location = New System.Drawing.Point(139, 124)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(92, 27)
+        Me.Label16.Size = New System.Drawing.Size(107, 33)
         Me.Label16.TabIndex = 26
         Me.Label16.Text = "Çürüme (g)"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextEdit16
-        '
-        Me.TextEdit16.EditValue = "0"
-        Me.TextEdit16.Location = New System.Drawing.Point(661, 131)
-        Me.TextEdit16.Name = "TextEdit16"
-        Me.TextEdit16.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit16.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit16.Size = New System.Drawing.Size(92, 20)
-        Me.TextEdit16.TabIndex = 20
-        '
         'Label17
         '
-        Me.Label17.Location = New System.Drawing.Point(9, 101)
+        Me.Label17.Location = New System.Drawing.Point(10, 124)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(92, 27)
+        Me.Label17.Size = New System.Drawing.Size(107, 33)
         Me.Label17.TabIndex = 19
         Me.Label17.Text = "Dal Sürtmesi (g)"
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label10
         '
-        Me.Label10.Location = New System.Drawing.Point(664, 32)
+        Me.Label10.Location = New System.Drawing.Point(775, 39)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(100, 27)
+        Me.Label10.Size = New System.Drawing.Size(117, 33)
         Me.Label10.TabIndex = 18
         Me.Label10.Text = "Küflenme g)"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextEdit9
-        '
-        Me.TextEdit9.EditValue = "0"
-        Me.TextEdit9.Location = New System.Drawing.Point(664, 62)
-        Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit9.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit9.Size = New System.Drawing.Size(100, 20)
-        Me.TextEdit9.TabIndex = 17
-        '
         'Label9
         '
-        Me.Label9.Location = New System.Drawing.Point(558, 32)
+        Me.Label9.Location = New System.Drawing.Point(651, 39)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(100, 27)
+        Me.Label9.Size = New System.Drawing.Size(117, 33)
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "Yabancı Madde (g)"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label8
         '
-        Me.Label8.Location = New System.Drawing.Point(452, 32)
+        Me.Label8.Location = New System.Drawing.Point(527, 39)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(100, 27)
+        Me.Label8.Size = New System.Drawing.Size(117, 33)
         Me.Label8.TabIndex = 15
         Me.Label8.Text = "Alınan Numune Miktarı (G)"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label6
         '
-        Me.Label6.Location = New System.Drawing.Point(200, 32)
+        Me.Label6.Location = New System.Drawing.Point(233, 39)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(113, 27)
+        Me.Label6.Size = New System.Drawing.Size(132, 33)
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Çeşit Adı"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
-        Me.Label5.Location = New System.Drawing.Point(335, 32)
+        Me.Label5.Location = New System.Drawing.Point(391, 39)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(111, 27)
+        Me.Label5.Size = New System.Drawing.Size(129, 33)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Araç Plaka No"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextEdit8
-        '
-        Me.TextEdit8.EditValue = "0"
-        Me.TextEdit8.Location = New System.Drawing.Point(558, 62)
-        Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit8.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit8.Size = New System.Drawing.Size(100, 20)
-        Me.TextEdit8.TabIndex = 11
-        '
-        'TextEdit7
-        '
-        Me.TextEdit7.EditValue = "0"
-        Me.TextEdit7.Location = New System.Drawing.Point(452, 62)
-        Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Properties.Appearance.Options.UseTextOptions = True
-        Me.TextEdit7.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.TextEdit7.Size = New System.Drawing.Size(100, 20)
-        Me.TextEdit7.TabIndex = 10
-        '
-        'TextEdit4
-        '
-        Me.TextEdit4.Location = New System.Drawing.Point(338, 62)
-        Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Size = New System.Drawing.Size(111, 20)
-        Me.TextEdit4.TabIndex = 7
-        '
         'Label4
         '
-        Me.Label4.Location = New System.Drawing.Point(9, 32)
+        Me.Label4.Location = New System.Drawing.Point(10, 39)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(175, 27)
+        Me.Label4.Size = New System.Drawing.Size(204, 33)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Üretici / Bölge Kodu / Tedarikçi Adı"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -725,142 +457,454 @@ Partial Class Form144
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 9)
+        Me.Label1.Location = New System.Drawing.Point(10, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(64, 13)
+        Me.Label1.Size = New System.Drawing.Size(78, 17)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Hasat Tarihi"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(384, 9)
+        Me.Label2.Location = New System.Drawing.Point(448, 11)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(49, 13)
+        Me.Label2.Size = New System.Drawing.Size(59, 17)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Tesis Adı"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(566, 9)
+        Me.Label3.Location = New System.Drawing.Point(660, 11)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(43, 13)
+        Me.Label3.Size = New System.Drawing.Size(53, 17)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Vardiya"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(12, 364)
+        Me.SimpleButton1.Location = New System.Drawing.Point(14, 448)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(92, 40)
+        Me.SimpleButton1.Size = New System.Drawing.Size(107, 49)
         Me.SimpleButton1.TabIndex = 7
         Me.SimpleButton1.Text = "Kaydet"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(127, 364)
+        Me.SimpleButton2.Location = New System.Drawing.Point(148, 448)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(92, 40)
+        Me.SimpleButton2.Size = New System.Drawing.Size(107, 49)
         Me.SimpleButton2.TabIndex = 8
         Me.SimpleButton2.Text = "Sil"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(270, 374)
+        Me.TextBox1.Location = New System.Drawing.Point(315, 460)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(116, 23)
         Me.TextBox1.TabIndex = 9
         Me.TextBox1.Visible = False
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(199, 9)
+        Me.Label34.Location = New System.Drawing.Point(232, 11)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(64, 13)
+        Me.Label34.Size = New System.Drawing.Size(77, 17)
         Me.Label34.TabIndex = 11
         Me.Label34.Text = "Analiz Tarihi"
-        '
-        'TextEdit30
-        '
-        Me.TextEdit30.Enabled = False
-        Me.TextEdit30.Location = New System.Drawing.Point(270, 6)
-        Me.TextEdit30.Name = "TextEdit30"
-        Me.TextEdit30.Properties.BeepOnError = False
-        Me.TextEdit30.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
-        Me.TextEdit30.Properties.MaskSettings.Set("mask", "d")
-        Me.TextEdit30.Size = New System.Drawing.Size(100, 20)
-        Me.TextEdit30.TabIndex = 10
-        '
-        'ComboBoxEdit1
-        '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(615, 6)
-        Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
-        Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"08:00 - 16:00", "16:00 - 00:00", "00:00 - 08:00", "08:00 - 18:00", "08:00 - 20:00", "20:00 - 08:00"})
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(100, 20)
-        Me.ComboBoxEdit1.TabIndex = 3
-        '
-        'TextEdit2
-        '
-        Me.TextEdit2.Location = New System.Drawing.Point(439, 6)
-        Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(100, 20)
-        Me.TextEdit2.TabIndex = 2
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.Enabled = False
-        Me.TextEdit1.Location = New System.Drawing.Point(79, 6)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.BeepOnError = False
-        Me.TextEdit1.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
-        Me.TextEdit1.Properties.MaskSettings.Set("mask", "d")
-        Me.TextEdit1.Size = New System.Drawing.Size(100, 20)
-        Me.TextEdit1.TabIndex = 1
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(406, 361)
+        Me.ListBox1.ItemHeight = 16
+        Me.ListBox1.Location = New System.Drawing.Point(474, 444)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(79, 43)
+        Me.ListBox1.Size = New System.Drawing.Size(91, 52)
         Me.ListBox1.TabIndex = 12
         Me.ListBox1.Visible = False
         '
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Location = New System.Drawing.Point(491, 361)
+        Me.ListBox2.ItemHeight = 16
+        Me.ListBox2.Location = New System.Drawing.Point(573, 444)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(79, 43)
+        Me.ListBox2.Size = New System.Drawing.Size(91, 52)
         Me.ListBox2.TabIndex = 13
         Me.ListBox2.Visible = False
         '
         'ListBox3
         '
         Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Location = New System.Drawing.Point(576, 361)
+        Me.ListBox3.ItemHeight = 16
+        Me.ListBox3.Location = New System.Drawing.Point(672, 444)
+        Me.ListBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(79, 43)
+        Me.ListBox3.Size = New System.Drawing.Size(91, 52)
         Me.ListBox3.TabIndex = 14
         Me.ListBox3.Visible = False
         '
         'ListBox4
         '
         Me.ListBox4.FormattingEnabled = True
-        Me.ListBox4.Location = New System.Drawing.Point(661, 361)
+        Me.ListBox4.ItemHeight = 16
+        Me.ListBox4.Location = New System.Drawing.Point(771, 444)
+        Me.ListBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox4.Name = "ListBox4"
-        Me.ListBox4.Size = New System.Drawing.Size(79, 43)
+        Me.ListBox4.Size = New System.Drawing.Size(91, 52)
         Me.ListBox4.TabIndex = 15
         Me.ListBox4.Visible = False
         '
+        'TextEdit30
+        '
+        Me.TextEdit30.Enabled = False
+        Me.TextEdit30.Location = New System.Drawing.Point(315, 7)
+        Me.TextEdit30.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit30.Name = "TextEdit30"
+        Me.TextEdit30.Properties.BeepOnError = False
+        Me.TextEdit30.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
+        Me.TextEdit30.Properties.MaskSettings.Set("mask", "d")
+        Me.TextEdit30.Size = New System.Drawing.Size(117, 23)
+        Me.TextEdit30.TabIndex = 10
+        '
+        'ComboBoxEdit1
+        '
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(717, 7)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
+        Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"08:00 - 16:00", "16:00 - 00:00", "00:00 - 08:00", "08:00 - 18:00", "08:00 - 20:00", "20:00 - 08:00"})
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(117, 23)
+        Me.ComboBoxEdit1.TabIndex = 3
+        '
+        'TextEdit2
+        '
+        Me.TextEdit2.Location = New System.Drawing.Point(512, 7)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit2.Name = "TextEdit2"
+        Me.TextEdit2.Size = New System.Drawing.Size(117, 23)
+        Me.TextEdit2.TabIndex = 2
+        '
+        'TextEdit1
+        '
+        Me.TextEdit1.Enabled = False
+        Me.TextEdit1.Location = New System.Drawing.Point(92, 7)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Properties.BeepOnError = False
+        Me.TextEdit1.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.DateTimeMaskManager))
+        Me.TextEdit1.Properties.MaskSettings.Set("mask", "d")
+        Me.TextEdit1.Size = New System.Drawing.Size(117, 23)
+        Me.TextEdit1.TabIndex = 1
+        '
+        'ComboBoxEdit8
+        '
+        Me.ComboBoxEdit8.Location = New System.Drawing.Point(272, 337)
+        Me.ComboBoxEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
+        Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit8.Properties.Items.AddRange(New Object() {"KENDINE HAS"})
+        Me.ComboBoxEdit8.Size = New System.Drawing.Size(107, 23)
+        Me.ComboBoxEdit8.TabIndex = 73
+        '
+        'ComboBoxEdit7
+        '
+        Me.ComboBoxEdit7.Location = New System.Drawing.Point(139, 337)
+        Me.ComboBoxEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
+        Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit7.Properties.Items.AddRange(New Object() {"KENDINE HAS"})
+        Me.ComboBoxEdit7.Size = New System.Drawing.Size(107, 23)
+        Me.ComboBoxEdit7.TabIndex = 72
+        '
+        'ComboBoxEdit2
+        '
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(10, 337)
+        Me.ComboBoxEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
+        Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"KENDINE HAS"})
+        Me.ComboBoxEdit2.Size = New System.Drawing.Size(107, 23)
+        Me.ComboBoxEdit2.TabIndex = 71
+        '
+        'TextEdit3
+        '
+        Me.TextEdit3.EditValue = "0"
+        Me.TextEdit3.Location = New System.Drawing.Point(771, 249)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit3.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit3.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit3.TabIndex = 69
+        '
+        'ComboBoxEdit6
+        '
+        Me.ComboBoxEdit6.Location = New System.Drawing.Point(10, 76)
+        Me.ComboBoxEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
+        Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit6.Properties.Items.AddRange(New Object() {"Uygun", "Uygun Değil"})
+        Me.ComboBoxEdit6.Size = New System.Drawing.Size(215, 23)
+        Me.ComboBoxEdit6.TabIndex = 68
+        '
+        'ComboBoxEdit5
+        '
+        Me.ComboBoxEdit5.Location = New System.Drawing.Point(232, 76)
+        Me.ComboBoxEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit5.Name = "ComboBoxEdit5"
+        Me.ComboBoxEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit5.Properties.Items.AddRange(New Object() {"Uygun", "Uygun Değil"})
+        Me.ComboBoxEdit5.Size = New System.Drawing.Size(155, 23)
+        Me.ComboBoxEdit5.TabIndex = 67
+        '
+        'TextEdit29
+        '
+        Me.TextEdit29.Location = New System.Drawing.Point(647, 337)
+        Me.TextEdit29.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit29.Name = "TextEdit29"
+        Me.TextEdit29.Size = New System.Drawing.Size(231, 23)
+        Me.TextEdit29.TabIndex = 66
+        '
+        'ComboBoxEdit3
+        '
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(523, 337)
+        Me.ComboBoxEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
+        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit3.Properties.Items.AddRange(New Object() {"Uygun", "Uygun Değil"})
+        Me.ComboBoxEdit3.Size = New System.Drawing.Size(107, 23)
+        Me.ComboBoxEdit3.TabIndex = 60
+        '
+        'TextEdit25
+        '
+        Me.TextEdit25.EditValue = "-----"
+        Me.TextEdit25.Location = New System.Drawing.Point(400, 337)
+        Me.TextEdit25.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit25.Name = "TextEdit25"
+        Me.TextEdit25.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit25.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit25.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit25.TabIndex = 36
+        '
+        'TextEdit24
+        '
+        Me.TextEdit24.EditValue = "0"
+        Me.TextEdit24.Location = New System.Drawing.Point(895, 76)
+        Me.TextEdit24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit24.Name = "TextEdit24"
+        Me.TextEdit24.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit24.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit24.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit24.TabIndex = 37
+        '
+        'TextEdit23
+        '
+        Me.TextEdit23.EditValue = "0"
+        Me.TextEdit23.Location = New System.Drawing.Point(650, 249)
+        Me.TextEdit23.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit23.Name = "TextEdit23"
+        Me.TextEdit23.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit23.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit23.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit23.TabIndex = 38
+        '
+        'TextEdit22
+        '
+        Me.TextEdit22.EditValue = "0"
+        Me.TextEdit22.Location = New System.Drawing.Point(523, 249)
+        Me.TextEdit22.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit22.Name = "TextEdit22"
+        Me.TextEdit22.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit22.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit22.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit22.TabIndex = 39
+        '
+        'TextEdit21
+        '
+        Me.TextEdit21.EditValue = "0"
+        Me.TextEdit21.Location = New System.Drawing.Point(400, 249)
+        Me.TextEdit21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit21.Name = "TextEdit21"
+        Me.TextEdit21.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit21.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit21.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit21.TabIndex = 40
+        '
+        'TextEdit20
+        '
+        Me.TextEdit20.EditValue = "0"
+        Me.TextEdit20.Location = New System.Drawing.Point(272, 249)
+        Me.TextEdit20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit20.Name = "TextEdit20"
+        Me.TextEdit20.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit20.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit20.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit20.TabIndex = 41
+        '
+        'TextEdit19
+        '
+        Me.TextEdit19.EditValue = "0"
+        Me.TextEdit19.Location = New System.Drawing.Point(139, 249)
+        Me.TextEdit19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit19.Name = "TextEdit19"
+        Me.TextEdit19.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit19.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit19.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit19.TabIndex = 47
+        '
+        'TextEdit10
+        '
+        Me.TextEdit10.EditValue = "0"
+        Me.TextEdit10.Location = New System.Drawing.Point(10, 161)
+        Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit10.Name = "TextEdit10"
+        Me.TextEdit10.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit10.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit10.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit10.TabIndex = 31
+        '
+        'TextEdit11
+        '
+        Me.TextEdit11.EditValue = "0"
+        Me.TextEdit11.Location = New System.Drawing.Point(139, 161)
+        Me.TextEdit11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit11.Name = "TextEdit11"
+        Me.TextEdit11.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit11.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit11.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit11.TabIndex = 25
+        '
+        'TextEdit12
+        '
+        Me.TextEdit12.EditValue = "0"
+        Me.TextEdit12.Location = New System.Drawing.Point(272, 161)
+        Me.TextEdit12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit12.Name = "TextEdit12"
+        Me.TextEdit12.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit12.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit12.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit12.TabIndex = 24
+        '
+        'TextEdit18
+        '
+        Me.TextEdit18.EditValue = "0"
+        Me.TextEdit18.Enabled = False
+        Me.TextEdit18.Location = New System.Drawing.Point(10, 249)
+        Me.TextEdit18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit18.Name = "TextEdit18"
+        Me.TextEdit18.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit18.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit18.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit18.TabIndex = 55
+        '
+        'TextEdit13
+        '
+        Me.TextEdit13.EditValue = "0"
+        Me.TextEdit13.Location = New System.Drawing.Point(400, 161)
+        Me.TextEdit13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit13.Name = "TextEdit13"
+        Me.TextEdit13.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit13.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit13.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit13.TabIndex = 23
+        '
+        'TextEdit14
+        '
+        Me.TextEdit14.EditValue = "0"
+        Me.TextEdit14.Location = New System.Drawing.Point(523, 161)
+        Me.TextEdit14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit14.Name = "TextEdit14"
+        Me.TextEdit14.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit14.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit14.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit14.TabIndex = 22
+        '
+        'TextEdit15
+        '
+        Me.TextEdit15.EditValue = "0"
+        Me.TextEdit15.Location = New System.Drawing.Point(647, 161)
+        Me.TextEdit15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit15.Name = "TextEdit15"
+        Me.TextEdit15.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit15.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit15.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit15.TabIndex = 21
+        '
+        'TextEdit17
+        '
+        Me.TextEdit17.EditValue = "0"
+        Me.TextEdit17.Location = New System.Drawing.Point(895, 161)
+        Me.TextEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit17.Name = "TextEdit17"
+        Me.TextEdit17.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit17.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit17.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit17.TabIndex = 34
+        '
+        'TextEdit16
+        '
+        Me.TextEdit16.EditValue = "0"
+        Me.TextEdit16.Location = New System.Drawing.Point(771, 161)
+        Me.TextEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit16.Name = "TextEdit16"
+        Me.TextEdit16.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit16.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit16.Size = New System.Drawing.Size(107, 23)
+        Me.TextEdit16.TabIndex = 20
+        '
+        'TextEdit9
+        '
+        Me.TextEdit9.EditValue = "0"
+        Me.TextEdit9.Location = New System.Drawing.Point(775, 76)
+        Me.TextEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit9.Name = "TextEdit9"
+        Me.TextEdit9.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit9.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit9.Size = New System.Drawing.Size(117, 23)
+        Me.TextEdit9.TabIndex = 17
+        '
+        'TextEdit8
+        '
+        Me.TextEdit8.EditValue = "0"
+        Me.TextEdit8.Location = New System.Drawing.Point(651, 76)
+        Me.TextEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit8.Name = "TextEdit8"
+        Me.TextEdit8.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit8.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit8.Size = New System.Drawing.Size(117, 23)
+        Me.TextEdit8.TabIndex = 11
+        '
+        'TextEdit7
+        '
+        Me.TextEdit7.EditValue = "0"
+        Me.TextEdit7.Location = New System.Drawing.Point(527, 76)
+        Me.TextEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit7.Name = "TextEdit7"
+        Me.TextEdit7.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit7.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit7.Size = New System.Drawing.Size(117, 23)
+        Me.TextEdit7.TabIndex = 10
+        '
+        'TextEdit4
+        '
+        Me.TextEdit4.Location = New System.Drawing.Point(394, 76)
+        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextEdit4.Name = "TextEdit4"
+        Me.TextEdit4.Size = New System.Drawing.Size(129, 23)
+        Me.TextEdit4.TabIndex = 7
+        '
         'Form144
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(872, 421)
+        Me.ClientSize = New System.Drawing.Size(1017, 518)
         Me.Controls.Add(Me.ListBox4)
         Me.Controls.Add(Me.ListBox3)
         Me.Controls.Add(Me.ListBox2)
@@ -878,10 +922,15 @@ Partial Class Form144
         Me.Controls.Add(Me.TextEdit1)
         Me.Controls.Add(Me.GroupControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form144"
         Me.Text = "ALANSIS KIRAZ GIRDI KONTROL MODULU"
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
+        CType(Me.TextEdit30.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -910,10 +959,6 @@ Partial Class Form144
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit30.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

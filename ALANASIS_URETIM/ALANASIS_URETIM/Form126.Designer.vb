@@ -71,9 +71,9 @@ Partial Class Form126
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(14, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 13)
+        Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Parti No"
         '
@@ -98,79 +98,88 @@ Partial Class Form126
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(24, 94)
+        Me.Label2.Location = New System.Drawing.Point(28, 116)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(36, 13)
+        Me.Label2.Size = New System.Drawing.Size(45, 17)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Detay"
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(15, 110)
+        Me.RichTextBox1.Location = New System.Drawing.Point(17, 135)
+        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(687, 208)
+        Me.RichTextBox1.Size = New System.Drawing.Size(801, 255)
         Me.RichTextBox1.TabIndex = 3
         Me.RichTextBox1.Text = ""
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(15, 324)
+        Me.SimpleButton1.Location = New System.Drawing.Point(17, 399)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(94, 32)
+        Me.SimpleButton1.Size = New System.Drawing.Size(110, 39)
         Me.SimpleButton1.TabIndex = 7
         Me.SimpleButton1.Text = "Kaydet"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(197, 24)
+        Me.TextBox1.Location = New System.Drawing.Point(230, 30)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(30, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(34, 23)
         Me.TextBox1.TabIndex = 8
         Me.TextBox1.Visible = False
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(233, 24)
+        Me.TextBox2.Location = New System.Drawing.Point(272, 30)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(30, 21)
+        Me.TextBox2.Size = New System.Drawing.Size(34, 23)
         Me.TextBox2.TabIndex = 9
         Me.TextBox2.Visible = False
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(269, 24)
+        Me.TextBox3.Location = New System.Drawing.Point(314, 30)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(30, 21)
+        Me.TextBox3.Size = New System.Drawing.Size(34, 23)
         Me.TextBox3.TabIndex = 10
         Me.TextBox3.Visible = False
         '
         'CheckEdit3
         '
-        Me.CheckEdit3.Location = New System.Drawing.Point(240, 65)
+        Me.CheckEdit3.Location = New System.Drawing.Point(280, 80)
+        Me.CheckEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CheckEdit3.Name = "CheckEdit3"
         Me.CheckEdit3.Properties.Caption = "Analiz"
-        Me.CheckEdit3.Size = New System.Drawing.Size(75, 19)
+        Me.CheckEdit3.Size = New System.Drawing.Size(87, 20)
         Me.CheckEdit3.TabIndex = 6
         '
         'CheckEdit2
         '
-        Me.CheckEdit2.Location = New System.Drawing.Point(125, 65)
+        Me.CheckEdit2.Location = New System.Drawing.Point(146, 80)
+        Me.CheckEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CheckEdit2.Name = "CheckEdit2"
         Me.CheckEdit2.Properties.Caption = "Transfer"
-        Me.CheckEdit2.Size = New System.Drawing.Size(75, 19)
+        Me.CheckEdit2.Size = New System.Drawing.Size(87, 20)
         Me.CheckEdit2.TabIndex = 5
         '
         'CheckEdit1
         '
-        Me.CheckEdit1.Location = New System.Drawing.Point(15, 65)
+        Me.CheckEdit1.Location = New System.Drawing.Point(17, 80)
+        Me.CheckEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CheckEdit1.Name = "CheckEdit1"
         Me.CheckEdit1.Properties.Caption = "Çift Şöför"
-        Me.CheckEdit1.Size = New System.Drawing.Size(75, 19)
+        Me.CheckEdit1.Size = New System.Drawing.Size(87, 20)
         Me.CheckEdit1.TabIndex = 4
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(15, 25)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(17, 31)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.DataSource = Me.EOALANSISSATISBindingSource
@@ -179,11 +188,12 @@ Partial Class Form126
         Me.ComboBoxEdit1.Properties.PopupSizeable = False
         Me.ComboBoxEdit1.Properties.PopupView = Me.SearchLookUpEdit1View
         Me.ComboBoxEdit1.Properties.ValueMember = "PARTI"
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(123, 20)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(143, 23)
         Me.ComboBoxEdit1.TabIndex = 0
         '
         'SearchLookUpEdit1View
         '
+        Me.SearchLookUpEdit1View.DetailHeight = 431
         Me.SearchLookUpEdit1View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.SearchLookUpEdit1View.Name = "SearchLookUpEdit1View"
         Me.SearchLookUpEdit1View.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -191,9 +201,9 @@ Partial Class Form126
         '
         'Form126
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(714, 376)
+        Me.ClientSize = New System.Drawing.Size(833, 463)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
@@ -206,6 +216,7 @@ Partial Class Form126
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBoxEdit1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form126"
         Me.Text = "ALANSIS - PARTINO SEVKIYAT DETAY"
         CType(Me.EOALANSISSATISBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

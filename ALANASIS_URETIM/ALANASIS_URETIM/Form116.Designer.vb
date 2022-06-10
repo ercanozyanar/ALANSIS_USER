@@ -197,10 +197,11 @@ Partial Class Form116
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(4, 10)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(5, 12)
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(833, 506)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(972, 623)
         Me.XtraTabControl1.TabIndex = 0
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2, Me.XtraTabPage3})
         '
@@ -224,40 +225,45 @@ Partial Class Form116
         Me.XtraTabPage1.Controls.Add(Me.ComboBoxEdit1)
         Me.XtraTabPage1.Controls.Add(Me.Label1)
         Me.XtraTabPage1.Controls.Add(Me.TextBox1)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(828, 481)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(966, 593)
         Me.XtraTabPage1.Text = "Çin"
         '
         'TextBox28
         '
-        Me.TextBox28.Location = New System.Drawing.Point(330, 200)
+        Me.TextBox28.Location = New System.Drawing.Point(385, 246)
+        Me.TextBox28.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(52, 21)
+        Me.TextBox28.Size = New System.Drawing.Size(60, 23)
         Me.TextBox28.TabIndex = 17
         Me.TextBox28.Visible = False
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(170, 193)
+        Me.SimpleButton2.Location = New System.Drawing.Point(198, 238)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(150, 33)
+        Me.SimpleButton2.Size = New System.Drawing.Size(175, 41)
         Me.SimpleButton2.TabIndex = 16
         Me.SimpleButton2.Text = "Sil"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(13, 193)
+        Me.SimpleButton1.Location = New System.Drawing.Point(15, 238)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(150, 33)
+        Me.SimpleButton1.Size = New System.Drawing.Size(175, 41)
         Me.SimpleButton1.TabIndex = 15
         Me.SimpleButton1.Text = "Kaydet"
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(7, 232)
+        Me.DataGridView1.Location = New System.Drawing.Point(8, 286)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(817, 245)
+        Me.DataGridView1.Size = New System.Drawing.Size(953, 302)
         Me.DataGridView1.TabIndex = 14
         '
         'Panel2
@@ -271,37 +277,40 @@ Partial Class Form116
         Me.Panel2.Controls.Add(Me.Label18)
         Me.Panel2.Controls.Add(Me.Label19)
         Me.Panel2.Controls.Add(Me.Label20)
-        Me.Panel2.Location = New System.Drawing.Point(10, 130)
+        Me.Panel2.Location = New System.Drawing.Point(12, 160)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(804, 54)
+        Me.Panel2.Size = New System.Drawing.Size(938, 66)
         Me.Panel2.TabIndex = 13
         '
         'TextBox26
         '
         Me.TextBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox26.ForeColor = System.Drawing.Color.Black
-        Me.TextBox26.Location = New System.Drawing.Point(472, 5)
+        Me.TextBox26.Location = New System.Drawing.Point(551, 6)
+        Me.TextBox26.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox26.Multiline = True
         Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(329, 44)
+        Me.TextBox26.Size = New System.Drawing.Size(383, 54)
         Me.TextBox26.TabIndex = 16
         '
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(423, 7)
+        Me.Label43.Location = New System.Drawing.Point(493, 9)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(48, 13)
+        Me.Label43.Size = New System.Drawing.Size(60, 17)
         Me.Label43.TabIndex = 15
         Me.Label43.Text = "Açıklama"
         '
         'MaskedTextBox3
         '
         Me.MaskedTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(287, 23)
+        Me.MaskedTextBox3.Location = New System.Drawing.Point(335, 28)
+        Me.MaskedTextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox3.Mask = "00-00-0000"
         Me.MaskedTextBox3.Name = "MaskedTextBox3"
-        Me.MaskedTextBox3.Size = New System.Drawing.Size(133, 21)
+        Me.MaskedTextBox3.Size = New System.Drawing.Size(155, 23)
         Me.MaskedTextBox3.TabIndex = 14
         Me.MaskedTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MaskedTextBox3.ValidatingType = GetType(Date)
@@ -309,10 +318,11 @@ Partial Class Form116
         'MaskedTextBox2
         '
         Me.MaskedTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(148, 23)
+        Me.MaskedTextBox2.Location = New System.Drawing.Point(173, 28)
+        Me.MaskedTextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox2.Mask = "00-00-0000"
         Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(133, 21)
+        Me.MaskedTextBox2.Size = New System.Drawing.Size(155, 23)
         Me.MaskedTextBox2.TabIndex = 13
         Me.MaskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MaskedTextBox2.ValidatingType = GetType(Date)
@@ -320,10 +330,11 @@ Partial Class Form116
         'MaskedTextBox1
         '
         Me.MaskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(9, 23)
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(10, 28)
+        Me.MaskedTextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox1.Mask = "00-00-0000"
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(133, 21)
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(155, 23)
         Me.MaskedTextBox1.TabIndex = 12
         Me.MaskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MaskedTextBox1.ValidatingType = GetType(Date)
@@ -331,26 +342,26 @@ Partial Class Form116
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(303, 7)
+        Me.Label18.Location = New System.Drawing.Point(353, 9)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(100, 13)
+        Me.Label18.Size = New System.Drawing.Size(123, 17)
         Me.Label18.TabIndex = 11
         Me.Label18.Text = "Üretici Kayıt Defteri"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(199, 7)
+        Me.Label19.Location = New System.Drawing.Point(232, 9)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(34, 13)
+        Me.Label19.Size = New System.Drawing.Size(42, 17)
         Me.Label19.TabIndex = 9
         Me.Label19.Text = "GGAP"
         '
         'Label20
         '
-        Me.Label20.Location = New System.Drawing.Point(3, 7)
+        Me.Label20.Location = New System.Drawing.Point(3, 9)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(151, 13)
+        Me.Label20.Size = New System.Drawing.Size(176, 16)
         Me.Label20.TabIndex = 7
         Me.Label20.Text = "GRASP"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -372,17 +383,18 @@ Partial Class Form116
         Me.Panel1.Controls.Add(Me.TextBox4)
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.TextBox3)
-        Me.Panel1.Location = New System.Drawing.Point(10, 70)
+        Me.Panel1.Location = New System.Drawing.Point(12, 86)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(807, 54)
+        Me.Panel1.Size = New System.Drawing.Size(941, 66)
         Me.Panel1.TabIndex = 12
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(624, 7)
+        Me.Label13.Location = New System.Drawing.Point(728, 9)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(38, 13)
+        Me.Label13.Size = New System.Drawing.Size(51, 17)
         Me.Label13.TabIndex = 19
         Me.Label13.Text = "Durum"
         '
@@ -390,18 +402,19 @@ Partial Class Form116
         '
         Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox9.ForeColor = System.Drawing.Color.Black
-        Me.TextBox9.Location = New System.Drawing.Point(598, 22)
+        Me.TextBox9.Location = New System.Drawing.Point(698, 27)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(112, 21)
+        Me.TextBox9.Size = New System.Drawing.Size(130, 23)
         Me.TextBox9.TabIndex = 18
         Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(537, 7)
+        Me.Label12.Location = New System.Drawing.Point(626, 9)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(55, 13)
+        Me.Label12.Size = New System.Drawing.Size(68, 17)
         Me.Label12.TabIndex = 17
         Me.Label12.Text = "Geçilen %"
         '
@@ -409,18 +422,19 @@ Partial Class Form116
         '
         Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox8.ForeColor = System.Drawing.Color.Black
-        Me.TextBox8.Location = New System.Drawing.Point(540, 22)
+        Me.TextBox8.Location = New System.Drawing.Point(630, 27)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(52, 21)
+        Me.TextBox8.Size = New System.Drawing.Size(60, 23)
         Me.TextBox8.TabIndex = 16
         Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(469, 7)
+        Me.Label11.Location = New System.Drawing.Point(547, 9)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(33, 13)
+        Me.Label11.Size = New System.Drawing.Size(40, 17)
         Me.Label11.TabIndex = 15
         Me.Label11.Text = "Kalan"
         '
@@ -428,18 +442,19 @@ Partial Class Form116
         '
         Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox7.ForeColor = System.Drawing.Color.Black
-        Me.TextBox7.Location = New System.Drawing.Point(439, 22)
+        Me.TextBox7.Location = New System.Drawing.Point(512, 27)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(95, 21)
+        Me.TextBox7.Size = New System.Drawing.Size(110, 23)
         Me.TextBox7.TabIndex = 14
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(361, 7)
+        Me.Label10.Location = New System.Drawing.Point(421, 9)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(42, 13)
+        Me.Label10.Size = New System.Drawing.Size(52, 17)
         Me.Label10.TabIndex = 13
         Me.Label10.Text = "Sevkler"
         '
@@ -447,18 +462,19 @@ Partial Class Form116
         '
         Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox6.ForeColor = System.Drawing.Color.Black
-        Me.TextBox6.Location = New System.Drawing.Point(338, 22)
+        Me.TextBox6.Location = New System.Drawing.Point(394, 27)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(95, 21)
+        Me.TextBox6.Size = New System.Drawing.Size(110, 23)
         Me.TextBox6.TabIndex = 12
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(260, 7)
+        Me.Label9.Location = New System.Drawing.Point(303, 9)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(48, 13)
+        Me.Label9.Size = New System.Drawing.Size(58, 17)
         Me.Label9.TabIndex = 11
         Me.Label9.Text = "Kapasite"
         '
@@ -466,18 +482,19 @@ Partial Class Form116
         '
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox5.ForeColor = System.Drawing.Color.Black
-        Me.TextBox5.Location = New System.Drawing.Point(237, 22)
+        Me.TextBox5.Location = New System.Drawing.Point(276, 27)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(95, 21)
+        Me.TextBox5.Size = New System.Drawing.Size(110, 23)
         Me.TextBox5.TabIndex = 10
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(171, 7)
+        Me.Label8.Location = New System.Drawing.Point(199, 9)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(39, 13)
+        Me.Label8.Size = New System.Drawing.Size(48, 17)
         Me.Label8.TabIndex = 9
         Me.Label8.Text = "Hektar"
         '
@@ -485,17 +502,18 @@ Partial Class Form116
         '
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox4.ForeColor = System.Drawing.Color.Black
-        Me.TextBox4.Location = New System.Drawing.Point(160, 22)
+        Me.TextBox4.Location = New System.Drawing.Point(187, 27)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(70, 21)
+        Me.TextBox4.Size = New System.Drawing.Size(81, 23)
         Me.TextBox4.TabIndex = 8
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label7
         '
-        Me.Label7.Location = New System.Drawing.Point(3, 7)
+        Me.Label7.Location = New System.Drawing.Point(3, 9)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(151, 13)
+        Me.Label7.Size = New System.Drawing.Size(176, 16)
         Me.Label7.TabIndex = 7
         Me.Label7.Text = "Analiz Sonucu"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -504,71 +522,75 @@ Partial Class Form116
         '
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox3.ForeColor = System.Drawing.Color.Black
-        Me.TextBox3.Location = New System.Drawing.Point(3, 22)
+        Me.TextBox3.Location = New System.Drawing.Point(3, 27)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(151, 21)
+        Me.TextBox3.Size = New System.Drawing.Size(176, 23)
         Me.TextBox3.TabIndex = 6
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ComboBoxEdit4
         '
-        Me.ComboBoxEdit4.Location = New System.Drawing.Point(678, 38)
+        Me.ComboBoxEdit4.Location = New System.Drawing.Point(791, 47)
+        Me.ComboBoxEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
         Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit4.Properties.Items.AddRange(New Object() {"ÇANAKKALE", "MANISA", "AFYON", "SALIHLI"})
-        Me.ComboBoxEdit4.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit4.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit4.TabIndex = 11
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(675, 22)
+        Me.Label6.Location = New System.Drawing.Point(787, 27)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(33, 13)
+        Me.Label6.Size = New System.Drawing.Size(41, 17)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "Bölge"
         '
         'ComboBoxEdit3
         '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(533, 38)
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(622, 47)
+        Me.ComboBoxEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
         Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit3.Properties.Items.AddRange(New Object() {"EZİNE", "SULTANDAĞI", "KULA", "KÖPRÜBAŞI", "SALİHLİ", "GÖRDES"})
-        Me.ComboBoxEdit3.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit3.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit3.TabIndex = 9
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(530, 20)
+        Me.Label5.Location = New System.Drawing.Point(618, 25)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(25, 13)
+        Me.Label5.Size = New System.Drawing.Size(32, 17)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Köy"
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(388, 38)
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(453, 47)
+        Me.ComboBoxEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"ALANAR MEYVE A.Ş", "FUAT OKAN AYDIN ", "AA TARIM", "EBA", "ORKİ", "NATURA"})
-        Me.ComboBoxEdit2.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit2.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit2.TabIndex = 7
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(385, 22)
+        Me.Label4.Location = New System.Drawing.Point(449, 27)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(37, 13)
+        Me.Label4.Size = New System.Drawing.Size(45, 17)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Üretici"
         '
         'Label3
         '
-        Me.Label3.Location = New System.Drawing.Point(231, 24)
+        Me.Label3.Location = New System.Drawing.Point(269, 30)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(151, 13)
+        Me.Label3.Size = New System.Drawing.Size(176, 16)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "GGN"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -577,35 +599,37 @@ Partial Class Form116
         '
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox2.ForeColor = System.Drawing.Color.Black
-        Me.TextBox2.Location = New System.Drawing.Point(231, 39)
+        Me.TextBox2.Location = New System.Drawing.Point(269, 48)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(151, 21)
+        Me.TextBox2.Size = New System.Drawing.Size(176, 23)
         Me.TextBox2.TabIndex = 4
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(166, 24)
+        Me.Label2.Location = New System.Drawing.Point(194, 30)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 13)
+        Me.Label2.Size = New System.Drawing.Size(61, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "TN Kodu"
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(10, 40)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(12, 49)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"Kiraz", "Kayısı", "Erik"})
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit1.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(7, 24)
+        Me.Label1.Location = New System.Drawing.Point(8, 30)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(30, 13)
+        Me.Label1.Size = New System.Drawing.Size(38, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Ürün"
         '
@@ -613,9 +637,10 @@ Partial Class Form116
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.ForeColor = System.Drawing.Color.Black
-        Me.TextBox1.Location = New System.Drawing.Point(155, 39)
+        Me.TextBox1.Location = New System.Drawing.Point(181, 48)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(70, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(81, 23)
         Me.TextBox1.TabIndex = 0
         '
         'XtraTabPage2
@@ -626,39 +651,44 @@ Partial Class Form116
         Me.XtraTabPage2.Controls.Add(Me.SimpleButton4)
         Me.XtraTabPage2.Controls.Add(Me.Panel4)
         Me.XtraTabPage2.Controls.Add(Me.Panel3)
+        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(828, 481)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(966, 593)
         Me.XtraTabPage2.Text = "Yüklemeler"
         '
         'TextBox29
         '
-        Me.TextBox29.Location = New System.Drawing.Point(320, 132)
+        Me.TextBox29.Location = New System.Drawing.Point(373, 162)
+        Me.TextBox29.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(52, 21)
+        Me.TextBox29.Size = New System.Drawing.Size(60, 23)
         Me.TextBox29.TabIndex = 20
         Me.TextBox29.Visible = False
         '
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(7, 171)
+        Me.DataGridView2.Location = New System.Drawing.Point(8, 210)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(815, 306)
+        Me.DataGridView2.Size = New System.Drawing.Size(951, 377)
         Me.DataGridView2.TabIndex = 19
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(164, 132)
+        Me.SimpleButton3.Location = New System.Drawing.Point(191, 162)
+        Me.SimpleButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(150, 33)
+        Me.SimpleButton3.Size = New System.Drawing.Size(175, 41)
         Me.SimpleButton3.TabIndex = 18
         Me.SimpleButton3.Text = "Sil"
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(7, 132)
+        Me.SimpleButton4.Location = New System.Drawing.Point(8, 162)
+        Me.SimpleButton4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(150, 33)
+        Me.SimpleButton4.Size = New System.Drawing.Size(175, 41)
         Me.SimpleButton4.TabIndex = 17
         Me.SimpleButton4.Text = "Kaydet"
         '
@@ -675,87 +705,93 @@ Partial Class Form116
         Me.Panel4.Controls.Add(Me.Label16)
         Me.Panel4.Controls.Add(Me.Label24)
         Me.Panel4.Controls.Add(Me.Label26)
-        Me.Panel4.Location = New System.Drawing.Point(7, 72)
+        Me.Panel4.Location = New System.Drawing.Point(8, 89)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(807, 54)
+        Me.Panel4.Size = New System.Drawing.Size(941, 66)
         Me.Panel4.TabIndex = 14
         '
         'TextEdit17
         '
-        Me.TextEdit17.Location = New System.Drawing.Point(686, 24)
+        Me.TextEdit17.Location = New System.Drawing.Point(800, 30)
+        Me.TextEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit17.Name = "TextEdit17"
-        Me.TextEdit17.Size = New System.Drawing.Size(114, 20)
+        Me.TextEdit17.Size = New System.Drawing.Size(133, 23)
         Me.TextEdit17.TabIndex = 28
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(727, 6)
+        Me.Label25.Location = New System.Drawing.Point(848, 7)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(29, 13)
+        Me.Label25.Size = New System.Drawing.Size(35, 17)
         Me.Label25.TabIndex = 24
         Me.Label25.Text = "Saat"
         '
         'TextEdit16
         '
-        Me.TextEdit16.Location = New System.Drawing.Point(495, 24)
+        Me.TextEdit16.Location = New System.Drawing.Point(577, 30)
+        Me.TextEdit16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit16.Name = "TextEdit16"
-        Me.TextEdit16.Size = New System.Drawing.Size(185, 20)
+        Me.TextEdit16.Size = New System.Drawing.Size(216, 23)
         Me.TextEdit16.TabIndex = 27
         '
         'TextEdit15
         '
-        Me.TextEdit15.Location = New System.Drawing.Point(410, 24)
+        Me.TextEdit15.Location = New System.Drawing.Point(478, 30)
+        Me.TextEdit15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit15.Name = "TextEdit15"
-        Me.TextEdit15.Size = New System.Drawing.Size(79, 20)
+        Me.TextEdit15.Size = New System.Drawing.Size(92, 23)
         Me.TextEdit15.TabIndex = 26
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(567, 7)
+        Me.Label15.Location = New System.Drawing.Point(661, 9)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(32, 13)
+        Me.Label15.Size = New System.Drawing.Size(39, 17)
         Me.Label15.TabIndex = 22
         Me.Label15.Text = "Plaka"
         '
         'TextEdit14
         '
-        Me.TextEdit14.Location = New System.Drawing.Point(221, 24)
+        Me.TextEdit14.Location = New System.Drawing.Point(258, 30)
+        Me.TextEdit14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit14.Name = "TextEdit14"
-        Me.TextEdit14.Size = New System.Drawing.Size(183, 20)
+        Me.TextEdit14.Size = New System.Drawing.Size(213, 23)
         Me.TextEdit14.TabIndex = 25
         '
         'TextEdit13
         '
-        Me.TextEdit13.Location = New System.Drawing.Point(6, 22)
+        Me.TextEdit13.Location = New System.Drawing.Point(7, 27)
+        Me.TextEdit13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit13.Name = "TextEdit13"
-        Me.TextEdit13.Size = New System.Drawing.Size(209, 20)
+        Me.TextEdit13.Size = New System.Drawing.Size(244, 23)
         Me.TextEdit13.TabIndex = 24
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(428, 7)
+        Me.Label16.Location = New System.Drawing.Point(499, 9)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(43, 13)
+        Me.Label16.Size = New System.Drawing.Size(53, 17)
         Me.Label16.TabIndex = 13
         Me.Label16.Text = "Net Kg."
         '
         'Label24
         '
-        Me.Label24.Location = New System.Drawing.Point(218, 7)
+        Me.Label24.Location = New System.Drawing.Point(254, 9)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(186, 13)
+        Me.Label24.Size = New System.Drawing.Size(217, 16)
         Me.Label24.TabIndex = 11
         Me.Label24.Text = "GGN"
         Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label26
         '
-        Me.Label26.Location = New System.Drawing.Point(6, 7)
+        Me.Label26.Location = New System.Drawing.Point(7, 9)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(133, 13)
+        Me.Label26.Size = New System.Drawing.Size(155, 16)
         Me.Label26.TabIndex = 7
         Me.Label26.Text = "Üretici"
         Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -773,35 +809,38 @@ Partial Class Form116
         Me.Panel3.Controls.Add(Me.Label22)
         Me.Panel3.Controls.Add(Me.Label23)
         Me.Panel3.Controls.Add(Me.ComboBoxEdit10)
-        Me.Panel3.Location = New System.Drawing.Point(7, 12)
+        Me.Panel3.Location = New System.Drawing.Point(8, 15)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(807, 54)
+        Me.Panel3.Size = New System.Drawing.Size(941, 66)
         Me.Panel3.TabIndex = 13
         '
         'ComboBoxEdit5
         '
-        Me.ComboBoxEdit5.Location = New System.Drawing.Point(686, 24)
+        Me.ComboBoxEdit5.Location = New System.Drawing.Point(800, 30)
+        Me.ComboBoxEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit5.Name = "ComboBoxEdit5"
         Me.ComboBoxEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit5.Size = New System.Drawing.Size(114, 20)
+        Me.ComboBoxEdit5.Size = New System.Drawing.Size(133, 23)
         Me.ComboBoxEdit5.TabIndex = 22
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(683, 5)
+        Me.Label14.Location = New System.Drawing.Point(797, 6)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(30, 13)
+        Me.Label14.Size = New System.Drawing.Size(38, 17)
         Me.Label14.TabIndex = 21
         Me.Label14.Text = "Ürün"
         '
         'MaskedTextBox4
         '
         Me.MaskedTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(6, 23)
+        Me.MaskedTextBox4.Location = New System.Drawing.Point(7, 28)
+        Me.MaskedTextBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox4.Mask = "00-00-0000"
         Me.MaskedTextBox4.Name = "MaskedTextBox4"
-        Me.MaskedTextBox4.Size = New System.Drawing.Size(133, 21)
+        Me.MaskedTextBox4.Size = New System.Drawing.Size(155, 23)
         Me.MaskedTextBox4.TabIndex = 20
         Me.MaskedTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MaskedTextBox4.ValidatingType = GetType(Date)
@@ -809,56 +848,59 @@ Partial Class Form116
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(319, 6)
+        Me.Label17.Location = New System.Drawing.Point(372, 7)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(42, 13)
+        Me.Label17.Size = New System.Drawing.Size(51, 17)
         Me.Label17.TabIndex = 13
         Me.Label17.Text = "Müşteri"
         '
         'TextEdit12
         '
-        Me.TextEdit12.Location = New System.Drawing.Point(322, 24)
+        Me.TextEdit12.Location = New System.Drawing.Point(376, 30)
+        Me.TextEdit12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit12.Name = "TextEdit12"
-        Me.TextEdit12.Size = New System.Drawing.Size(358, 20)
+        Me.TextEdit12.Size = New System.Drawing.Size(418, 23)
         Me.TextEdit12.TabIndex = 23
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(239, 7)
+        Me.Label21.Location = New System.Drawing.Point(279, 9)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(45, 13)
+        Me.Label21.Size = New System.Drawing.Size(56, 17)
         Me.Label21.TabIndex = 11
         Me.Label21.Text = "Parti No"
         '
         'TextEdit10
         '
-        Me.TextEdit10.Location = New System.Drawing.Point(145, 24)
+        Me.TextEdit10.Location = New System.Drawing.Point(169, 30)
+        Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Size = New System.Drawing.Size(70, 20)
+        Me.TextEdit10.Size = New System.Drawing.Size(82, 23)
         Me.TextEdit10.TabIndex = 21
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(162, 7)
+        Me.Label22.Location = New System.Drawing.Point(189, 9)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(31, 13)
+        Me.Label22.Size = New System.Drawing.Size(37, 17)
         Me.Label22.TabIndex = 9
         Me.Label22.Text = "Palet"
         '
         'Label23
         '
-        Me.Label23.Location = New System.Drawing.Point(6, 7)
+        Me.Label23.Location = New System.Drawing.Point(7, 9)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(133, 13)
+        Me.Label23.Size = New System.Drawing.Size(155, 16)
         Me.Label23.TabIndex = 7
         Me.Label23.Text = "Tarih"
         Me.Label23.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ComboBoxEdit10
         '
-        Me.ComboBoxEdit10.Location = New System.Drawing.Point(216, 24)
+        Me.ComboBoxEdit10.Location = New System.Drawing.Point(252, 30)
+        Me.ComboBoxEdit10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit10.Name = "ComboBoxEdit10"
         Me.ComboBoxEdit10.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit10.Properties.DataSource = Me.EOALANSISSATISBindingSource
@@ -867,7 +909,7 @@ Partial Class Form116
         Me.ComboBoxEdit10.Properties.PopupSizeable = False
         Me.ComboBoxEdit10.Properties.PopupView = Me.SearchLookUpEdit1View
         Me.ComboBoxEdit10.Properties.ValueMember = "PARTI"
-        Me.ComboBoxEdit10.Size = New System.Drawing.Size(100, 20)
+        Me.ComboBoxEdit10.Size = New System.Drawing.Size(117, 23)
         Me.ComboBoxEdit10.TabIndex = 21
         '
         'EOALANSISSATISBindingSource
@@ -887,6 +929,7 @@ Partial Class Form116
         '
         'SearchLookUpEdit1View
         '
+        Me.SearchLookUpEdit1View.DetailHeight = 431
         Me.SearchLookUpEdit1View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
         Me.SearchLookUpEdit1View.Name = "SearchLookUpEdit1View"
         Me.SearchLookUpEdit1View.OptionsSelection.EnableAppearanceFocusedCell = False
@@ -912,29 +955,33 @@ Partial Class Form116
         Me.XtraTabPage3.Controls.Add(Me.SimpleButton5)
         Me.XtraTabPage3.Controls.Add(Me.SimpleButton6)
         Me.XtraTabPage3.Controls.Add(Me.DataGridView3)
+        Me.XtraTabPage3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(828, 481)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(966, 593)
         Me.XtraTabPage3.Text = "Kapasite"
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(231, 29)
+        Me.TextEdit2.Location = New System.Drawing.Point(269, 36)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(151, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(176, 23)
         Me.TextEdit2.TabIndex = 50
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(155, 29)
+        Me.TextEdit1.Location = New System.Drawing.Point(181, 36)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(70, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(82, 23)
         Me.TextEdit1.TabIndex = 49
         '
         'TextBox30
         '
-        Me.TextBox30.Location = New System.Drawing.Point(361, 189)
+        Me.TextBox30.Location = New System.Drawing.Point(421, 233)
+        Me.TextBox30.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(52, 21)
+        Me.TextBox30.Size = New System.Drawing.Size(60, 23)
         Me.TextBox30.TabIndex = 48
         Me.TextBox30.Visible = False
         '
@@ -949,37 +996,40 @@ Partial Class Form116
         Me.Panel5.Controls.Add(Me.Label28)
         Me.Panel5.Controls.Add(Me.Label29)
         Me.Panel5.Controls.Add(Me.Label30)
-        Me.Panel5.Location = New System.Drawing.Point(10, 119)
+        Me.Panel5.Location = New System.Drawing.Point(12, 146)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(804, 54)
+        Me.Panel5.Size = New System.Drawing.Size(938, 66)
         Me.Panel5.TabIndex = 47
         '
         'TextBox17
         '
         Me.TextBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox17.ForeColor = System.Drawing.Color.Black
-        Me.TextBox17.Location = New System.Drawing.Point(472, 5)
+        Me.TextBox17.Location = New System.Drawing.Point(551, 6)
+        Me.TextBox17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox17.Multiline = True
         Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(329, 44)
+        Me.TextBox17.Size = New System.Drawing.Size(383, 54)
         Me.TextBox17.TabIndex = 16
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(423, 7)
+        Me.Label27.Location = New System.Drawing.Point(493, 9)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(48, 13)
+        Me.Label27.Size = New System.Drawing.Size(60, 17)
         Me.Label27.TabIndex = 15
         Me.Label27.Text = "Açıklama"
         '
         'MaskedTextBox6
         '
         Me.MaskedTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MaskedTextBox6.Location = New System.Drawing.Point(287, 23)
+        Me.MaskedTextBox6.Location = New System.Drawing.Point(335, 28)
+        Me.MaskedTextBox6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox6.Mask = "00-00-0000"
         Me.MaskedTextBox6.Name = "MaskedTextBox6"
-        Me.MaskedTextBox6.Size = New System.Drawing.Size(133, 21)
+        Me.MaskedTextBox6.Size = New System.Drawing.Size(155, 23)
         Me.MaskedTextBox6.TabIndex = 14
         Me.MaskedTextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MaskedTextBox6.ValidatingType = GetType(Date)
@@ -987,10 +1037,11 @@ Partial Class Form116
         'MaskedTextBox7
         '
         Me.MaskedTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MaskedTextBox7.Location = New System.Drawing.Point(148, 23)
+        Me.MaskedTextBox7.Location = New System.Drawing.Point(173, 28)
+        Me.MaskedTextBox7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox7.Mask = "00-00-0000"
         Me.MaskedTextBox7.Name = "MaskedTextBox7"
-        Me.MaskedTextBox7.Size = New System.Drawing.Size(133, 21)
+        Me.MaskedTextBox7.Size = New System.Drawing.Size(155, 23)
         Me.MaskedTextBox7.TabIndex = 13
         Me.MaskedTextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MaskedTextBox7.ValidatingType = GetType(Date)
@@ -998,10 +1049,11 @@ Partial Class Form116
         'MaskedTextBox8
         '
         Me.MaskedTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MaskedTextBox8.Location = New System.Drawing.Point(9, 23)
+        Me.MaskedTextBox8.Location = New System.Drawing.Point(10, 28)
+        Me.MaskedTextBox8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox8.Mask = "00-00-0000"
         Me.MaskedTextBox8.Name = "MaskedTextBox8"
-        Me.MaskedTextBox8.Size = New System.Drawing.Size(133, 21)
+        Me.MaskedTextBox8.Size = New System.Drawing.Size(155, 23)
         Me.MaskedTextBox8.TabIndex = 12
         Me.MaskedTextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MaskedTextBox8.ValidatingType = GetType(Date)
@@ -1009,26 +1061,26 @@ Partial Class Form116
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(303, 7)
+        Me.Label28.Location = New System.Drawing.Point(353, 9)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(100, 13)
+        Me.Label28.Size = New System.Drawing.Size(123, 17)
         Me.Label28.TabIndex = 11
         Me.Label28.Text = "Üretici Kayıt Defteri"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(199, 7)
+        Me.Label29.Location = New System.Drawing.Point(232, 9)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(34, 13)
+        Me.Label29.Size = New System.Drawing.Size(42, 17)
         Me.Label29.TabIndex = 9
         Me.Label29.Text = "GGAP"
         '
         'Label30
         '
-        Me.Label30.Location = New System.Drawing.Point(3, 7)
+        Me.Label30.Location = New System.Drawing.Point(3, 9)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(151, 13)
+        Me.Label30.Size = New System.Drawing.Size(176, 16)
         Me.Label30.TabIndex = 7
         Me.Label30.Text = "GRASP"
         Me.Label30.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -1050,182 +1102,193 @@ Partial Class Form116
         Me.Panel6.Controls.Add(Me.Label35)
         Me.Panel6.Controls.Add(Me.Label36)
         Me.Panel6.Controls.Add(Me.Label37)
-        Me.Panel6.Location = New System.Drawing.Point(10, 59)
+        Me.Panel6.Location = New System.Drawing.Point(12, 73)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(807, 54)
+        Me.Panel6.Size = New System.Drawing.Size(941, 66)
         Me.Panel6.TabIndex = 46
         '
         'TextEdit9
         '
-        Me.TextEdit9.Location = New System.Drawing.Point(598, 23)
+        Me.TextEdit9.Location = New System.Drawing.Point(698, 28)
+        Me.TextEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Size = New System.Drawing.Size(112, 20)
+        Me.TextEdit9.Size = New System.Drawing.Size(131, 23)
         Me.TextEdit9.TabIndex = 57
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(624, 7)
+        Me.Label31.Location = New System.Drawing.Point(728, 9)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(38, 13)
+        Me.Label31.Size = New System.Drawing.Size(51, 17)
         Me.Label31.TabIndex = 19
         Me.Label31.Text = "Durum"
         '
         'TextEdit8
         '
-        Me.TextEdit8.Location = New System.Drawing.Point(540, 23)
+        Me.TextEdit8.Location = New System.Drawing.Point(630, 28)
+        Me.TextEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Size = New System.Drawing.Size(52, 20)
+        Me.TextEdit8.Size = New System.Drawing.Size(61, 23)
         Me.TextEdit8.TabIndex = 56
         '
         'TextEdit7
         '
-        Me.TextEdit7.Location = New System.Drawing.Point(439, 23)
+        Me.TextEdit7.Location = New System.Drawing.Point(512, 28)
+        Me.TextEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Size = New System.Drawing.Size(95, 20)
+        Me.TextEdit7.Size = New System.Drawing.Size(111, 23)
         Me.TextEdit7.TabIndex = 55
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(537, 7)
+        Me.Label32.Location = New System.Drawing.Point(626, 9)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(55, 13)
+        Me.Label32.Size = New System.Drawing.Size(68, 17)
         Me.Label32.TabIndex = 17
         Me.Label32.Text = "Geçilen %"
         '
         'TextEdit6
         '
-        Me.TextEdit6.Location = New System.Drawing.Point(338, 23)
+        Me.TextEdit6.Location = New System.Drawing.Point(394, 28)
+        Me.TextEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Size = New System.Drawing.Size(95, 20)
+        Me.TextEdit6.Size = New System.Drawing.Size(111, 23)
         Me.TextEdit6.TabIndex = 54
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(236, 23)
+        Me.TextEdit5.Location = New System.Drawing.Point(275, 28)
+        Me.TextEdit5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Size = New System.Drawing.Size(95, 20)
+        Me.TextEdit5.Size = New System.Drawing.Size(111, 23)
         Me.TextEdit5.TabIndex = 53
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(469, 7)
+        Me.Label33.Location = New System.Drawing.Point(547, 9)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(33, 13)
+        Me.Label33.Size = New System.Drawing.Size(40, 17)
         Me.Label33.TabIndex = 15
         Me.Label33.Text = "Kalan"
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(159, 23)
+        Me.TextEdit4.Location = New System.Drawing.Point(185, 28)
+        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Size = New System.Drawing.Size(71, 20)
+        Me.TextEdit4.Size = New System.Drawing.Size(83, 23)
         Me.TextEdit4.TabIndex = 52
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(3, 23)
+        Me.TextEdit3.Location = New System.Drawing.Point(3, 28)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(151, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(176, 23)
         Me.TextEdit3.TabIndex = 51
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(361, 7)
+        Me.Label34.Location = New System.Drawing.Point(421, 9)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(42, 13)
+        Me.Label34.Size = New System.Drawing.Size(52, 17)
         Me.Label34.TabIndex = 13
         Me.Label34.Text = "Sevkler"
         '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(260, 7)
+        Me.Label35.Location = New System.Drawing.Point(303, 9)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(48, 13)
+        Me.Label35.Size = New System.Drawing.Size(58, 17)
         Me.Label35.TabIndex = 11
         Me.Label35.Text = "Kapasite"
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(171, 7)
+        Me.Label36.Location = New System.Drawing.Point(199, 9)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(39, 13)
+        Me.Label36.Size = New System.Drawing.Size(48, 17)
         Me.Label36.TabIndex = 9
         Me.Label36.Text = "Hektar"
         '
         'Label37
         '
-        Me.Label37.Location = New System.Drawing.Point(3, 7)
+        Me.Label37.Location = New System.Drawing.Point(3, 9)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(151, 13)
+        Me.Label37.Size = New System.Drawing.Size(176, 16)
         Me.Label37.TabIndex = 7
         Me.Label37.Text = "Analiz Sonucu"
         Me.Label37.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ComboBoxEdit6
         '
-        Me.ComboBoxEdit6.Location = New System.Drawing.Point(678, 29)
+        Me.ComboBoxEdit6.Location = New System.Drawing.Point(791, 36)
+        Me.ComboBoxEdit6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
         Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit6.Properties.Items.AddRange(New Object() {"ÇANAKKALE", "MANISA", "AFYON", "SALIHLI", "AKŞEHİR-KONYA", "BURDUR", "KONYA", "MALATYA", "MERSİN"})
-        Me.ComboBoxEdit6.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit6.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit6.TabIndex = 45
         '
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(675, 11)
+        Me.Label38.Location = New System.Drawing.Point(787, 14)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(33, 13)
+        Me.Label38.Size = New System.Drawing.Size(41, 17)
         Me.Label38.TabIndex = 44
         Me.Label38.Text = "Bölge"
         '
         'ComboBoxEdit7
         '
-        Me.ComboBoxEdit7.Location = New System.Drawing.Point(533, 29)
+        Me.ComboBoxEdit7.Location = New System.Drawing.Point(622, 36)
+        Me.ComboBoxEdit7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
         Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit7.Properties.Items.AddRange(New Object() {"EZİNE", "SULTANDAĞI", "KULA", "KÖPRÜBAŞI", "SALİHLİ", "GÖRDES", "ARMUTLU", "AŞAĞIMAHALLE", "AŞAĞIYEŞİLÇİFTLİK", "ATLILAR", "BAHÇELİEVLER-KIRCA", "BOZKÖY", "ÇAMÖZÜ", "ÇEŞMEBAŞI-BOZKÖY"})
-        Me.ComboBoxEdit7.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit7.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit7.TabIndex = 43
         '
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(530, 9)
+        Me.Label39.Location = New System.Drawing.Point(618, 11)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(25, 13)
+        Me.Label39.Size = New System.Drawing.Size(32, 17)
         Me.Label39.TabIndex = 42
         Me.Label39.Text = "Köy"
         '
         'ComboBoxEdit8
         '
-        Me.ComboBoxEdit8.Location = New System.Drawing.Point(388, 29)
+        Me.ComboBoxEdit8.Location = New System.Drawing.Point(453, 36)
+        Me.ComboBoxEdit8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
         Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit8.Properties.Items.AddRange(New Object() {"ALANAR MEYVE A.Ş", "FUAT OKAN AYDIN ", "AA TARIM", "EBA", "ORKİ", "NATURA"})
-        Me.ComboBoxEdit8.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit8.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit8.TabIndex = 41
         '
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(385, 11)
+        Me.Label40.Location = New System.Drawing.Point(449, 14)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(37, 13)
+        Me.Label40.Size = New System.Drawing.Size(45, 17)
         Me.Label40.TabIndex = 40
         Me.Label40.Text = "Üretici"
         '
         'Label41
         '
-        Me.Label41.Location = New System.Drawing.Point(231, 13)
+        Me.Label41.Location = New System.Drawing.Point(269, 16)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(151, 13)
+        Me.Label41.Size = New System.Drawing.Size(176, 16)
         Me.Label41.TabIndex = 39
         Me.Label41.Text = "GGN"
         Me.Label41.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -1233,52 +1296,56 @@ Partial Class Form116
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(166, 13)
+        Me.Label42.Location = New System.Drawing.Point(194, 16)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(47, 13)
+        Me.Label42.Size = New System.Drawing.Size(61, 17)
         Me.Label42.TabIndex = 37
         Me.Label42.Text = "TN Kodu"
         '
         'ComboBoxEdit9
         '
-        Me.ComboBoxEdit9.Location = New System.Drawing.Point(10, 29)
+        Me.ComboBoxEdit9.Location = New System.Drawing.Point(12, 36)
+        Me.ComboBoxEdit9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit9.Name = "ComboBoxEdit9"
         Me.ComboBoxEdit9.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit9.Properties.Items.AddRange(New Object() {"Kiraz", "Kayısı", "Erik"})
-        Me.ComboBoxEdit9.Size = New System.Drawing.Size(139, 20)
+        Me.ComboBoxEdit9.Size = New System.Drawing.Size(162, 23)
         Me.ComboBoxEdit9.TabIndex = 36
         '
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(7, 13)
+        Me.Label44.Location = New System.Drawing.Point(8, 16)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(30, 13)
+        Me.Label44.Size = New System.Drawing.Size(38, 17)
         Me.Label44.TabIndex = 35
         Me.Label44.Text = "Ürün"
         '
         'SimpleButton5
         '
-        Me.SimpleButton5.Location = New System.Drawing.Point(167, 189)
+        Me.SimpleButton5.Location = New System.Drawing.Point(195, 233)
+        Me.SimpleButton5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(150, 33)
+        Me.SimpleButton5.Size = New System.Drawing.Size(175, 41)
         Me.SimpleButton5.TabIndex = 33
         Me.SimpleButton5.Text = "Sil"
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(10, 189)
+        Me.SimpleButton6.Location = New System.Drawing.Point(12, 233)
+        Me.SimpleButton6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(150, 33)
+        Me.SimpleButton6.Size = New System.Drawing.Size(175, 41)
         Me.SimpleButton6.TabIndex = 32
         Me.SimpleButton6.Text = "Kaydet"
         '
         'DataGridView3
         '
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView3.Location = New System.Drawing.Point(10, 238)
+        Me.DataGridView3.Location = New System.Drawing.Point(12, 293)
+        Me.DataGridView3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView3.Name = "DataGridView3"
-        Me.DataGridView3.Size = New System.Drawing.Size(801, 239)
+        Me.DataGridView3.Size = New System.Drawing.Size(934, 294)
         Me.DataGridView3.TabIndex = 31
         '
         'eO_ALANSIS_SATIS_DETAYBindingSource
@@ -1302,11 +1369,12 @@ Partial Class Form116
         '
         'Form116
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(841, 520)
+        Me.ClientSize = New System.Drawing.Size(981, 640)
         Me.Controls.Add(Me.XtraTabControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form116"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ALANSIS - GGN MODULU"

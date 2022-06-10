@@ -90,7 +90,7 @@ Public Class Form181
             Form144.TextEdit30.Text = reader21("ANALIZ_TARIH").ToString()
             Form144.ComboBoxEdit1.Text = reader21("VARDIYA").ToString()
             Form144.TextEdit2.Text = reader21("TESIS").ToString()
-            Form144.TextEdit3.Text = reader21("UBT_KODU").ToString()
+            'Form144.TextEdit3.Text = reader21("UBT_KODU").ToString()
             Form144.TextEdit4.Text = reader21("ARAC_PLAKA").ToString()
             'Form144.TextEdit5.Text = reader21("CESIT_ADI").ToString()
             'Form144.TextEdit6.Text = reader21("TOPLAM_TONAJ").ToString()

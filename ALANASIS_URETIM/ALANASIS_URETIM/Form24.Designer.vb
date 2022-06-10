@@ -65,27 +65,31 @@ Partial Class Form24
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(7, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(8, 15)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(543, 49)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(633, 60)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Şubeler"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(376, 18)
+        Me.TextBox4.Location = New System.Drawing.Point(439, 22)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(24, 21)
+        Me.TextBox4.Size = New System.Drawing.Size(27, 25)
         Me.TextBox4.TabIndex = 6
         Me.TextBox4.Visible = False
         '
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(423, 16)
+        Me.RadioButton6.Location = New System.Drawing.Point(493, 20)
+        Me.RadioButton6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(62, 20)
+        Me.RadioButton6.Size = New System.Drawing.Size(75, 24)
         Me.RadioButton6.TabIndex = 5
         Me.RadioButton6.TabStop = True
         Me.RadioButton6.Text = "KONYA"
@@ -94,9 +98,10 @@ Partial Class Form24
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(312, 19)
+        Me.RadioButton5.Location = New System.Drawing.Point(364, 23)
+        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(87, 20)
+        Me.RadioButton5.Size = New System.Drawing.Size(109, 24)
         Me.RadioButton5.TabIndex = 4
         Me.RadioButton5.TabStop = True
         Me.RadioButton5.Text = "ÇANAKKALE"
@@ -105,9 +110,10 @@ Partial Class Form24
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(231, 19)
+        Me.RadioButton4.Location = New System.Drawing.Point(269, 23)
+        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(75, 20)
+        Me.RadioButton4.Size = New System.Drawing.Size(92, 24)
         Me.RadioButton4.TabIndex = 3
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "MALATYA"
@@ -116,9 +122,10 @@ Partial Class Form24
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(164, 19)
+        Me.RadioButton3.Location = New System.Drawing.Point(191, 23)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(61, 20)
+        Me.RadioButton3.Size = New System.Drawing.Size(75, 24)
         Me.RadioButton3.TabIndex = 2
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "ADANA"
@@ -127,9 +134,10 @@ Partial Class Form24
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(90, 19)
+        Me.RadioButton2.Location = New System.Drawing.Point(105, 23)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(61, 20)
+        Me.RadioButton2.Size = New System.Drawing.Size(74, 24)
         Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "BURSA"
@@ -138,9 +146,10 @@ Partial Class Form24
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 19)
+        Me.RadioButton1.Location = New System.Drawing.Point(7, 23)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(76, 20)
+        Me.RadioButton1.Size = New System.Drawing.Size(94, 24)
         Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "ALAŞEHİR"
@@ -149,9 +158,10 @@ Partial Class Form24
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(9, 69)
+        Me.ComboBox1.Location = New System.Drawing.Point(10, 85)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(398, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(464, 24)
         Me.ComboBox1.TabIndex = 1
         '
         'DataGridView1
@@ -160,9 +170,10 @@ Partial Class Form24
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(11, 102)
+        Me.DataGridView1.Location = New System.Drawing.Point(13, 126)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(954, 422)
+        Me.DataGridView1.Size = New System.Drawing.Size(1113, 519)
         Me.DataGridView1.TabIndex = 2
         '
         'TextBox3
@@ -170,18 +181,19 @@ Partial Class Form24
         Me.TextBox3.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(830, 69)
+        Me.TextBox3.Location = New System.Drawing.Point(968, 85)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(135, 21)
+        Me.TextBox3.Size = New System.Drawing.Size(157, 24)
         Me.TextBox3.TabIndex = 41
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label3.Location = New System.Drawing.Point(779, 71)
+        Me.Label3.Location = New System.Drawing.Point(909, 87)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 13)
+        Me.Label3.Size = New System.Drawing.Size(56, 17)
         Me.Label3.TabIndex = 40
         Me.Label3.Text = "Bakiye"
         '
@@ -191,18 +203,19 @@ Partial Class Form24
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextBox2.ForeColor = System.Drawing.Color.Red
-        Me.TextBox2.Location = New System.Drawing.Point(682, 69)
+        Me.TextBox2.Location = New System.Drawing.Point(796, 85)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(84, 21)
+        Me.TextBox2.Size = New System.Drawing.Size(98, 24)
         Me.TextBox2.TabIndex = 39
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label2.Location = New System.Drawing.Point(595, 72)
+        Me.Label2.Location = New System.Drawing.Point(694, 89)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 13)
+        Me.Label2.Size = New System.Drawing.Size(101, 17)
         Me.Label2.TabIndex = 38
         Me.Label2.Text = "Çıkan Bakiye"
         '
@@ -212,9 +225,10 @@ Partial Class Form24
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox1.Location = New System.Drawing.Point(261, 3)
+        Me.TextBox1.Location = New System.Drawing.Point(304, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(135, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(157, 24)
         Me.TextBox1.TabIndex = 37
         Me.TextBox1.Visible = False
         '
@@ -222,44 +236,48 @@ Partial Class Form24
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label1.Location = New System.Drawing.Point(413, 71)
+        Me.Label1.Location = New System.Drawing.Point(482, 87)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(79, 13)
+        Me.Label1.Size = New System.Drawing.Size(101, 17)
         Me.Label1.TabIndex = 36
         Me.Label1.Text = "Giren Bakiye"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(556, 28)
+        Me.Button2.Location = New System.Drawing.Point(649, 34)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(102, 23)
+        Me.Button2.Size = New System.Drawing.Size(119, 28)
         Me.Button2.TabIndex = 43
         Me.Button2.Text = "Sayım Girişi"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(664, 28)
+        Me.Button3.Location = New System.Drawing.Point(775, 34)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(102, 23)
+        Me.Button3.Size = New System.Drawing.Size(119, 28)
         Me.Button3.TabIndex = 44
         Me.Button3.Text = "DAT Hareket Giriş"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(875, 28)
+        Me.Button4.Location = New System.Drawing.Point(1021, 34)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(87, 23)
+        Me.Button4.Size = New System.Drawing.Size(101, 28)
         Me.Button4.TabIndex = 46
         Me.Button4.Text = "Export to XLSX"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(782, 28)
+        Me.Button5.Location = New System.Drawing.Point(912, 34)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(87, 23)
+        Me.Button5.Size = New System.Drawing.Size(101, 28)
         Me.Button5.TabIndex = 45
         Me.Button5.Text = "Export to PDF"
         Me.Button5.UseVisualStyleBackColor = True
@@ -270,9 +288,10 @@ Partial Class Form24
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox5.Location = New System.Drawing.Point(498, 69)
+        Me.TextBox5.Location = New System.Drawing.Point(581, 85)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(84, 21)
+        Me.TextBox5.Size = New System.Drawing.Size(98, 24)
         Me.TextBox5.TabIndex = 47
         '
         'DefaultLookAndFeel1
@@ -281,9 +300,9 @@ Partial Class Form24
         '
         'Form24
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(974, 536)
+        Me.ClientSize = New System.Drawing.Size(1136, 660)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button5)
@@ -299,6 +318,7 @@ Partial Class Form24
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.IconOptions.Icon = CType(resources.GetObject("Form24.IconOptions.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form24"
         Me.Text = "Depo Sarf Stok İzleme"
         Me.GroupBox1.ResumeLayout(False)
