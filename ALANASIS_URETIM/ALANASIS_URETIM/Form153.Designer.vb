@@ -55,25 +55,27 @@ Partial Class Form153
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(4, 105)
+        Me.DataGridView1.Location = New System.Drawing.Point(5, 129)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1220, 404)
+        Me.DataGridView1.Size = New System.Drawing.Size(1423, 497)
         Me.DataGridView1.TabIndex = 8
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(5, 39)
+        Me.Label1.Location = New System.Drawing.Point(6, 48)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 13)
+        Me.Label1.Size = New System.Drawing.Size(118, 17)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Hammadde Seçim"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(201, 55)
+        Me.TextBox1.Location = New System.Drawing.Point(234, 68)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(16, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(18, 23)
         Me.TextBox1.TabIndex = 6
         Me.TextBox1.Visible = False
         '
@@ -91,89 +93,95 @@ Partial Class Form153
         Me.GroupControl1.Controls.Add(Me.TextBox1)
         Me.GroupControl1.Controls.Add(Me.TextEdit1)
         Me.GroupControl1.Controls.Add(Me.ComboBoxEdit1)
-        Me.GroupControl1.Location = New System.Drawing.Point(4, 8)
+        Me.GroupControl1.Location = New System.Drawing.Point(5, 10)
+        Me.GroupControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(1220, 99)
+        Me.GroupControl1.Size = New System.Drawing.Size(1423, 122)
         Me.GroupControl1.TabIndex = 9
         Me.GroupControl1.Text = "Hammadde Özet Bilgileri"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(515, 40)
+        Me.Label4.Location = New System.Drawing.Point(601, 49)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(38, 13)
+        Me.Label4.Size = New System.Drawing.Size(47, 17)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Bakiye"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(372, 39)
+        Me.Label3.Location = New System.Drawing.Point(434, 48)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(62, 13)
+        Me.Label3.Size = New System.Drawing.Size(77, 17)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Çıkış Bakiye"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(230, 40)
+        Me.Label2.Location = New System.Drawing.Point(268, 49)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 13)
+        Me.Label2.Size = New System.Drawing.Size(75, 17)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Giriş Bakiye"
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(507, 56)
+        Me.TextEdit3.Location = New System.Drawing.Point(591, 69)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.TextEdit3.Properties.Appearance.ForeColor = System.Drawing.Color.White
         Me.TextEdit3.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit3.Properties.Appearance.Options.UseForeColor = True
-        Me.TextEdit3.Size = New System.Drawing.Size(126, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(147, 23)
         Me.TextEdit3.TabIndex = 3
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(365, 56)
+        Me.TextEdit2.Location = New System.Drawing.Point(426, 69)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Appearance.BackColor = System.Drawing.Color.Brown
         Me.TextEdit2.Properties.Appearance.ForeColor = System.Drawing.Color.White
         Me.TextEdit2.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit2.Properties.Appearance.Options.UseForeColor = True
-        Me.TextEdit2.Size = New System.Drawing.Size(126, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(147, 23)
         Me.TextEdit2.TabIndex = 2
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(223, 56)
+        Me.TextEdit1.Location = New System.Drawing.Point(260, 69)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Green
         Me.TextEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White
         Me.TextEdit1.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit1.Properties.Appearance.Options.UseForeColor = True
-        Me.TextEdit1.Size = New System.Drawing.Size(126, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(147, 23)
         Me.TextEdit1.TabIndex = 1
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(8, 55)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(9, 68)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"HAMMADDE KIRAZ", "HAMMADDE INCIR", "HAMMADDE KAYISI", "HAMMADDE MALATYA KAYISI", "HAMMADDE NAR", "HAMMADDE ERIK", "HAMMADDE ARMUT"})
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(187, 20)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(218, 23)
         Me.ComboBoxEdit1.TabIndex = 4
         '
         'Form153
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1229, 516)
+        Me.ClientSize = New System.Drawing.Size(1434, 635)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form153"
         Me.Text = "ALANSIS - ÜRETİM STOK HAREKET IZLEME MODULU "
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

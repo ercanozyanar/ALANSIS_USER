@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ALANSIS" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.3.11.61;Initial Catalog=ALANSIS;Persist Security Info=True;User ID=sa" SettingsObjectName="WindowsApplication1.My.MySettings" SettingsPropertyName="ALANSISConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EO_ALANSIS_KIRAZ_MAMULDEPO" Member="EO_ALANSIS_KIRAZ_MAMULDEPO">
+    <Type Name="EO_ALANSIS_KIRAZ_MAMULDEPO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TARIH" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="STOK_KODU" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SERI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MIKTAR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOLGE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EBAT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ISLEM" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KIRAZ_ISLEM" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ODA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KALINTI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DARA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BRUT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DEPO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TIP" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PARTINO" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="URETIM_TIPI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CESIT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="USR" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RENK" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="STOK_ISLEM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AKTARILAN_URETICI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AKTARILAN_KUTUSAYI" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="AKTARILAN_KG" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SEVK_ONAY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SEVK_MIKTAR" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SEVKID" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="test" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="xxx" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

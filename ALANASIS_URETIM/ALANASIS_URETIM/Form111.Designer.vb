@@ -146,32 +146,36 @@ Partial Class Form111
         Me.Panel1.Controls.Add(Me.SimpleButton12)
         Me.Panel1.Controls.Add(Me.SimpleButton2)
         Me.Panel1.Location = New System.Drawing.Point(3, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(794, 33)
+        Me.Panel1.Size = New System.Drawing.Size(926, 41)
         Me.Panel1.TabIndex = 2
         '
         'SimpleButton12
         '
-        Me.SimpleButton12.Location = New System.Drawing.Point(9, 5)
+        Me.SimpleButton12.Location = New System.Drawing.Point(10, 6)
+        Me.SimpleButton12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton12.Name = "SimpleButton12"
-        Me.SimpleButton12.Size = New System.Drawing.Size(101, 23)
+        Me.SimpleButton12.Size = New System.Drawing.Size(118, 28)
         Me.SimpleButton12.TabIndex = 4
         Me.SimpleButton12.Text = "Kaydet"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(118, 5)
+        Me.SimpleButton2.Location = New System.Drawing.Point(138, 6)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(101, 23)
+        Me.SimpleButton2.Size = New System.Drawing.Size(118, 28)
         Me.SimpleButton2.TabIndex = 3
         Me.SimpleButton2.Text = "Sil"
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(3, 38)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(3, 47)
+        Me.XtraTabControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(794, 478)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(926, 588)
         Me.XtraTabControl1.TabIndex = 3
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2})
         '
@@ -180,8 +184,9 @@ Partial Class Form111
         Me.XtraTabPage1.Controls.Add(Me.GroupBox4)
         Me.XtraTabPage1.Controls.Add(Me.GroupBox2)
         Me.XtraTabPage1.Controls.Add(Me.GroupBox1)
+        Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(789, 453)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(920, 558)
         Me.XtraTabPage1.Text = "Üst Bilgiler"
         '
         'GroupBox4
@@ -194,9 +199,11 @@ Partial Class Form111
         Me.GroupBox4.Controls.Add(Me.Label14)
         Me.GroupBox4.Controls.Add(Me.Label15)
         Me.GroupBox4.Controls.Add(Me.TextBox11)
-        Me.GroupBox4.Location = New System.Drawing.Point(465, 16)
+        Me.GroupBox4.Location = New System.Drawing.Point(542, 20)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(319, 431)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox4.Size = New System.Drawing.Size(372, 530)
         Me.GroupBox4.TabIndex = 2
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Cari Bilgileri"
@@ -205,63 +212,66 @@ Partial Class Form111
         '
         Me.TextBox10.BackColor = System.Drawing.Color.Gainsboro
         Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox10.Location = New System.Drawing.Point(49, 103)
+        Me.TextBox10.Location = New System.Drawing.Point(57, 127)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(117, 14)
+        Me.TextBox10.Size = New System.Drawing.Size(136, 16)
         Me.TextBox10.TabIndex = 29
         '
         'TextBox8
         '
         Me.TextBox8.BackColor = System.Drawing.Color.Gainsboro
         Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox8.Location = New System.Drawing.Point(196, 102)
+        Me.TextBox8.Location = New System.Drawing.Point(229, 126)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(117, 14)
+        Me.TextBox8.Size = New System.Drawing.Size(136, 16)
         Me.TextBox8.TabIndex = 28
         '
         'TextBox9
         '
         Me.TextBox9.BackColor = System.Drawing.Color.Gainsboro
         Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox9.Location = New System.Drawing.Point(49, 49)
+        Me.TextBox9.Location = New System.Drawing.Point(57, 60)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox9.Multiline = True
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(264, 45)
+        Me.TextBox9.Size = New System.Drawing.Size(308, 55)
         Me.TextBox9.TabIndex = 27
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(2, 52)
+        Me.Label12.Location = New System.Drawing.Point(2, 64)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(35, 13)
+        Me.Label12.Size = New System.Drawing.Size(42, 17)
         Me.Label12.TabIndex = 13
         Me.Label12.Text = "Adres"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(177, 103)
+        Me.Label13.Location = New System.Drawing.Point(206, 127)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(13, 13)
+        Me.Label13.Size = New System.Drawing.Size(14, 17)
         Me.Label13.TabIndex = 12
         Me.Label13.Text = "İl"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(2, 103)
+        Me.Label14.Location = New System.Drawing.Point(2, 127)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(24, 13)
+        Me.Label14.Size = New System.Drawing.Size(28, 17)
         Me.Label14.TabIndex = 11
         Me.Label14.Text = "İlçe"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(2, 26)
+        Me.Label15.Location = New System.Drawing.Point(2, 32)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(26, 13)
+        Me.Label15.Size = New System.Drawing.Size(32, 17)
         Me.Label15.TabIndex = 9
         Me.Label15.Text = "İsim"
         '
@@ -269,9 +279,10 @@ Partial Class Form111
         '
         Me.TextBox11.BackColor = System.Drawing.Color.Gainsboro
         Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox11.Location = New System.Drawing.Point(49, 26)
+        Me.TextBox11.Location = New System.Drawing.Point(57, 32)
+        Me.TextBox11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(264, 14)
+        Me.TextBox11.Size = New System.Drawing.Size(308, 16)
         Me.TextBox11.TabIndex = 1
         '
         'GroupBox2
@@ -282,18 +293,21 @@ Partial Class Form111
         Me.GroupBox2.Controls.Add(Me.Label11)
         Me.GroupBox2.Controls.Add(Me.ComboBox3)
         Me.GroupBox2.Controls.Add(Me.Label10)
-        Me.GroupBox2.Location = New System.Drawing.Point(231, 16)
+        Me.GroupBox2.Location = New System.Drawing.Point(269, 20)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(228, 161)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(266, 198)
         Me.GroupBox2.TabIndex = 26
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Onay Bilgileri"
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(203, 137)
+        Me.TextBox7.Location = New System.Drawing.Point(237, 169)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(14, 21)
+        Me.TextBox7.Size = New System.Drawing.Size(16, 23)
         Me.TextBox7.TabIndex = 26
         Me.TextBox7.Visible = False
         '
@@ -302,18 +316,19 @@ Partial Class Form111
         Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"OK", "NOK"})
-        Me.ComboBox5.Location = New System.Drawing.Point(83, 52)
+        Me.ComboBox5.Location = New System.Drawing.Point(97, 64)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(134, 21)
+        Me.ComboBox5.Size = New System.Drawing.Size(156, 24)
         Me.ComboBox5.TabIndex = 25
         Me.ComboBox5.Visible = False
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(7, 55)
+        Me.Label19.Location = New System.Drawing.Point(8, 68)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(62, 13)
+        Me.Label19.Size = New System.Drawing.Size(77, 17)
         Me.Label19.TabIndex = 24
         Me.Label19.Text = "Talep Onay"
         Me.Label19.Visible = False
@@ -323,9 +338,9 @@ Partial Class Form111
         Me.Label11.BackColor = System.Drawing.Color.DimGray
         Me.Label11.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(11, 96)
+        Me.Label11.Location = New System.Drawing.Point(13, 118)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(206, 38)
+        Me.Label11.Size = New System.Drawing.Size(240, 47)
         Me.Label11.TabIndex = 23
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -334,17 +349,18 @@ Partial Class Form111
         Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Kalite", "Depo", "Üretim", "Satın Alma", "Planlama", "Satış-Pazarlama"})
-        Me.ComboBox3.Location = New System.Drawing.Point(83, 19)
+        Me.ComboBox3.Location = New System.Drawing.Point(97, 23)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(134, 21)
+        Me.ComboBox3.Size = New System.Drawing.Size(156, 24)
         Me.ComboBox3.TabIndex = 22
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(7, 22)
+        Me.Label10.Location = New System.Drawing.Point(8, 27)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(58, 13)
+        Me.Label10.Size = New System.Drawing.Size(74, 17)
         Me.Label10.TabIndex = 21
         Me.Label10.Text = "Onay Birim"
         '
@@ -378,76 +394,82 @@ Partial Class Form111
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(8, 16)
+        Me.GroupBox1.Location = New System.Drawing.Point(9, 20)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(217, 431)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(253, 530)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Sabit Bilgiler"
         '
         'TextBox24
         '
-        Me.TextBox24.Location = New System.Drawing.Point(69, 369)
+        Me.TextBox24.Location = New System.Drawing.Point(80, 454)
+        Me.TextBox24.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(120, 21)
+        Me.TextBox24.Size = New System.Drawing.Size(139, 23)
         Me.TextBox24.TabIndex = 32
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(2, 372)
+        Me.Label36.Location = New System.Drawing.Point(2, 458)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(70, 13)
+        Me.Label36.Size = New System.Drawing.Size(88, 17)
         Me.Label36.TabIndex = 33
         Me.Label36.Text = "Ödeme Tarihi"
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(192, 126)
+        Me.SimpleButton4.Location = New System.Drawing.Point(224, 155)
+        Me.SimpleButton4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(18, 21)
+        Me.SimpleButton4.Size = New System.Drawing.Size(21, 26)
         Me.SimpleButton4.TabIndex = 33
         Me.SimpleButton4.Text = "*"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(2, 102)
+        Me.Label21.Location = New System.Drawing.Point(2, 126)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(54, 13)
+        Me.Label21.Size = New System.Drawing.Size(67, 17)
         Me.Label21.TabIndex = 32
         Me.Label21.Text = "Sipariş No"
         '
         'TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(69, 338)
+        Me.TextBox21.Location = New System.Drawing.Point(80, 416)
+        Me.TextBox21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(56, 21)
+        Me.TextBox21.Size = New System.Drawing.Size(65, 23)
         Me.TextBox21.TabIndex = 30
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(2, 341)
+        Me.Label34.Location = New System.Drawing.Point(2, 420)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(31, 13)
+        Me.Label34.Size = New System.Drawing.Size(38, 17)
         Me.Label34.TabIndex = 31
         Me.Label34.Text = "Vade"
         '
         'TextBox16
         '
-        Me.TextBox16.Location = New System.Drawing.Point(69, 100)
+        Me.TextBox16.Location = New System.Drawing.Point(80, 123)
+        Me.TextBox16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(141, 21)
+        Me.TextBox16.Size = New System.Drawing.Size(164, 23)
         Me.TextBox16.TabIndex = 31
         '
         'Label20
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Tahoma", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label20.Location = New System.Drawing.Point(3, 52)
+        Me.Label20.Location = New System.Drawing.Point(3, 64)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(36, 11)
+        Me.Label20.Size = New System.Drawing.Size(49, 14)
         Me.Label20.TabIndex = 30
         Me.Label20.Text = "Label20"
         '
@@ -457,36 +479,38 @@ Partial Class Form111
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.ImeMode = System.Windows.Forms.ImeMode.Off
         Me.ComboBox7.Items.AddRange(New Object() {"0", "1", "10", "11", "12", "13", "14", "2", "3", "4", "5", "6", "7", "8", "9"})
-        Me.ComboBox7.Location = New System.Drawing.Point(69, 19)
+        Me.ComboBox7.Location = New System.Drawing.Point(80, 23)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(59, 21)
+        Me.ComboBox7.Size = New System.Drawing.Size(68, 24)
         Me.ComboBox7.TabIndex = 26
         Me.ComboBox7.Tag = ""
         '
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(2, 22)
+        Me.Label37.Location = New System.Drawing.Point(2, 27)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(31, 13)
+        Me.Label37.Size = New System.Drawing.Size(39, 17)
         Me.Label37.TabIndex = 25
         Me.Label37.Text = "Şube"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(2, 314)
+        Me.Label9.Location = New System.Drawing.Point(2, 386)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(63, 13)
+        Me.Label9.Size = New System.Drawing.Size(77, 17)
         Me.Label9.TabIndex = 24
         Me.Label9.Text = "Exp.Ref.No"
         '
         'TextBox3
         '
         Me.TextBox3.Enabled = False
-        Me.TextBox3.Location = New System.Drawing.Point(69, 311)
+        Me.TextBox3.Location = New System.Drawing.Point(80, 383)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(120, 21)
+        Me.TextBox3.Size = New System.Drawing.Size(139, 23)
         Me.TextBox3.TabIndex = 23
         '
         'ComboBox2
@@ -495,17 +519,18 @@ Partial Class Form111
         Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"FOB", "CIF", "FOT", "İhr.Kayıt", "DAF", "EXF", "İhr.KurFarkı", "CIP", "CPT", "DAT", "DAP", "DDP", "DES", "DEQ", "DDU", "FCU", "FAS", "CFR"})
-        Me.ComboBox2.Location = New System.Drawing.Point(69, 284)
+        Me.ComboBox2.Location = New System.Drawing.Point(80, 350)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(99, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(115, 24)
         Me.ComboBox2.TabIndex = 22
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(2, 287)
+        Me.Label8.Location = New System.Drawing.Point(2, 353)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(58, 13)
+        Me.Label8.Size = New System.Drawing.Size(71, 17)
         Me.Label8.TabIndex = 21
         Me.Label8.Text = "İhr/İth Tipi"
         '
@@ -514,122 +539,129 @@ Partial Class Form111
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Yurt İçi", "Yurt Dışı"})
-        Me.ComboBox1.Location = New System.Drawing.Point(69, 257)
+        Me.ComboBox1.Location = New System.Drawing.Point(80, 316)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(99, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(115, 24)
         Me.ComboBox1.TabIndex = 20
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(2, 260)
+        Me.Label7.Location = New System.Drawing.Point(2, 320)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(23, 13)
+        Me.Label7.Size = New System.Drawing.Size(28, 17)
         Me.Label7.TabIndex = 19
         Me.Label7.Text = "Tipi"
         '
         'MaskedTextBox4
         '
-        Me.MaskedTextBox4.Location = New System.Drawing.Point(69, 231)
+        Me.MaskedTextBox4.Location = New System.Drawing.Point(80, 284)
+        Me.MaskedTextBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox4.Mask = "00-00-0000"
         Me.MaskedTextBox4.Name = "MaskedTextBox4"
-        Me.MaskedTextBox4.Size = New System.Drawing.Size(141, 21)
+        Me.MaskedTextBox4.Size = New System.Drawing.Size(164, 23)
         Me.MaskedTextBox4.TabIndex = 18
         Me.MaskedTextBox4.ValidatingType = GetType(Date)
         '
         'MaskedTextBox3
         '
-        Me.MaskedTextBox3.Location = New System.Drawing.Point(69, 205)
+        Me.MaskedTextBox3.Location = New System.Drawing.Point(80, 252)
+        Me.MaskedTextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox3.Mask = "00-00-0000"
         Me.MaskedTextBox3.Name = "MaskedTextBox3"
-        Me.MaskedTextBox3.Size = New System.Drawing.Size(141, 21)
+        Me.MaskedTextBox3.Size = New System.Drawing.Size(164, 23)
         Me.MaskedTextBox3.TabIndex = 17
         Me.MaskedTextBox3.ValidatingType = GetType(Date)
         '
         'MaskedTextBox2
         '
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(69, 179)
+        Me.MaskedTextBox2.Location = New System.Drawing.Point(80, 220)
+        Me.MaskedTextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox2.Mask = "00-00-0000"
         Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(141, 21)
+        Me.MaskedTextBox2.Size = New System.Drawing.Size(164, 23)
         Me.MaskedTextBox2.TabIndex = 16
         Me.MaskedTextBox2.ValidatingType = GetType(Date)
         '
         'MaskedTextBox1
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(69, 153)
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(80, 188)
+        Me.MaskedTextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox1.Mask = "00-00-0000"
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(141, 21)
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(164, 23)
         Me.MaskedTextBox1.TabIndex = 15
         Me.MaskedTextBox1.ValidatingType = GetType(Date)
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(2, 234)
+        Me.Label6.Location = New System.Drawing.Point(2, 288)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(61, 13)
+        Me.Label6.Size = New System.Drawing.Size(75, 17)
         Me.Label6.TabIndex = 14
         Me.Label6.Text = "Döv.Baz.T."
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(2, 156)
+        Me.Label5.Location = New System.Drawing.Point(2, 192)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(31, 13)
+        Me.Label5.Size = New System.Drawing.Size(38, 17)
         Me.Label5.TabIndex = 13
         Me.Label5.Text = "Tarih"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(2, 208)
+        Me.Label3.Location = New System.Drawing.Point(2, 256)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 13)
+        Me.Label3.Size = New System.Drawing.Size(76, 17)
         Me.Label3.TabIndex = 12
         Me.Label3.Text = "İst.Tes.Tar."
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(0, 182)
+        Me.Label4.Location = New System.Drawing.Point(0, 224)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(54, 13)
+        Me.Label4.Size = New System.Drawing.Size(65, 17)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Tes.Tarihi"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(3, 130)
+        Me.Label2.Location = New System.Drawing.Point(3, 160)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(67, 17)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Cari Kodu"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(2, 76)
+        Me.Label1.Location = New System.Drawing.Point(2, 94)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 13)
+        Me.Label1.Size = New System.Drawing.Size(61, 17)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Talep No"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(69, 127)
+        Me.TextBox2.Location = New System.Drawing.Point(80, 156)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(117, 21)
+        Me.TextBox2.Size = New System.Drawing.Size(136, 23)
         Me.TextBox2.TabIndex = 1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(69, 73)
+        Me.TextBox1.Location = New System.Drawing.Point(80, 90)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(141, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(164, 23)
         Me.TextBox1.TabIndex = 0
         '
         'XtraTabPage2
@@ -646,32 +678,36 @@ Partial Class Form111
         Me.XtraTabPage2.Controls.Add(Me.SimpleButton5)
         Me.XtraTabPage2.Controls.Add(Me.TextBox4)
         Me.XtraTabPage2.Controls.Add(Me.SimpleButton6)
+        Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(789, 453)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(920, 558)
         Me.XtraTabPage2.Text = "Kalem Bilgileri"
         '
         'SimpleButton13
         '
-        Me.SimpleButton13.Location = New System.Drawing.Point(106, 258)
+        Me.SimpleButton13.Location = New System.Drawing.Point(124, 318)
+        Me.SimpleButton13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton13.Name = "SimpleButton13"
-        Me.SimpleButton13.Size = New System.Drawing.Size(93, 26)
+        Me.SimpleButton13.Size = New System.Drawing.Size(108, 32)
         Me.SimpleButton13.TabIndex = 35
         Me.SimpleButton13.Text = "Talep Kalem Sil"
         '
         'SimpleButton9
         '
-        Me.SimpleButton9.Location = New System.Drawing.Point(5, 258)
+        Me.SimpleButton9.Location = New System.Drawing.Point(6, 318)
+        Me.SimpleButton9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton9.Name = "SimpleButton9"
-        Me.SimpleButton9.Size = New System.Drawing.Size(90, 26)
+        Me.SimpleButton9.Size = New System.Drawing.Size(105, 32)
         Me.SimpleButton9.TabIndex = 28
         Me.SimpleButton9.Text = "Sip.Kalem Kayıt"
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(5, 291)
+        Me.DataGridView1.Location = New System.Drawing.Point(6, 358)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(779, 156)
+        Me.DataGridView1.Size = New System.Drawing.Size(909, 192)
         Me.DataGridView1.TabIndex = 9
         '
         'GroupBox6
@@ -683,36 +719,40 @@ Partial Class Form111
         Me.GroupBox6.Controls.Add(Me.TextBox23)
         Me.GroupBox6.Controls.Add(Me.Label45)
         Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.GroupBox6.Location = New System.Drawing.Point(8, 152)
+        Me.GroupBox6.Location = New System.Drawing.Point(9, 187)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(776, 100)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox6.Size = New System.Drawing.Size(905, 123)
         Me.GroupBox6.TabIndex = 10
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "Detay Bilgi"
         '
         'TextBox18
         '
-        Me.TextBox18.Location = New System.Drawing.Point(240, 41)
+        Me.TextBox18.Location = New System.Drawing.Point(280, 50)
+        Me.TextBox18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox18.Multiline = True
         Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(282, 53)
+        Me.TextBox18.Size = New System.Drawing.Size(328, 64)
         Me.TextBox18.TabIndex = 12
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(528, 41)
+        Me.TextBox22.Location = New System.Drawing.Point(616, 50)
+        Me.TextBox22.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox22.Multiline = True
         Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(242, 53)
+        Me.TextBox22.Size = New System.Drawing.Size(282, 64)
         Me.TextBox22.TabIndex = 11
         '
         'Label43
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label43.Location = New System.Drawing.Point(525, 25)
+        Me.Label43.Location = New System.Drawing.Point(612, 31)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(62, 13)
+        Me.Label43.Size = New System.Drawing.Size(81, 17)
         Me.Label43.TabIndex = 6
         Me.Label43.Text = "Açıklama -3"
         '
@@ -720,27 +760,28 @@ Partial Class Form111
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label44.Location = New System.Drawing.Point(244, 25)
+        Me.Label44.Location = New System.Drawing.Point(285, 31)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(62, 13)
+        Me.Label44.Size = New System.Drawing.Size(81, 17)
         Me.Label44.TabIndex = 4
         Me.Label44.Text = "Açıklama -2"
         '
         'TextBox23
         '
-        Me.TextBox23.Location = New System.Drawing.Point(3, 41)
+        Me.TextBox23.Location = New System.Drawing.Point(3, 50)
+        Me.TextBox23.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox23.Multiline = True
         Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(231, 53)
+        Me.TextBox23.Size = New System.Drawing.Size(269, 64)
         Me.TextBox23.TabIndex = 1
         '
         'Label45
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label45.Location = New System.Drawing.Point(3, 25)
+        Me.Label45.Location = New System.Drawing.Point(3, 31)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(62, 13)
+        Me.Label45.Size = New System.Drawing.Size(81, 17)
         Me.Label45.TabIndex = 0
         Me.Label45.Text = "Açıklama -1"
         '
@@ -771,68 +812,77 @@ Partial Class Form111
         Me.GroupBox5.Controls.Add(Me.TextBox12)
         Me.GroupBox5.Controls.Add(Me.Label26)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.GroupBox5.Location = New System.Drawing.Point(8, 35)
+        Me.GroupBox5.Location = New System.Drawing.Point(9, 43)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(777, 116)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox5.Size = New System.Drawing.Size(906, 143)
         Me.GroupBox5.TabIndex = 8
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Kalem Girişi"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(597, 41)
+        Me.SimpleButton1.Location = New System.Drawing.Point(696, 50)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(23, 21)
+        Me.SimpleButton1.Size = New System.Drawing.Size(27, 26)
         Me.SimpleButton1.TabIndex = 40
         Me.SimpleButton1.Text = "*"
         '
         'TextBox27
         '
-        Me.TextBox27.Location = New System.Drawing.Point(528, 41)
+        Me.TextBox27.Location = New System.Drawing.Point(616, 50)
+        Me.TextBox27.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(63, 21)
+        Me.TextBox27.Size = New System.Drawing.Size(73, 24)
         Me.TextBox27.TabIndex = 39
         Me.TextBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'SimpleButton8
         '
-        Me.SimpleButton8.Location = New System.Drawing.Point(147, 40)
+        Me.SimpleButton8.Location = New System.Drawing.Point(171, 49)
+        Me.SimpleButton8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton8.Name = "SimpleButton8"
-        Me.SimpleButton8.Size = New System.Drawing.Size(23, 21)
+        Me.SimpleButton8.Size = New System.Drawing.Size(27, 26)
         Me.SimpleButton8.TabIndex = 38
         Me.SimpleButton8.Text = "*"
         '
         'TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(732, 21)
+        Me.TextBox25.Location = New System.Drawing.Point(854, 26)
+        Me.TextBox25.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(15, 21)
+        Me.TextBox25.Size = New System.Drawing.Size(17, 24)
         Me.TextBox25.TabIndex = 37
         Me.TextBox25.Text = "0"
         Me.TextBox25.Visible = False
         '
         'TextBox20
         '
-        Me.TextBox20.Location = New System.Drawing.Point(100, 89)
+        Me.TextBox20.Location = New System.Drawing.Point(117, 110)
+        Me.TextBox20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(87, 21)
+        Me.TextBox20.Size = New System.Drawing.Size(101, 24)
         Me.TextBox20.TabIndex = 36
         Me.TextBox20.Text = "0"
         '
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(687, 89)
+        Me.DataGridView2.Location = New System.Drawing.Point(801, 110)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(49, 10)
+        Me.DataGridView2.Size = New System.Drawing.Size(57, 12)
         Me.DataGridView2.TabIndex = 31
         Me.DataGridView2.Visible = False
         '
         'TextBox26
         '
-        Me.TextBox26.Location = New System.Drawing.Point(742, 89)
+        Me.TextBox26.Location = New System.Drawing.Point(866, 110)
+        Me.TextBox26.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(16, 21)
+        Me.TextBox26.Size = New System.Drawing.Size(18, 24)
         Me.TextBox26.TabIndex = 32
         Me.TextBox26.Visible = False
         '
@@ -840,17 +890,18 @@ Partial Class Form111
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label31.Location = New System.Drawing.Point(97, 74)
+        Me.Label31.Location = New System.Drawing.Point(113, 91)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(53, 13)
+        Me.Label31.Size = New System.Drawing.Size(69, 17)
         Me.Label31.TabIndex = 35
         Me.Label31.Text = "Döviz Kur"
         '
         'TextBox19
         '
-        Me.TextBox19.Location = New System.Drawing.Point(9, 89)
+        Me.TextBox19.Location = New System.Drawing.Point(10, 110)
+        Me.TextBox19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(87, 21)
+        Me.TextBox19.Size = New System.Drawing.Size(101, 24)
         Me.TextBox19.TabIndex = 34
         Me.TextBox19.Text = "0"
         '
@@ -858,9 +909,9 @@ Partial Class Form111
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label29.Location = New System.Drawing.Point(6, 74)
+        Me.Label29.Location = New System.Drawing.Point(7, 91)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(59, 13)
+        Me.Label29.Size = New System.Drawing.Size(77, 17)
         Me.Label29.TabIndex = 33
         Me.Label29.Text = "Döviz Fiyat"
         '
@@ -868,9 +919,9 @@ Partial Class Form111
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label30.Location = New System.Drawing.Point(687, 26)
+        Me.Label30.Location = New System.Drawing.Point(801, 32)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(39, 13)
+        Me.Label30.Size = New System.Drawing.Size(49, 17)
         Me.Label30.TabIndex = 32
         Me.Label30.Text = "Dv.Tip"
         '
@@ -879,16 +930,18 @@ Partial Class Form111
         Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"USD", "EUR", "GBP", "TL"})
-        Me.ComboBox6.Location = New System.Drawing.Point(690, 40)
+        Me.ComboBox6.Location = New System.Drawing.Point(805, 49)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(80, 23)
+        Me.ComboBox6.Size = New System.Drawing.Size(93, 26)
         Me.ComboBox6.TabIndex = 31
         '
         'TextBox17
         '
-        Me.TextBox17.Location = New System.Drawing.Point(189, 89)
+        Me.TextBox17.Location = New System.Drawing.Point(220, 110)
+        Me.TextBox17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(179, 21)
+        Me.TextBox17.Size = New System.Drawing.Size(208, 24)
         Me.TextBox17.TabIndex = 23
         Me.TextBox17.Text = "0"
         Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -897,17 +950,18 @@ Partial Class Form111
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label35.Location = New System.Drawing.Point(339, 73)
+        Me.Label35.Location = New System.Drawing.Point(395, 90)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(29, 13)
+        Me.Label35.Size = New System.Drawing.Size(38, 17)
         Me.Label35.TabIndex = 22
         Me.Label35.Text = "Fiyat"
         '
         'TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(374, 89)
+        Me.TextBox15.Location = New System.Drawing.Point(436, 110)
+        Me.TextBox15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(243, 21)
+        Me.TextBox15.Size = New System.Drawing.Size(283, 24)
         Me.TextBox15.TabIndex = 19
         Me.TextBox15.Text = "0"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -916,17 +970,18 @@ Partial Class Form111
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label32.Location = New System.Drawing.Point(585, 74)
+        Me.Label32.Location = New System.Drawing.Point(682, 91)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(32, 13)
+        Me.Label32.Size = New System.Drawing.Size(42, 17)
         Me.Label32.TabIndex = 18
         Me.Label32.Text = "Tutar"
         '
         'TextBox14
         '
-        Me.TextBox14.Location = New System.Drawing.Point(626, 39)
+        Me.TextBox14.Location = New System.Drawing.Point(730, 48)
+        Me.TextBox14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(58, 21)
+        Me.TextBox14.Size = New System.Drawing.Size(67, 24)
         Me.TextBox14.TabIndex = 15
         Me.TextBox14.Text = "0"
         '
@@ -934,26 +989,27 @@ Partial Class Form111
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label27.Location = New System.Drawing.Point(623, 26)
+        Me.Label27.Location = New System.Drawing.Point(727, 32)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(36, 13)
+        Me.Label27.Size = New System.Drawing.Size(46, 17)
         Me.Label27.TabIndex = 14
         Me.Label27.Text = "Miktar"
         '
         'TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(176, 41)
+        Me.TextBox13.Location = New System.Drawing.Point(205, 50)
+        Me.TextBox13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(346, 21)
+        Me.TextBox13.Size = New System.Drawing.Size(403, 24)
         Me.TextBox13.TabIndex = 11
         '
         'Label33
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label33.Location = New System.Drawing.Point(539, 26)
+        Me.Label33.Location = New System.Drawing.Point(629, 32)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(34, 13)
+        Me.Label33.Size = New System.Drawing.Size(43, 17)
         Me.Label33.TabIndex = 10
         Me.Label33.Text = "D.Kd."
         '
@@ -962,35 +1018,37 @@ Partial Class Form111
         Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"10", "20", "30"})
-        Me.ComboBox4.Location = New System.Drawing.Point(335, 12)
+        Me.ComboBox4.Location = New System.Drawing.Point(391, 15)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(46, 23)
+        Me.ComboBox4.Size = New System.Drawing.Size(53, 26)
         Me.ComboBox4.TabIndex = 9
         '
         'Label28
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label28.Location = New System.Drawing.Point(177, 26)
+        Me.Label28.Location = New System.Drawing.Point(206, 32)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(25, 13)
+        Me.Label28.Size = New System.Drawing.Size(32, 17)
         Me.Label28.TabIndex = 4
         Me.Label28.Text = "İsim"
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(9, 41)
+        Me.TextBox12.Location = New System.Drawing.Point(10, 50)
+        Me.TextBox12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(132, 21)
+        Me.TextBox12.Size = New System.Drawing.Size(153, 24)
         Me.TextBox12.TabIndex = 1
         '
         'Label26
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label26.Location = New System.Drawing.Point(6, 26)
+        Me.Label26.Location = New System.Drawing.Point(7, 32)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(26, 13)
+        Me.Label26.Size = New System.Drawing.Size(33, 17)
         Me.Label26.TabIndex = 0
         Me.Label26.Text = "Kod"
         '
@@ -1004,18 +1062,19 @@ Partial Class Form111
         Me.Panel2.Controls.Add(Me.Label23)
         Me.Panel2.Controls.Add(Me.Label17)
         Me.Panel2.Controls.Add(Me.Label16)
-        Me.Panel2.Location = New System.Drawing.Point(5, 6)
+        Me.Panel2.Location = New System.Drawing.Point(6, 7)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(781, 23)
+        Me.Panel2.Size = New System.Drawing.Size(911, 28)
         Me.Panel2.TabIndex = 7
         '
         'Label18
         '
         Me.Label18.AutoSize = True
         Me.Label18.ForeColor = System.Drawing.Color.White
-        Me.Label18.Location = New System.Drawing.Point(455, 0)
+        Me.Label18.Location = New System.Drawing.Point(531, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(20, 13)
+        Me.Label18.Size = New System.Drawing.Size(25, 17)
         Me.Label18.TabIndex = 6
         Me.Label18.Text = "No"
         '
@@ -1023,9 +1082,9 @@ Partial Class Form111
         '
         Me.Label24.AutoSize = True
         Me.Label24.ForeColor = System.Drawing.Color.White
-        Me.Label24.Location = New System.Drawing.Point(335, 0)
+        Me.Label24.Location = New System.Drawing.Point(391, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(20, 13)
+        Me.Label24.Size = New System.Drawing.Size(25, 17)
         Me.Label24.TabIndex = 5
         Me.Label24.Text = "No"
         '
@@ -1033,9 +1092,9 @@ Partial Class Form111
         '
         Me.Label25.AutoSize = True
         Me.Label25.ForeColor = System.Drawing.Color.White
-        Me.Label25.Location = New System.Drawing.Point(304, 0)
+        Me.Label25.Location = New System.Drawing.Point(355, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(26, 13)
+        Me.Label25.Size = New System.Drawing.Size(31, 17)
         Me.Label25.TabIndex = 4
         Me.Label25.Text = "Cari"
         '
@@ -1043,18 +1102,18 @@ Partial Class Form111
         '
         Me.Label22.AutoSize = True
         Me.Label22.ForeColor = System.Drawing.Color.White
-        Me.Label22.Location = New System.Drawing.Point(200, 0)
+        Me.Label22.Location = New System.Drawing.Point(233, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(0, 13)
+        Me.Label22.Size = New System.Drawing.Size(0, 17)
         Me.Label22.TabIndex = 3
         '
         'Label23
         '
         Me.Label23.AutoSize = True
         Me.Label23.ForeColor = System.Drawing.Color.White
-        Me.Label23.Location = New System.Drawing.Point(163, 0)
+        Me.Label23.Location = New System.Drawing.Point(190, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(31, 13)
+        Me.Label23.Size = New System.Drawing.Size(38, 17)
         Me.Label23.TabIndex = 2
         Me.Label23.Text = "Tarih"
         '
@@ -1062,9 +1121,9 @@ Partial Class Form111
         '
         Me.Label17.AutoSize = True
         Me.Label17.ForeColor = System.Drawing.Color.White
-        Me.Label17.Location = New System.Drawing.Point(30, 0)
+        Me.Label17.Location = New System.Drawing.Point(35, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(20, 13)
+        Me.Label17.Size = New System.Drawing.Size(25, 17)
         Me.Label17.TabIndex = 1
         Me.Label17.Text = "No"
         '
@@ -1074,55 +1133,61 @@ Partial Class Form111
         Me.Label16.ForeColor = System.Drawing.Color.White
         Me.Label16.Location = New System.Drawing.Point(3, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(20, 13)
+        Me.Label16.Size = New System.Drawing.Size(25, 17)
         Me.Label16.TabIndex = 0
         Me.Label16.Text = "No"
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(712, 263)
+        Me.TextBox6.Location = New System.Drawing.Point(831, 324)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(18, 21)
+        Me.TextBox6.Size = New System.Drawing.Size(20, 23)
         Me.TextBox6.TabIndex = 26
         Me.TextBox6.Visible = False
         '
         'SimpleButton7
         '
-        Me.SimpleButton7.Location = New System.Drawing.Point(721, 260)
+        Me.SimpleButton7.Location = New System.Drawing.Point(841, 320)
+        Me.SimpleButton7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton7.Name = "SimpleButton7"
-        Me.SimpleButton7.Size = New System.Drawing.Size(63, 24)
+        Me.SimpleButton7.Size = New System.Drawing.Size(73, 30)
         Me.SimpleButton7.TabIndex = 29
         Me.SimpleButton7.Text = "Ek -3"
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(634, 261)
+        Me.TextBox5.Location = New System.Drawing.Point(740, 321)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(16, 21)
+        Me.TextBox5.Size = New System.Drawing.Size(18, 23)
         Me.TextBox5.TabIndex = 25
         Me.TextBox5.Visible = False
         '
         'SimpleButton5
         '
-        Me.SimpleButton5.Location = New System.Drawing.Point(562, 261)
+        Me.SimpleButton5.Location = New System.Drawing.Point(656, 321)
+        Me.SimpleButton5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(63, 24)
+        Me.SimpleButton5.Size = New System.Drawing.Size(73, 30)
         Me.SimpleButton5.TabIndex = 27
         Me.SimpleButton5.Text = "Ek -1"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(540, 263)
+        Me.TextBox4.Location = New System.Drawing.Point(630, 324)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(16, 21)
+        Me.TextBox4.Size = New System.Drawing.Size(18, 23)
         Me.TextBox4.TabIndex = 24
         Me.TextBox4.Visible = False
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(643, 260)
+        Me.SimpleButton6.Location = New System.Drawing.Point(750, 320)
+        Me.SimpleButton6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(63, 24)
+        Me.SimpleButton6.Size = New System.Drawing.Size(73, 30)
         Me.SimpleButton6.TabIndex = 28
         Me.SimpleButton6.Text = "Ek -2"
         '
@@ -1132,12 +1197,13 @@ Partial Class Form111
         '
         'Form111
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 518)
+        Me.ClientSize = New System.Drawing.Size(933, 638)
         Me.Controls.Add(Me.XtraTabControl1)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form111"
         Me.ShowMdiChildCaptionInParentTitle = True
         Me.Text = "ALANSIS - SATIN ALMA TALEP SIPARISLESTIRME"

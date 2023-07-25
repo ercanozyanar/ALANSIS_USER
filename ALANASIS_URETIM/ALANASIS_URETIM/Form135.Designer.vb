@@ -47,84 +47,88 @@ Partial Class Form135
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 9)
+        Me.Label1.Location = New System.Drawing.Point(7, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.Size = New System.Drawing.Size(76, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Kullanıcı Adı"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(143, 9)
+        Me.Label2.Location = New System.Drawing.Point(167, 11)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(29, 13)
+        Me.Label2.Size = New System.Drawing.Size(34, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Şifre"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(259, 9)
+        Me.Label3.Location = New System.Drawing.Point(302, 11)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(30, 13)
+        Me.Label3.Size = New System.Drawing.Size(38, 17)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Grup"
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(6, 89)
+        Me.DataGridView1.Location = New System.Drawing.Point(7, 110)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(380, 329)
+        Me.DataGridView1.Size = New System.Drawing.Size(443, 405)
         Me.DataGridView1.TabIndex = 6
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 61)
+        Me.SimpleButton1.Location = New System.Drawing.Point(7, 75)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(109, 22)
+        Me.SimpleButton1.Size = New System.Drawing.Size(127, 27)
         Me.SimpleButton1.TabIndex = 7
         Me.SimpleButton1.Text = "Kaydet"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(121, 61)
+        Me.SimpleButton2.Location = New System.Drawing.Point(141, 75)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(109, 22)
+        Me.SimpleButton2.Size = New System.Drawing.Size(127, 27)
         Me.SimpleButton2.TabIndex = 8
         Me.SimpleButton2.Text = "Sil"
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(252, 25)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(294, 31)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
-        '
-        '
-        '
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"SATIS", "URETIM", "LOJISTIK", "KALITE", "DEPO", "MEYVE", "ZIRAI", "YONETIM", "DIGER"})
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(134, 20)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(156, 23)
         Me.ComboBoxEdit1.TabIndex = 4
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(146, 25)
+        Me.TextEdit2.Location = New System.Drawing.Point(170, 31)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
+        Me.TextEdit2.Size = New System.Drawing.Size(146, 23)
         Me.TextEdit2.TabIndex = 1
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(6, 25)
+        Me.TextEdit1.Location = New System.Drawing.Point(7, 31)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(134, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(156, 23)
         Me.TextEdit1.TabIndex = 0
         '
         'Form135
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(394, 430)
+        Me.ClientSize = New System.Drawing.Size(460, 529)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.DataGridView1)
@@ -135,6 +139,7 @@ Partial Class Form135
         Me.Controls.Add(Me.TextEdit2)
         Me.Controls.Add(Me.TextEdit1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form135"
         Me.Text = "ALANSIS - KULLANICI TANIMLAMA"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -47,49 +47,54 @@ Partial Class Form92
         Me.Panel1.Controls.Add(Me.TextBox2)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(2, 4)
+        Me.Panel1.Location = New System.Drawing.Point(2, 5)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1100, 41)
+        Me.Panel1.Size = New System.Drawing.Size(1283, 50)
         Me.Panel1.TabIndex = 0
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(1030, 12)
+        Me.SimpleButton2.Location = New System.Drawing.Point(1202, 15)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(67, 23)
+        Me.SimpleButton2.Size = New System.Drawing.Size(78, 28)
         Me.SimpleButton2.TabIndex = 90
         Me.SimpleButton2.Text = "XLS"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(955, 12)
+        Me.SimpleButton1.Location = New System.Drawing.Point(1114, 15)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(67, 23)
+        Me.SimpleButton1.Size = New System.Drawing.Size(78, 28)
         Me.SimpleButton1.TabIndex = 89
         Me.SimpleButton1.Text = "PDF"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(941, 12)
+        Me.TextBox2.Location = New System.Drawing.Point(1098, 15)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(8, 21)
+        Me.TextBox2.Size = New System.Drawing.Size(9, 23)
         Me.TextBox2.TabIndex = 88
         Me.TextBox2.Visible = False
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(100, 8)
+        Me.TextBox1.Location = New System.Drawing.Point(117, 10)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(217, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(252, 23)
         Me.TextBox1.TabIndex = 85
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label1.Location = New System.Drawing.Point(4, 9)
+        Me.Label1.Location = New System.Drawing.Point(5, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 16)
+        Me.Label1.Size = New System.Drawing.Size(112, 19)
         Me.Label1.TabIndex = 84
         Me.Label1.Text = "IRSALIYE NO"
         '
@@ -97,17 +102,19 @@ Partial Class Form92
         '
         Me.Panel2.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Panel2.Controls.Add(Me.DataGridView1)
-        Me.Panel2.Location = New System.Drawing.Point(2, 47)
+        Me.Panel2.Location = New System.Drawing.Point(2, 58)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1100, 445)
+        Me.Panel2.Size = New System.Drawing.Size(1283, 548)
         Me.Panel2.TabIndex = 1
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(4, 12)
+        Me.DataGridView1.Location = New System.Drawing.Point(5, 15)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1093, 430)
+        Me.DataGridView1.Size = New System.Drawing.Size(1275, 529)
         Me.DataGridView1.TabIndex = 0
         '
         'DefaultLookAndFeel1
@@ -116,12 +123,13 @@ Partial Class Form92
         '
         'Form92
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1104, 494)
+        Me.ClientSize = New System.Drawing.Size(1288, 608)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form92"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "HAMMADDE KABUL FIRE "

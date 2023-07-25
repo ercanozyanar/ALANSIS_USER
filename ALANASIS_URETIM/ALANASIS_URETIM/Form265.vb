@@ -2,102 +2,139 @@
 Imports System.Data
 Imports System.Net.Sockets
 Public Class Form265
+
     Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
-        On Error GoTo hata
+        'On Error GoTo hata
         Dim conn1 As New SqlConnection
         Dim cmd1, cmd2 As New SqlCommand
         Dim da As New SqlDataAdapter()
         Dim ds As New DataSet
         Dim ekle, rapor, uretimrapor
-        uretimrapor = ""
-        ekle = ""
-        rapor = ""
-        conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907;"
-        conn1.Open()
-        cmd1.Connection = conn1
-        cmd1.CommandText = "ALTER TABLE EO_ALANSIS_KIRAZ_MAMULDEPO ADD " & TextEdit1.Text & " " & ComboBoxEdit1.Text & ""
-        cmd1.ExecuteNonQuery()
-        conn1.Close()
-        ekle = "," + TextEdit1.Text
+        conn1.ConnectionString = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907"
         '==============================================================================================================================================================================================================
-        If CheckEdit1.EditValue = "True" Then
-            conn1.Open()
-            Dim mySelectQuery1 As String = "SELECT* FROM EO_ALANSIS_RAPORMODUL WHERE BOLUM='SATIS';"
-            Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, conn1)
-            Dim reader1 As System.Data.SqlClient.SqlDataReader
-            reader1 = SqlComm1.ExecuteReader()
-            While reader1.Read()
-                uretimrapor = reader1("KIRAZ_RAPOR")
-            End While
-            reader1.Close()
-            conn1.Close()
-            uretimrapor = uretimrapor + ekle
+        If CheckEdit1.EditValue = "True" Then 'SATIŞ
             conn1.Open()
             cmd1.Connection = conn1
-            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET KIRAZ_RAPOR='" & uretimrapor & "' WHERE BOLUM='SATIS'"
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET SATIS='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit1.EditValue = "FALSE" Then 'SATIŞ
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET SATIS='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
             cmd1.ExecuteNonQuery()
             conn1.Close()
         End If
         '================================================================================================================================
-        If CheckEdit2.EditValue = "True" Then
-            conn1.Open()
-            Dim mySelectQuery1 As String = "SELECT* FROM EO_ALANSIS_RAPORMODUL WHERE BOLUM='URETIM';"
-            Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, conn1)
-            Dim reader1 As System.Data.SqlClient.SqlDataReader
-            reader1 = SqlComm1.ExecuteReader()
-            While reader1.Read()
-                uretimrapor = reader1("KIRAZ_RAPOR")
-            End While
-            reader1.Close()
-            conn1.Close()
-            uretimrapor = uretimrapor + ekle
+        If CheckEdit2.EditValue = "True" Then 'URETIM
             conn1.Open()
             cmd1.Connection = conn1
-            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET KIRAZ_RAPOR='" & uretimrapor & "' WHERE BOLUM='URETIM'"
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET URETIM='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit2.EditValue = "FALSE" Then 'SATIŞ
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET URETIM='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
             cmd1.ExecuteNonQuery()
             conn1.Close()
         End If
         '================================================================================================================================
-        If CheckEdit3.EditValue = "True" Then
-            conn1.Open()
-            Dim mySelectQuery1 As String = "SELECT* FROM EO_ALANSIS_RAPORMODUL WHERE BOLUM='MUHASEBE';"
-            Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, conn1)
-            Dim reader1 As System.Data.SqlClient.SqlDataReader
-            reader1 = SqlComm1.ExecuteReader()
-            While reader1.Read()
-                uretimrapor = reader1("KIRAZ_RAPOR")
-            End While
-            reader1.Close()
-            conn1.Close()
-            uretimrapor = uretimrapor + ekle
+        If CheckEdit3.EditValue = "True" Then 'MUHASEBE
             conn1.Open()
             cmd1.Connection = conn1
-            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET KIRAZ_RAPOR='" & uretimrapor & "' WHERE BOLUM='MUHASEBE'"
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET MUHASEBE='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit3.EditValue = "FALSE" Then 'MUHASEBE
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET MUHASEBE='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
             cmd1.ExecuteNonQuery()
             conn1.Close()
         End If
         '================================================================================================================================
-        If CheckEdit4.EditValue = "True" Then
-            conn1.Open()
-            Dim mySelectQuery1 As String = "SELECT* FROM EO_ALANSIS_RAPORMODUL WHERE BOLUM='LOJISTIK';"
-            Dim SqlComm1 As New System.Data.SqlClient.SqlCommand(mySelectQuery1, conn1)
-            Dim reader1 As System.Data.SqlClient.SqlDataReader
-            reader1 = SqlComm1.ExecuteReader()
-            While reader1.Read()
-                uretimrapor = reader1("KIRAZ_RAPOR")
-            End While
-            reader1.Close()
-            conn1.Close()
-            uretimrapor = uretimrapor + ekle
+        If CheckEdit4.EditValue = "True" Then 'LOJISTIK
             conn1.Open()
             cmd1.Connection = conn1
-            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET KIRAZ_RAPOR='" & uretimrapor & "' WHERE BOLUM='LOJISTIK'"
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET LOJISTIK='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit4.EditValue = "FALSE" Then 'LOJISTIK
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET LOJISTIK='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
             cmd1.ExecuteNonQuery()
             conn1.Close()
         End If
         '================================================================================================================================
+        If CheckEdit8.EditValue = "True" Then 'KALITE
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET KALITE='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit8.EditValue = "FALSE" Then 'KALITE
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET KALITE='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        '================================================================================================================================
+        If CheckEdit6.EditValue = "True" Then 'DEPO
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET DEPO='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit6.EditValue = "FALSE" Then 'DEPO
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET DEPO='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        '================================================================================================================================
+        If CheckEdit5.EditValue = "True" Then 'BAHCELER
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET BAHCELER='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit5.EditValue = "FALSE" Then 'BAHCELER
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET BAHCELER='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        '================================================================================================================================
+        If CheckEdit7.EditValue = "True" Then 'MUSTERI
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET MUSTERI='E' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+        If CheckEdit7.EditValue = "FALSE" Then 'MUSTERI
+            conn1.Open()
+            cmd1.Connection = conn1
+            cmd1.CommandText = "UPDATE EO_ALANSIS_RAPORMODUL SET MUSTERI='H' WHERE KISIM='KIRAZ' AND SAHA='" & ComboBoxEdit1.Text & "'"
+            cmd1.ExecuteNonQuery()
+            conn1.Close()
+        End If
+
+
         Dim connectionString As String = "server=10.3.11.61;database=ALANSIS;uid=sa;pwd=term.0907"
-        Dim sql As String = uretimrapor + " " + "FROM EO_ALANSIS_KIRAZ_MAMULDEPO"
+        Dim sql As String = "SELECT* FROM EO_ALANSIS_RAPORMODUL"
         Dim connection As New SqlConnection(connectionString)
         Dim dataadapter As New SqlDataAdapter(sql, connection)
         connection.Open()
@@ -108,17 +145,17 @@ Public Class Form265
         GridView1.OptionsView.ColumnAutoWidth = False
         GridView1.OptionsView.BestFitMaxRowCount = -1
         GridView1.BestFitColumns()
-        MsgBox("İşlem Tamamlandı...")
+        MsgBox("Yetkilendirmede Tamamlanmıştır...")
         Exit Sub
 
 
-        Dim grupkontrol As String
-        grupkontrol = ""
-        grupkontrol = Trim(Mid(Form2.BarStaticItem4.Caption, 12, 15))
 
+        'hata:
+        '       MsgBox("Yetkilendirmede Hata...")
+        '       Exit Sub
+    End Sub
 
-hata:
-        MsgBox("Alan Adı Eklemede Hata...")
-        Exit Sub
+    Private Sub Form265_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

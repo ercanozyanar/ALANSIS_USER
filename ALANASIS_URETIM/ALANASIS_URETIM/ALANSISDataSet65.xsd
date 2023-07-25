@@ -51,6 +51,12 @@
                     <Parameters />
                   </DbCommand>
                 </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText />
+                    <Parameters />
+                  </DbCommand>
+                </UpdateCommand>
               </DbSource>
             </MainSource>
             <Mappings>
@@ -94,7 +100,7 @@
   <xs:element name="ALANSISDataSet65" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet65" msprop:Generator_UserDSName="ALANSISDataSet65">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="EO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_TableClassName="EO_ALANSIS_KIRAZ_MAMULDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_TablePropName="EO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_KIRAZ_MAMULDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KIRAZ_MAMULDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KIRAZ_MAMULDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KIRAZ_MAMULDEPORowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_KIRAZ_MAMULDEPORowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_KIRAZ_MAMULDEPORowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_KIRAZ_MAMULDEPORow">
+        <xs:element name="EO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_TableClassName="EO_ALANSIS_KIRAZ_MAMULDEPODataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_RowChangedName="EO_ALANSIS_KIRAZ_MAMULDEPORowChanged" msprop:Generator_TablePropName="EO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_RowDeletingName="EO_ALANSIS_KIRAZ_MAMULDEPORowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_KIRAZ_MAMULDEPORowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_KIRAZ_MAMULDEPORowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_KIRAZ_MAMULDEPORowDeleted" msprop:Generator_RowClassName="EO_ALANSIS_KIRAZ_MAMULDEPORow" msprop:Generator_UserTableName="EO_ALANSIS_KIRAZ_MAMULDEPO" msprop:Generator_RowEvArgName="EO_ALANSIS_KIRAZ_MAMULDEPORowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />

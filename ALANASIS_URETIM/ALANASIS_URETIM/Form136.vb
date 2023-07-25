@@ -45,7 +45,7 @@ Public Class Form136
         SqlConn.Close()
         '=====================================================================================================
         SqlConn.Open()
-        Dim mySelectQuery2 As String = "SELECT STOK_KODU,(SELECT ISNULL(SUM(MIKTAR),0) AS CIKIS FROM EO_ALANSIS_HAMHAR WHERE STOK_KODU='" & TextBox1.Text & "' AND HARAKET_KODU='C' AND DEPO_KODU='10') AS CIKIS_BAKIYE FROM EO_ALANSIS_HAMHAR WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10' GROUP BY STOK_KODU;"
+        Dim mySelectQuery2 As String = "SELECT STOK_KODU,(SELECT ISNULL(SUM(MIKTAR),0) AS CIKIS FROM EO_ALANSIS_HAMHARSERI WHERE STOK_KODU='" & TextBox1.Text & "' AND HARAKET_KODU='C' AND DEPO_KODU='10') AS CIKIS_BAKIYE FROM EO_ALANSIS_HAMHARSERI WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10' GROUP BY STOK_KODU;"
         Dim SqlComm2 As New System.Data.SqlClient.SqlCommand(mySelectQuery2, SqlConn)
         Dim reader2 As System.Data.SqlClient.SqlDataReader
         reader2 = SqlComm2.ExecuteReader()
@@ -56,7 +56,7 @@ Public Class Form136
         SqlConn.Close()
         '=====================================================================================================
         SqlConn.Open()
-        Dim mySelectQuery3 As String = "SELECT STOK_KODU,((SELECT ISNULL(SUM(MIKTAR),0) AS GIRIS FROM EO_ALANSIS_HAMHAR WHERE STOK_KODU='" & TextBox1.Text & "' AND HARAKET_KODU='G' AND DEPO_KODU='10') -(SELECT ISNULL(SUM(MIKTAR),0) AS CIKIS FROM EO_ALANSIS_HAMHAR WHERE STOK_KODU='" & TextBox1.Text & "' AND HARAKET_KODU='C' AND DEPO_KODU='10')) AS MIKTARX FROM EO_ALANSIS_HAMHAR WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10' GROUP BY STOK_KODU"
+        Dim mySelectQuery3 As String = "SELECT STOK_KODU,((SELECT ISNULL(SUM(MIKTAR),0) AS GIRIS FROM EO_ALANSIS_HAMHARSERI WHERE STOK_KODU='" & TextBox1.Text & "' AND HARAKET_KODU='G' AND DEPO_KODU='10') -(SELECT ISNULL(SUM(MIKTAR),0) AS CIKIS FROM EO_ALANSIS_HAMHARSERI WHERE STOK_KODU='" & TextBox1.Text & "' AND HARAKET_KODU='C' AND DEPO_KODU='10')) AS MIKTARX FROM EO_ALANSIS_HAMHARSERI WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10' GROUP BY STOK_KODU"
         Dim SqlComm3 As New System.Data.SqlClient.SqlCommand(mySelectQuery3, SqlConn)
         Dim reader3 As System.Data.SqlClient.SqlDataReader
         reader3 = SqlComm3.ExecuteReader()
@@ -74,7 +74,7 @@ Public Class Form136
             cnn.Open()
             cmd.Connection = cnn
             cmd.CommandType = CommandType.Text
-            cmd.CommandText = "SELECT TARIH,STOK_KODU,STOK_ADI,BELGENO,HARAKET_TIPI,CASE HARAKET_KODU WHEN 'C' THEN 'CIKIS' WHEN 'G' THEN 'GIRIS' END AS HARAKET_TIPI,MIKTAR,GELDIGI_YER,RENK,DEPO_KODU FROM EO_ALANSIS_HAMHAR WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10'"
+            cmd.CommandText = "SELECT TARIH,STOK_KODU,STOK_ADI,BELGENO,HARAKET_TIPI,CASE HARAKET_KODU WHEN 'C' THEN 'CIKIS' WHEN 'G' THEN 'GIRIS' END AS HARAKET_TIPI,MIKTAR,GELDIGI_YER,RENK,DEPO_KODU FROM EO_ALANSIS_HAMHARSERI WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10'"
             da.SelectCommand = cmd
             DataGridView1.ClearSelection()
             da.Fill(ds)
@@ -100,7 +100,7 @@ Public Class Form136
             cnn.Open()
             cmd.Connection = cnn
             cmd.CommandType = CommandType.Text
-            cmd.CommandText = "SELECT TARIH,STOK_KODU,STOK_ADI,BELGENO,HARAKET_TIPI,CASE HARAKET_KODU WHEN 'C' THEN 'CIKIS' WHEN 'G' THEN 'GIRIS' END AS HARAKET_TIPI,MIKTAR,GELDIGI_YER,RENK,DEPO_KODU FROM EO_ALANSIS_HAMHAR WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10'"
+            cmd.CommandText = "SELECT TARIH,STOK_KODU,STOK_ADI,BELGENO,HARAKET_TIPI,CASE HARAKET_KODU WHEN 'C' THEN 'CIKIS' WHEN 'G' THEN 'GIRIS' END AS HARAKET_TIPI,MIKTAR,GELDIGI_YER,RENK,DEPO_KODU FROM EO_ALANSIS_HAMHARSERI WHERE STOK_KODU='" & TextBox1.Text & "' AND DEPO_KODU='10'"
             da.SelectCommand = cmd
             DataGridView1.ClearSelection()
             da.Fill(ds)
@@ -121,19 +121,6 @@ Public Class Form136
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
         Form137.Show()
     End Sub
-
-    Private Sub SeriİzlemeToolStripMenuItem_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
-    End Sub
-
-    Private Sub DataGridView1_MouseClick(sender As Object, e As MouseEventArgs) Handles DataGridView1.MouseClick
-
-    End Sub
-
     Private Sub DataGridView1_CellContentDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentDoubleClick
         Form141.TextBox1.Text = DataGridView1.CurrentRow.Cells(3).Value.ToString
         Form141.Show()

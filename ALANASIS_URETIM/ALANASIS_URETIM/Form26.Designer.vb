@@ -41,18 +41,20 @@ Partial Class Form26
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(720, 8)
+        Me.Button1.Location = New System.Drawing.Point(840, 10)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(57, 23)
+        Me.Button1.Size = New System.Drawing.Size(66, 28)
         Me.Button1.TabIndex = 56
         Me.Button1.Text = "XLS"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(656, 8)
+        Me.Button4.Location = New System.Drawing.Point(765, 10)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(58, 23)
+        Me.Button4.Size = New System.Drawing.Size(68, 28)
         Me.Button4.TabIndex = 55
         Me.Button4.Text = "PDF"
         Me.Button4.UseVisualStyleBackColor = True
@@ -60,9 +62,10 @@ Partial Class Form26
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Gray
-        Me.Button2.Location = New System.Drawing.Point(521, 7)
+        Me.Button2.Location = New System.Drawing.Point(608, 9)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(114, 25)
+        Me.Button2.Size = New System.Drawing.Size(133, 31)
         Me.Button2.TabIndex = 54
         Me.Button2.Text = "Yükle"
         Me.Button2.UseVisualStyleBackColor = False
@@ -73,9 +76,10 @@ Partial Class Form26
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 36)
+        Me.DataGridView1.Location = New System.Drawing.Point(14, 44)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(768, 440)
+        Me.DataGridView1.Size = New System.Drawing.Size(896, 542)
         Me.DataGridView1.TabIndex = 53
         '
         'DateTimePicker4
@@ -84,9 +88,10 @@ Partial Class Form26
         Me.DateTimePicker4.CustomFormat = "yyyy-MM-dd 00:00:00"
         Me.DateTimePicker4.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker4.Location = New System.Drawing.Point(159, 9)
+        Me.DateTimePicker4.Location = New System.Drawing.Point(185, 11)
+        Me.DateTimePicker4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimePicker4.Name = "DateTimePicker4"
-        Me.DateTimePicker4.Size = New System.Drawing.Size(115, 21)
+        Me.DateTimePicker4.Size = New System.Drawing.Size(133, 25)
         Me.DateTimePicker4.TabIndex = 50
         '
         'Label15
@@ -94,9 +99,9 @@ Partial Class Form26
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label15.Location = New System.Drawing.Point(23, 12)
+        Me.Label15.Location = New System.Drawing.Point(27, 15)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(130, 16)
+        Me.Label15.Size = New System.Drawing.Size(162, 19)
         Me.Label15.TabIndex = 49
         Me.Label15.Text = "BAŞLANGIÇ TARIHI"
         '
@@ -106,9 +111,10 @@ Partial Class Form26
         Me.DateTimePicker3.CustomFormat = "yyyy-MM-dd 00:00:00"
         Me.DateTimePicker3.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker3.Location = New System.Drawing.Point(386, 9)
+        Me.DateTimePicker3.Location = New System.Drawing.Point(450, 11)
+        Me.DateTimePicker3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimePicker3.Name = "DateTimePicker3"
-        Me.DateTimePicker3.Size = New System.Drawing.Size(115, 21)
+        Me.DateTimePicker3.Size = New System.Drawing.Size(133, 25)
         Me.DateTimePicker3.TabIndex = 52
         '
         'Label14
@@ -116,17 +122,18 @@ Partial Class Form26
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label14.Location = New System.Drawing.Point(292, 12)
+        Me.Label14.Location = New System.Drawing.Point(341, 15)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(88, 16)
+        Me.Label14.Size = New System.Drawing.Size(107, 19)
         Me.Label14.TabIndex = 51
         Me.Label14.Text = "BİTİŞ TARIHI"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(7, 16)
+        Me.TextBox1.Location = New System.Drawing.Point(8, 20)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(8, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(9, 23)
         Me.TextBox1.TabIndex = 57
         Me.TextBox1.Visible = False
         '
@@ -136,10 +143,10 @@ Partial Class Form26
         '
         'Form26
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(787, 482)
+        Me.ClientSize = New System.Drawing.Size(918, 593)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button4)
@@ -150,6 +157,7 @@ Partial Class Form26
         Me.Controls.Add(Me.DateTimePicker3)
         Me.Controls.Add(Me.Label14)
         Me.IconOptions.Icon = CType(resources.GetObject("Form26.IconOptions.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.Name = "Form26"
         Me.Text = "Depo Mal Kabul"

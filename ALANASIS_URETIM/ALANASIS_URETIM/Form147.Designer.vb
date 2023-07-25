@@ -38,36 +38,40 @@ Partial Class Form147
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(4, 44)
+        Me.DataGridView1.Location = New System.Drawing.Point(5, 54)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(792, 394)
+        Me.DataGridView1.Size = New System.Drawing.Size(924, 485)
         Me.DataGridView1.TabIndex = 0
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(4, 5)
+        Me.SimpleButton1.Location = New System.Drawing.Point(5, 6)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(128, 33)
+        Me.SimpleButton1.Size = New System.Drawing.Size(149, 41)
         Me.SimpleButton1.TabIndex = 1
         Me.SimpleButton1.Text = "Sil"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(138, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(161, 15)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(46, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(53, 23)
         Me.TextBox1.TabIndex = 2
         Me.TextBox1.Visible = False
         '
         'Form147
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 443)
+        Me.ClientSize = New System.Drawing.Size(933, 545)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.DataGridView1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form147"
         Me.Text = "ALANSIS - KIRAZ KALITE SILME ISLEM MODULU"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

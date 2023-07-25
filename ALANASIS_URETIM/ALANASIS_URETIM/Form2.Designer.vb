@@ -25,610 +25,610 @@ Partial Class Form2
         Me.components = New System.ComponentModel.Container()
         Dim SplashScreenManager1 As DevExpress.XtraSplashScreen.SplashScreenManager = New DevExpress.XtraSplashScreen.SplashScreenManager(Me, GetType(Global.WindowsApplication1.SplashScreen1), True, True, True)
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
-        Dim SkinPaddingEdges14 As DevExpress.Skins.SkinPaddingEdges = New DevExpress.Skins.SkinPaddingEdges()
-        Dim SuperToolTip2482 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2482 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2482 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2483 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2483 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2483 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2484 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2484 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2484 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2485 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2485 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2485 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2486 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2486 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2486 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2487 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2487 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2487 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2488 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2488 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2488 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2489 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2489 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2489 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2490 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2490 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2490 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2491 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2491 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2491 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2492 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2492 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2492 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2493 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2493 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2493 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2494 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2494 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2494 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2495 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2495 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2495 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2496 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2496 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2496 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2497 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2497 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2497 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2498 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2498 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2498 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2308 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2308 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2308 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2118 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2118 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2118 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip1928 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1928 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1928 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2499 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2499 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2499 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2500 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2500 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2500 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2501 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2501 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2501 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2502 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2502 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2502 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2503 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2503 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2503 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2504 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2504 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2504 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2505 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2505 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2505 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2506 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2506 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2506 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2507 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2507 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2507 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2508 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2508 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2508 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2509 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2509 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2509 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2510 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2510 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2510 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2511 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2511 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2511 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2512 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2512 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2512 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2513 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2513 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2513 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2514 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2514 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2514 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2515 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2515 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2515 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2516 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2516 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2516 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2517 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2517 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2517 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2518 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2518 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2518 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2519 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2519 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2519 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2520 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2520 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2520 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2521 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2521 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2521 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2522 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2522 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2522 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2523 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2523 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2523 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2524 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2524 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2524 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2525 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2525 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2525 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2526 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2526 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2526 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2527 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2527 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2527 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2528 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2528 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2528 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2529 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2529 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2529 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2530 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2530 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2530 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2531 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2531 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2531 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2532 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2532 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2532 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2533 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2533 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2533 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2534 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2534 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2534 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2535 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2535 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2535 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2536 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2536 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2536 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2537 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2537 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2537 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2538 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2538 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2538 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2539 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2539 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2539 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2540 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2540 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2540 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2541 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2541 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2541 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2542 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2542 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2542 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2543 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2543 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2543 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2544 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2544 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2544 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2545 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2545 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2545 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2546 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2546 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2546 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2547 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2547 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2547 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2548 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2548 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2548 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2549 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2549 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2549 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2550 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2550 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2550 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2551 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2551 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2551 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2552 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2552 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2552 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2553 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2553 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2553 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2554 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2554 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2554 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2555 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2555 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2555 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2556 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2556 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2556 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2557 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2557 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2557 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2558 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2558 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2558 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2559 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2559 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2559 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2560 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2560 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2560 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2370 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2370 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2370 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2561 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2561 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2561 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2562 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2562 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2562 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2563 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2563 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2563 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2564 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2564 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2564 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2565 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2565 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2565 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2375 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2375 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2375 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2185 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2185 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2185 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip1995 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1995 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1995 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip1805 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1805 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1805 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip1615 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1615 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1615 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip1425 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1425 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1425 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip1235 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1235 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1235 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2566 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2566 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2566 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2567 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2567 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2567 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2568 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2568 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2568 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2569 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2569 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2569 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2570 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2570 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2570 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2571 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2571 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2571 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2572 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2572 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2572 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2573 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2573 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2573 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2574 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2574 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2574 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2575 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2575 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2575 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2576 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2576 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2576 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2577 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2577 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2577 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2578 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2578 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2578 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2579 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2579 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2579 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2580 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2580 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2580 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2581 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2581 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2581 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2582 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2582 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2582 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2583 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2583 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2583 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2584 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2584 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2584 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2585 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2585 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2585 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2586 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2586 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2586 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2587 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2587 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2587 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2588 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2588 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2588 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2589 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2589 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2589 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2590 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2590 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2590 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2591 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2591 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2591 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2592 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2592 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2592 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2593 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2593 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2593 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2594 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2594 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2594 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2595 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2595 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2595 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2596 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2596 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2596 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2597 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2597 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2597 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2598 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2598 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2598 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2599 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2599 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2599 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2600 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2600 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2600 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2601 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2601 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2601 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2602 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2602 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2602 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2603 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2603 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2603 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2604 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2604 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2604 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2605 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2605 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2605 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2606 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2606 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2606 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2607 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2607 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2607 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2608 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2608 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2608 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2609 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2609 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2609 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2610 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2610 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2610 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2611 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2611 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2611 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2612 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2612 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2612 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2613 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2613 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2613 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2614 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2614 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2614 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2615 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2615 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2615 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2616 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2616 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2616 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2617 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2617 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2617 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2618 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2618 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2618 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2619 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2619 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2619 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2620 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2620 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2620 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2621 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2621 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2621 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2622 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2622 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2622 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2623 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2623 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2623 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2624 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2624 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2624 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2625 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2625 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2625 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2626 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2626 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2626 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2627 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2627 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2627 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2628 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2628 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2628 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2629 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2629 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2629 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2630 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2630 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2630 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2631 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2631 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2631 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2632 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2632 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2632 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2633 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2633 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2633 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2634 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2634 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2634 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2635 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2635 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2635 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2636 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2636 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2636 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2637 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2637 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2637 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2638 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2638 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2638 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2639 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2639 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2639 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2640 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2640 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2640 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2641 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2641 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2641 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2642 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2642 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2642 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2643 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2643 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2643 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2644 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2644 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2644 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2645 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2645 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2645 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2646 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2646 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2646 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2647 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2647 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2647 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2648 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2648 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2648 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2649 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2649 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2649 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2650 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2650 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2650 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2651 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2651 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2651 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2652 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2652 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2652 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2653 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2653 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2653 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2654 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2654 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2654 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2655 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2655 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2655 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2656 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2656 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2656 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2657 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2657 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2657 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2658 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2658 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2658 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2659 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2659 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2659 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2660 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2660 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2660 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2661 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2661 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2661 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2662 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2662 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2662 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2663 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2663 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2663 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2664 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2664 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2664 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2665 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2665 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2665 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2666 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2666 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2666 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2667 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2667 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2667 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2668 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2668 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2668 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2669 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2669 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2669 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2670 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2670 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2670 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2671 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2671 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2671 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SkinPaddingEdges2 As DevExpress.Skins.SkinPaddingEdges = New DevExpress.Skins.SkinPaddingEdges()
+        Dim SuperToolTip202 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem202 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem202 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip203 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem203 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem203 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip204 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem204 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem204 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip205 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem205 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem205 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip206 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem206 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem206 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip207 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem207 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem207 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip208 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem208 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem208 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip209 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem209 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem209 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip210 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem210 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem210 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip211 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem211 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem211 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip212 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem212 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem212 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip213 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem213 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem213 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip214 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem214 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem214 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip215 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem215 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem215 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip216 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem216 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem216 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip217 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem217 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem217 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip218 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem218 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem218 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip17 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem17 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem17 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip18 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem18 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem18 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip19 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem19 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem19 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip219 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem219 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem219 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip220 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem220 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem220 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip221 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem221 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem221 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip222 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem222 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem222 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip223 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem223 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem223 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip224 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem224 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem224 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip225 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem225 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem225 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip226 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem226 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem226 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip227 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem227 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem227 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip228 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem228 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem228 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip229 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem229 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem229 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip230 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem230 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem230 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip231 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem231 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem231 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip232 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem232 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem232 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip233 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem233 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem233 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip234 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem234 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem234 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip235 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem235 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem235 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip236 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem236 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem236 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip237 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem237 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem237 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip238 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem238 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem238 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip239 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem239 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem239 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip240 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem240 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem240 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip241 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem241 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem241 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip242 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem242 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem242 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip243 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem243 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem243 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip244 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem244 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem244 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip245 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem245 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem245 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip246 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem246 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem246 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip247 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem247 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem247 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip248 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem248 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem248 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip249 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem249 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem249 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip250 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem250 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem250 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip251 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem251 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem251 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip252 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem252 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem252 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip253 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem253 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem253 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip254 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem254 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem254 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip255 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem255 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem255 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip256 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem256 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem256 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip257 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem257 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem257 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip258 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem258 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem258 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip259 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem259 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem259 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip260 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem260 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem260 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip261 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem261 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem261 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip262 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem262 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem262 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip263 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem263 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem263 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip264 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem264 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem264 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip265 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem265 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem265 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip266 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem266 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem266 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip267 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem267 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem267 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip268 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem268 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem268 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip269 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem269 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem269 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip270 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem270 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem270 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip271 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem271 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem271 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip272 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem272 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem272 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip273 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem273 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem273 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip274 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem274 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem274 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip275 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem275 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem275 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip276 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem276 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem276 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip277 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem277 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem277 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip278 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem278 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem278 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip279 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem279 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem279 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip280 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem280 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem280 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip82 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem82 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem82 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip281 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem281 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem281 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip282 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem282 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem282 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip283 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem283 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem283 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip284 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem284 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem284 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip285 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem285 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem285 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip88 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem88 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem88 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip89 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem89 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem89 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip90 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem90 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem90 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip91 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem91 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem91 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip92 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem92 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem92 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip93 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem93 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem93 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip94 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem94 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem94 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip286 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem286 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem286 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip287 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem287 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem287 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip288 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem288 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem288 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip289 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem289 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem289 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip290 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem290 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem290 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip291 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem291 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem291 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip292 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem292 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem292 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip293 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem293 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem293 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip294 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem294 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem294 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip295 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem295 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem295 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip296 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem296 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem296 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip297 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem297 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem297 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip298 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem298 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem298 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip299 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem299 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem299 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip300 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem300 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem300 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip301 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem301 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem301 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip302 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem302 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem302 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip303 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem303 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem303 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip304 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem304 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem304 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip305 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem305 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem305 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip306 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem306 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem306 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip307 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem307 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem307 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip308 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem308 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem308 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip309 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem309 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem309 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip310 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem310 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem310 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip311 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem311 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem311 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip312 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem312 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem312 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip313 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem313 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem313 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip314 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem314 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem314 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip315 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem315 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem315 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip316 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem316 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem316 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip317 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem317 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem317 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip318 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem318 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem318 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip319 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem319 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem319 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip320 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem320 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem320 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip321 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem321 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem321 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip322 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem322 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem322 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip323 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem323 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem323 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip324 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem324 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem324 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip325 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem325 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem325 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip326 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem326 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem326 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip327 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem327 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem327 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip328 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem328 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem328 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip329 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem329 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem329 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip330 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem330 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem330 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip331 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem331 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem331 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip332 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem332 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem332 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip333 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem333 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem333 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip334 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem334 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem334 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip335 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem335 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem335 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip336 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem336 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem336 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip337 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem337 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem337 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip338 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem338 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem338 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip339 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem339 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem339 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip340 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem340 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem340 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip341 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem341 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem341 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip342 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem342 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem342 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip343 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem343 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem343 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip344 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem344 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem344 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip345 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem345 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem345 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip346 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem346 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem346 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip347 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem347 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem347 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip348 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem348 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem348 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip349 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem349 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem349 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip350 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem350 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem350 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip351 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem351 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem351 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip352 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem352 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem352 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip353 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem353 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem353 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip354 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem354 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem354 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip355 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem355 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem355 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip356 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem356 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem356 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip357 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem357 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem357 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip358 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem358 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem358 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip359 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem359 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem359 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip360 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem360 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem360 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip361 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem361 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem361 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip362 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem362 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem362 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip363 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem363 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem363 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip364 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem364 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem364 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip365 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem365 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem365 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip366 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem366 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem366 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip367 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem367 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem367 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip368 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem368 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem368 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip369 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem369 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem369 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip370 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem370 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem370 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip371 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem371 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem371 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip372 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem372 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem372 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip373 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem373 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem373 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip374 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem374 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem374 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip375 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem375 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem375 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip376 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem376 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem376 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip377 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem377 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem377 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip378 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem378 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem378 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip379 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem379 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem379 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip380 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem380 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem380 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip381 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem381 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem381 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip382 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem382 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem382 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip383 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem383 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem383 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip384 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem384 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem384 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip385 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem385 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem385 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip386 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem386 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem386 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip387 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem387 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem387 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip388 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem388 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem388 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip389 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem389 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem389 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip390 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem390 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem390 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip391 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem391 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem391 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.RibbonStatusBar1 = New DevExpress.XtraBars.Ribbon.RibbonStatusBar()
         Me.BarStaticItem4 = New DevExpress.XtraBars.BarStaticItem()
@@ -1178,65 +1178,41 @@ Partial Class Form2
         Me.BarButtonItem252 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem253 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem254 = New DevExpress.XtraBars.BarButtonItem()
-        Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup55 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup57 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup2 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup3 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup14 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage15 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup33 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup24 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup52 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage17 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup29 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup35 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup39 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage14 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup30 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup31 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup32 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage16 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup23 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup42 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup51 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.BarButtonItem255 = New DevExpress.XtraBars.BarButtonItem()
+        Me.BarSubItem31 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem32 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem33 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem34 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem35 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem36 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem37 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem38 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem39 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem40 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem41 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem42 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem43 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarButtonItem256 = New DevExpress.XtraBars.BarButtonItem()
+        Me.BarSubItem44 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem45 = New DevExpress.XtraBars.BarSubItem()
+        Me.RibbonPage22 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+        Me.RibbonPageGroup60 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup7 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage3 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup4 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup25 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage5 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+        Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup16 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup19 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup6 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup17 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup18 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup46 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup47 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup36 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup38 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup40 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage4 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+        Me.RibbonPage21 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+        Me.RibbonPageGroup59 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup61 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup4 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup5 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup15 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup16 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage6 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup7 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup19 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage7 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup8 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup20 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage8 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup21 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup58 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup22 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup41 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup44 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup45 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup56 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPage9 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup10 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup37 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup43 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage10 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup11 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup26 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
@@ -1312,13 +1288,13 @@ Partial Class Form2
         Me.RibbonControl1.AutoHideEmptyItems = True
         Me.RibbonControl1.AutoSizeItems = True
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.RibbonControl1.SearchEditItem, Me.BarStaticItem1, Me.BarStaticItem2, Me.BarButtonItem1, Me.BarDockingMenuItem1, Me.BarButtonItem2, Me.SkinRibbonGalleryBarItem1, Me.BarButtonItem3, Me.BarButtonItem4, Me.BarButtonItem6, Me.BarButtonItem7, Me.BarButtonItem8, Me.BarButtonItem9, Me.BarButtonItem10, Me.BarButtonItem11, Me.BarButtonGroup1, Me.RibbonGalleryBarItem1, Me.CommandBarItem1, Me.CommandBarItem2, Me.CommandBarItem3, Me.CommandBarItem4, Me.CommandBarItem5, Me.CommandBarItem6, Me.CommandBarItem7, Me.CommandBarItem8, Me.CommandBarItem9, Me.CommandBarItem10, Me.CommandBarItem11, Me.CommandBarItem12, Me.CommandBarItem13, Me.CommandBarItem14, Me.CommandBarItem15, Me.CommandBarItem16, Me.BarEditItem1, Me.BarEditItem2, Me.BarDockPanelsListItem1, Me.CommandBarItem17, Me.CommandBarItem18, Me.CommandBarItem19, Me.CommandColorBarItem1, Me.CommandColorBarItem2, Me.CommandBarItem20, Me.CommandBarItem21, Me.CommandBarItem22, Me.CommandBarItem23, Me.CommandBarItem24, Me.CommandBarItem25, Me.CommandBarItem26, Me.CommandBarItem27, Me.CommandBarItem28, Me.CommandBarItem29, Me.CommandBarItem30, Me.CommandBarItem31, Me.CommandBarItem32, Me.CommandBarItem33, Me.CommandBarItem34, Me.CommandBarItem35, Me.CommandBarItem36, Me.CommandBarItem37, Me.CommandColorBarItem3, Me.CommandBarItem38, Me.CommandBarItem39, Me.CommandBarItem40, Me.CommandBarItem41, Me.CommandBarItem42, Me.CommandBarItem43, Me.CommandBarItem44, Me.CommandBarItem45, Me.CommandBarItem46, Me.CommandBarItem47, Me.CommandBarItem48, Me.CommandBarItem49, Me.CommandBarItem50, Me.CommandBarItem51, Me.CommandBarItem52, Me.CommandBarItem53, Me.CommandBarItem54, Me.CommandBarItem55, Me.CommandBarItem56, Me.CommandBarItem57, Me.CommandBarItem58, Me.CommandBarItem59, Me.CommandBarItem60, Me.CommandBarItem61, Me.CommandBarCheckItem1, Me.CommandBarCheckItem2, Me.CommandBarItem62, Me.CommandBarItem63, Me.CommandBarItem64, Me.CommandBarItem65, Me.CommandColorBarItem4, Me.CommandBarItem66, Me.CommandBarItem67, Me.CommandBarItem68, Me.CommandBarItem69, Me.CommandBarItem70, Me.CommandBarItem71, Me.CommandBarItem72, Me.CommandBarEditItem1, Me.CommandBarCheckItem3, Me.CommandBarItem73, Me.CommandBarItem74, Me.CommandBarItem75, Me.CommandBarItem76, Me.CommandGalleryBarItem1, Me.CommandGalleryBarItem2, Me.CommandGalleryBarItem3, Me.CommandGalleryBarItem4, Me.CommandGalleryBarItem5, Me.CommandGalleryBarItem6, Me.CommandBarEditItem2, Me.CommandBarEditItem3, Me.CommandBarEditItem4, Me.CommandBarEditItem5, Me.CommandBarEditItem6, Me.CommandBarEditItem7, Me.CommandBarEditItem8, Me.CommandBarItem77, Me.CommandBarItem78, Me.CommandBarItem79, Me.CommandBarItem80, Me.CommandBarItem81, Me.CommandBarItem82, Me.CommandBarItem83, Me.CommandBarItem84, Me.CommandBarItem85, Me.CommandBarItem86, Me.CommandBarItem87, Me.CommandBarItem88, Me.CommandBarItem89, Me.CommandBarItem90, Me.CommandBarItem91, Me.CommandBarItem92, Me.CommandBarItem93, Me.CommandBarItem94, Me.CommandBarItem95, Me.CommandBarItem96, Me.CommandBarItem97, Me.CommandBarItem98, Me.CommandBarItem99, Me.CommandBarItem100, Me.CommandBarItem101, Me.CommandBarItem102, Me.CommandBarItem103, Me.CommandBarItem104, Me.CommandBarItem105, Me.CommandBarItem106, Me.CommandBarItem107, Me.CommandBarItem108, Me.CommandBarItem109, Me.CommandBarItem110, Me.CommandBarItem111, Me.CommandBarItem112, Me.CommandBarItem113, Me.CommandBarItem114, Me.CommandBarItem115, Me.CommandBarItem116, Me.CommandBarItem117, Me.CommandBarItem118, Me.CommandBarItem119, Me.CommandBarItem120, Me.CommandBarItem121, Me.CommandBarItem122, Me.CommandBarCheckItem4, Me.CommandBarCheckItem5, Me.CommandBarCheckItem6, Me.CommandBarCheckItem7, Me.CommandBarCheckItem8, Me.CommandBarCheckItem9, Me.CommandBarItem123, Me.CommandBarItem124, Me.CommandBarItem125, Me.CommandBarItem126, Me.CommandBarItem127, Me.CommandBarItem128, Me.XrDesignBarButtonGroup1, Me.XrDesignBarButtonGroup2, Me.XrDesignBarButtonGroup3, Me.XrDesignBarButtonGroup4, Me.XrDesignBarButtonGroup5, Me.XrDesignBarButtonGroup6, Me.XrDesignBarButtonGroup7, Me.XrDesignBarButtonGroup8, Me.XrDesignBarButtonGroup9, Me.XrDesignBarButtonGroup10, Me.XrDesignBarButtonGroup11, Me.XrDesignBarButtonGroup12, Me.XrDesignBarButtonGroup13, Me.XrDesignBarButtonGroup14, Me.PrintPreviewBarItem1, Me.PrintPreviewBarItem2, Me.PrintPreviewBarItem3, Me.PrintPreviewBarItem4, Me.PrintPreviewBarItem5, Me.PrintPreviewBarItem7, Me.PrintPreviewBarItem8, Me.PrintPreviewBarItem9, Me.PrintPreviewBarItem11, Me.PrintPreviewBarItem12, Me.PrintPreviewBarItem13, Me.PrintPreviewBarItem14, Me.PrintPreviewBarItem15, Me.PrintPreviewBarItem16, Me.PrintPreviewBarItem17, Me.PrintPreviewBarItem18, Me.PrintPreviewBarItem19, Me.PrintPreviewBarItem20, Me.PrintPreviewBarItem21, Me.PrintPreviewBarItem22, Me.PrintPreviewBarItem23, Me.PrintPreviewBarItem24, Me.PrintPreviewBarItem25, Me.PrintPreviewBarItem26, Me.PrintPreviewBarItem27, Me.PrintPreviewBarItem28, Me.PrintPreviewBarItem29, Me.PrintPreviewBarItem30, Me.PrintPreviewBarItem31, Me.PrintPreviewBarItem32, Me.PrintPreviewBarItem33, Me.PrintPreviewBarItem34, Me.PrintPreviewBarItem35, Me.PrintPreviewBarItem36, Me.PrintPreviewBarItem37, Me.PrintPreviewBarItem38, Me.PrintPreviewBarItem39, Me.PrintPreviewBarItem40, Me.PrintPreviewBarItem41, Me.PrintPreviewBarItem42, Me.PrintPreviewBarItem43, Me.PrintPreviewBarItem44, Me.PrintPreviewBarItem45, Me.PrintPreviewBarItem46, Me.PrintPreviewBarItem47, Me.PrintPreviewBarItem48, Me.PrintPreviewBarItem49, Me.PrintPreviewBarItem50, Me.PrintPreviewBarItem51, Me.PrintPreviewStaticItem1, Me.ProgressBarEditItem1, Me.PrintPreviewBarItem52, Me.PrintPreviewStaticItem2, Me.ZoomTrackBarEditItem1, Me.BarButtonItem12, Me.BarButtonItem13, Me.BarButtonItem14, Me.BarButtonItem15, Me.BarButtonItem16, Me.BarButtonItem17, Me.BarButtonItem18, Me.BarButtonItem19, Me.BarButtonItem20, Me.BarButtonItem21, Me.BarDockingMenuItem2, Me.BarSubItem1, Me.BarButtonItem22, Me.BarButtonItem23, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.BarButtonItem24, Me.BarSubItem5, Me.BarButtonItem25, Me.BarButtonItem26, Me.BarButtonItem27, Me.BarButtonItem28, Me.BarButtonItem29, Me.BarButtonItem30, Me.BarButtonItem31, Me.BarSubItem6, Me.BarSubItem7, Me.BarButtonItem32, Me.BarSubItem8, Me.BarSubItem9, Me.BarSubItem10, Me.BarSubItem11, Me.BarButtonItem33, Me.BarButtonItem34, Me.BarButtonItem35, Me.BarSubItem12, Me.BarSubItem13, Me.BarButtonItem36, Me.BarSubItem14, Me.BarButtonItem37, Me.BarButtonItem38, Me.BarButtonItem39, Me.BarButtonItem40, Me.BarButtonItem41, Me.BarButtonItem42, Me.BarButtonItem43, Me.BarButtonItem44, Me.BarButtonItem45, Me.BarButtonItem46, Me.BarButtonItem47, Me.BarButtonItem48, Me.BarSubItem15, Me.BarButtonItem49, Me.BarButtonItem50, Me.BarButtonItem51, Me.BarButtonItem52, Me.BarButtonItem53, Me.BarButtonItem54, Me.BarButtonItem55, Me.BarButtonItem56, Me.BarButtonItem57, Me.BarButtonItem58, Me.BarButtonItem59, Me.BarSubItem16, Me.BarButtonItem60, Me.BarButtonItem61, Me.BarButtonItem62, Me.BarButtonItem63, Me.BarButtonItem64, Me.BarButtonItem65, Me.BarButtonItem66, Me.BarButtonItem67, Me.BarButtonItem68, Me.BarButtonItem69, Me.BarButtonItem70, Me.BarButtonItem71, Me.BarButtonItem72, Me.BarButtonItem73, Me.BarSubItem17, Me.BarButtonItem74, Me.BarButtonItem75, Me.BarButtonItem76, Me.BarButtonItem77, Me.BarButtonItem78, Me.BarSubItem18, Me.BarButtonItem79, Me.BarButtonItem80, Me.BarButtonItem81, Me.BarButtonItem82, Me.BarButtonItem83, Me.BarButtonItem84, Me.BarButtonItem85, Me.BarButtonItem86, Me.BarButtonItem87, Me.BarButtonItem88, Me.BarButtonItem89, Me.BarButtonItem90, Me.BarSubItem19, Me.BarSubItem20, Me.BarButtonItem91, Me.BarButtonItem92, Me.BarButtonItem93, Me.BarButtonItem94, Me.BarButtonItem95, Me.BarButtonItem96, Me.BarButtonItem97, Me.BarButtonItem98, Me.BarSubItem21, Me.BarButtonItem99, Me.BarSubItem22, Me.BarSubItem23, Me.BarEditItem3, Me.BarButtonItem100, Me.BarButtonItem101, Me.BarButtonItem102, Me.BarButtonItem103, Me.BarButtonItem104, Me.BarButtonItem105, Me.BarButtonItem106, Me.BarButtonItem107, Me.BarButtonItem108, Me.BarButtonItem109, Me.BarButtonItem110, Me.BarButtonItem111, Me.BarButtonItem112, Me.BarButtonItem113, Me.BarButtonItem114, Me.BarButtonItem115, Me.BarButtonItem116, Me.BarButtonItem117, Me.BarButtonItem118, Me.BarButtonItem119, Me.BarButtonItem120, Me.BarButtonItem121, Me.BarButtonItem122, Me.BarEditItem4, Me.BarEditItem5, Me.BarMdiChildrenListItem1, Me.BarEditItem6, Me.BarStaticItem3, Me.BarEditItem7, Me.BarStaticItem4, Me.BarButtonItem123, Me.BarButtonItem124, Me.BarButtonItem125, Me.BarButtonItem126, Me.BarButtonItem127, Me.BarButtonItem128, Me.BarButtonItem129, Me.BarButtonItem130, Me.BarButtonItem131, Me.BarButtonItem132, Me.BarSubItem24, Me.BarButtonItem133, Me.BarButtonItem134, Me.BarButtonItem135, Me.BarButtonItem136, Me.BarButtonItem137, Me.BarButtonItem138, Me.BarButtonItem139, Me.BarButtonItem140, Me.BarButtonItem141, Me.BarButtonItem142, Me.BarButtonItem143, Me.BarButtonItem144, Me.BarButtonItem145, Me.BarButtonItem146, Me.BarButtonItem147, Me.BarButtonItem148, Me.BarButtonItem149, Me.BarButtonItem150, Me.BarButtonItem151, Me.BarButtonItem152, Me.BarButtonItem153, Me.BarButtonItem154, Me.BarButtonItem155, Me.BarButtonItem156, Me.BarButtonItem157, Me.BarButtonItem158, Me.BarButtonItem159, Me.BarButtonItem160, Me.BarButtonItem161, Me.BarButtonItem162, Me.BarButtonItem163, Me.BarButtonItem164, Me.BarButtonItem165, Me.BarButtonItem166, Me.BarButtonItem167, Me.BarButtonItem168, Me.BarButtonItem169, Me.BarSubItem25, Me.BarButtonItem170, Me.BarButtonItem171, Me.BarButtonItem172, Me.BarButtonItem173, Me.BarButtonItem174, Me.BarButtonItem175, Me.BarButtonItem176, Me.BarSubItem26, Me.BarSubItem27, Me.BarButtonItem177, Me.BarButtonItem178, Me.BarButtonItem179, Me.BarButtonItem180, Me.BarButtonItem181, Me.BarButtonItem182, Me.BarButtonItem183, Me.BarButtonItem184, Me.BarButtonItem185, Me.BarButtonItem186, Me.BarButtonItem187, Me.BarButtonItem188, Me.BarButtonItem189, Me.BarButtonItem190, Me.BarButtonItem191, Me.BarButtonItem192, Me.BarButtonItem193, Me.BarButtonItem194, Me.BarButtonItem195, Me.BarButtonItem196, Me.BarButtonItem197, Me.BarButtonItem198, Me.BarButtonItem199, Me.BarButtonItem200, Me.BarButtonItem201, Me.BarButtonItem202, Me.BarSubItem28, Me.BarSubItem29, Me.BarButtonItem203, Me.BarButtonItem204, Me.BarButtonItem205, Me.BarButtonItem206, Me.BarButtonItem207, Me.BarButtonItem208, Me.BarButtonItem209, Me.BarButtonItem210, Me.BarButtonItem211, Me.BarButtonItem212, Me.BarButtonItem213, Me.BarButtonItem214, Me.BarButtonItem215, Me.BarButtonItem216, Me.BarButtonItem217, Me.BarButtonItem218, Me.BarButtonItem219, Me.BarButtonItem220, Me.BarButtonItem221, Me.BarButtonItem222, Me.BarButtonItem223, Me.BarButtonItem224, Me.BarButtonItem225, Me.BarButtonItem226, Me.BarButtonItem227, Me.BarButtonItem228, Me.BarButtonItem229, Me.BarButtonItem230, Me.BarButtonItem231, Me.BarButtonItem232, Me.BarButtonItem233, Me.BarButtonItem234, Me.BarButtonItem235, Me.BarButtonItem236, Me.BarButtonItem237, Me.BarButtonItem238, Me.BarButtonItem239, Me.BarSubItem30, Me.BarButtonItem240, Me.BarButtonItem241, Me.BarButtonItem242, Me.BarButtonItem243, Me.BarButtonItem244, Me.BarButtonItem245, Me.BarButtonItem246, Me.BarButtonItem247, Me.BarButtonItem248, Me.BarButtonItem249, Me.BarButtonItem250, Me.BarButtonItem251, Me.BarButtonItem252, Me.BarButtonItem253, Me.BarButtonItem254})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.RibbonControl1.SearchEditItem, Me.BarStaticItem1, Me.BarStaticItem2, Me.BarButtonItem1, Me.BarDockingMenuItem1, Me.BarButtonItem2, Me.SkinRibbonGalleryBarItem1, Me.BarButtonItem3, Me.BarButtonItem4, Me.BarButtonItem6, Me.BarButtonItem7, Me.BarButtonItem8, Me.BarButtonItem9, Me.BarButtonItem10, Me.BarButtonItem11, Me.BarButtonGroup1, Me.RibbonGalleryBarItem1, Me.CommandBarItem1, Me.CommandBarItem2, Me.CommandBarItem3, Me.CommandBarItem4, Me.CommandBarItem5, Me.CommandBarItem6, Me.CommandBarItem7, Me.CommandBarItem8, Me.CommandBarItem9, Me.CommandBarItem10, Me.CommandBarItem11, Me.CommandBarItem12, Me.CommandBarItem13, Me.CommandBarItem14, Me.CommandBarItem15, Me.CommandBarItem16, Me.BarEditItem1, Me.BarEditItem2, Me.BarDockPanelsListItem1, Me.CommandBarItem17, Me.CommandBarItem18, Me.CommandBarItem19, Me.CommandColorBarItem1, Me.CommandColorBarItem2, Me.CommandBarItem20, Me.CommandBarItem21, Me.CommandBarItem22, Me.CommandBarItem23, Me.CommandBarItem24, Me.CommandBarItem25, Me.CommandBarItem26, Me.CommandBarItem27, Me.CommandBarItem28, Me.CommandBarItem29, Me.CommandBarItem30, Me.CommandBarItem31, Me.CommandBarItem32, Me.CommandBarItem33, Me.CommandBarItem34, Me.CommandBarItem35, Me.CommandBarItem36, Me.CommandBarItem37, Me.CommandColorBarItem3, Me.CommandBarItem38, Me.CommandBarItem39, Me.CommandBarItem40, Me.CommandBarItem41, Me.CommandBarItem42, Me.CommandBarItem43, Me.CommandBarItem44, Me.CommandBarItem45, Me.CommandBarItem46, Me.CommandBarItem47, Me.CommandBarItem48, Me.CommandBarItem49, Me.CommandBarItem50, Me.CommandBarItem51, Me.CommandBarItem52, Me.CommandBarItem53, Me.CommandBarItem54, Me.CommandBarItem55, Me.CommandBarItem56, Me.CommandBarItem57, Me.CommandBarItem58, Me.CommandBarItem59, Me.CommandBarItem60, Me.CommandBarItem61, Me.CommandBarCheckItem1, Me.CommandBarCheckItem2, Me.CommandBarItem62, Me.CommandBarItem63, Me.CommandBarItem64, Me.CommandBarItem65, Me.CommandColorBarItem4, Me.CommandBarItem66, Me.CommandBarItem67, Me.CommandBarItem68, Me.CommandBarItem69, Me.CommandBarItem70, Me.CommandBarItem71, Me.CommandBarItem72, Me.CommandBarEditItem1, Me.CommandBarCheckItem3, Me.CommandBarItem73, Me.CommandBarItem74, Me.CommandBarItem75, Me.CommandBarItem76, Me.CommandGalleryBarItem1, Me.CommandGalleryBarItem2, Me.CommandGalleryBarItem3, Me.CommandGalleryBarItem4, Me.CommandGalleryBarItem5, Me.CommandGalleryBarItem6, Me.CommandBarEditItem2, Me.CommandBarEditItem3, Me.CommandBarEditItem4, Me.CommandBarEditItem5, Me.CommandBarEditItem6, Me.CommandBarEditItem7, Me.CommandBarEditItem8, Me.CommandBarItem77, Me.CommandBarItem78, Me.CommandBarItem79, Me.CommandBarItem80, Me.CommandBarItem81, Me.CommandBarItem82, Me.CommandBarItem83, Me.CommandBarItem84, Me.CommandBarItem85, Me.CommandBarItem86, Me.CommandBarItem87, Me.CommandBarItem88, Me.CommandBarItem89, Me.CommandBarItem90, Me.CommandBarItem91, Me.CommandBarItem92, Me.CommandBarItem93, Me.CommandBarItem94, Me.CommandBarItem95, Me.CommandBarItem96, Me.CommandBarItem97, Me.CommandBarItem98, Me.CommandBarItem99, Me.CommandBarItem100, Me.CommandBarItem101, Me.CommandBarItem102, Me.CommandBarItem103, Me.CommandBarItem104, Me.CommandBarItem105, Me.CommandBarItem106, Me.CommandBarItem107, Me.CommandBarItem108, Me.CommandBarItem109, Me.CommandBarItem110, Me.CommandBarItem111, Me.CommandBarItem112, Me.CommandBarItem113, Me.CommandBarItem114, Me.CommandBarItem115, Me.CommandBarItem116, Me.CommandBarItem117, Me.CommandBarItem118, Me.CommandBarItem119, Me.CommandBarItem120, Me.CommandBarItem121, Me.CommandBarItem122, Me.CommandBarCheckItem4, Me.CommandBarCheckItem5, Me.CommandBarCheckItem6, Me.CommandBarCheckItem7, Me.CommandBarCheckItem8, Me.CommandBarCheckItem9, Me.CommandBarItem123, Me.CommandBarItem124, Me.CommandBarItem125, Me.CommandBarItem126, Me.CommandBarItem127, Me.CommandBarItem128, Me.XrDesignBarButtonGroup1, Me.XrDesignBarButtonGroup2, Me.XrDesignBarButtonGroup3, Me.XrDesignBarButtonGroup4, Me.XrDesignBarButtonGroup5, Me.XrDesignBarButtonGroup6, Me.XrDesignBarButtonGroup7, Me.XrDesignBarButtonGroup8, Me.XrDesignBarButtonGroup9, Me.XrDesignBarButtonGroup10, Me.XrDesignBarButtonGroup11, Me.XrDesignBarButtonGroup12, Me.XrDesignBarButtonGroup13, Me.XrDesignBarButtonGroup14, Me.PrintPreviewBarItem1, Me.PrintPreviewBarItem2, Me.PrintPreviewBarItem3, Me.PrintPreviewBarItem4, Me.PrintPreviewBarItem5, Me.PrintPreviewBarItem7, Me.PrintPreviewBarItem8, Me.PrintPreviewBarItem9, Me.PrintPreviewBarItem11, Me.PrintPreviewBarItem12, Me.PrintPreviewBarItem13, Me.PrintPreviewBarItem14, Me.PrintPreviewBarItem15, Me.PrintPreviewBarItem16, Me.PrintPreviewBarItem17, Me.PrintPreviewBarItem18, Me.PrintPreviewBarItem19, Me.PrintPreviewBarItem20, Me.PrintPreviewBarItem21, Me.PrintPreviewBarItem22, Me.PrintPreviewBarItem23, Me.PrintPreviewBarItem24, Me.PrintPreviewBarItem25, Me.PrintPreviewBarItem26, Me.PrintPreviewBarItem27, Me.PrintPreviewBarItem28, Me.PrintPreviewBarItem29, Me.PrintPreviewBarItem30, Me.PrintPreviewBarItem31, Me.PrintPreviewBarItem32, Me.PrintPreviewBarItem33, Me.PrintPreviewBarItem34, Me.PrintPreviewBarItem35, Me.PrintPreviewBarItem36, Me.PrintPreviewBarItem37, Me.PrintPreviewBarItem38, Me.PrintPreviewBarItem39, Me.PrintPreviewBarItem40, Me.PrintPreviewBarItem41, Me.PrintPreviewBarItem42, Me.PrintPreviewBarItem43, Me.PrintPreviewBarItem44, Me.PrintPreviewBarItem45, Me.PrintPreviewBarItem46, Me.PrintPreviewBarItem47, Me.PrintPreviewBarItem48, Me.PrintPreviewBarItem49, Me.PrintPreviewBarItem50, Me.PrintPreviewBarItem51, Me.PrintPreviewStaticItem1, Me.ProgressBarEditItem1, Me.PrintPreviewBarItem52, Me.PrintPreviewStaticItem2, Me.ZoomTrackBarEditItem1, Me.BarButtonItem12, Me.BarButtonItem13, Me.BarButtonItem14, Me.BarButtonItem15, Me.BarButtonItem16, Me.BarButtonItem17, Me.BarButtonItem18, Me.BarButtonItem19, Me.BarButtonItem20, Me.BarButtonItem21, Me.BarDockingMenuItem2, Me.BarSubItem1, Me.BarButtonItem22, Me.BarButtonItem23, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.BarButtonItem24, Me.BarSubItem5, Me.BarButtonItem25, Me.BarButtonItem26, Me.BarButtonItem27, Me.BarButtonItem28, Me.BarButtonItem29, Me.BarButtonItem30, Me.BarButtonItem31, Me.BarSubItem6, Me.BarSubItem7, Me.BarButtonItem32, Me.BarSubItem8, Me.BarSubItem9, Me.BarSubItem10, Me.BarSubItem11, Me.BarButtonItem33, Me.BarButtonItem34, Me.BarButtonItem35, Me.BarSubItem12, Me.BarSubItem13, Me.BarButtonItem36, Me.BarSubItem14, Me.BarButtonItem37, Me.BarButtonItem38, Me.BarButtonItem39, Me.BarButtonItem40, Me.BarButtonItem41, Me.BarButtonItem42, Me.BarButtonItem43, Me.BarButtonItem44, Me.BarButtonItem45, Me.BarButtonItem46, Me.BarButtonItem47, Me.BarButtonItem48, Me.BarSubItem15, Me.BarButtonItem49, Me.BarButtonItem50, Me.BarButtonItem51, Me.BarButtonItem52, Me.BarButtonItem53, Me.BarButtonItem54, Me.BarButtonItem55, Me.BarButtonItem56, Me.BarButtonItem57, Me.BarButtonItem58, Me.BarButtonItem59, Me.BarSubItem16, Me.BarButtonItem60, Me.BarButtonItem61, Me.BarButtonItem62, Me.BarButtonItem63, Me.BarButtonItem64, Me.BarButtonItem65, Me.BarButtonItem66, Me.BarButtonItem67, Me.BarButtonItem68, Me.BarButtonItem69, Me.BarButtonItem70, Me.BarButtonItem71, Me.BarButtonItem72, Me.BarButtonItem73, Me.BarSubItem17, Me.BarButtonItem74, Me.BarButtonItem75, Me.BarButtonItem76, Me.BarButtonItem77, Me.BarButtonItem78, Me.BarSubItem18, Me.BarButtonItem79, Me.BarButtonItem80, Me.BarButtonItem81, Me.BarButtonItem82, Me.BarButtonItem83, Me.BarButtonItem84, Me.BarButtonItem85, Me.BarButtonItem86, Me.BarButtonItem87, Me.BarButtonItem88, Me.BarButtonItem89, Me.BarButtonItem90, Me.BarSubItem19, Me.BarSubItem20, Me.BarButtonItem91, Me.BarButtonItem92, Me.BarButtonItem93, Me.BarButtonItem94, Me.BarButtonItem95, Me.BarButtonItem96, Me.BarButtonItem97, Me.BarButtonItem98, Me.BarSubItem21, Me.BarButtonItem99, Me.BarSubItem22, Me.BarSubItem23, Me.BarEditItem3, Me.BarButtonItem100, Me.BarButtonItem101, Me.BarButtonItem102, Me.BarButtonItem103, Me.BarButtonItem104, Me.BarButtonItem105, Me.BarButtonItem106, Me.BarButtonItem107, Me.BarButtonItem108, Me.BarButtonItem109, Me.BarButtonItem110, Me.BarButtonItem111, Me.BarButtonItem112, Me.BarButtonItem113, Me.BarButtonItem114, Me.BarButtonItem115, Me.BarButtonItem116, Me.BarButtonItem117, Me.BarButtonItem118, Me.BarButtonItem119, Me.BarButtonItem120, Me.BarButtonItem121, Me.BarButtonItem122, Me.BarEditItem4, Me.BarEditItem5, Me.BarMdiChildrenListItem1, Me.BarEditItem6, Me.BarStaticItem3, Me.BarEditItem7, Me.BarStaticItem4, Me.BarButtonItem123, Me.BarButtonItem124, Me.BarButtonItem125, Me.BarButtonItem126, Me.BarButtonItem127, Me.BarButtonItem128, Me.BarButtonItem129, Me.BarButtonItem130, Me.BarButtonItem131, Me.BarButtonItem132, Me.BarSubItem24, Me.BarButtonItem133, Me.BarButtonItem134, Me.BarButtonItem135, Me.BarButtonItem136, Me.BarButtonItem137, Me.BarButtonItem138, Me.BarButtonItem139, Me.BarButtonItem140, Me.BarButtonItem141, Me.BarButtonItem142, Me.BarButtonItem143, Me.BarButtonItem144, Me.BarButtonItem145, Me.BarButtonItem146, Me.BarButtonItem147, Me.BarButtonItem148, Me.BarButtonItem149, Me.BarButtonItem150, Me.BarButtonItem151, Me.BarButtonItem152, Me.BarButtonItem153, Me.BarButtonItem154, Me.BarButtonItem155, Me.BarButtonItem156, Me.BarButtonItem157, Me.BarButtonItem158, Me.BarButtonItem159, Me.BarButtonItem160, Me.BarButtonItem161, Me.BarButtonItem162, Me.BarButtonItem163, Me.BarButtonItem164, Me.BarButtonItem165, Me.BarButtonItem166, Me.BarButtonItem167, Me.BarButtonItem168, Me.BarButtonItem169, Me.BarSubItem25, Me.BarButtonItem170, Me.BarButtonItem171, Me.BarButtonItem172, Me.BarButtonItem173, Me.BarButtonItem174, Me.BarButtonItem175, Me.BarButtonItem176, Me.BarSubItem26, Me.BarSubItem27, Me.BarButtonItem177, Me.BarButtonItem178, Me.BarButtonItem179, Me.BarButtonItem180, Me.BarButtonItem181, Me.BarButtonItem182, Me.BarButtonItem183, Me.BarButtonItem184, Me.BarButtonItem185, Me.BarButtonItem186, Me.BarButtonItem187, Me.BarButtonItem188, Me.BarButtonItem189, Me.BarButtonItem190, Me.BarButtonItem191, Me.BarButtonItem192, Me.BarButtonItem193, Me.BarButtonItem194, Me.BarButtonItem195, Me.BarButtonItem196, Me.BarButtonItem197, Me.BarButtonItem198, Me.BarButtonItem199, Me.BarButtonItem200, Me.BarButtonItem201, Me.BarButtonItem202, Me.BarSubItem28, Me.BarSubItem29, Me.BarButtonItem203, Me.BarButtonItem204, Me.BarButtonItem205, Me.BarButtonItem206, Me.BarButtonItem207, Me.BarButtonItem208, Me.BarButtonItem209, Me.BarButtonItem210, Me.BarButtonItem211, Me.BarButtonItem212, Me.BarButtonItem213, Me.BarButtonItem214, Me.BarButtonItem215, Me.BarButtonItem216, Me.BarButtonItem217, Me.BarButtonItem218, Me.BarButtonItem219, Me.BarButtonItem220, Me.BarButtonItem221, Me.BarButtonItem222, Me.BarButtonItem223, Me.BarButtonItem224, Me.BarButtonItem225, Me.BarButtonItem226, Me.BarButtonItem227, Me.BarButtonItem228, Me.BarButtonItem229, Me.BarButtonItem230, Me.BarButtonItem231, Me.BarButtonItem232, Me.BarButtonItem233, Me.BarButtonItem234, Me.BarButtonItem235, Me.BarButtonItem236, Me.BarButtonItem237, Me.BarButtonItem238, Me.BarButtonItem239, Me.BarSubItem30, Me.BarButtonItem240, Me.BarButtonItem241, Me.BarButtonItem242, Me.BarButtonItem243, Me.BarButtonItem244, Me.BarButtonItem245, Me.BarButtonItem246, Me.BarButtonItem247, Me.BarButtonItem248, Me.BarButtonItem249, Me.BarButtonItem250, Me.BarButtonItem251, Me.BarButtonItem252, Me.BarButtonItem253, Me.BarButtonItem254, Me.BarButtonItem255, Me.BarSubItem31, Me.BarSubItem32, Me.BarSubItem33, Me.BarSubItem34, Me.BarSubItem35, Me.BarSubItem36, Me.BarSubItem37, Me.BarSubItem38, Me.BarSubItem39, Me.BarSubItem40, Me.BarSubItem41, Me.BarSubItem42, Me.BarSubItem43, Me.BarSubItem44, Me.BarSubItem45, Me.BarButtonItem256})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
         Me.RibbonControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.RibbonControl1.MaxItemId = 532
+        Me.RibbonControl1.MaxItemId = 549
         Me.RibbonControl1.Name = "RibbonControl1"
         Me.RibbonControl1.OptionsMenuMinWidth = 385
-        Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1, Me.RibbonPage2, Me.RibbonPage15, Me.RibbonPage17, Me.RibbonPage14, Me.RibbonPage16, Me.RibbonPage3, Me.RibbonPage5, Me.RibbonPage4, Me.RibbonPage6, Me.RibbonPage7, Me.RibbonPage8, Me.RibbonPage9, Me.RibbonPage10, Me.RibbonPage11, Me.RibbonPage12, Me.RibbonPage18, Me.RibbonPage19, Me.RibbonPage20})
+        Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage22, Me.RibbonPage3, Me.RibbonPage21, Me.RibbonPage10, Me.RibbonPage11, Me.RibbonPage12, Me.RibbonPage18, Me.RibbonPage19, Me.RibbonPage20})
         Me.RibbonControl1.QuickToolbarItemLinks.Add(Me.CommandBarItem4)
         Me.RibbonControl1.QuickToolbarItemLinks.Add(Me.CommandBarItem5)
         Me.RibbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RecentlyUsedItemsComboBox1, Me.DesignRepositoryItemComboBox1, Me.RepositoryItemLookUpEdit1, Me.RepositoryItemSpinEdit1, Me.RepositoryItemSpinEdit2, Me.RepositoryItemSpinEdit3, Me.RepositoryItemSpinEdit4, Me.RepositoryItemImageComboBox1, Me.RepositoryItemLookUpEdit2, Me.RepositoryItemComboBox1, Me.RepositoryItemProgressBar1, Me.RepositoryItemZoomTrackBar1, Me.RepositoryItemTimeEdit1, Me.RepositoryItemTokenEdit1, Me.RepositoryItemTextEdit1, Me.RepositoryItemProgressBar2, Me.RepositoryItemTextEdit2})
@@ -1383,9 +1359,9 @@ Partial Class Form2
         Me.SkinRibbonGalleryBarItem1.Gallery.ItemCheckMode = DevExpress.XtraBars.Ribbon.Gallery.ItemCheckMode.SingleRadio
         Me.SkinRibbonGalleryBarItem1.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.Squeeze
         Me.SkinRibbonGalleryBarItem1.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Top
-        SkinPaddingEdges14.Left = 8
-        SkinPaddingEdges14.Right = 8
-        Me.SkinRibbonGalleryBarItem1.Gallery.ItemImagePadding = SkinPaddingEdges14
+        SkinPaddingEdges2.Left = 8
+        SkinPaddingEdges2.Right = 8
+        Me.SkinRibbonGalleryBarItem1.Gallery.ItemImagePadding = SkinPaddingEdges2
         Me.SkinRibbonGalleryBarItem1.Id = 6
         Me.SkinRibbonGalleryBarItem1.ImageOptions.Image = CType(resources.GetObject("SkinRibbonGalleryBarItem1.ImageOptions.Image"), System.Drawing.Image)
         Me.SkinRibbonGalleryBarItem1.ImageOptions.LargeImage = CType(resources.GetObject("SkinRibbonGalleryBarItem1.ImageOptions.LargeImage"), System.Drawing.Image)
@@ -1487,15 +1463,15 @@ Partial Class Form2
         Me.CommandBarItem1.Id = 17
         Me.CommandBarItem1.ItemShortcut = New DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F4)
         Me.CommandBarItem1.Name = "CommandBarItem1"
-        SuperToolTip2482.FixedTooltipWidth = True
-        ToolTipTitleItem2482.Text = "Report Designer (F4)"
-        ToolTipItem2482.LeftIndent = 6
-        ToolTipItem2482.Text = "Customize the report layout or create a new layout in the feature-rich Report Des" &
+        SuperToolTip202.FixedTooltipWidth = True
+        ToolTipTitleItem202.Text = "Report Designer (F4)"
+        ToolTipItem202.LeftIndent = 6
+        ToolTipItem202.Text = "Customize the report layout or create a new layout in the feature-rich Report Des" &
     "igner."
-        SuperToolTip2482.Items.Add(ToolTipTitleItem2482)
-        SuperToolTip2482.Items.Add(ToolTipItem2482)
-        SuperToolTip2482.MaxWidth = 210
-        Me.CommandBarItem1.SuperTip = SuperToolTip2482
+        SuperToolTip202.Items.Add(ToolTipTitleItem202)
+        SuperToolTip202.Items.Add(ToolTipItem202)
+        SuperToolTip202.MaxWidth = 210
+        Me.CommandBarItem1.SuperTip = SuperToolTip202
         '
         'CommandBarItem2
         '
@@ -1505,15 +1481,15 @@ Partial Class Form2
         Me.CommandBarItem2.Id = 18
         Me.CommandBarItem2.ItemShortcut = New DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F5)
         Me.CommandBarItem2.Name = "CommandBarItem2"
-        SuperToolTip2483.FixedTooltipWidth = True
-        ToolTipTitleItem2483.Text = "Print Preview (F5)"
-        ToolTipItem2483.LeftIndent = 6
-        ToolTipItem2483.Text = "Display a report populated with data and divided into pages, customize its print " &
+        SuperToolTip203.FixedTooltipWidth = True
+        ToolTipTitleItem203.Text = "Print Preview (F5)"
+        ToolTipItem203.LeftIndent = 6
+        ToolTipItem203.Text = "Display a report populated with data and divided into pages, customize its print " &
     "settings and print or export this report."
-        SuperToolTip2483.Items.Add(ToolTipTitleItem2483)
-        SuperToolTip2483.Items.Add(ToolTipItem2483)
-        SuperToolTip2483.MaxWidth = 210
-        Me.CommandBarItem2.SuperTip = SuperToolTip2483
+        SuperToolTip203.Items.Add(ToolTipTitleItem203)
+        SuperToolTip203.Items.Add(ToolTipItem203)
+        SuperToolTip203.MaxWidth = 210
+        Me.CommandBarItem2.SuperTip = SuperToolTip203
         '
         'CommandBarItem3
         '
@@ -1523,14 +1499,14 @@ Partial Class Form2
         Me.CommandBarItem3.Id = 19
         Me.CommandBarItem3.ItemShortcut = New DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F6)
         Me.CommandBarItem3.Name = "CommandBarItem3"
-        SuperToolTip2484.FixedTooltipWidth = True
-        ToolTipTitleItem2484.Text = "Scripts (F6)"
-        ToolTipItem2484.LeftIndent = 6
-        ToolTipItem2484.Text = "Perform custom calculations by handling script events."
-        SuperToolTip2484.Items.Add(ToolTipTitleItem2484)
-        SuperToolTip2484.Items.Add(ToolTipItem2484)
-        SuperToolTip2484.MaxWidth = 210
-        Me.CommandBarItem3.SuperTip = SuperToolTip2484
+        SuperToolTip204.FixedTooltipWidth = True
+        ToolTipTitleItem204.Text = "Scripts (F6)"
+        ToolTipItem204.LeftIndent = 6
+        ToolTipItem204.Text = "Perform custom calculations by handling script events."
+        SuperToolTip204.Items.Add(ToolTipTitleItem204)
+        SuperToolTip204.Items.Add(ToolTipItem204)
+        SuperToolTip204.MaxWidth = 210
+        Me.CommandBarItem3.SuperTip = SuperToolTip204
         '
         'CommandBarItem4
         '
@@ -1540,14 +1516,14 @@ Partial Class Form2
         Me.CommandBarItem4.Id = 20
         Me.CommandBarItem4.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z))
         Me.CommandBarItem4.Name = "CommandBarItem4"
-        SuperToolTip2485.FixedTooltipWidth = True
-        ToolTipTitleItem2485.Text = "Undo (Ctrl+Z)"
-        ToolTipItem2485.LeftIndent = 6
-        ToolTipItem2485.Text = "Undo the last operation."
-        SuperToolTip2485.Items.Add(ToolTipTitleItem2485)
-        SuperToolTip2485.Items.Add(ToolTipItem2485)
-        SuperToolTip2485.MaxWidth = 210
-        Me.CommandBarItem4.SuperTip = SuperToolTip2485
+        SuperToolTip205.FixedTooltipWidth = True
+        ToolTipTitleItem205.Text = "Undo (Ctrl+Z)"
+        ToolTipItem205.LeftIndent = 6
+        ToolTipItem205.Text = "Undo the last operation."
+        SuperToolTip205.Items.Add(ToolTipTitleItem205)
+        SuperToolTip205.Items.Add(ToolTipItem205)
+        SuperToolTip205.MaxWidth = 210
+        Me.CommandBarItem4.SuperTip = SuperToolTip205
         '
         'CommandBarItem5
         '
@@ -1557,14 +1533,14 @@ Partial Class Form2
         Me.CommandBarItem5.Id = 21
         Me.CommandBarItem5.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y))
         Me.CommandBarItem5.Name = "CommandBarItem5"
-        SuperToolTip2486.FixedTooltipWidth = True
-        ToolTipTitleItem2486.Text = "Redo (Ctrl+Y)"
-        ToolTipItem2486.LeftIndent = 6
-        ToolTipItem2486.Text = "Redo the last operation."
-        SuperToolTip2486.Items.Add(ToolTipTitleItem2486)
-        SuperToolTip2486.Items.Add(ToolTipItem2486)
-        SuperToolTip2486.MaxWidth = 210
-        Me.CommandBarItem5.SuperTip = SuperToolTip2486
+        SuperToolTip206.FixedTooltipWidth = True
+        ToolTipTitleItem206.Text = "Redo (Ctrl+Y)"
+        ToolTipItem206.LeftIndent = 6
+        ToolTipItem206.Text = "Redo the last operation."
+        SuperToolTip206.Items.Add(ToolTipTitleItem206)
+        SuperToolTip206.Items.Add(ToolTipItem206)
+        SuperToolTip206.MaxWidth = 210
+        Me.CommandBarItem5.SuperTip = SuperToolTip206
         '
         'CommandBarItem6
         '
@@ -1573,14 +1549,14 @@ Partial Class Form2
         Me.CommandBarItem6.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.NewReport
         Me.CommandBarItem6.Id = 22
         Me.CommandBarItem6.Name = "CommandBarItem6"
-        SuperToolTip2487.FixedTooltipWidth = True
-        ToolTipTitleItem2487.Text = "New Blank Report"
-        ToolTipItem2487.LeftIndent = 6
-        ToolTipItem2487.Text = "Create a new blank report."
-        SuperToolTip2487.Items.Add(ToolTipTitleItem2487)
-        SuperToolTip2487.Items.Add(ToolTipItem2487)
-        SuperToolTip2487.MaxWidth = 210
-        Me.CommandBarItem6.SuperTip = SuperToolTip2487
+        SuperToolTip207.FixedTooltipWidth = True
+        ToolTipTitleItem207.Text = "New Blank Report"
+        ToolTipItem207.LeftIndent = 6
+        ToolTipItem207.Text = "Create a new blank report."
+        SuperToolTip207.Items.Add(ToolTipTitleItem207)
+        SuperToolTip207.Items.Add(ToolTipItem207)
+        SuperToolTip207.MaxWidth = 210
+        Me.CommandBarItem6.SuperTip = SuperToolTip207
         '
         'CommandBarItem7
         '
@@ -1590,14 +1566,14 @@ Partial Class Form2
         Me.CommandBarItem7.Enabled = False
         Me.CommandBarItem7.Id = 23
         Me.CommandBarItem7.Name = "CommandBarItem7"
-        SuperToolTip2488.FixedTooltipWidth = True
-        ToolTipTitleItem2488.Text = "Save Report"
-        ToolTipItem2488.LeftIndent = 6
-        ToolTipItem2488.Text = "Save the current report."
-        SuperToolTip2488.Items.Add(ToolTipTitleItem2488)
-        SuperToolTip2488.Items.Add(ToolTipItem2488)
-        SuperToolTip2488.MaxWidth = 210
-        Me.CommandBarItem7.SuperTip = SuperToolTip2488
+        SuperToolTip208.FixedTooltipWidth = True
+        ToolTipTitleItem208.Text = "Save Report"
+        ToolTipItem208.LeftIndent = 6
+        ToolTipItem208.Text = "Save the current report."
+        SuperToolTip208.Items.Add(ToolTipTitleItem208)
+        SuperToolTip208.Items.Add(ToolTipItem208)
+        SuperToolTip208.MaxWidth = 210
+        Me.CommandBarItem7.SuperTip = SuperToolTip208
         '
         'CommandBarItem8
         '
@@ -1607,14 +1583,14 @@ Partial Class Form2
         Me.CommandBarItem8.Id = 24
         Me.CommandBarItem8.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.L))
         Me.CommandBarItem8.Name = "CommandBarItem8"
-        SuperToolTip2489.FixedTooltipWidth = True
-        ToolTipTitleItem2489.Text = "Save All Reports (Ctrl+L)"
-        ToolTipItem2489.LeftIndent = 6
-        ToolTipItem2489.Text = "Save all modified reports."
-        SuperToolTip2489.Items.Add(ToolTipTitleItem2489)
-        SuperToolTip2489.Items.Add(ToolTipItem2489)
-        SuperToolTip2489.MaxWidth = 210
-        Me.CommandBarItem8.SuperTip = SuperToolTip2489
+        SuperToolTip209.FixedTooltipWidth = True
+        ToolTipTitleItem209.Text = "Save All Reports (Ctrl+L)"
+        ToolTipItem209.LeftIndent = 6
+        ToolTipItem209.Text = "Save all modified reports."
+        SuperToolTip209.Items.Add(ToolTipTitleItem209)
+        SuperToolTip209.Items.Add(ToolTipItem209)
+        SuperToolTip209.MaxWidth = 210
+        Me.CommandBarItem8.SuperTip = SuperToolTip209
         '
         'CommandBarItem9
         '
@@ -1623,14 +1599,14 @@ Partial Class Form2
         Me.CommandBarItem9.Id = 25
         Me.CommandBarItem9.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O))
         Me.CommandBarItem9.Name = "CommandBarItem9"
-        SuperToolTip2490.FixedTooltipWidth = True
-        ToolTipTitleItem2490.Text = "Open Report (Ctrl+O)"
-        ToolTipItem2490.LeftIndent = 6
-        ToolTipItem2490.Text = "Open a report."
-        SuperToolTip2490.Items.Add(ToolTipTitleItem2490)
-        SuperToolTip2490.Items.Add(ToolTipItem2490)
-        SuperToolTip2490.MaxWidth = 210
-        Me.CommandBarItem9.SuperTip = SuperToolTip2490
+        SuperToolTip210.FixedTooltipWidth = True
+        ToolTipTitleItem210.Text = "Open Report (Ctrl+O)"
+        ToolTipItem210.LeftIndent = 6
+        ToolTipItem210.Text = "Open a report."
+        SuperToolTip210.Items.Add(ToolTipTitleItem210)
+        SuperToolTip210.Items.Add(ToolTipItem210)
+        SuperToolTip210.MaxWidth = 210
+        Me.CommandBarItem9.SuperTip = SuperToolTip210
         '
         'CommandBarItem10
         '
@@ -1640,14 +1616,14 @@ Partial Class Form2
         Me.CommandBarItem10.Id = 26
         Me.CommandBarItem10.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N))
         Me.CommandBarItem10.Name = "CommandBarItem10"
-        SuperToolTip2491.FixedTooltipWidth = True
-        ToolTipTitleItem2491.Text = "New Blank Report (Ctrl+N)"
-        ToolTipItem2491.LeftIndent = 6
-        ToolTipItem2491.Text = "Create a new blank report."
-        SuperToolTip2491.Items.Add(ToolTipTitleItem2491)
-        SuperToolTip2491.Items.Add(ToolTipItem2491)
-        SuperToolTip2491.MaxWidth = 210
-        Me.CommandBarItem10.SuperTip = SuperToolTip2491
+        SuperToolTip211.FixedTooltipWidth = True
+        ToolTipTitleItem211.Text = "New Blank Report (Ctrl+N)"
+        ToolTipItem211.LeftIndent = 6
+        ToolTipItem211.Text = "Create a new blank report."
+        SuperToolTip211.Items.Add(ToolTipTitleItem211)
+        SuperToolTip211.Items.Add(ToolTipItem211)
+        SuperToolTip211.MaxWidth = 210
+        Me.CommandBarItem10.SuperTip = SuperToolTip211
         '
         'CommandBarItem11
         '
@@ -1657,14 +1633,14 @@ Partial Class Form2
         Me.CommandBarItem11.Id = 27
         Me.CommandBarItem11.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.W))
         Me.CommandBarItem11.Name = "CommandBarItem11"
-        SuperToolTip2492.FixedTooltipWidth = True
-        ToolTipTitleItem2492.Text = "New Report via Wizard (Ctrl+W)"
-        ToolTipItem2492.LeftIndent = 6
-        ToolTipItem2492.Text = "Launch the report wizard to create a new report."
-        SuperToolTip2492.Items.Add(ToolTipTitleItem2492)
-        SuperToolTip2492.Items.Add(ToolTipItem2492)
-        SuperToolTip2492.MaxWidth = 210
-        Me.CommandBarItem11.SuperTip = SuperToolTip2492
+        SuperToolTip212.FixedTooltipWidth = True
+        ToolTipTitleItem212.Text = "New Report via Wizard (Ctrl+W)"
+        ToolTipItem212.LeftIndent = 6
+        ToolTipItem212.Text = "Launch the report wizard to create a new report."
+        SuperToolTip212.Items.Add(ToolTipTitleItem212)
+        SuperToolTip212.Items.Add(ToolTipItem212)
+        SuperToolTip212.MaxWidth = 210
+        Me.CommandBarItem11.SuperTip = SuperToolTip212
         '
         'CommandBarItem12
         '
@@ -1675,14 +1651,14 @@ Partial Class Form2
         Me.CommandBarItem12.Id = 28
         Me.CommandBarItem12.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S))
         Me.CommandBarItem12.Name = "CommandBarItem12"
-        SuperToolTip2493.FixedTooltipWidth = True
-        ToolTipTitleItem2493.Text = "Save Report (Ctrl+S)"
-        ToolTipItem2493.LeftIndent = 6
-        ToolTipItem2493.Text = "Save the current report."
-        SuperToolTip2493.Items.Add(ToolTipTitleItem2493)
-        SuperToolTip2493.Items.Add(ToolTipItem2493)
-        SuperToolTip2493.MaxWidth = 210
-        Me.CommandBarItem12.SuperTip = SuperToolTip2493
+        SuperToolTip213.FixedTooltipWidth = True
+        ToolTipTitleItem213.Text = "Save Report (Ctrl+S)"
+        ToolTipItem213.LeftIndent = 6
+        ToolTipItem213.Text = "Save the current report."
+        SuperToolTip213.Items.Add(ToolTipTitleItem213)
+        SuperToolTip213.Items.Add(ToolTipItem213)
+        SuperToolTip213.MaxWidth = 210
+        Me.CommandBarItem12.SuperTip = SuperToolTip213
         '
         'CommandBarItem13
         '
@@ -1692,14 +1668,14 @@ Partial Class Form2
         Me.CommandBarItem13.Enabled = False
         Me.CommandBarItem13.Id = 29
         Me.CommandBarItem13.Name = "CommandBarItem13"
-        SuperToolTip2494.FixedTooltipWidth = True
-        ToolTipTitleItem2494.Text = "Save Report As"
-        ToolTipItem2494.LeftIndent = 6
-        ToolTipItem2494.Text = "Save the current report with a new name."
-        SuperToolTip2494.Items.Add(ToolTipTitleItem2494)
-        SuperToolTip2494.Items.Add(ToolTipItem2494)
-        SuperToolTip2494.MaxWidth = 210
-        Me.CommandBarItem13.SuperTip = SuperToolTip2494
+        SuperToolTip214.FixedTooltipWidth = True
+        ToolTipTitleItem214.Text = "Save Report As"
+        ToolTipItem214.LeftIndent = 6
+        ToolTipItem214.Text = "Save the current report with a new name."
+        SuperToolTip214.Items.Add(ToolTipTitleItem214)
+        SuperToolTip214.Items.Add(ToolTipItem214)
+        SuperToolTip214.MaxWidth = 210
+        Me.CommandBarItem13.SuperTip = SuperToolTip214
         '
         'CommandBarItem14
         '
@@ -1709,14 +1685,14 @@ Partial Class Form2
         Me.CommandBarItem14.Id = 30
         Me.CommandBarItem14.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V))
         Me.CommandBarItem14.Name = "CommandBarItem14"
-        SuperToolTip2495.FixedTooltipWidth = True
-        ToolTipTitleItem2495.Text = "Paste (Ctrl+V)"
-        ToolTipItem2495.LeftIndent = 6
-        ToolTipItem2495.Text = "Paste the contents of the Clipboard."
-        SuperToolTip2495.Items.Add(ToolTipTitleItem2495)
-        SuperToolTip2495.Items.Add(ToolTipItem2495)
-        SuperToolTip2495.MaxWidth = 210
-        Me.CommandBarItem14.SuperTip = SuperToolTip2495
+        SuperToolTip215.FixedTooltipWidth = True
+        ToolTipTitleItem215.Text = "Paste (Ctrl+V)"
+        ToolTipItem215.LeftIndent = 6
+        ToolTipItem215.Text = "Paste the contents of the Clipboard."
+        SuperToolTip215.Items.Add(ToolTipTitleItem215)
+        SuperToolTip215.Items.Add(ToolTipItem215)
+        SuperToolTip215.MaxWidth = 210
+        Me.CommandBarItem14.SuperTip = SuperToolTip215
         '
         'CommandBarItem15
         '
@@ -1727,14 +1703,14 @@ Partial Class Form2
         Me.CommandBarItem15.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X))
         Me.CommandBarItem15.Name = "CommandBarItem15"
         Me.CommandBarItem15.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2496.FixedTooltipWidth = True
-        ToolTipTitleItem2496.Text = "Cut (Ctrl+X)"
-        ToolTipItem2496.LeftIndent = 6
-        ToolTipItem2496.Text = "Cut the selected controls from the report and put them on the Clipboard."
-        SuperToolTip2496.Items.Add(ToolTipTitleItem2496)
-        SuperToolTip2496.Items.Add(ToolTipItem2496)
-        SuperToolTip2496.MaxWidth = 210
-        Me.CommandBarItem15.SuperTip = SuperToolTip2496
+        SuperToolTip216.FixedTooltipWidth = True
+        ToolTipTitleItem216.Text = "Cut (Ctrl+X)"
+        ToolTipItem216.LeftIndent = 6
+        ToolTipItem216.Text = "Cut the selected controls from the report and put them on the Clipboard."
+        SuperToolTip216.Items.Add(ToolTipTitleItem216)
+        SuperToolTip216.Items.Add(ToolTipItem216)
+        SuperToolTip216.MaxWidth = 210
+        Me.CommandBarItem15.SuperTip = SuperToolTip216
         '
         'CommandBarItem16
         '
@@ -1745,14 +1721,14 @@ Partial Class Form2
         Me.CommandBarItem16.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C))
         Me.CommandBarItem16.Name = "CommandBarItem16"
         Me.CommandBarItem16.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2497.FixedTooltipWidth = True
-        ToolTipTitleItem2497.Text = "Copy (Ctrl+C)"
-        ToolTipItem2497.LeftIndent = 6
-        ToolTipItem2497.Text = "Copy the selected controls and put them on the Clipboard."
-        SuperToolTip2497.Items.Add(ToolTipTitleItem2497)
-        SuperToolTip2497.Items.Add(ToolTipItem2497)
-        SuperToolTip2497.MaxWidth = 210
-        Me.CommandBarItem16.SuperTip = SuperToolTip2497
+        SuperToolTip217.FixedTooltipWidth = True
+        ToolTipTitleItem217.Text = "Copy (Ctrl+C)"
+        ToolTipItem217.LeftIndent = 6
+        ToolTipItem217.Text = "Copy the selected controls and put them on the Clipboard."
+        SuperToolTip217.Items.Add(ToolTipTitleItem217)
+        SuperToolTip217.Items.Add(ToolTipItem217)
+        SuperToolTip217.MaxWidth = 210
+        Me.CommandBarItem16.SuperTip = SuperToolTip217
         '
         'BarEditItem1
         '
@@ -1760,14 +1736,14 @@ Partial Class Form2
         Me.BarEditItem1.EditWidth = 140
         Me.BarEditItem1.Id = 33
         Me.BarEditItem1.Name = "BarEditItem1"
-        SuperToolTip2498.FixedTooltipWidth = True
-        ToolTipTitleItem2498.Text = "Font"
-        ToolTipItem2498.LeftIndent = 6
-        ToolTipItem2498.Text = "Change the font face."
-        SuperToolTip2498.Items.Add(ToolTipTitleItem2498)
-        SuperToolTip2498.Items.Add(ToolTipItem2498)
-        SuperToolTip2498.MaxWidth = 210
-        Me.BarEditItem1.SuperTip = SuperToolTip2498
+        SuperToolTip218.FixedTooltipWidth = True
+        ToolTipTitleItem218.Text = "Font"
+        ToolTipItem218.LeftIndent = 6
+        ToolTipItem218.Text = "Change the font face."
+        SuperToolTip218.Items.Add(ToolTipTitleItem218)
+        SuperToolTip218.Items.Add(ToolTipItem218)
+        SuperToolTip218.MaxWidth = 210
+        Me.BarEditItem1.SuperTip = SuperToolTip218
         '
         'RecentlyUsedItemsComboBox1
         '
@@ -1783,14 +1759,14 @@ Partial Class Form2
         Me.BarEditItem2.EditWidth = 55
         Me.BarEditItem2.Id = 34
         Me.BarEditItem2.Name = "BarEditItem2"
-        SuperToolTip2308.FixedTooltipWidth = True
-        ToolTipTitleItem2308.Text = "Font Size"
-        ToolTipItem2308.LeftIndent = 6
-        ToolTipItem2308.Text = "Change the font size."
-        SuperToolTip2308.Items.Add(ToolTipTitleItem2308)
-        SuperToolTip2308.Items.Add(ToolTipItem2308)
-        SuperToolTip2308.MaxWidth = 210
-        Me.BarEditItem2.SuperTip = SuperToolTip2308
+        SuperToolTip17.FixedTooltipWidth = True
+        ToolTipTitleItem17.Text = "Font Size"
+        ToolTipItem17.LeftIndent = 6
+        ToolTipItem17.Text = "Change the font size."
+        SuperToolTip17.Items.Add(ToolTipTitleItem17)
+        SuperToolTip17.Items.Add(ToolTipItem17)
+        SuperToolTip17.MaxWidth = 210
+        Me.BarEditItem2.SuperTip = SuperToolTip17
         '
         'DesignRepositoryItemComboBox1
         '
@@ -1807,14 +1783,14 @@ Partial Class Form2
         Me.BarDockPanelsListItem1.ShowCustomizationItem = False
         Me.BarDockPanelsListItem1.ShowDockPanels = True
         Me.BarDockPanelsListItem1.ShowToolbars = False
-        SuperToolTip2118.FixedTooltipWidth = True
-        ToolTipTitleItem2118.Text = "Show/Hide Windows"
-        ToolTipItem2118.LeftIndent = 6
-        ToolTipItem2118.Text = "Change the visibility of dock panels that assist in report creation."
-        SuperToolTip2118.Items.Add(ToolTipTitleItem2118)
-        SuperToolTip2118.Items.Add(ToolTipItem2118)
-        SuperToolTip2118.MaxWidth = 210
-        Me.BarDockPanelsListItem1.SuperTip = SuperToolTip2118
+        SuperToolTip18.FixedTooltipWidth = True
+        ToolTipTitleItem18.Text = "Show/Hide Windows"
+        ToolTipItem18.LeftIndent = 6
+        ToolTipItem18.Text = "Change the visibility of dock panels that assist in report creation."
+        SuperToolTip18.Items.Add(ToolTipTitleItem18)
+        SuperToolTip18.Items.Add(ToolTipItem18)
+        SuperToolTip18.MaxWidth = 210
+        Me.BarDockPanelsListItem1.SuperTip = SuperToolTip18
         '
         'CommandBarItem17
         '
@@ -1824,14 +1800,14 @@ Partial Class Form2
         Me.CommandBarItem17.Id = 36
         Me.CommandBarItem17.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.B))
         Me.CommandBarItem17.Name = "CommandBarItem17"
-        SuperToolTip1928.FixedTooltipWidth = True
-        ToolTipTitleItem1928.Text = "Bold (Ctrl+B)"
-        ToolTipItem1928.LeftIndent = 6
-        ToolTipItem1928.Text = "Make the selected text bold."
-        SuperToolTip1928.Items.Add(ToolTipTitleItem1928)
-        SuperToolTip1928.Items.Add(ToolTipItem1928)
-        SuperToolTip1928.MaxWidth = 210
-        Me.CommandBarItem17.SuperTip = SuperToolTip1928
+        SuperToolTip19.FixedTooltipWidth = True
+        ToolTipTitleItem19.Text = "Bold (Ctrl+B)"
+        ToolTipItem19.LeftIndent = 6
+        ToolTipItem19.Text = "Make the selected text bold."
+        SuperToolTip19.Items.Add(ToolTipTitleItem19)
+        SuperToolTip19.Items.Add(ToolTipItem19)
+        SuperToolTip19.MaxWidth = 210
+        Me.CommandBarItem17.SuperTip = SuperToolTip19
         '
         'CommandBarItem18
         '
@@ -1841,14 +1817,14 @@ Partial Class Form2
         Me.CommandBarItem18.Id = 37
         Me.CommandBarItem18.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.I))
         Me.CommandBarItem18.Name = "CommandBarItem18"
-        SuperToolTip2499.FixedTooltipWidth = True
-        ToolTipTitleItem2499.Text = "Italic (Ctrl+I)"
-        ToolTipItem2499.LeftIndent = 6
-        ToolTipItem2499.Text = "Italicize the text."
-        SuperToolTip2499.Items.Add(ToolTipTitleItem2499)
-        SuperToolTip2499.Items.Add(ToolTipItem2499)
-        SuperToolTip2499.MaxWidth = 210
-        Me.CommandBarItem18.SuperTip = SuperToolTip2499
+        SuperToolTip219.FixedTooltipWidth = True
+        ToolTipTitleItem219.Text = "Italic (Ctrl+I)"
+        ToolTipItem219.LeftIndent = 6
+        ToolTipItem219.Text = "Italicize the text."
+        SuperToolTip219.Items.Add(ToolTipTitleItem219)
+        SuperToolTip219.Items.Add(ToolTipItem219)
+        SuperToolTip219.MaxWidth = 210
+        Me.CommandBarItem18.SuperTip = SuperToolTip219
         '
         'CommandBarItem19
         '
@@ -1858,14 +1834,14 @@ Partial Class Form2
         Me.CommandBarItem19.Id = 38
         Me.CommandBarItem19.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.U))
         Me.CommandBarItem19.Name = "CommandBarItem19"
-        SuperToolTip2500.FixedTooltipWidth = True
-        ToolTipTitleItem2500.Text = "Underline (Ctrl+U)"
-        ToolTipItem2500.LeftIndent = 6
-        ToolTipItem2500.Text = "Underline the selected text."
-        SuperToolTip2500.Items.Add(ToolTipTitleItem2500)
-        SuperToolTip2500.Items.Add(ToolTipItem2500)
-        SuperToolTip2500.MaxWidth = 210
-        Me.CommandBarItem19.SuperTip = SuperToolTip2500
+        SuperToolTip220.FixedTooltipWidth = True
+        ToolTipTitleItem220.Text = "Underline (Ctrl+U)"
+        ToolTipItem220.LeftIndent = 6
+        ToolTipItem220.Text = "Underline the selected text."
+        SuperToolTip220.Items.Add(ToolTipTitleItem220)
+        SuperToolTip220.Items.Add(ToolTipItem220)
+        SuperToolTip220.MaxWidth = 210
+        Me.CommandBarItem19.SuperTip = SuperToolTip220
         '
         'CommandColorBarItem1
         '
@@ -1876,14 +1852,14 @@ Partial Class Form2
         Me.CommandColorBarItem1.Enabled = False
         Me.CommandColorBarItem1.Id = 39
         Me.CommandColorBarItem1.Name = "CommandColorBarItem1"
-        SuperToolTip2501.FixedTooltipWidth = True
-        ToolTipTitleItem2501.Text = "Foreground Color"
-        ToolTipItem2501.LeftIndent = 6
-        ToolTipItem2501.Text = "Change the text foreground color."
-        SuperToolTip2501.Items.Add(ToolTipTitleItem2501)
-        SuperToolTip2501.Items.Add(ToolTipItem2501)
-        SuperToolTip2501.MaxWidth = 210
-        Me.CommandColorBarItem1.SuperTip = SuperToolTip2501
+        SuperToolTip221.FixedTooltipWidth = True
+        ToolTipTitleItem221.Text = "Foreground Color"
+        ToolTipItem221.LeftIndent = 6
+        ToolTipItem221.Text = "Change the text foreground color."
+        SuperToolTip221.Items.Add(ToolTipTitleItem221)
+        SuperToolTip221.Items.Add(ToolTipItem221)
+        SuperToolTip221.MaxWidth = 210
+        Me.CommandColorBarItem1.SuperTip = SuperToolTip221
         '
         'CommandColorBarItem2
         '
@@ -1894,14 +1870,14 @@ Partial Class Form2
         Me.CommandColorBarItem2.Enabled = False
         Me.CommandColorBarItem2.Id = 40
         Me.CommandColorBarItem2.Name = "CommandColorBarItem2"
-        SuperToolTip2502.FixedTooltipWidth = True
-        ToolTipTitleItem2502.Text = "Background Color"
-        ToolTipItem2502.LeftIndent = 6
-        ToolTipItem2502.Text = "Change the text background color."
-        SuperToolTip2502.Items.Add(ToolTipTitleItem2502)
-        SuperToolTip2502.Items.Add(ToolTipItem2502)
-        SuperToolTip2502.MaxWidth = 210
-        Me.CommandColorBarItem2.SuperTip = SuperToolTip2502
+        SuperToolTip222.FixedTooltipWidth = True
+        ToolTipTitleItem222.Text = "Background Color"
+        ToolTipItem222.LeftIndent = 6
+        ToolTipItem222.Text = "Change the text background color."
+        SuperToolTip222.Items.Add(ToolTipTitleItem222)
+        SuperToolTip222.Items.Add(ToolTipItem222)
+        SuperToolTip222.MaxWidth = 210
+        Me.CommandColorBarItem2.SuperTip = SuperToolTip222
         '
         'CommandBarItem20
         '
@@ -1910,14 +1886,14 @@ Partial Class Form2
         Me.CommandBarItem20.Enabled = False
         Me.CommandBarItem20.Id = 41
         Me.CommandBarItem20.Name = "CommandBarItem20"
-        SuperToolTip2503.FixedTooltipWidth = True
-        ToolTipTitleItem2503.Text = "Align Text Left"
-        ToolTipItem2503.LeftIndent = 6
-        ToolTipItem2503.Text = "Align text to the left."
-        SuperToolTip2503.Items.Add(ToolTipTitleItem2503)
-        SuperToolTip2503.Items.Add(ToolTipItem2503)
-        SuperToolTip2503.MaxWidth = 210
-        Me.CommandBarItem20.SuperTip = SuperToolTip2503
+        SuperToolTip223.FixedTooltipWidth = True
+        ToolTipTitleItem223.Text = "Align Text Left"
+        ToolTipItem223.LeftIndent = 6
+        ToolTipItem223.Text = "Align text to the left."
+        SuperToolTip223.Items.Add(ToolTipTitleItem223)
+        SuperToolTip223.Items.Add(ToolTipItem223)
+        SuperToolTip223.MaxWidth = 210
+        Me.CommandBarItem20.SuperTip = SuperToolTip223
         '
         'CommandBarItem21
         '
@@ -1926,14 +1902,14 @@ Partial Class Form2
         Me.CommandBarItem21.Enabled = False
         Me.CommandBarItem21.Id = 42
         Me.CommandBarItem21.Name = "CommandBarItem21"
-        SuperToolTip2504.FixedTooltipWidth = True
-        ToolTipTitleItem2504.Text = "Center Text"
-        ToolTipItem2504.LeftIndent = 6
-        ToolTipItem2504.Text = "Center text between the left and right sides."
-        SuperToolTip2504.Items.Add(ToolTipTitleItem2504)
-        SuperToolTip2504.Items.Add(ToolTipItem2504)
-        SuperToolTip2504.MaxWidth = 210
-        Me.CommandBarItem21.SuperTip = SuperToolTip2504
+        SuperToolTip224.FixedTooltipWidth = True
+        ToolTipTitleItem224.Text = "Center Text"
+        ToolTipItem224.LeftIndent = 6
+        ToolTipItem224.Text = "Center text between the left and right sides."
+        SuperToolTip224.Items.Add(ToolTipTitleItem224)
+        SuperToolTip224.Items.Add(ToolTipItem224)
+        SuperToolTip224.MaxWidth = 210
+        Me.CommandBarItem21.SuperTip = SuperToolTip224
         '
         'CommandBarItem22
         '
@@ -1942,14 +1918,14 @@ Partial Class Form2
         Me.CommandBarItem22.Enabled = False
         Me.CommandBarItem22.Id = 43
         Me.CommandBarItem22.Name = "CommandBarItem22"
-        SuperToolTip2505.FixedTooltipWidth = True
-        ToolTipTitleItem2505.Text = "Align Text Right"
-        ToolTipItem2505.LeftIndent = 6
-        ToolTipItem2505.Text = "Align text to the right."
-        SuperToolTip2505.Items.Add(ToolTipTitleItem2505)
-        SuperToolTip2505.Items.Add(ToolTipItem2505)
-        SuperToolTip2505.MaxWidth = 210
-        Me.CommandBarItem22.SuperTip = SuperToolTip2505
+        SuperToolTip225.FixedTooltipWidth = True
+        ToolTipTitleItem225.Text = "Align Text Right"
+        ToolTipItem225.LeftIndent = 6
+        ToolTipItem225.Text = "Align text to the right."
+        SuperToolTip225.Items.Add(ToolTipTitleItem225)
+        SuperToolTip225.Items.Add(ToolTipItem225)
+        SuperToolTip225.MaxWidth = 210
+        Me.CommandBarItem22.SuperTip = SuperToolTip225
         '
         'CommandBarItem23
         '
@@ -1958,14 +1934,14 @@ Partial Class Form2
         Me.CommandBarItem23.Enabled = False
         Me.CommandBarItem23.Id = 44
         Me.CommandBarItem23.Name = "CommandBarItem23"
-        SuperToolTip2506.FixedTooltipWidth = True
-        ToolTipTitleItem2506.Text = "Justify"
-        ToolTipItem2506.LeftIndent = 6
-        ToolTipItem2506.Text = "Distribute text evenly to the left and right sides."
-        SuperToolTip2506.Items.Add(ToolTipTitleItem2506)
-        SuperToolTip2506.Items.Add(ToolTipItem2506)
-        SuperToolTip2506.MaxWidth = 210
-        Me.CommandBarItem23.SuperTip = SuperToolTip2506
+        SuperToolTip226.FixedTooltipWidth = True
+        ToolTipTitleItem226.Text = "Justify"
+        ToolTipItem226.LeftIndent = 6
+        ToolTipItem226.Text = "Distribute text evenly to the left and right sides."
+        SuperToolTip226.Items.Add(ToolTipTitleItem226)
+        SuperToolTip226.Items.Add(ToolTipItem226)
+        SuperToolTip226.MaxWidth = 210
+        Me.CommandBarItem23.SuperTip = SuperToolTip226
         '
         'CommandBarItem24
         '
@@ -1974,14 +1950,14 @@ Partial Class Form2
         Me.CommandBarItem24.Enabled = False
         Me.CommandBarItem24.Id = 45
         Me.CommandBarItem24.Name = "CommandBarItem24"
-        SuperToolTip2507.FixedTooltipWidth = True
-        ToolTipTitleItem2507.Text = "Strikethrough"
-        ToolTipItem2507.LeftIndent = 6
-        ToolTipItem2507.Text = "Cross the selected text out by drawing a line through it."
-        SuperToolTip2507.Items.Add(ToolTipTitleItem2507)
-        SuperToolTip2507.Items.Add(ToolTipItem2507)
-        SuperToolTip2507.MaxWidth = 210
-        Me.CommandBarItem24.SuperTip = SuperToolTip2507
+        SuperToolTip227.FixedTooltipWidth = True
+        ToolTipTitleItem227.Text = "Strikethrough"
+        ToolTipItem227.LeftIndent = 6
+        ToolTipItem227.Text = "Cross the selected text out by drawing a line through it."
+        SuperToolTip227.Items.Add(ToolTipTitleItem227)
+        SuperToolTip227.Items.Add(ToolTipItem227)
+        SuperToolTip227.MaxWidth = 210
+        Me.CommandBarItem24.SuperTip = SuperToolTip227
         '
         'CommandBarItem25
         '
@@ -1990,14 +1966,14 @@ Partial Class Form2
         Me.CommandBarItem25.Enabled = False
         Me.CommandBarItem25.Id = 46
         Me.CommandBarItem25.Name = "CommandBarItem25"
-        SuperToolTip2508.FixedTooltipWidth = True
-        ToolTipTitleItem2508.Text = "Align Text Top"
-        ToolTipItem2508.LeftIndent = 6
-        ToolTipItem2508.Text = "Align text to the top."
-        SuperToolTip2508.Items.Add(ToolTipTitleItem2508)
-        SuperToolTip2508.Items.Add(ToolTipItem2508)
-        SuperToolTip2508.MaxWidth = 210
-        Me.CommandBarItem25.SuperTip = SuperToolTip2508
+        SuperToolTip228.FixedTooltipWidth = True
+        ToolTipTitleItem228.Text = "Align Text Top"
+        ToolTipItem228.LeftIndent = 6
+        ToolTipItem228.Text = "Align text to the top."
+        SuperToolTip228.Items.Add(ToolTipTitleItem228)
+        SuperToolTip228.Items.Add(ToolTipItem228)
+        SuperToolTip228.MaxWidth = 210
+        Me.CommandBarItem25.SuperTip = SuperToolTip228
         '
         'CommandBarItem26
         '
@@ -2006,14 +1982,14 @@ Partial Class Form2
         Me.CommandBarItem26.Enabled = False
         Me.CommandBarItem26.Id = 47
         Me.CommandBarItem26.Name = "CommandBarItem26"
-        SuperToolTip2509.FixedTooltipWidth = True
-        ToolTipTitleItem2509.Text = "Align Text Middle"
-        ToolTipItem2509.LeftIndent = 6
-        ToolTipItem2509.Text = "Center text between the top and bottom."
-        SuperToolTip2509.Items.Add(ToolTipTitleItem2509)
-        SuperToolTip2509.Items.Add(ToolTipItem2509)
-        SuperToolTip2509.MaxWidth = 210
-        Me.CommandBarItem26.SuperTip = SuperToolTip2509
+        SuperToolTip229.FixedTooltipWidth = True
+        ToolTipTitleItem229.Text = "Align Text Middle"
+        ToolTipItem229.LeftIndent = 6
+        ToolTipItem229.Text = "Center text between the top and bottom."
+        SuperToolTip229.Items.Add(ToolTipTitleItem229)
+        SuperToolTip229.Items.Add(ToolTipItem229)
+        SuperToolTip229.MaxWidth = 210
+        Me.CommandBarItem26.SuperTip = SuperToolTip229
         '
         'CommandBarItem27
         '
@@ -2022,14 +1998,14 @@ Partial Class Form2
         Me.CommandBarItem27.Enabled = False
         Me.CommandBarItem27.Id = 48
         Me.CommandBarItem27.Name = "CommandBarItem27"
-        SuperToolTip2510.FixedTooltipWidth = True
-        ToolTipTitleItem2510.Text = "Align Text Bottom"
-        ToolTipItem2510.LeftIndent = 6
-        ToolTipItem2510.Text = "Align text to the bottom."
-        SuperToolTip2510.Items.Add(ToolTipTitleItem2510)
-        SuperToolTip2510.Items.Add(ToolTipItem2510)
-        SuperToolTip2510.MaxWidth = 210
-        Me.CommandBarItem27.SuperTip = SuperToolTip2510
+        SuperToolTip230.FixedTooltipWidth = True
+        ToolTipTitleItem230.Text = "Align Text Bottom"
+        ToolTipItem230.LeftIndent = 6
+        ToolTipItem230.Text = "Align text to the bottom."
+        SuperToolTip230.Items.Add(ToolTipTitleItem230)
+        SuperToolTip230.Items.Add(ToolTipItem230)
+        SuperToolTip230.MaxWidth = 210
+        Me.CommandBarItem27.SuperTip = SuperToolTip230
         '
         'CommandBarItem28
         '
@@ -2039,15 +2015,15 @@ Partial Class Form2
         Me.CommandBarItem28.Id = 49
         Me.CommandBarItem28.Name = "CommandBarItem28"
         Me.CommandBarItem28.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2511.FixedTooltipWidth = True
-        ToolTipTitleItem2511.Text = "Add Calculated Field"
-        ToolTipItem2511.LeftIndent = 6
-        ToolTipItem2511.Text = "Create a custom field whose value is evaluated using an expression based on avail" &
+        SuperToolTip231.FixedTooltipWidth = True
+        ToolTipTitleItem231.Text = "Add Calculated Field"
+        ToolTipItem231.LeftIndent = 6
+        ToolTipItem231.Text = "Create a custom field whose value is evaluated using an expression based on avail" &
     "able data fields."
-        SuperToolTip2511.Items.Add(ToolTipTitleItem2511)
-        SuperToolTip2511.Items.Add(ToolTipItem2511)
-        SuperToolTip2511.MaxWidth = 210
-        Me.CommandBarItem28.SuperTip = SuperToolTip2511
+        SuperToolTip231.Items.Add(ToolTipTitleItem231)
+        SuperToolTip231.Items.Add(ToolTipItem231)
+        SuperToolTip231.MaxWidth = 210
+        Me.CommandBarItem28.SuperTip = SuperToolTip231
         '
         'CommandBarItem29
         '
@@ -2057,14 +2033,14 @@ Partial Class Form2
         Me.CommandBarItem29.Id = 50
         Me.CommandBarItem29.Name = "CommandBarItem29"
         Me.CommandBarItem29.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2512.FixedTooltipWidth = True
-        ToolTipTitleItem2512.Text = "Add Parameter"
-        ToolTipItem2512.LeftIndent = 6
-        ToolTipItem2512.Text = "Create a new parameter to pass dynamic values to your report."
-        SuperToolTip2512.Items.Add(ToolTipTitleItem2512)
-        SuperToolTip2512.Items.Add(ToolTipItem2512)
-        SuperToolTip2512.MaxWidth = 210
-        Me.CommandBarItem29.SuperTip = SuperToolTip2512
+        SuperToolTip232.FixedTooltipWidth = True
+        ToolTipTitleItem232.Text = "Add Parameter"
+        ToolTipItem232.LeftIndent = 6
+        ToolTipItem232.Text = "Create a new parameter to pass dynamic values to your report."
+        SuperToolTip232.Items.Add(ToolTipTitleItem232)
+        SuperToolTip232.Items.Add(ToolTipItem232)
+        SuperToolTip232.MaxWidth = 210
+        Me.CommandBarItem29.SuperTip = SuperToolTip232
         '
         'CommandBarItem30
         '
@@ -2073,14 +2049,14 @@ Partial Class Form2
         Me.CommandBarItem30.Enabled = False
         Me.CommandBarItem30.Id = 51
         Me.CommandBarItem30.Name = "CommandBarItem30"
-        SuperToolTip2513.FixedTooltipWidth = True
-        ToolTipTitleItem2513.Text = "Add Data Source"
-        ToolTipItem2513.LeftIndent = 6
-        ToolTipItem2513.Text = "Create and set up a new data source for your report."
-        SuperToolTip2513.Items.Add(ToolTipTitleItem2513)
-        SuperToolTip2513.Items.Add(ToolTipItem2513)
-        SuperToolTip2513.MaxWidth = 210
-        Me.CommandBarItem30.SuperTip = SuperToolTip2513
+        SuperToolTip233.FixedTooltipWidth = True
+        ToolTipTitleItem233.Text = "Add Data Source"
+        ToolTipItem233.LeftIndent = 6
+        ToolTipItem233.Text = "Create and set up a new data source for your report."
+        SuperToolTip233.Items.Add(ToolTipTitleItem233)
+        SuperToolTip233.Items.Add(ToolTipItem233)
+        SuperToolTip233.MaxWidth = 210
+        Me.CommandBarItem30.SuperTip = SuperToolTip233
         '
         'CommandBarItem31
         '
@@ -2089,15 +2065,15 @@ Partial Class Form2
         Me.CommandBarItem31.Enabled = False
         Me.CommandBarItem31.Id = 52
         Me.CommandBarItem31.Name = "CommandBarItem31"
-        SuperToolTip2514.FixedTooltipWidth = True
-        ToolTipTitleItem2514.Text = "Extract Style"
-        ToolTipItem2514.LeftIndent = 6
-        ToolTipItem2514.Text = "Create a new style based on the selected control's appearance settings. Apply the" &
+        SuperToolTip234.FixedTooltipWidth = True
+        ToolTipTitleItem234.Text = "Extract Style"
+        ToolTipItem234.LeftIndent = 6
+        ToolTipItem234.Text = "Create a new style based on the selected control's appearance settings. Apply the" &
     " created style from the Styles gallery to other controls in your report."
-        SuperToolTip2514.Items.Add(ToolTipTitleItem2514)
-        SuperToolTip2514.Items.Add(ToolTipItem2514)
-        SuperToolTip2514.MaxWidth = 210
-        Me.CommandBarItem31.SuperTip = SuperToolTip2514
+        SuperToolTip234.Items.Add(ToolTipTitleItem234)
+        SuperToolTip234.Items.Add(ToolTipItem234)
+        SuperToolTip234.MaxWidth = 210
+        Me.CommandBarItem31.SuperTip = SuperToolTip234
         '
         'CommandBarItem32
         '
@@ -2106,14 +2082,14 @@ Partial Class Form2
         Me.CommandBarItem32.Enabled = False
         Me.CommandBarItem32.Id = 53
         Me.CommandBarItem32.Name = "CommandBarItem32"
-        SuperToolTip2515.FixedTooltipWidth = True
-        ToolTipTitleItem2515.Text = "All Borders"
-        ToolTipItem2515.LeftIndent = 6
-        ToolTipItem2515.Text = "Add all borders to the selected controls."
-        SuperToolTip2515.Items.Add(ToolTipTitleItem2515)
-        SuperToolTip2515.Items.Add(ToolTipItem2515)
-        SuperToolTip2515.MaxWidth = 210
-        Me.CommandBarItem32.SuperTip = SuperToolTip2515
+        SuperToolTip235.FixedTooltipWidth = True
+        ToolTipTitleItem235.Text = "All Borders"
+        ToolTipItem235.LeftIndent = 6
+        ToolTipItem235.Text = "Add all borders to the selected controls."
+        SuperToolTip235.Items.Add(ToolTipTitleItem235)
+        SuperToolTip235.Items.Add(ToolTipItem235)
+        SuperToolTip235.MaxWidth = 210
+        Me.CommandBarItem32.SuperTip = SuperToolTip235
         '
         'CommandBarItem33
         '
@@ -2122,14 +2098,14 @@ Partial Class Form2
         Me.CommandBarItem33.Enabled = False
         Me.CommandBarItem33.Id = 54
         Me.CommandBarItem33.Name = "CommandBarItem33"
-        SuperToolTip2516.FixedTooltipWidth = True
-        ToolTipTitleItem2516.Text = "No Border"
-        ToolTipItem2516.LeftIndent = 6
-        ToolTipItem2516.Text = "Remove borders from the selected controls."
-        SuperToolTip2516.Items.Add(ToolTipTitleItem2516)
-        SuperToolTip2516.Items.Add(ToolTipItem2516)
-        SuperToolTip2516.MaxWidth = 210
-        Me.CommandBarItem33.SuperTip = SuperToolTip2516
+        SuperToolTip236.FixedTooltipWidth = True
+        ToolTipTitleItem236.Text = "No Border"
+        ToolTipItem236.LeftIndent = 6
+        ToolTipItem236.Text = "Remove borders from the selected controls."
+        SuperToolTip236.Items.Add(ToolTipTitleItem236)
+        SuperToolTip236.Items.Add(ToolTipItem236)
+        SuperToolTip236.MaxWidth = 210
+        Me.CommandBarItem33.SuperTip = SuperToolTip236
         '
         'CommandBarItem34
         '
@@ -2138,14 +2114,14 @@ Partial Class Form2
         Me.CommandBarItem34.Enabled = False
         Me.CommandBarItem34.Id = 55
         Me.CommandBarItem34.Name = "CommandBarItem34"
-        SuperToolTip2517.FixedTooltipWidth = True
-        ToolTipTitleItem2517.Text = "Left Border"
-        ToolTipItem2517.LeftIndent = 6
-        ToolTipItem2517.Text = "Add the left border to the selected controls."
-        SuperToolTip2517.Items.Add(ToolTipTitleItem2517)
-        SuperToolTip2517.Items.Add(ToolTipItem2517)
-        SuperToolTip2517.MaxWidth = 210
-        Me.CommandBarItem34.SuperTip = SuperToolTip2517
+        SuperToolTip237.FixedTooltipWidth = True
+        ToolTipTitleItem237.Text = "Left Border"
+        ToolTipItem237.LeftIndent = 6
+        ToolTipItem237.Text = "Add the left border to the selected controls."
+        SuperToolTip237.Items.Add(ToolTipTitleItem237)
+        SuperToolTip237.Items.Add(ToolTipItem237)
+        SuperToolTip237.MaxWidth = 210
+        Me.CommandBarItem34.SuperTip = SuperToolTip237
         '
         'CommandBarItem35
         '
@@ -2154,14 +2130,14 @@ Partial Class Form2
         Me.CommandBarItem35.Enabled = False
         Me.CommandBarItem35.Id = 56
         Me.CommandBarItem35.Name = "CommandBarItem35"
-        SuperToolTip2518.FixedTooltipWidth = True
-        ToolTipTitleItem2518.Text = "Top Border"
-        ToolTipItem2518.LeftIndent = 6
-        ToolTipItem2518.Text = "Add the top border to the selected controls."
-        SuperToolTip2518.Items.Add(ToolTipTitleItem2518)
-        SuperToolTip2518.Items.Add(ToolTipItem2518)
-        SuperToolTip2518.MaxWidth = 210
-        Me.CommandBarItem35.SuperTip = SuperToolTip2518
+        SuperToolTip238.FixedTooltipWidth = True
+        ToolTipTitleItem238.Text = "Top Border"
+        ToolTipItem238.LeftIndent = 6
+        ToolTipItem238.Text = "Add the top border to the selected controls."
+        SuperToolTip238.Items.Add(ToolTipTitleItem238)
+        SuperToolTip238.Items.Add(ToolTipItem238)
+        SuperToolTip238.MaxWidth = 210
+        Me.CommandBarItem35.SuperTip = SuperToolTip238
         '
         'CommandBarItem36
         '
@@ -2170,14 +2146,14 @@ Partial Class Form2
         Me.CommandBarItem36.Enabled = False
         Me.CommandBarItem36.Id = 57
         Me.CommandBarItem36.Name = "CommandBarItem36"
-        SuperToolTip2519.FixedTooltipWidth = True
-        ToolTipTitleItem2519.Text = "Right Border"
-        ToolTipItem2519.LeftIndent = 6
-        ToolTipItem2519.Text = "Add the right border to the selected controls."
-        SuperToolTip2519.Items.Add(ToolTipTitleItem2519)
-        SuperToolTip2519.Items.Add(ToolTipItem2519)
-        SuperToolTip2519.MaxWidth = 210
-        Me.CommandBarItem36.SuperTip = SuperToolTip2519
+        SuperToolTip239.FixedTooltipWidth = True
+        ToolTipTitleItem239.Text = "Right Border"
+        ToolTipItem239.LeftIndent = 6
+        ToolTipItem239.Text = "Add the right border to the selected controls."
+        SuperToolTip239.Items.Add(ToolTipTitleItem239)
+        SuperToolTip239.Items.Add(ToolTipItem239)
+        SuperToolTip239.MaxWidth = 210
+        Me.CommandBarItem36.SuperTip = SuperToolTip239
         '
         'CommandBarItem37
         '
@@ -2186,14 +2162,14 @@ Partial Class Form2
         Me.CommandBarItem37.Enabled = False
         Me.CommandBarItem37.Id = 58
         Me.CommandBarItem37.Name = "CommandBarItem37"
-        SuperToolTip2520.FixedTooltipWidth = True
-        ToolTipTitleItem2520.Text = "Bottom Border"
-        ToolTipItem2520.LeftIndent = 6
-        ToolTipItem2520.Text = "Add the bottom border to the selected controls."
-        SuperToolTip2520.Items.Add(ToolTipTitleItem2520)
-        SuperToolTip2520.Items.Add(ToolTipItem2520)
-        SuperToolTip2520.MaxWidth = 210
-        Me.CommandBarItem37.SuperTip = SuperToolTip2520
+        SuperToolTip240.FixedTooltipWidth = True
+        ToolTipTitleItem240.Text = "Bottom Border"
+        ToolTipItem240.LeftIndent = 6
+        ToolTipItem240.Text = "Add the bottom border to the selected controls."
+        SuperToolTip240.Items.Add(ToolTipTitleItem240)
+        SuperToolTip240.Items.Add(ToolTipItem240)
+        SuperToolTip240.MaxWidth = 210
+        Me.CommandBarItem37.SuperTip = SuperToolTip240
         '
         'CommandColorBarItem3
         '
@@ -2204,14 +2180,14 @@ Partial Class Form2
         Me.CommandColorBarItem3.Enabled = False
         Me.CommandColorBarItem3.Id = 59
         Me.CommandColorBarItem3.Name = "CommandColorBarItem3"
-        SuperToolTip2521.FixedTooltipWidth = True
-        ToolTipTitleItem2521.Text = "Border Color"
-        ToolTipItem2521.LeftIndent = 6
-        ToolTipItem2521.Text = "Change the border color."
-        SuperToolTip2521.Items.Add(ToolTipTitleItem2521)
-        SuperToolTip2521.Items.Add(ToolTipItem2521)
-        SuperToolTip2521.MaxWidth = 210
-        Me.CommandColorBarItem3.SuperTip = SuperToolTip2521
+        SuperToolTip241.FixedTooltipWidth = True
+        ToolTipTitleItem241.Text = "Border Color"
+        ToolTipItem241.LeftIndent = 6
+        ToolTipItem241.Text = "Change the border color."
+        SuperToolTip241.Items.Add(ToolTipTitleItem241)
+        SuperToolTip241.Items.Add(ToolTipItem241)
+        SuperToolTip241.MaxWidth = 210
+        Me.CommandColorBarItem3.SuperTip = SuperToolTip241
         '
         'CommandBarItem38
         '
@@ -2222,14 +2198,14 @@ Partial Class Form2
         Me.CommandBarItem38.Enabled = False
         Me.CommandBarItem38.Id = 60
         Me.CommandBarItem38.Name = "CommandBarItem38"
-        SuperToolTip2522.FixedTooltipWidth = True
-        ToolTipTitleItem2522.Text = "Border Width"
-        ToolTipItem2522.LeftIndent = 6
-        ToolTipItem2522.Text = "Change the border width."
-        SuperToolTip2522.Items.Add(ToolTipTitleItem2522)
-        SuperToolTip2522.Items.Add(ToolTipItem2522)
-        SuperToolTip2522.MaxWidth = 210
-        Me.CommandBarItem38.SuperTip = SuperToolTip2522
+        SuperToolTip242.FixedTooltipWidth = True
+        ToolTipTitleItem242.Text = "Border Width"
+        ToolTipItem242.LeftIndent = 6
+        ToolTipItem242.Text = "Change the border width."
+        SuperToolTip242.Items.Add(ToolTipTitleItem242)
+        SuperToolTip242.Items.Add(ToolTipItem242)
+        SuperToolTip242.MaxWidth = 210
+        Me.CommandBarItem38.SuperTip = SuperToolTip242
         '
         'CommandBarItem39
         '
@@ -2238,14 +2214,14 @@ Partial Class Form2
         Me.CommandBarItem39.Enabled = False
         Me.CommandBarItem39.Id = 61
         Me.CommandBarItem39.Name = "CommandBarItem39"
-        SuperToolTip2523.FixedTooltipWidth = True
-        ToolTipTitleItem2523.Text = "Align to Grid"
-        ToolTipItem2523.LeftIndent = 6
-        ToolTipItem2523.Text = "Align the positions of the selected controls to the grid."
-        SuperToolTip2523.Items.Add(ToolTipTitleItem2523)
-        SuperToolTip2523.Items.Add(ToolTipItem2523)
-        SuperToolTip2523.MaxWidth = 210
-        Me.CommandBarItem39.SuperTip = SuperToolTip2523
+        SuperToolTip243.FixedTooltipWidth = True
+        ToolTipTitleItem243.Text = "Align to Grid"
+        ToolTipItem243.LeftIndent = 6
+        ToolTipItem243.Text = "Align the positions of the selected controls to the grid."
+        SuperToolTip243.Items.Add(ToolTipTitleItem243)
+        SuperToolTip243.Items.Add(ToolTipItem243)
+        SuperToolTip243.MaxWidth = 210
+        Me.CommandBarItem39.SuperTip = SuperToolTip243
         '
         'CommandBarItem40
         '
@@ -2254,14 +2230,14 @@ Partial Class Form2
         Me.CommandBarItem40.Enabled = False
         Me.CommandBarItem40.Id = 62
         Me.CommandBarItem40.Name = "CommandBarItem40"
-        SuperToolTip2524.FixedTooltipWidth = True
-        ToolTipTitleItem2524.Text = "Align Lefts"
-        ToolTipItem2524.LeftIndent = 6
-        ToolTipItem2524.Text = "Left align the selected controls."
-        SuperToolTip2524.Items.Add(ToolTipTitleItem2524)
-        SuperToolTip2524.Items.Add(ToolTipItem2524)
-        SuperToolTip2524.MaxWidth = 210
-        Me.CommandBarItem40.SuperTip = SuperToolTip2524
+        SuperToolTip244.FixedTooltipWidth = True
+        ToolTipTitleItem244.Text = "Align Lefts"
+        ToolTipItem244.LeftIndent = 6
+        ToolTipItem244.Text = "Left align the selected controls."
+        SuperToolTip244.Items.Add(ToolTipTitleItem244)
+        SuperToolTip244.Items.Add(ToolTipItem244)
+        SuperToolTip244.MaxWidth = 210
+        Me.CommandBarItem40.SuperTip = SuperToolTip244
         '
         'CommandBarItem41
         '
@@ -2270,14 +2246,14 @@ Partial Class Form2
         Me.CommandBarItem41.Enabled = False
         Me.CommandBarItem41.Id = 63
         Me.CommandBarItem41.Name = "CommandBarItem41"
-        SuperToolTip2525.FixedTooltipWidth = True
-        ToolTipTitleItem2525.Text = "Align Centers"
-        ToolTipItem2525.LeftIndent = 6
-        ToolTipItem2525.Text = "Align the centers of the selected controls vertically."
-        SuperToolTip2525.Items.Add(ToolTipTitleItem2525)
-        SuperToolTip2525.Items.Add(ToolTipItem2525)
-        SuperToolTip2525.MaxWidth = 210
-        Me.CommandBarItem41.SuperTip = SuperToolTip2525
+        SuperToolTip245.FixedTooltipWidth = True
+        ToolTipTitleItem245.Text = "Align Centers"
+        ToolTipItem245.LeftIndent = 6
+        ToolTipItem245.Text = "Align the centers of the selected controls vertically."
+        SuperToolTip245.Items.Add(ToolTipTitleItem245)
+        SuperToolTip245.Items.Add(ToolTipItem245)
+        SuperToolTip245.MaxWidth = 210
+        Me.CommandBarItem41.SuperTip = SuperToolTip245
         '
         'CommandBarItem42
         '
@@ -2286,14 +2262,14 @@ Partial Class Form2
         Me.CommandBarItem42.Enabled = False
         Me.CommandBarItem42.Id = 64
         Me.CommandBarItem42.Name = "CommandBarItem42"
-        SuperToolTip2526.FixedTooltipWidth = True
-        ToolTipTitleItem2526.Text = "Align Rights"
-        ToolTipItem2526.LeftIndent = 6
-        ToolTipItem2526.Text = "Right align the selected controls."
-        SuperToolTip2526.Items.Add(ToolTipTitleItem2526)
-        SuperToolTip2526.Items.Add(ToolTipItem2526)
-        SuperToolTip2526.MaxWidth = 210
-        Me.CommandBarItem42.SuperTip = SuperToolTip2526
+        SuperToolTip246.FixedTooltipWidth = True
+        ToolTipTitleItem246.Text = "Align Rights"
+        ToolTipItem246.LeftIndent = 6
+        ToolTipItem246.Text = "Right align the selected controls."
+        SuperToolTip246.Items.Add(ToolTipTitleItem246)
+        SuperToolTip246.Items.Add(ToolTipItem246)
+        SuperToolTip246.MaxWidth = 210
+        Me.CommandBarItem42.SuperTip = SuperToolTip246
         '
         'CommandBarItem43
         '
@@ -2302,14 +2278,14 @@ Partial Class Form2
         Me.CommandBarItem43.Enabled = False
         Me.CommandBarItem43.Id = 65
         Me.CommandBarItem43.Name = "CommandBarItem43"
-        SuperToolTip2527.FixedTooltipWidth = True
-        ToolTipTitleItem2527.Text = "Align Tops"
-        ToolTipItem2527.LeftIndent = 6
-        ToolTipItem2527.Text = "Align the tops of the selected controls."
-        SuperToolTip2527.Items.Add(ToolTipTitleItem2527)
-        SuperToolTip2527.Items.Add(ToolTipItem2527)
-        SuperToolTip2527.MaxWidth = 210
-        Me.CommandBarItem43.SuperTip = SuperToolTip2527
+        SuperToolTip247.FixedTooltipWidth = True
+        ToolTipTitleItem247.Text = "Align Tops"
+        ToolTipItem247.LeftIndent = 6
+        ToolTipItem247.Text = "Align the tops of the selected controls."
+        SuperToolTip247.Items.Add(ToolTipTitleItem247)
+        SuperToolTip247.Items.Add(ToolTipItem247)
+        SuperToolTip247.MaxWidth = 210
+        Me.CommandBarItem43.SuperTip = SuperToolTip247
         '
         'CommandBarItem44
         '
@@ -2318,14 +2294,14 @@ Partial Class Form2
         Me.CommandBarItem44.Enabled = False
         Me.CommandBarItem44.Id = 66
         Me.CommandBarItem44.Name = "CommandBarItem44"
-        SuperToolTip2528.FixedTooltipWidth = True
-        ToolTipTitleItem2528.Text = "Align Middles"
-        ToolTipItem2528.LeftIndent = 6
-        ToolTipItem2528.Text = "Align the centers of the selected controls horizontally."
-        SuperToolTip2528.Items.Add(ToolTipTitleItem2528)
-        SuperToolTip2528.Items.Add(ToolTipItem2528)
-        SuperToolTip2528.MaxWidth = 210
-        Me.CommandBarItem44.SuperTip = SuperToolTip2528
+        SuperToolTip248.FixedTooltipWidth = True
+        ToolTipTitleItem248.Text = "Align Middles"
+        ToolTipItem248.LeftIndent = 6
+        ToolTipItem248.Text = "Align the centers of the selected controls horizontally."
+        SuperToolTip248.Items.Add(ToolTipTitleItem248)
+        SuperToolTip248.Items.Add(ToolTipItem248)
+        SuperToolTip248.MaxWidth = 210
+        Me.CommandBarItem44.SuperTip = SuperToolTip248
         '
         'CommandBarItem45
         '
@@ -2334,14 +2310,14 @@ Partial Class Form2
         Me.CommandBarItem45.Enabled = False
         Me.CommandBarItem45.Id = 67
         Me.CommandBarItem45.Name = "CommandBarItem45"
-        SuperToolTip2529.FixedTooltipWidth = True
-        ToolTipTitleItem2529.Text = "Align Bottoms"
-        ToolTipItem2529.LeftIndent = 6
-        ToolTipItem2529.Text = "Align the bottoms of the selected controls."
-        SuperToolTip2529.Items.Add(ToolTipTitleItem2529)
-        SuperToolTip2529.Items.Add(ToolTipItem2529)
-        SuperToolTip2529.MaxWidth = 210
-        Me.CommandBarItem45.SuperTip = SuperToolTip2529
+        SuperToolTip249.FixedTooltipWidth = True
+        ToolTipTitleItem249.Text = "Align Bottoms"
+        ToolTipItem249.LeftIndent = 6
+        ToolTipItem249.Text = "Align the bottoms of the selected controls."
+        SuperToolTip249.Items.Add(ToolTipTitleItem249)
+        SuperToolTip249.Items.Add(ToolTipItem249)
+        SuperToolTip249.MaxWidth = 210
+        Me.CommandBarItem45.SuperTip = SuperToolTip249
         '
         'CommandBarItem46
         '
@@ -2350,14 +2326,14 @@ Partial Class Form2
         Me.CommandBarItem46.Enabled = False
         Me.CommandBarItem46.Id = 68
         Me.CommandBarItem46.Name = "CommandBarItem46"
-        SuperToolTip2530.FixedTooltipWidth = True
-        ToolTipTitleItem2530.Text = "Make Same Width"
-        ToolTipItem2530.LeftIndent = 6
-        ToolTipItem2530.Text = "Make the selected controls have the same width."
-        SuperToolTip2530.Items.Add(ToolTipTitleItem2530)
-        SuperToolTip2530.Items.Add(ToolTipItem2530)
-        SuperToolTip2530.MaxWidth = 210
-        Me.CommandBarItem46.SuperTip = SuperToolTip2530
+        SuperToolTip250.FixedTooltipWidth = True
+        ToolTipTitleItem250.Text = "Make Same Width"
+        ToolTipItem250.LeftIndent = 6
+        ToolTipItem250.Text = "Make the selected controls have the same width."
+        SuperToolTip250.Items.Add(ToolTipTitleItem250)
+        SuperToolTip250.Items.Add(ToolTipItem250)
+        SuperToolTip250.MaxWidth = 210
+        Me.CommandBarItem46.SuperTip = SuperToolTip250
         '
         'CommandBarItem47
         '
@@ -2366,14 +2342,14 @@ Partial Class Form2
         Me.CommandBarItem47.Enabled = False
         Me.CommandBarItem47.Id = 69
         Me.CommandBarItem47.Name = "CommandBarItem47"
-        SuperToolTip2531.FixedTooltipWidth = True
-        ToolTipTitleItem2531.Text = "Size to Grid"
-        ToolTipItem2531.LeftIndent = 6
-        ToolTipItem2531.Text = "Adjust the size of the selected controls according to the grid size."
-        SuperToolTip2531.Items.Add(ToolTipTitleItem2531)
-        SuperToolTip2531.Items.Add(ToolTipItem2531)
-        SuperToolTip2531.MaxWidth = 210
-        Me.CommandBarItem47.SuperTip = SuperToolTip2531
+        SuperToolTip251.FixedTooltipWidth = True
+        ToolTipTitleItem251.Text = "Size to Grid"
+        ToolTipItem251.LeftIndent = 6
+        ToolTipItem251.Text = "Adjust the size of the selected controls according to the grid size."
+        SuperToolTip251.Items.Add(ToolTipTitleItem251)
+        SuperToolTip251.Items.Add(ToolTipItem251)
+        SuperToolTip251.MaxWidth = 210
+        Me.CommandBarItem47.SuperTip = SuperToolTip251
         '
         'CommandBarItem48
         '
@@ -2382,14 +2358,14 @@ Partial Class Form2
         Me.CommandBarItem48.Enabled = False
         Me.CommandBarItem48.Id = 70
         Me.CommandBarItem48.Name = "CommandBarItem48"
-        SuperToolTip2532.FixedTooltipWidth = True
-        ToolTipTitleItem2532.Text = "Make Same Height"
-        ToolTipItem2532.LeftIndent = 6
-        ToolTipItem2532.Text = "Make the selected controls have the same height."
-        SuperToolTip2532.Items.Add(ToolTipTitleItem2532)
-        SuperToolTip2532.Items.Add(ToolTipItem2532)
-        SuperToolTip2532.MaxWidth = 210
-        Me.CommandBarItem48.SuperTip = SuperToolTip2532
+        SuperToolTip252.FixedTooltipWidth = True
+        ToolTipTitleItem252.Text = "Make Same Height"
+        ToolTipItem252.LeftIndent = 6
+        ToolTipItem252.Text = "Make the selected controls have the same height."
+        SuperToolTip252.Items.Add(ToolTipTitleItem252)
+        SuperToolTip252.Items.Add(ToolTipItem252)
+        SuperToolTip252.MaxWidth = 210
+        Me.CommandBarItem48.SuperTip = SuperToolTip252
         '
         'CommandBarItem49
         '
@@ -2398,14 +2374,14 @@ Partial Class Form2
         Me.CommandBarItem49.Enabled = False
         Me.CommandBarItem49.Id = 71
         Me.CommandBarItem49.Name = "CommandBarItem49"
-        SuperToolTip2533.FixedTooltipWidth = True
-        ToolTipTitleItem2533.Text = "Make Same Size"
-        ToolTipItem2533.LeftIndent = 6
-        ToolTipItem2533.Text = "Make the selected controls have the same size."
-        SuperToolTip2533.Items.Add(ToolTipTitleItem2533)
-        SuperToolTip2533.Items.Add(ToolTipItem2533)
-        SuperToolTip2533.MaxWidth = 210
-        Me.CommandBarItem49.SuperTip = SuperToolTip2533
+        SuperToolTip253.FixedTooltipWidth = True
+        ToolTipTitleItem253.Text = "Make Same Size"
+        ToolTipItem253.LeftIndent = 6
+        ToolTipItem253.Text = "Make the selected controls have the same size."
+        SuperToolTip253.Items.Add(ToolTipTitleItem253)
+        SuperToolTip253.Items.Add(ToolTipItem253)
+        SuperToolTip253.MaxWidth = 210
+        Me.CommandBarItem49.SuperTip = SuperToolTip253
         '
         'CommandBarItem50
         '
@@ -2414,14 +2390,14 @@ Partial Class Form2
         Me.CommandBarItem50.Enabled = False
         Me.CommandBarItem50.Id = 72
         Me.CommandBarItem50.Name = "CommandBarItem50"
-        SuperToolTip2534.FixedTooltipWidth = True
-        ToolTipTitleItem2534.Text = "Make Horizontal Spacing Equal"
-        ToolTipItem2534.LeftIndent = 6
-        ToolTipItem2534.Text = "Make the horizontal spacing between the selected controls equal."
-        SuperToolTip2534.Items.Add(ToolTipTitleItem2534)
-        SuperToolTip2534.Items.Add(ToolTipItem2534)
-        SuperToolTip2534.MaxWidth = 210
-        Me.CommandBarItem50.SuperTip = SuperToolTip2534
+        SuperToolTip254.FixedTooltipWidth = True
+        ToolTipTitleItem254.Text = "Make Horizontal Spacing Equal"
+        ToolTipItem254.LeftIndent = 6
+        ToolTipItem254.Text = "Make the horizontal spacing between the selected controls equal."
+        SuperToolTip254.Items.Add(ToolTipTitleItem254)
+        SuperToolTip254.Items.Add(ToolTipItem254)
+        SuperToolTip254.MaxWidth = 210
+        Me.CommandBarItem50.SuperTip = SuperToolTip254
         '
         'CommandBarItem51
         '
@@ -2430,14 +2406,14 @@ Partial Class Form2
         Me.CommandBarItem51.Enabled = False
         Me.CommandBarItem51.Id = 73
         Me.CommandBarItem51.Name = "CommandBarItem51"
-        SuperToolTip2535.FixedTooltipWidth = True
-        ToolTipTitleItem2535.Text = "Increase Horizontal Spacing"
-        ToolTipItem2535.LeftIndent = 6
-        ToolTipItem2535.Text = "Increase the horizontal spacing between the selected controls."
-        SuperToolTip2535.Items.Add(ToolTipTitleItem2535)
-        SuperToolTip2535.Items.Add(ToolTipItem2535)
-        SuperToolTip2535.MaxWidth = 210
-        Me.CommandBarItem51.SuperTip = SuperToolTip2535
+        SuperToolTip255.FixedTooltipWidth = True
+        ToolTipTitleItem255.Text = "Increase Horizontal Spacing"
+        ToolTipItem255.LeftIndent = 6
+        ToolTipItem255.Text = "Increase the horizontal spacing between the selected controls."
+        SuperToolTip255.Items.Add(ToolTipTitleItem255)
+        SuperToolTip255.Items.Add(ToolTipItem255)
+        SuperToolTip255.MaxWidth = 210
+        Me.CommandBarItem51.SuperTip = SuperToolTip255
         '
         'CommandBarItem52
         '
@@ -2446,14 +2422,14 @@ Partial Class Form2
         Me.CommandBarItem52.Enabled = False
         Me.CommandBarItem52.Id = 74
         Me.CommandBarItem52.Name = "CommandBarItem52"
-        SuperToolTip2536.FixedTooltipWidth = True
-        ToolTipTitleItem2536.Text = "Decrease Horizontal Spacing"
-        ToolTipItem2536.LeftIndent = 6
-        ToolTipItem2536.Text = "Decrease the horizontal spacing between the selected controls."
-        SuperToolTip2536.Items.Add(ToolTipTitleItem2536)
-        SuperToolTip2536.Items.Add(ToolTipItem2536)
-        SuperToolTip2536.MaxWidth = 210
-        Me.CommandBarItem52.SuperTip = SuperToolTip2536
+        SuperToolTip256.FixedTooltipWidth = True
+        ToolTipTitleItem256.Text = "Decrease Horizontal Spacing"
+        ToolTipItem256.LeftIndent = 6
+        ToolTipItem256.Text = "Decrease the horizontal spacing between the selected controls."
+        SuperToolTip256.Items.Add(ToolTipTitleItem256)
+        SuperToolTip256.Items.Add(ToolTipItem256)
+        SuperToolTip256.MaxWidth = 210
+        Me.CommandBarItem52.SuperTip = SuperToolTip256
         '
         'CommandBarItem53
         '
@@ -2462,14 +2438,14 @@ Partial Class Form2
         Me.CommandBarItem53.Enabled = False
         Me.CommandBarItem53.Id = 75
         Me.CommandBarItem53.Name = "CommandBarItem53"
-        SuperToolTip2537.FixedTooltipWidth = True
-        ToolTipTitleItem2537.Text = "Remove Horizontal Spacing"
-        ToolTipItem2537.LeftIndent = 6
-        ToolTipItem2537.Text = "Remove the horizontal spacing between the selected controls."
-        SuperToolTip2537.Items.Add(ToolTipTitleItem2537)
-        SuperToolTip2537.Items.Add(ToolTipItem2537)
-        SuperToolTip2537.MaxWidth = 210
-        Me.CommandBarItem53.SuperTip = SuperToolTip2537
+        SuperToolTip257.FixedTooltipWidth = True
+        ToolTipTitleItem257.Text = "Remove Horizontal Spacing"
+        ToolTipItem257.LeftIndent = 6
+        ToolTipItem257.Text = "Remove the horizontal spacing between the selected controls."
+        SuperToolTip257.Items.Add(ToolTipTitleItem257)
+        SuperToolTip257.Items.Add(ToolTipItem257)
+        SuperToolTip257.MaxWidth = 210
+        Me.CommandBarItem53.SuperTip = SuperToolTip257
         '
         'CommandBarItem54
         '
@@ -2478,14 +2454,14 @@ Partial Class Form2
         Me.CommandBarItem54.Enabled = False
         Me.CommandBarItem54.Id = 76
         Me.CommandBarItem54.Name = "CommandBarItem54"
-        SuperToolTip2538.FixedTooltipWidth = True
-        ToolTipTitleItem2538.Text = "Make Vertical Spacing Equal"
-        ToolTipItem2538.LeftIndent = 6
-        ToolTipItem2538.Text = "Make the vertical spacing between the selected controls equal."
-        SuperToolTip2538.Items.Add(ToolTipTitleItem2538)
-        SuperToolTip2538.Items.Add(ToolTipItem2538)
-        SuperToolTip2538.MaxWidth = 210
-        Me.CommandBarItem54.SuperTip = SuperToolTip2538
+        SuperToolTip258.FixedTooltipWidth = True
+        ToolTipTitleItem258.Text = "Make Vertical Spacing Equal"
+        ToolTipItem258.LeftIndent = 6
+        ToolTipItem258.Text = "Make the vertical spacing between the selected controls equal."
+        SuperToolTip258.Items.Add(ToolTipTitleItem258)
+        SuperToolTip258.Items.Add(ToolTipItem258)
+        SuperToolTip258.MaxWidth = 210
+        Me.CommandBarItem54.SuperTip = SuperToolTip258
         '
         'CommandBarItem55
         '
@@ -2494,14 +2470,14 @@ Partial Class Form2
         Me.CommandBarItem55.Enabled = False
         Me.CommandBarItem55.Id = 77
         Me.CommandBarItem55.Name = "CommandBarItem55"
-        SuperToolTip2539.FixedTooltipWidth = True
-        ToolTipTitleItem2539.Text = "Increase Vertical Spacing"
-        ToolTipItem2539.LeftIndent = 6
-        ToolTipItem2539.Text = "Increase the vertical spacing between the selected controls."
-        SuperToolTip2539.Items.Add(ToolTipTitleItem2539)
-        SuperToolTip2539.Items.Add(ToolTipItem2539)
-        SuperToolTip2539.MaxWidth = 210
-        Me.CommandBarItem55.SuperTip = SuperToolTip2539
+        SuperToolTip259.FixedTooltipWidth = True
+        ToolTipTitleItem259.Text = "Increase Vertical Spacing"
+        ToolTipItem259.LeftIndent = 6
+        ToolTipItem259.Text = "Increase the vertical spacing between the selected controls."
+        SuperToolTip259.Items.Add(ToolTipTitleItem259)
+        SuperToolTip259.Items.Add(ToolTipItem259)
+        SuperToolTip259.MaxWidth = 210
+        Me.CommandBarItem55.SuperTip = SuperToolTip259
         '
         'CommandBarItem56
         '
@@ -2510,14 +2486,14 @@ Partial Class Form2
         Me.CommandBarItem56.Enabled = False
         Me.CommandBarItem56.Id = 78
         Me.CommandBarItem56.Name = "CommandBarItem56"
-        SuperToolTip2540.FixedTooltipWidth = True
-        ToolTipTitleItem2540.Text = "Decrease Vertical Spacing"
-        ToolTipItem2540.LeftIndent = 6
-        ToolTipItem2540.Text = "Decrease the vertical spacing between the selected controls."
-        SuperToolTip2540.Items.Add(ToolTipTitleItem2540)
-        SuperToolTip2540.Items.Add(ToolTipItem2540)
-        SuperToolTip2540.MaxWidth = 210
-        Me.CommandBarItem56.SuperTip = SuperToolTip2540
+        SuperToolTip260.FixedTooltipWidth = True
+        ToolTipTitleItem260.Text = "Decrease Vertical Spacing"
+        ToolTipItem260.LeftIndent = 6
+        ToolTipItem260.Text = "Decrease the vertical spacing between the selected controls."
+        SuperToolTip260.Items.Add(ToolTipTitleItem260)
+        SuperToolTip260.Items.Add(ToolTipItem260)
+        SuperToolTip260.MaxWidth = 210
+        Me.CommandBarItem56.SuperTip = SuperToolTip260
         '
         'CommandBarItem57
         '
@@ -2526,14 +2502,14 @@ Partial Class Form2
         Me.CommandBarItem57.Enabled = False
         Me.CommandBarItem57.Id = 79
         Me.CommandBarItem57.Name = "CommandBarItem57"
-        SuperToolTip2541.FixedTooltipWidth = True
-        ToolTipTitleItem2541.Text = "Remove Vertical Spacing"
-        ToolTipItem2541.LeftIndent = 6
-        ToolTipItem2541.Text = "Remove the vertical spacing between the selected controls."
-        SuperToolTip2541.Items.Add(ToolTipTitleItem2541)
-        SuperToolTip2541.Items.Add(ToolTipItem2541)
-        SuperToolTip2541.MaxWidth = 210
-        Me.CommandBarItem57.SuperTip = SuperToolTip2541
+        SuperToolTip261.FixedTooltipWidth = True
+        ToolTipTitleItem261.Text = "Remove Vertical Spacing"
+        ToolTipItem261.LeftIndent = 6
+        ToolTipItem261.Text = "Remove the vertical spacing between the selected controls."
+        SuperToolTip261.Items.Add(ToolTipTitleItem261)
+        SuperToolTip261.Items.Add(ToolTipItem261)
+        SuperToolTip261.MaxWidth = 210
+        Me.CommandBarItem57.SuperTip = SuperToolTip261
         '
         'CommandBarItem58
         '
@@ -2542,14 +2518,14 @@ Partial Class Form2
         Me.CommandBarItem58.Enabled = False
         Me.CommandBarItem58.Id = 80
         Me.CommandBarItem58.Name = "CommandBarItem58"
-        SuperToolTip2542.FixedTooltipWidth = True
-        ToolTipTitleItem2542.Text = "Center Horizontally"
-        ToolTipItem2542.LeftIndent = 6
-        ToolTipItem2542.Text = "Horizontally center the selected controls within a band."
-        SuperToolTip2542.Items.Add(ToolTipTitleItem2542)
-        SuperToolTip2542.Items.Add(ToolTipItem2542)
-        SuperToolTip2542.MaxWidth = 210
-        Me.CommandBarItem58.SuperTip = SuperToolTip2542
+        SuperToolTip262.FixedTooltipWidth = True
+        ToolTipTitleItem262.Text = "Center Horizontally"
+        ToolTipItem262.LeftIndent = 6
+        ToolTipItem262.Text = "Horizontally center the selected controls within a band."
+        SuperToolTip262.Items.Add(ToolTipTitleItem262)
+        SuperToolTip262.Items.Add(ToolTipItem262)
+        SuperToolTip262.MaxWidth = 210
+        Me.CommandBarItem58.SuperTip = SuperToolTip262
         '
         'CommandBarItem59
         '
@@ -2558,14 +2534,14 @@ Partial Class Form2
         Me.CommandBarItem59.Enabled = False
         Me.CommandBarItem59.Id = 81
         Me.CommandBarItem59.Name = "CommandBarItem59"
-        SuperToolTip2543.FixedTooltipWidth = True
-        ToolTipTitleItem2543.Text = "Center Vertically"
-        ToolTipItem2543.LeftIndent = 6
-        ToolTipItem2543.Text = "Vertically center the selected controls within a band."
-        SuperToolTip2543.Items.Add(ToolTipTitleItem2543)
-        SuperToolTip2543.Items.Add(ToolTipItem2543)
-        SuperToolTip2543.MaxWidth = 210
-        Me.CommandBarItem59.SuperTip = SuperToolTip2543
+        SuperToolTip263.FixedTooltipWidth = True
+        ToolTipTitleItem263.Text = "Center Vertically"
+        ToolTipItem263.LeftIndent = 6
+        ToolTipItem263.Text = "Vertically center the selected controls within a band."
+        SuperToolTip263.Items.Add(ToolTipTitleItem263)
+        SuperToolTip263.Items.Add(ToolTipItem263)
+        SuperToolTip263.MaxWidth = 210
+        Me.CommandBarItem59.SuperTip = SuperToolTip263
         '
         'CommandBarItem60
         '
@@ -2574,14 +2550,14 @@ Partial Class Form2
         Me.CommandBarItem60.Enabled = False
         Me.CommandBarItem60.Id = 82
         Me.CommandBarItem60.Name = "CommandBarItem60"
-        SuperToolTip2544.FixedTooltipWidth = True
-        ToolTipTitleItem2544.Text = "Bring to Front"
-        ToolTipItem2544.LeftIndent = 6
-        ToolTipItem2544.Text = "Bring the selected controls to the front."
-        SuperToolTip2544.Items.Add(ToolTipTitleItem2544)
-        SuperToolTip2544.Items.Add(ToolTipItem2544)
-        SuperToolTip2544.MaxWidth = 210
-        Me.CommandBarItem60.SuperTip = SuperToolTip2544
+        SuperToolTip264.FixedTooltipWidth = True
+        ToolTipTitleItem264.Text = "Bring to Front"
+        ToolTipItem264.LeftIndent = 6
+        ToolTipItem264.Text = "Bring the selected controls to the front."
+        SuperToolTip264.Items.Add(ToolTipTitleItem264)
+        SuperToolTip264.Items.Add(ToolTipItem264)
+        SuperToolTip264.MaxWidth = 210
+        Me.CommandBarItem60.SuperTip = SuperToolTip264
         '
         'CommandBarItem61
         '
@@ -2590,14 +2566,14 @@ Partial Class Form2
         Me.CommandBarItem61.Enabled = False
         Me.CommandBarItem61.Id = 83
         Me.CommandBarItem61.Name = "CommandBarItem61"
-        SuperToolTip2545.FixedTooltipWidth = True
-        ToolTipTitleItem2545.Text = "Send to Back"
-        ToolTipItem2545.LeftIndent = 6
-        ToolTipItem2545.Text = "Move the selected controls to the back."
-        SuperToolTip2545.Items.Add(ToolTipTitleItem2545)
-        SuperToolTip2545.Items.Add(ToolTipItem2545)
-        SuperToolTip2545.MaxWidth = 210
-        Me.CommandBarItem61.SuperTip = SuperToolTip2545
+        SuperToolTip265.FixedTooltipWidth = True
+        ToolTipTitleItem265.Text = "Send to Back"
+        ToolTipItem265.LeftIndent = 6
+        ToolTipItem265.Text = "Move the selected controls to the back."
+        SuperToolTip265.Items.Add(ToolTipTitleItem265)
+        SuperToolTip265.Items.Add(ToolTipItem265)
+        SuperToolTip265.MaxWidth = 210
+        Me.CommandBarItem61.SuperTip = SuperToolTip265
         '
         'CommandBarCheckItem1
         '
@@ -2607,14 +2583,14 @@ Partial Class Form2
         Me.CommandBarCheckItem1.Enabled = False
         Me.CommandBarCheckItem1.Id = 84
         Me.CommandBarCheckItem1.Name = "CommandBarCheckItem1"
-        SuperToolTip2546.FixedTooltipWidth = True
-        ToolTipTitleItem2546.Text = "Snap to Grid"
-        ToolTipItem2546.LeftIndent = 6
-        ToolTipItem2546.Text = "Enable snapping to the snap grid."
-        SuperToolTip2546.Items.Add(ToolTipTitleItem2546)
-        SuperToolTip2546.Items.Add(ToolTipItem2546)
-        SuperToolTip2546.MaxWidth = 210
-        Me.CommandBarCheckItem1.SuperTip = SuperToolTip2546
+        SuperToolTip266.FixedTooltipWidth = True
+        ToolTipTitleItem266.Text = "Snap to Grid"
+        ToolTipItem266.LeftIndent = 6
+        ToolTipItem266.Text = "Enable snapping to the snap grid."
+        SuperToolTip266.Items.Add(ToolTipTitleItem266)
+        SuperToolTip266.Items.Add(ToolTipItem266)
+        SuperToolTip266.MaxWidth = 210
+        Me.CommandBarCheckItem1.SuperTip = SuperToolTip266
         '
         'CommandBarCheckItem2
         '
@@ -2624,14 +2600,14 @@ Partial Class Form2
         Me.CommandBarCheckItem2.Enabled = False
         Me.CommandBarCheckItem2.Id = 85
         Me.CommandBarCheckItem2.Name = "CommandBarCheckItem2"
-        SuperToolTip2547.FixedTooltipWidth = True
-        ToolTipTitleItem2547.Text = "Snap Lines"
-        ToolTipItem2547.LeftIndent = 6
-        ToolTipItem2547.Text = "Enable snapping to snap lines."
-        SuperToolTip2547.Items.Add(ToolTipTitleItem2547)
-        SuperToolTip2547.Items.Add(ToolTipItem2547)
-        SuperToolTip2547.MaxWidth = 210
-        Me.CommandBarCheckItem2.SuperTip = SuperToolTip2547
+        SuperToolTip267.FixedTooltipWidth = True
+        ToolTipTitleItem267.Text = "Snap Lines"
+        ToolTipItem267.LeftIndent = 6
+        ToolTipItem267.Text = "Enable snapping to snap lines."
+        SuperToolTip267.Items.Add(ToolTipTitleItem267)
+        SuperToolTip267.Items.Add(ToolTipItem267)
+        SuperToolTip267.MaxWidth = 210
+        Me.CommandBarCheckItem2.SuperTip = SuperToolTip267
         '
         'CommandBarItem62
         '
@@ -2640,14 +2616,14 @@ Partial Class Form2
         Me.CommandBarItem62.Enabled = False
         Me.CommandBarItem62.Id = 86
         Me.CommandBarItem62.Name = "CommandBarItem62"
-        SuperToolTip2548.FixedTooltipWidth = True
-        ToolTipTitleItem2548.Text = "Fit Bounds to Container"
-        ToolTipItem2548.LeftIndent = 6
-        ToolTipItem2548.Text = "Adjust the control size to occupy all the available container space."
-        SuperToolTip2548.Items.Add(ToolTipTitleItem2548)
-        SuperToolTip2548.Items.Add(ToolTipItem2548)
-        SuperToolTip2548.MaxWidth = 210
-        Me.CommandBarItem62.SuperTip = SuperToolTip2548
+        SuperToolTip268.FixedTooltipWidth = True
+        ToolTipTitleItem268.Text = "Fit Bounds to Container"
+        ToolTipItem268.LeftIndent = 6
+        ToolTipItem268.Text = "Adjust the control size to occupy all the available container space."
+        SuperToolTip268.Items.Add(ToolTipTitleItem268)
+        SuperToolTip268.Items.Add(ToolTipItem268)
+        SuperToolTip268.MaxWidth = 210
+        Me.CommandBarItem62.SuperTip = SuperToolTip268
         '
         'CommandBarItem63
         '
@@ -2658,15 +2634,15 @@ Partial Class Form2
         Me.CommandBarItem63.Enabled = False
         Me.CommandBarItem63.Id = 87
         Me.CommandBarItem63.Name = "CommandBarItem63"
-        SuperToolTip2549.FixedTooltipWidth = True
-        ToolTipTitleItem2549.Text = "Choose Page Size"
-        ToolTipItem2549.LeftIndent = 6
-        ToolTipItem2549.Text = "Choose a commonly used paper size for a report or click More Paper Sizes to defin" &
+        SuperToolTip269.FixedTooltipWidth = True
+        ToolTipTitleItem269.Text = "Choose Page Size"
+        ToolTipItem269.LeftIndent = 6
+        ToolTipItem269.Text = "Choose a commonly used paper size for a report or click More Paper Sizes to defin" &
     "e your own size."
-        SuperToolTip2549.Items.Add(ToolTipTitleItem2549)
-        SuperToolTip2549.Items.Add(ToolTipItem2549)
-        SuperToolTip2549.MaxWidth = 210
-        Me.CommandBarItem63.SuperTip = SuperToolTip2549
+        SuperToolTip269.Items.Add(ToolTipTitleItem269)
+        SuperToolTip269.Items.Add(ToolTipItem269)
+        SuperToolTip269.MaxWidth = 210
+        Me.CommandBarItem63.SuperTip = SuperToolTip269
         '
         'CommandBarItem64
         '
@@ -2677,14 +2653,14 @@ Partial Class Form2
         Me.CommandBarItem64.Enabled = False
         Me.CommandBarItem64.Id = 88
         Me.CommandBarItem64.Name = "CommandBarItem64"
-        SuperToolTip2550.FixedTooltipWidth = True
-        ToolTipTitleItem2550.Text = "Change Page Orientation"
-        ToolTipItem2550.LeftIndent = 6
-        ToolTipItem2550.Text = "Switch between portrait and landscape page layouts."
-        SuperToolTip2550.Items.Add(ToolTipTitleItem2550)
-        SuperToolTip2550.Items.Add(ToolTipItem2550)
-        SuperToolTip2550.MaxWidth = 210
-        Me.CommandBarItem64.SuperTip = SuperToolTip2550
+        SuperToolTip270.FixedTooltipWidth = True
+        ToolTipTitleItem270.Text = "Change Page Orientation"
+        ToolTipItem270.LeftIndent = 6
+        ToolTipItem270.Text = "Switch between portrait and landscape page layouts."
+        SuperToolTip270.Items.Add(ToolTipTitleItem270)
+        SuperToolTip270.Items.Add(ToolTipItem270)
+        SuperToolTip270.MaxWidth = 210
+        Me.CommandBarItem64.SuperTip = SuperToolTip270
         '
         'CommandBarItem65
         '
@@ -2695,15 +2671,15 @@ Partial Class Form2
         Me.CommandBarItem65.Enabled = False
         Me.CommandBarItem65.Id = 89
         Me.CommandBarItem65.Name = "CommandBarItem65"
-        SuperToolTip2551.FixedTooltipWidth = True
-        ToolTipTitleItem2551.Text = "Adjust Margins"
-        ToolTipItem2551.LeftIndent = 6
-        ToolTipItem2551.Text = "Set margin sizes for a report. Choose from several commonly used formats or click" &
+        SuperToolTip271.FixedTooltipWidth = True
+        ToolTipTitleItem271.Text = "Adjust Margins"
+        ToolTipItem271.LeftIndent = 6
+        ToolTipItem271.Text = "Set margin sizes for a report. Choose from several commonly used formats or click" &
     " Custom Margins to define your own format."
-        SuperToolTip2551.Items.Add(ToolTipTitleItem2551)
-        SuperToolTip2551.Items.Add(ToolTipItem2551)
-        SuperToolTip2551.MaxWidth = 210
-        Me.CommandBarItem65.SuperTip = SuperToolTip2551
+        SuperToolTip271.Items.Add(ToolTipTitleItem271)
+        SuperToolTip271.Items.Add(ToolTipItem271)
+        SuperToolTip271.MaxWidth = 210
+        Me.CommandBarItem65.SuperTip = SuperToolTip271
         '
         'CommandColorBarItem4
         '
@@ -2714,14 +2690,14 @@ Partial Class Form2
         Me.CommandColorBarItem4.Enabled = False
         Me.CommandColorBarItem4.Id = 90
         Me.CommandColorBarItem4.Name = "CommandColorBarItem4"
-        SuperToolTip2552.FixedTooltipWidth = True
-        ToolTipTitleItem2552.Text = "Choose Page Color"
-        ToolTipItem2552.LeftIndent = 6
-        ToolTipItem2552.Text = "Select the background color for report pages."
-        SuperToolTip2552.Items.Add(ToolTipTitleItem2552)
-        SuperToolTip2552.Items.Add(ToolTipItem2552)
-        SuperToolTip2552.MaxWidth = 210
-        Me.CommandColorBarItem4.SuperTip = SuperToolTip2552
+        SuperToolTip272.FixedTooltipWidth = True
+        ToolTipTitleItem272.Text = "Choose Page Color"
+        ToolTipItem272.LeftIndent = 6
+        ToolTipItem272.Text = "Select the background color for report pages."
+        SuperToolTip272.Items.Add(ToolTipTitleItem272)
+        SuperToolTip272.Items.Add(ToolTipItem272)
+        SuperToolTip272.MaxWidth = 210
+        Me.CommandColorBarItem4.SuperTip = SuperToolTip272
         '
         'CommandBarItem66
         '
@@ -2730,16 +2706,16 @@ Partial Class Form2
         Me.CommandBarItem66.Enabled = False
         Me.CommandBarItem66.Id = 91
         Me.CommandBarItem66.Name = "CommandBarItem66"
-        SuperToolTip2553.FixedTooltipWidth = True
-        ToolTipTitleItem2553.Text = "Add Watermark"
-        ToolTipItem2553.LeftIndent = 6
-        ToolTipItem2553.Text = "Insert ghost text or image behind the page content to indicate that a report requ" &
+        SuperToolTip273.FixedTooltipWidth = True
+        ToolTipTitleItem273.Text = "Add Watermark"
+        ToolTipItem273.LeftIndent = 6
+        ToolTipItem273.Text = "Insert ghost text or image behind the page content to indicate that a report requ" &
     "ires special treatment. Use the View tab to display a watermark at design time a" &
     "nd use it as a template for a report."
-        SuperToolTip2553.Items.Add(ToolTipTitleItem2553)
-        SuperToolTip2553.Items.Add(ToolTipItem2553)
-        SuperToolTip2553.MaxWidth = 210
-        Me.CommandBarItem66.SuperTip = SuperToolTip2553
+        SuperToolTip273.Items.Add(ToolTipTitleItem273)
+        SuperToolTip273.Items.Add(ToolTipItem273)
+        SuperToolTip273.MaxWidth = 210
+        Me.CommandBarItem66.SuperTip = SuperToolTip273
         '
         'CommandBarItem67
         '
@@ -2748,15 +2724,15 @@ Partial Class Form2
         Me.CommandBarItem67.Enabled = False
         Me.CommandBarItem67.Id = 92
         Me.CommandBarItem67.Name = "CommandBarItem67"
-        SuperToolTip2554.FixedTooltipWidth = True
-        ToolTipTitleItem2554.Text = "Show Printing Warnings"
-        ToolTipItem2554.LeftIndent = 6
-        ToolTipItem2554.Text = "Highlight report controls that overrun the right page margin to warn you about ex" &
+        SuperToolTip274.FixedTooltipWidth = True
+        ToolTipTitleItem274.Text = "Show Printing Warnings"
+        ToolTipItem274.LeftIndent = 6
+        ToolTipItem274.Text = "Highlight report controls that overrun the right page margin to warn you about ex" &
     "tra pages when printing the document."
-        SuperToolTip2554.Items.Add(ToolTipTitleItem2554)
-        SuperToolTip2554.Items.Add(ToolTipItem2554)
-        SuperToolTip2554.MaxWidth = 210
-        Me.CommandBarItem67.SuperTip = SuperToolTip2554
+        SuperToolTip274.Items.Add(ToolTipTitleItem274)
+        SuperToolTip274.Items.Add(ToolTipItem274)
+        SuperToolTip274.MaxWidth = 210
+        Me.CommandBarItem67.SuperTip = SuperToolTip274
         '
         'CommandBarItem68
         '
@@ -2765,15 +2741,15 @@ Partial Class Form2
         Me.CommandBarItem68.Enabled = False
         Me.CommandBarItem68.Id = 93
         Me.CommandBarItem68.Name = "CommandBarItem68"
-        SuperToolTip2555.FixedTooltipWidth = True
-        ToolTipTitleItem2555.Text = "Show Export Warnings"
-        ToolTipItem2555.LeftIndent = 6
-        ToolTipItem2555.Text = "Highlight intersecting report controls to warn you about the possibility of corru" &
+        SuperToolTip275.FixedTooltipWidth = True
+        ToolTipTitleItem275.Text = "Show Export Warnings"
+        ToolTipItem275.LeftIndent = 6
+        ToolTipItem275.Text = "Highlight intersecting report controls to warn you about the possibility of corru" &
     "pting the document layout when exporting the document to specific formats."
-        SuperToolTip2555.Items.Add(ToolTipTitleItem2555)
-        SuperToolTip2555.Items.Add(ToolTipItem2555)
-        SuperToolTip2555.MaxWidth = 210
-        Me.CommandBarItem68.SuperTip = SuperToolTip2555
+        SuperToolTip275.Items.Add(ToolTipTitleItem275)
+        SuperToolTip275.Items.Add(ToolTipItem275)
+        SuperToolTip275.MaxWidth = 210
+        Me.CommandBarItem68.SuperTip = SuperToolTip275
         '
         'CommandBarItem69
         '
@@ -2783,15 +2759,15 @@ Partial Class Form2
         Me.CommandBarItem69.Id = 94
         Me.CommandBarItem69.Name = "CommandBarItem69"
         Me.CommandBarItem69.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2556.FixedTooltipWidth = True
-        ToolTipTitleItem2556.Text = "Show Watermark"
-        ToolTipItem2556.LeftIndent = 6
-        ToolTipItem2556.Text = "Display the document's watermark on the design surface for the better design expe" &
+        SuperToolTip276.FixedTooltipWidth = True
+        ToolTipTitleItem276.Text = "Show Watermark"
+        ToolTipItem276.LeftIndent = 6
+        ToolTipItem276.Text = "Display the document's watermark on the design surface for the better design expe" &
     "rience. Specify watermark settings in the Page tab."
-        SuperToolTip2556.Items.Add(ToolTipTitleItem2556)
-        SuperToolTip2556.Items.Add(ToolTipItem2556)
-        SuperToolTip2556.MaxWidth = 210
-        Me.CommandBarItem69.SuperTip = SuperToolTip2556
+        SuperToolTip276.Items.Add(ToolTipTitleItem276)
+        SuperToolTip276.Items.Add(ToolTipItem276)
+        SuperToolTip276.MaxWidth = 210
+        Me.CommandBarItem69.SuperTip = SuperToolTip276
         '
         'CommandBarItem70
         '
@@ -2801,14 +2777,14 @@ Partial Class Form2
         Me.CommandBarItem70.Id = 95
         Me.CommandBarItem70.Name = "CommandBarItem70"
         Me.CommandBarItem70.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2557.FixedTooltipWidth = True
-        ToolTipTitleItem2557.Text = "Show Grid Lines"
-        ToolTipItem2557.LeftIndent = 6
-        ToolTipItem2557.Text = "Show gridlines on the report surface for perfect control placement."
-        SuperToolTip2557.Items.Add(ToolTipTitleItem2557)
-        SuperToolTip2557.Items.Add(ToolTipItem2557)
-        SuperToolTip2557.MaxWidth = 210
-        Me.CommandBarItem70.SuperTip = SuperToolTip2557
+        SuperToolTip277.FixedTooltipWidth = True
+        ToolTipTitleItem277.Text = "Show Grid Lines"
+        ToolTipItem277.LeftIndent = 6
+        ToolTipItem277.Text = "Show gridlines on the report surface for perfect control placement."
+        SuperToolTip277.Items.Add(ToolTipTitleItem277)
+        SuperToolTip277.Items.Add(ToolTipItem277)
+        SuperToolTip277.MaxWidth = 210
+        Me.CommandBarItem70.SuperTip = SuperToolTip277
         '
         'CommandBarItem71
         '
@@ -2817,14 +2793,14 @@ Partial Class Form2
         Me.CommandBarItem71.Enabled = False
         Me.CommandBarItem71.Id = 96
         Me.CommandBarItem71.Name = "CommandBarItem71"
-        SuperToolTip2558.FixedTooltipWidth = True
-        ToolTipTitleItem2558.Text = "Expand All Bands"
-        ToolTipItem2558.LeftIndent = 6
-        ToolTipItem2558.Text = "Expand all bands on the design surface."
-        SuperToolTip2558.Items.Add(ToolTipTitleItem2558)
-        SuperToolTip2558.Items.Add(ToolTipItem2558)
-        SuperToolTip2558.MaxWidth = 210
-        Me.CommandBarItem71.SuperTip = SuperToolTip2558
+        SuperToolTip278.FixedTooltipWidth = True
+        ToolTipTitleItem278.Text = "Expand All Bands"
+        ToolTipItem278.LeftIndent = 6
+        ToolTipItem278.Text = "Expand all bands on the design surface."
+        SuperToolTip278.Items.Add(ToolTipTitleItem278)
+        SuperToolTip278.Items.Add(ToolTipItem278)
+        SuperToolTip278.MaxWidth = 210
+        Me.CommandBarItem71.SuperTip = SuperToolTip278
         '
         'CommandBarItem72
         '
@@ -2833,14 +2809,14 @@ Partial Class Form2
         Me.CommandBarItem72.Enabled = False
         Me.CommandBarItem72.Id = 97
         Me.CommandBarItem72.Name = "CommandBarItem72"
-        SuperToolTip2559.FixedTooltipWidth = True
-        ToolTipTitleItem2559.Text = "Collapse All Bands"
-        ToolTipItem2559.LeftIndent = 6
-        ToolTipItem2559.Text = "Collapse all bands on the design surface."
-        SuperToolTip2559.Items.Add(ToolTipTitleItem2559)
-        SuperToolTip2559.Items.Add(ToolTipItem2559)
-        SuperToolTip2559.MaxWidth = 210
-        Me.CommandBarItem72.SuperTip = SuperToolTip2559
+        SuperToolTip279.FixedTooltipWidth = True
+        ToolTipTitleItem279.Text = "Collapse All Bands"
+        ToolTipItem279.LeftIndent = 6
+        ToolTipItem279.Text = "Collapse all bands on the design surface."
+        SuperToolTip279.Items.Add(ToolTipTitleItem279)
+        SuperToolTip279.Items.Add(ToolTipItem279)
+        SuperToolTip279.MaxWidth = 210
+        Me.CommandBarItem72.SuperTip = SuperToolTip279
         '
         'CommandBarEditItem1
         '
@@ -2851,15 +2827,15 @@ Partial Class Form2
         Me.CommandBarEditItem1.Enabled = False
         Me.CommandBarEditItem1.Id = 98
         Me.CommandBarEditItem1.Name = "CommandBarEditItem1"
-        SuperToolTip2560.FixedTooltipWidth = True
-        ToolTipTitleItem2560.Text = "Language"
-        ToolTipItem2560.LeftIndent = 6
-        ToolTipItem2560.Text = "Specifies the language associated with the localizable property values. Every lan" &
+        SuperToolTip280.FixedTooltipWidth = True
+        ToolTipTitleItem280.Text = "Language"
+        ToolTipItem280.LeftIndent = 6
+        ToolTipItem280.Text = "Specifies the language associated with the localizable property values. Every lan" &
     "guage can have its own set of property values."
-        SuperToolTip2560.Items.Add(ToolTipTitleItem2560)
-        SuperToolTip2560.Items.Add(ToolTipItem2560)
-        SuperToolTip2560.MaxWidth = 210
-        Me.CommandBarEditItem1.SuperTip = SuperToolTip2560
+        SuperToolTip280.Items.Add(ToolTipTitleItem280)
+        SuperToolTip280.Items.Add(ToolTipItem280)
+        SuperToolTip280.MaxWidth = 210
+        Me.CommandBarEditItem1.SuperTip = SuperToolTip280
         '
         'RepositoryItemLookUpEdit1
         '
@@ -2875,14 +2851,14 @@ Partial Class Form2
         Me.CommandBarCheckItem3.Enabled = False
         Me.CommandBarCheckItem3.Id = 99
         Me.CommandBarCheckItem3.Name = "CommandBarCheckItem3"
-        SuperToolTip2370.FixedTooltipWidth = True
-        ToolTipTitleItem2370.Text = "Show Localizable Properties"
-        ToolTipItem2370.LeftIndent = 6
-        ToolTipItem2370.Text = "Filters the Properties window to display only localizable properties."
-        SuperToolTip2370.Items.Add(ToolTipTitleItem2370)
-        SuperToolTip2370.Items.Add(ToolTipItem2370)
-        SuperToolTip2370.MaxWidth = 210
-        Me.CommandBarCheckItem3.SuperTip = SuperToolTip2370
+        SuperToolTip82.FixedTooltipWidth = True
+        ToolTipTitleItem82.Text = "Show Localizable Properties"
+        ToolTipItem82.LeftIndent = 6
+        ToolTipItem82.Text = "Filters the Properties window to display only localizable properties."
+        SuperToolTip82.Items.Add(ToolTipTitleItem82)
+        SuperToolTip82.Items.Add(ToolTipItem82)
+        SuperToolTip82.MaxWidth = 210
+        Me.CommandBarCheckItem3.SuperTip = SuperToolTip82
         '
         'CommandBarItem73
         '
@@ -2892,14 +2868,14 @@ Partial Class Form2
         Me.CommandBarItem73.Enabled = False
         Me.CommandBarItem73.Id = 100
         Me.CommandBarItem73.Name = "CommandBarItem73"
-        SuperToolTip2561.FixedTooltipWidth = True
-        ToolTipTitleItem2561.Text = "Zoom"
-        ToolTipItem2561.LeftIndent = 6
-        ToolTipItem2561.Text = "Change the zoom level of the document designer."
-        SuperToolTip2561.Items.Add(ToolTipTitleItem2561)
-        SuperToolTip2561.Items.Add(ToolTipItem2561)
-        SuperToolTip2561.MaxWidth = 210
-        Me.CommandBarItem73.SuperTip = SuperToolTip2561
+        SuperToolTip281.FixedTooltipWidth = True
+        ToolTipTitleItem281.Text = "Zoom"
+        ToolTipItem281.LeftIndent = 6
+        ToolTipItem281.Text = "Change the zoom level of the document designer."
+        SuperToolTip281.Items.Add(ToolTipTitleItem281)
+        SuperToolTip281.Items.Add(ToolTipItem281)
+        SuperToolTip281.MaxWidth = 210
+        Me.CommandBarItem73.SuperTip = SuperToolTip281
         '
         'CommandBarItem74
         '
@@ -2909,14 +2885,14 @@ Partial Class Form2
         Me.CommandBarItem74.Id = 101
         Me.CommandBarItem74.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Add))
         Me.CommandBarItem74.Name = "CommandBarItem74"
-        SuperToolTip2562.FixedTooltipWidth = True
-        ToolTipTitleItem2562.Text = "Zoom In (Ctrl+Add)"
-        ToolTipItem2562.LeftIndent = 6
-        ToolTipItem2562.Text = "Zoom in to get a close-up view of the report."
-        SuperToolTip2562.Items.Add(ToolTipTitleItem2562)
-        SuperToolTip2562.Items.Add(ToolTipItem2562)
-        SuperToolTip2562.MaxWidth = 210
-        Me.CommandBarItem74.SuperTip = SuperToolTip2562
+        SuperToolTip282.FixedTooltipWidth = True
+        ToolTipTitleItem282.Text = "Zoom In (Ctrl+Add)"
+        ToolTipItem282.LeftIndent = 6
+        ToolTipItem282.Text = "Zoom in to get a close-up view of the report."
+        SuperToolTip282.Items.Add(ToolTipTitleItem282)
+        SuperToolTip282.Items.Add(ToolTipItem282)
+        SuperToolTip282.MaxWidth = 210
+        Me.CommandBarItem74.SuperTip = SuperToolTip282
         '
         'CommandBarItem75
         '
@@ -2926,14 +2902,14 @@ Partial Class Form2
         Me.CommandBarItem75.Id = 102
         Me.CommandBarItem75.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Subtract))
         Me.CommandBarItem75.Name = "CommandBarItem75"
-        SuperToolTip2563.FixedTooltipWidth = True
-        ToolTipTitleItem2563.Text = "Zoom Out (Ctrl+Subtract)"
-        ToolTipItem2563.LeftIndent = 6
-        ToolTipItem2563.Text = "Zoom out to see more of the report at a reduced size."
-        SuperToolTip2563.Items.Add(ToolTipTitleItem2563)
-        SuperToolTip2563.Items.Add(ToolTipItem2563)
-        SuperToolTip2563.MaxWidth = 210
-        Me.CommandBarItem75.SuperTip = SuperToolTip2563
+        SuperToolTip283.FixedTooltipWidth = True
+        ToolTipTitleItem283.Text = "Zoom Out (Ctrl+Subtract)"
+        ToolTipItem283.LeftIndent = 6
+        ToolTipItem283.Text = "Zoom out to see more of the report at a reduced size."
+        SuperToolTip283.Items.Add(ToolTipTitleItem283)
+        SuperToolTip283.Items.Add(ToolTipItem283)
+        SuperToolTip283.MaxWidth = 210
+        Me.CommandBarItem75.SuperTip = SuperToolTip283
         '
         'CommandBarItem76
         '
@@ -2942,15 +2918,15 @@ Partial Class Form2
         Me.CommandBarItem76.Enabled = False
         Me.CommandBarItem76.Id = 103
         Me.CommandBarItem76.Name = "CommandBarItem76"
-        SuperToolTip2564.FixedTooltipWidth = True
-        ToolTipTitleItem2564.Text = "Validate Scripts"
-        ToolTipItem2564.LeftIndent = 6
-        ToolTipItem2564.Text = "Check whether report scripts contain errors. If errors are found, they are listed" &
+        SuperToolTip284.FixedTooltipWidth = True
+        ToolTipTitleItem284.Text = "Validate Scripts"
+        ToolTipItem284.LeftIndent = 6
+        ToolTipItem284.Text = "Check whether report scripts contain errors. If errors are found, they are listed" &
     " in the Scripts Errors panel."
-        SuperToolTip2564.Items.Add(ToolTipTitleItem2564)
-        SuperToolTip2564.Items.Add(ToolTipItem2564)
-        SuperToolTip2564.MaxWidth = 210
-        Me.CommandBarItem76.SuperTip = SuperToolTip2564
+        SuperToolTip284.Items.Add(ToolTipTitleItem284)
+        SuperToolTip284.Items.Add(ToolTipItem284)
+        SuperToolTip284.MaxWidth = 210
+        Me.CommandBarItem76.SuperTip = SuperToolTip284
         '
         'CommandGalleryBarItem1
         '
@@ -3052,14 +3028,14 @@ Partial Class Form2
         Me.CommandBarEditItem2.Enabled = False
         Me.CommandBarEditItem2.Id = 110
         Me.CommandBarEditItem2.Name = "CommandBarEditItem2"
-        SuperToolTip2565.FixedTooltipWidth = True
-        ToolTipTitleItem2565.Text = "Cell Width"
-        ToolTipItem2565.LeftIndent = 6
-        ToolTipItem2565.Text = "Set the cell width."
-        SuperToolTip2565.Items.Add(ToolTipTitleItem2565)
-        SuperToolTip2565.Items.Add(ToolTipItem2565)
-        SuperToolTip2565.MaxWidth = 210
-        Me.CommandBarEditItem2.SuperTip = SuperToolTip2565
+        SuperToolTip285.FixedTooltipWidth = True
+        ToolTipTitleItem285.Text = "Cell Width"
+        ToolTipItem285.LeftIndent = 6
+        ToolTipItem285.Text = "Set the cell width."
+        SuperToolTip285.Items.Add(ToolTipTitleItem285)
+        SuperToolTip285.Items.Add(ToolTipItem285)
+        SuperToolTip285.MaxWidth = 210
+        Me.CommandBarEditItem2.SuperTip = SuperToolTip285
         '
         'RepositoryItemSpinEdit1
         '
@@ -3077,14 +3053,14 @@ Partial Class Form2
         Me.CommandBarEditItem3.Enabled = False
         Me.CommandBarEditItem3.Id = 111
         Me.CommandBarEditItem3.Name = "CommandBarEditItem3"
-        SuperToolTip2375.FixedTooltipWidth = True
-        ToolTipTitleItem2375.Text = "Cell Height"
-        ToolTipItem2375.LeftIndent = 6
-        ToolTipItem2375.Text = "Set the cell height."
-        SuperToolTip2375.Items.Add(ToolTipTitleItem2375)
-        SuperToolTip2375.Items.Add(ToolTipItem2375)
-        SuperToolTip2375.MaxWidth = 210
-        Me.CommandBarEditItem3.SuperTip = SuperToolTip2375
+        SuperToolTip88.FixedTooltipWidth = True
+        ToolTipTitleItem88.Text = "Cell Height"
+        ToolTipItem88.LeftIndent = 6
+        ToolTipItem88.Text = "Set the cell height."
+        SuperToolTip88.Items.Add(ToolTipTitleItem88)
+        SuperToolTip88.Items.Add(ToolTipItem88)
+        SuperToolTip88.MaxWidth = 210
+        Me.CommandBarEditItem3.SuperTip = SuperToolTip88
         '
         'RepositoryItemSpinEdit2
         '
@@ -3102,14 +3078,14 @@ Partial Class Form2
         Me.CommandBarEditItem4.Enabled = False
         Me.CommandBarEditItem4.Id = 112
         Me.CommandBarEditItem4.Name = "CommandBarEditItem4"
-        SuperToolTip2185.FixedTooltipWidth = True
-        ToolTipTitleItem2185.Text = "Cell Horizontal Spacing"
-        ToolTipItem2185.LeftIndent = 6
-        ToolTipItem2185.Text = "Set the horizontal spacing between adjacent cells."
-        SuperToolTip2185.Items.Add(ToolTipTitleItem2185)
-        SuperToolTip2185.Items.Add(ToolTipItem2185)
-        SuperToolTip2185.MaxWidth = 210
-        Me.CommandBarEditItem4.SuperTip = SuperToolTip2185
+        SuperToolTip89.FixedTooltipWidth = True
+        ToolTipTitleItem89.Text = "Cell Horizontal Spacing"
+        ToolTipItem89.LeftIndent = 6
+        ToolTipItem89.Text = "Set the horizontal spacing between adjacent cells."
+        SuperToolTip89.Items.Add(ToolTipTitleItem89)
+        SuperToolTip89.Items.Add(ToolTipItem89)
+        SuperToolTip89.MaxWidth = 210
+        Me.CommandBarEditItem4.SuperTip = SuperToolTip89
         '
         'RepositoryItemSpinEdit3
         '
@@ -3127,14 +3103,14 @@ Partial Class Form2
         Me.CommandBarEditItem5.Enabled = False
         Me.CommandBarEditItem5.Id = 113
         Me.CommandBarEditItem5.Name = "CommandBarEditItem5"
-        SuperToolTip1995.FixedTooltipWidth = True
-        ToolTipTitleItem1995.Text = "Cell Vertical Spacing"
-        ToolTipItem1995.LeftIndent = 6
-        ToolTipItem1995.Text = "Set the vertical spacing between adjacent cells."
-        SuperToolTip1995.Items.Add(ToolTipTitleItem1995)
-        SuperToolTip1995.Items.Add(ToolTipItem1995)
-        SuperToolTip1995.MaxWidth = 210
-        Me.CommandBarEditItem5.SuperTip = SuperToolTip1995
+        SuperToolTip90.FixedTooltipWidth = True
+        ToolTipTitleItem90.Text = "Cell Vertical Spacing"
+        ToolTipItem90.LeftIndent = 6
+        ToolTipItem90.Text = "Set the vertical spacing between adjacent cells."
+        SuperToolTip90.Items.Add(ToolTipTitleItem90)
+        SuperToolTip90.Items.Add(ToolTipItem90)
+        SuperToolTip90.MaxWidth = 210
+        Me.CommandBarEditItem5.SuperTip = SuperToolTip90
         '
         'RepositoryItemSpinEdit4
         '
@@ -3152,14 +3128,14 @@ Partial Class Form2
         Me.CommandBarEditItem6.Enabled = False
         Me.CommandBarEditItem6.Id = 114
         Me.CommandBarEditItem6.Name = "CommandBarEditItem6"
-        SuperToolTip1805.FixedTooltipWidth = True
-        ToolTipTitleItem1805.Text = "Border Dash Style"
-        ToolTipItem1805.LeftIndent = 6
-        ToolTipItem1805.Text = "Change the border dash style."
-        SuperToolTip1805.Items.Add(ToolTipTitleItem1805)
-        SuperToolTip1805.Items.Add(ToolTipItem1805)
-        SuperToolTip1805.MaxWidth = 210
-        Me.CommandBarEditItem6.SuperTip = SuperToolTip1805
+        SuperToolTip91.FixedTooltipWidth = True
+        ToolTipTitleItem91.Text = "Border Dash Style"
+        ToolTipItem91.LeftIndent = 6
+        ToolTipItem91.Text = "Change the border dash style."
+        SuperToolTip91.Items.Add(ToolTipTitleItem91)
+        SuperToolTip91.Items.Add(ToolTipItem91)
+        SuperToolTip91.MaxWidth = 210
+        Me.CommandBarEditItem6.SuperTip = SuperToolTip91
         '
         'RepositoryItemImageComboBox1
         '
@@ -3176,14 +3152,14 @@ Partial Class Form2
         Me.CommandBarEditItem7.Enabled = False
         Me.CommandBarEditItem7.Id = 115
         Me.CommandBarEditItem7.Name = "CommandBarEditItem7"
-        SuperToolTip1615.FixedTooltipWidth = True
-        ToolTipTitleItem1615.Text = "Control"
-        ToolTipItem1615.LeftIndent = 6
-        ToolTipItem1615.Text = "Select a required control for specifying an event."
-        SuperToolTip1615.Items.Add(ToolTipTitleItem1615)
-        SuperToolTip1615.Items.Add(ToolTipItem1615)
-        SuperToolTip1615.MaxWidth = 210
-        Me.CommandBarEditItem7.SuperTip = SuperToolTip1615
+        SuperToolTip92.FixedTooltipWidth = True
+        ToolTipTitleItem92.Text = "Control"
+        ToolTipItem92.LeftIndent = 6
+        ToolTipItem92.Text = "Select a required control for specifying an event."
+        SuperToolTip92.Items.Add(ToolTipTitleItem92)
+        SuperToolTip92.Items.Add(ToolTipItem92)
+        SuperToolTip92.MaxWidth = 210
+        Me.CommandBarEditItem7.SuperTip = SuperToolTip92
         '
         'RepositoryItemLookUpEdit2
         '
@@ -3200,14 +3176,14 @@ Partial Class Form2
         Me.CommandBarEditItem8.Enabled = False
         Me.CommandBarEditItem8.Id = 116
         Me.CommandBarEditItem8.Name = "CommandBarEditItem8"
-        SuperToolTip1425.FixedTooltipWidth = True
-        ToolTipTitleItem1425.Text = "Event"
-        ToolTipItem1425.LeftIndent = 6
-        ToolTipItem1425.Text = "Select one of the available events."
-        SuperToolTip1425.Items.Add(ToolTipTitleItem1425)
-        SuperToolTip1425.Items.Add(ToolTipItem1425)
-        SuperToolTip1425.MaxWidth = 210
-        Me.CommandBarEditItem8.SuperTip = SuperToolTip1425
+        SuperToolTip93.FixedTooltipWidth = True
+        ToolTipTitleItem93.Text = "Event"
+        ToolTipItem93.LeftIndent = 6
+        ToolTipItem93.Text = "Select one of the available events."
+        SuperToolTip93.Items.Add(ToolTipTitleItem93)
+        SuperToolTip93.Items.Add(ToolTipItem93)
+        SuperToolTip93.MaxWidth = 210
+        Me.CommandBarEditItem8.SuperTip = SuperToolTip93
         '
         'RepositoryItemComboBox1
         '
@@ -3222,14 +3198,14 @@ Partial Class Form2
         Me.CommandBarItem77.Enabled = False
         Me.CommandBarItem77.Id = 117
         Me.CommandBarItem77.Name = "CommandBarItem77"
-        SuperToolTip1235.FixedTooltipWidth = True
-        ToolTipTitleItem1235.Text = "Select Table"
-        ToolTipItem1235.LeftIndent = 6
-        ToolTipItem1235.Text = "Select the entire table."
-        SuperToolTip1235.Items.Add(ToolTipTitleItem1235)
-        SuperToolTip1235.Items.Add(ToolTipItem1235)
-        SuperToolTip1235.MaxWidth = 210
-        Me.CommandBarItem77.SuperTip = SuperToolTip1235
+        SuperToolTip94.FixedTooltipWidth = True
+        ToolTipTitleItem94.Text = "Select Table"
+        ToolTipItem94.LeftIndent = 6
+        ToolTipItem94.Text = "Select the entire table."
+        SuperToolTip94.Items.Add(ToolTipTitleItem94)
+        SuperToolTip94.Items.Add(ToolTipItem94)
+        SuperToolTip94.MaxWidth = 210
+        Me.CommandBarItem77.SuperTip = SuperToolTip94
         '
         'CommandBarItem78
         '
@@ -3238,14 +3214,14 @@ Partial Class Form2
         Me.CommandBarItem78.Enabled = False
         Me.CommandBarItem78.Id = 118
         Me.CommandBarItem78.Name = "CommandBarItem78"
-        SuperToolTip2566.FixedTooltipWidth = True
-        ToolTipTitleItem2566.Text = "Select Row"
-        ToolTipItem2566.LeftIndent = 6
-        ToolTipItem2566.Text = "Select the current row."
-        SuperToolTip2566.Items.Add(ToolTipTitleItem2566)
-        SuperToolTip2566.Items.Add(ToolTipItem2566)
-        SuperToolTip2566.MaxWidth = 210
-        Me.CommandBarItem78.SuperTip = SuperToolTip2566
+        SuperToolTip286.FixedTooltipWidth = True
+        ToolTipTitleItem286.Text = "Select Row"
+        ToolTipItem286.LeftIndent = 6
+        ToolTipItem286.Text = "Select the current row."
+        SuperToolTip286.Items.Add(ToolTipTitleItem286)
+        SuperToolTip286.Items.Add(ToolTipItem286)
+        SuperToolTip286.MaxWidth = 210
+        Me.CommandBarItem78.SuperTip = SuperToolTip286
         '
         'CommandBarItem79
         '
@@ -3254,14 +3230,14 @@ Partial Class Form2
         Me.CommandBarItem79.Enabled = False
         Me.CommandBarItem79.Id = 119
         Me.CommandBarItem79.Name = "CommandBarItem79"
-        SuperToolTip2567.FixedTooltipWidth = True
-        ToolTipTitleItem2567.Text = "Select Column"
-        ToolTipItem2567.LeftIndent = 6
-        ToolTipItem2567.Text = "Select the current column."
-        SuperToolTip2567.Items.Add(ToolTipTitleItem2567)
-        SuperToolTip2567.Items.Add(ToolTipItem2567)
-        SuperToolTip2567.MaxWidth = 210
-        Me.CommandBarItem79.SuperTip = SuperToolTip2567
+        SuperToolTip287.FixedTooltipWidth = True
+        ToolTipTitleItem287.Text = "Select Column"
+        ToolTipItem287.LeftIndent = 6
+        ToolTipItem287.Text = "Select the current column."
+        SuperToolTip287.Items.Add(ToolTipTitleItem287)
+        SuperToolTip287.Items.Add(ToolTipItem287)
+        SuperToolTip287.MaxWidth = 210
+        Me.CommandBarItem79.SuperTip = SuperToolTip287
         '
         'CommandBarItem80
         '
@@ -3270,14 +3246,14 @@ Partial Class Form2
         Me.CommandBarItem80.Enabled = False
         Me.CommandBarItem80.Id = 120
         Me.CommandBarItem80.Name = "CommandBarItem80"
-        SuperToolTip2568.FixedTooltipWidth = True
-        ToolTipTitleItem2568.Text = "Delete Cell"
-        ToolTipItem2568.LeftIndent = 6
-        ToolTipItem2568.Text = "Delete the current cell."
-        SuperToolTip2568.Items.Add(ToolTipTitleItem2568)
-        SuperToolTip2568.Items.Add(ToolTipItem2568)
-        SuperToolTip2568.MaxWidth = 210
-        Me.CommandBarItem80.SuperTip = SuperToolTip2568
+        SuperToolTip288.FixedTooltipWidth = True
+        ToolTipTitleItem288.Text = "Delete Cell"
+        ToolTipItem288.LeftIndent = 6
+        ToolTipItem288.Text = "Delete the current cell."
+        SuperToolTip288.Items.Add(ToolTipTitleItem288)
+        SuperToolTip288.Items.Add(ToolTipItem288)
+        SuperToolTip288.MaxWidth = 210
+        Me.CommandBarItem80.SuperTip = SuperToolTip288
         '
         'CommandBarItem81
         '
@@ -3286,14 +3262,14 @@ Partial Class Form2
         Me.CommandBarItem81.Enabled = False
         Me.CommandBarItem81.Id = 121
         Me.CommandBarItem81.Name = "CommandBarItem81"
-        SuperToolTip2569.FixedTooltipWidth = True
-        ToolTipTitleItem2569.Text = "Delete Row"
-        ToolTipItem2569.LeftIndent = 6
-        ToolTipItem2569.Text = "Delete the current row."
-        SuperToolTip2569.Items.Add(ToolTipTitleItem2569)
-        SuperToolTip2569.Items.Add(ToolTipItem2569)
-        SuperToolTip2569.MaxWidth = 210
-        Me.CommandBarItem81.SuperTip = SuperToolTip2569
+        SuperToolTip289.FixedTooltipWidth = True
+        ToolTipTitleItem289.Text = "Delete Row"
+        ToolTipItem289.LeftIndent = 6
+        ToolTipItem289.Text = "Delete the current row."
+        SuperToolTip289.Items.Add(ToolTipTitleItem289)
+        SuperToolTip289.Items.Add(ToolTipItem289)
+        SuperToolTip289.MaxWidth = 210
+        Me.CommandBarItem81.SuperTip = SuperToolTip289
         '
         'CommandBarItem82
         '
@@ -3302,14 +3278,14 @@ Partial Class Form2
         Me.CommandBarItem82.Enabled = False
         Me.CommandBarItem82.Id = 122
         Me.CommandBarItem82.Name = "CommandBarItem82"
-        SuperToolTip2570.FixedTooltipWidth = True
-        ToolTipTitleItem2570.Text = "Delete Column"
-        ToolTipItem2570.LeftIndent = 6
-        ToolTipItem2570.Text = "Delete the current column."
-        SuperToolTip2570.Items.Add(ToolTipTitleItem2570)
-        SuperToolTip2570.Items.Add(ToolTipItem2570)
-        SuperToolTip2570.MaxWidth = 210
-        Me.CommandBarItem82.SuperTip = SuperToolTip2570
+        SuperToolTip290.FixedTooltipWidth = True
+        ToolTipTitleItem290.Text = "Delete Column"
+        ToolTipItem290.LeftIndent = 6
+        ToolTipItem290.Text = "Delete the current column."
+        SuperToolTip290.Items.Add(ToolTipTitleItem290)
+        SuperToolTip290.Items.Add(ToolTipItem290)
+        SuperToolTip290.MaxWidth = 210
+        Me.CommandBarItem82.SuperTip = SuperToolTip290
         '
         'CommandBarItem83
         '
@@ -3318,14 +3294,14 @@ Partial Class Form2
         Me.CommandBarItem83.Enabled = False
         Me.CommandBarItem83.Id = 123
         Me.CommandBarItem83.Name = "CommandBarItem83"
-        SuperToolTip2571.FixedTooltipWidth = True
-        ToolTipTitleItem2571.Text = "Delete Table"
-        ToolTipItem2571.LeftIndent = 6
-        ToolTipItem2571.Text = "Delete the entire table."
-        SuperToolTip2571.Items.Add(ToolTipTitleItem2571)
-        SuperToolTip2571.Items.Add(ToolTipItem2571)
-        SuperToolTip2571.MaxWidth = 210
-        Me.CommandBarItem83.SuperTip = SuperToolTip2571
+        SuperToolTip291.FixedTooltipWidth = True
+        ToolTipTitleItem291.Text = "Delete Table"
+        ToolTipItem291.LeftIndent = 6
+        ToolTipItem291.Text = "Delete the entire table."
+        SuperToolTip291.Items.Add(ToolTipTitleItem291)
+        SuperToolTip291.Items.Add(ToolTipItem291)
+        SuperToolTip291.MaxWidth = 210
+        Me.CommandBarItem83.SuperTip = SuperToolTip291
         '
         'CommandBarItem84
         '
@@ -3334,14 +3310,14 @@ Partial Class Form2
         Me.CommandBarItem84.Enabled = False
         Me.CommandBarItem84.Id = 124
         Me.CommandBarItem84.Name = "CommandBarItem84"
-        SuperToolTip2572.FixedTooltipWidth = True
-        ToolTipTitleItem2572.Text = "Insert Row Above"
-        ToolTipItem2572.LeftIndent = 6
-        ToolTipItem2572.Text = "Add a new row directly above the current row."
-        SuperToolTip2572.Items.Add(ToolTipTitleItem2572)
-        SuperToolTip2572.Items.Add(ToolTipItem2572)
-        SuperToolTip2572.MaxWidth = 210
-        Me.CommandBarItem84.SuperTip = SuperToolTip2572
+        SuperToolTip292.FixedTooltipWidth = True
+        ToolTipTitleItem292.Text = "Insert Row Above"
+        ToolTipItem292.LeftIndent = 6
+        ToolTipItem292.Text = "Add a new row directly above the current row."
+        SuperToolTip292.Items.Add(ToolTipTitleItem292)
+        SuperToolTip292.Items.Add(ToolTipItem292)
+        SuperToolTip292.MaxWidth = 210
+        Me.CommandBarItem84.SuperTip = SuperToolTip292
         '
         'CommandBarItem85
         '
@@ -3350,14 +3326,14 @@ Partial Class Form2
         Me.CommandBarItem85.Enabled = False
         Me.CommandBarItem85.Id = 125
         Me.CommandBarItem85.Name = "CommandBarItem85"
-        SuperToolTip2573.FixedTooltipWidth = True
-        ToolTipTitleItem2573.Text = "Insert Row Below"
-        ToolTipItem2573.LeftIndent = 6
-        ToolTipItem2573.Text = "Add a new row directly below the current row."
-        SuperToolTip2573.Items.Add(ToolTipTitleItem2573)
-        SuperToolTip2573.Items.Add(ToolTipItem2573)
-        SuperToolTip2573.MaxWidth = 210
-        Me.CommandBarItem85.SuperTip = SuperToolTip2573
+        SuperToolTip293.FixedTooltipWidth = True
+        ToolTipTitleItem293.Text = "Insert Row Below"
+        ToolTipItem293.LeftIndent = 6
+        ToolTipItem293.Text = "Add a new row directly below the current row."
+        SuperToolTip293.Items.Add(ToolTipTitleItem293)
+        SuperToolTip293.Items.Add(ToolTipItem293)
+        SuperToolTip293.MaxWidth = 210
+        Me.CommandBarItem85.SuperTip = SuperToolTip293
         '
         'CommandBarItem86
         '
@@ -3366,14 +3342,14 @@ Partial Class Form2
         Me.CommandBarItem86.Enabled = False
         Me.CommandBarItem86.Id = 126
         Me.CommandBarItem86.Name = "CommandBarItem86"
-        SuperToolTip2574.FixedTooltipWidth = True
-        ToolTipTitleItem2574.Text = "Insert Column to Left"
-        ToolTipItem2574.LeftIndent = 6
-        ToolTipItem2574.Text = "Add a new column directly to the left of the current column."
-        SuperToolTip2574.Items.Add(ToolTipTitleItem2574)
-        SuperToolTip2574.Items.Add(ToolTipItem2574)
-        SuperToolTip2574.MaxWidth = 210
-        Me.CommandBarItem86.SuperTip = SuperToolTip2574
+        SuperToolTip294.FixedTooltipWidth = True
+        ToolTipTitleItem294.Text = "Insert Column to Left"
+        ToolTipItem294.LeftIndent = 6
+        ToolTipItem294.Text = "Add a new column directly to the left of the current column."
+        SuperToolTip294.Items.Add(ToolTipTitleItem294)
+        SuperToolTip294.Items.Add(ToolTipItem294)
+        SuperToolTip294.MaxWidth = 210
+        Me.CommandBarItem86.SuperTip = SuperToolTip294
         '
         'CommandBarItem87
         '
@@ -3382,14 +3358,14 @@ Partial Class Form2
         Me.CommandBarItem87.Enabled = False
         Me.CommandBarItem87.Id = 127
         Me.CommandBarItem87.Name = "CommandBarItem87"
-        SuperToolTip2575.FixedTooltipWidth = True
-        ToolTipTitleItem2575.Text = "Insert Column to Right"
-        ToolTipItem2575.LeftIndent = 6
-        ToolTipItem2575.Text = "Add a new column directly to the right of the current column."
-        SuperToolTip2575.Items.Add(ToolTipTitleItem2575)
-        SuperToolTip2575.Items.Add(ToolTipItem2575)
-        SuperToolTip2575.MaxWidth = 210
-        Me.CommandBarItem87.SuperTip = SuperToolTip2575
+        SuperToolTip295.FixedTooltipWidth = True
+        ToolTipTitleItem295.Text = "Insert Column to Right"
+        ToolTipItem295.LeftIndent = 6
+        ToolTipItem295.Text = "Add a new column directly to the right of the current column."
+        SuperToolTip295.Items.Add(ToolTipTitleItem295)
+        SuperToolTip295.Items.Add(ToolTipItem295)
+        SuperToolTip295.MaxWidth = 210
+        Me.CommandBarItem87.SuperTip = SuperToolTip295
         '
         'CommandBarItem88
         '
@@ -3398,14 +3374,14 @@ Partial Class Form2
         Me.CommandBarItem88.Enabled = False
         Me.CommandBarItem88.Id = 128
         Me.CommandBarItem88.Name = "CommandBarItem88"
-        SuperToolTip2576.FixedTooltipWidth = True
-        ToolTipTitleItem2576.Text = "Distribute Rows Evenly"
-        ToolTipItem2576.LeftIndent = 6
-        ToolTipItem2576.Text = "Distribute the height of the selected rows equally between them."
-        SuperToolTip2576.Items.Add(ToolTipTitleItem2576)
-        SuperToolTip2576.Items.Add(ToolTipItem2576)
-        SuperToolTip2576.MaxWidth = 210
-        Me.CommandBarItem88.SuperTip = SuperToolTip2576
+        SuperToolTip296.FixedTooltipWidth = True
+        ToolTipTitleItem296.Text = "Distribute Rows Evenly"
+        ToolTipItem296.LeftIndent = 6
+        ToolTipItem296.Text = "Distribute the height of the selected rows equally between them."
+        SuperToolTip296.Items.Add(ToolTipTitleItem296)
+        SuperToolTip296.Items.Add(ToolTipItem296)
+        SuperToolTip296.MaxWidth = 210
+        Me.CommandBarItem88.SuperTip = SuperToolTip296
         '
         'CommandBarItem89
         '
@@ -3414,14 +3390,14 @@ Partial Class Form2
         Me.CommandBarItem89.Enabled = False
         Me.CommandBarItem89.Id = 129
         Me.CommandBarItem89.Name = "CommandBarItem89"
-        SuperToolTip2577.FixedTooltipWidth = True
-        ToolTipTitleItem2577.Text = "Distribute Columns Evenly"
-        ToolTipItem2577.LeftIndent = 6
-        ToolTipItem2577.Text = "Distribute the width of the selected columns equally between them."
-        SuperToolTip2577.Items.Add(ToolTipTitleItem2577)
-        SuperToolTip2577.Items.Add(ToolTipItem2577)
-        SuperToolTip2577.MaxWidth = 210
-        Me.CommandBarItem89.SuperTip = SuperToolTip2577
+        SuperToolTip297.FixedTooltipWidth = True
+        ToolTipTitleItem297.Text = "Distribute Columns Evenly"
+        ToolTipItem297.LeftIndent = 6
+        ToolTipItem297.Text = "Distribute the width of the selected columns equally between them."
+        SuperToolTip297.Items.Add(ToolTipTitleItem297)
+        SuperToolTip297.Items.Add(ToolTipItem297)
+        SuperToolTip297.MaxWidth = 210
+        Me.CommandBarItem89.SuperTip = SuperToolTip297
         '
         'CommandBarItem90
         '
@@ -3430,14 +3406,14 @@ Partial Class Form2
         Me.CommandBarItem90.Enabled = False
         Me.CommandBarItem90.Id = 130
         Me.CommandBarItem90.Name = "CommandBarItem90"
-        SuperToolTip2578.FixedTooltipWidth = True
-        ToolTipTitleItem2578.Text = "Merge Cells"
-        ToolTipItem2578.LeftIndent = 6
-        ToolTipItem2578.Text = "Merge the selected cells into one cell."
-        SuperToolTip2578.Items.Add(ToolTipTitleItem2578)
-        SuperToolTip2578.Items.Add(ToolTipItem2578)
-        SuperToolTip2578.MaxWidth = 210
-        Me.CommandBarItem90.SuperTip = SuperToolTip2578
+        SuperToolTip298.FixedTooltipWidth = True
+        ToolTipTitleItem298.Text = "Merge Cells"
+        ToolTipItem298.LeftIndent = 6
+        ToolTipItem298.Text = "Merge the selected cells into one cell."
+        SuperToolTip298.Items.Add(ToolTipTitleItem298)
+        SuperToolTip298.Items.Add(ToolTipItem298)
+        SuperToolTip298.MaxWidth = 210
+        Me.CommandBarItem90.SuperTip = SuperToolTip298
         '
         'CommandBarItem91
         '
@@ -3446,14 +3422,14 @@ Partial Class Form2
         Me.CommandBarItem91.Enabled = False
         Me.CommandBarItem91.Id = 131
         Me.CommandBarItem91.Name = "CommandBarItem91"
-        SuperToolTip2579.FixedTooltipWidth = True
-        ToolTipTitleItem2579.Text = "Split Cells"
-        ToolTipItem2579.LeftIndent = 6
-        ToolTipItem2579.Text = "Split the selected cells into the specified number of rows or columns."
-        SuperToolTip2579.Items.Add(ToolTipTitleItem2579)
-        SuperToolTip2579.Items.Add(ToolTipItem2579)
-        SuperToolTip2579.MaxWidth = 210
-        Me.CommandBarItem91.SuperTip = SuperToolTip2579
+        SuperToolTip299.FixedTooltipWidth = True
+        ToolTipTitleItem299.Text = "Split Cells"
+        ToolTipItem299.LeftIndent = 6
+        ToolTipItem299.Text = "Split the selected cells into the specified number of rows or columns."
+        SuperToolTip299.Items.Add(ToolTipTitleItem299)
+        SuperToolTip299.Items.Add(ToolTipItem299)
+        SuperToolTip299.MaxWidth = 210
+        Me.CommandBarItem91.SuperTip = SuperToolTip299
         '
         'CommandBarItem92
         '
@@ -3462,15 +3438,15 @@ Partial Class Form2
         Me.CommandBarItem92.Enabled = False
         Me.CommandBarItem92.Id = 132
         Me.CommandBarItem92.Name = "CommandBarItem92"
-        SuperToolTip2580.FixedTooltipWidth = True
-        ToolTipTitleItem2580.Text = "Run Designer"
-        ToolTipItem2580.LeftIndent = 6
-        ToolTipItem2580.Text = "Run the Pivot Grid Designer that allows customizing fields, the control's layout," &
+        SuperToolTip300.FixedTooltipWidth = True
+        ToolTipTitleItem300.Text = "Run Designer"
+        ToolTipItem300.LeftIndent = 6
+        ToolTipItem300.Text = "Run the Pivot Grid Designer that allows customizing fields, the control's layout," &
     " appearance settings and printing options."
-        SuperToolTip2580.Items.Add(ToolTipTitleItem2580)
-        SuperToolTip2580.Items.Add(ToolTipItem2580)
-        SuperToolTip2580.MaxWidth = 210
-        Me.CommandBarItem92.SuperTip = SuperToolTip2580
+        SuperToolTip300.Items.Add(ToolTipTitleItem300)
+        SuperToolTip300.Items.Add(ToolTipItem300)
+        SuperToolTip300.MaxWidth = 210
+        Me.CommandBarItem92.SuperTip = SuperToolTip300
         '
         'CommandBarItem93
         '
@@ -3479,14 +3455,14 @@ Partial Class Form2
         Me.CommandBarItem93.Enabled = False
         Me.CommandBarItem93.Id = 133
         Me.CommandBarItem93.Name = "CommandBarItem93"
-        SuperToolTip2581.FixedTooltipWidth = True
-        ToolTipTitleItem2581.Text = "Add Data Source"
-        ToolTipItem2581.LeftIndent = 6
-        ToolTipItem2581.Text = "Set up a data source for a Pivot Grid."
-        SuperToolTip2581.Items.Add(ToolTipTitleItem2581)
-        SuperToolTip2581.Items.Add(ToolTipItem2581)
-        SuperToolTip2581.MaxWidth = 210
-        Me.CommandBarItem93.SuperTip = SuperToolTip2581
+        SuperToolTip301.FixedTooltipWidth = True
+        ToolTipTitleItem301.Text = "Add Data Source"
+        ToolTipItem301.LeftIndent = 6
+        ToolTipItem301.Text = "Set up a data source for a Pivot Grid."
+        SuperToolTip301.Items.Add(ToolTipTitleItem301)
+        SuperToolTip301.Items.Add(ToolTipItem301)
+        SuperToolTip301.MaxWidth = 210
+        Me.CommandBarItem93.SuperTip = SuperToolTip301
         '
         'CommandBarItem94
         '
@@ -3495,14 +3471,14 @@ Partial Class Form2
         Me.CommandBarItem94.Enabled = False
         Me.CommandBarItem94.Id = 134
         Me.CommandBarItem94.Name = "CommandBarItem94"
-        SuperToolTip2582.FixedTooltipWidth = True
-        ToolTipTitleItem2582.Text = "Remove Field"
-        ToolTipItem2582.LeftIndent = 6
-        ToolTipItem2582.Text = "Remove the selected Pivot Grid field."
-        SuperToolTip2582.Items.Add(ToolTipTitleItem2582)
-        SuperToolTip2582.Items.Add(ToolTipItem2582)
-        SuperToolTip2582.MaxWidth = 210
-        Me.CommandBarItem94.SuperTip = SuperToolTip2582
+        SuperToolTip302.FixedTooltipWidth = True
+        ToolTipTitleItem302.Text = "Remove Field"
+        ToolTipItem302.LeftIndent = 6
+        ToolTipItem302.Text = "Remove the selected Pivot Grid field."
+        SuperToolTip302.Items.Add(ToolTipTitleItem302)
+        SuperToolTip302.Items.Add(ToolTipItem302)
+        SuperToolTip302.MaxWidth = 210
+        Me.CommandBarItem94.SuperTip = SuperToolTip302
         '
         'CommandBarItem95
         '
@@ -3513,14 +3489,14 @@ Partial Class Form2
         Me.CommandBarItem95.Enabled = False
         Me.CommandBarItem95.Id = 135
         Me.CommandBarItem95.Name = "CommandBarItem95"
-        SuperToolTip2583.FixedTooltipWidth = True
-        ToolTipTitleItem2583.Text = "Add Field"
-        ToolTipItem2583.LeftIndent = 6
-        ToolTipItem2583.Text = "Add a new Pivot Grid field to a required header area."
-        SuperToolTip2583.Items.Add(ToolTipTitleItem2583)
-        SuperToolTip2583.Items.Add(ToolTipItem2583)
-        SuperToolTip2583.MaxWidth = 210
-        Me.CommandBarItem95.SuperTip = SuperToolTip2583
+        SuperToolTip303.FixedTooltipWidth = True
+        ToolTipTitleItem303.Text = "Add Field"
+        ToolTipItem303.LeftIndent = 6
+        ToolTipItem303.Text = "Add a new Pivot Grid field to a required header area."
+        SuperToolTip303.Items.Add(ToolTipTitleItem303)
+        SuperToolTip303.Items.Add(ToolTipItem303)
+        SuperToolTip303.MaxWidth = 210
+        Me.CommandBarItem95.SuperTip = SuperToolTip303
         '
         'CommandBarItem96
         '
@@ -3529,14 +3505,14 @@ Partial Class Form2
         Me.CommandBarItem96.Enabled = False
         Me.CommandBarItem96.Id = 136
         Me.CommandBarItem96.Name = "CommandBarItem96"
-        SuperToolTip2584.FixedTooltipWidth = True
-        ToolTipTitleItem2584.Text = "Print Vertical Lines"
-        ToolTipItem2584.LeftIndent = 6
-        ToolTipItem2584.Text = "Print vertical grid lines."
-        SuperToolTip2584.Items.Add(ToolTipTitleItem2584)
-        SuperToolTip2584.Items.Add(ToolTipItem2584)
-        SuperToolTip2584.MaxWidth = 210
-        Me.CommandBarItem96.SuperTip = SuperToolTip2584
+        SuperToolTip304.FixedTooltipWidth = True
+        ToolTipTitleItem304.Text = "Print Vertical Lines"
+        ToolTipItem304.LeftIndent = 6
+        ToolTipItem304.Text = "Print vertical grid lines."
+        SuperToolTip304.Items.Add(ToolTipTitleItem304)
+        SuperToolTip304.Items.Add(ToolTipItem304)
+        SuperToolTip304.MaxWidth = 210
+        Me.CommandBarItem96.SuperTip = SuperToolTip304
         '
         'CommandBarItem97
         '
@@ -3545,14 +3521,14 @@ Partial Class Form2
         Me.CommandBarItem97.Enabled = False
         Me.CommandBarItem97.Id = 137
         Me.CommandBarItem97.Name = "CommandBarItem97"
-        SuperToolTip2585.FixedTooltipWidth = True
-        ToolTipTitleItem2585.Text = "Print Horizontal Lines"
-        ToolTipItem2585.LeftIndent = 6
-        ToolTipItem2585.Text = "Print horizontal grid lines."
-        SuperToolTip2585.Items.Add(ToolTipTitleItem2585)
-        SuperToolTip2585.Items.Add(ToolTipItem2585)
-        SuperToolTip2585.MaxWidth = 210
-        Me.CommandBarItem97.SuperTip = SuperToolTip2585
+        SuperToolTip305.FixedTooltipWidth = True
+        ToolTipTitleItem305.Text = "Print Horizontal Lines"
+        ToolTipItem305.LeftIndent = 6
+        ToolTipItem305.Text = "Print horizontal grid lines."
+        SuperToolTip305.Items.Add(ToolTipTitleItem305)
+        SuperToolTip305.Items.Add(ToolTipItem305)
+        SuperToolTip305.MaxWidth = 210
+        Me.CommandBarItem97.SuperTip = SuperToolTip305
         '
         'CommandBarItem98
         '
@@ -3561,14 +3537,14 @@ Partial Class Form2
         Me.CommandBarItem98.Enabled = False
         Me.CommandBarItem98.Id = 138
         Me.CommandBarItem98.Name = "CommandBarItem98"
-        SuperToolTip2586.FixedTooltipWidth = True
-        ToolTipTitleItem2586.Text = "Print Data Headers"
-        ToolTipItem2586.LeftIndent = 6
-        ToolTipItem2586.Text = "Print data field headers."
-        SuperToolTip2586.Items.Add(ToolTipTitleItem2586)
-        SuperToolTip2586.Items.Add(ToolTipItem2586)
-        SuperToolTip2586.MaxWidth = 210
-        Me.CommandBarItem98.SuperTip = SuperToolTip2586
+        SuperToolTip306.FixedTooltipWidth = True
+        ToolTipTitleItem306.Text = "Print Data Headers"
+        ToolTipItem306.LeftIndent = 6
+        ToolTipItem306.Text = "Print data field headers."
+        SuperToolTip306.Items.Add(ToolTipTitleItem306)
+        SuperToolTip306.Items.Add(ToolTipItem306)
+        SuperToolTip306.MaxWidth = 210
+        Me.CommandBarItem98.SuperTip = SuperToolTip306
         '
         'CommandBarItem99
         '
@@ -3577,14 +3553,14 @@ Partial Class Form2
         Me.CommandBarItem99.Enabled = False
         Me.CommandBarItem99.Id = 139
         Me.CommandBarItem99.Name = "CommandBarItem99"
-        SuperToolTip2587.FixedTooltipWidth = True
-        ToolTipTitleItem2587.Text = "Print Column Headers"
-        ToolTipItem2587.LeftIndent = 6
-        ToolTipItem2587.Text = "Print column field headers."
-        SuperToolTip2587.Items.Add(ToolTipTitleItem2587)
-        SuperToolTip2587.Items.Add(ToolTipItem2587)
-        SuperToolTip2587.MaxWidth = 210
-        Me.CommandBarItem99.SuperTip = SuperToolTip2587
+        SuperToolTip307.FixedTooltipWidth = True
+        ToolTipTitleItem307.Text = "Print Column Headers"
+        ToolTipItem307.LeftIndent = 6
+        ToolTipItem307.Text = "Print column field headers."
+        SuperToolTip307.Items.Add(ToolTipTitleItem307)
+        SuperToolTip307.Items.Add(ToolTipItem307)
+        SuperToolTip307.MaxWidth = 210
+        Me.CommandBarItem99.SuperTip = SuperToolTip307
         '
         'CommandBarItem100
         '
@@ -3593,14 +3569,14 @@ Partial Class Form2
         Me.CommandBarItem100.Enabled = False
         Me.CommandBarItem100.Id = 140
         Me.CommandBarItem100.Name = "CommandBarItem100"
-        SuperToolTip2588.FixedTooltipWidth = True
-        ToolTipTitleItem2588.Text = "Print Row Headers"
-        ToolTipItem2588.LeftIndent = 6
-        ToolTipItem2588.Text = "Print row field headers."
-        SuperToolTip2588.Items.Add(ToolTipTitleItem2588)
-        SuperToolTip2588.Items.Add(ToolTipItem2588)
-        SuperToolTip2588.MaxWidth = 210
-        Me.CommandBarItem100.SuperTip = SuperToolTip2588
+        SuperToolTip308.FixedTooltipWidth = True
+        ToolTipTitleItem308.Text = "Print Row Headers"
+        ToolTipItem308.LeftIndent = 6
+        ToolTipItem308.Text = "Print row field headers."
+        SuperToolTip308.Items.Add(ToolTipTitleItem308)
+        SuperToolTip308.Items.Add(ToolTipItem308)
+        SuperToolTip308.MaxWidth = 210
+        Me.CommandBarItem100.SuperTip = SuperToolTip308
         '
         'CommandBarItem101
         '
@@ -3610,14 +3586,14 @@ Partial Class Form2
         Me.CommandBarItem101.Id = 141
         Me.CommandBarItem101.Name = "CommandBarItem101"
         Me.CommandBarItem101.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2589.FixedTooltipWidth = True
-        ToolTipTitleItem2589.Text = "Print Column Area On Every Page"
-        ToolTipItem2589.LeftIndent = 6
-        ToolTipItem2589.Text = "Print column area on every page."
-        SuperToolTip2589.Items.Add(ToolTipTitleItem2589)
-        SuperToolTip2589.Items.Add(ToolTipItem2589)
-        SuperToolTip2589.MaxWidth = 210
-        Me.CommandBarItem101.SuperTip = SuperToolTip2589
+        SuperToolTip309.FixedTooltipWidth = True
+        ToolTipTitleItem309.Text = "Print Column Area On Every Page"
+        ToolTipItem309.LeftIndent = 6
+        ToolTipItem309.Text = "Print column area on every page."
+        SuperToolTip309.Items.Add(ToolTipTitleItem309)
+        SuperToolTip309.Items.Add(ToolTipItem309)
+        SuperToolTip309.MaxWidth = 210
+        Me.CommandBarItem101.SuperTip = SuperToolTip309
         '
         'CommandBarItem102
         '
@@ -3627,14 +3603,14 @@ Partial Class Form2
         Me.CommandBarItem102.Id = 142
         Me.CommandBarItem102.Name = "CommandBarItem102"
         Me.CommandBarItem102.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2590.FixedTooltipWidth = True
-        ToolTipTitleItem2590.Text = "Print Row Area On Every Page"
-        ToolTipItem2590.LeftIndent = 6
-        ToolTipItem2590.Text = "Print row area on every page."
-        SuperToolTip2590.Items.Add(ToolTipTitleItem2590)
-        SuperToolTip2590.Items.Add(ToolTipItem2590)
-        SuperToolTip2590.MaxWidth = 210
-        Me.CommandBarItem102.SuperTip = SuperToolTip2590
+        SuperToolTip310.FixedTooltipWidth = True
+        ToolTipTitleItem310.Text = "Print Row Area On Every Page"
+        ToolTipItem310.LeftIndent = 6
+        ToolTipItem310.Text = "Print row area on every page."
+        SuperToolTip310.Items.Add(ToolTipTitleItem310)
+        SuperToolTip310.Items.Add(ToolTipItem310)
+        SuperToolTip310.MaxWidth = 210
+        Me.CommandBarItem102.SuperTip = SuperToolTip310
         '
         'CommandBarItem103
         '
@@ -3644,14 +3620,14 @@ Partial Class Form2
         Me.CommandBarItem103.Id = 143
         Me.CommandBarItem103.Name = "CommandBarItem103"
         Me.CommandBarItem103.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2591.FixedTooltipWidth = True
-        ToolTipTitleItem2591.Text = "Load"
-        ToolTipItem2591.LeftIndent = 6
-        ToolTipItem2591.Text = "Load a chart from an XML file."
-        SuperToolTip2591.Items.Add(ToolTipTitleItem2591)
-        SuperToolTip2591.Items.Add(ToolTipItem2591)
-        SuperToolTip2591.MaxWidth = 210
-        Me.CommandBarItem103.SuperTip = SuperToolTip2591
+        SuperToolTip311.FixedTooltipWidth = True
+        ToolTipTitleItem311.Text = "Load"
+        ToolTipItem311.LeftIndent = 6
+        ToolTipItem311.Text = "Load a chart from an XML file."
+        SuperToolTip311.Items.Add(ToolTipTitleItem311)
+        SuperToolTip311.Items.Add(ToolTipItem311)
+        SuperToolTip311.MaxWidth = 210
+        Me.CommandBarItem103.SuperTip = SuperToolTip311
         '
         'CommandBarItem104
         '
@@ -3661,14 +3637,14 @@ Partial Class Form2
         Me.CommandBarItem104.Id = 144
         Me.CommandBarItem104.Name = "CommandBarItem104"
         Me.CommandBarItem104.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
-        SuperToolTip2592.FixedTooltipWidth = True
-        ToolTipTitleItem2592.Text = "Save"
-        ToolTipItem2592.LeftIndent = 6
-        ToolTipItem2592.Text = "Save a chart to an XML file."
-        SuperToolTip2592.Items.Add(ToolTipTitleItem2592)
-        SuperToolTip2592.Items.Add(ToolTipItem2592)
-        SuperToolTip2592.MaxWidth = 210
-        Me.CommandBarItem104.SuperTip = SuperToolTip2592
+        SuperToolTip312.FixedTooltipWidth = True
+        ToolTipTitleItem312.Text = "Save"
+        ToolTipItem312.LeftIndent = 6
+        ToolTipItem312.Text = "Save a chart to an XML file."
+        SuperToolTip312.Items.Add(ToolTipTitleItem312)
+        SuperToolTip312.Items.Add(ToolTipItem312)
+        SuperToolTip312.MaxWidth = 210
+        Me.CommandBarItem104.SuperTip = SuperToolTip312
         '
         'CommandBarItem105
         '
@@ -3677,15 +3653,15 @@ Partial Class Form2
         Me.CommandBarItem105.Enabled = False
         Me.CommandBarItem105.Id = 145
         Me.CommandBarItem105.Name = "CommandBarItem105"
-        SuperToolTip2593.FixedTooltipWidth = True
-        ToolTipTitleItem2593.Text = "Run Designer"
-        ToolTipItem2593.LeftIndent = 6
-        ToolTipItem2593.Text = "Run the Chart Designer that allows creating and editing properties of a chart and" &
+        SuperToolTip313.FixedTooltipWidth = True
+        ToolTipTitleItem313.Text = "Run Designer"
+        ToolTipItem313.LeftIndent = 6
+        ToolTipItem313.Text = "Run the Chart Designer that allows creating and editing properties of a chart and" &
     " its elements."
-        SuperToolTip2593.Items.Add(ToolTipTitleItem2593)
-        SuperToolTip2593.Items.Add(ToolTipItem2593)
-        SuperToolTip2593.MaxWidth = 210
-        Me.CommandBarItem105.SuperTip = SuperToolTip2593
+        SuperToolTip313.Items.Add(ToolTipTitleItem313)
+        SuperToolTip313.Items.Add(ToolTipItem313)
+        SuperToolTip313.MaxWidth = 210
+        Me.CommandBarItem105.SuperTip = SuperToolTip313
         '
         'CommandBarItem106
         '
@@ -3694,14 +3670,14 @@ Partial Class Form2
         Me.CommandBarItem106.Enabled = False
         Me.CommandBarItem106.Id = 146
         Me.CommandBarItem106.Name = "CommandBarItem106"
-        SuperToolTip2594.FixedTooltipWidth = True
-        ToolTipTitleItem2594.Text = "Add Data Source"
-        ToolTipItem2594.LeftIndent = 6
-        ToolTipItem2594.Text = "Set up a data source for a chart."
-        SuperToolTip2594.Items.Add(ToolTipTitleItem2594)
-        SuperToolTip2594.Items.Add(ToolTipItem2594)
-        SuperToolTip2594.MaxWidth = 210
-        Me.CommandBarItem106.SuperTip = SuperToolTip2594
+        SuperToolTip314.FixedTooltipWidth = True
+        ToolTipTitleItem314.Text = "Add Data Source"
+        ToolTipItem314.LeftIndent = 6
+        ToolTipItem314.Text = "Set up a data source for a chart."
+        SuperToolTip314.Items.Add(ToolTipTitleItem314)
+        SuperToolTip314.Items.Add(ToolTipItem314)
+        SuperToolTip314.MaxWidth = 210
+        Me.CommandBarItem106.SuperTip = SuperToolTip314
         '
         'CommandBarItem107
         '
@@ -3712,14 +3688,14 @@ Partial Class Form2
         Me.CommandBarItem107.Enabled = False
         Me.CommandBarItem107.Id = 147
         Me.CommandBarItem107.Name = "CommandBarItem107"
-        SuperToolTip2595.FixedTooltipWidth = True
-        ToolTipTitleItem2595.Text = "Palette"
-        ToolTipItem2595.LeftIndent = 6
-        ToolTipItem2595.Text = "Select a palette for painting a chart's series."
-        SuperToolTip2595.Items.Add(ToolTipTitleItem2595)
-        SuperToolTip2595.Items.Add(ToolTipItem2595)
-        SuperToolTip2595.MaxWidth = 210
-        Me.CommandBarItem107.SuperTip = SuperToolTip2595
+        SuperToolTip315.FixedTooltipWidth = True
+        ToolTipTitleItem315.Text = "Palette"
+        ToolTipItem315.LeftIndent = 6
+        ToolTipItem315.Text = "Select a palette for painting a chart's series."
+        SuperToolTip315.Items.Add(ToolTipTitleItem315)
+        SuperToolTip315.Items.Add(ToolTipItem315)
+        SuperToolTip315.MaxWidth = 210
+        Me.CommandBarItem107.SuperTip = SuperToolTip315
         '
         'CommandBarItem108
         '
@@ -3730,14 +3706,14 @@ Partial Class Form2
         Me.CommandBarItem108.Enabled = False
         Me.CommandBarItem108.Id = 148
         Me.CommandBarItem108.Name = "CommandBarItem108"
-        SuperToolTip2596.FixedTooltipWidth = True
-        ToolTipTitleItem2596.Text = "Bar Series"
-        ToolTipItem2596.LeftIndent = 6
-        ToolTipItem2596.Text = "Add a bar series to display values as vertical columns grouped by categories."
-        SuperToolTip2596.Items.Add(ToolTipTitleItem2596)
-        SuperToolTip2596.Items.Add(ToolTipItem2596)
-        SuperToolTip2596.MaxWidth = 210
-        Me.CommandBarItem108.SuperTip = SuperToolTip2596
+        SuperToolTip316.FixedTooltipWidth = True
+        ToolTipTitleItem316.Text = "Bar Series"
+        ToolTipItem316.LeftIndent = 6
+        ToolTipItem316.Text = "Add a bar series to display values as vertical columns grouped by categories."
+        SuperToolTip316.Items.Add(ToolTipTitleItem316)
+        SuperToolTip316.Items.Add(ToolTipItem316)
+        SuperToolTip316.MaxWidth = 210
+        Me.CommandBarItem108.SuperTip = SuperToolTip316
         '
         'CommandBarItem109
         '
@@ -3748,14 +3724,14 @@ Partial Class Form2
         Me.CommandBarItem109.Enabled = False
         Me.CommandBarItem109.Id = 149
         Me.CommandBarItem109.Name = "CommandBarItem109"
-        SuperToolTip2597.FixedTooltipWidth = True
-        ToolTipTitleItem2597.Text = "Line Series"
-        ToolTipItem2597.LeftIndent = 6
-        ToolTipItem2597.Text = "Add a line series to show line trends over time or categories."
-        SuperToolTip2597.Items.Add(ToolTipTitleItem2597)
-        SuperToolTip2597.Items.Add(ToolTipItem2597)
-        SuperToolTip2597.MaxWidth = 210
-        Me.CommandBarItem109.SuperTip = SuperToolTip2597
+        SuperToolTip317.FixedTooltipWidth = True
+        ToolTipTitleItem317.Text = "Line Series"
+        ToolTipItem317.LeftIndent = 6
+        ToolTipItem317.Text = "Add a line series to show line trends over time or categories."
+        SuperToolTip317.Items.Add(ToolTipTitleItem317)
+        SuperToolTip317.Items.Add(ToolTipItem317)
+        SuperToolTip317.MaxWidth = 210
+        Me.CommandBarItem109.SuperTip = SuperToolTip317
         '
         'CommandBarItem110
         '
@@ -3766,14 +3742,14 @@ Partial Class Form2
         Me.CommandBarItem110.Enabled = False
         Me.CommandBarItem110.Id = 150
         Me.CommandBarItem110.Name = "CommandBarItem110"
-        SuperToolTip2598.FixedTooltipWidth = True
-        ToolTipTitleItem2598.Text = "Area Series"
-        ToolTipItem2598.LeftIndent = 6
-        ToolTipItem2598.Text = "Add an area series to display values as a filled area with peaks and hollows."
-        SuperToolTip2598.Items.Add(ToolTipTitleItem2598)
-        SuperToolTip2598.Items.Add(ToolTipItem2598)
-        SuperToolTip2598.MaxWidth = 210
-        Me.CommandBarItem110.SuperTip = SuperToolTip2598
+        SuperToolTip318.FixedTooltipWidth = True
+        ToolTipTitleItem318.Text = "Area Series"
+        ToolTipItem318.LeftIndent = 6
+        ToolTipItem318.Text = "Add an area series to display values as a filled area with peaks and hollows."
+        SuperToolTip318.Items.Add(ToolTipTitleItem318)
+        SuperToolTip318.Items.Add(ToolTipItem318)
+        SuperToolTip318.MaxWidth = 210
+        Me.CommandBarItem110.SuperTip = SuperToolTip318
         '
         'CommandBarItem111
         '
@@ -3784,14 +3760,14 @@ Partial Class Form2
         Me.CommandBarItem111.Enabled = False
         Me.CommandBarItem111.Id = 151
         Me.CommandBarItem111.Name = "CommandBarItem111"
-        SuperToolTip2599.FixedTooltipWidth = True
-        ToolTipTitleItem2599.Text = "Range Series"
-        ToolTipItem2599.LeftIndent = 6
-        ToolTipItem2599.Text = "Add a series to display a range of values with the minimum and maximum limits. "
-        SuperToolTip2599.Items.Add(ToolTipTitleItem2599)
-        SuperToolTip2599.Items.Add(ToolTipItem2599)
-        SuperToolTip2599.MaxWidth = 210
-        Me.CommandBarItem111.SuperTip = SuperToolTip2599
+        SuperToolTip319.FixedTooltipWidth = True
+        ToolTipTitleItem319.Text = "Range Series"
+        ToolTipItem319.LeftIndent = 6
+        ToolTipItem319.Text = "Add a series to display a range of values with the minimum and maximum limits. "
+        SuperToolTip319.Items.Add(ToolTipTitleItem319)
+        SuperToolTip319.Items.Add(ToolTipItem319)
+        SuperToolTip319.MaxWidth = 210
+        Me.CommandBarItem111.SuperTip = SuperToolTip319
         '
         'CommandBarItem112
         '
@@ -3802,15 +3778,15 @@ Partial Class Form2
         Me.CommandBarItem112.Enabled = False
         Me.CommandBarItem112.Id = 152
         Me.CommandBarItem112.Name = "CommandBarItem112"
-        SuperToolTip2600.FixedTooltipWidth = True
-        ToolTipTitleItem2600.Text = "Pie And Doughnut Series"
-        ToolTipItem2600.LeftIndent = 6
-        ToolTipItem2600.Text = "Add a series to display the percentage values of different point arguments to com" &
+        SuperToolTip320.FixedTooltipWidth = True
+        ToolTipTitleItem320.Text = "Pie And Doughnut Series"
+        ToolTipItem320.LeftIndent = 6
+        ToolTipItem320.Text = "Add a series to display the percentage values of different point arguments to com" &
     "pare their significance."
-        SuperToolTip2600.Items.Add(ToolTipTitleItem2600)
-        SuperToolTip2600.Items.Add(ToolTipItem2600)
-        SuperToolTip2600.MaxWidth = 210
-        Me.CommandBarItem112.SuperTip = SuperToolTip2600
+        SuperToolTip320.Items.Add(ToolTipTitleItem320)
+        SuperToolTip320.Items.Add(ToolTipItem320)
+        SuperToolTip320.MaxWidth = 210
+        Me.CommandBarItem112.SuperTip = SuperToolTip320
         '
         'CommandBarItem113
         '
@@ -3821,14 +3797,14 @@ Partial Class Form2
         Me.CommandBarItem113.Enabled = False
         Me.CommandBarItem113.Id = 153
         Me.CommandBarItem113.Name = "CommandBarItem113"
-        SuperToolTip2601.FixedTooltipWidth = True
-        ToolTipTitleItem2601.Text = "Radar And Polar Series"
-        ToolTipItem2601.LeftIndent = 6
-        ToolTipItem2601.Text = "Add a series to display values as a circular graph."
-        SuperToolTip2601.Items.Add(ToolTipTitleItem2601)
-        SuperToolTip2601.Items.Add(ToolTipItem2601)
-        SuperToolTip2601.MaxWidth = 210
-        Me.CommandBarItem113.SuperTip = SuperToolTip2601
+        SuperToolTip321.FixedTooltipWidth = True
+        ToolTipTitleItem321.Text = "Radar And Polar Series"
+        ToolTipItem321.LeftIndent = 6
+        ToolTipItem321.Text = "Add a series to display values as a circular graph."
+        SuperToolTip321.Items.Add(ToolTipTitleItem321)
+        SuperToolTip321.Items.Add(ToolTipItem321)
+        SuperToolTip321.MaxWidth = 210
+        Me.CommandBarItem113.SuperTip = SuperToolTip321
         '
         'CommandBarItem114
         '
@@ -3839,14 +3815,14 @@ Partial Class Form2
         Me.CommandBarItem114.Enabled = False
         Me.CommandBarItem114.Id = 154
         Me.CommandBarItem114.Name = "CommandBarItem114"
-        SuperToolTip2602.FixedTooltipWidth = True
-        ToolTipTitleItem2602.Text = "Other Series"
-        ToolTipItem2602.LeftIndent = 6
-        ToolTipItem2602.Text = "Choose a chart type to display your data."
-        SuperToolTip2602.Items.Add(ToolTipTitleItem2602)
-        SuperToolTip2602.Items.Add(ToolTipItem2602)
-        SuperToolTip2602.MaxWidth = 210
-        Me.CommandBarItem114.SuperTip = SuperToolTip2602
+        SuperToolTip322.FixedTooltipWidth = True
+        ToolTipTitleItem322.Text = "Other Series"
+        ToolTipItem322.LeftIndent = 6
+        ToolTipItem322.Text = "Choose a chart type to display your data."
+        SuperToolTip322.Items.Add(ToolTipTitleItem322)
+        SuperToolTip322.Items.Add(ToolTipItem322)
+        SuperToolTip322.MaxWidth = 210
+        Me.CommandBarItem114.SuperTip = SuperToolTip322
         '
         'CommandBarItem115
         '
@@ -3855,14 +3831,14 @@ Partial Class Form2
         Me.CommandBarItem115.Enabled = False
         Me.CommandBarItem115.Id = 155
         Me.CommandBarItem115.Name = "CommandBarItem115"
-        SuperToolTip2603.FixedTooltipWidth = True
-        ToolTipTitleItem2603.Text = "Remove Series"
-        ToolTipItem2603.LeftIndent = 6
-        ToolTipItem2603.Text = "Remove the selected series."
-        SuperToolTip2603.Items.Add(ToolTipTitleItem2603)
-        SuperToolTip2603.Items.Add(ToolTipItem2603)
-        SuperToolTip2603.MaxWidth = 210
-        Me.CommandBarItem115.SuperTip = SuperToolTip2603
+        SuperToolTip323.FixedTooltipWidth = True
+        ToolTipTitleItem323.Text = "Remove Series"
+        ToolTipItem323.LeftIndent = 6
+        ToolTipItem323.Text = "Remove the selected series."
+        SuperToolTip323.Items.Add(ToolTipTitleItem323)
+        SuperToolTip323.Items.Add(ToolTipItem323)
+        SuperToolTip323.MaxWidth = 210
+        Me.CommandBarItem115.SuperTip = SuperToolTip323
         '
         'CommandBarItem116
         '
@@ -3871,14 +3847,14 @@ Partial Class Form2
         Me.CommandBarItem116.Enabled = False
         Me.CommandBarItem116.Id = 156
         Me.CommandBarItem116.Name = "CommandBarItem116"
-        SuperToolTip2604.FixedTooltipWidth = True
-        ToolTipTitleItem2604.Text = "Add Text Annotation"
-        ToolTipItem2604.LeftIndent = 6
-        ToolTipItem2604.Text = "Add a text annotation to a chart."
-        SuperToolTip2604.Items.Add(ToolTipTitleItem2604)
-        SuperToolTip2604.Items.Add(ToolTipItem2604)
-        SuperToolTip2604.MaxWidth = 210
-        Me.CommandBarItem116.SuperTip = SuperToolTip2604
+        SuperToolTip324.FixedTooltipWidth = True
+        ToolTipTitleItem324.Text = "Add Text Annotation"
+        ToolTipItem324.LeftIndent = 6
+        ToolTipItem324.Text = "Add a text annotation to a chart."
+        SuperToolTip324.Items.Add(ToolTipTitleItem324)
+        SuperToolTip324.Items.Add(ToolTipItem324)
+        SuperToolTip324.MaxWidth = 210
+        Me.CommandBarItem116.SuperTip = SuperToolTip324
         '
         'CommandBarItem117
         '
@@ -3887,14 +3863,14 @@ Partial Class Form2
         Me.CommandBarItem117.Enabled = False
         Me.CommandBarItem117.Id = 157
         Me.CommandBarItem117.Name = "CommandBarItem117"
-        SuperToolTip2605.FixedTooltipWidth = True
-        ToolTipTitleItem2605.Text = "Add Image Annotation"
-        ToolTipItem2605.LeftIndent = 6
-        ToolTipItem2605.Text = "Add an image annotation to a chart."
-        SuperToolTip2605.Items.Add(ToolTipTitleItem2605)
-        SuperToolTip2605.Items.Add(ToolTipItem2605)
-        SuperToolTip2605.MaxWidth = 210
-        Me.CommandBarItem117.SuperTip = SuperToolTip2605
+        SuperToolTip325.FixedTooltipWidth = True
+        ToolTipTitleItem325.Text = "Add Image Annotation"
+        ToolTipItem325.LeftIndent = 6
+        ToolTipItem325.Text = "Add an image annotation to a chart."
+        SuperToolTip325.Items.Add(ToolTipTitleItem325)
+        SuperToolTip325.Items.Add(ToolTipItem325)
+        SuperToolTip325.MaxWidth = 210
+        Me.CommandBarItem117.SuperTip = SuperToolTip325
         '
         'CommandBarItem118
         '
@@ -3903,14 +3879,14 @@ Partial Class Form2
         Me.CommandBarItem118.Enabled = False
         Me.CommandBarItem118.Id = 158
         Me.CommandBarItem118.Name = "CommandBarItem118"
-        SuperToolTip2606.FixedTooltipWidth = True
-        ToolTipTitleItem2606.Text = "Remove Annotation"
-        ToolTipItem2606.LeftIndent = 6
-        ToolTipItem2606.Text = "Remove the selected annotation."
-        SuperToolTip2606.Items.Add(ToolTipTitleItem2606)
-        SuperToolTip2606.Items.Add(ToolTipItem2606)
-        SuperToolTip2606.MaxWidth = 210
-        Me.CommandBarItem118.SuperTip = SuperToolTip2606
+        SuperToolTip326.FixedTooltipWidth = True
+        ToolTipTitleItem326.Text = "Remove Annotation"
+        ToolTipItem326.LeftIndent = 6
+        ToolTipItem326.Text = "Remove the selected annotation."
+        SuperToolTip326.Items.Add(ToolTipTitleItem326)
+        SuperToolTip326.Items.Add(ToolTipItem326)
+        SuperToolTip326.MaxWidth = 210
+        Me.CommandBarItem118.SuperTip = SuperToolTip326
         '
         'CommandBarItem119
         '
@@ -3919,14 +3895,14 @@ Partial Class Form2
         Me.CommandBarItem119.Enabled = False
         Me.CommandBarItem119.Id = 159
         Me.CommandBarItem119.Name = "CommandBarItem119"
-        SuperToolTip2607.FixedTooltipWidth = True
-        ToolTipTitleItem2607.Text = "Auto Module"
-        ToolTipItem2607.LeftIndent = 6
-        ToolTipItem2607.Text = "Automatically calculate the bar width based on bar code dimensions."
-        SuperToolTip2607.Items.Add(ToolTipTitleItem2607)
-        SuperToolTip2607.Items.Add(ToolTipItem2607)
-        SuperToolTip2607.MaxWidth = 210
-        Me.CommandBarItem119.SuperTip = SuperToolTip2607
+        SuperToolTip327.FixedTooltipWidth = True
+        ToolTipTitleItem327.Text = "Auto Module"
+        ToolTipItem327.LeftIndent = 6
+        ToolTipItem327.Text = "Automatically calculate the bar width based on bar code dimensions."
+        SuperToolTip327.Items.Add(ToolTipTitleItem327)
+        SuperToolTip327.Items.Add(ToolTipItem327)
+        SuperToolTip327.MaxWidth = 210
+        Me.CommandBarItem119.SuperTip = SuperToolTip327
         '
         'CommandBarItem120
         '
@@ -3935,14 +3911,14 @@ Partial Class Form2
         Me.CommandBarItem120.Enabled = False
         Me.CommandBarItem120.Id = 160
         Me.CommandBarItem120.Name = "CommandBarItem120"
-        SuperToolTip2608.FixedTooltipWidth = True
-        ToolTipTitleItem2608.Text = "Show Text"
-        ToolTipItem2608.LeftIndent = 6
-        ToolTipItem2608.Text = "Display accompanying text in a bar code."
-        SuperToolTip2608.Items.Add(ToolTipTitleItem2608)
-        SuperToolTip2608.Items.Add(ToolTipItem2608)
-        SuperToolTip2608.MaxWidth = 210
-        Me.CommandBarItem120.SuperTip = SuperToolTip2608
+        SuperToolTip328.FixedTooltipWidth = True
+        ToolTipTitleItem328.Text = "Show Text"
+        ToolTipItem328.LeftIndent = 6
+        ToolTipItem328.Text = "Display accompanying text in a bar code."
+        SuperToolTip328.Items.Add(ToolTipTitleItem328)
+        SuperToolTip328.Items.Add(ToolTipItem328)
+        SuperToolTip328.MaxWidth = 210
+        Me.CommandBarItem120.SuperTip = SuperToolTip328
         '
         'CommandBarItem121
         '
@@ -3951,14 +3927,14 @@ Partial Class Form2
         Me.CommandBarItem121.Enabled = False
         Me.CommandBarItem121.Id = 161
         Me.CommandBarItem121.Name = "CommandBarItem121"
-        SuperToolTip2609.FixedTooltipWidth = True
-        ToolTipTitleItem2609.Text = "Fit Bounds to Text"
-        ToolTipItem2609.LeftIndent = 6
-        ToolTipItem2609.Text = "Adjust the size of the selected controls to fit their text."
-        SuperToolTip2609.Items.Add(ToolTipTitleItem2609)
-        SuperToolTip2609.Items.Add(ToolTipItem2609)
-        SuperToolTip2609.MaxWidth = 210
-        Me.CommandBarItem121.SuperTip = SuperToolTip2609
+        SuperToolTip329.FixedTooltipWidth = True
+        ToolTipTitleItem329.Text = "Fit Bounds to Text"
+        ToolTipItem329.LeftIndent = 6
+        ToolTipItem329.Text = "Adjust the size of the selected controls to fit their text."
+        SuperToolTip329.Items.Add(ToolTipTitleItem329)
+        SuperToolTip329.Items.Add(ToolTipItem329)
+        SuperToolTip329.MaxWidth = 210
+        Me.CommandBarItem121.SuperTip = SuperToolTip329
         '
         'CommandBarItem122
         '
@@ -3967,14 +3943,14 @@ Partial Class Form2
         Me.CommandBarItem122.Enabled = False
         Me.CommandBarItem122.Id = 162
         Me.CommandBarItem122.Name = "CommandBarItem122"
-        SuperToolTip2610.FixedTooltipWidth = True
-        ToolTipTitleItem2610.Text = "Fit Text to Bounds"
-        ToolTipItem2610.LeftIndent = 6
-        ToolTipItem2610.Text = "Adjust the font size of the selected controls to fit their entire area."
-        SuperToolTip2610.Items.Add(ToolTipTitleItem2610)
-        SuperToolTip2610.Items.Add(ToolTipItem2610)
-        SuperToolTip2610.MaxWidth = 210
-        Me.CommandBarItem122.SuperTip = SuperToolTip2610
+        SuperToolTip330.FixedTooltipWidth = True
+        ToolTipTitleItem330.Text = "Fit Text to Bounds"
+        ToolTipItem330.LeftIndent = 6
+        ToolTipItem330.Text = "Adjust the font size of the selected controls to fit their entire area."
+        SuperToolTip330.Items.Add(ToolTipTitleItem330)
+        SuperToolTip330.Items.Add(ToolTipItem330)
+        SuperToolTip330.MaxWidth = 210
+        Me.CommandBarItem122.SuperTip = SuperToolTip330
         '
         'CommandBarCheckItem4
         '
@@ -3984,14 +3960,14 @@ Partial Class Form2
         Me.CommandBarCheckItem4.Enabled = False
         Me.CommandBarCheckItem4.Id = 163
         Me.CommandBarCheckItem4.Name = "CommandBarCheckItem4"
-        SuperToolTip2611.FixedTooltipWidth = True
-        ToolTipTitleItem2611.Text = "Auto Width"
-        ToolTipItem2611.LeftIndent = 6
-        ToolTipItem2611.Text = "Enable the selected controls to adjust their width to fit their content."
-        SuperToolTip2611.Items.Add(ToolTipTitleItem2611)
-        SuperToolTip2611.Items.Add(ToolTipItem2611)
-        SuperToolTip2611.MaxWidth = 210
-        Me.CommandBarCheckItem4.SuperTip = SuperToolTip2611
+        SuperToolTip331.FixedTooltipWidth = True
+        ToolTipTitleItem331.Text = "Auto Width"
+        ToolTipItem331.LeftIndent = 6
+        ToolTipItem331.Text = "Enable the selected controls to adjust their width to fit their content."
+        SuperToolTip331.Items.Add(ToolTipTitleItem331)
+        SuperToolTip331.Items.Add(ToolTipItem331)
+        SuperToolTip331.MaxWidth = 210
+        Me.CommandBarCheckItem4.SuperTip = SuperToolTip331
         '
         'CommandBarCheckItem5
         '
@@ -4001,14 +3977,14 @@ Partial Class Form2
         Me.CommandBarCheckItem5.Enabled = False
         Me.CommandBarCheckItem5.Id = 164
         Me.CommandBarCheckItem5.Name = "CommandBarCheckItem5"
-        SuperToolTip2612.FixedTooltipWidth = True
-        ToolTipTitleItem2612.Text = "Word Wrap"
-        ToolTipItem2612.LeftIndent = 6
-        ToolTipItem2612.Text = "Enable the selected controls to wrap their text if it does not fit a line."
-        SuperToolTip2612.Items.Add(ToolTipTitleItem2612)
-        SuperToolTip2612.Items.Add(ToolTipItem2612)
-        SuperToolTip2612.MaxWidth = 210
-        Me.CommandBarCheckItem5.SuperTip = SuperToolTip2612
+        SuperToolTip332.FixedTooltipWidth = True
+        ToolTipTitleItem332.Text = "Word Wrap"
+        ToolTipItem332.LeftIndent = 6
+        ToolTipItem332.Text = "Enable the selected controls to wrap their text if it does not fit a line."
+        SuperToolTip332.Items.Add(ToolTipTitleItem332)
+        SuperToolTip332.Items.Add(ToolTipItem332)
+        SuperToolTip332.MaxWidth = 210
+        Me.CommandBarCheckItem5.SuperTip = SuperToolTip332
         '
         'CommandBarCheckItem6
         '
@@ -4018,14 +3994,14 @@ Partial Class Form2
         Me.CommandBarCheckItem6.Enabled = False
         Me.CommandBarCheckItem6.Id = 165
         Me.CommandBarCheckItem6.Name = "CommandBarCheckItem6"
-        SuperToolTip2613.FixedTooltipWidth = True
-        ToolTipTitleItem2613.Text = "Can Shrink"
-        ToolTipItem2613.LeftIndent = 6
-        ToolTipItem2613.Text = "Enable the selected controls to decrease their height to fit their content."
-        SuperToolTip2613.Items.Add(ToolTipTitleItem2613)
-        SuperToolTip2613.Items.Add(ToolTipItem2613)
-        SuperToolTip2613.MaxWidth = 210
-        Me.CommandBarCheckItem6.SuperTip = SuperToolTip2613
+        SuperToolTip333.FixedTooltipWidth = True
+        ToolTipTitleItem333.Text = "Can Shrink"
+        ToolTipItem333.LeftIndent = 6
+        ToolTipItem333.Text = "Enable the selected controls to decrease their height to fit their content."
+        SuperToolTip333.Items.Add(ToolTipTitleItem333)
+        SuperToolTip333.Items.Add(ToolTipItem333)
+        SuperToolTip333.MaxWidth = 210
+        Me.CommandBarCheckItem6.SuperTip = SuperToolTip333
         '
         'CommandBarCheckItem7
         '
@@ -4035,14 +4011,14 @@ Partial Class Form2
         Me.CommandBarCheckItem7.Enabled = False
         Me.CommandBarCheckItem7.Id = 166
         Me.CommandBarCheckItem7.Name = "CommandBarCheckItem7"
-        SuperToolTip2614.FixedTooltipWidth = True
-        ToolTipTitleItem2614.Text = "Can Grow"
-        ToolTipItem2614.LeftIndent = 6
-        ToolTipItem2614.Text = "Enable the selected controls to increase their height to fit their content."
-        SuperToolTip2614.Items.Add(ToolTipTitleItem2614)
-        SuperToolTip2614.Items.Add(ToolTipItem2614)
-        SuperToolTip2614.MaxWidth = 210
-        Me.CommandBarCheckItem7.SuperTip = SuperToolTip2614
+        SuperToolTip334.FixedTooltipWidth = True
+        ToolTipTitleItem334.Text = "Can Grow"
+        ToolTipItem334.LeftIndent = 6
+        ToolTipItem334.Text = "Enable the selected controls to increase their height to fit their content."
+        SuperToolTip334.Items.Add(ToolTipTitleItem334)
+        SuperToolTip334.Items.Add(ToolTipItem334)
+        SuperToolTip334.MaxWidth = 210
+        Me.CommandBarCheckItem7.SuperTip = SuperToolTip334
         '
         'CommandBarCheckItem8
         '
@@ -4052,14 +4028,14 @@ Partial Class Form2
         Me.CommandBarCheckItem8.Enabled = False
         Me.CommandBarCheckItem8.Id = 167
         Me.CommandBarCheckItem8.Name = "CommandBarCheckItem8"
-        SuperToolTip2615.FixedTooltipWidth = True
-        ToolTipTitleItem2615.Text = "Cell Auto Width"
-        ToolTipItem2615.LeftIndent = 6
-        ToolTipItem2615.Text = "Automatically adjust the cell width depending on the current font size."
-        SuperToolTip2615.Items.Add(ToolTipTitleItem2615)
-        SuperToolTip2615.Items.Add(ToolTipItem2615)
-        SuperToolTip2615.MaxWidth = 210
-        Me.CommandBarCheckItem8.SuperTip = SuperToolTip2615
+        SuperToolTip335.FixedTooltipWidth = True
+        ToolTipTitleItem335.Text = "Cell Auto Width"
+        ToolTipItem335.LeftIndent = 6
+        ToolTipItem335.Text = "Automatically adjust the cell width depending on the current font size."
+        SuperToolTip335.Items.Add(ToolTipTitleItem335)
+        SuperToolTip335.Items.Add(ToolTipItem335)
+        SuperToolTip335.MaxWidth = 210
+        Me.CommandBarCheckItem8.SuperTip = SuperToolTip335
         '
         'CommandBarCheckItem9
         '
@@ -4069,14 +4045,14 @@ Partial Class Form2
         Me.CommandBarCheckItem9.Enabled = False
         Me.CommandBarCheckItem9.Id = 168
         Me.CommandBarCheckItem9.Name = "CommandBarCheckItem9"
-        SuperToolTip2616.FixedTooltipWidth = True
-        ToolTipTitleItem2616.Text = "Cell Auto Height"
-        ToolTipItem2616.LeftIndent = 6
-        ToolTipItem2616.Text = "Automatically adjust the cell height depending on the current font size."
-        SuperToolTip2616.Items.Add(ToolTipTitleItem2616)
-        SuperToolTip2616.Items.Add(ToolTipItem2616)
-        SuperToolTip2616.MaxWidth = 210
-        Me.CommandBarCheckItem9.SuperTip = SuperToolTip2616
+        SuperToolTip336.FixedTooltipWidth = True
+        ToolTipTitleItem336.Text = "Cell Auto Height"
+        ToolTipItem336.LeftIndent = 6
+        ToolTipItem336.Text = "Automatically adjust the cell height depending on the current font size."
+        SuperToolTip336.Items.Add(ToolTipTitleItem336)
+        SuperToolTip336.Items.Add(ToolTipItem336)
+        SuperToolTip336.MaxWidth = 210
+        Me.CommandBarCheckItem9.SuperTip = SuperToolTip336
         '
         'CommandBarItem123
         '
@@ -4085,14 +4061,14 @@ Partial Class Form2
         Me.CommandBarItem123.Enabled = False
         Me.CommandBarItem123.Id = 169
         Me.CommandBarItem123.Name = "CommandBarItem123"
-        SuperToolTip2617.FixedTooltipWidth = True
-        ToolTipTitleItem2617.Text = "Add Data Source"
-        ToolTipItem2617.LeftIndent = 6
-        ToolTipItem2617.Text = "Set up a data source for a sparkline."
-        SuperToolTip2617.Items.Add(ToolTipTitleItem2617)
-        SuperToolTip2617.Items.Add(ToolTipItem2617)
-        SuperToolTip2617.MaxWidth = 210
-        Me.CommandBarItem123.SuperTip = SuperToolTip2617
+        SuperToolTip337.FixedTooltipWidth = True
+        ToolTipTitleItem337.Text = "Add Data Source"
+        ToolTipItem337.LeftIndent = 6
+        ToolTipItem337.Text = "Set up a data source for a sparkline."
+        SuperToolTip337.Items.Add(ToolTipTitleItem337)
+        SuperToolTip337.Items.Add(ToolTipItem337)
+        SuperToolTip337.MaxWidth = 210
+        Me.CommandBarItem123.SuperTip = SuperToolTip337
         '
         'CommandBarItem124
         '
@@ -4101,14 +4077,14 @@ Partial Class Form2
         Me.CommandBarItem124.Enabled = False
         Me.CommandBarItem124.Id = 170
         Me.CommandBarItem124.Name = "CommandBarItem124"
-        SuperToolTip2618.FixedTooltipWidth = True
-        ToolTipTitleItem2618.Text = "Flat Light Theme"
-        ToolTipItem2618.LeftIndent = 6
-        ToolTipItem2618.Text = "Set the Flat Light color theme for a gauge."
-        SuperToolTip2618.Items.Add(ToolTipTitleItem2618)
-        SuperToolTip2618.Items.Add(ToolTipItem2618)
-        SuperToolTip2618.MaxWidth = 210
-        Me.CommandBarItem124.SuperTip = SuperToolTip2618
+        SuperToolTip338.FixedTooltipWidth = True
+        ToolTipTitleItem338.Text = "Flat Light Theme"
+        ToolTipItem338.LeftIndent = 6
+        ToolTipItem338.Text = "Set the Flat Light color theme for a gauge."
+        SuperToolTip338.Items.Add(ToolTipTitleItem338)
+        SuperToolTip338.Items.Add(ToolTipItem338)
+        SuperToolTip338.MaxWidth = 210
+        Me.CommandBarItem124.SuperTip = SuperToolTip338
         '
         'CommandBarItem125
         '
@@ -4117,14 +4093,14 @@ Partial Class Form2
         Me.CommandBarItem125.Enabled = False
         Me.CommandBarItem125.Id = 171
         Me.CommandBarItem125.Name = "CommandBarItem125"
-        SuperToolTip2619.FixedTooltipWidth = True
-        ToolTipTitleItem2619.Text = "Flat Dark Theme"
-        ToolTipItem2619.LeftIndent = 6
-        ToolTipItem2619.Text = "Set the Flat Dark color theme for a gauge."
-        SuperToolTip2619.Items.Add(ToolTipTitleItem2619)
-        SuperToolTip2619.Items.Add(ToolTipItem2619)
-        SuperToolTip2619.MaxWidth = 210
-        Me.CommandBarItem125.SuperTip = SuperToolTip2619
+        SuperToolTip339.FixedTooltipWidth = True
+        ToolTipTitleItem339.Text = "Flat Dark Theme"
+        ToolTipItem339.LeftIndent = 6
+        ToolTipItem339.Text = "Set the Flat Dark color theme for a gauge."
+        SuperToolTip339.Items.Add(ToolTipTitleItem339)
+        SuperToolTip339.Items.Add(ToolTipItem339)
+        SuperToolTip339.MaxWidth = 210
+        Me.CommandBarItem125.SuperTip = SuperToolTip339
         '
         'CommandBarItem126
         '
@@ -4133,14 +4109,14 @@ Partial Class Form2
         Me.CommandBarItem126.Enabled = False
         Me.CommandBarItem126.Id = 172
         Me.CommandBarItem126.Name = "CommandBarItem126"
-        SuperToolTip2620.FixedTooltipWidth = True
-        ToolTipTitleItem2620.Text = "Stretch"
-        ToolTipItem2620.LeftIndent = 6
-        ToolTipItem2620.Text = "Stretch a shape to fill its entire area when it is rotated."
-        SuperToolTip2620.Items.Add(ToolTipTitleItem2620)
-        SuperToolTip2620.Items.Add(ToolTipItem2620)
-        SuperToolTip2620.MaxWidth = 210
-        Me.CommandBarItem126.SuperTip = SuperToolTip2620
+        SuperToolTip340.FixedTooltipWidth = True
+        ToolTipTitleItem340.Text = "Stretch"
+        ToolTipItem340.LeftIndent = 6
+        ToolTipItem340.Text = "Stretch a shape to fill its entire area when it is rotated."
+        SuperToolTip340.Items.Add(ToolTipTitleItem340)
+        SuperToolTip340.Items.Add(ToolTipItem340)
+        SuperToolTip340.MaxWidth = 210
+        Me.CommandBarItem126.SuperTip = SuperToolTip340
         '
         'CommandBarItem127
         '
@@ -4150,14 +4126,14 @@ Partial Class Form2
         Me.CommandBarItem127.Id = 173
         Me.CommandBarItem127.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.F4))
         Me.CommandBarItem127.Name = "CommandBarItem127"
-        SuperToolTip2621.FixedTooltipWidth = True
-        ToolTipTitleItem2621.Text = "Close (Ctrl+F4)"
-        ToolTipItem2621.LeftIndent = 6
-        ToolTipItem2621.Text = "Close the current report."
-        SuperToolTip2621.Items.Add(ToolTipTitleItem2621)
-        SuperToolTip2621.Items.Add(ToolTipItem2621)
-        SuperToolTip2621.MaxWidth = 210
-        Me.CommandBarItem127.SuperTip = SuperToolTip2621
+        SuperToolTip341.FixedTooltipWidth = True
+        ToolTipTitleItem341.Text = "Close (Ctrl+F4)"
+        ToolTipItem341.LeftIndent = 6
+        ToolTipItem341.Text = "Close the current report."
+        SuperToolTip341.Items.Add(ToolTipTitleItem341)
+        SuperToolTip341.Items.Add(ToolTipItem341)
+        SuperToolTip341.MaxWidth = 210
+        Me.CommandBarItem127.SuperTip = SuperToolTip341
         '
         'CommandBarItem128
         '
@@ -4165,14 +4141,14 @@ Partial Class Form2
         Me.CommandBarItem128.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.[Exit]
         Me.CommandBarItem128.Id = 174
         Me.CommandBarItem128.Name = "CommandBarItem128"
-        SuperToolTip2622.FixedTooltipWidth = True
-        ToolTipTitleItem2622.Text = "Exit"
-        ToolTipItem2622.LeftIndent = 6
-        ToolTipItem2622.Text = "Close the report designer."
-        SuperToolTip2622.Items.Add(ToolTipTitleItem2622)
-        SuperToolTip2622.Items.Add(ToolTipItem2622)
-        SuperToolTip2622.MaxWidth = 210
-        Me.CommandBarItem128.SuperTip = SuperToolTip2622
+        SuperToolTip342.FixedTooltipWidth = True
+        ToolTipTitleItem342.Text = "Exit"
+        ToolTipItem342.LeftIndent = 6
+        ToolTipItem342.Text = "Close the report designer."
+        SuperToolTip342.Items.Add(ToolTipTitleItem342)
+        SuperToolTip342.Items.Add(ToolTipItem342)
+        SuperToolTip342.MaxWidth = 210
+        Me.CommandBarItem128.SuperTip = SuperToolTip342
         '
         'XrDesignBarButtonGroup1
         '
@@ -4295,15 +4271,15 @@ Partial Class Form2
         Me.PrintPreviewBarItem1.Enabled = False
         Me.PrintPreviewBarItem1.Id = 189
         Me.PrintPreviewBarItem1.Name = "PrintPreviewBarItem1"
-        SuperToolTip2623.FixedTooltipWidth = True
-        ToolTipTitleItem2623.Text = "Highlight Editing Fields"
-        ToolTipItem2623.LeftIndent = 6
-        ToolTipItem2623.Text = "Highlight all editing fields to quickly discover which of the document elements a" &
+        SuperToolTip343.FixedTooltipWidth = True
+        ToolTipTitleItem343.Text = "Highlight Editing Fields"
+        ToolTipItem343.LeftIndent = 6
+        ToolTipItem343.Text = "Highlight all editing fields to quickly discover which of the document elements a" &
     "re editable."
-        SuperToolTip2623.Items.Add(ToolTipTitleItem2623)
-        SuperToolTip2623.Items.Add(ToolTipItem2623)
-        SuperToolTip2623.MaxWidth = 210
-        Me.PrintPreviewBarItem1.SuperTip = SuperToolTip2623
+        SuperToolTip343.Items.Add(ToolTipTitleItem343)
+        SuperToolTip343.Items.Add(ToolTipItem343)
+        SuperToolTip343.MaxWidth = 210
+        Me.PrintPreviewBarItem1.SuperTip = SuperToolTip343
         '
         'PrintPreviewBarItem2
         '
@@ -4313,15 +4289,15 @@ Partial Class Form2
         Me.PrintPreviewBarItem2.Enabled = False
         Me.PrintPreviewBarItem2.Id = 190
         Me.PrintPreviewBarItem2.Name = "PrintPreviewBarItem2"
-        SuperToolTip2624.FixedTooltipWidth = True
-        ToolTipTitleItem2624.Text = "Document Map"
-        ToolTipItem2624.LeftIndent = 6
-        ToolTipItem2624.Text = "Open the Document Map, which allows you to navigate through a structural view of " &
+        SuperToolTip344.FixedTooltipWidth = True
+        ToolTipTitleItem344.Text = "Document Map"
+        ToolTipItem344.LeftIndent = 6
+        ToolTipItem344.Text = "Open the Document Map, which allows you to navigate through a structural view of " &
     "the document."
-        SuperToolTip2624.Items.Add(ToolTipTitleItem2624)
-        SuperToolTip2624.Items.Add(ToolTipItem2624)
-        SuperToolTip2624.MaxWidth = 210
-        Me.PrintPreviewBarItem2.SuperTip = SuperToolTip2624
+        SuperToolTip344.Items.Add(ToolTipTitleItem344)
+        SuperToolTip344.Items.Add(ToolTipItem344)
+        SuperToolTip344.MaxWidth = 210
+        Me.PrintPreviewBarItem2.SuperTip = SuperToolTip344
         '
         'PrintPreviewBarItem3
         '
@@ -4331,15 +4307,15 @@ Partial Class Form2
         Me.PrintPreviewBarItem3.Enabled = False
         Me.PrintPreviewBarItem3.Id = 191
         Me.PrintPreviewBarItem3.Name = "PrintPreviewBarItem3"
-        SuperToolTip2625.FixedTooltipWidth = True
-        ToolTipTitleItem2625.Text = "Parameters"
-        ToolTipItem2625.LeftIndent = 6
-        ToolTipItem2625.Text = "Open the Parameters pane, which allows you to enter values for report parameters." &
+        SuperToolTip345.FixedTooltipWidth = True
+        ToolTipTitleItem345.Text = "Parameters"
+        ToolTipItem345.LeftIndent = 6
+        ToolTipItem345.Text = "Open the Parameters pane, which allows you to enter values for report parameters." &
     ""
-        SuperToolTip2625.Items.Add(ToolTipTitleItem2625)
-        SuperToolTip2625.Items.Add(ToolTipItem2625)
-        SuperToolTip2625.MaxWidth = 210
-        Me.PrintPreviewBarItem3.SuperTip = SuperToolTip2625
+        SuperToolTip345.Items.Add(ToolTipTitleItem345)
+        SuperToolTip345.Items.Add(ToolTipItem345)
+        SuperToolTip345.MaxWidth = 210
+        Me.PrintPreviewBarItem3.SuperTip = SuperToolTip345
         '
         'PrintPreviewBarItem4
         '
@@ -4349,14 +4325,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem4.Enabled = False
         Me.PrintPreviewBarItem4.Id = 192
         Me.PrintPreviewBarItem4.Name = "PrintPreviewBarItem4"
-        SuperToolTip2626.FixedTooltipWidth = True
-        ToolTipTitleItem2626.Text = "Find"
-        ToolTipItem2626.LeftIndent = 6
-        ToolTipItem2626.Text = "Show the Find dialog to find text in the document."
-        SuperToolTip2626.Items.Add(ToolTipTitleItem2626)
-        SuperToolTip2626.Items.Add(ToolTipItem2626)
-        SuperToolTip2626.MaxWidth = 210
-        Me.PrintPreviewBarItem4.SuperTip = SuperToolTip2626
+        SuperToolTip346.FixedTooltipWidth = True
+        ToolTipTitleItem346.Text = "Find"
+        ToolTipItem346.LeftIndent = 6
+        ToolTipItem346.Text = "Show the Find dialog to find text in the document."
+        SuperToolTip346.Items.Add(ToolTipTitleItem346)
+        SuperToolTip346.Items.Add(ToolTipItem346)
+        SuperToolTip346.MaxWidth = 210
+        Me.PrintPreviewBarItem4.SuperTip = SuperToolTip346
         '
         'PrintPreviewBarItem5
         '
@@ -4366,14 +4342,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem5.Enabled = False
         Me.PrintPreviewBarItem5.Id = 193
         Me.PrintPreviewBarItem5.Name = "PrintPreviewBarItem5"
-        SuperToolTip2627.FixedTooltipWidth = True
-        ToolTipTitleItem2627.Text = "Thumbnails"
-        ToolTipItem2627.LeftIndent = 6
-        ToolTipItem2627.Text = "Open the Thumbnails, which allows you to navigate through the document."
-        SuperToolTip2627.Items.Add(ToolTipTitleItem2627)
-        SuperToolTip2627.Items.Add(ToolTipItem2627)
-        SuperToolTip2627.MaxWidth = 210
-        Me.PrintPreviewBarItem5.SuperTip = SuperToolTip2627
+        SuperToolTip347.FixedTooltipWidth = True
+        ToolTipTitleItem347.Text = "Thumbnails"
+        ToolTipItem347.LeftIndent = 6
+        ToolTipItem347.Text = "Open the Thumbnails, which allows you to navigate through the document."
+        SuperToolTip347.Items.Add(ToolTipTitleItem347)
+        SuperToolTip347.Items.Add(ToolTipItem347)
+        SuperToolTip347.MaxWidth = 210
+        Me.PrintPreviewBarItem5.SuperTip = SuperToolTip347
         '
         'PrintPreviewBarItem7
         '
@@ -4382,14 +4358,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem7.Enabled = False
         Me.PrintPreviewBarItem7.Id = 195
         Me.PrintPreviewBarItem7.Name = "PrintPreviewBarItem7"
-        SuperToolTip2628.FixedTooltipWidth = True
-        ToolTipTitleItem2628.Text = "Print (Ctrl+P)"
-        ToolTipItem2628.LeftIndent = 6
-        ToolTipItem2628.Text = "Select a printer, number of copies and other printing options before printing."
-        SuperToolTip2628.Items.Add(ToolTipTitleItem2628)
-        SuperToolTip2628.Items.Add(ToolTipItem2628)
-        SuperToolTip2628.MaxWidth = 210
-        Me.PrintPreviewBarItem7.SuperTip = SuperToolTip2628
+        SuperToolTip348.FixedTooltipWidth = True
+        ToolTipTitleItem348.Text = "Print (Ctrl+P)"
+        ToolTipItem348.LeftIndent = 6
+        ToolTipItem348.Text = "Select a printer, number of copies and other printing options before printing."
+        SuperToolTip348.Items.Add(ToolTipTitleItem348)
+        SuperToolTip348.Items.Add(ToolTipItem348)
+        SuperToolTip348.MaxWidth = 210
+        Me.PrintPreviewBarItem7.SuperTip = SuperToolTip348
         '
         'PrintPreviewBarItem8
         '
@@ -4398,14 +4374,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem8.Enabled = False
         Me.PrintPreviewBarItem8.Id = 196
         Me.PrintPreviewBarItem8.Name = "PrintPreviewBarItem8"
-        SuperToolTip2629.FixedTooltipWidth = True
-        ToolTipTitleItem2629.Text = "Quick Print"
-        ToolTipItem2629.LeftIndent = 6
-        ToolTipItem2629.Text = "Send the document directly to the default printer without making changes."
-        SuperToolTip2629.Items.Add(ToolTipTitleItem2629)
-        SuperToolTip2629.Items.Add(ToolTipItem2629)
-        SuperToolTip2629.MaxWidth = 210
-        Me.PrintPreviewBarItem8.SuperTip = SuperToolTip2629
+        SuperToolTip349.FixedTooltipWidth = True
+        ToolTipTitleItem349.Text = "Quick Print"
+        ToolTipItem349.LeftIndent = 6
+        ToolTipItem349.Text = "Send the document directly to the default printer without making changes."
+        SuperToolTip349.Items.Add(ToolTipTitleItem349)
+        SuperToolTip349.Items.Add(ToolTipItem349)
+        SuperToolTip349.MaxWidth = 210
+        Me.PrintPreviewBarItem8.SuperTip = SuperToolTip349
         '
         'PrintPreviewBarItem9
         '
@@ -4414,14 +4390,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem9.Enabled = False
         Me.PrintPreviewBarItem9.Id = 197
         Me.PrintPreviewBarItem9.Name = "PrintPreviewBarItem9"
-        SuperToolTip2630.FixedTooltipWidth = True
-        ToolTipTitleItem2630.Text = "Page Setup"
-        ToolTipItem2630.LeftIndent = 6
-        ToolTipItem2630.Text = "Show the Page Setup dialog."
-        SuperToolTip2630.Items.Add(ToolTipTitleItem2630)
-        SuperToolTip2630.Items.Add(ToolTipItem2630)
-        SuperToolTip2630.MaxWidth = 210
-        Me.PrintPreviewBarItem9.SuperTip = SuperToolTip2630
+        SuperToolTip350.FixedTooltipWidth = True
+        ToolTipTitleItem350.Text = "Page Setup"
+        ToolTipItem350.LeftIndent = 6
+        ToolTipItem350.Text = "Show the Page Setup dialog."
+        SuperToolTip350.Items.Add(ToolTipTitleItem350)
+        SuperToolTip350.Items.Add(ToolTipItem350)
+        SuperToolTip350.MaxWidth = 210
+        Me.PrintPreviewBarItem9.SuperTip = SuperToolTip350
         '
         'PrintPreviewBarItem11
         '
@@ -4431,14 +4407,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem11.Enabled = False
         Me.PrintPreviewBarItem11.Id = 199
         Me.PrintPreviewBarItem11.Name = "PrintPreviewBarItem11"
-        SuperToolTip2631.FixedTooltipWidth = True
-        ToolTipTitleItem2631.Text = "Scale"
-        ToolTipItem2631.LeftIndent = 6
-        ToolTipItem2631.Text = "Stretch or shrink the printed output to a percentage of its actual size."
-        SuperToolTip2631.Items.Add(ToolTipTitleItem2631)
-        SuperToolTip2631.Items.Add(ToolTipItem2631)
-        SuperToolTip2631.MaxWidth = 210
-        Me.PrintPreviewBarItem11.SuperTip = SuperToolTip2631
+        SuperToolTip351.FixedTooltipWidth = True
+        ToolTipTitleItem351.Text = "Scale"
+        ToolTipItem351.LeftIndent = 6
+        ToolTipItem351.Text = "Stretch or shrink the printed output to a percentage of its actual size."
+        SuperToolTip351.Items.Add(ToolTipTitleItem351)
+        SuperToolTip351.Items.Add(ToolTipItem351)
+        SuperToolTip351.MaxWidth = 210
+        Me.PrintPreviewBarItem11.SuperTip = SuperToolTip351
         '
         'PrintPreviewBarItem12
         '
@@ -4450,14 +4426,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem12.Id = 200
         Me.PrintPreviewBarItem12.Name = "PrintPreviewBarItem12"
         Me.PrintPreviewBarItem12.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
-        SuperToolTip2632.FixedTooltipWidth = True
-        ToolTipTitleItem2632.Text = "Mouse Pointer"
-        ToolTipItem2632.LeftIndent = 6
-        ToolTipItem2632.Text = "Show the mouse pointer."
-        SuperToolTip2632.Items.Add(ToolTipTitleItem2632)
-        SuperToolTip2632.Items.Add(ToolTipItem2632)
-        SuperToolTip2632.MaxWidth = 210
-        Me.PrintPreviewBarItem12.SuperTip = SuperToolTip2632
+        SuperToolTip352.FixedTooltipWidth = True
+        ToolTipTitleItem352.Text = "Mouse Pointer"
+        ToolTipItem352.LeftIndent = 6
+        ToolTipItem352.Text = "Show the mouse pointer."
+        SuperToolTip352.Items.Add(ToolTipTitleItem352)
+        SuperToolTip352.Items.Add(ToolTipItem352)
+        SuperToolTip352.MaxWidth = 210
+        Me.PrintPreviewBarItem12.SuperTip = SuperToolTip352
         '
         'PrintPreviewBarItem13
         '
@@ -4469,14 +4445,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem13.Id = 201
         Me.PrintPreviewBarItem13.Name = "PrintPreviewBarItem13"
         Me.PrintPreviewBarItem13.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
-        SuperToolTip2633.FixedTooltipWidth = True
-        ToolTipTitleItem2633.Text = "Hand Tool"
-        ToolTipItem2633.LeftIndent = 6
-        ToolTipItem2633.Text = "Invoke the Hand tool to manually scroll through pages."
-        SuperToolTip2633.Items.Add(ToolTipTitleItem2633)
-        SuperToolTip2633.Items.Add(ToolTipItem2633)
-        SuperToolTip2633.MaxWidth = 210
-        Me.PrintPreviewBarItem13.SuperTip = SuperToolTip2633
+        SuperToolTip353.FixedTooltipWidth = True
+        ToolTipTitleItem353.Text = "Hand Tool"
+        ToolTipItem353.LeftIndent = 6
+        ToolTipItem353.Text = "Invoke the Hand tool to manually scroll through pages."
+        SuperToolTip353.Items.Add(ToolTipTitleItem353)
+        SuperToolTip353.Items.Add(ToolTipItem353)
+        SuperToolTip353.MaxWidth = 210
+        Me.PrintPreviewBarItem13.SuperTip = SuperToolTip353
         '
         'PrintPreviewBarItem14
         '
@@ -4488,16 +4464,16 @@ Partial Class Form2
         Me.PrintPreviewBarItem14.Id = 202
         Me.PrintPreviewBarItem14.Name = "PrintPreviewBarItem14"
         Me.PrintPreviewBarItem14.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
-        SuperToolTip2634.FixedTooltipWidth = True
-        ToolTipTitleItem2634.Text = "Magnifier"
-        ToolTipItem2634.LeftIndent = 6
-        ToolTipItem2634.Text = "Invoke the Magnifier tool." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Clicking once on a document zooms it so that a sing" &
+        SuperToolTip354.FixedTooltipWidth = True
+        ToolTipTitleItem354.Text = "Magnifier"
+        ToolTipItem354.LeftIndent = 6
+        ToolTipItem354.Text = "Invoke the Magnifier tool." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Clicking once on a document zooms it so that a sing" &
     "le page becomes entirely visible, while clicking another time zooms it to 100% o" &
     "f the normal size."
-        SuperToolTip2634.Items.Add(ToolTipTitleItem2634)
-        SuperToolTip2634.Items.Add(ToolTipItem2634)
-        SuperToolTip2634.MaxWidth = 210
-        Me.PrintPreviewBarItem14.SuperTip = SuperToolTip2634
+        SuperToolTip354.Items.Add(ToolTipTitleItem354)
+        SuperToolTip354.Items.Add(ToolTipItem354)
+        SuperToolTip354.MaxWidth = 210
+        Me.PrintPreviewBarItem14.SuperTip = SuperToolTip354
         '
         'PrintPreviewBarItem15
         '
@@ -4506,14 +4482,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem15.Enabled = False
         Me.PrintPreviewBarItem15.Id = 203
         Me.PrintPreviewBarItem15.Name = "PrintPreviewBarItem15"
-        SuperToolTip2635.FixedTooltipWidth = True
-        ToolTipTitleItem2635.Text = "Zoom Out"
-        ToolTipItem2635.LeftIndent = 6
-        ToolTipItem2635.Text = "Zoom out to see more of the page at a reduced size."
-        SuperToolTip2635.Items.Add(ToolTipTitleItem2635)
-        SuperToolTip2635.Items.Add(ToolTipItem2635)
-        SuperToolTip2635.MaxWidth = 210
-        Me.PrintPreviewBarItem15.SuperTip = SuperToolTip2635
+        SuperToolTip355.FixedTooltipWidth = True
+        ToolTipTitleItem355.Text = "Zoom Out"
+        ToolTipItem355.LeftIndent = 6
+        ToolTipItem355.Text = "Zoom out to see more of the page at a reduced size."
+        SuperToolTip355.Items.Add(ToolTipTitleItem355)
+        SuperToolTip355.Items.Add(ToolTipItem355)
+        SuperToolTip355.MaxWidth = 210
+        Me.PrintPreviewBarItem15.SuperTip = SuperToolTip355
         '
         'PrintPreviewBarItem16
         '
@@ -4522,14 +4498,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem16.Enabled = False
         Me.PrintPreviewBarItem16.Id = 204
         Me.PrintPreviewBarItem16.Name = "PrintPreviewBarItem16"
-        SuperToolTip2636.FixedTooltipWidth = True
-        ToolTipTitleItem2636.Text = "Zoom In"
-        ToolTipItem2636.LeftIndent = 6
-        ToolTipItem2636.Text = "Zoom in to get a close-up view of the document."
-        SuperToolTip2636.Items.Add(ToolTipTitleItem2636)
-        SuperToolTip2636.Items.Add(ToolTipItem2636)
-        SuperToolTip2636.MaxWidth = 210
-        Me.PrintPreviewBarItem16.SuperTip = SuperToolTip2636
+        SuperToolTip356.FixedTooltipWidth = True
+        ToolTipTitleItem356.Text = "Zoom In"
+        ToolTipItem356.LeftIndent = 6
+        ToolTipItem356.Text = "Zoom in to get a close-up view of the document."
+        SuperToolTip356.Items.Add(ToolTipTitleItem356)
+        SuperToolTip356.Items.Add(ToolTipItem356)
+        SuperToolTip356.MaxWidth = 210
+        Me.PrintPreviewBarItem16.SuperTip = SuperToolTip356
         '
         'PrintPreviewBarItem17
         '
@@ -4539,14 +4515,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem17.Enabled = False
         Me.PrintPreviewBarItem17.Id = 205
         Me.PrintPreviewBarItem17.Name = "PrintPreviewBarItem17"
-        SuperToolTip2637.FixedTooltipWidth = True
-        ToolTipTitleItem2637.Text = "Zoom"
-        ToolTipItem2637.LeftIndent = 6
-        ToolTipItem2637.Text = "Change the zoom level of the document preview."
-        SuperToolTip2637.Items.Add(ToolTipTitleItem2637)
-        SuperToolTip2637.Items.Add(ToolTipItem2637)
-        SuperToolTip2637.MaxWidth = 210
-        Me.PrintPreviewBarItem17.SuperTip = SuperToolTip2637
+        SuperToolTip357.FixedTooltipWidth = True
+        ToolTipTitleItem357.Text = "Zoom"
+        ToolTipItem357.LeftIndent = 6
+        ToolTipItem357.Text = "Change the zoom level of the document preview."
+        SuperToolTip357.Items.Add(ToolTipTitleItem357)
+        SuperToolTip357.Items.Add(ToolTipItem357)
+        SuperToolTip357.MaxWidth = 210
+        Me.PrintPreviewBarItem17.SuperTip = SuperToolTip357
         '
         'PrintPreviewBarItem18
         '
@@ -4555,14 +4531,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem18.Enabled = False
         Me.PrintPreviewBarItem18.Id = 206
         Me.PrintPreviewBarItem18.Name = "PrintPreviewBarItem18"
-        SuperToolTip2638.FixedTooltipWidth = True
-        ToolTipTitleItem2638.Text = "First Page (Home)"
-        ToolTipItem2638.LeftIndent = 6
-        ToolTipItem2638.Text = "Navigate to the first page of the document."
-        SuperToolTip2638.Items.Add(ToolTipTitleItem2638)
-        SuperToolTip2638.Items.Add(ToolTipItem2638)
-        SuperToolTip2638.MaxWidth = 210
-        Me.PrintPreviewBarItem18.SuperTip = SuperToolTip2638
+        SuperToolTip358.FixedTooltipWidth = True
+        ToolTipTitleItem358.Text = "First Page (Home)"
+        ToolTipItem358.LeftIndent = 6
+        ToolTipItem358.Text = "Navigate to the first page of the document."
+        SuperToolTip358.Items.Add(ToolTipTitleItem358)
+        SuperToolTip358.Items.Add(ToolTipItem358)
+        SuperToolTip358.MaxWidth = 210
+        Me.PrintPreviewBarItem18.SuperTip = SuperToolTip358
         '
         'PrintPreviewBarItem19
         '
@@ -4571,14 +4547,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem19.Enabled = False
         Me.PrintPreviewBarItem19.Id = 207
         Me.PrintPreviewBarItem19.Name = "PrintPreviewBarItem19"
-        SuperToolTip2639.FixedTooltipWidth = True
-        ToolTipTitleItem2639.Text = "Previous Page (Left Arrow)"
-        ToolTipItem2639.LeftIndent = 6
-        ToolTipItem2639.Text = "Navigate to the previous page of the document."
-        SuperToolTip2639.Items.Add(ToolTipTitleItem2639)
-        SuperToolTip2639.Items.Add(ToolTipItem2639)
-        SuperToolTip2639.MaxWidth = 210
-        Me.PrintPreviewBarItem19.SuperTip = SuperToolTip2639
+        SuperToolTip359.FixedTooltipWidth = True
+        ToolTipTitleItem359.Text = "Previous Page (Left Arrow)"
+        ToolTipItem359.LeftIndent = 6
+        ToolTipItem359.Text = "Navigate to the previous page of the document."
+        SuperToolTip359.Items.Add(ToolTipTitleItem359)
+        SuperToolTip359.Items.Add(ToolTipItem359)
+        SuperToolTip359.MaxWidth = 210
+        Me.PrintPreviewBarItem19.SuperTip = SuperToolTip359
         '
         'PrintPreviewBarItem20
         '
@@ -4587,14 +4563,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem20.Enabled = False
         Me.PrintPreviewBarItem20.Id = 208
         Me.PrintPreviewBarItem20.Name = "PrintPreviewBarItem20"
-        SuperToolTip2640.FixedTooltipWidth = True
-        ToolTipTitleItem2640.Text = "Next Page (Right Arrow)"
-        ToolTipItem2640.LeftIndent = 6
-        ToolTipItem2640.Text = "Navigate to the next page of the document."
-        SuperToolTip2640.Items.Add(ToolTipTitleItem2640)
-        SuperToolTip2640.Items.Add(ToolTipItem2640)
-        SuperToolTip2640.MaxWidth = 210
-        Me.PrintPreviewBarItem20.SuperTip = SuperToolTip2640
+        SuperToolTip360.FixedTooltipWidth = True
+        ToolTipTitleItem360.Text = "Next Page (Right Arrow)"
+        ToolTipItem360.LeftIndent = 6
+        ToolTipItem360.Text = "Navigate to the next page of the document."
+        SuperToolTip360.Items.Add(ToolTipTitleItem360)
+        SuperToolTip360.Items.Add(ToolTipItem360)
+        SuperToolTip360.MaxWidth = 210
+        Me.PrintPreviewBarItem20.SuperTip = SuperToolTip360
         '
         'PrintPreviewBarItem21
         '
@@ -4603,14 +4579,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem21.Enabled = False
         Me.PrintPreviewBarItem21.Id = 209
         Me.PrintPreviewBarItem21.Name = "PrintPreviewBarItem21"
-        SuperToolTip2641.FixedTooltipWidth = True
-        ToolTipTitleItem2641.Text = "Last Page (End)"
-        ToolTipItem2641.LeftIndent = 6
-        ToolTipItem2641.Text = "Navigate to the last page of the document."
-        SuperToolTip2641.Items.Add(ToolTipTitleItem2641)
-        SuperToolTip2641.Items.Add(ToolTipItem2641)
-        SuperToolTip2641.MaxWidth = 210
-        Me.PrintPreviewBarItem21.SuperTip = SuperToolTip2641
+        SuperToolTip361.FixedTooltipWidth = True
+        ToolTipTitleItem361.Text = "Last Page (End)"
+        ToolTipItem361.LeftIndent = 6
+        ToolTipItem361.Text = "Navigate to the last page of the document."
+        SuperToolTip361.Items.Add(ToolTipTitleItem361)
+        SuperToolTip361.Items.Add(ToolTipItem361)
+        SuperToolTip361.MaxWidth = 210
+        Me.PrintPreviewBarItem21.SuperTip = SuperToolTip361
         '
         'PrintPreviewBarItem22
         '
@@ -4620,14 +4596,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem22.Enabled = False
         Me.PrintPreviewBarItem22.Id = 210
         Me.PrintPreviewBarItem22.Name = "PrintPreviewBarItem22"
-        SuperToolTip2642.FixedTooltipWidth = True
-        ToolTipTitleItem2642.Text = "View Many Pages"
-        ToolTipItem2642.LeftIndent = 6
-        ToolTipItem2642.Text = "Choose the page layout to arrange the document pages in preview."
-        SuperToolTip2642.Items.Add(ToolTipTitleItem2642)
-        SuperToolTip2642.Items.Add(ToolTipItem2642)
-        SuperToolTip2642.MaxWidth = 210
-        Me.PrintPreviewBarItem22.SuperTip = SuperToolTip2642
+        SuperToolTip362.FixedTooltipWidth = True
+        ToolTipTitleItem362.Text = "View Many Pages"
+        ToolTipItem362.LeftIndent = 6
+        ToolTipItem362.Text = "Choose the page layout to arrange the document pages in preview."
+        SuperToolTip362.Items.Add(ToolTipTitleItem362)
+        SuperToolTip362.Items.Add(ToolTipItem362)
+        SuperToolTip362.MaxWidth = 210
+        Me.PrintPreviewBarItem22.SuperTip = SuperToolTip362
         '
         'PrintPreviewBarItem23
         '
@@ -4637,14 +4613,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem23.Enabled = False
         Me.PrintPreviewBarItem23.Id = 211
         Me.PrintPreviewBarItem23.Name = "PrintPreviewBarItem23"
-        SuperToolTip2643.FixedTooltipWidth = True
-        ToolTipTitleItem2643.Text = "Background Color"
-        ToolTipItem2643.LeftIndent = 6
-        ToolTipItem2643.Text = "Choose a color for the background of the document pages."
-        SuperToolTip2643.Items.Add(ToolTipTitleItem2643)
-        SuperToolTip2643.Items.Add(ToolTipItem2643)
-        SuperToolTip2643.MaxWidth = 210
-        Me.PrintPreviewBarItem23.SuperTip = SuperToolTip2643
+        SuperToolTip363.FixedTooltipWidth = True
+        ToolTipTitleItem363.Text = "Background Color"
+        ToolTipItem363.LeftIndent = 6
+        ToolTipItem363.Text = "Choose a color for the background of the document pages."
+        SuperToolTip363.Items.Add(ToolTipTitleItem363)
+        SuperToolTip363.Items.Add(ToolTipItem363)
+        SuperToolTip363.MaxWidth = 210
+        Me.PrintPreviewBarItem23.SuperTip = SuperToolTip363
         '
         'PrintPreviewBarItem24
         '
@@ -4653,15 +4629,15 @@ Partial Class Form2
         Me.PrintPreviewBarItem24.Enabled = False
         Me.PrintPreviewBarItem24.Id = 212
         Me.PrintPreviewBarItem24.Name = "PrintPreviewBarItem24"
-        SuperToolTip2644.FixedTooltipWidth = True
-        ToolTipTitleItem2644.Text = "Watermark"
-        ToolTipItem2644.LeftIndent = 6
-        ToolTipItem2644.Text = "Insert ghosted text or image behind the content of a page." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This is often used " &
+        SuperToolTip364.FixedTooltipWidth = True
+        ToolTipTitleItem364.Text = "Watermark"
+        ToolTipItem364.LeftIndent = 6
+        ToolTipItem364.Text = "Insert ghosted text or image behind the content of a page." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This is often used " &
     "to indicate that a document is to be treated specially."
-        SuperToolTip2644.Items.Add(ToolTipTitleItem2644)
-        SuperToolTip2644.Items.Add(ToolTipItem2644)
-        SuperToolTip2644.MaxWidth = 210
-        Me.PrintPreviewBarItem24.SuperTip = SuperToolTip2644
+        SuperToolTip364.Items.Add(ToolTipTitleItem364)
+        SuperToolTip364.Items.Add(ToolTipItem364)
+        SuperToolTip364.MaxWidth = 210
+        Me.PrintPreviewBarItem24.SuperTip = SuperToolTip364
         '
         'PrintPreviewBarItem25
         '
@@ -4671,15 +4647,15 @@ Partial Class Form2
         Me.PrintPreviewBarItem25.Enabled = False
         Me.PrintPreviewBarItem25.Id = 213
         Me.PrintPreviewBarItem25.Name = "PrintPreviewBarItem25"
-        SuperToolTip2645.FixedTooltipWidth = True
-        ToolTipTitleItem2645.Text = "Export To..."
-        ToolTipItem2645.LeftIndent = 6
-        ToolTipItem2645.Text = "Export the current document in one of the available formats, and save it to the f" &
+        SuperToolTip365.FixedTooltipWidth = True
+        ToolTipTitleItem365.Text = "Export To..."
+        ToolTipItem365.LeftIndent = 6
+        ToolTipItem365.Text = "Export the current document in one of the available formats, and save it to the f" &
     "ile on a disk."
-        SuperToolTip2645.Items.Add(ToolTipTitleItem2645)
-        SuperToolTip2645.Items.Add(ToolTipItem2645)
-        SuperToolTip2645.MaxWidth = 210
-        Me.PrintPreviewBarItem25.SuperTip = SuperToolTip2645
+        SuperToolTip365.Items.Add(ToolTipTitleItem365)
+        SuperToolTip365.Items.Add(ToolTipItem365)
+        SuperToolTip365.MaxWidth = 210
+        Me.PrintPreviewBarItem25.SuperTip = SuperToolTip365
         '
         'PrintPreviewBarItem26
         '
@@ -4689,15 +4665,15 @@ Partial Class Form2
         Me.PrintPreviewBarItem26.Enabled = False
         Me.PrintPreviewBarItem26.Id = 214
         Me.PrintPreviewBarItem26.Name = "PrintPreviewBarItem26"
-        SuperToolTip2646.FixedTooltipWidth = True
-        ToolTipTitleItem2646.Text = "E-Mail As..."
-        ToolTipItem2646.LeftIndent = 6
-        ToolTipItem2646.Text = "Export the current document in one of the available formats, and attach it to the" &
+        SuperToolTip366.FixedTooltipWidth = True
+        ToolTipTitleItem366.Text = "E-Mail As..."
+        ToolTipItem366.LeftIndent = 6
+        ToolTipItem366.Text = "Export the current document in one of the available formats, and attach it to the" &
     " e-mail."
-        SuperToolTip2646.Items.Add(ToolTipTitleItem2646)
-        SuperToolTip2646.Items.Add(ToolTipItem2646)
-        SuperToolTip2646.MaxWidth = 210
-        Me.PrintPreviewBarItem26.SuperTip = SuperToolTip2646
+        SuperToolTip366.Items.Add(ToolTipTitleItem366)
+        SuperToolTip366.Items.Add(ToolTipItem366)
+        SuperToolTip366.MaxWidth = 210
+        Me.PrintPreviewBarItem26.SuperTip = SuperToolTip366
         '
         'PrintPreviewBarItem27
         '
@@ -4706,14 +4682,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem27.Enabled = False
         Me.PrintPreviewBarItem27.Id = 215
         Me.PrintPreviewBarItem27.Name = "PrintPreviewBarItem27"
-        SuperToolTip2647.FixedTooltipWidth = True
-        ToolTipTitleItem2647.Text = "Close Print Preview"
-        ToolTipItem2647.LeftIndent = 6
-        ToolTipItem2647.Text = "Close Print Preview of the document."
-        SuperToolTip2647.Items.Add(ToolTipTitleItem2647)
-        SuperToolTip2647.Items.Add(ToolTipItem2647)
-        SuperToolTip2647.MaxWidth = 210
-        Me.PrintPreviewBarItem27.SuperTip = SuperToolTip2647
+        SuperToolTip367.FixedTooltipWidth = True
+        ToolTipTitleItem367.Text = "Close Print Preview"
+        ToolTipItem367.LeftIndent = 6
+        ToolTipItem367.Text = "Close Print Preview of the document."
+        SuperToolTip367.Items.Add(ToolTipTitleItem367)
+        SuperToolTip367.Items.Add(ToolTipItem367)
+        SuperToolTip367.MaxWidth = 210
+        Me.PrintPreviewBarItem27.SuperTip = SuperToolTip367
         '
         'PrintPreviewBarItem28
         '
@@ -4723,14 +4699,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem28.Enabled = False
         Me.PrintPreviewBarItem28.Id = 216
         Me.PrintPreviewBarItem28.Name = "PrintPreviewBarItem28"
-        SuperToolTip2648.FixedTooltipWidth = True
-        ToolTipTitleItem2648.Text = "Page Orientation"
-        ToolTipItem2648.LeftIndent = 6
-        ToolTipItem2648.Text = "Switch the pages between portrait and landscape layouts."
-        SuperToolTip2648.Items.Add(ToolTipTitleItem2648)
-        SuperToolTip2648.Items.Add(ToolTipItem2648)
-        SuperToolTip2648.MaxWidth = 210
-        Me.PrintPreviewBarItem28.SuperTip = SuperToolTip2648
+        SuperToolTip368.FixedTooltipWidth = True
+        ToolTipTitleItem368.Text = "Page Orientation"
+        ToolTipItem368.LeftIndent = 6
+        ToolTipItem368.Text = "Switch the pages between portrait and landscape layouts."
+        SuperToolTip368.Items.Add(ToolTipTitleItem368)
+        SuperToolTip368.Items.Add(ToolTipItem368)
+        SuperToolTip368.MaxWidth = 210
+        Me.PrintPreviewBarItem28.SuperTip = SuperToolTip368
         '
         'PrintPreviewBarItem29
         '
@@ -4740,14 +4716,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem29.Enabled = False
         Me.PrintPreviewBarItem29.Id = 217
         Me.PrintPreviewBarItem29.Name = "PrintPreviewBarItem29"
-        SuperToolTip2649.FixedTooltipWidth = True
-        ToolTipTitleItem2649.Text = "Page Size"
-        ToolTipItem2649.LeftIndent = 6
-        ToolTipItem2649.Text = "Choose the paper size of the document."
-        SuperToolTip2649.Items.Add(ToolTipTitleItem2649)
-        SuperToolTip2649.Items.Add(ToolTipItem2649)
-        SuperToolTip2649.MaxWidth = 210
-        Me.PrintPreviewBarItem29.SuperTip = SuperToolTip2649
+        SuperToolTip369.FixedTooltipWidth = True
+        ToolTipTitleItem369.Text = "Page Size"
+        ToolTipItem369.LeftIndent = 6
+        ToolTipItem369.Text = "Choose the paper size of the document."
+        SuperToolTip369.Items.Add(ToolTipTitleItem369)
+        SuperToolTip369.Items.Add(ToolTipItem369)
+        SuperToolTip369.MaxWidth = 210
+        Me.PrintPreviewBarItem29.SuperTip = SuperToolTip369
         '
         'PrintPreviewBarItem30
         '
@@ -4757,15 +4733,15 @@ Partial Class Form2
         Me.PrintPreviewBarItem30.Enabled = False
         Me.PrintPreviewBarItem30.Id = 218
         Me.PrintPreviewBarItem30.Name = "PrintPreviewBarItem30"
-        SuperToolTip2650.FixedTooltipWidth = True
-        ToolTipTitleItem2650.Text = "Page Margins"
-        ToolTipItem2650.LeftIndent = 6
-        ToolTipItem2650.Text = "Select the margin sizes for the entire document." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "To apply specific margin size" &
+        SuperToolTip370.FixedTooltipWidth = True
+        ToolTipTitleItem370.Text = "Page Margins"
+        ToolTipItem370.LeftIndent = 6
+        ToolTipItem370.Text = "Select the margin sizes for the entire document." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "To apply specific margin size" &
     "s to the document, click Custom Margins."
-        SuperToolTip2650.Items.Add(ToolTipTitleItem2650)
-        SuperToolTip2650.Items.Add(ToolTipItem2650)
-        SuperToolTip2650.MaxWidth = 210
-        Me.PrintPreviewBarItem30.SuperTip = SuperToolTip2650
+        SuperToolTip370.Items.Add(ToolTipTitleItem370)
+        SuperToolTip370.Items.Add(ToolTipItem370)
+        SuperToolTip370.MaxWidth = 210
+        Me.PrintPreviewBarItem30.SuperTip = SuperToolTip370
         '
         'PrintPreviewBarItem31
         '
@@ -4774,14 +4750,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem31.Enabled = False
         Me.PrintPreviewBarItem31.Id = 219
         Me.PrintPreviewBarItem31.Name = "PrintPreviewBarItem31"
-        SuperToolTip2651.FixedTooltipWidth = True
-        ToolTipTitleItem2651.Text = "E-Mail As PDF"
-        ToolTipItem2651.LeftIndent = 6
-        ToolTipItem2651.Text = "Export the document to PDF and attach it to the e-mail."
-        SuperToolTip2651.Items.Add(ToolTipTitleItem2651)
-        SuperToolTip2651.Items.Add(ToolTipItem2651)
-        SuperToolTip2651.MaxWidth = 210
-        Me.PrintPreviewBarItem31.SuperTip = SuperToolTip2651
+        SuperToolTip371.FixedTooltipWidth = True
+        ToolTipTitleItem371.Text = "E-Mail As PDF"
+        ToolTipItem371.LeftIndent = 6
+        ToolTipItem371.Text = "Export the document to PDF and attach it to the e-mail."
+        SuperToolTip371.Items.Add(ToolTipTitleItem371)
+        SuperToolTip371.Items.Add(ToolTipItem371)
+        SuperToolTip371.MaxWidth = 210
+        Me.PrintPreviewBarItem31.SuperTip = SuperToolTip371
         '
         'PrintPreviewBarItem32
         '
@@ -4790,14 +4766,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem32.Enabled = False
         Me.PrintPreviewBarItem32.Id = 220
         Me.PrintPreviewBarItem32.Name = "PrintPreviewBarItem32"
-        SuperToolTip2652.FixedTooltipWidth = True
-        ToolTipTitleItem2652.Text = "E-Mail As Text"
-        ToolTipItem2652.LeftIndent = 6
-        ToolTipItem2652.Text = "Export the document to Text and attach it to the e-mail."
-        SuperToolTip2652.Items.Add(ToolTipTitleItem2652)
-        SuperToolTip2652.Items.Add(ToolTipItem2652)
-        SuperToolTip2652.MaxWidth = 210
-        Me.PrintPreviewBarItem32.SuperTip = SuperToolTip2652
+        SuperToolTip372.FixedTooltipWidth = True
+        ToolTipTitleItem372.Text = "E-Mail As Text"
+        ToolTipItem372.LeftIndent = 6
+        ToolTipItem372.Text = "Export the document to Text and attach it to the e-mail."
+        SuperToolTip372.Items.Add(ToolTipTitleItem372)
+        SuperToolTip372.Items.Add(ToolTipItem372)
+        SuperToolTip372.MaxWidth = 210
+        Me.PrintPreviewBarItem32.SuperTip = SuperToolTip372
         '
         'PrintPreviewBarItem33
         '
@@ -4806,14 +4782,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem33.Enabled = False
         Me.PrintPreviewBarItem33.Id = 221
         Me.PrintPreviewBarItem33.Name = "PrintPreviewBarItem33"
-        SuperToolTip2653.FixedTooltipWidth = True
-        ToolTipTitleItem2653.Text = "E-Mail As CSV"
-        ToolTipItem2653.LeftIndent = 6
-        ToolTipItem2653.Text = "Export the document to CSV and attach it to the e-mail."
-        SuperToolTip2653.Items.Add(ToolTipTitleItem2653)
-        SuperToolTip2653.Items.Add(ToolTipItem2653)
-        SuperToolTip2653.MaxWidth = 210
-        Me.PrintPreviewBarItem33.SuperTip = SuperToolTip2653
+        SuperToolTip373.FixedTooltipWidth = True
+        ToolTipTitleItem373.Text = "E-Mail As CSV"
+        ToolTipItem373.LeftIndent = 6
+        ToolTipItem373.Text = "Export the document to CSV and attach it to the e-mail."
+        SuperToolTip373.Items.Add(ToolTipTitleItem373)
+        SuperToolTip373.Items.Add(ToolTipItem373)
+        SuperToolTip373.MaxWidth = 210
+        Me.PrintPreviewBarItem33.SuperTip = SuperToolTip373
         '
         'PrintPreviewBarItem34
         '
@@ -4822,14 +4798,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem34.Enabled = False
         Me.PrintPreviewBarItem34.Id = 222
         Me.PrintPreviewBarItem34.Name = "PrintPreviewBarItem34"
-        SuperToolTip2654.FixedTooltipWidth = True
-        ToolTipTitleItem2654.Text = "E-Mail As MHT"
-        ToolTipItem2654.LeftIndent = 6
-        ToolTipItem2654.Text = "Export the document to MHT and attach it to the e-mail."
-        SuperToolTip2654.Items.Add(ToolTipTitleItem2654)
-        SuperToolTip2654.Items.Add(ToolTipItem2654)
-        SuperToolTip2654.MaxWidth = 210
-        Me.PrintPreviewBarItem34.SuperTip = SuperToolTip2654
+        SuperToolTip374.FixedTooltipWidth = True
+        ToolTipTitleItem374.Text = "E-Mail As MHT"
+        ToolTipItem374.LeftIndent = 6
+        ToolTipItem374.Text = "Export the document to MHT and attach it to the e-mail."
+        SuperToolTip374.Items.Add(ToolTipTitleItem374)
+        SuperToolTip374.Items.Add(ToolTipItem374)
+        SuperToolTip374.MaxWidth = 210
+        Me.PrintPreviewBarItem34.SuperTip = SuperToolTip374
         '
         'PrintPreviewBarItem35
         '
@@ -4838,14 +4814,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem35.Enabled = False
         Me.PrintPreviewBarItem35.Id = 223
         Me.PrintPreviewBarItem35.Name = "PrintPreviewBarItem35"
-        SuperToolTip2655.FixedTooltipWidth = True
-        ToolTipTitleItem2655.Text = "E-Mail As XLS"
-        ToolTipItem2655.LeftIndent = 6
-        ToolTipItem2655.Text = "Export the document to XLS and attach it to the e-mail."
-        SuperToolTip2655.Items.Add(ToolTipTitleItem2655)
-        SuperToolTip2655.Items.Add(ToolTipItem2655)
-        SuperToolTip2655.MaxWidth = 210
-        Me.PrintPreviewBarItem35.SuperTip = SuperToolTip2655
+        SuperToolTip375.FixedTooltipWidth = True
+        ToolTipTitleItem375.Text = "E-Mail As XLS"
+        ToolTipItem375.LeftIndent = 6
+        ToolTipItem375.Text = "Export the document to XLS and attach it to the e-mail."
+        SuperToolTip375.Items.Add(ToolTipTitleItem375)
+        SuperToolTip375.Items.Add(ToolTipItem375)
+        SuperToolTip375.MaxWidth = 210
+        Me.PrintPreviewBarItem35.SuperTip = SuperToolTip375
         '
         'PrintPreviewBarItem36
         '
@@ -4854,14 +4830,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem36.Enabled = False
         Me.PrintPreviewBarItem36.Id = 224
         Me.PrintPreviewBarItem36.Name = "PrintPreviewBarItem36"
-        SuperToolTip2656.FixedTooltipWidth = True
-        ToolTipTitleItem2656.Text = "E-Mail As XLSX"
-        ToolTipItem2656.LeftIndent = 6
-        ToolTipItem2656.Text = "Export the document to XLSX and attach it to the e-mail."
-        SuperToolTip2656.Items.Add(ToolTipTitleItem2656)
-        SuperToolTip2656.Items.Add(ToolTipItem2656)
-        SuperToolTip2656.MaxWidth = 210
-        Me.PrintPreviewBarItem36.SuperTip = SuperToolTip2656
+        SuperToolTip376.FixedTooltipWidth = True
+        ToolTipTitleItem376.Text = "E-Mail As XLSX"
+        ToolTipItem376.LeftIndent = 6
+        ToolTipItem376.Text = "Export the document to XLSX and attach it to the e-mail."
+        SuperToolTip376.Items.Add(ToolTipTitleItem376)
+        SuperToolTip376.Items.Add(ToolTipItem376)
+        SuperToolTip376.MaxWidth = 210
+        Me.PrintPreviewBarItem36.SuperTip = SuperToolTip376
         '
         'PrintPreviewBarItem37
         '
@@ -4870,14 +4846,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem37.Enabled = False
         Me.PrintPreviewBarItem37.Id = 225
         Me.PrintPreviewBarItem37.Name = "PrintPreviewBarItem37"
-        SuperToolTip2657.FixedTooltipWidth = True
-        ToolTipTitleItem2657.Text = "E-Mail As RTF"
-        ToolTipItem2657.LeftIndent = 6
-        ToolTipItem2657.Text = "Export the document to RTF and attach it to the e-mail."
-        SuperToolTip2657.Items.Add(ToolTipTitleItem2657)
-        SuperToolTip2657.Items.Add(ToolTipItem2657)
-        SuperToolTip2657.MaxWidth = 210
-        Me.PrintPreviewBarItem37.SuperTip = SuperToolTip2657
+        SuperToolTip377.FixedTooltipWidth = True
+        ToolTipTitleItem377.Text = "E-Mail As RTF"
+        ToolTipItem377.LeftIndent = 6
+        ToolTipItem377.Text = "Export the document to RTF and attach it to the e-mail."
+        SuperToolTip377.Items.Add(ToolTipTitleItem377)
+        SuperToolTip377.Items.Add(ToolTipItem377)
+        SuperToolTip377.MaxWidth = 210
+        Me.PrintPreviewBarItem37.SuperTip = SuperToolTip377
         '
         'PrintPreviewBarItem38
         '
@@ -4886,14 +4862,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem38.Enabled = False
         Me.PrintPreviewBarItem38.Id = 226
         Me.PrintPreviewBarItem38.Name = "PrintPreviewBarItem38"
-        SuperToolTip2658.FixedTooltipWidth = True
-        ToolTipTitleItem2658.Text = "E-Mail As DOCX"
-        ToolTipItem2658.LeftIndent = 6
-        ToolTipItem2658.Text = "Export the document to DOCX and attach it to the e-mail."
-        SuperToolTip2658.Items.Add(ToolTipTitleItem2658)
-        SuperToolTip2658.Items.Add(ToolTipItem2658)
-        SuperToolTip2658.MaxWidth = 210
-        Me.PrintPreviewBarItem38.SuperTip = SuperToolTip2658
+        SuperToolTip378.FixedTooltipWidth = True
+        ToolTipTitleItem378.Text = "E-Mail As DOCX"
+        ToolTipItem378.LeftIndent = 6
+        ToolTipItem378.Text = "Export the document to DOCX and attach it to the e-mail."
+        SuperToolTip378.Items.Add(ToolTipTitleItem378)
+        SuperToolTip378.Items.Add(ToolTipItem378)
+        SuperToolTip378.MaxWidth = 210
+        Me.PrintPreviewBarItem38.SuperTip = SuperToolTip378
         '
         'PrintPreviewBarItem39
         '
@@ -4902,14 +4878,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem39.Enabled = False
         Me.PrintPreviewBarItem39.Id = 227
         Me.PrintPreviewBarItem39.Name = "PrintPreviewBarItem39"
-        SuperToolTip2659.FixedTooltipWidth = True
-        ToolTipTitleItem2659.Text = "E-Mail As Image"
-        ToolTipItem2659.LeftIndent = 6
-        ToolTipItem2659.Text = "Export the document to Image and attach it to the e-mail."
-        SuperToolTip2659.Items.Add(ToolTipTitleItem2659)
-        SuperToolTip2659.Items.Add(ToolTipItem2659)
-        SuperToolTip2659.MaxWidth = 210
-        Me.PrintPreviewBarItem39.SuperTip = SuperToolTip2659
+        SuperToolTip379.FixedTooltipWidth = True
+        ToolTipTitleItem379.Text = "E-Mail As Image"
+        ToolTipItem379.LeftIndent = 6
+        ToolTipItem379.Text = "Export the document to Image and attach it to the e-mail."
+        SuperToolTip379.Items.Add(ToolTipTitleItem379)
+        SuperToolTip379.Items.Add(ToolTipItem379)
+        SuperToolTip379.MaxWidth = 210
+        Me.PrintPreviewBarItem39.SuperTip = SuperToolTip379
         '
         'PrintPreviewBarItem40
         '
@@ -4918,14 +4894,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem40.Enabled = False
         Me.PrintPreviewBarItem40.Id = 228
         Me.PrintPreviewBarItem40.Name = "PrintPreviewBarItem40"
-        SuperToolTip2660.FixedTooltipWidth = True
-        ToolTipTitleItem2660.Text = "Export to PDF"
-        ToolTipItem2660.LeftIndent = 6
-        ToolTipItem2660.Text = "Export the document to PDF and save it to the file on a disk."
-        SuperToolTip2660.Items.Add(ToolTipTitleItem2660)
-        SuperToolTip2660.Items.Add(ToolTipItem2660)
-        SuperToolTip2660.MaxWidth = 210
-        Me.PrintPreviewBarItem40.SuperTip = SuperToolTip2660
+        SuperToolTip380.FixedTooltipWidth = True
+        ToolTipTitleItem380.Text = "Export to PDF"
+        ToolTipItem380.LeftIndent = 6
+        ToolTipItem380.Text = "Export the document to PDF and save it to the file on a disk."
+        SuperToolTip380.Items.Add(ToolTipTitleItem380)
+        SuperToolTip380.Items.Add(ToolTipItem380)
+        SuperToolTip380.MaxWidth = 210
+        Me.PrintPreviewBarItem40.SuperTip = SuperToolTip380
         '
         'PrintPreviewBarItem41
         '
@@ -4934,14 +4910,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem41.Enabled = False
         Me.PrintPreviewBarItem41.Id = 229
         Me.PrintPreviewBarItem41.Name = "PrintPreviewBarItem41"
-        SuperToolTip2661.FixedTooltipWidth = True
-        ToolTipTitleItem2661.Text = "Export to HTML"
-        ToolTipItem2661.LeftIndent = 6
-        ToolTipItem2661.Text = "Export the document to HTML and save it to the file on a disk."
-        SuperToolTip2661.Items.Add(ToolTipTitleItem2661)
-        SuperToolTip2661.Items.Add(ToolTipItem2661)
-        SuperToolTip2661.MaxWidth = 210
-        Me.PrintPreviewBarItem41.SuperTip = SuperToolTip2661
+        SuperToolTip381.FixedTooltipWidth = True
+        ToolTipTitleItem381.Text = "Export to HTML"
+        ToolTipItem381.LeftIndent = 6
+        ToolTipItem381.Text = "Export the document to HTML and save it to the file on a disk."
+        SuperToolTip381.Items.Add(ToolTipTitleItem381)
+        SuperToolTip381.Items.Add(ToolTipItem381)
+        SuperToolTip381.MaxWidth = 210
+        Me.PrintPreviewBarItem41.SuperTip = SuperToolTip381
         '
         'PrintPreviewBarItem42
         '
@@ -4950,14 +4926,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem42.Enabled = False
         Me.PrintPreviewBarItem42.Id = 230
         Me.PrintPreviewBarItem42.Name = "PrintPreviewBarItem42"
-        SuperToolTip2662.FixedTooltipWidth = True
-        ToolTipTitleItem2662.Text = "Export to Text"
-        ToolTipItem2662.LeftIndent = 6
-        ToolTipItem2662.Text = "Export the document to Text and save it to the file on a disk."
-        SuperToolTip2662.Items.Add(ToolTipTitleItem2662)
-        SuperToolTip2662.Items.Add(ToolTipItem2662)
-        SuperToolTip2662.MaxWidth = 210
-        Me.PrintPreviewBarItem42.SuperTip = SuperToolTip2662
+        SuperToolTip382.FixedTooltipWidth = True
+        ToolTipTitleItem382.Text = "Export to Text"
+        ToolTipItem382.LeftIndent = 6
+        ToolTipItem382.Text = "Export the document to Text and save it to the file on a disk."
+        SuperToolTip382.Items.Add(ToolTipTitleItem382)
+        SuperToolTip382.Items.Add(ToolTipItem382)
+        SuperToolTip382.MaxWidth = 210
+        Me.PrintPreviewBarItem42.SuperTip = SuperToolTip382
         '
         'PrintPreviewBarItem43
         '
@@ -4966,14 +4942,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem43.Enabled = False
         Me.PrintPreviewBarItem43.Id = 231
         Me.PrintPreviewBarItem43.Name = "PrintPreviewBarItem43"
-        SuperToolTip2663.FixedTooltipWidth = True
-        ToolTipTitleItem2663.Text = "Export to CSV"
-        ToolTipItem2663.LeftIndent = 6
-        ToolTipItem2663.Text = "Export the document to CSV and save it to the file on a disk."
-        SuperToolTip2663.Items.Add(ToolTipTitleItem2663)
-        SuperToolTip2663.Items.Add(ToolTipItem2663)
-        SuperToolTip2663.MaxWidth = 210
-        Me.PrintPreviewBarItem43.SuperTip = SuperToolTip2663
+        SuperToolTip383.FixedTooltipWidth = True
+        ToolTipTitleItem383.Text = "Export to CSV"
+        ToolTipItem383.LeftIndent = 6
+        ToolTipItem383.Text = "Export the document to CSV and save it to the file on a disk."
+        SuperToolTip383.Items.Add(ToolTipTitleItem383)
+        SuperToolTip383.Items.Add(ToolTipItem383)
+        SuperToolTip383.MaxWidth = 210
+        Me.PrintPreviewBarItem43.SuperTip = SuperToolTip383
         '
         'PrintPreviewBarItem44
         '
@@ -4982,14 +4958,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem44.Enabled = False
         Me.PrintPreviewBarItem44.Id = 232
         Me.PrintPreviewBarItem44.Name = "PrintPreviewBarItem44"
-        SuperToolTip2664.FixedTooltipWidth = True
-        ToolTipTitleItem2664.Text = "Export to MHT"
-        ToolTipItem2664.LeftIndent = 6
-        ToolTipItem2664.Text = "Export the document to MHT and save it to the file on a disk."
-        SuperToolTip2664.Items.Add(ToolTipTitleItem2664)
-        SuperToolTip2664.Items.Add(ToolTipItem2664)
-        SuperToolTip2664.MaxWidth = 210
-        Me.PrintPreviewBarItem44.SuperTip = SuperToolTip2664
+        SuperToolTip384.FixedTooltipWidth = True
+        ToolTipTitleItem384.Text = "Export to MHT"
+        ToolTipItem384.LeftIndent = 6
+        ToolTipItem384.Text = "Export the document to MHT and save it to the file on a disk."
+        SuperToolTip384.Items.Add(ToolTipTitleItem384)
+        SuperToolTip384.Items.Add(ToolTipItem384)
+        SuperToolTip384.MaxWidth = 210
+        Me.PrintPreviewBarItem44.SuperTip = SuperToolTip384
         '
         'PrintPreviewBarItem45
         '
@@ -4998,14 +4974,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem45.Enabled = False
         Me.PrintPreviewBarItem45.Id = 233
         Me.PrintPreviewBarItem45.Name = "PrintPreviewBarItem45"
-        SuperToolTip2665.FixedTooltipWidth = True
-        ToolTipTitleItem2665.Text = "Export to XLS"
-        ToolTipItem2665.LeftIndent = 6
-        ToolTipItem2665.Text = "Export the document to XLS and save it to the file on a disk."
-        SuperToolTip2665.Items.Add(ToolTipTitleItem2665)
-        SuperToolTip2665.Items.Add(ToolTipItem2665)
-        SuperToolTip2665.MaxWidth = 210
-        Me.PrintPreviewBarItem45.SuperTip = SuperToolTip2665
+        SuperToolTip385.FixedTooltipWidth = True
+        ToolTipTitleItem385.Text = "Export to XLS"
+        ToolTipItem385.LeftIndent = 6
+        ToolTipItem385.Text = "Export the document to XLS and save it to the file on a disk."
+        SuperToolTip385.Items.Add(ToolTipTitleItem385)
+        SuperToolTip385.Items.Add(ToolTipItem385)
+        SuperToolTip385.MaxWidth = 210
+        Me.PrintPreviewBarItem45.SuperTip = SuperToolTip385
         '
         'PrintPreviewBarItem46
         '
@@ -5014,14 +4990,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem46.Enabled = False
         Me.PrintPreviewBarItem46.Id = 234
         Me.PrintPreviewBarItem46.Name = "PrintPreviewBarItem46"
-        SuperToolTip2666.FixedTooltipWidth = True
-        ToolTipTitleItem2666.Text = "Export to XLSX"
-        ToolTipItem2666.LeftIndent = 6
-        ToolTipItem2666.Text = "Export the document to XLSX and save it to the file on a disk."
-        SuperToolTip2666.Items.Add(ToolTipTitleItem2666)
-        SuperToolTip2666.Items.Add(ToolTipItem2666)
-        SuperToolTip2666.MaxWidth = 210
-        Me.PrintPreviewBarItem46.SuperTip = SuperToolTip2666
+        SuperToolTip386.FixedTooltipWidth = True
+        ToolTipTitleItem386.Text = "Export to XLSX"
+        ToolTipItem386.LeftIndent = 6
+        ToolTipItem386.Text = "Export the document to XLSX and save it to the file on a disk."
+        SuperToolTip386.Items.Add(ToolTipTitleItem386)
+        SuperToolTip386.Items.Add(ToolTipItem386)
+        SuperToolTip386.MaxWidth = 210
+        Me.PrintPreviewBarItem46.SuperTip = SuperToolTip386
         '
         'PrintPreviewBarItem47
         '
@@ -5030,14 +5006,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem47.Enabled = False
         Me.PrintPreviewBarItem47.Id = 235
         Me.PrintPreviewBarItem47.Name = "PrintPreviewBarItem47"
-        SuperToolTip2667.FixedTooltipWidth = True
-        ToolTipTitleItem2667.Text = "Export to RTF"
-        ToolTipItem2667.LeftIndent = 6
-        ToolTipItem2667.Text = "Export the document to RTF and save it to the file on a disk."
-        SuperToolTip2667.Items.Add(ToolTipTitleItem2667)
-        SuperToolTip2667.Items.Add(ToolTipItem2667)
-        SuperToolTip2667.MaxWidth = 210
-        Me.PrintPreviewBarItem47.SuperTip = SuperToolTip2667
+        SuperToolTip387.FixedTooltipWidth = True
+        ToolTipTitleItem387.Text = "Export to RTF"
+        ToolTipItem387.LeftIndent = 6
+        ToolTipItem387.Text = "Export the document to RTF and save it to the file on a disk."
+        SuperToolTip387.Items.Add(ToolTipTitleItem387)
+        SuperToolTip387.Items.Add(ToolTipItem387)
+        SuperToolTip387.MaxWidth = 210
+        Me.PrintPreviewBarItem47.SuperTip = SuperToolTip387
         '
         'PrintPreviewBarItem48
         '
@@ -5046,14 +5022,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem48.Enabled = False
         Me.PrintPreviewBarItem48.Id = 236
         Me.PrintPreviewBarItem48.Name = "PrintPreviewBarItem48"
-        SuperToolTip2668.FixedTooltipWidth = True
-        ToolTipTitleItem2668.Text = "Export to DOCX"
-        ToolTipItem2668.LeftIndent = 6
-        ToolTipItem2668.Text = "Export the document to DOCX and save it to the file on a disk."
-        SuperToolTip2668.Items.Add(ToolTipTitleItem2668)
-        SuperToolTip2668.Items.Add(ToolTipItem2668)
-        SuperToolTip2668.MaxWidth = 210
-        Me.PrintPreviewBarItem48.SuperTip = SuperToolTip2668
+        SuperToolTip388.FixedTooltipWidth = True
+        ToolTipTitleItem388.Text = "Export to DOCX"
+        ToolTipItem388.LeftIndent = 6
+        ToolTipItem388.Text = "Export the document to DOCX and save it to the file on a disk."
+        SuperToolTip388.Items.Add(ToolTipTitleItem388)
+        SuperToolTip388.Items.Add(ToolTipItem388)
+        SuperToolTip388.MaxWidth = 210
+        Me.PrintPreviewBarItem48.SuperTip = SuperToolTip388
         '
         'PrintPreviewBarItem49
         '
@@ -5062,14 +5038,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem49.Enabled = False
         Me.PrintPreviewBarItem49.Id = 237
         Me.PrintPreviewBarItem49.Name = "PrintPreviewBarItem49"
-        SuperToolTip2669.FixedTooltipWidth = True
-        ToolTipTitleItem2669.Text = "Export to Image"
-        ToolTipItem2669.LeftIndent = 6
-        ToolTipItem2669.Text = "Export the document to Image and save it to the file on a disk."
-        SuperToolTip2669.Items.Add(ToolTipTitleItem2669)
-        SuperToolTip2669.Items.Add(ToolTipItem2669)
-        SuperToolTip2669.MaxWidth = 210
-        Me.PrintPreviewBarItem49.SuperTip = SuperToolTip2669
+        SuperToolTip389.FixedTooltipWidth = True
+        ToolTipTitleItem389.Text = "Export to Image"
+        ToolTipItem389.LeftIndent = 6
+        ToolTipItem389.Text = "Export the document to Image and save it to the file on a disk."
+        SuperToolTip389.Items.Add(ToolTipTitleItem389)
+        SuperToolTip389.Items.Add(ToolTipItem389)
+        SuperToolTip389.MaxWidth = 210
+        Me.PrintPreviewBarItem49.SuperTip = SuperToolTip389
         '
         'PrintPreviewBarItem50
         '
@@ -5078,14 +5054,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem50.Enabled = False
         Me.PrintPreviewBarItem50.Id = 238
         Me.PrintPreviewBarItem50.Name = "PrintPreviewBarItem50"
-        SuperToolTip2670.FixedTooltipWidth = True
-        ToolTipTitleItem2670.Text = "Open (Ctrl + O)"
-        ToolTipItem2670.LeftIndent = 6
-        ToolTipItem2670.Text = "Open a document."
-        SuperToolTip2670.Items.Add(ToolTipTitleItem2670)
-        SuperToolTip2670.Items.Add(ToolTipItem2670)
-        SuperToolTip2670.MaxWidth = 210
-        Me.PrintPreviewBarItem50.SuperTip = SuperToolTip2670
+        SuperToolTip390.FixedTooltipWidth = True
+        ToolTipTitleItem390.Text = "Open (Ctrl + O)"
+        ToolTipItem390.LeftIndent = 6
+        ToolTipItem390.Text = "Open a document."
+        SuperToolTip390.Items.Add(ToolTipTitleItem390)
+        SuperToolTip390.Items.Add(ToolTipItem390)
+        SuperToolTip390.MaxWidth = 210
+        Me.PrintPreviewBarItem50.SuperTip = SuperToolTip390
         '
         'PrintPreviewBarItem51
         '
@@ -5094,14 +5070,14 @@ Partial Class Form2
         Me.PrintPreviewBarItem51.Enabled = False
         Me.PrintPreviewBarItem51.Id = 239
         Me.PrintPreviewBarItem51.Name = "PrintPreviewBarItem51"
-        SuperToolTip2671.FixedTooltipWidth = True
-        ToolTipTitleItem2671.Text = "Save (Ctrl + S)"
-        ToolTipItem2671.LeftIndent = 6
-        ToolTipItem2671.Text = "Save the document."
-        SuperToolTip2671.Items.Add(ToolTipTitleItem2671)
-        SuperToolTip2671.Items.Add(ToolTipItem2671)
-        SuperToolTip2671.MaxWidth = 210
-        Me.PrintPreviewBarItem51.SuperTip = SuperToolTip2671
+        SuperToolTip391.FixedTooltipWidth = True
+        ToolTipTitleItem391.Text = "Save (Ctrl + S)"
+        ToolTipItem391.LeftIndent = 6
+        ToolTipItem391.Text = "Save the document."
+        SuperToolTip391.Items.Add(ToolTipTitleItem391)
+        SuperToolTip391.Items.Add(ToolTipItem391)
+        SuperToolTip391.MaxWidth = 210
+        Me.PrintPreviewBarItem51.SuperTip = SuperToolTip391
         '
         'PrintPreviewStaticItem1
         '
@@ -7272,418 +7248,264 @@ Partial Class Form2
         Me.BarButtonItem254.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem254.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.BarButtonItem254.Name = "BarButtonItem254"
         '
-        'RibbonPage1
-        '
-        Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup55, Me.RibbonPageGroup57})
-        Me.RibbonPage1.Name = "RibbonPage1"
-        Me.RibbonPage1.Text = "Satış"
-        '
-        'RibbonPageGroup1
-        '
-        Me.RibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[True]
-        Me.RibbonPageGroup1.ItemLinks.Add(Me.BarButtonItem8, True)
-        Me.RibbonPageGroup1.ItemLinks.Add(Me.BarButtonItem9, True)
-        Me.RibbonPageGroup1.ItemLinks.Add(Me.BarButtonItem10, True)
-        Me.RibbonPageGroup1.ItemLinks.Add(Me.BarButtonItem11, True)
-        Me.RibbonPageGroup1.Name = "RibbonPageGroup1"
-        Me.RibbonPageGroup1.Text = "Satış İşlemler"
-        '
-        'RibbonPageGroup55
-        '
-        Me.RibbonPageGroup55.ItemLinks.Add(Me.BarButtonItem230)
-        Me.RibbonPageGroup55.ItemLinks.Add(Me.BarButtonItem232, True)
-        Me.RibbonPageGroup55.ItemLinks.Add(Me.BarButtonItem233, True)
-        Me.RibbonPageGroup55.ItemLinks.Add(Me.BarButtonItem234, True)
-        Me.RibbonPageGroup55.Name = "RibbonPageGroup55"
-        Me.RibbonPageGroup55.Text = "Satış Excel"
-        '
-        'RibbonPageGroup57
-        '
-        Me.RibbonPageGroup57.ItemLinks.Add(Me.BarButtonItem235)
-        Me.RibbonPageGroup57.ItemLinks.Add(Me.BarButtonItem236, True)
-        Me.RibbonPageGroup57.ItemLinks.Add(Me.BarButtonItem237, True)
-        Me.RibbonPageGroup57.Name = "RibbonPageGroup57"
-        Me.RibbonPageGroup57.Text = "Satış Talep Onay"
-        '
-        'RibbonPage2
-        '
-        Me.RibbonPage2.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup2, Me.RibbonPageGroup3, Me.RibbonPageGroup14})
-        Me.RibbonPage2.Name = "RibbonPage2"
-        Me.RibbonPage2.Text = "Satın Alma"
-        '
-        'RibbonPageGroup2
-        '
-        Me.RibbonPageGroup2.ItemLinks.Add(Me.BarButtonItem1)
-        Me.RibbonPageGroup2.ItemLinks.Add(Me.BarButtonItem2, True)
-        Me.RibbonPageGroup2.ItemLinks.Add(Me.BarButtonItem3, True)
-        Me.RibbonPageGroup2.ItemLinks.Add(Me.BarButtonItem4, True)
-        Me.RibbonPageGroup2.Name = "RibbonPageGroup2"
-        Me.RibbonPageGroup2.Text = "Satın Alma Talep İşlemler"
-        '
-        'RibbonPageGroup3
-        '
-        Me.RibbonPageGroup3.ItemLinks.Add(Me.BarButtonItem6)
-        Me.RibbonPageGroup3.ItemLinks.Add(Me.BarButtonItem7)
-        Me.RibbonPageGroup3.Name = "RibbonPageGroup3"
-        Me.RibbonPageGroup3.Text = "Satıcı Sipariş İşlemler"
-        '
-        'RibbonPageGroup14
-        '
-        Me.RibbonPageGroup14.ItemLinks.Add(Me.BarButtonItem12)
-        Me.RibbonPageGroup14.Name = "RibbonPageGroup14"
-        Me.RibbonPageGroup14.Text = "Sipariş Takip"
-        '
-        'RibbonPage15
-        '
-        Me.RibbonPage15.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup33, Me.RibbonPageGroup24, Me.RibbonPageGroup52})
-        Me.RibbonPage15.Name = "RibbonPage15"
-        Me.RibbonPage15.Text = "Sipariş Onay Süreçleri"
-        '
-        'RibbonPageGroup33
-        '
-        Me.RibbonPageGroup33.ItemLinks.Add(Me.BarButtonItem116)
-        Me.RibbonPageGroup33.ItemLinks.Add(Me.BarButtonItem123, True)
-        Me.RibbonPageGroup33.ItemLinks.Add(Me.BarButtonItem117, True)
-        Me.RibbonPageGroup33.ItemLinks.Add(Me.BarButtonItem118, True)
-        Me.RibbonPageGroup33.ItemLinks.Add(Me.BarButtonItem224, True)
-        Me.RibbonPageGroup33.Name = "RibbonPageGroup33"
-        Me.RibbonPageGroup33.Text = "Sipariş Süreçleri"
-        '
-        'RibbonPageGroup24
-        '
-        Me.RibbonPageGroup24.ItemLinks.Add(Me.BarButtonItem120)
-        Me.RibbonPageGroup24.Name = "RibbonPageGroup24"
-        Me.RibbonPageGroup24.Text = "Üretim - Depo Süreçleri"
-        '
-        'RibbonPageGroup52
-        '
-        Me.RibbonPageGroup52.ItemLinks.Add(Me.BarButtonItem223, True)
-        Me.RibbonPageGroup52.Name = "RibbonPageGroup52"
-        Me.RibbonPageGroup52.Text = "İptal Süreçleri"
-        '
-        'RibbonPage17
-        '
-        Me.RibbonPage17.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup29, Me.RibbonPageGroup35, Me.RibbonPageGroup39})
-        Me.RibbonPage17.Name = "RibbonPage17"
-        Me.RibbonPage17.Text = "Kalite"
-        '
-        'RibbonPageGroup29
-        '
-        Me.RibbonPageGroup29.ItemLinks.Add(Me.BarButtonItem100)
-        Me.RibbonPageGroup29.ItemLinks.Add(Me.BarButtonItem101, True)
-        Me.RibbonPageGroup29.ItemLinks.Add(Me.BarButtonItem127)
-        Me.RibbonPageGroup29.ItemLinks.Add(Me.BarButtonItem128)
-        Me.RibbonPageGroup29.Name = "RibbonPageGroup29"
-        Me.RibbonPageGroup29.Text = "Kalite Moduller"
-        '
-        'RibbonPageGroup35
-        '
-        Me.RibbonPageGroup35.ItemLinks.Add(Me.BarButtonItem124)
-        Me.RibbonPageGroup35.ItemLinks.Add(Me.BarButtonItem125)
-        Me.RibbonPageGroup35.ItemLinks.Add(Me.BarButtonItem126)
-        Me.RibbonPageGroup35.Name = "RibbonPageGroup35"
-        Me.RibbonPageGroup35.Text = "Kiraz Kalite Kontrol"
-        '
-        'RibbonPageGroup39
-        '
-        Me.RibbonPageGroup39.ItemLinks.Add(Me.BarButtonItem148)
-        Me.RibbonPageGroup39.ItemLinks.Add(Me.BarButtonItem152, True)
-        Me.RibbonPageGroup39.ItemLinks.Add(Me.BarButtonItem155, True)
-        Me.RibbonPageGroup39.Name = "RibbonPageGroup39"
-        Me.RibbonPageGroup39.Text = "Meyve Alım Merkez"
-        '
-        'RibbonPage14
-        '
-        Me.RibbonPage14.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup30, Me.RibbonPageGroup31, Me.RibbonPageGroup32})
-        Me.RibbonPage14.Name = "RibbonPage14"
-        Me.RibbonPage14.Text = "Lojistik"
-        '
-        'RibbonPageGroup30
-        '
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem102, True)
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem103, True)
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem104, True)
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem105, True)
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem106, True)
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem107, True)
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem108, True)
-        Me.RibbonPageGroup30.ItemLinks.Add(Me.BarButtonItem109, True)
-        Me.RibbonPageGroup30.Name = "RibbonPageGroup30"
-        Me.RibbonPageGroup30.Text = "Karayolu Sevkiyat Modulu"
-        '
-        'RibbonPageGroup31
-        '
-        Me.RibbonPageGroup31.ItemLinks.Add(Me.BarButtonItem110)
-        Me.RibbonPageGroup31.ItemLinks.Add(Me.BarButtonItem111, True)
-        Me.RibbonPageGroup31.ItemLinks.Add(Me.BarButtonItem228, True)
-        Me.RibbonPageGroup31.Name = "RibbonPageGroup31"
-        Me.RibbonPageGroup31.Text = "Havayolu Lojistik Modulu"
-        '
-        'RibbonPageGroup32
-        '
-        Me.RibbonPageGroup32.ItemLinks.Add(Me.BarButtonItem112, True)
-        Me.RibbonPageGroup32.ItemLinks.Add(Me.BarButtonItem115, True)
-        Me.RibbonPageGroup32.ItemLinks.Add(Me.BarButtonItem227, True)
-        Me.RibbonPageGroup32.Name = "RibbonPageGroup32"
-        Me.RibbonPageGroup32.Text = "Denizyolu Lojistik Modulu"
-        '
-        'RibbonPage16
-        '
-        Me.RibbonPage16.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup23, Me.RibbonPageGroup42, Me.RibbonPageGroup51})
-        Me.RibbonPage16.Name = "RibbonPage16"
-        Me.RibbonPage16.Text = "Sevkiyat"
-        '
-        'RibbonPageGroup23
-        '
-        Me.RibbonPageGroup23.ItemLinks.Add(Me.BarButtonItem130)
-        Me.RibbonPageGroup23.Name = "RibbonPageGroup23"
-        Me.RibbonPageGroup23.Text = "İhracat"
-        '
-        'RibbonPageGroup42
-        '
-        Me.RibbonPageGroup42.ItemLinks.Add(Me.BarButtonItem168, True)
-        Me.RibbonPageGroup42.ItemLinks.Add(Me.BarButtonItem167, True)
-        Me.RibbonPageGroup42.Name = "RibbonPageGroup42"
-        Me.RibbonPageGroup42.Text = "Sevk Rapor"
-        '
-        'RibbonPageGroup51
-        '
-        Me.RibbonPageGroup51.ItemLinks.Add(Me.BarButtonItem221)
-        Me.RibbonPageGroup51.ItemLinks.Add(Me.BarButtonItem222, True)
-        Me.RibbonPageGroup51.Name = "RibbonPageGroup51"
-        Me.RibbonPageGroup51.Text = "Diğer Sevk"
-        '
-        'RibbonPage3
-        '
-        Me.RibbonPage3.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup4, Me.RibbonPageGroup25})
-        Me.RibbonPage3.Name = "RibbonPage3"
-        Me.RibbonPage3.Text = "Depo Raporlar"
-        '
-        'RibbonPageGroup4
-        '
-        Me.RibbonPageGroup4.ItemLinks.Add(Me.BarButtonItem13)
-        Me.RibbonPageGroup4.ItemLinks.Add(Me.BarButtonItem14, True)
-        Me.RibbonPageGroup4.ItemLinks.Add(Me.BarButtonItem15, True)
-        Me.RibbonPageGroup4.Name = "RibbonPageGroup4"
-        Me.RibbonPageGroup4.Text = "Raporlar"
-        '
-        'RibbonPageGroup25
-        '
-        Me.RibbonPageGroup25.ItemLinks.Add(Me.BarButtonItem121)
-        Me.RibbonPageGroup25.ItemLinks.Add(Me.BarButtonItem122, True)
-        Me.RibbonPageGroup25.ItemLinks.Add(Me.BarButtonItem143, True)
-        Me.RibbonPageGroup25.ItemLinks.Add(Me.BarButtonItem149, True)
-        Me.RibbonPageGroup25.ItemLinks.Add(Me.BarButtonItem158)
-        Me.RibbonPageGroup25.ItemLinks.Add(Me.BarButtonItem175, True)
-        Me.RibbonPageGroup25.ItemLinks.Add(Me.BarButtonItem207, True)
-        Me.RibbonPageGroup25.Name = "RibbonPageGroup25"
-        Me.RibbonPageGroup25.Text = "Depo Stok"
-        '
-        'RibbonPage5
-        '
-        Me.RibbonPage5.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup6, Me.RibbonPageGroup17, Me.RibbonPageGroup18, Me.RibbonPageGroup46, Me.RibbonPageGroup47, Me.RibbonPageGroup36, Me.RibbonPageGroup38, Me.RibbonPageGroup40})
-        Me.RibbonPage5.Name = "RibbonPage5"
-        Me.RibbonPage5.Text = "Üretim Raporlar"
-        '
-        'RibbonPageGroup6
-        '
-        Me.RibbonPageGroup6.ItemLinks.Add(Me.BarSubItem1)
-        Me.RibbonPageGroup6.ItemLinks.Add(Me.BarSubItem5, True)
-        Me.RibbonPageGroup6.Name = "RibbonPageGroup6"
-        Me.RibbonPageGroup6.Text = "NAR Raporlar"
-        '
-        'RibbonPageGroup17
-        '
-        Me.RibbonPageGroup17.ItemLinks.Add(Me.BarSubItem6)
-        Me.RibbonPageGroup17.ItemLinks.Add(Me.BarSubItem7, True)
-        Me.RibbonPageGroup17.Name = "RibbonPageGroup17"
-        Me.RibbonPageGroup17.Text = "KIVI Raporlar"
-        '
-        'RibbonPageGroup18
-        '
-        Me.RibbonPageGroup18.ImageOptions.Image = CType(resources.GetObject("RibbonPageGroup18.ImageOptions.Image"), System.Drawing.Image)
-        Me.RibbonPageGroup18.ItemLinks.Add(Me.BarSubItem8)
-        Me.RibbonPageGroup18.ItemLinks.Add(Me.BarSubItem9, True)
-        Me.RibbonPageGroup18.Name = "RibbonPageGroup18"
-        Me.RibbonPageGroup18.Text = "KİRAZ Raporlar"
-        '
-        'RibbonPageGroup46
-        '
-        Me.RibbonPageGroup46.ItemLinks.Add(Me.BarSubItem28)
-        Me.RibbonPageGroup46.Name = "RibbonPageGroup46"
-        Me.RibbonPageGroup46.Text = "İNCİR Raporlar"
-        '
-        'RibbonPageGroup47
-        '
-        Me.RibbonPageGroup47.ItemLinks.Add(Me.BarSubItem29)
-        Me.RibbonPageGroup47.Name = "RibbonPageGroup47"
-        Me.RibbonPageGroup47.Text = "ERİK Raporlar"
-        '
-        'RibbonPageGroup36
-        '
-        Me.RibbonPageGroup36.ItemLinks.Add(Me.BarButtonItem131)
-        Me.RibbonPageGroup36.ItemLinks.Add(Me.BarButtonItem142, True)
-        Me.RibbonPageGroup36.Name = "RibbonPageGroup36"
-        Me.RibbonPageGroup36.Text = "Üretim Stok"
-        '
-        'RibbonPageGroup38
-        '
-        Me.RibbonPageGroup38.ItemLinks.Add(Me.BarButtonItem141)
-        Me.RibbonPageGroup38.ItemLinks.Add(Me.BarButtonItem153, True)
-        Me.RibbonPageGroup38.ItemLinks.Add(Me.BarButtonItem154, True)
-        Me.RibbonPageGroup38.Name = "RibbonPageGroup38"
-        Me.RibbonPageGroup38.Text = "Üretim Sarf Reçete Tüketim"
-        '
-        'RibbonPageGroup40
-        '
-        Me.RibbonPageGroup40.ItemLinks.Add(Me.BarButtonItem160)
-        Me.RibbonPageGroup40.ItemLinks.Add(Me.BarButtonItem164)
-        Me.RibbonPageGroup40.ItemLinks.Add(Me.BarButtonItem165)
-        Me.RibbonPageGroup40.Name = "RibbonPageGroup40"
-        Me.RibbonPageGroup40.Text = "Üretim İşlem"
-        '
-        'RibbonPage4
-        '
-        Me.RibbonPage4.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup5, Me.RibbonPageGroup15, Me.RibbonPageGroup16})
-        Me.RibbonPage4.Name = "RibbonPage4"
-        Me.RibbonPage4.Text = "Sarf Raporlar"
-        '
-        'RibbonPageGroup5
-        '
-        Me.RibbonPageGroup5.ItemLinks.Add(Me.BarButtonItem16)
-        Me.RibbonPageGroup5.ItemLinks.Add(Me.BarButtonItem17, True)
-        Me.RibbonPageGroup5.ItemLinks.Add(Me.BarButtonItem18, True)
-        Me.RibbonPageGroup5.Name = "RibbonPageGroup5"
-        Me.RibbonPageGroup5.Text = "Genel Sarf Raporlar"
-        '
-        'RibbonPageGroup15
-        '
-        Me.RibbonPageGroup15.ItemLinks.Add(Me.BarButtonItem19)
-        Me.RibbonPageGroup15.ItemLinks.Add(Me.BarButtonItem20, True)
-        Me.RibbonPageGroup15.Name = "RibbonPageGroup15"
-        Me.RibbonPageGroup15.Text = "KIVI Sarf Raporlar"
-        '
-        'RibbonPageGroup16
-        '
-        Me.RibbonPageGroup16.ItemLinks.Add(Me.BarButtonItem21)
-        Me.RibbonPageGroup16.Name = "RibbonPageGroup16"
-        Me.RibbonPageGroup16.Text = "NAR Sarf Raporlar"
-        '
-        'RibbonPage6
-        '
-        Me.RibbonPage6.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup7, Me.RibbonPageGroup19})
-        Me.RibbonPage6.Name = "RibbonPage6"
-        Me.RibbonPage6.Text = "Paketleme Raporlar"
+        'BarButtonItem255
+        '
+        Me.BarButtonItem255.Caption = "Meyve Alım Seri İzleme"
+        Me.BarButtonItem255.Id = 532
+        Me.BarButtonItem255.ImageOptions.Image = CType(resources.GetObject("BarButtonItem255.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarButtonItem255.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem255.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarButtonItem255.Name = "BarButtonItem255"
+        '
+        'BarSubItem31
+        '
+        Me.BarSubItem31.Caption = "Üretim"
+        Me.BarSubItem31.Id = 533
+        Me.BarSubItem31.ImageOptions.Image = CType(resources.GetObject("BarSubItem31.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem31.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem31.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem31.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem5), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem7), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem8), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem9), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem28), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem29), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem131), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem142), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem141), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem153), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem154), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem165)})
+        Me.BarSubItem31.Name = "BarSubItem31"
+        '
+        'BarSubItem32
+        '
+        Me.BarSubItem32.Caption = "Depo"
+        Me.BarSubItem32.Id = 534
+        Me.BarSubItem32.ImageOptions.Image = CType(resources.GetObject("BarSubItem32.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem32.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem32.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem32.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem13), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem14), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem15), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem121), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem122), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem143), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem149), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem158), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem175), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem207), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem255)})
+        Me.BarSubItem32.Name = "BarSubItem32"
+        '
+        'BarSubItem33
+        '
+        Me.BarSubItem33.Caption = "Sarf"
+        Me.BarSubItem33.Id = 535
+        Me.BarSubItem33.ImageOptions.Image = CType(resources.GetObject("BarSubItem33.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem33.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem33.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem33.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem16), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem17), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem18), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem19), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem20), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem21)})
+        Me.BarSubItem33.Name = "BarSubItem33"
+        '
+        'BarSubItem34
+        '
+        Me.BarSubItem34.Caption = "Sevkiyat"
+        Me.BarSubItem34.Id = 536
+        Me.BarSubItem34.ImageOptions.Image = CType(resources.GetObject("BarSubItem34.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem34.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem34.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem34.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem130), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem168), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem167), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem221), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem222)})
+        Me.BarSubItem34.Name = "BarSubItem34"
+        '
+        'BarSubItem35
+        '
+        Me.BarSubItem35.Caption = "Grafik"
+        Me.BarSubItem35.Id = 537
+        Me.BarSubItem35.ImageOptions.Image = CType(resources.GetObject("BarSubItem35.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem35.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem35.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem35.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem12), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem13)})
+        Me.BarSubItem35.Name = "BarSubItem35"
+        '
+        'BarSubItem36
+        '
+        Me.BarSubItem36.Caption = "Paketleme"
+        Me.BarSubItem36.Id = 538
+        Me.BarSubItem36.ImageOptions.Image = CType(resources.GetObject("BarSubItem36.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem36.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem36.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem36.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem10), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem11)})
+        Me.BarSubItem36.Name = "BarSubItem36"
+        '
+        'BarSubItem37
+        '
+        Me.BarSubItem37.Caption = "Depo"
+        Me.BarSubItem37.Id = 539
+        Me.BarSubItem37.ImageOptions.Image = CType(resources.GetObject("BarSubItem37.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem37.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem37.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem37.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem18), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem24), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem25)})
+        Me.BarSubItem37.Name = "BarSubItem37"
+        '
+        'BarSubItem38
+        '
+        Me.BarSubItem38.Caption = "Üretim"
+        Me.BarSubItem38.Id = 540
+        Me.BarSubItem38.ImageOptions.Image = CType(resources.GetObject("BarSubItem38.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem38.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem38.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem38.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem14), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem15), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem30), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem16), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem26), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem27), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem17), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem231), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem166)})
+        Me.BarSubItem38.Name = "BarSubItem38"
+        '
+        'BarSubItem39
+        '
+        Me.BarSubItem39.Caption = "Satış"
+        Me.BarSubItem39.Id = 541
+        Me.BarSubItem39.ImageOptions.Image = CType(resources.GetObject("BarSubItem39.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem39.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem39.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem39.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem8), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem235), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem236), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem237), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem116), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem117), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem118), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem224), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem123), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem9), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem10), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem11), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem120), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem223)})
+        Me.BarSubItem39.Name = "BarSubItem39"
+        '
+        'BarSubItem40
+        '
+        Me.BarSubItem40.Caption = "Satış"
+        Me.BarSubItem40.Id = 542
+        Me.BarSubItem40.ImageOptions.Image = CType(resources.GetObject("BarSubItem40.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem40.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem40.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem40.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem230), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem232), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem233), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem234)})
+        Me.BarSubItem40.Name = "BarSubItem40"
+        '
+        'BarSubItem41
+        '
+        Me.BarSubItem41.Caption = "Lojistik"
+        Me.BarSubItem41.Id = 543
+        Me.BarSubItem41.ImageOptions.Image = CType(resources.GetObject("BarSubItem41.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem41.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem41.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem41.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem103), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem104), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem105), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem106), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem107), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem108), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem109), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem228), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem227)})
+        Me.BarSubItem41.Name = "BarSubItem41"
+        '
+        'BarSubItem42
+        '
+        Me.BarSubItem42.Caption = "Lojistik"
+        Me.BarSubItem42.Id = 544
+        Me.BarSubItem42.ImageOptions.Image = CType(resources.GetObject("BarSubItem42.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem42.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem42.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem42.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem102), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem110), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem111), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem112), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem115)})
+        Me.BarSubItem42.Name = "BarSubItem42"
+        '
+        'BarSubItem43
+        '
+        Me.BarSubItem43.Caption = "Üretim"
+        Me.BarSubItem43.Id = 545
+        Me.BarSubItem43.ImageOptions.Image = CType(resources.GetObject("BarSubItem43.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem43.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem43.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem43.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem160), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem164), New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.BarButtonItem256, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph)})
+        Me.BarSubItem43.Name = "BarSubItem43"
+        '
+        'BarButtonItem256
+        '
+        Me.BarButtonItem256.Caption = "Üretim Sarf İşlem"
+        Me.BarButtonItem256.Id = 548
+        Me.BarButtonItem256.ImageOptions.Image = CType(resources.GetObject("BarButtonItem256.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarButtonItem256.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem256.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarButtonItem256.Name = "BarButtonItem256"
+        '
+        'BarSubItem44
+        '
+        Me.BarSubItem44.Caption = "Kalite"
+        Me.BarSubItem44.Id = 546
+        Me.BarSubItem44.ImageOptions.Image = CType(resources.GetObject("BarSubItem44.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem44.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem44.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem44.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem100), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem101), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem127), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem128), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem124), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem125), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem126), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem148), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem152), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem155)})
+        Me.BarSubItem44.Name = "BarSubItem44"
+        '
+        'BarSubItem45
+        '
+        Me.BarSubItem45.Caption = "Satın Alma"
+        Me.BarSubItem45.Id = 547
+        Me.BarSubItem45.ImageOptions.Image = CType(resources.GetObject("BarSubItem45.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem45.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem45.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem45.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem3), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem4), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem7), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem12)})
+        Me.BarSubItem45.Name = "BarSubItem45"
+        '
+        'RibbonPage22
+        '
+        Me.RibbonPage22.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup60, Me.RibbonPageGroup7})
+        Me.RibbonPage22.Name = "RibbonPage22"
+        Me.RibbonPage22.Text = "Tanımlamalar"
+        '
+        'RibbonPageGroup60
+        '
+        Me.RibbonPageGroup60.ItemLinks.Add(Me.BarSubItem37)
+        Me.RibbonPageGroup60.Name = "RibbonPageGroup60"
+        Me.RibbonPageGroup60.Text = "RibbonPageGroup60"
         '
         'RibbonPageGroup7
         '
-        Me.RibbonPageGroup7.ItemLinks.Add(Me.BarSubItem10)
+        Me.RibbonPageGroup7.ItemLinks.Add(Me.BarSubItem38)
         Me.RibbonPageGroup7.Name = "RibbonPageGroup7"
-        Me.RibbonPageGroup7.Text = "NAR Paketleme"
+        Me.RibbonPageGroup7.Text = "RibbonPageGroup7"
         '
-        'RibbonPageGroup19
+        'RibbonPage3
         '
-        Me.RibbonPageGroup19.ItemLinks.Add(Me.BarSubItem11)
-        Me.RibbonPageGroup19.Name = "RibbonPageGroup19"
-        Me.RibbonPageGroup19.Text = "KİRAZ Paketleme"
-        '
-        'RibbonPage7
-        '
-        Me.RibbonPage7.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup8, Me.RibbonPageGroup20})
-        Me.RibbonPage7.Name = "RibbonPage7"
-        Me.RibbonPage7.Text = "Grafik Raporlar"
-        '
-        'RibbonPageGroup8
-        '
-        Me.RibbonPageGroup8.ItemLinks.Add(Me.BarSubItem12)
-        Me.RibbonPageGroup8.Name = "RibbonPageGroup8"
-        Me.RibbonPageGroup8.Text = "RibbonPageGroup8"
-        '
-        'RibbonPageGroup20
-        '
-        Me.RibbonPageGroup20.ItemLinks.Add(Me.BarSubItem13)
-        Me.RibbonPageGroup20.Name = "RibbonPageGroup20"
-        Me.RibbonPageGroup20.Text = "RibbonPageGroup20"
-        '
-        'RibbonPage8
-        '
-        Me.RibbonPage8.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup9, Me.RibbonPageGroup21, Me.RibbonPageGroup58, Me.RibbonPageGroup22, Me.RibbonPageGroup41, Me.RibbonPageGroup44, Me.RibbonPageGroup45, Me.RibbonPageGroup56})
-        Me.RibbonPage8.Name = "RibbonPage8"
-        Me.RibbonPage8.Text = "Üretim Parametreler"
+        Me.RibbonPage3.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup9, Me.RibbonPageGroup16, Me.RibbonPageGroup19, Me.RibbonPageGroup6, Me.RibbonPageGroup17})
+        Me.RibbonPage3.Name = "RibbonPage3"
+        Me.RibbonPage3.Text = "Girişler"
         '
         'RibbonPageGroup9
         '
-        Me.RibbonPageGroup9.ItemLinks.Add(Me.BarSubItem14)
+        Me.RibbonPageGroup9.ItemLinks.Add(Me.BarSubItem39)
         Me.RibbonPageGroup9.Name = "RibbonPageGroup9"
-        Me.RibbonPageGroup9.Text = "NAR Parametre"
+        Me.RibbonPageGroup9.Text = "RibbonPageGroup9"
         '
-        'RibbonPageGroup21
+        'RibbonPageGroup16
         '
-        Me.RibbonPageGroup21.ItemLinks.Add(Me.BarSubItem15)
-        Me.RibbonPageGroup21.Name = "RibbonPageGroup21"
-        Me.RibbonPageGroup21.Text = "KİRAZ Parametre"
+        Me.RibbonPageGroup16.ItemLinks.Add(Me.BarSubItem42)
+        Me.RibbonPageGroup16.Name = "RibbonPageGroup16"
+        Me.RibbonPageGroup16.Text = "RibbonPageGroup16"
         '
-        'RibbonPageGroup58
+        'RibbonPageGroup19
         '
-        Me.RibbonPageGroup58.ItemLinks.Add(Me.BarSubItem30)
-        Me.RibbonPageGroup58.Name = "RibbonPageGroup58"
-        Me.RibbonPageGroup58.Text = "Kayısı Parametre"
+        Me.RibbonPageGroup19.ItemLinks.Add(Me.BarSubItem43)
+        Me.RibbonPageGroup19.Name = "RibbonPageGroup19"
+        Me.RibbonPageGroup19.Text = "RibbonPageGroup19"
         '
-        'RibbonPageGroup22
+        'RibbonPageGroup6
         '
-        Me.RibbonPageGroup22.ItemLinks.Add(Me.BarSubItem16)
-        Me.RibbonPageGroup22.ItemLinks.Add(Me.BarSubItem17)
-        Me.RibbonPageGroup22.Name = "RibbonPageGroup22"
-        Me.RibbonPageGroup22.Text = "KİVİ Parametre"
+        Me.RibbonPageGroup6.ItemLinks.Add(Me.BarSubItem44)
+        Me.RibbonPageGroup6.Name = "RibbonPageGroup6"
+        Me.RibbonPageGroup6.Text = "RibbonPageGroup6"
         '
-        'RibbonPageGroup41
+        'RibbonPageGroup17
         '
-        Me.RibbonPageGroup41.ItemLinks.Add(Me.BarButtonItem166)
-        Me.RibbonPageGroup41.Name = "RibbonPageGroup41"
-        Me.RibbonPageGroup41.Text = "RibbonPageGroup41"
+        Me.RibbonPageGroup17.ItemLinks.Add(Me.BarSubItem45)
+        Me.RibbonPageGroup17.Name = "RibbonPageGroup17"
+        Me.RibbonPageGroup17.Text = "RibbonPageGroup17"
         '
-        'RibbonPageGroup44
+        'RibbonPage21
         '
-        Me.RibbonPageGroup44.ItemLinks.Add(Me.BarSubItem26)
-        Me.RibbonPageGroup44.Name = "RibbonPageGroup44"
-        Me.RibbonPageGroup44.Text = "İNCİR Parametre"
+        Me.RibbonPage21.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup59, Me.RibbonPageGroup61, Me.RibbonPageGroup4, Me.RibbonPageGroup5, Me.RibbonPageGroup15, Me.RibbonPageGroup8, Me.RibbonPageGroup10, Me.RibbonPageGroup1})
+        Me.RibbonPage21.Name = "RibbonPage21"
+        Me.RibbonPage21.Text = "Raporlar"
         '
-        'RibbonPageGroup45
+        'RibbonPageGroup59
         '
-        Me.RibbonPageGroup45.ItemLinks.Add(Me.BarSubItem27)
-        Me.RibbonPageGroup45.Name = "RibbonPageGroup45"
-        Me.RibbonPageGroup45.Text = "ERİK Parametre"
+        Me.RibbonPageGroup59.ItemLinks.Add(Me.BarSubItem31)
+        Me.RibbonPageGroup59.Name = "RibbonPageGroup59"
+        Me.RibbonPageGroup59.Text = "Üretim Raporlar"
         '
-        'RibbonPageGroup56
+        'RibbonPageGroup61
         '
-        Me.RibbonPageGroup56.ItemLinks.Add(Me.BarButtonItem231)
-        Me.RibbonPageGroup56.Name = "RibbonPageGroup56"
-        Me.RibbonPageGroup56.Text = "2.Kalite İşlemler"
+        Me.RibbonPageGroup61.ItemLinks.Add(Me.BarSubItem32)
+        Me.RibbonPageGroup61.Name = "RibbonPageGroup61"
+        Me.RibbonPageGroup61.Text = "RibbonPageGroup61"
         '
-        'RibbonPage9
+        'RibbonPageGroup4
         '
-        Me.RibbonPage9.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup10, Me.RibbonPageGroup37, Me.RibbonPageGroup43})
-        Me.RibbonPage9.Name = "RibbonPage9"
-        Me.RibbonPage9.Text = "Depo Parametreler"
+        Me.RibbonPageGroup4.ItemLinks.Add(Me.BarSubItem33)
+        Me.RibbonPageGroup4.Name = "RibbonPageGroup4"
+        Me.RibbonPageGroup4.Text = "RibbonPageGroup4"
+        '
+        'RibbonPageGroup5
+        '
+        Me.RibbonPageGroup5.ItemLinks.Add(Me.BarSubItem34)
+        Me.RibbonPageGroup5.Name = "RibbonPageGroup5"
+        Me.RibbonPageGroup5.Text = "RibbonPageGroup5"
+        '
+        'RibbonPageGroup15
+        '
+        Me.RibbonPageGroup15.ItemLinks.Add(Me.BarSubItem35)
+        Me.RibbonPageGroup15.Name = "RibbonPageGroup15"
+        Me.RibbonPageGroup15.Text = "RibbonPageGroup15"
+        '
+        'RibbonPageGroup8
+        '
+        Me.RibbonPageGroup8.ItemLinks.Add(Me.BarSubItem36)
+        Me.RibbonPageGroup8.Name = "RibbonPageGroup8"
+        Me.RibbonPageGroup8.Text = "RibbonPageGroup8"
         '
         'RibbonPageGroup10
         '
-        Me.RibbonPageGroup10.ImageOptions.Image = CType(resources.GetObject("RibbonPageGroup10.ImageOptions.Image"), System.Drawing.Image)
-        Me.RibbonPageGroup10.ItemLinks.Add(Me.BarSubItem18)
+        Me.RibbonPageGroup10.ItemLinks.Add(Me.BarSubItem40)
         Me.RibbonPageGroup10.Name = "RibbonPageGroup10"
-        Me.RibbonPageGroup10.Text = "NAR Parametre"
+        Me.RibbonPageGroup10.Text = "RibbonPageGroup10"
         '
-        'RibbonPageGroup37
+        'RibbonPageGroup1
         '
-        Me.RibbonPageGroup37.ItemLinks.Add(Me.BarSubItem24)
-        Me.RibbonPageGroup37.Name = "RibbonPageGroup37"
-        Me.RibbonPageGroup37.Text = "KİRAZ Parametre"
-        '
-        'RibbonPageGroup43
-        '
-        Me.RibbonPageGroup43.ItemLinks.Add(Me.BarSubItem25)
-        Me.RibbonPageGroup43.Name = "RibbonPageGroup43"
-        Me.RibbonPageGroup43.Text = "Bahçeler Parametre"
+        Me.RibbonPageGroup1.ItemLinks.Add(Me.BarSubItem41)
+        Me.RibbonPageGroup1.Name = "RibbonPageGroup1"
+        Me.RibbonPageGroup1.Text = "RibbonPageGroup1"
         '
         'RibbonPage10
         '
@@ -7871,15 +7693,10 @@ Partial Class Form2
     Friend WithEvents BarDockingMenuItem1 As DevExpress.XtraBars.BarDockingMenuItem
     Friend WithEvents BarButtonItem2 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents SkinRibbonGalleryBarItem1 As DevExpress.XtraBars.SkinRibbonGalleryBarItem
-    Friend WithEvents RibbonPage1 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup1 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPage2 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup2 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem3 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem4 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem6 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem7 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup3 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem5 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem8 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem9 As DevExpress.XtraBars.BarButtonItem
@@ -7887,20 +7704,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem11 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonGroup1 As DevExpress.XtraBars.BarButtonGroup
     Friend WithEvents RibbonGalleryBarItem1 As DevExpress.XtraBars.RibbonGalleryBarItem
-    Friend WithEvents RibbonPage3 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup4 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPage4 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup5 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPage5 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup6 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPage6 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup7 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPage7 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup8 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPage8 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup9 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPage9 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup10 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents RibbonPage10 As DevExpress.XtraBars.Ribbon.RibbonPage
     Friend WithEvents RibbonPageGroup11 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents RibbonPage11 As DevExpress.XtraBars.Ribbon.RibbonPage
@@ -8147,7 +7950,6 @@ Partial Class Form2
     Friend WithEvents RepositoryItemZoomTrackBar1 As DevExpress.XtraEditors.Repository.RepositoryItemZoomTrackBar
     Friend WithEvents RepositoryItemProgressBar1 As DevExpress.XtraEditors.Repository.RepositoryItemProgressBar
     Friend WithEvents BarButtonItem12 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup14 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem13 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem14 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem15 As DevExpress.XtraBars.BarButtonItem
@@ -8157,8 +7959,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem19 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem20 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem21 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup15 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup16 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarDockingMenuItem2 As DevExpress.XtraBars.BarDockingMenuItem
     Friend WithEvents BarSubItem1 As DevExpress.XtraBars.BarSubItem
     Friend WithEvents BarButtonItem22 As DevExpress.XtraBars.BarButtonItem
@@ -8181,8 +7981,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem32 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarSubItem8 As DevExpress.XtraBars.BarSubItem
     Friend WithEvents BarSubItem9 As DevExpress.XtraBars.BarSubItem
-    Friend WithEvents RibbonPageGroup17 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup18 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarSubItem10 As DevExpress.XtraBars.BarSubItem
     Friend WithEvents BarButtonItem33 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem34 As DevExpress.XtraBars.BarButtonItem
@@ -8216,10 +8014,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem57 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem58 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem59 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup19 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup20 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup21 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup22 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarSubItem16 As DevExpress.XtraBars.BarSubItem
     Friend WithEvents BarButtonItem60 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem61 As DevExpress.XtraBars.BarButtonItem
@@ -8277,8 +8071,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem100 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem101 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem102 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPage14 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup30 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem103 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem104 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem105 As DevExpress.XtraBars.BarButtonItem
@@ -8287,25 +8079,19 @@ Partial Class Form2
     Friend WithEvents BarButtonItem108 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem109 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem110 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup31 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem111 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem112 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup32 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem113 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem114 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem115 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem116 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem117 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem118 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPage15 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup33 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem119 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents RibbonPageGroup34 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem120 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem121 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem122 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup24 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup25 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarEditItem5 As DevExpress.XtraBars.BarEditItem
     Friend WithEvents RepositoryItemTextEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
     Friend WithEvents BarEditItem4 As DevExpress.XtraBars.BarEditItem
@@ -8325,15 +8111,11 @@ Partial Class Form2
     Friend WithEvents BarButtonItem128 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem129 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem130 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPage16 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup23 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem131 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup36 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem132 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents PopupMenu2 As DevExpress.XtraBars.PopupMenu
     Friend WithEvents BarSubItem24 As DevExpress.XtraBars.BarSubItem
     Friend WithEvents BarButtonItem133 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup37 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem134 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem135 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem136 As DevExpress.XtraBars.BarButtonItem
@@ -8343,7 +8125,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem140 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem141 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem142 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup38 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem143 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem144 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem145 As DevExpress.XtraBars.BarButtonItem
@@ -8351,10 +8132,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem147 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents RibbonPage13 As DevExpress.XtraBars.Ribbon.RibbonPage
     Friend WithEvents BarButtonItem148 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPage17 As DevExpress.XtraBars.Ribbon.RibbonPage
-    Friend WithEvents RibbonPageGroup29 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup35 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup39 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem149 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem150 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem151 As DevExpress.XtraBars.BarButtonItem
@@ -8367,20 +8144,16 @@ Partial Class Form2
     Friend WithEvents BarButtonItem158 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem159 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem160 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup40 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem161 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem162 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem163 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem164 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem165 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem166 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup41 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem167 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem168 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup42 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem169 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents PopupMenu3 As DevExpress.XtraBars.PopupMenu
-    Friend WithEvents RibbonPageGroup43 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarSubItem25 As DevExpress.XtraBars.BarSubItem
     Friend WithEvents BarButtonItem170 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem171 As DevExpress.XtraBars.BarButtonItem
@@ -8417,10 +8190,6 @@ Partial Class Form2
     Friend WithEvents BarButtonItem200 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem201 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem202 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup44 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup45 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup46 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
-    Friend WithEvents RibbonPageGroup47 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarSubItem28 As DevExpress.XtraBars.BarSubItem
     Friend WithEvents BarButtonItem203 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem204 As DevExpress.XtraBars.BarButtonItem
@@ -8449,10 +8218,8 @@ Partial Class Form2
     Friend WithEvents BarButtonItem220 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem221 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem222 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup51 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem223 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem224 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup52 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem225 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem226 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents RibbonPage20 As DevExpress.XtraBars.Ribbon.RibbonPage
@@ -8462,14 +8229,11 @@ Partial Class Form2
     Friend WithEvents BarButtonItem229 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents RibbonPageGroup54 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem230 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup55 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem231 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup56 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem232 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem233 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem234 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem235 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup57 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem236 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem237 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem238 As DevExpress.XtraBars.BarButtonItem
@@ -8490,6 +8254,40 @@ Partial Class Form2
     Friend WithEvents BarButtonItem251 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem252 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem253 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup58 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents BarButtonItem254 As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents BarButtonItem255 As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents BarSubItem31 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents RibbonPage21 As DevExpress.XtraBars.Ribbon.RibbonPage
+    Friend WithEvents RibbonPageGroup59 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents BarSubItem32 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem33 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem34 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem35 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem36 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem37 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem38 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem39 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents RibbonPageGroup61 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup4 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup5 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup15 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup8 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPage22 As DevExpress.XtraBars.Ribbon.RibbonPage
+    Friend WithEvents RibbonPageGroup60 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup7 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPage3 As DevExpress.XtraBars.Ribbon.RibbonPage
+    Friend WithEvents RibbonPageGroup9 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents BarSubItem40 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents RibbonPageGroup10 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents BarSubItem41 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem42 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem43 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem44 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents BarSubItem45 As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents RibbonPageGroup16 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup19 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup6 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup17 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents RibbonPageGroup1 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents BarButtonItem256 As DevExpress.XtraBars.BarButtonItem
 End Class

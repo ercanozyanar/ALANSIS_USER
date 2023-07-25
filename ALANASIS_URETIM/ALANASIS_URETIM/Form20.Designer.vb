@@ -38,17 +38,19 @@ Partial Class Form20
         Me.TextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(12, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(14, 15)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(650, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(758, 23)
         Me.TextBox1.TabIndex = 0
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Button1.Location = New System.Drawing.Point(12, 38)
+        Me.Button1.Location = New System.Drawing.Point(14, 47)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(132, 21)
+        Me.Button1.Size = New System.Drawing.Size(154, 26)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Ekle"
         Me.Button1.UseVisualStyleBackColor = False
@@ -56,9 +58,10 @@ Partial Class Form20
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Button2.Location = New System.Drawing.Point(12, 65)
+        Me.Button2.Location = New System.Drawing.Point(14, 80)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 21)
+        Me.Button2.Size = New System.Drawing.Size(154, 26)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Sil"
         Me.Button2.UseVisualStyleBackColor = False
@@ -70,9 +73,10 @@ Partial Class Form20
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(156, 38)
+        Me.DataGridView1.Location = New System.Drawing.Point(182, 47)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(506, 293)
+        Me.DataGridView1.Size = New System.Drawing.Size(590, 361)
         Me.DataGridView1.TabIndex = 3
         '
         'DefaultLookAndFeel1
@@ -81,15 +85,16 @@ Partial Class Form20
         '
         'Form20
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(674, 347)
+        Me.ClientSize = New System.Drawing.Size(786, 427)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.IconOptions.Icon = CType(resources.GetObject("Form20.IconOptions.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form20"

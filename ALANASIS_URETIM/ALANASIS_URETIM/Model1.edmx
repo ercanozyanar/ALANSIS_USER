@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ALANSISModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="EO_ALANSIS_KIRAZ_MAMULDEPO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TARIH" Type="nvarchar(max)" />
+          <Property Name="STOK_KODU" Type="nvarchar(max)" />
+          <Property Name="SERI" Type="nvarchar(max)" />
+          <Property Name="MIKTAR" Type="int" />
+          <Property Name="BOLGE" Type="nvarchar(max)" />
+          <Property Name="EBAT" Type="nvarchar(max)" />
+          <Property Name="ISLEM" Type="nvarchar(max)" />
+          <Property Name="KIRAZ_ISLEM" Type="nvarchar(max)" />
+          <Property Name="ODA" Type="nvarchar(max)" />
+          <Property Name="KALINTI" Type="nvarchar(max)" />
+          <Property Name="DARA" Type="int" />
+          <Property Name="BRUT" Type="int" />
+          <Property Name="DEPO" Type="nvarchar" MaxLength="50" />
+          <Property Name="TIP" Type="nvarchar(max)" />
+          <Property Name="PARTINO" Type="nvarchar(max)" />
+          <Property Name="URETIM_TIPI" Type="nvarchar(max)" />
+          <Property Name="CESIT" Type="nvarchar(max)" />
+          <Property Name="USR" Type="nvarchar(max)" />
+          <Property Name="ACIKLAMA" Type="nvarchar(max)" />
+          <Property Name="RENK" Type="nvarchar" MaxLength="50" />
+          <Property Name="STOK_ISLEM" Type="int" />
+          <Property Name="AKTARILAN_URETICI" Type="nvarchar(max)" />
+          <Property Name="AKTARILAN_KUTUSAYI" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="AKTARILAN_KG" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="SEVK_ONAY" Type="nvarchar" MaxLength="50" />
+          <Property Name="SEVK_MIKTAR" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="SEVKID" Type="nvarchar(max)" />
+          <Property Name="EKALAN1" Type="nvarchar(max)" />
+          <Property Name="EKALAN2" Type="nvarchar(max)" />
+          <Property Name="EKALAN3" Type="nvarchar(max)" />
+          <Property Name="EKALAN4" Type="nvarchar(max)" />
+          <Property Name="EKALAN5" Type="nvarchar(max)" />
+          <Property Name="EKALAN6" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN7" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN8" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN9" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN10" Type="decimal" Precision="18" Scale="2" />
+        </EntityType>
+        <EntityContainer Name="ALANSISModelStoreContainer">
+          <EntitySet Name="EO_ALANSIS_KIRAZ_MAMULDEPO" EntityType="Self.EO_ALANSIS_KIRAZ_MAMULDEPO" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ALANSISModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="EO_ALANSIS_KIRAZ_MAMULDEPO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TARIH" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="STOK_KODU" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SERI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MIKTAR" Type="Int32" />
+          <Property Name="BOLGE" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="EBAT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ISLEM" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="KIRAZ_ISLEM" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ODA" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="KALINTI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DARA" Type="Int32" />
+          <Property Name="BRUT" Type="Int32" />
+          <Property Name="DEPO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TIP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PARTINO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="URETIM_TIPI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CESIT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="USR" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ACIKLAMA" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RENK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="STOK_ISLEM" Type="Int32" />
+          <Property Name="AKTARILAN_URETICI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="AKTARILAN_KUTUSAYI" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="AKTARILAN_KG" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SEVK_ONAY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SEVK_MIKTAR" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SEVKID" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="EKALAN1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="EKALAN2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="EKALAN4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="EKALAN5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="EKALAN6" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN7" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN8" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN9" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN10" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="EKALAN3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="ALANSISEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="EO_ALANSIS_KIRAZ_MAMULDEPO" EntityType="Self.EO_ALANSIS_KIRAZ_MAMULDEPO" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ALANSISModelStoreContainer" CdmEntityContainer="ALANSISEntities1">
+          <EntitySetMapping Name="EO_ALANSIS_KIRAZ_MAMULDEPO">
+            <EntityTypeMapping TypeName="ALANSISModel.EO_ALANSIS_KIRAZ_MAMULDEPO">
+              <MappingFragment StoreEntitySet="EO_ALANSIS_KIRAZ_MAMULDEPO">
+                <ScalarProperty Name="EKALAN3" ColumnName="EKALAN3" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+                <ScalarProperty Name="STOK_KODU" ColumnName="STOK_KODU" />
+                <ScalarProperty Name="SERI" ColumnName="SERI" />
+                <ScalarProperty Name="MIKTAR" ColumnName="MIKTAR" />
+                <ScalarProperty Name="BOLGE" ColumnName="BOLGE" />
+                <ScalarProperty Name="EBAT" ColumnName="EBAT" />
+                <ScalarProperty Name="ISLEM" ColumnName="ISLEM" />
+                <ScalarProperty Name="KIRAZ_ISLEM" ColumnName="KIRAZ_ISLEM" />
+                <ScalarProperty Name="ODA" ColumnName="ODA" />
+                <ScalarProperty Name="KALINTI" ColumnName="KALINTI" />
+                <ScalarProperty Name="DARA" ColumnName="DARA" />
+                <ScalarProperty Name="BRUT" ColumnName="BRUT" />
+                <ScalarProperty Name="DEPO" ColumnName="DEPO" />
+                <ScalarProperty Name="TIP" ColumnName="TIP" />
+                <ScalarProperty Name="PARTINO" ColumnName="PARTINO" />
+                <ScalarProperty Name="URETIM_TIPI" ColumnName="URETIM_TIPI" />
+                <ScalarProperty Name="CESIT" ColumnName="CESIT" />
+                <ScalarProperty Name="USR" ColumnName="USR" />
+                <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+                <ScalarProperty Name="RENK" ColumnName="RENK" />
+                <ScalarProperty Name="STOK_ISLEM" ColumnName="STOK_ISLEM" />
+                <ScalarProperty Name="AKTARILAN_URETICI" ColumnName="AKTARILAN_URETICI" />
+                <ScalarProperty Name="AKTARILAN_KUTUSAYI" ColumnName="AKTARILAN_KUTUSAYI" />
+                <ScalarProperty Name="AKTARILAN_KG" ColumnName="AKTARILAN_KG" />
+                <ScalarProperty Name="SEVK_ONAY" ColumnName="SEVK_ONAY" />
+                <ScalarProperty Name="SEVK_MIKTAR" ColumnName="SEVK_MIKTAR" />
+                <ScalarProperty Name="SEVKID" ColumnName="SEVKID" />
+                <ScalarProperty Name="EKALAN1" ColumnName="EKALAN1" />
+                <ScalarProperty Name="EKALAN2" ColumnName="EKALAN2" />
+                <ScalarProperty Name="EKALAN4" ColumnName="EKALAN4" />
+                <ScalarProperty Name="EKALAN5" ColumnName="EKALAN5" />
+                <ScalarProperty Name="EKALAN6" ColumnName="EKALAN6" />
+                <ScalarProperty Name="EKALAN7" ColumnName="EKALAN7" />
+                <ScalarProperty Name="EKALAN8" ColumnName="EKALAN8" />
+                <ScalarProperty Name="EKALAN9" ColumnName="EKALAN9" />
+                <ScalarProperty Name="EKALAN10" ColumnName="EKALAN10" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

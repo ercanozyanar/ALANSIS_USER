@@ -40,44 +40,49 @@ Partial Class Form155
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(147, 38)
+        Me.DataGridView1.Location = New System.Drawing.Point(171, 47)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(220, 400)
+        Me.DataGridView1.Size = New System.Drawing.Size(257, 492)
         Me.DataGridView1.TabIndex = 1
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(4, 38)
+        Me.SimpleButton1.Location = New System.Drawing.Point(5, 47)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(137, 30)
+        Me.SimpleButton1.Size = New System.Drawing.Size(160, 37)
         Me.SimpleButton1.TabIndex = 2
         Me.SimpleButton1.Text = "Ekle"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(4, 74)
+        Me.SimpleButton2.Location = New System.Drawing.Point(5, 91)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(137, 30)
+        Me.SimpleButton2.Size = New System.Drawing.Size(160, 37)
         Me.SimpleButton2.TabIndex = 3
         Me.SimpleButton2.Text = "Sil"
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(4, 12)
+        Me.TextEdit1.Location = New System.Drawing.Point(5, 15)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(363, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(423, 23)
         Me.TextEdit1.TabIndex = 0
         '
         'Form155
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(379, 450)
+        Me.ClientSize = New System.Drawing.Size(442, 554)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextEdit1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form155"
         Me.Text = "Kiraz El Terminali Bölge"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

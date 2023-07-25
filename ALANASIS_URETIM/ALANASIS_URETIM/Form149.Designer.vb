@@ -90,9 +90,9 @@ Partial Class Form149
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(464, 12)
+        Me.Label4.Location = New System.Drawing.Point(541, 15)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 13)
+        Me.Label4.Size = New System.Drawing.Size(74, 17)
         Me.Label4.TabIndex = 22
         Me.Label4.Text = "Üret.Miktar"
         '
@@ -100,68 +100,74 @@ Partial Class Form149
         '
         Me.TextEdit4.EditValue = "0"
         Me.TextEdit4.Enabled = False
-        Me.TextEdit4.Location = New System.Drawing.Point(531, 9)
+        Me.TextEdit4.Location = New System.Drawing.Point(619, 11)
+        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit4.Size = New System.Drawing.Size(94, 23)
         Me.TextEdit4.TabIndex = 21
         '
         'TextEdit3
         '
         Me.TextEdit3.Enabled = False
-        Me.TextEdit3.Location = New System.Drawing.Point(221, 9)
+        Me.TextEdit3.Location = New System.Drawing.Point(258, 11)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(237, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(276, 23)
         Me.TextEdit3.TabIndex = 20
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(170, 12)
+        Me.Label3.Location = New System.Drawing.Point(198, 15)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(42, 13)
+        Me.Label3.Size = New System.Drawing.Size(51, 17)
         Me.Label3.TabIndex = 19
         Me.Label3.Text = "Müşteri"
         '
         'TextEdit2
         '
         Me.TextEdit2.Enabled = False
-        Me.TextEdit2.Location = New System.Drawing.Point(60, 9)
+        Me.TextEdit2.Location = New System.Drawing.Point(70, 11)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(104, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(121, 23)
         Me.TextEdit2.TabIndex = 18
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(9, 12)
+        Me.Label2.Location = New System.Drawing.Point(10, 15)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(45, 13)
+        Me.Label2.Size = New System.Drawing.Size(56, 17)
         Me.Label2.TabIndex = 17
         Me.Label2.Text = "Parti No"
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(4, 175)
+        Me.ListBox1.ItemHeight = 16
+        Me.ListBox1.Location = New System.Drawing.Point(5, 215)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(65, 238)
+        Me.ListBox1.Size = New System.Drawing.Size(75, 292)
         Me.ListBox1.TabIndex = 16
         Me.ListBox1.Visible = False
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(799, 6)
+        Me.SimpleButton1.Location = New System.Drawing.Point(932, 7)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(149, 26)
+        Me.SimpleButton1.Size = New System.Drawing.Size(174, 32)
         Me.SimpleButton1.TabIndex = 15
         Me.SimpleButton1.Text = "GGN Islem"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(646, 12)
+        Me.Label1.Location = New System.Drawing.Point(754, 15)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(60, 13)
+        Me.Label1.Size = New System.Drawing.Size(75, 17)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "GGN Miktar"
         Me.Label1.Visible = False
@@ -170,9 +176,10 @@ Partial Class Form149
         '
         Me.TextEdit1.EditValue = "0"
         Me.TextEdit1.Enabled = False
-        Me.TextEdit1.Location = New System.Drawing.Point(712, 9)
+        Me.TextEdit1.Location = New System.Drawing.Point(831, 11)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(94, 23)
         Me.TextEdit1.TabIndex = 12
         Me.TextEdit1.Visible = False
         '
@@ -203,9 +210,10 @@ Partial Class Form149
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(7, 437)
+        Me.DataGridView1.Location = New System.Drawing.Point(8, 538)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(10, 10)
+        Me.DataGridView1.Size = New System.Drawing.Size(12, 12)
         Me.DataGridView1.TabIndex = 24
         Me.DataGridView1.Visible = False
         '
@@ -235,9 +243,11 @@ Partial Class Form149
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Location = New System.Drawing.Point(75, 175)
+        Me.ListBox2.ItemHeight = 16
+        Me.ListBox2.Location = New System.Drawing.Point(87, 215)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(65, 238)
+        Me.ListBox2.Size = New System.Drawing.Size(75, 292)
         Me.ListBox2.TabIndex = 26
         Me.ListBox2.Visible = False
         '
@@ -255,10 +265,12 @@ Partial Class Form149
         '
         Me.GridControl1.DataMember = "EO_ALANSIS_GGN"
         Me.GridControl1.DataSource = Me.AlansısDataSet181
-        Me.GridControl1.Location = New System.Drawing.Point(4, 38)
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GridControl1.Location = New System.Drawing.Point(5, 47)
         Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(944, 549)
+        Me.GridControl1.Size = New System.Drawing.Size(1101, 676)
         Me.GridControl1.TabIndex = 27
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -270,66 +282,83 @@ Partial Class Form149
         'GridView1
         '
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colURETICI_ADSOY, Me.colGGN_NO, Me.colKAPASITE, Me.colBOLGE, Me.colBAHCE, Me.colTUKETIM_KAPASITE, Me.colPARTI_KAPASITE, Me.colPLAN})
+        Me.GridView1.DetailHeight = 431
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
         'colURETICI_ADSOY
         '
         Me.colURETICI_ADSOY.FieldName = "URETICI_ADSOY"
+        Me.colURETICI_ADSOY.MinWidth = 23
         Me.colURETICI_ADSOY.Name = "colURETICI_ADSOY"
         Me.colURETICI_ADSOY.Visible = True
         Me.colURETICI_ADSOY.VisibleIndex = 0
+        Me.colURETICI_ADSOY.Width = 87
         '
         'colGGN_NO
         '
         Me.colGGN_NO.FieldName = "GGN_NO"
+        Me.colGGN_NO.MinWidth = 23
         Me.colGGN_NO.Name = "colGGN_NO"
         Me.colGGN_NO.Visible = True
         Me.colGGN_NO.VisibleIndex = 1
+        Me.colGGN_NO.Width = 87
         '
         'colKAPASITE
         '
         Me.colKAPASITE.FieldName = "KAPASITE"
+        Me.colKAPASITE.MinWidth = 23
         Me.colKAPASITE.Name = "colKAPASITE"
         Me.colKAPASITE.Visible = True
         Me.colKAPASITE.VisibleIndex = 2
+        Me.colKAPASITE.Width = 87
         '
         'colBOLGE
         '
         Me.colBOLGE.FieldName = "BOLGE"
+        Me.colBOLGE.MinWidth = 23
         Me.colBOLGE.Name = "colBOLGE"
         Me.colBOLGE.Visible = True
         Me.colBOLGE.VisibleIndex = 3
+        Me.colBOLGE.Width = 87
         '
         'colBAHCE
         '
         Me.colBAHCE.FieldName = "BAHCE"
+        Me.colBAHCE.MinWidth = 23
         Me.colBAHCE.Name = "colBAHCE"
         Me.colBAHCE.Visible = True
         Me.colBAHCE.VisibleIndex = 4
+        Me.colBAHCE.Width = 87
         '
         'colTUKETIM_KAPASITE
         '
         Me.colTUKETIM_KAPASITE.Caption = "TUKETIM KAPASITE"
         Me.colTUKETIM_KAPASITE.FieldName = "TUKETIM_KAPASITE"
+        Me.colTUKETIM_KAPASITE.MinWidth = 23
         Me.colTUKETIM_KAPASITE.Name = "colTUKETIM_KAPASITE"
         Me.colTUKETIM_KAPASITE.Visible = True
         Me.colTUKETIM_KAPASITE.VisibleIndex = 5
+        Me.colTUKETIM_KAPASITE.Width = 87
         '
         'colPARTI_KAPASITE
         '
         Me.colPARTI_KAPASITE.Caption = "KALAN KAPASITE"
         Me.colPARTI_KAPASITE.FieldName = "PARTI_KAPASITE"
+        Me.colPARTI_KAPASITE.MinWidth = 23
         Me.colPARTI_KAPASITE.Name = "colPARTI_KAPASITE"
         Me.colPARTI_KAPASITE.Visible = True
         Me.colPARTI_KAPASITE.VisibleIndex = 6
+        Me.colPARTI_KAPASITE.Width = 87
         '
         'colPLAN
         '
         Me.colPLAN.FieldName = "PLAN"
+        Me.colPLAN.MinWidth = 23
         Me.colPLAN.Name = "colPLAN"
         Me.colPLAN.Visible = True
         Me.colPLAN.VisibleIndex = 7
+        Me.colPLAN.Width = 87
         '
         'EO_ALANSIS_GGNTableAdapter4
         '
@@ -342,9 +371,9 @@ Partial Class Form149
         '
         'Form149
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(952, 589)
+        Me.ClientSize = New System.Drawing.Size(1111, 725)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label4)
@@ -359,6 +388,7 @@ Partial Class Form149
         Me.Controls.Add(Me.TextEdit1)
         Me.Controls.Add(Me.ListBox2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form149"
         Me.Text = "ALANSIS - GGN TANIMLAMA MODULU"
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()

@@ -46,75 +46,80 @@ Partial Class Form140
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 9)
+        Me.Label1.Location = New System.Drawing.Point(7, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 13)
+        Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Parti No"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 41)
+        Me.Label2.Location = New System.Drawing.Point(7, 50)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(48, 13)
+        Me.Label2.Size = New System.Drawing.Size(60, 17)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Açıklama"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(355, 259)
+        Me.SimpleButton1.Location = New System.Drawing.Point(414, 319)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(122, 34)
+        Me.SimpleButton1.Size = New System.Drawing.Size(142, 42)
         Me.SimpleButton1.TabIndex = 6
         Me.SimpleButton1.Text = "Gönder"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(272, 9)
+        Me.Label3.Location = New System.Drawing.Point(317, 11)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 13)
+        Me.Label3.Size = New System.Drawing.Size(100, 17)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Gönderim Birim"
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(355, 6)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(414, 7)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit1.Properties.Items.AddRange(New Object() {"SATIS", "URETIM"})
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(125, 20)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(146, 23)
         Me.ComboBoxEdit1.TabIndex = 9
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(248, 6)
+        Me.TextEdit2.Location = New System.Drawing.Point(289, 7)
+        Me.TextEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(10, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(12, 23)
         Me.TextEdit2.TabIndex = 7
         Me.TextEdit2.Visible = False
         '
         'MemoEdit1
         '
-        Me.MemoEdit1.Location = New System.Drawing.Point(6, 57)
+        Me.MemoEdit1.Location = New System.Drawing.Point(7, 70)
+        Me.MemoEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MemoEdit1.Name = "MemoEdit1"
-        Me.MemoEdit1.Size = New System.Drawing.Size(474, 196)
+        Me.MemoEdit1.Size = New System.Drawing.Size(553, 241)
         Me.MemoEdit1.TabIndex = 5
         '
         'TextEdit1
         '
         Me.TextEdit1.Enabled = False
-        Me.TextEdit1.Location = New System.Drawing.Point(63, 6)
+        Me.TextEdit1.Location = New System.Drawing.Point(73, 7)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(179, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(209, 23)
         Me.TextEdit1.TabIndex = 0
         '
         'Form140
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(489, 301)
+        Me.ClientSize = New System.Drawing.Size(570, 370)
         Me.Controls.Add(Me.ComboBoxEdit1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextEdit2)
@@ -124,6 +129,7 @@ Partial Class Form140
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextEdit1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form140"
         Me.Text = "ALANSIS NOT OK BILDIRIM"
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()

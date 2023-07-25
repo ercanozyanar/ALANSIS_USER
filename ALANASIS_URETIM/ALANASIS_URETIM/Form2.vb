@@ -2038,4 +2038,14 @@ Public Class Form2
         Form265.MdiParent = Me
         Form265.Show()
     End Sub
+
+    Private Sub BarButtonItem255_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem255.ItemClick
+        Form266.MdiParent = Me
+        Form266.Show()
+    End Sub
+
+    Private Sub BarButtonItem256_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem256.ItemClick
+        Form267.MdiParent = Me
+        Form267.Show()
+    End Sub
 End Class

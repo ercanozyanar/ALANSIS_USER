@@ -36,8 +36,9 @@ Partial Class Form103
         Me.DashboardViewer1.AsyncMode = True
         Me.DashboardViewer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DashboardViewer1.Location = New System.Drawing.Point(0, 0)
+        Me.DashboardViewer1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DashboardViewer1.Name = "DashboardViewer1"
-        Me.DashboardViewer1.Size = New System.Drawing.Size(800, 450)
+        Me.DashboardViewer1.Size = New System.Drawing.Size(933, 554)
         Me.DashboardViewer1.TabIndex = 1
         '
         'DefaultLookAndFeel1
@@ -46,10 +47,11 @@ Partial Class Form103
         '
         'Form103
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(933, 554)
         Me.Controls.Add(Me.DashboardViewer1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form103"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form103"

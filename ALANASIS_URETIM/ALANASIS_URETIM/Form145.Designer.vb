@@ -30,71 +30,71 @@ Partial Class Form145
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.ComboBoxEdit11 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.ComboBoxEdit10 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit9 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit8 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit7 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit6 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit5 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBoxEdit4 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit28 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
         Me.TextEdit32 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit27 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label32 = New System.Windows.Forms.Label()
         Me.TextEdit26 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label29 = New System.Windows.Forms.Label()
         Me.TextEdit25 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label28 = New System.Windows.Forms.Label()
         Me.TextEdit24 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label27 = New System.Windows.Forms.Label()
         Me.TextEdit23 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label26 = New System.Windows.Forms.Label()
         Me.TextEdit22 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label25 = New System.Windows.Forms.Label()
         Me.TextEdit21 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label24 = New System.Windows.Forms.Label()
         Me.TextEdit20 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label23 = New System.Windows.Forms.Label()
         Me.TextEdit19 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label22 = New System.Windows.Forms.Label()
         Me.TextEdit18 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label21 = New System.Windows.Forms.Label()
         Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
         Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.ComboBoxEdit2 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
@@ -249,312 +249,6 @@ Partial Class Form145
         Me.GroupControl1.TabIndex = 17
         Me.GroupControl1.Text = "Kontrol Sonuçları"
         '
-        'Label8
-        '
-        Me.Label8.Location = New System.Drawing.Point(408, 110)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(146, 33)
-        Me.Label8.TabIndex = 96
-        Me.Label8.Text = "Kiraz İşlem"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label1
-        '
-        Me.Label1.Location = New System.Drawing.Point(388, 32)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(117, 33)
-        Me.Label1.TabIndex = 89
-        Me.Label1.Text = "Hasat Tarihi"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label31
-        '
-        Me.Label31.Location = New System.Drawing.Point(444, 263)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(70, 52)
-        Me.Label31.TabIndex = 71
-        Me.Label31.Text = "Net Ağırlık (g)"
-        Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label36
-        '
-        Me.Label36.Location = New System.Drawing.Point(238, 199)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(107, 33)
-        Me.Label36.TabIndex = 82
-        Me.Label36.Text = "İkiz Meyve (g)"
-        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label30
-        '
-        Me.Label30.Location = New System.Drawing.Point(211, 263)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(65, 52)
-        Me.Label30.TabIndex = 69
-        Me.Label30.Text = "Kutu Brut Ağırlığı (g)"
-        Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label35
-        '
-        Me.Label35.Location = New System.Drawing.Point(744, 282)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(175, 33)
-        Me.Label35.TabIndex = 79
-        Me.Label35.Text = "Kalite Personeli"
-        Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label34
-        '
-        Me.Label34.Location = New System.Drawing.Point(672, 282)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(69, 33)
-        Me.Label34.TabIndex = 77
-        Me.Label34.Text = "Koku"
-        Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label33
-        '
-        Me.Label33.Location = New System.Drawing.Point(596, 282)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(69, 33)
-        Me.Label33.TabIndex = 75
-        Me.Label33.Text = "Yapı"
-        Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label32
-        '
-        Me.Label32.Location = New System.Drawing.Point(523, 282)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(69, 33)
-        Me.Label32.TabIndex = 73
-        Me.Label32.Text = "Tat"
-        Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label29
-        '
-        Me.Label29.Location = New System.Drawing.Point(364, 273)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(73, 42)
-        Me.Label29.TabIndex = 67
-        Me.Label29.Text = "Şale Ağırlığı (g)"
-        Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label28
-        '
-        Me.Label28.Location = New System.Drawing.Point(288, 263)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(72, 52)
-        Me.Label28.TabIndex = 65
-        Me.Label28.Text = "Poşet Ağırlık"
-        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label27
-        '
-        Me.Label27.Location = New System.Drawing.Point(132, 263)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(72, 52)
-        Me.Label27.TabIndex = 63
-        Me.Label27.Text = "Kutu Ağırlığı (g)"
-        Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label26
-        '
-        Me.Label26.Location = New System.Drawing.Point(12, 282)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(107, 33)
-        Me.Label26.TabIndex = 61
-        Me.Label26.Text = "Toplam Kusur"
-        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label25
-        '
-        Me.Label25.Location = New System.Drawing.Point(895, 199)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(83, 33)
-        Me.Label25.TabIndex = 59
-        Me.Label25.Text = "Pörsüme (g)"
-        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label24
-        '
-        Me.Label24.Location = New System.Drawing.Point(808, 199)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(79, 33)
-        Me.Label24.TabIndex = 57
-        Me.Label24.Text = "Brix"
-        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label23
-        '
-        Me.Label23.Location = New System.Drawing.Point(694, 199)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(107, 33)
-        Me.Label23.TabIndex = 55
-        Me.Label23.Text = "Şekil Bozuk. (g)"
-        Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label22
-        '
-        Me.Label22.Location = New System.Drawing.Point(580, 199)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(107, 33)
-        Me.Label22.TabIndex = 53
-        Me.Label22.Text = "Dolu Zararı (g)"
-        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label21
-        '
-        Me.Label21.Location = New System.Drawing.Point(465, 199)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(107, 33)
-        Me.Label21.TabIndex = 51
-        Me.Label21.Text = "Fiziksel Hasar (g)"
-        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label18
-        '
-        Me.Label18.Location = New System.Drawing.Point(782, 110)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(107, 33)
-        Me.Label18.TabIndex = 49
-        Me.Label18.Text = "Dal Sürtmesi (g)"
-        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label13
-        '
-        Me.Label13.Location = New System.Drawing.Point(348, 207)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(107, 17)
-        Me.Label13.TabIndex = 48
-        Me.Label13.Text = "Ebat Altı (g) <22 mm"
-        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label14
-        '
-        Me.Label14.Location = New System.Drawing.Point(126, 199)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(107, 33)
-        Me.Label14.TabIndex = 46
-        Me.Label14.Text = "İç Kurdu (g)"
-        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label15
-        '
-        Me.Label15.Location = New System.Drawing.Point(12, 188)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(107, 44)
-        Me.Label15.TabIndex = 45
-        Me.Label15.Text = "Aşırı Olgun / Yumuşak (g)"
-        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label16
-        '
-        Me.Label16.Location = New System.Drawing.Point(896, 110)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(107, 33)
-        Me.Label16.TabIndex = 44
-        Me.Label16.Text = "Çürüme (g)"
-        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label17
-        '
-        Me.Label17.Location = New System.Drawing.Point(668, 110)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(107, 33)
-        Me.Label17.TabIndex = 43
-        Me.Label17.Text = "Küflenme (g)"
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label19
-        '
-        Me.Label19.Location = New System.Drawing.Point(553, 115)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(107, 22)
-        Me.Label19.TabIndex = 42
-        Me.Label19.Text = "Yabancı Madde (g)"
-        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label20
-        '
-        Me.Label20.Location = New System.Drawing.Point(297, 110)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(104, 33)
-        Me.Label20.TabIndex = 35
-        Me.Label20.Text = "Kalibre"
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label12
-        '
-        Me.Label12.Location = New System.Drawing.Point(12, 110)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(279, 33)
-        Me.Label12.TabIndex = 25
-        Me.Label12.Text = "Ambalaj Tipi"
-        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label11
-        '
-        Me.Label11.Location = New System.Drawing.Point(759, 32)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(243, 33)
-        Me.Label11.TabIndex = 24
-        Me.Label11.Text = "Ürün İzleme No"
-        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label7
-        '
-        Me.Label7.Location = New System.Drawing.Point(512, 32)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(240, 33)
-        Me.Label7.TabIndex = 20
-        Me.Label7.Text = "Müşteri Adı / PARTİ NO"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label9
-        '
-        Me.Label9.Location = New System.Drawing.Point(215, 32)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(167, 33)
-        Me.Label9.TabIndex = 18
-        Me.Label9.Text = "Ürün Çeşidi"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label6
-        '
-        Me.Label6.Location = New System.Drawing.Point(8, 32)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(204, 33)
-        Me.Label6.TabIndex = 7
-        Me.Label6.Text = "Üretici / Bölge Kodu / Tedarikçi Adı"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(120, 444)
-        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(107, 49)
-        Me.SimpleButton2.TabIndex = 19
-        Me.SimpleButton2.Text = "Sil"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 444)
-        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(107, 49)
-        Me.SimpleButton1.TabIndex = 18
-        Me.SimpleButton1.Text = "Kaydet"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(259, 446)
-        Me.SimpleButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(148, 49)
-        Me.SimpleButton3.TabIndex = 20
-        Me.SimpleButton3.Text = "Analiz Kontrol"
-        '
         'ComboBoxEdit11
         '
         Me.ComboBoxEdit11.Location = New System.Drawing.Point(408, 146)
@@ -563,6 +257,15 @@ Partial Class Form145
         Me.ComboBoxEdit11.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit11.Size = New System.Drawing.Size(146, 23)
         Me.ComboBoxEdit11.TabIndex = 97
+        '
+        'Label8
+        '
+        Me.Label8.Location = New System.Drawing.Point(408, 110)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(146, 33)
+        Me.Label8.TabIndex = 96
+        Me.Label8.Text = "Kiraz İşlem"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ComboBoxEdit10
         '
@@ -622,6 +325,15 @@ Partial Class Form145
         Me.ComboBoxEdit5.Size = New System.Drawing.Size(240, 23)
         Me.ComboBoxEdit5.TabIndex = 90
         '
+        'Label1
+        '
+        Me.Label1.Location = New System.Drawing.Point(388, 32)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(117, 33)
+        Me.Label1.TabIndex = 89
+        Me.Label1.Text = "Hasat Tarihi"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'ComboBoxEdit4
         '
         Me.ComboBoxEdit4.Location = New System.Drawing.Point(216, 69)
@@ -652,6 +364,33 @@ Partial Class Form145
         Me.TextEdit28.Size = New System.Drawing.Size(70, 23)
         Me.TextEdit28.TabIndex = 72
         '
+        'Label31
+        '
+        Me.Label31.Location = New System.Drawing.Point(444, 263)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(70, 52)
+        Me.Label31.TabIndex = 71
+        Me.Label31.Text = "Net Ağırlık (g)"
+        Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label36
+        '
+        Me.Label36.Location = New System.Drawing.Point(238, 199)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(107, 33)
+        Me.Label36.TabIndex = 82
+        Me.Label36.Text = "İkiz Meyve (g)"
+        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label30
+        '
+        Me.Label30.Location = New System.Drawing.Point(211, 263)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(65, 52)
+        Me.Label30.TabIndex = 69
+        Me.Label30.Text = "Kutu Brut Ağırlığı (g)"
+        Me.Label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit32
         '
         Me.TextEdit32.Location = New System.Drawing.Point(748, 319)
@@ -671,6 +410,33 @@ Partial Class Form145
         Me.TextEdit27.Size = New System.Drawing.Size(72, 23)
         Me.TextEdit27.TabIndex = 70
         '
+        'Label35
+        '
+        Me.Label35.Location = New System.Drawing.Point(744, 282)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(175, 33)
+        Me.Label35.TabIndex = 79
+        Me.Label35.Text = "Kalite Personeli"
+        Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label34
+        '
+        Me.Label34.Location = New System.Drawing.Point(672, 282)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(69, 33)
+        Me.Label34.TabIndex = 77
+        Me.Label34.Text = "Koku"
+        Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label33
+        '
+        Me.Label33.Location = New System.Drawing.Point(596, 282)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(69, 33)
+        Me.Label33.TabIndex = 75
+        Me.Label33.Text = "Yapı"
+        Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit1
         '
         Me.TextEdit1.Location = New System.Drawing.Point(388, 69)
@@ -681,6 +447,15 @@ Partial Class Form145
         Me.TextEdit1.Properties.MaskSettings.Set("mask", "d")
         Me.TextEdit1.Size = New System.Drawing.Size(117, 23)
         Me.TextEdit1.TabIndex = 7
+        '
+        'Label32
+        '
+        Me.Label32.Location = New System.Drawing.Point(523, 282)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(69, 33)
+        Me.Label32.TabIndex = 73
+        Me.Label32.Text = "Tat"
+        Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextEdit26
         '
@@ -693,6 +468,15 @@ Partial Class Form145
         Me.TextEdit26.Size = New System.Drawing.Size(70, 23)
         Me.TextEdit26.TabIndex = 68
         '
+        'Label29
+        '
+        Me.Label29.Location = New System.Drawing.Point(364, 273)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(73, 42)
+        Me.Label29.TabIndex = 67
+        Me.Label29.Text = "Şale Ağırlığı (g)"
+        Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit25
         '
         Me.TextEdit25.EditValue = "0"
@@ -704,6 +488,15 @@ Partial Class Form145
         Me.TextEdit25.Size = New System.Drawing.Size(72, 23)
         Me.TextEdit25.TabIndex = 66
         '
+        'Label28
+        '
+        Me.Label28.Location = New System.Drawing.Point(288, 263)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(72, 52)
+        Me.Label28.TabIndex = 65
+        Me.Label28.Text = "Poşet Ağırlık"
+        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit24
         '
         Me.TextEdit24.EditValue = "0"
@@ -714,6 +507,15 @@ Partial Class Form145
         Me.TextEdit24.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit24.Size = New System.Drawing.Size(72, 23)
         Me.TextEdit24.TabIndex = 64
+        '
+        'Label27
+        '
+        Me.Label27.Location = New System.Drawing.Point(132, 263)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(72, 52)
+        Me.Label27.TabIndex = 63
+        Me.Label27.Text = "Kutu Ağırlığı (g)"
+        Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextEdit23
         '
@@ -727,6 +529,15 @@ Partial Class Form145
         Me.TextEdit23.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit23.TabIndex = 62
         '
+        'Label26
+        '
+        Me.Label26.Location = New System.Drawing.Point(12, 282)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(107, 33)
+        Me.Label26.TabIndex = 61
+        Me.Label26.Text = "Toplam Kusur"
+        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit22
         '
         Me.TextEdit22.EditValue = "0"
@@ -737,6 +548,15 @@ Partial Class Form145
         Me.TextEdit22.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit22.Size = New System.Drawing.Size(83, 23)
         Me.TextEdit22.TabIndex = 60
+        '
+        'Label25
+        '
+        Me.Label25.Location = New System.Drawing.Point(895, 199)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(83, 33)
+        Me.Label25.TabIndex = 59
+        Me.Label25.Text = "Pörsüme (g)"
+        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextEdit21
         '
@@ -749,6 +569,15 @@ Partial Class Form145
         Me.TextEdit21.Size = New System.Drawing.Size(79, 23)
         Me.TextEdit21.TabIndex = 58
         '
+        'Label24
+        '
+        Me.Label24.Location = New System.Drawing.Point(808, 199)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(79, 33)
+        Me.Label24.TabIndex = 57
+        Me.Label24.Text = "Brix"
+        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit20
         '
         Me.TextEdit20.EditValue = "0"
@@ -759,6 +588,15 @@ Partial Class Form145
         Me.TextEdit20.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit20.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit20.TabIndex = 56
+        '
+        'Label23
+        '
+        Me.Label23.Location = New System.Drawing.Point(694, 199)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(107, 33)
+        Me.Label23.TabIndex = 55
+        Me.Label23.Text = "Şekil Bozuk. (g)"
+        Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextEdit19
         '
@@ -771,6 +609,15 @@ Partial Class Form145
         Me.TextEdit19.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit19.TabIndex = 54
         '
+        'Label22
+        '
+        Me.Label22.Location = New System.Drawing.Point(580, 199)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(107, 33)
+        Me.Label22.TabIndex = 53
+        Me.Label22.Text = "Dolu Zararı (g)"
+        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit18
         '
         Me.TextEdit18.EditValue = "0"
@@ -781,6 +628,15 @@ Partial Class Form145
         Me.TextEdit18.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit18.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit18.TabIndex = 52
+        '
+        'Label21
+        '
+        Me.Label21.Location = New System.Drawing.Point(465, 199)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(107, 33)
+        Me.Label21.TabIndex = 51
+        Me.Label21.Text = "Fiziksel Hasar (g)"
+        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextEdit17
         '
@@ -793,6 +649,24 @@ Partial Class Form145
         Me.TextEdit17.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit17.TabIndex = 50
         '
+        'Label18
+        '
+        Me.Label18.Location = New System.Drawing.Point(782, 110)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(107, 33)
+        Me.Label18.TabIndex = 49
+        Me.Label18.Text = "Dal Sürtmesi (g)"
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label13
+        '
+        Me.Label13.Location = New System.Drawing.Point(348, 207)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(107, 17)
+        Me.Label13.TabIndex = 48
+        Me.Label13.Text = "Ebat Altı (g) <22 mm"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit10
         '
         Me.TextEdit10.EditValue = "0"
@@ -803,6 +677,51 @@ Partial Class Form145
         Me.TextEdit10.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit10.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit10.TabIndex = 47
+        '
+        'Label14
+        '
+        Me.Label14.Location = New System.Drawing.Point(126, 199)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(107, 33)
+        Me.Label14.TabIndex = 46
+        Me.Label14.Text = "İç Kurdu (g)"
+        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label15
+        '
+        Me.Label15.Location = New System.Drawing.Point(12, 188)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(107, 44)
+        Me.Label15.TabIndex = 45
+        Me.Label15.Text = "Aşırı Olgun / Yumuşak (g)"
+        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label16
+        '
+        Me.Label16.Location = New System.Drawing.Point(896, 110)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(107, 33)
+        Me.Label16.TabIndex = 44
+        Me.Label16.Text = "Çürüme (g)"
+        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label17
+        '
+        Me.Label17.Location = New System.Drawing.Point(668, 110)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(107, 33)
+        Me.Label17.TabIndex = 43
+        Me.Label17.Text = "Küflenme (g)"
+        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label19
+        '
+        Me.Label19.Location = New System.Drawing.Point(553, 115)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(107, 22)
+        Me.Label19.TabIndex = 42
+        Me.Label19.Text = "Yabancı Madde (g)"
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextEdit11
         '
@@ -870,6 +789,33 @@ Partial Class Form145
         Me.TextEdit16.Size = New System.Drawing.Size(107, 23)
         Me.TextEdit16.TabIndex = 36
         '
+        'Label20
+        '
+        Me.Label20.Location = New System.Drawing.Point(297, 110)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(104, 33)
+        Me.Label20.TabIndex = 35
+        Me.Label20.Text = "Kalibre"
+        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label12
+        '
+        Me.Label12.Location = New System.Drawing.Point(12, 110)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(279, 33)
+        Me.Label12.TabIndex = 25
+        Me.Label12.Text = "Ambalaj Tipi"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label11
+        '
+        Me.Label11.Location = New System.Drawing.Point(759, 32)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(243, 33)
+        Me.Label11.TabIndex = 24
+        Me.Label11.Text = "Ürün İzleme No"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TextEdit8
         '
         Me.TextEdit8.Location = New System.Drawing.Point(759, 69)
@@ -877,6 +823,60 @@ Partial Class Form145
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Size = New System.Drawing.Size(243, 23)
         Me.TextEdit8.TabIndex = 23
+        '
+        'Label7
+        '
+        Me.Label7.Location = New System.Drawing.Point(512, 32)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(240, 33)
+        Me.Label7.TabIndex = 20
+        Me.Label7.Text = "Müşteri Adı / PARTİ NO"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label9
+        '
+        Me.Label9.Location = New System.Drawing.Point(215, 32)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(167, 33)
+        Me.Label9.TabIndex = 18
+        Me.Label9.Text = "Ürün Çeşidi"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label6
+        '
+        Me.Label6.Location = New System.Drawing.Point(8, 32)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(204, 33)
+        Me.Label6.TabIndex = 7
+        Me.Label6.Text = "Üretici / Bölge Kodu / Tedarikçi Adı"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(120, 444)
+        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(107, 49)
+        Me.SimpleButton2.TabIndex = 19
+        Me.SimpleButton2.Text = "Sil"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 444)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(107, 49)
+        Me.SimpleButton1.TabIndex = 18
+        Me.SimpleButton1.Text = "Kaydet"
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Location = New System.Drawing.Point(259, 446)
+        Me.SimpleButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(148, 49)
+        Me.SimpleButton3.TabIndex = 20
+        Me.SimpleButton3.Text = "Analiz Kontrol"
         '
         'ComboBoxEdit2
         '

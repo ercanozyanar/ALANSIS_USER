@@ -64,9 +64,10 @@ Partial Class Form10
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(2, 33)
+        Me.DataGridView1.Location = New System.Drawing.Point(2, 41)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(768, 440)
+        Me.DataGridView1.Size = New System.Drawing.Size(896, 542)
         Me.DataGridView1.TabIndex = 0
         '
         'Label1
@@ -74,9 +75,9 @@ Partial Class Form10
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(12, 6)
+        Me.Label1.Location = New System.Drawing.Point(14, 7)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(66, 16)
+        Me.Label1.Size = New System.Drawing.Size(83, 19)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "ODA SEÇ"
         '
@@ -85,18 +86,20 @@ Partial Class Form10
         Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.ComboBox1.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(84, 4)
+        Me.ComboBox1.Location = New System.Drawing.Point(98, 5)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(173, 23)
+        Me.ComboBox1.Size = New System.Drawing.Size(201, 26)
         Me.ComboBox1.TabIndex = 2
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ControlDark
         Me.Button1.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(272, 4)
+        Me.Button1.Location = New System.Drawing.Point(317, 5)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 24)
+        Me.Button1.Size = New System.Drawing.Size(111, 30)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "EXPORT"
         Me.Button1.UseVisualStyleBackColor = False
@@ -130,216 +133,232 @@ Partial Class Form10
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(776, 26)
+        Me.GroupBox1.Location = New System.Drawing.Point(905, 32)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(262, 447)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(306, 550)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         '
         'TextBox13
         '
         Me.TextBox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox13.Location = New System.Drawing.Point(106, 256)
+        Me.TextBox13.Location = New System.Drawing.Point(124, 315)
+        Me.TextBox13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox13.Size = New System.Drawing.Size(79, 25)
         Me.TextBox13.TabIndex = 22
         Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox14
         '
         Me.TextBox14.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox14.Location = New System.Drawing.Point(188, 256)
+        Me.TextBox14.Location = New System.Drawing.Point(219, 315)
+        Me.TextBox14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox14.Size = New System.Drawing.Size(79, 25)
         Me.TextBox14.TabIndex = 21
         Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(4, 262)
+        Me.Label10.Location = New System.Drawing.Point(5, 322)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(96, 15)
+        Me.Label10.Size = New System.Drawing.Size(127, 18)
         Me.Label10.TabIndex = 20
         Me.Label10.Text = "GENEL TOPLAM"
         '
         'TextBox11
         '
         Me.TextBox11.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox11.Location = New System.Drawing.Point(188, 213)
+        Me.TextBox11.Location = New System.Drawing.Point(219, 262)
+        Me.TextBox11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox11.Size = New System.Drawing.Size(79, 25)
         Me.TextBox11.TabIndex = 19
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox12
         '
         Me.TextBox12.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox12.Location = New System.Drawing.Point(106, 213)
+        Me.TextBox12.Location = New System.Drawing.Point(124, 262)
+        Me.TextBox12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox12.Size = New System.Drawing.Size(79, 25)
         Me.TextBox12.TabIndex = 18
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox9
         '
         Me.TextBox9.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox9.Location = New System.Drawing.Point(188, 177)
+        Me.TextBox9.Location = New System.Drawing.Point(219, 218)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox9.Size = New System.Drawing.Size(79, 25)
         Me.TextBox9.TabIndex = 17
         Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox10
         '
         Me.TextBox10.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox10.Location = New System.Drawing.Point(106, 177)
+        Me.TextBox10.Location = New System.Drawing.Point(124, 218)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox10.Size = New System.Drawing.Size(79, 25)
         Me.TextBox10.TabIndex = 16
         Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox7
         '
         Me.TextBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox7.Location = New System.Drawing.Point(188, 140)
+        Me.TextBox7.Location = New System.Drawing.Point(219, 172)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox7.Size = New System.Drawing.Size(79, 25)
         Me.TextBox7.TabIndex = 15
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox8
         '
         Me.TextBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox8.Location = New System.Drawing.Point(106, 140)
+        Me.TextBox8.Location = New System.Drawing.Point(124, 172)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox8.Size = New System.Drawing.Size(79, 25)
         Me.TextBox8.TabIndex = 14
         Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox5
         '
         Me.TextBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox5.Location = New System.Drawing.Point(188, 105)
+        Me.TextBox5.Location = New System.Drawing.Point(219, 129)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox5.Size = New System.Drawing.Size(79, 25)
         Me.TextBox5.TabIndex = 13
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox6
         '
         Me.TextBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox6.Location = New System.Drawing.Point(106, 105)
+        Me.TextBox6.Location = New System.Drawing.Point(124, 129)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox6.Size = New System.Drawing.Size(79, 25)
         Me.TextBox6.TabIndex = 12
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox3
         '
         Me.TextBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox3.Location = New System.Drawing.Point(188, 70)
+        Me.TextBox3.Location = New System.Drawing.Point(219, 86)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox3.Size = New System.Drawing.Size(79, 25)
         Me.TextBox3.TabIndex = 11
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox4
         '
         Me.TextBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox4.Location = New System.Drawing.Point(106, 70)
+        Me.TextBox4.Location = New System.Drawing.Point(124, 86)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox4.Size = New System.Drawing.Size(79, 25)
         Me.TextBox4.TabIndex = 10
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox2
         '
         Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox2.Location = New System.Drawing.Point(188, 35)
+        Me.TextBox2.Location = New System.Drawing.Point(219, 43)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox2.Size = New System.Drawing.Size(79, 25)
         Me.TextBox2.TabIndex = 9
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox1.Location = New System.Drawing.Point(106, 35)
+        Me.TextBox1.Location = New System.Drawing.Point(124, 43)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(68, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(79, 25)
         Me.TextBox1.TabIndex = 8
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(111, 17)
+        Me.Label8.Location = New System.Drawing.Point(129, 21)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(57, 15)
+        Me.Label8.Size = New System.Drawing.Size(78, 18)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "BRUT KG"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(195, 17)
+        Me.Label9.Location = New System.Drawing.Point(227, 21)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(48, 15)
+        Me.Label9.Size = New System.Drawing.Size(66, 18)
         Me.Label9.TabIndex = 6
         Me.Label9.Text = "NET KG"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(6, 219)
+        Me.Label6.Location = New System.Drawing.Point(7, 270)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 15)
+        Me.Label6.Size = New System.Drawing.Size(51, 18)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "STOK"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(6, 183)
+        Me.Label7.Location = New System.Drawing.Point(7, 225)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(32, 15)
+        Me.Label7.Size = New System.Drawing.Size(41, 18)
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "ÇÖP"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 41)
+        Me.Label4.Location = New System.Drawing.Point(7, 50)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(74, 15)
+        Me.Label4.Size = New System.Drawing.Size(95, 18)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "HAMAMDDE"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 146)
+        Me.Label5.Location = New System.Drawing.Point(7, 180)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(57, 15)
+        Me.Label5.Size = New System.Drawing.Size(73, 18)
         Me.Label5.TabIndex = 2
         Me.Label5.Text = "2.KALITE"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 76)
+        Me.Label3.Location = New System.Drawing.Point(7, 94)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 15)
+        Me.Label3.Size = New System.Drawing.Size(100, 18)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "YARI MAMUL"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 111)
+        Me.Label2.Location = New System.Drawing.Point(7, 137)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 15)
+        Me.Label2.Size = New System.Drawing.Size(60, 18)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "SULUK"
         '
@@ -349,15 +368,16 @@ Partial Class Form10
         '
         'Form10
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1046, 477)
+        Me.ClientSize = New System.Drawing.Size(1220, 587)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
         Me.IconOptions.Icon = CType(resources.GetObject("Form10.IconOptions.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form10"

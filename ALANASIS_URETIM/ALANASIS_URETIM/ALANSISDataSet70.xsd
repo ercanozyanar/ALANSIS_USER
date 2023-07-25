@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ALANSISDataSet70" targetNamespace="http://tempuri.org/ALANSISDataSet70.xsd" xmlns:mstns="http://tempuri.org/ALANSISDataSet70.xsd" xmlns="http://tempuri.org/ALANSISDataSet70.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ALANSISConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALANSISConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.ALANSISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EO_ALANSIS_SARFHAR_BAKTableAdapter" GeneratorDataComponentClassName="EO_ALANSIS_SARFHAR_BAKTableAdapter" Name="EO_ALANSIS_SARFHAR_BAK" UserDataComponentName="EO_ALANSIS_SARFHAR_BAKTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALANSISConnectionString (MySettings)" DbObjectName="ALANSIS.dbo.EO_ALANSIS_SARFHAR_BAK" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SARF_ADI, BAKIYE, SARF FROM dbo.EO_ALANSIS_SARFHAR_BAK</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SARF_ADI" DataSetColumn="SARF_ADI" />
+              <Mapping SourceColumn="BAKIYE" DataSetColumn="BAKIYE" />
+              <Mapping SourceColumn="SARF" DataSetColumn="SARF" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ALANSISDataSet70" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ALANSISDataSet70" msprop:Generator_UserDSName="ALANSISDataSet70">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EO_ALANSIS_SARFHAR_BAK" msprop:Generator_TableClassName="EO_ALANSIS_SARFHAR_BAKDataTable" msprop:Generator_TableVarName="tableEO_ALANSIS_SARFHAR_BAK" msprop:Generator_TablePropName="EO_ALANSIS_SARFHAR_BAK" msprop:Generator_RowDeletingName="EO_ALANSIS_SARFHAR_BAKRowDeleting" msprop:Generator_RowChangingName="EO_ALANSIS_SARFHAR_BAKRowChanging" msprop:Generator_RowEvHandlerName="EO_ALANSIS_SARFHAR_BAKRowChangeEventHandler" msprop:Generator_RowDeletedName="EO_ALANSIS_SARFHAR_BAKRowDeleted" msprop:Generator_UserTableName="EO_ALANSIS_SARFHAR_BAK" msprop:Generator_RowChangedName="EO_ALANSIS_SARFHAR_BAKRowChanged" msprop:Generator_RowEvArgName="EO_ALANSIS_SARFHAR_BAKRowChangeEvent" msprop:Generator_RowClassName="EO_ALANSIS_SARFHAR_BAKRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SARF_ADI" msprop:Generator_ColumnVarNameInTable="columnSARF_ADI" msprop:Generator_ColumnPropNameInRow="SARF_ADI" msprop:Generator_ColumnPropNameInTable="SARF_ADIColumn" msprop:Generator_UserColumnName="SARF_ADI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BAKIYE" msprop:Generator_ColumnVarNameInTable="columnBAKIYE" msprop:Generator_ColumnPropNameInRow="BAKIYE" msprop:Generator_ColumnPropNameInTable="BAKIYEColumn" msprop:Generator_UserColumnName="BAKIYE" type="xs:int" minOccurs="0" />
+              <xs:element name="SARF" msprop:Generator_ColumnVarNameInTable="columnSARF" msprop:Generator_ColumnPropNameInRow="SARF" msprop:Generator_ColumnPropNameInTable="SARFColumn" msprop:Generator_UserColumnName="SARF" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
